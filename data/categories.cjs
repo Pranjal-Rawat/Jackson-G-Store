@@ -1,4 +1,4 @@
-// For Next.js (ESM)
+// For Seed Script (CommonJS)
 const categories = [
   { name: 'Milk & Juice', image: '/images/products/dairy.webp', slug: 'milk-juice' },
   { name: 'Personal Care', image: '/images/products/care.webp', slug: 'personal-care' },
@@ -9,4 +9,4 @@ const categories = [
   { name: 'Fruits', image: '/images/products/fruits.webp', slug: 'fruits' },
 ];
 
-export default categories;
+module.exports = { categories };

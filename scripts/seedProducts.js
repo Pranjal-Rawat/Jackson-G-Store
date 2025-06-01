@@ -1,12 +1,13 @@
+require('dotenv').config({ path: '.env.local' });
 const clientPromise = require("../app/lib/mongodb");
 const { products } = require("../data/products"); // Ensure products are imported correctly
-const { categories } = require("../data/categories"); // Import categories
+const { categories } = require("../data/categories.cjs"); // Import categories
 
 async function seedData() {
   try {
     // Establish connection to the database
     const client = await clientPromise;
-    const db = client.db("grocery-store");
+    const db = client.db("jackson-grocery-store");
 
     // Optional: Clear existing data before seeding new data
     const deleteProductsResult = await db.collection("products").deleteMany();

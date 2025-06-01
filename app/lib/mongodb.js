@@ -1,17 +1,21 @@
 // app/lib/mongodb.js
-const { MongoClient } = require("mongodb");
+import { MongoClient } from 'mongodb';
 
-const uri = process.env.MONGODB_URI || "mongodb://localhost:27017/grocery-store";
+const uri = process.env.MONGODB_URI;
 
-const client = new MongoClient(uri, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
-
-let clientPromise;
-
-if (!clientPromise) {
-  clientPromise = client.connect();
+if (!uri) {
+  throw new Error('Please add your Mongo URI to .env.local');
 }
 
-module.exports = clientPromise;
+const options = {};
+
+let client;
+let clientPromise;
+
+if (!global._mongoClientPromise) {
+  client = new MongoClient(uri, options);
+  global._mongoClientPromise = client.connect();
+}
+clientPromise = global._mongoClientPromise;
+
+export default clientPromise;

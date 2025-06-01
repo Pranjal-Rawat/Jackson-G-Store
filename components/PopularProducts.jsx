@@ -15,90 +15,73 @@ export default function PopularProducts() {
   const loadMoreRef = useRef(null);
   const observer = useRef(null);
 
-  // Memoize sorted popular products
   const { popularSorted, remainingPopular } = useMemo(() => {
     const sorted = [...products]
       .filter((p) => p.popular)
       .sort((a, b) => a.rank - b.rank);
-      
     return {
       popularSorted: sorted,
-      remainingPopular: sorted.slice(10)
+      remainingPopular: sorted.slice(10),
     };
   }, []);
 
-  // Calculate visible products
   const visibleProducts = useMemo(() => [
     ...popularSorted.slice(0, 10),
-    ...remainingPopular.slice(0, visibleCount - 10)
+    ...remainingPopular.slice(0, visibleCount - 10),
   ], [popularSorted, remainingPopular, visibleCount]);
 
-  // Handle infinite scroll
   useEffect(() => {
     if (!remainingPopular.length) return;
 
-    const options = {
-      rootMargin: '200px',
-      threshold: 1.0
-    };
+    const observerInstance = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setVisibleCount((prev) => Math.min(prev + 10, 10 + remainingPopular.length));
+        }
+      },
+      { rootMargin: '200px', threshold: 1.0 }
+    );
 
-    const handleIntersect = ([entry]) => {
-      if (entry.isIntersecting) {
-        setVisibleCount(prev => Math.min(prev + 10, 10 + remainingPopular.length));
-      }
-    };
+    if (loadMoreRef.current) observerInstance.observe(loadMoreRef.current);
+    observer.current = observerInstance;
 
-    observer.current = new IntersectionObserver(handleIntersect, options);
-    
-    if (loadMoreRef.current) {
-      observer.current.observe(loadMoreRef.current);
-    }
-
-    return () => {
-      if (observer.current) {
-        observer.current.disconnect();
-      }
-    };
+    return () => observerInstance.disconnect();
   }, [remainingPopular.length]);
 
   const handleAddToCart = (product, quantity, option) => {
-    addToCart({
-      ...product,
-      quantity,
-      option,
-    });
+    addToCart({ ...product, quantity, option });
   };
 
   const ProductCard = ({ product }) => (
     <div
-      className="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow cursor-pointer"
+      className="bg-white rounded-lg shadow hover:shadow-md transition-shadow cursor-pointer group"
       onClick={() => setSelectedProduct(product)}
     >
       <Link
         href={`/products/${product.slug}`}
         onClick={(e) => e.preventDefault()}
-        className="block relative h-48 w-full overflow-hidden"
+        className="block relative h-48 w-full overflow-hidden rounded-t-lg"
       >
         <Image
           src={product.image}
           alt={product.title}
           fill
-          className="object-cover rounded-t-lg"
+          className="object-cover group-hover:scale-105 transition-transform duration-300"
           sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
           priority={product.id <= 4}
         />
       </Link>
 
       <div className="p-4">
-        <h3 className="font-medium mb-1">{product.title}</h3>
+        <h3 className="font-medium text-gray-800 mb-1">{product.title}</h3>
         <div className="flex justify-between items-center">
-          <span className="text-red-600 font-semibold">${product.price.toFixed(2)}</span>
+          <span className="text-red-600 font-semibold">₹{product.price.toFixed(2)}</span>
           <button
             onClick={(e) => {
               e.stopPropagation();
               setSelectedProduct(product);
             }}
-            className="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-lg transition-colors"
+            className="bg-red-500 hover:bg-red-600 text-white text-sm px-4 py-2 rounded-lg transition-colors"
           >
             Add to Cart
           </button>

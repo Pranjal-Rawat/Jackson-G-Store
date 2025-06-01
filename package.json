@@ -12,8 +12,10 @@
   "dependencies": {
     "@headlessui/react": "^2.2.0",
     "@heroicons/react": "^2.2.0",
+    "dotenv": "^16.5.0",
     "framer-motion": "^12.6.2",
-    "mongoose": "^8.13.2",
+    "mongodb": "^6.16.0",
+    "mongoose": "^8.15.1",
     "next": "15.2.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",

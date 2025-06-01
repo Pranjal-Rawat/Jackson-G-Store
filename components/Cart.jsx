@@ -1,72 +1,60 @@
 // components/Cart.jsx
 'use client';
 
-import { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { useState, useCallback } from 'react';
+import { AnimatePresence, motion } from 'framer-motion';
 import Link from 'next/link';
 import Image from 'next/image';
-import { useRouter } from 'next/navigation';
 import { FiShoppingBag, FiArrowLeft } from 'react-icons/fi';
+import { useRouter } from 'next/navigation';
 import { useCartStore } from '@/stores/cartStore';
 
 export default function Cart() {
   const { items, count, total, removeItem, updateQuantity, clearCart } = useCartStore();
   const router = useRouter();
 
-  const [customerDetails, setCustomerDetails] = useState({
-    name: '',
-    address: '',
-    phone: '',
-    paymentMethod: 'cash'
-  });
+  const [customer, setCustomer] = useState({ name: '', address: '', phone: '', paymentMethod: 'cash' });
 
-  const handleDetailChange = (e) => {
-    setCustomerDetails({
-      ...customerDetails,
-      [e.target.name]: e.target.value
-    });
-  };
+  const handleInputChange = useCallback((e) => {
+    const { name, value } = e.target;
+    setCustomer((prev) => ({ ...prev, [name]: value }));
+  }, []);
 
-  // Compute total discount if any item has an originalPrice
-  const discount = items.reduce((acc, item) => {
-    if (item.originalPrice) {
-      return acc + (item.originalPrice - item.price) * item.quantity;
+  const handleCheckout = useCallback(async () => {
+    if (!customer.name || !customer.address || !customer.phone) {
+      alert('Please fill all required fields marked with *');
+      return;
     }
-    return acc;
-  }, 0);
 
-  // Original total = final total + discount (only for items with discount)
-  const originalTotal = total + discount;
+    try {
+      const response = await fetch('/api/verify-order', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          cartItems: items.map(item => ({ productId: item.id, quantity: item.quantity }))
+        })
+      });
 
-  const generateWhatsAppMessage = () => {
-    const customerInfo = `
-Name: ${customerDetails.name}
-Address: ${customerDetails.address}
-Phone: ${customerDetails.phone}
-Payment Method: ${customerDetails.paymentMethod}
-    `.trim();
+      const data = await response.json();
 
-    const orderDetails = items
-      .map(
-        item =>
-          `${item.title} x${item.quantity} - $${(item.price * item.quantity).toFixed(2)}`
-      )
-      .join('%0A');
-
-    return `https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP_NUMBER}?text=Order Details:%0A${customerInfo}%0A%0A${orderDetails}%0A%0AOriginal Price: $${originalTotal.toFixed(
-      2
-    )}%0ATotal Discount: $${discount.toFixed(
-      2
-    )}%0AFinal Total: $${total.toFixed(2)}%0AConfirm Order?`.replace(/\n/g, '');
-  };
+      if (response.ok && data.whatsappUrl) {
+        window.location.href = data.whatsappUrl;
+      } else {
+        alert(data.error || 'Failed to generate WhatsApp link.');
+      }
+    } catch (err) {
+      console.error(err);
+      alert('Something went wrong. Please try again.');
+    }
+  }, [customer, items]);
 
   return (
-    <div className="min-h-screen bg-gray-50">
-      <div className="max-w-7xl mx-auto px-4 py-8 sm:px-6 lg:px-8">
+    <main className="min-h-screen bg-gray-50 text-gray-800">
+      <div className="max-w-7xl mx-auto p-6 lg:p-8">
         <div className="flex items-center mb-8">
           <button
             onClick={() => router.back()}
-            className="flex items-center text-gray-600 hover:text-red-600"
+            className="flex items-center text-gray-600 hover:text-red-600 transition-colors"
             aria-label="Go back"
           >
             <FiArrowLeft className="h-5 w-5 mr-2" />
@@ -79,9 +67,9 @@ Payment Method: ${customerDetails.paymentMethod}
           {items.length === 0 ? (
             <motion.div
               key="empty-cart"
-              initial={{ opacity: 0, scale: 0.8 }}
+              initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
-              exit={{ opacity: 0, scale: 0.8 }}
+              exit={{ opacity: 0, scale: 0.9 }}
               className="text-center py-12"
             >
               <div className="max-w-md mx-auto">
@@ -92,8 +80,7 @@ Payment Method: ${customerDetails.paymentMethod}
                 >
                   😞
                 </motion.div>
-                <h2 className="text-2xl font-bold mb-4">Your cart feels lonely!</h2>
-                <p className="text-gray-600 mb-6">Looks like you haven't added anything to your cart yet</p>
+                <h2 className="text-xl font-semibold mb-4">Your cart is empty</h2>
                 <Link
                   href="/products"
                   className="inline-flex items-center bg-red-500 hover:bg-red-600 text-white px-6 py-3 rounded-lg transition-colors"
@@ -105,182 +92,127 @@ Payment Method: ${customerDetails.paymentMethod}
             </motion.div>
           ) : (
             <motion.div
-              key="cart-items"
+              key="cart-content"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               className="grid grid-cols-1 lg:grid-cols-3 gap-8"
             >
-              <div className="lg:col-span-2">
-                <div className="bg-white rounded-lg shadow divide-y divide-gray-200">
-                  {items.map((item) => (
-                    <motion.div
-                      key={item.id}
-                      initial={{ opacity: 0, x: 50 }}
-                      animate={{ opacity: 1, x: 0 }}
-                      exit={{ opacity: 0, x: 50 }}
-                      className="p-4 flex"
-                    >
-                      <div className="relative h-24 w-24 flex-shrink-0">
-                        <Image
-                          src={item.image}
-                          alt={item.title}
-                          fill
-                          className="object-cover rounded-lg"
-                          loading="lazy"
-                        />
-                      </div>
-                      
-                      <div className="ml-4 flex-1">
-                        <h3 className="text-lg font-medium">{item.title}</h3>
-                        <div className="flex gap-4 mt-1">
-                          <p className="text-red-600 font-semibold">
-                            Price: ${item.price.toFixed(2)}
-                          </p>
-                          <p className="text-red-600 font-semibold">
-                            Total: ${(item.price * item.quantity).toFixed(2)}
-                          </p>
-                        </div>
-                        
-                        <div className="flex items-center mt-2">
-                          <div className="flex items-center border rounded-lg">
-                            <button
-                              onClick={() => updateQuantity(item.id, item.quantity - 1)}
-                              className="px-3 py-1 hover:bg-gray-100"
-                              aria-label="Decrease quantity"
-                            >
-                              -
-                            </button>
-                            <span className="px-4">{item.quantity}</span>
-                            <button
-                              onClick={() => updateQuantity(item.id, item.quantity + 1)}
-                              className="px-3 py-1 hover:bg-gray-100"
-                              aria-label="Increase quantity"
-                            >
-                              +
-                            </button>
-                          </div>
+              {/* Cart Items */}
+              <section className="lg:col-span-2 space-y-4">
+                {items.map((item) => (
+                  <motion.div
+                    key={item.id}
+                    initial={{ opacity: 0, x: 50 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    exit={{ opacity: 0, x: 50 }}
+                    className="flex items-center bg-white rounded-lg shadow p-4"
+                  >
+                    <div className="relative h-20 w-20 rounded-lg overflow-hidden flex-shrink-0">
+                      <Image src={item.image} alt={item.title} fill className="object-cover" />
+                    </div>
+                    <div className="ml-4 flex-1">
+                      <h3 className="text-lg font-semibold">{item.title}</h3>
+                      <p className="text-sm text-gray-600">₹{item.price.toFixed(2)}</p>
+                      <div className="flex items-center mt-2 space-x-3">
+                        <div className="flex items-center border rounded-lg">
                           <button
-                            onClick={() => removeItem(item.id)}
-                            className="ml-4 text-red-600 hover:text-red-700 text-sm"
-                            aria-label="Remove item"
+                            onClick={() => updateQuantity(item.id, item.quantity - 1)}
+                            className="px-2 py-1 hover:bg-gray-100"
+                            aria-label="Decrease quantity"
                           >
-                            Remove
+                            -
+                          </button>
+                          <span className="px-3">{item.quantity}</span>
+                          <button
+                            onClick={() => updateQuantity(item.id, item.quantity + 1)}
+                            className="px-2 py-1 hover:bg-gray-100"
+                            aria-label="Increase quantity"
+                          >
+                            +
                           </button>
                         </div>
+                        <button
+                          onClick={() => removeItem(item.id)}
+                          className="text-red-500 text-sm hover:underline"
+                          aria-label="Remove item"
+                        >
+                          Remove
+                        </button>
                       </div>
-                    </motion.div>
-                  ))}
-                </div>
+                    </div>
+                    <div className="font-semibold text-right text-red-600">
+                      ₹{(item.price * item.quantity).toFixed(2)}
+                    </div>
+                  </motion.div>
+                ))}
 
-                {/* Customer Details Form */}
-                <div className="mt-8 bg-white p-6 rounded-lg shadow">
-                  <h2 className="text-xl font-bold mb-4">Customer Details</h2>
+                {/* Customer Details */}
+                <section className="bg-white p-6 rounded-lg shadow">
+                  <h2 className="text-lg font-semibold mb-4">Customer Details</h2>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <div>
-                      <label className="block text-sm font-medium text-gray-700 mb-1">
-                        Full Name *
-                      </label>
-                      <input
-                        type="text"
-                        name="name"
-                        value={customerDetails.name}
-                        onChange={handleDetailChange}
-                        className="w-full px-3 py-2 border rounded-lg focus:ring-2 focus:ring-red-500 focus:border-red-500"
-                        required
-                      />
-                    </div>
-                    
-                    <div>
-                      <label className="block text-sm font-medium text-gray-700 mb-1">
-                        Phone Number *
-                      </label>
-                      <input
-                        type="tel"
-                        name="phone"
-                        value={customerDetails.phone}
-                        onChange={handleDetailChange}
-                        className="w-full px-3 py-2 border rounded-lg focus:ring-2 focus:ring-red-500 focus:border-red-500"
-                        required
-                      />
-                    </div>
-                    
-                    <div className="md:col-span-2">
-                      <label className="block text-sm font-medium text-gray-700 mb-1">
-                        Delivery Address *
-                      </label>
-                      <textarea
-                        name="address"
-                        value={customerDetails.address}
-                        onChange={handleDetailChange}
-                        className="w-full px-3 py-2 border rounded-lg focus:ring-2 focus:ring-red-500 focus:border-red-500"
-                        rows="3"
-                        required
-                      />
-                    </div>
-                    
-                    <div className="md:col-span-2">
-                      <label className="block text-sm font-medium text-gray-700 mb-1">
-                        Payment Method *
-                      </label>
-                      <select
-                        name="paymentMethod"
-                        value={customerDetails.paymentMethod}
-                        onChange={handleDetailChange}
-                        className="w-full px-3 py-2 border rounded-lg focus:ring-2 focus:ring-red-500 focus:border-red-500"
-                      >
-                        <option value="cash">Cash on Delivery</option>
-                        <option value="online">Online Payment</option>
-                      </select>
-                    </div>
+                    <input
+                      type="text"
+                      name="name"
+                      placeholder="Full Name *"
+                      value={customer.name}
+                      onChange={handleInputChange}
+                      className="border rounded-lg p-2 focus:ring-2 focus:ring-red-500"
+                    />
+                    <input
+                      type="tel"
+                      name="phone"
+                      placeholder="Phone Number *"
+                      value={customer.phone}
+                      onChange={handleInputChange}
+                      className="border rounded-lg p-2 focus:ring-2 focus:ring-red-500"
+                    />
+                    <textarea
+                      name="address"
+                      placeholder="Delivery Address *"
+                      value={customer.address}
+                      onChange={handleInputChange}
+                      className="md:col-span-2 border rounded-lg p-2 focus:ring-2 focus:ring-red-500"
+                      rows="3"
+                    />
+                    <select
+                      name="paymentMethod"
+                      value={customer.paymentMethod}
+                      onChange={handleInputChange}
+                      className="md:col-span-2 border rounded-lg p-2 focus:ring-2 focus:ring-red-500"
+                    >
+                      <option value="cash">Cash on Delivery</option>
+                      <option value="online">Online Payment</option>
+                    </select>
                   </div>
-                </div>
-              </div>
+                </section>
+              </section>
 
-              <div className="bg-white rounded-lg shadow p-6 h-fit sticky top-8">
-                <h2 className="text-xl font-bold mb-4">Order Summary</h2>
-                <div className="flex justify-between items-center mb-4">
+              {/* Order Summary */}
+              <aside className="bg-white p-6 rounded-lg shadow sticky top-8">
+                <h2 className="text-lg font-semibold mb-4">Order Summary</h2>
+                <div className="flex justify-between mb-4">
                   <span>Subtotal ({count} items)</span>
-                  <span className="font-semibold">${total.toFixed(2)}</span>
+                  <span className="font-semibold">₹{total.toFixed(2)}</span>
                 </div>
-                
-                {discount > 0 && (
-                  <div className="mb-4">
-                    <p className="text-sm text-gray-500">
-                      Original Price: <span className="line-through">${originalTotal.toFixed(2)}</span>
-                    </p>
-                    <p className="text-sm text-green-600">
-                      You saved: ${discount.toFixed(2)}
-                    </p>
-                  </div>
-                )}
 
-                <a
-                  href={generateWhatsAppMessage()}
-                  onClick={(e) => {
-                    if (!customerDetails.name || !customerDetails.address || !customerDetails.phone) {
-                      e.preventDefault();
-                      alert('Please fill all required fields marked with *');
-                    }
-                  }}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="block w-full bg-red-500 hover:bg-red-600 text-white py-3 text-center rounded-lg transition-colors"
+                <button
+                  onClick={handleCheckout}
+                  className="w-full bg-red-500 hover:bg-red-600 text-white py-3 rounded-lg text-center transition-colors"
                 >
                   Proceed to Checkout
-                </a>
-                
+                </button>
+
                 <button
                   onClick={clearCart}
-                  className="w-full mt-4 text-red-500 hover:text-red-600 border border-red-500 py-3 rounded-lg transition-colors"
-                  aria-label="Clear cart"
+                  className="w-full mt-4 border border-red-500 text-red-500 hover:bg-red-50 py-3 rounded-lg transition-colors"
                 >
                   Clear Cart
                 </button>
-              </div>
+              </aside>
             </motion.div>
           )}
         </AnimatePresence>
       </div>
-    </div>
+    </main>
   );
 }
