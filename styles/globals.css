@@ -1,32 +1,32 @@
-styles/globals.css
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer components {
   .btn-primary {
-    @apply bg-primary-500 hover:bg-primary-600 text-white font-bold py-2 px-4 rounded-lg transition-colors;
+    @apply bg-primary-500 hover:bg-primary-600 text-white font-bold py-2 px-4 rounded-lg transition-colors duration-300 shadow-theme;
   }
-  
+
   .btn-secondary {
-    @apply bg-secondary-500 hover:bg-secondary-600 text-primary-500 font-bold py-2 px-4 rounded-lg transition-colors;
+    @apply bg-secondary-500 hover:bg-secondary-600 text-primary-500 font-bold py-2 px-4 rounded-lg transition-colors duration-300;
+  }
+
+  .badge {
+    @apply bg-secondary-500 text-primary-500 px-2 py-1 text-xs font-semibold rounded-full;
+  }
+
+  .card {
+    @apply bg-white p-4 rounded-xl shadow-theme transition-transform hover:scale-[1.02];
   }
 }
 
 @layer utilities {
   .text-gradient {
-    @apply bg-clip-text text-transparent bg-theme-gradient;
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(to right, #ED1C24, #FFCC00);
   }
-  
+
   .theme-shadow {
-    @apply shadow-[0_4px_20px_-4px_rgba(255,68,68,0.3)];
+    @apply shadow-theme;
   }
 }
-
-input:invalid, textarea:invalid {
-    @apply border-red-200;
-  }
-  
-  input:focus:invalid, textarea:focus:invalid {
-    @apply ring-red-100 border-red-300;
-  }

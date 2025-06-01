@@ -1,25 +1,23 @@
-import React from 'react'
+// components/AddToCartButton.jsx
+import React from 'react';
+import { useCartStore } from '@/stores/cartStore';
 
-function AddToCartButton() {
-    return (
-        <div>
-            <div className="p-4">
-                <h3 className="font-medium mb-1">{product.title}</h3>
-                <div className="flex justify-between items-center">
-                    <span className="text-red-600 font-semibold">
-                        ${product.price.toFixed(2)}
-                    </span>
-                    <button
-                        onClick={() => useCartStore.getState().addItem(product)}
-                        className="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-lg transition-colors"
-                        aria-label={`Add ${product.title} to cart`}
-                    >
-                        Add to Cart
-                    </button>
-                </div>
-            </div>
-        </div>
-    )
+function AddToCartButton({ product, quantity = 1, option = null, className = "" }) {
+  const addToCart = useCartStore((state) => state.addItem);
+
+  const handleAddToCart = (e) => {
+    e.stopPropagation(); // Prevent event bubbling
+    addToCart({ ...product, quantity, option });
+  };
+
+  return (
+    <button
+      onClick={handleAddToCart}
+      className={`bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-lg ${className}`}
+    >
+      Add to Cart
+    </button>
+  );
 }
 
-export default AddToCartButton
+export default AddToCartButton;

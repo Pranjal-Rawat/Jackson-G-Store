@@ -156,7 +156,7 @@ export default function CategoryCarousel() {
                     </Link>
                     <Link
                         href="/products"
-                        className="inline-block mt-4 bg-primary-500 text-white px-6 py-2 rounded-lg hover:bg-primary-600 transition-colors"
+                        className="flex justify-center inline-block mt-4 bg-primary-500 text-white px-4 py-2 rounded-lg hover:bg-primary-600 transition-colors"
                     >
                         More...
                     </Link>

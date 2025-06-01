@@ -1,24 +1,33 @@
 // app/products/page.jsx
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useSearchParams } from 'next/navigation';
-import { products } from '@/data/products';
-import { useCartStore } from '../../stores/cartStore';
+import products from '@/data/products';
+import { useCartStore } from '@/stores/cartStore'; // Fixed import
+import ProductModal from '@/components/ProductModal';
+import Header from '@/components/Header';
 
 export default function ProductsPage() {
   const searchParams = useSearchParams();
   const [localQuery, setLocalQuery] = useState('');
+  const [visibleCount, setVisibleCount] = useState(10);
+  const loadMoreRef = useRef(null);
+  const [selectedProduct, setSelectedProduct] = useState(null);
 
   useEffect(() => {
     setLocalQuery(searchParams.get('q') || '');
+    setVisibleCount(10);
   }, [searchParams]);
 
+  // Filter products based on the search query (case-insensitive)
   const filteredProducts = products.filter((product) =>
     product.title.toLowerCase().includes(localQuery.toLowerCase())
   );
+
+  const visibleProducts = filteredProducts.slice(0, visibleCount);
 
   const handleSearch = (e) => {
     e.preventDefault();
@@ -27,13 +36,43 @@ export default function ProductsPage() {
     window.history.replaceState(null, '', newUrl);
   };
 
-  // Dedicated handler to add a product to the cart
-  const handleAddToCart = (product) => {
-    useCartStore.getState().addItem(product);
+  // Intersection Observer to load more products
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting) {
+          setVisibleCount((prev) => prev + 10);
+        }
+      },
+      { rootMargin: '200px' }
+    );
+    if (loadMoreRef.current) observer.observe(loadMoreRef.current);
+    return () => {
+      if (loadMoreRef.current) observer.unobserve(loadMoreRef.current);
+    };
+  }, []);
+
+  // Dedicated add-to-cart function passed to modal
+  const handleAddToCart = (product, quantity, selectedOption = null) => {
+    useCartStore.getState().addItem({
+      ...product,
+      quantity,
+      price: product.price,
+      option: selectedOption // Optionally include the selected option
+    });
   };
 
   return (
     <main className="min-h-screen bg-gray-50">
+      <Header/>
+      {/* Render the Product Modal */}
+      <ProductModal
+        isOpen={Boolean(selectedProduct)}
+        product={selectedProduct}
+        onClose={() => setSelectedProduct(null)}
+        onAddToCart={handleAddToCart}
+      />
+
       <div className="max-w-7xl mx-auto px-4 py-8 sm:px-6 lg:px-8">
         {/* Search Header */}
         <div className="mb-8">
@@ -72,10 +111,14 @@ export default function ProductsPage() {
         </div>
 
         {/* Product Grid */}
-        {filteredProducts.length > 0 ? (
+        {visibleProducts.length > 0 ? (
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-            {filteredProducts.map((product) => (
-              <div key={product.id} className="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
+            {visibleProducts.map((product) => (
+              <div
+                key={product.id}
+                className="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"
+              >
+                {/* Product image and title navigate to product detail */}
                 <Link
                   href={`/products/${product.slug}`}
                   className="block relative h-48 w-full overflow-hidden"
@@ -90,15 +133,18 @@ export default function ProductsPage() {
                     loading="lazy"
                   />
                 </Link>
-
                 <div className="p-4">
                   <h3 className="font-medium mb-1">{product.title}</h3>
                   <div className="flex justify-between items-center">
                     <span className="text-red-600 font-semibold">
                       ${product.price.toFixed(2)}
                     </span>
+                    {/* Clicking this button opens the modal */}
                     <button
-                      onClick={() => handleAddToCart(product)}
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        setSelectedProduct(product);
+                      }}
                       className="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-lg transition-colors"
                       aria-label={`Add ${product.title} to cart`}
                     >
@@ -122,6 +168,13 @@ export default function ProductsPage() {
             </Link>
           </div>
         )}
+
+        {/* Loader for infinite scrolling */}
+        <div ref={loadMoreRef} className="py-8 text-center">
+          {visibleProducts.length < filteredProducts.length && (
+            <p className="text-gray-600">Loading more products...</p>
+          )}
+        </div>
       </div>
     </main>
   );

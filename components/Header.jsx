@@ -10,21 +10,14 @@ import Image from 'next/image';
 import { useCartStore } from '@/stores/cartStore';
 import { useDebounce } from 'use-debounce';
 import { useRouter } from 'next/navigation';
+import categories from '@/data/categories'; // Direct import
 
 export default function Header() {
     const router = useRouter();
     const [searchQuery, setSearchQuery] = useState('');
     const [debouncedQuery] = useDebounce(searchQuery, 300);
     const cartCount = useCartStore((state) => state.count);
-    const [categories, setCategories] = useState([]);
     const [searchSuggestions, setSearchSuggestions] = useState([]);
-
-    useEffect(() => {
-        fetch('/api/categories')
-            .then((res) => res.json())
-            .then(setCategories)
-            .catch(() => setCategories([]));
-    }, []);
 
     useEffect(() => {
         if (debouncedQuery.length > 2) {
@@ -93,9 +86,15 @@ export default function Header() {
                                             {({ active }) => (
                                                 <Link
                                                     href={`/category/${category.slug}`}
-                                                    className={`${active ? 'bg-yellow-100' : ''
-                                                        } block px-4 py-2 text-gray-700 hover:bg-yellow-100 transition-colors`}
+                                                    className={`${active ? 'bg-yellow-100' : ''} flex items-center px-4 py-2 text-gray-700 hover:bg-yellow-100 transition-colors`}
                                                 >
+                                                    <Image
+                                                        src={category.image}
+                                                        alt={category.name}
+                                                        width={32}
+                                                        height={32}
+                                                        className="h-8 w-8 object-cover mr-2 rounded"
+                                                    />
                                                     {category.name}
                                                 </Link>
                                             )}
