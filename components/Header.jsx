@@ -21,7 +21,7 @@ export default function Header() {
 
   useEffect(() => {
     if (debouncedQuery.length > 2) {
-      fetch(`/api/search/suggestions?q=${encodeURIComponent(debouncedQuery)}`)
+      fetch(`/api/search?q=${encodeURIComponent(debouncedQuery)}`)
         .then((res) => res.json())
         .then(setSearchSuggestions)
         .catch(() => setSearchSuggestions([]));
@@ -40,15 +40,8 @@ export default function Header() {
       initial={{ opacity: 0, y: -20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
-      className="sticky top-0 z-50 bg-white shadow-sm"
+      className="sticky top-0 z-50 bg-white shadow-md"
     >
-      <a
-        href="#main-content"
-        className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:bg-white focus:p-4 focus:rounded-lg focus:shadow-lg"
-      >
-        Skip to main content
-      </a>
-
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Left: Logo & Categories */}
@@ -65,10 +58,7 @@ export default function Header() {
             </Link>
 
             <Menu as="div" className="relative ml-6">
-              <Menu.Button
-                className="flex items-center space-x-2 text-gray-700 hover:text-red-600 transition-colors"
-                aria-label="Categories menu"
-              >
+              <Menu.Button className="flex items-center space-x-2 text-gray-700 hover:text-red-600 transition-colors">
                 <FiMenu className="h-6 w-6" />
                 <span className="hidden md:inline font-medium">Categories</span>
               </Menu.Button>
@@ -86,9 +76,9 @@ export default function Header() {
                       {({ active }) => (
                         <Link
                           href={`/category/${category.slug}`}
-                          className={`flex items-center px-4 py-2 text-gray-700 hover:bg-red-100 transition-colors rounded ${
-                            active ? 'bg-red-100 text-red-600' : ''
-                          }`}
+                          className={`flex items-center px-4 py-2 text-sm ${
+                            active ? 'bg-red-100 text-red-600' : 'text-gray-700'
+                          } hover:bg-red-100 transition-colors rounded`}
                         >
                           <Image
                             src={category.image}
@@ -119,29 +109,30 @@ export default function Header() {
                   placeholder="Search products..."
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
-                  className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-red-500"
+                  className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-red-500 shadow-sm"
                   aria-label="Search products"
                 />
 
                 <AnimatePresence>
                   {searchSuggestions.length > 0 && (
-                    <motion.div
+                    <motion.ul
                       initial={{ opacity: 0, y: -10 }}
                       animate={{ opacity: 1, y: 0 }}
                       exit={{ opacity: 0, y: -10 }}
-                      className="absolute top-full left-0 right-0 mt-1 bg-white rounded-lg shadow-lg z-50"
+                      className="absolute top-full left-0 right-0 mt-1 bg-white rounded-lg shadow-lg z-50 border border-gray-200"
                     >
                       {searchSuggestions.map((suggestion) => (
-                        <Link
-                          key={suggestion.slug}
-                          href={`/products/${suggestion.slug}`}
-                          className="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100 transition-colors"
-                          onClick={() => setSearchQuery('')}
-                        >
-                          {suggestion.title}
-                        </Link>
+                        <li key={suggestion._id} className="border-b last:border-none">
+                          <Link
+                            href={`/products/${suggestion.slug || suggestion._id}`}
+                            className="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100 hover:text-red-600 transition-colors"
+                            onClick={() => setSearchQuery('')}
+                          >
+                            {suggestion['Product Name'] || suggestion.title || 'No Title'}
+                          </Link>
+                        </li>
                       ))}
-                    </motion.div>
+                    </motion.ul>
                   )}
                 </AnimatePresence>
               </div>

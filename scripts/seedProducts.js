@@ -1,33 +1,31 @@
-require('dotenv').config({ path: '.env.local' });
-const clientPromise = require("../app/lib/mongodb");
-const { products } = require("../data/products"); // Ensure products are imported correctly
-const { categories } = require("../data/categories.cjs"); // Import categories
+// scripts/seedProducts.js
+
+import 'dotenv/config'; // replaces require('dotenv').config()
+import clientPromise from '../app/lib/mongodb.js'; // use .js extension for ESM
+import { products } from '../data/products.js'; // use .js extension for ESM
+import { categories } from '../data/categories.cjs'; // CJS file is fine
 
 async function seedData() {
   try {
-    // Establish connection to the database
     const client = await clientPromise;
     const db = client.db("jackson-grocery-store");
 
-    // Optional: Clear existing data before seeding new data
     const deleteProductsResult = await db.collection("products").deleteMany();
     console.log(`Deleted ${deleteProductsResult.deletedCount} existing products.`);
 
     const deleteCategoriesResult = await db.collection("categories").deleteMany();
     console.log(`Deleted ${deleteCategoriesResult.deletedCount} existing categories.`);
 
-    // Insert new products
     const insertProductsResult = await db.collection("products").insertMany(products);
     console.log(`🌱 Successfully seeded ${insertProductsResult.insertedCount} products!`);
 
-    // Insert new categories
     const insertCategoriesResult = await db.collection("categories").insertMany(categories);
     console.log(`🌱 Successfully seeded ${insertCategoriesResult.insertedCount} categories!`);
 
-    process.exit(0); // Exit with success code
+    process.exit(0);
   } catch (err) {
     console.error("❌ Failed to seed data:", err);
-    process.exit(1); // Exit with error code
+    process.exit(1);
   }
 }
 

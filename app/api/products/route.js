@@ -1,6 +1,7 @@
 // app/api/products/route.js
 import mongoose from "mongoose";
-import Product from "@/lib/models/Product";
+import Product from '../../../lib/models/Product'
+
 
 export async function GET() {
   try {
