@@ -1,16 +1,12 @@
-// /app/api/products/route.js
 import mongoose from 'mongoose';
-import Product from '../../lib/models/Product';
+import Product from '../../../lib/models/Product';
 
-// Route handler for GET /api/products?skip=50&limit=50
 export async function GET(req) {
   try {
-    // Parse search params for pagination
     const { searchParams } = new URL(req.url);
     const skip = Number(searchParams.get('skip') ?? 0);
     const limit = Number(searchParams.get('limit') ?? 50);
 
-    // Use existing connection if present
     if (mongoose.connection.readyState === 0) {
       await mongoose.connect(process.env.MONGODB_URI, {
         dbName: 'jackson-grocery-store',
@@ -19,13 +15,12 @@ export async function GET(req) {
       });
     }
 
-    // Fetch products with pagination
-    const products = await Product.find({})
+    // Only fetch popular products
+    const products = await Product.find({ isPopular: true })
       .skip(skip)
       .limit(limit)
       .lean();
 
-    // Convert _id to string for frontend compatibility
     const safeProducts = products.map((p) => ({
       ...p,
       _id: p._id?.toString(),
@@ -36,9 +31,9 @@ export async function GET(req) {
       headers: { 'Content-Type': 'application/json' },
     });
   } catch (error) {
-    console.error('[API][GET /api/products] Error:', error);
+    console.error('[API][GET /api/products/popular] Error:', error);
     return new Response(
-      JSON.stringify({ error: 'Failed to fetch products' }),
+      JSON.stringify({ error: 'Failed to fetch popular products' }),
       {
         status: 500,
         headers: { 'Content-Type': 'application/json' },

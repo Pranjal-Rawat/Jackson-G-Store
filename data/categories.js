@@ -1,4 +1,5 @@
-// For Next.js (ESM)
+// data/categories.js
+
 const categories = [
   { name: 'Milk & Juice', image: '/images/products/dairy.webp', slug: 'milk-juice' },
   { name: 'Personal Care', image: '/images/products/care.webp', slug: 'personal-care' },

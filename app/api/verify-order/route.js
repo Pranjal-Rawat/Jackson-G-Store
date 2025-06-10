@@ -1,18 +1,19 @@
-import clientPromise from '../../lib/mongodb';
+// app/api/checkout/route.js (or your current filename)
+import clientPromise from '@/lib/mongodb';
 import { ObjectId } from 'mongodb';
 
 export async function POST(request) {
   try {
     const body = await request.json();
     const client = await clientPromise;
-    const db = client.db("jackson-grocery-store");
-    const productsCollection = db.collection("products");
+    const db = client.db('jackson-grocery-store');
+    const productsCollection = db.collection('products');
 
     const verifiedItems = await Promise.all(
       body.cartItems.map(async (item) => {
         const product = await productsCollection.findOne({ id: item.productId });
-
         if (!product) throw new Error(`Product ${item.productId} not found`);
+
         return {
           title: product.title,
           price: product.price,
@@ -30,9 +31,14 @@ export async function POST(request) {
 
     const whatsappUrl = `https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP_NUMBER}?text=Order Details:%0A${orderMessage}%0A%0ATotal: ₹${orderTotal}%0AConfirm Order?`;
 
-    return new Response(JSON.stringify({ whatsappUrl }), { status: 200 });
+    return new Response(JSON.stringify({ whatsappUrl }), {
+      status: 200,
+      headers: { 'Content-Type': 'application/json' },
+    });
   } catch (error) {
-    console.error("Order verification failed:", error);
-    return new Response(JSON.stringify({ error: error.message }), { status: 400 });
+    console.error('Order verification failed:', error);
+    return new Response(JSON.stringify({ error: error.message }), {
+      status: 400,
+    });
   }
 }

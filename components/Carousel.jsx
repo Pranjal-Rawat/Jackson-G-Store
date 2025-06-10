@@ -1,30 +1,30 @@
-// components/PerformanceCarousel.jsx
 'use client';
 
-import { motion, AnimatePresence } from 'framer-motion';
 import { useState } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
 
+// Carousel items
 const carouselItems = [
   {
     id: 1,
     title: 'Fresh Vegetables',
-    image: '', // Replace with valid image if possible
-    link: '/category/vegetables'
+    image: '', // Optional: Add a valid image
+    link: '/category/vegetables',
   },
   {
     id: 2,
     title: 'Daily Essentials',
     image: '/carousel/essentials.jpg',
-    link: '/category/essentials'
+    link: '/category/essentials',
   },
   {
     id: 3,
     title: 'Organic Fruits',
     image: '/carousel/fruits.jpg',
-    link: '/category/fruits'
-  }
+    link: '/category/fruits',
+  },
 ];
 
 export default function PerformanceCarousel() {
@@ -53,7 +53,7 @@ export default function PerformanceCarousel() {
             >
               <Link
                 href={carouselItems[currentIndex].link}
-                className="block h-full"
+                className="block h-full w-full"
                 aria-label={`View ${carouselItems[currentIndex].title}`}
               >
                 {carouselItems[currentIndex].image ? (
@@ -70,6 +70,7 @@ export default function PerformanceCarousel() {
                     <span className="text-white text-xl">No Image</span>
                   </div>
                 )}
+
                 <div className="absolute inset-0 bg-black/30 flex items-center justify-center">
                   <h2 className="text-4xl md:text-5xl font-bold text-white text-center">
                     {carouselItems[currentIndex].title}
@@ -80,11 +81,11 @@ export default function PerformanceCarousel() {
           </AnimatePresence>
         </div>
 
-        {/* Navigation Controls */}
+        {/* Controls */}
         <div className="flex items-center justify-center mt-6 space-x-4">
           <button
             onClick={prevSlide}
-            className="p-2 rounded-full bg-primary-500 hover:bg-primary-600 text-white"
+            className="p-2 rounded-full bg-red-500 hover:bg-red-600 text-white"
             aria-label="Previous slide"
           >
             <ChevronLeftIcon className="h-6 w-6" />
@@ -95,7 +96,9 @@ export default function PerformanceCarousel() {
               <button
                 key={index}
                 onClick={() => setCurrentIndex(index)}
-                className={`h-3 w-3 rounded-full ${index === currentIndex ? 'bg-primary-500' : 'bg-gray-300'}`}
+                className={`h-3 w-3 rounded-full ${
+                  index === currentIndex ? 'bg-red-500' : 'bg-gray-300'
+                }`}
                 aria-label={`Go to slide ${index + 1}`}
               />
             ))}
@@ -103,7 +106,7 @@ export default function PerformanceCarousel() {
 
           <button
             onClick={nextSlide}
-            className="p-2 rounded-full bg-primary-500 hover:bg-primary-600 text-white"
+            className="p-2 rounded-full bg-red-500 hover:bg-red-600 text-white"
             aria-label="Next slide"
           >
             <ChevronRightIcon className="h-6 w-6" />

@@ -1,4 +1,3 @@
-// components/Cart.jsx
 'use client';
 
 import { useState, useCallback } from 'react';
@@ -13,30 +12,59 @@ export default function Cart() {
   const { items, count, total, removeItem, updateQuantity, clearCart } = useCartStore();
   const router = useRouter();
 
-  const [customer, setCustomer] = useState({ name: '', address: '', phone: '', paymentMethod: 'cash' });
+  const [customer, setCustomer] = useState({
+    name: '',
+    address: '',
+    phone: '',
+    paymentMethod: 'cash',
+  });
+
+  const [showConfirm, setShowConfirm] = useState(false);
+  const [isRedirecting, setIsRedirecting] = useState(false);
 
   const handleInputChange = useCallback((e) => {
     const { name, value } = e.target;
     setCustomer((prev) => ({ ...prev, [name]: value }));
   }, []);
 
-  const handleCheckout = useCallback(async () => {
-    if (!customer.name || !customer.address || !customer.phone) {
-      alert('Please fill all required fields marked with *');
-      return;
+  const validateForm = () => {
+    if (customer.name.trim().length < 3) {
+      alert('Full name must be at least 3 characters.');
+      return false;
     }
+    if (!/^\d{10}$/.test(customer.phone)) {
+      alert('Phone number must be 10 digits.');
+      return false;
+    }
+    if (customer.address.trim().length < 10) {
+      alert('Address must be at least 10 characters.');
+      return false;
+    }
+    return true;
+  };
 
+  const handleCheckout = useCallback(async () => {
+    if (!validateForm()) return;
+    setShowConfirm(true);
+  }, [customer]);
+
+  const confirmRedirect = async () => {
+    setShowConfirm(false);
+    setIsRedirecting(true);
     try {
       const response = await fetch('/api/verify-order', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          cartItems: items.map(item => ({ productId: item.id, quantity: item.quantity }))
-        })
+          cartItems: items.map((item) => ({
+            productId: item.id,
+            quantity: item.quantity,
+          })),
+          customer,
+        }),
       });
 
       const data = await response.json();
-
       if (response.ok && data.whatsappUrl) {
         window.location.href = data.whatsappUrl;
       } else {
@@ -45,8 +73,10 @@ export default function Cart() {
     } catch (err) {
       console.error(err);
       alert('Something went wrong. Please try again.');
+    } finally {
+      setIsRedirecting(false);
     }
-  }, [customer, items]);
+  };
 
   return (
     <main className="min-h-screen bg-gray-50 text-gray-800">
@@ -108,7 +138,12 @@ export default function Cart() {
                     className="flex items-center bg-white rounded-lg shadow p-4"
                   >
                     <div className="relative h-20 w-20 rounded-lg overflow-hidden flex-shrink-0">
-                      <Image src={item.image} alt={item.title} fill className="object-cover" />
+                      <Image
+                        src={item.image}
+                        alt={item.title || 'Cart item'}
+                        fill
+                        className="object-cover"
+                      />
                     </div>
                     <div className="ml-4 flex-1">
                       <h3 className="text-lg font-semibold">{item.title}</h3>
@@ -120,7 +155,7 @@ export default function Cart() {
                             className="px-2 py-1 hover:bg-gray-100"
                             aria-label="Decrease quantity"
                           >
-                            -
+                            −
                           </button>
                           <span className="px-3">{item.quantity}</span>
                           <button
@@ -198,8 +233,9 @@ export default function Cart() {
                 <button
                   onClick={handleCheckout}
                   className="w-full bg-red-500 hover:bg-red-600 text-white py-3 rounded-lg text-center transition-colors"
+                  disabled={isRedirecting}
                 >
-                  Proceed to Checkout
+                  {isRedirecting ? 'Redirecting...' : 'Proceed to Checkout'}
                 </button>
 
                 <button
@@ -209,6 +245,44 @@ export default function Cart() {
                   Clear Cart
                 </button>
               </aside>
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        {/* Confirmation Modal */}
+        <AnimatePresence>
+          {showConfirm && (
+            <motion.div
+              className="fixed inset-0 bg-black/50 flex items-center justify-center z-50"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+            >
+              <motion.div
+                className="bg-white rounded-xl shadow-lg p-6 w-full max-w-sm"
+                initial={{ scale: 0.9 }}
+                animate={{ scale: 1 }}
+                exit={{ scale: 0.9 }}
+              >
+                <h2 className="text-lg font-bold mb-4 text-gray-800">Confirm Order</h2>
+                <p className="text-sm text-gray-600 mb-6">
+                  Proceed to place your order on WhatsApp with the above details?
+                </p>
+                <div className="flex gap-4">
+                  <button
+                    onClick={confirmRedirect}
+                    className="flex-1 bg-red-500 text-white py-2 rounded-lg hover:bg-red-600"
+                  >
+                    Yes, Confirm
+                  </button>
+                  <button
+                    onClick={() => setShowConfirm(false)}
+                    className="flex-1 border border-red-500 text-red-500 py-2 rounded-lg hover:bg-red-50"
+                  >
+                    Cancel
+                  </button>
+                </div>
+              </motion.div>
             </motion.div>
           )}
         </AnimatePresence>

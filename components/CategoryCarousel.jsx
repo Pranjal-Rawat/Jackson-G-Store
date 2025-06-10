@@ -1,4 +1,3 @@
-// components/CategoryCarousel.js
 'use client';
 
 import { useState } from 'react';
@@ -13,7 +12,7 @@ const categories = [
   { name: 'Bakery', image: '/categories/bakery.webp', slug: 'bakery' },
   { name: 'Grains', image: '/categories/grains.webp', slug: 'grains' },
   { name: 'Chicken & Egg', image: '/categories/chicken.webp', slug: 'chicken' },
-  { name: 'Fruits', image: '/categories/fruits.webp', slug: 'fruits' }
+  { name: 'Fruits', image: '/categories/fruits.webp', slug: 'fruits' },
 ];
 
 export default function CategoryCarousel() {
@@ -22,6 +21,7 @@ export default function CategoryCarousel() {
   return (
     <section className="px-4 py-12 sm:px-6 lg:px-8 bg-gray-50">
       <div className="max-w-7xl mx-auto">
+        {/* Heading */}
         <motion.h2
           className="text-3xl font-bold text-gray-800 mb-8 text-center"
           initial={{ opacity: 0, y: -10 }}
@@ -97,13 +97,14 @@ export default function CategoryCarousel() {
             {categories.map((_, index) => (
               <button
                 key={index}
-                className={`w-2 h-2 rounded-full ${index === activeIndex ? 'bg-red-600' : 'bg-gray-300'}`}
+                className={`w-2 h-2 rounded-full ${
+                  index === activeIndex ? 'bg-red-600' : 'bg-gray-300'
+                }`}
                 aria-label={`Go to slide ${index + 1}`}
                 onClick={() => {
                   document.querySelectorAll('.snap-start')[index].scrollIntoView({
                     behavior: 'smooth',
-                    block: 'nearest',
-                    inline: 'center'
+                    inline: 'center',
                   });
                   setActiveIndex(index);
                 }}

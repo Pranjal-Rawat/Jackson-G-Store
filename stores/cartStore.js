@@ -1,4 +1,4 @@
-// stores/cartStore.js - FIXED VERSION
+// stores/cartStore.js
 import { create } from 'zustand';
 
 export const useCartStore = create((set) => ({
@@ -6,58 +6,83 @@ export const useCartStore = create((set) => ({
   count: 0,
   total: 0,
 
-  addItem: (product) => set((state) => {
-    // Extract quantity from product or default to 1
-    const quantity = product.quantity || 1;
-    
-    const existing = state.items.find(item => item.id === product.id);
-    if (existing) {
+  addItem: (product) =>
+    set((state) => {
+      const quantity = product.quantity || 1;
+      const existingItem = state.items.find((item) => item.id === product.id);
+
+      if (existingItem) {
+        const updatedItems = state.items.map((item) =>
+          item.id === product.id
+            ? { ...item, quantity: item.quantity + quantity }
+            : item
+        );
+
+        const updatedTotal = state.total + product.price * quantity;
+
+        return {
+          items: updatedItems,
+          count: state.count + quantity,
+          total: +updatedTotal.toFixed(2),
+        };
+      }
+
       return {
-        // Add the new quantity to the existing quantity
-        items: state.items.map(item =>
-          item.id === product.id ? { ...item, quantity: item.quantity + quantity } : item
-        ),
-        // Update count with the additional quantity
+        items: [...state.items, { ...product, quantity }],
         count: state.count + quantity,
-        // Update total price accordingly
-        total: +(state.total + (product.price * quantity)).toFixed(2)
+        total: +(state.total + product.price * quantity).toFixed(2),
       };
-    }
-    return {
-      // For new items, use the quantity from the product object
-      items: [...state.items, { ...product, quantity }],
-      count: state.count + quantity,
-      total: +(state.total + (product.price * quantity)).toFixed(2)
-    };
-  }),
+    }),
 
-  removeItem: (id) => set((state) => {
-    const item = state.items.find(i => i.id === id);
-    return {
-      items: state.items.filter(i => i.id !== id),
-      count: state.count - item.quantity,
-      total: +(state.total - (item.price * item.quantity)).toFixed(2)
-    };
-  }),
+  removeItem: (id) =>
+    set((state) => {
+      const item = state.items.find((i) => i.id === id);
+      if (!item) return state;
 
-  updateQuantity: (id, newQuantity) => set((state) => {
-    if (newQuantity <= 0) {
-      const item = state.items.find(i => i.id === id);
+      const updatedItems = state.items.filter((i) => i.id !== id);
+      const updatedCount = state.count - item.quantity;
+      const updatedTotal = state.total - item.price * item.quantity;
+
       return {
-        items: state.items.filter(i => i.id !== id),
-        count: state.count - item.quantity,
-        total: +(state.total - (item.price * item.quantity)).toFixed(2)
+        items: updatedItems,
+        count: updatedCount,
+        total: +updatedTotal.toFixed(2),
       };
-    }
-    const items = state.items.map(item =>
-      item.id === id ? { ...item, quantity: newQuantity } : item
-    );
-    return {
-      items,
-      count: items.reduce((sum, item) => sum + item.quantity, 0),
-      total: +items.reduce((sum, item) => sum + (item.price * item.quantity), 0).toFixed(2)
-    };
-  }),
+    }),
 
-  clearCart: () => set({ items: [], count: 0, total: 0 }),
+  updateQuantity: (id, newQuantity) =>
+    set((state) => {
+      const item = state.items.find((i) => i.id === id);
+      if (!item) return state;
+
+      if (newQuantity <= 0) {
+        return {
+          items: state.items.filter((i) => i.id !== id),
+          count: state.count - item.quantity,
+          total: +(state.total - item.price * item.quantity).toFixed(2),
+        };
+      }
+
+      const updatedItems = state.items.map((i) =>
+        i.id === id ? { ...i, quantity: newQuantity } : i
+      );
+
+      const updatedCount = updatedItems.reduce((sum, i) => sum + i.quantity, 0);
+      const updatedTotal = updatedItems.reduce(
+        (sum, i) => sum + i.price * i.quantity,
+        0
+      );
+
+      return {
+        items: updatedItems,
+        count: updatedCount,
+        total: +updatedTotal.toFixed(2),
+      };
+    }),
+
+  clearCart: () => ({
+    items: [],
+    count: 0,
+    total: 0,
+  }),
 }));

@@ -1,4 +1,3 @@
-// components/Header.jsx
 'use client';
 
 import { useState, useEffect } from 'react';
@@ -32,7 +31,10 @@ export default function Header() {
 
   const handleSearch = (e) => {
     e.preventDefault();
-    router.push(`/products?q=${encodeURIComponent(searchQuery)}`);
+    if (searchQuery.trim()) {
+      router.push(`/products?q=${encodeURIComponent(searchQuery)}`);
+      setSearchQuery('');
+    }
   };
 
   return (
@@ -79,6 +81,7 @@ export default function Header() {
                           className={`flex items-center px-4 py-2 text-sm ${
                             active ? 'bg-red-100 text-red-600' : 'text-gray-700'
                           } hover:bg-red-100 transition-colors rounded`}
+                          aria-label={`Shop ${category.name}`}
                         >
                           <Image
                             src={category.image}
@@ -119,7 +122,7 @@ export default function Header() {
                       initial={{ opacity: 0, y: -10 }}
                       animate={{ opacity: 1, y: 0 }}
                       exit={{ opacity: 0, y: -10 }}
-                      className="absolute top-full left-0 right-0 mt-1 bg-white rounded-lg shadow-lg z-50 border border-gray-200"
+                      className="absolute top-full left-0 right-0 mt-1 bg-white rounded-lg shadow-lg z-50 border border-gray-200 max-h-64 overflow-y-auto"
                     >
                       {searchSuggestions.map((suggestion) => (
                         <li key={suggestion._id} className="border-b last:border-none">

@@ -1,5 +1,4 @@
-// lib/models/Product.js
-import mongoose from "mongoose";
+import mongoose from 'mongoose';
 
 const ProductSchema = new mongoose.Schema({
   title: String,
@@ -11,5 +10,5 @@ const ProductSchema = new mongoose.Schema({
   image: String, // e.g., "/images/products/apple.jpg"
 });
 
-export default mongoose.models.Product ||
-  mongoose.model("Product", ProductSchema);
+// Prevent model overwrite on hot-reload in dev
+export default mongoose.models?.Product || mongoose.model('Product', ProductSchema);
