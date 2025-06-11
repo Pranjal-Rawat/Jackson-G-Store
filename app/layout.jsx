@@ -1,13 +1,16 @@
+// app/layout.jsx
 import { Geist, Geist_Mono } from 'next/font/google';
 import '../styles/globals.css';
 import Footer from '@/components/Footer';
+import PageTransitionLoader from '@/components/PageTransitionLoader';
+import Header from '@/components/Header';
+import FloatingCartButton from '@/components/FloatingCartButton';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
   subsets: ['latin'],
   display: 'swap',
 });
-
 const geistMono = Geist_Mono({
   variable: '--font-geist-mono',
   subsets: ['latin'],
@@ -20,11 +23,11 @@ export const metadata = {
   openGraph: {
     title: 'Jackson Grocery',
     description: 'Farm-fresh fruits, vegetables, and essentials.',
-    url: 'https://yourdomain.com', // ✅ Replace this with your real domain
+    url: 'https://yourdomain.com',
     siteName: 'Jackson Grocery',
     images: [
       {
-        url: 'https://yourdomain.com/og-image.jpg', // ✅ Replace this with actual OG image
+        url: 'https://yourdomain.com/og-image.jpg',
         width: 1200,
         height: 630,
         alt: 'Jackson Grocery Store',
@@ -35,17 +38,28 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    site: '@jackson_grocery', // ✅ Replace this if Twitter is integrated
+    site: '@jackson_grocery',
   },
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className="bg-white w-full overflow-x-hidden">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white text-gray-900`}
+        className={`
+          ${geistSans.variable} ${geistMono.variable}
+          antialiased bg-white text-gray-900
+          w-full min-w-0 overflow-x-hidden
+        `}
+        style={{ margin: 0, padding: 0 }}
       >
-        {children}
+        <PageTransitionLoader />
+        <Header />
+        {/* Only add top padding for the fixed header height */}
+        <main className="pt-[5.5rem] min-h-screen w-full bg-white">
+          {children}
+        </main>
+        <FloatingCartButton />
         <Footer />
       </body>
     </html>

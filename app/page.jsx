@@ -1,11 +1,10 @@
-import Header from '@/components/Header';
+// app/page.jsx
 import PerformanceCarousel from '@/components/Carousel';
 import CategoryCarousel from '@/components/CategoryCarousel';
 import PopularProducts from '@/components/PopularProducts';
 import clientPromise from './lib/mongodb';
 
 export default async function Home() {
-  // Fetch all products from MongoDB
   const client = await clientPromise;
   const db = client.db('jackson-grocery-store');
   const products = await db.collection('products').find().toArray();
@@ -54,11 +53,14 @@ export default async function Home() {
   ];
 
   return (
-    <main className="min-h-screen bg-gray-50 text-gray-800">
-      <Header />
+    <>
+      {/* Carousel - full width */}
       <PerformanceCarousel />
 
-      {/* Hero Section */}
+      {/* CategoryCarousel - full width */}
+      <CategoryCarousel />
+
+      {/* Hero Section (centered & padded) */}
       <section className="relative bg-white">
         <div className="max-w-7xl mx-auto px-4 py-16 text-center">
           <h1 className="text-4xl font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
@@ -70,17 +72,19 @@ export default async function Home() {
         </div>
       </section>
 
-      <CategoryCarousel />
-      {/* Pass the products prop here! */}
-      <PopularProducts products={safeProducts} />
+      {/* Popular Products (centered & padded) */}
+      <section>
+        <div className="max-w-7xl mx-auto px-4">
+          <PopularProducts products={safeProducts} />
+        </div>
+      </section>
 
-      {/* Quality Promise Section */}
+      {/* Quality Promise Section (centered & padded) */}
       <section className="bg-white py-16">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900">Our Quality Promise</h2>
           </div>
-
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             {features.map((feature, index) => (
               <div
@@ -105,6 +109,6 @@ export default async function Home() {
           </div>
         </div>
       </section>
-    </main>
+    </>
   );
 }

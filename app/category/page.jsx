@@ -1,4 +1,5 @@
 // app/category/page.js
+
 import CategoryCarousel from '@/components/CategoryCarousel';
 import Header from '@/components/Header';
 
@@ -7,7 +8,7 @@ export default function Home() {
     <main>
       <Header/>
       <CategoryCarousel />
-      {/* Other page content */}
+      {/* You can add featured banners, SEO, etc. here */}
     </main>
   );
 }

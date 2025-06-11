@@ -7,6 +7,7 @@ export async function GET(req) {
     const skip = Number(searchParams.get('skip') ?? 0);
     const limit = Number(searchParams.get('limit') ?? 50);
 
+    // Ensure MongoDB connection
     if (mongoose.connection.readyState === 0) {
       await mongoose.connect(process.env.MONGODB_URI, {
         dbName: 'jackson-grocery-store',
@@ -15,8 +16,9 @@ export async function GET(req) {
       });
     }
 
-    // Only fetch popular products
+    // Only fetch popular products, sorted by rank (if exists)
     const products = await Product.find({ isPopular: true })
+      .sort({ rank: 1 }) // Optional: lowest rank first
       .skip(skip)
       .limit(limit)
       .lean();

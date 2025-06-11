@@ -1,5 +1,5 @@
 // app/api/checkout/route.js (or your current filename)
-import clientPromise from '@/lib/mongodb';
+import clientPromise from '../../lib/mongodb';
 import { ObjectId } from 'mongodb';
 
 export async function POST(request) {
@@ -9,10 +9,22 @@ export async function POST(request) {
     const db = client.db('jackson-grocery-store');
     const productsCollection = db.collection('products');
 
+    // Accept both `productId` as a string and as Mongo ObjectId
     const verifiedItems = await Promise.all(
       body.cartItems.map(async (item) => {
-        const product = await productsCollection.findOne({ id: item.productId });
-        if (!product) throw new Error(`Product ${item.productId} not found`);
+        // Try matching with _id (if sent), or fallback to your own id/slug field
+        let product;
+        if (item._id) {
+          product = await productsCollection.findOne({ _id: new ObjectId(item._id) });
+        }
+        if (!product && item.productId) {
+          // fallback, if you use a custom 'id' or 'slug' field
+          product = await productsCollection.findOne({ id: item.productId });
+        }
+        if (!product && item.slug) {
+          product = await productsCollection.findOne({ slug: item.slug });
+        }
+        if (!product) throw new Error(`Product ${item.productId || item.slug || item._id} not found`);
 
         return {
           title: product.title,

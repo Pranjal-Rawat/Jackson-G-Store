@@ -1,13 +1,58 @@
-// data/categories.js
-
 const categories = [
-  { name: 'Milk & Juice', image: '/images/products/dairy.webp', slug: 'milk-juice' },
-  { name: 'Personal Care', image: '/images/products/care.webp', slug: 'personal-care' },
-  { name: 'Vegetables', image: '/images/products/vegetables.webp', slug: 'vegetables' },
-  { name: 'Bakery', image: '/images/products/bakery.webp', slug: 'bakery' },
-  { name: 'Grains', image: '/images/products/grains.webp', slug: 'grains' },
-  { name: 'Chicken & Egg', image: '/images/products/chicken.webp', slug: 'chicken' },
-  { name: 'Fruits', image: '/images/products/fruits.webp', slug: 'fruits' },
+  {
+    name: 'Baby Care',
+    slug: 'baby-care',
+    image: '/images/products/baby_care.webp',
+    description: 'Diapers, wipes, lotions, and all baby care needs.',
+  },
+  {
+    name: 'Beverages',
+    slug: 'beverages',
+    image: '/images/products/beverages.webp',
+    description: 'Juices, soft drinks, energy drinks, and more.',
+  },
+  {
+    name: 'Condiments & Sauces',
+    slug: 'condiments-sauces',
+    image: '/images/products/condiments_sauces.webp',
+    description: 'Ketchup, mayonnaise, sauces, spreads, and more.',
+  },
+  {
+    name: 'Dairy & Refrigerated',
+    slug: 'dairy-refrigerated',
+    image: '/images/products/dairy_refrigerated.webp',
+    description: 'Curd, paneer, cheese, butter, and refrigerated dairy products.',
+  },
+  {
+    name: 'Household Cleaning',
+    slug: 'household-cleaning',
+    image: '/images/products/household_cleaning.webp',
+    description: 'Detergents, floor cleaners, dishwash liquids, and more.',
+  },
+  {
+    name: 'Personal Care',
+    slug: 'personal-care',
+    image: '/images/products/care.webp',
+    description: 'Shampoo, soap, toothpaste, face wash, skin & hair care, etc.',
+  },
+  {
+    name: 'Snacks & Bakery',
+    slug: 'snacks-bakery',
+    image: '/images/products/snacks_bakery.webp',
+    description: 'Chips, biscuits, sweets, cakes, and more.',
+  },
+  {
+    name: 'Spices & Masalas',
+    slug: 'spices-masalas',
+    image: '/images/products/spices_masalas.webp',
+    description: 'Spices, masalas, and cooking essentials.',
+  },
+  {
+    name: 'Staples',
+    slug: 'staples',
+    image: '/images/products/grains.webp',
+    description: 'Rice, dal, pulses, flour, and all staples.',
+  }
 ];
 
 export default categories;

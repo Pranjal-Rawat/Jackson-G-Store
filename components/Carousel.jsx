@@ -1,135 +1,135 @@
 'use client';
 
-import { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
-import Image from 'next/image';
-import Link from 'next/link';
+import Slider from "react-slick";
+import Image from "next/image";
+import Link from "next/link";
+import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 
-// Carousel items
+// Carousel items: use your actual marketing categories here
 const carouselItems = [
   {
     id: 1,
-    title: 'Fresh Vegetables',
-    image: '', // Optional: Add a valid image
-    link: '/category/vegetables',
+    title: "Fresh Vegetables",
+    image: "/carousel/vegetables.jpg",
+    link: "/category/vegetables",
+    tag: "Fresh",
   },
   {
     id: 2,
-    title: 'Daily Essentials',
-    image: '/carousel/essentials.jpg',
-    link: '/category/essentials',
+    title: "Daily Essentials",
+    image: "/carousel/essentials.jpg",
+    link: "/category/essentials",
+    tag: "Essentials",
   },
   {
     id: 3,
-    title: 'Organic Fruits',
-    image: '/carousel/fruits.jpg',
-    link: '/category/fruits',
+    title: "Organic Fruits",
+    image: "/carousel/fruits.jpg",
+    link: "/category/fruits",
+    tag: "Organic",
   },
 ];
 
+// Custom Arrow Components for Slick
+function PrevArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <button
+      aria-label="Previous slide"
+      className="absolute left-4 top-1/2 -translate-y-1/2 z-10 bg-primary-600 hover:bg-primary-700 text-white p-2 shadow-lg focus:outline-none"
+      style={{ ...style }}
+      onClick={onClick}
+    >
+      <FiChevronLeft className="h-7 w-7" />
+    </button>
+  );
+}
+function NextArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <button
+      aria-label="Next slide"
+      className="absolute right-4 top-1/2 -translate-y-1/2 z-10 bg-primary-600 hover:bg-primary-700 text-white p-2 shadow-lg focus:outline-none"
+      style={{ ...style }}
+      onClick={onClick}
+    >
+      <FiChevronRight className="h-7 w-7" />
+    </button>
+  );
+}
+
 export default function PerformanceCarousel() {
-  const [currentIndex, setCurrentIndex] = useState(0);
-
-  const nextSlide = () => {
-    setCurrentIndex((prev) => (prev + 1) % carouselItems.length);
-  };
-
-  const prevSlide = () => {
-    setCurrentIndex((prev) => (prev - 1 + carouselItems.length) % carouselItems.length);
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 600,
+    autoplay: true,
+    autoplaySpeed: 4000,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: true,
+    prevArrow: <PrevArrow />,
+    nextArrow: <NextArrow />,
+    appendDots: dots => (
+      <div>
+        <ul className="flex justify-center items-center mt-4 space-x-2">{dots}</ul>
+      </div>
+    ),
+    customPaging: i => (
+      <button className="h-3 w-3 bg-white/70 border border-primary-600 rounded-full focus:outline-none" />
+    ),
   };
 
   return (
-    <section className="relative overflow-hidden" aria-label="Featured products carousel">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="relative h-96 md:h-[500px]">
-          <AnimatePresence initial={false} mode="wait">
-            <motion.div
-              key={currentIndex}
-              initial={{ opacity: 0, x: 100 }}
-              animate={{ opacity: 1, x: 0 }}
-              exit={{ opacity: 0, x: -100 }}
-              transition={{ duration: 0.3 }}
-              className="absolute inset-0"
-            >
-              <Link
-                href={carouselItems[currentIndex].link}
-                className="block h-full w-full"
-                aria-label={`View ${carouselItems[currentIndex].title}`}
-              >
-                {carouselItems[currentIndex].image ? (
-                  <Image
-                    src={carouselItems[currentIndex].image}
-                    alt={carouselItems[currentIndex].title}
-                    fill
-                    className="object-cover rounded-xl"
-                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px"
-                    priority={currentIndex === 0}
-                  />
-                ) : (
-                  <div className="flex items-center justify-center bg-gray-300 h-full w-full rounded-xl">
-                    <span className="text-white text-xl">No Image</span>
+    <section
+      className="w-full bg-gradient-to-br from-primary-50 to-gray-100 mt-10 shadow-lg"
+      aria-label="Featured products carousel"
+    >
+      <div className="max-w-6xl mx-auto px-0 sm:px-6 lg:px-10">
+        <div className="relative h-64 sm:h-80 md:h-[400px] lg:h-[440px]">
+          <Slider {...settings}>
+            {carouselItems.map((item) => (
+              <div key={item.id} className="relative w-full h-64 sm:h-80 md:h-[400px] lg:h-[440px]">
+                <Link
+                  href={item.link}
+                  className="block h-full w-full group focus:outline-none"
+                  aria-label={`View ${item.title}`}
+                >
+                  {/* Image */}
+                  {item.image ? (
+                    <Image
+                      src={item.image}
+                      alt={item.title}
+                      fill
+                      className="object-cover w-full h-full"
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px"
+                      priority
+                    />
+                  ) : (
+                    <div className="flex items-center justify-center bg-gray-300 h-full w-full">
+                      <span className="text-white text-xl">No Image</span>
+                    </div>
+                  )}
+                  {/* Overlay */}
+                  <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/10 to-black/60 flex items-end md:items-center justify-center">
+                    <div className="w-full md:w-auto px-6 py-6 md:py-10 flex flex-col items-center gap-3">
+                      <span className="inline-block px-3 py-1 bg-primary-600/90 text-white text-xs md:text-sm rounded-full uppercase tracking-wide shadow font-semibold mb-1 animate-bounce">
+                        {item.tag}
+                      </span>
+                      <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white text-center drop-shadow-lg mb-2 tracking-tight">
+                        {item.title}
+                      </h2>
+                      <span className="block text-white/90 font-medium text-base md:text-lg text-center">
+                        Shop fresh, organic, and daily needs right at your doorstep!
+                      </span>
+                    </div>
                   </div>
-                )}
-
-                <div className="absolute inset-0 bg-black/30 flex items-center justify-center">
-                  <h2 className="text-4xl md:text-5xl font-bold text-white text-center">
-                    {carouselItems[currentIndex].title}
-                  </h2>
-                </div>
-              </Link>
-            </motion.div>
-          </AnimatePresence>
-        </div>
-
-        {/* Controls */}
-        <div className="flex items-center justify-center mt-6 space-x-4">
-          <button
-            onClick={prevSlide}
-            className="p-2 rounded-full bg-red-500 hover:bg-red-600 text-white"
-            aria-label="Previous slide"
-          >
-            <ChevronLeftIcon className="h-6 w-6" />
-          </button>
-
-          <div className="flex space-x-2">
-            {carouselItems.map((_, index) => (
-              <button
-                key={index}
-                onClick={() => setCurrentIndex(index)}
-                className={`h-3 w-3 rounded-full ${
-                  index === currentIndex ? 'bg-red-500' : 'bg-gray-300'
-                }`}
-                aria-label={`Go to slide ${index + 1}`}
-              />
+                </Link>
+              </div>
             ))}
-          </div>
-
-          <button
-            onClick={nextSlide}
-            className="p-2 rounded-full bg-red-500 hover:bg-red-600 text-white"
-            aria-label="Next slide"
-          >
-            <ChevronRightIcon className="h-6 w-6" />
-          </button>
+          </Slider>
         </div>
       </div>
     </section>
-  );
-}
-
-// Chevron Icons
-function ChevronLeftIcon(props) {
-  return (
-    <svg {...props} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-    </svg>
-  );
-}
-
-function ChevronRightIcon(props) {
-  return (
-    <svg {...props} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-    </svg>
   );
 }

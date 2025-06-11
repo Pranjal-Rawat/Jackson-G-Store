@@ -2,83 +2,68 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-primary-500 text-white mt-20">
-      <div className="max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+    <footer className="relative bg-primary-500 text-white mt-20 overflow-hidden">
+      {/* Glowing Gradient Backgrounds */}
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[700px] h-[700px] bg-gradient-to-br from-secondary-400/10 via-primary-300/30 to-transparent rounded-full blur-3xl opacity-40 pointer-events-none z-0" />
+      <div className="absolute bottom-0 right-0 w-[400px] h-[400px] bg-gradient-to-tr from-secondary-500/30 to-primary-400/10 rounded-full blur-3xl opacity-30 pointer-events-none z-0" />
+
+      <div className="relative z-10 max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           {/* Brand Section */}
-          <div className="md:col-span-2">
-            <h2 className="text-3xl font-bold mb-4">
-              <span className="text-gradient">Grocery</span>
-              <br />
-              <span className="text-secondary-500">Store</span>
-            </h2>
-            <p className="text-gray-200 mb-4">
-              Get groceries delivered fresh to your door.
+          <div className="md:col-span-2 mb-6 md:mb-0">
+            <div className="flex items-center gap-3 mb-4">
+              <span className="inline-block w-10 h-10 rounded-full bg-gradient-to-br from-secondary-500 to-primary-300 flex items-center justify-center shadow-lg">
+                <svg width="28" height="28" viewBox="0 0 32 32" fill="none">
+                  <circle cx="16" cy="16" r="16" fill="white" fillOpacity="0.09" />
+                  <path d="M9 23v-1c0-3.866 3.134-7 7-7s7 3.134 7 7v1" stroke="#fff" strokeWidth="2"/>
+                  <circle cx="16" cy="13" r="4" stroke="#fff" strokeWidth="2"/>
+                </svg>
+              </span>
+              <span className="text-3xl font-extrabold text-gradient bg-gradient-to-br from-white to-secondary-500 bg-clip-text text-transparent">
+                Grocery
+              </span>
+              <span className="text-3xl font-extrabold text-secondary-400">Store</span>
+            </div>
+            <p className="text-gray-200/90 mb-3">
+              Get groceries delivered <span className="text-secondary-400 font-bold">fresh</span> to your door.
             </p>
-            <p className="text-gray-200">
-              Your one-stop shop for convenient online grocery shopping.
+            <p className="text-gray-300">
+              Your one-stop shop for <span className="font-semibold text-white">convenient online grocery shopping</span>.
             </p>
           </div>
 
           {/* Links Sections */}
           <div className="grid grid-cols-2 gap-8 md:col-span-2 md:grid-cols-3">
-            <div>
-              <h3 className="text-lg font-semibold mb-4 text-secondary-500">Company</h3>
-              <ul className="space-y-2">
-                {['About', 'Careers', 'History'].map((item) => (
-                  <li key={item}>
-                    <a
-                      href="#"
-                      className="text-gray-200 hover:text-secondary-500 transition-colors"
-                      aria-label={item}
-                    >
-                      {item}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            <div>
-              <h3 className="text-lg font-semibold mb-4 text-secondary-500">Services</h3>
-              <ul className="space-y-2">
-                {['Delivery', 'FAQ', 'Support'].map((item) => (
-                  <li key={item}>
-                    <a
-                      href="#"
-                      className="text-gray-200 hover:text-secondary-500 transition-colors"
-                      aria-label={item}
-                    >
-                      {item}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            <div>
-              <h3 className="text-lg font-semibold mb-4 text-secondary-500">Connect</h3>
-              <ul className="space-y-2">
-                {['Blog', 'Projects', 'Contact'].map((item) => (
-                  <li key={item}>
-                    <a
-                      href="#"
-                      className="text-gray-200 hover:text-secondary-500 transition-colors"
-                      aria-label={item}
-                    >
-                      {item}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
+            {[
+              { label: 'Company', links: ['About', 'Careers', 'History'] },
+              { label: 'Services', links: ['Delivery', 'FAQ', 'Support'] },
+              { label: 'Connect', links: ['Blog', 'Projects', 'Contact'] }
+            ].map((section) => (
+              <div key={section.label}>
+                <h3 className="text-lg font-semibold mb-4 text-secondary-400 tracking-wide uppercase">{section.label}</h3>
+                <ul className="space-y-2">
+                  {section.links.map((item) => (
+                    <li key={item}>
+                      <a
+                        href="#"
+                        className="group relative text-gray-200 hover:text-secondary-400 font-medium transition-colors py-1 inline-block"
+                        aria-label={item}
+                      >
+                        {item}
+                        <span className="absolute left-0 -bottom-0.5 w-0 h-0.5 bg-secondary-400 rounded-full group-hover:w-full transition-all duration-300"></span>
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
           </div>
         </div>
 
         {/* Copyright */}
-        <div className="border-t border-primary-400 mt-8 pt-8">
-          <p className="text-center text-gray-300">
-            © {currentYear} Grocery Store. All rights reserved.
+        <div className="border-t border-primary-400/60 mt-10 pt-7">
+          <p className="text-center text-gray-300 text-sm tracking-wide">
+            © {currentYear} <span className="text-gradient font-bold">Grocery Store</span>. All rights reserved.
           </p>
         </div>
       </div>

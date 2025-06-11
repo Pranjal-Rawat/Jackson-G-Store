@@ -1,16 +1,15 @@
-// /app/api/products/route.js
 import mongoose from 'mongoose';
 import Product from '../../lib/models/Product';
 
-// Route handler for GET /api/products?skip=50&limit=50
+// GET /api/products?category=fruits&skip=50&limit=50
 export async function GET(req) {
   try {
-    // Parse search params for pagination
     const { searchParams } = new URL(req.url);
-    const skip = Number(searchParams.get('skip') ?? 0);
-    const limit = Number(searchParams.get('limit') ?? 50);
+    const skip = Number(searchParams.get('skip') || 0);
+    const limit = Number(searchParams.get('limit') || 50);
+    const category = searchParams.get('category');
 
-    // Use existing connection if present
+    // Ensure MongoDB connection
     if (mongoose.connection.readyState === 0) {
       await mongoose.connect(process.env.MONGODB_URI, {
         dbName: 'jackson-grocery-store',
@@ -19,13 +18,16 @@ export async function GET(req) {
       });
     }
 
-    // Fetch products with pagination
-    const products = await Product.find({})
+    // Always filter by slug (your category is slugified)
+    const filter = category ? { category } : {};
+
+    // Get products
+    const products = await Product.find(filter)
       .skip(skip)
       .limit(limit)
       .lean();
 
-    // Convert _id to string for frontend compatibility
+    // Ensure _id is string (for Next.js/React)
     const safeProducts = products.map((p) => ({
       ...p,
       _id: p._id?.toString(),

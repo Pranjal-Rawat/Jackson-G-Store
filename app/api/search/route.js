@@ -9,16 +9,21 @@ export async function GET(request) {
 
     const { searchParams } = new URL(request.url);
     const q = searchParams.get('q') || '';
+    const category = searchParams.get('category');
 
-    // UPDATED: search on 'title', not 'Product Name'
+    // Build MongoDB search filter
+    const filter = {};
+    if (q) filter.title = { $regex: q, $options: 'i' };
+    if (category) filter.category = category; // category slug
+
     const products = await productsCollection
-      .find({ title: { $regex: q, $options: 'i' } })
+      .find(filter)
       .limit(20)
       .toArray();
 
-    // UPDATED: use correct field names
+    // Normalize for frontend use
     const normalized = products.map(p => ({
-      _id: p._id,
+      _id: p._id.toString(),
       slug: p.slug,
       title: p.title,
       price: p.price || 0,
