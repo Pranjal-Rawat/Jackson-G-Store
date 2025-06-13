@@ -15,7 +15,7 @@ export default function Header() {
   const cartCount = useCartStore((state) => state.count);
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
-  // --- FIX for "padding on right" when sidebar is open ---
+  // Fix for "padding on right" when sidebar is open
   useLayoutEffect(() => {
     if (sidebarOpen) {
       const scrollBarWidth = window.innerWidth - document.documentElement.clientWidth;
@@ -32,7 +32,6 @@ export default function Header() {
       document.body.style.paddingRight = '';
     };
   }, [sidebarOpen]);
-  // ------------------------------------------------------
 
   return (
     <header className="fixed top-0 left-0 w-full z-50 bg-white shadow-lg border-b border-gray-100">
@@ -50,14 +49,16 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center" aria-label="Home">
             <Image
-              src="/images/logo.svg"
-              alt="Grocery Store Logo"
-              width={120}
-              height={40}
-              className="h-10 w-auto"
+              src="https://res.cloudinary.com/dy1uhnjnq/image/upload/v1749755125/Jackson_Logo_page-0001-removebg-preview_yqeopv.png"
+              alt="Jackson Grocery Logo"
+              width={140}
+              height={46}
+              className="h-11 w-auto"
               priority
             />
           </Link>
+
+
         </div>
         {/* Categories for desktop */}
         <div className="hidden md:flex gap-2">
@@ -175,25 +176,35 @@ function SearchBar() {
   const [searchQuery, setSearchQuery] = useState('');
   const [debouncedQuery] = useDebounce(searchQuery, 300);
   const [searchSuggestions, setSearchSuggestions] = useState([]);
+  const [showSuggestions, setShowSuggestions] = useState(false);
 
   useEffect(() => {
     if (debouncedQuery.length > 2) {
       fetch(`/api/search?q=${encodeURIComponent(debouncedQuery)}`)
         .then((res) => res.json())
-        .then(setSearchSuggestions)
+        .then((data) => {
+          setSearchSuggestions(data);
+          setShowSuggestions(true);
+        })
         .catch(() => setSearchSuggestions([]));
     } else {
       setSearchSuggestions([]);
+      setShowSuggestions(false);
     }
   }, [debouncedQuery]);
 
   const handleSearch = (e) => {
     e.preventDefault();
     if (searchQuery.trim()) {
-      router.push(`/products?q=${encodeURIComponent(searchQuery)}`);
+      router.push(`/search?q=${encodeURIComponent(searchQuery)}`); // <<<< updated!
       setSearchQuery('');
       setSearchSuggestions([]);
+      setShowSuggestions(false);
     }
+  };
+
+  const handleBlur = () => {
+    setTimeout(() => setShowSuggestions(false), 120);
   };
 
   return (
@@ -204,12 +215,14 @@ function SearchBar() {
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
           placeholder="Search for groceries, brands, products..."
-          className="w-full pl-10 pr-4 py-2 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-red-500 text-base bg-white shadow-sm"
+          className="w-full pl-10 pr-4 py-2 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-red-500 text-base bg-white shadow-sm transition"
           aria-label="Search products"
+          onFocus={() => searchSuggestions.length > 0 && setShowSuggestions(true)}
+          onBlur={handleBlur}
         />
         <FiSearch className="absolute left-3 top-1/2 transform -translate-y-1/2 h-5 w-5 text-gray-400" />
         <AnimatePresence>
-          {searchSuggestions.length > 0 && (
+          {showSuggestions && searchSuggestions.length > 0 && (
             <motion.ul
               initial={{ opacity: 0, y: -10 }}
               animate={{ opacity: 1, y: 0 }}
@@ -220,17 +233,34 @@ function SearchBar() {
                 <li key={suggestion._id} className="border-b last:border-none">
                   <Link
                     href={`/products/${suggestion.slug || suggestion._id}`}
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100 hover:text-red-600 transition-colors"
-                    onClick={() => setSearchQuery('')}
+                    className="flex items-center gap-2 px-4 py-2 text-sm text-gray-700 hover:bg-red-100 hover:text-red-600 transition-colors"
                   >
-                    {suggestion['Product Name'] || suggestion.title || 'No Title'}
+                    <Image
+                      src={suggestion.image || '/images/logo.svg'}
+                      alt={suggestion.title}
+                      width={32}
+                      height={32}
+                      className="rounded shadow"
+                    />
+                    <span>{suggestion.title}</span>
                   </Link>
                 </li>
               ))}
             </motion.ul>
+          )}
+          {showSuggestions && searchSuggestions.length === 0 && searchQuery.length > 2 && (
+            <motion.div
+              initial={{ opacity: 0, y: -10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="absolute top-full left-0 right-0 mt-1 bg-white rounded-lg shadow-lg z-50 border border-gray-200 px-4 py-2 text-gray-500"
+            >
+              No results found.
+            </motion.div>
           )}
         </AnimatePresence>
       </div>
     </form>
   );
 }
+

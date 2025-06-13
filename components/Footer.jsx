@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function Footer() {
   const currentYear = new Date().getFullYear();
 
@@ -12,17 +14,17 @@ export default function Footer() {
           {/* Brand Section */}
           <div className="md:col-span-2 mb-6 md:mb-0">
             <div className="flex items-center gap-3 mb-4">
-              <span className="inline-block w-10 h-10 rounded-full bg-gradient-to-br from-secondary-500 to-primary-300 flex items-center justify-center shadow-lg">
-                <svg width="28" height="28" viewBox="0 0 32 32" fill="none">
-                  <circle cx="16" cy="16" r="16" fill="white" fillOpacity="0.09" />
-                  <path d="M9 23v-1c0-3.866 3.134-7 7-7s7 3.134 7 7v1" stroke="#fff" strokeWidth="2"/>
-                  <circle cx="16" cy="13" r="4" stroke="#fff" strokeWidth="2"/>
-                </svg>
+              <Image
+                src="https://res.cloudinary.com/dy1uhnjnq/image/upload/v1749755125/Jackson_Logo_page-0001-removebg-preview_yqeopv.png"
+                alt="Jackson Grocery Logo"
+                width={52}
+                height={52}
+                className="h-13 w-auto mr-3"
+                priority
+              />
+              <span className="text-3xl font-extrabold text-white">
+                Jackson Grocery
               </span>
-              <span className="text-3xl font-extrabold text-gradient bg-gradient-to-br from-white to-secondary-500 bg-clip-text text-transparent">
-                Grocery
-              </span>
-              <span className="text-3xl font-extrabold text-secondary-400">Store</span>
             </div>
             <p className="text-gray-200/90 mb-3">
               Get groceries delivered <span className="text-secondary-400 font-bold">fresh</span> to your door.
@@ -63,7 +65,7 @@ export default function Footer() {
         {/* Copyright */}
         <div className="border-t border-primary-400/60 mt-10 pt-7">
           <p className="text-center text-gray-300 text-sm tracking-wide">
-            © {currentYear} <span className="text-gradient font-bold">Grocery Store</span>. All rights reserved.
+            © {currentYear} <span className="font-bold">Grocery Store</span>. All rights reserved.
           </p>
         </div>
       </div>

@@ -2,7 +2,7 @@
 import { Geist, Geist_Mono } from 'next/font/google';
 import '../styles/globals.css';
 import Footer from '@/components/Footer';
-import PageTransitionLoader from '@/components/PageTransitionLoader';
+// import PageTransitionLoader from '@/components/PageTransitionLoader';
 import Header from '@/components/Header';
 import FloatingCartButton from '@/components/FloatingCartButton';
 
@@ -53,7 +53,7 @@ export default function RootLayout({ children }) {
         `}
         style={{ margin: 0, padding: 0 }}
       >
-        <PageTransitionLoader />
+        {/* <PageTransitionLoader /> */}
         <Header />
         {/* Only add top padding for the fixed header height */}
         <main className="pt-[5.5rem] min-h-screen w-full bg-white">

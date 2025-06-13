@@ -1,4 +1,4 @@
-// app/api/checkout/route.js (or your current filename)
+// app/api/checkout/route.js
 import clientPromise from '../../lib/mongodb';
 import { ObjectId } from 'mongodb';
 
@@ -9,16 +9,14 @@ export async function POST(request) {
     const db = client.db('jackson-grocery-store');
     const productsCollection = db.collection('products');
 
-    // Accept both `productId` as a string and as Mongo ObjectId
+    // 1. Verify and fetch product details for all cart items
     const verifiedItems = await Promise.all(
       body.cartItems.map(async (item) => {
-        // Try matching with _id (if sent), or fallback to your own id/slug field
         let product;
         if (item._id) {
           product = await productsCollection.findOne({ _id: new ObjectId(item._id) });
         }
         if (!product && item.productId) {
-          // fallback, if you use a custom 'id' or 'slug' field
           product = await productsCollection.findOne({ id: item.productId });
         }
         if (!product && item.slug) {
@@ -26,7 +24,13 @@ export async function POST(request) {
         }
         if (!product) throw new Error(`Product ${item.productId || item.slug || item._id} not found`);
 
+        // --- STOCK CHECK ---
+        if (product.stock !== undefined && product.stock < item.quantity) {
+          throw new Error(`"${product.title}" is out of stock or not enough quantity`);
+        }
+
         return {
+          _id: product._id, // For update
           title: product.title,
           price: product.price,
           quantity: item.quantity,
@@ -35,6 +39,17 @@ export async function POST(request) {
       })
     );
 
+    // 2. **Reduce stock for each product**
+    await Promise.all(
+      verifiedItems.map(async (item) => {
+        await productsCollection.updateOne(
+          { _id: new ObjectId(item._id) },
+          { $inc: { stock: -item.quantity } }
+        );
+      })
+    );
+
+    // 3. Create WhatsApp message
     const orderTotal = verifiedItems.reduce((sum, item) => sum + item.total, 0);
 
     const orderMessage = verifiedItems

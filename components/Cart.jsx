@@ -57,8 +57,10 @@ export default function Cart() {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           cartItems: items.map((item) => ({
-            productId: item.id,
+            _id: item._id, // or item.id or item.productId, as available
             quantity: item.quantity,
+            slug: item.slug,
+            id: item.id,
           })),
           customer,
         }),
@@ -66,7 +68,26 @@ export default function Cart() {
 
       const data = await response.json();
       if (response.ok && data.whatsappUrl) {
-        window.location.href = data.whatsappUrl;
+        // 1. Open WhatsApp order
+        window.open(data.whatsappUrl, '_blank');
+
+        // 2. Reduce stock in DB
+        await fetch('/api/reduce-stock', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            cartItems: items.map((item) => ({
+              _id: item._id,
+              quantity: item.quantity,
+              slug: item.slug,
+              id: item.id,
+            })),
+          }),
+        });
+
+        // 3. Clear cart after successful stock reduction
+        clearCart();
+
       } else {
         alert(data.error || 'Failed to generate WhatsApp link.');
       }
