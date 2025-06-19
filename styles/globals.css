@@ -1,10 +1,13 @@
+/* Route: /styles/globals.css – Tailwind global and custom styles */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @import "slick-carousel/slick/slick.css";
 @import "slick-carousel/slick/slick-theme.css";
 
-
+/* ========== Custom Components Layer ========== */
 @layer components {
   .btn-primary {
     @apply bg-primary-500 hover:bg-primary-600 text-white font-bold py-2 px-4 rounded-lg transition-colors duration-300 shadow-theme;
@@ -23,12 +26,12 @@
   }
 }
 
+/* ========== Custom Utilities Layer ========== */
 @layer utilities {
   .text-gradient {
     @apply bg-clip-text text-transparent;
     background-image: linear-gradient(to right, #ED1C24, #FFCC00);
   }
-
   .theme-shadow {
     @apply shadow-theme;
   }

@@ -1,9 +1,11 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+// Route: /components/ProductModal.jsx – Product details + add to cart modal
+
+import { useState, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Image from 'next/image';
-import AddToCartButton from './AddToCartButton'; // Make sure path is correct
+import AddToCartButton from './AddToCartButton';
 
 export default function ProductModal({ isOpen, product, onClose, onAddToCart }) {
   const [loading, setLoading] = useState(false);
@@ -11,23 +13,29 @@ export default function ProductModal({ isOpen, product, onClose, onAddToCart }) 
   const [quantity, setQuantity] = useState(1);
   const [selectedOption, setSelectedOption] = useState(null);
 
-  // Fetch product + related when modal is opened
+  // Fetch product + related when modal opens
   useEffect(() => {
+    let isMounted = true;
     if (isOpen && product?.slug) {
       setLoading(true);
       fetch(`/api/products/${product.slug}`)
         .then((res) => res.json())
         .then((data) => {
-          setDetails(data);
-          setQuantity(1);
-          setSelectedOption(data.product?.options?.[0] || null);
+          if (isMounted) {
+            setDetails(data);
+            setQuantity(1);
+            setSelectedOption(data.product?.options?.[0] || null);
+          }
         })
-        .finally(() => setLoading(false));
+        .finally(() => isMounted && setLoading(false));
     } else {
       setDetails(null);
       setQuantity(1);
       setSelectedOption(null);
     }
+    return () => {
+      isMounted = false;
+    };
   }, [isOpen, product]);
 
   if (!isOpen || !product) return null;
@@ -48,12 +56,15 @@ export default function ProductModal({ isOpen, product, onClose, onAddToCart }) 
   const isOutOfStock = stock <= 0;
   const total = (p.price || 0) * quantity;
 
-  const handleAdd = () => {
-    if (!isOutOfStock) {
+  // Memoize handlers for performance in React
+  const handleAdd = useCallback(() => {
+    if (!isOutOfStock && onAddToCart) {
       onAddToCart(p, quantity, selectedOption);
       onClose();
     }
-  };
+  }, [isOutOfStock, onAddToCart, p, quantity, selectedOption, onClose]);
+
+  const handleQuantityChange = (delta) => setQuantity((q) => Math.max(1, q + delta));
 
   return (
     <AnimatePresence>
@@ -76,6 +87,7 @@ export default function ProductModal({ isOpen, product, onClose, onAddToCart }) 
             onClick={onClose}
             className="absolute top-3 right-3 text-gray-400 hover:text-gray-700 text-2xl"
             aria-label="Close modal"
+            type="button"
           >
             &times;
           </button>
@@ -148,19 +160,21 @@ export default function ProductModal({ isOpen, product, onClose, onAddToCart }) 
             <p className="text-sm text-gray-500">Quantity ({p.unit || '1 pc'})</p>
             <div className="flex items-center border rounded-lg">
               <button
-                onClick={() => setQuantity((q) => Math.max(1, q - 1))}
+                onClick={() => handleQuantityChange(-1)}
                 className="px-3 py-1 hover:bg-gray-100"
                 aria-label="Decrease quantity"
                 disabled={isOutOfStock || quantity <= 1}
+                type="button"
               >
                 −
               </button>
               <span className="px-4">{quantity}</span>
               <button
-                onClick={() => setQuantity((q) => q + 1)}
+                onClick={() => handleQuantityChange(1)}
                 className="px-3 py-1 hover:bg-gray-100"
                 aria-label="Increase quantity"
                 disabled={isOutOfStock}
+                type="button"
               >
                 +
               </button>

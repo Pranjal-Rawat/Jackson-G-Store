@@ -1,3 +1,5 @@
+// Route: /api/products/popular  (GET – List popular products, optional: ?skip=0&limit=50)
+
 import mongoose from 'mongoose';
 import Product from '../../../lib/models/Product';
 
@@ -16,13 +18,14 @@ export async function GET(req) {
       });
     }
 
-    // Only fetch popular products, sorted by rank (if exists)
+    // Fetch only products marked as popular, sorted by rank if available
     const products = await Product.find({ isPopular: true })
-      .sort({ rank: 1 }) // Optional: lowest rank first
+      .sort({ rank: 1 }) // optional: lowest rank first if 'rank' exists
       .skip(skip)
       .limit(limit)
       .lean();
 
+    // Ensure _id is string
     const safeProducts = products.map((p) => ({
       ...p,
       _id: p._id?.toString(),

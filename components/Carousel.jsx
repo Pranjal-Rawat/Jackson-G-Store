@@ -1,11 +1,13 @@
 'use client';
 
+// Route: /components/Carousel.jsx – Hero/featured products carousel
+
 import Slider from "react-slick";
 import Image from "next/image";
 import Link from "next/link";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 
-// Carousel items: use your actual marketing categories here
+// Marketing carousel items (replace with your actual data)
 const carouselItems = [
   {
     id: 1,
@@ -31,27 +33,29 @@ const carouselItems = [
 ];
 
 // Custom Arrow Components for Slick
-function PrevArrow(props) {
-  const { className, style, onClick } = props;
+function PrevArrow({ className, style, onClick }) {
   return (
     <button
       aria-label="Previous slide"
       className="absolute left-4 top-1/2 -translate-y-1/2 z-10 bg-primary-600 hover:bg-primary-700 text-white p-2 shadow-lg focus:outline-none"
       style={{ ...style }}
       onClick={onClick}
+      type="button"
+      tabIndex={0}
     >
       <FiChevronLeft className="h-7 w-7" />
     </button>
   );
 }
-function NextArrow(props) {
-  const { className, style, onClick } = props;
+function NextArrow({ className, style, onClick }) {
   return (
     <button
       aria-label="Next slide"
       className="absolute right-4 top-1/2 -translate-y-1/2 z-10 bg-primary-600 hover:bg-primary-700 text-white p-2 shadow-lg focus:outline-none"
       style={{ ...style }}
       onClick={onClick}
+      type="button"
+      tabIndex={0}
     >
       <FiChevronRight className="h-7 w-7" />
     </button>
@@ -76,7 +80,12 @@ export default function PerformanceCarousel() {
       </div>
     ),
     customPaging: i => (
-      <button className="h-3 w-3 bg-white/70 border border-primary-600 rounded-full focus:outline-none" />
+      <button
+        className="h-3 w-3 bg-white/70 border border-primary-600 rounded-full focus:outline-none"
+        type="button"
+        tabIndex={0}
+        aria-label={`Go to slide ${i + 1}`}
+      />
     ),
   };
 
@@ -94,6 +103,7 @@ export default function PerformanceCarousel() {
                   href={item.link}
                   className="block h-full w-full group focus:outline-none"
                   aria-label={`View ${item.title}`}
+                  tabIndex={0}
                 >
                   {/* Image */}
                   {item.image ? (

@@ -1,28 +1,33 @@
 'use client';
 
+// Route: /components/AddToCartButton.jsx – Button to add product to cart
+
 import React from 'react';
 import { useCartStore } from '@/stores/cartStore';
 
-// At the top, add disabled to props:
 export default function AddToCartButton({
   product,
   quantity = 1,
   option = null,
   className = '',
-  disabled = false, // <-- add this
+  disabled = false,
 }) {
   const addToCart = useCartStore((state) => state.addItem);
 
-  const handleAddToCart = (e) => {
-    if (disabled) return; // Prevent click if disabled
-    e.stopPropagation();
-    addToCart({ ...product, quantity, option });
-  };
+  // Use React.useCallback for stable reference (optimization if in large lists)
+  const handleAddToCart = React.useCallback(
+    (e) => {
+      if (disabled) return;
+      e.stopPropagation();
+      addToCart({ ...product, quantity, option });
+    },
+    [disabled, addToCart, product, quantity, option]
+  );
 
   return (
     <button
       onClick={handleAddToCart}
-      disabled={disabled} // <-- disable the button
+      disabled={disabled}
       className={`
         relative inline-flex items-center justify-center gap-1
         px-3 py-2 sm:px-4 sm:py-2.5
@@ -43,6 +48,8 @@ export default function AddToCartButton({
         WebkitTapHighlightColor: 'transparent',
       }}
       aria-label={`Add ${product?.title || 'product'} to cart`}
+      tabIndex={disabled ? -1 : 0}
+      type="button"
     >
       <span className="absolute inset-0 z-0 bg-white/0 group-hover:bg-white/10 group-active:bg-white/20 transition-all duration-200 rounded-full pointer-events-none backdrop-blur-sm" />
       <span className="relative z-10 flex items-center justify-center">
@@ -58,8 +65,7 @@ export default function AddToCartButton({
   );
 }
 
-
-// SVG Cart Icon - Jackson Theme Color
+// SVG Cart Icon – Jackson Theme Color
 function CartIcon({ className = "" }) {
   return (
     <svg className={className} viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth={1.5}>

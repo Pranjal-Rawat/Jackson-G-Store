@@ -2,7 +2,7 @@
 
 import 'dotenv/config';
 import clientPromise from '../app/lib/mongodb.js';
-import productsRaw from '../data/products.js';
+import products from '../data/products_with_images_fixed.json' assert { type: 'json' }; // <-- Use enriched JSON!
 import categories from '../data/categories.js';
 
 // Helper: Converts "Milk & Juice" → "milk-and-juice"
@@ -17,7 +17,7 @@ function toSlug(str) {
 }
 
 // 1. Prepare products with slugified category field
-const products = productsRaw.map((product) => ({
+const preparedProducts = products.map((product) => ({
   ...product,
   category: product.category ? toSlug(product.category) : '',
 }));
@@ -36,7 +36,7 @@ async function seedData() {
     console.log(`🗑️ Deleted ${deleteCategoriesResult.deletedCount} existing categories.`);
 
     // Insert new products and categories
-    const insertProductsResult = await db.collection('products').insertMany(products);
+    const insertProductsResult = await db.collection('products').insertMany(preparedProducts);
     console.log(`🌱 Seeded ${insertProductsResult.insertedCount} products.`);
 
     const insertCategoriesResult = await db.collection('categories').insertMany(categories);

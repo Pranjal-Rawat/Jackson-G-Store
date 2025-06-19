@@ -3,7 +3,7 @@ const products = [
     "id": 6,
     "title": "Orgainc India Tulsi Green Tea Classic",
     "slug": "orgainc-india-tulsi-green-tea-classic",
-    "price": 215.0,
+    "price": 215,
     "image": "/images/products/orgainc-india-tulsi-green-tea-classic.jpg",
     "stock": 4,
     "description": "Orgainc India Tulsi Green Tea Classic - Refreshing beverage or health drink.",
@@ -11,13 +11,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 6
+    "rank": 6,
+    "name": "Orgainc India Tulsi Green Tea Classic"
   },
   {
     "id": 61,
     "title": "Abbie'S Maple Syrup 250Ml",
     "slug": "abbies-maple-syrup-250ml",
-    "price": 975.0,
+    "price": 975,
     "image": "/images/products/abbies-maple-syrup-250ml.jpg",
     "stock": 1,
     "description": "Abbie'S Maple Syrup 250Ml - Refreshing beverage or health drink.",
@@ -25,13 +26,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 61
+    "rank": 61,
+    "name": "Abbie'S Maple Syrup 250Ml"
   },
   {
     "id": 90,
     "title": "Ag Pancake Syrup 355Ml",
     "slug": "ag-pancake-syrup-355ml",
-    "price": 549.0,
+    "price": 549,
     "image": "/images/products/ag-pancake-syrup-355ml.jpg",
     "stock": 4,
     "description": "Ag Pancake Syrup 355Ml - Refreshing beverage or health drink.",
@@ -39,13 +41,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 90
+    "rank": 90,
+    "name": "Ag Pancake Syrup 355Ml"
   },
   {
     "id": 91,
     "title": "Ag Pancake Syrup 710Ml",
     "slug": "ag-pancake-syrup-710ml",
-    "price": 760.0,
+    "price": 760,
     "image": "/images/products/ag-pancake-syrup-710ml.jpg",
     "stock": 3,
     "description": "Ag Pancake Syrup 710Ml - Refreshing beverage or health drink.",
@@ -53,13 +56,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 91
+    "rank": 91,
+    "name": "Ag Pancake Syrup 710Ml"
   },
   {
     "id": 143,
     "title": "Amul Camel Milk Choco",
     "slug": "amul-camel-milk-choco",
-    "price": 180.0,
+    "price": 180,
     "image": "/images/products/amul-camel-milk-choco.jpg",
     "stock": 5,
     "description": "Amul Camel Milk Choco - Refreshing beverage or health drink.",
@@ -67,13 +71,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 143
+    "rank": 143,
+    "name": "Amul Camel Milk Choco"
   },
   {
     "id": 161,
     "title": "Amul Coffee Cup 125Ml",
     "slug": "amul-coffee-cup-125ml",
-    "price": 40.0,
+    "price": 40,
     "image": "/images/products/amul-coffee-cup-125ml.jpg",
     "stock": 8,
     "description": "Amul Coffee Cup 125Ml - Refreshing beverage or health drink.",
@@ -81,13 +86,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 161
+    "rank": 161,
+    "name": "Amul Coffee Cup 125Ml"
   },
   {
     "id": 180,
     "title": "Amul Full Cream Milk",
     "slug": "amul-full-cream-milk",
-    "price": 35.0,
+    "price": 35,
     "image": "/images/products/amul-full-cream-milk.jpg",
     "stock": 1,
     "description": "Amul Full Cream Milk - Refreshing beverage or health drink.",
@@ -95,13 +101,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 180
+    "rank": 180,
+    "name": "Amul Full Cream Milk"
   },
   {
     "id": 185,
     "title": "Amul Gold Standardised Milk 1Ltr",
     "slug": "amul-gold-standardised-milk-1ltr",
-    "price": 80.0,
+    "price": 80,
     "image": "/images/products/amul-gold-standardised-milk-1ltr.jpg",
     "stock": 1,
     "description": "Amul Gold Standardised Milk 1Ltr - Refreshing beverage or health drink.",
@@ -109,13 +116,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 185
+    "rank": 185,
+    "name": "Amul Gold Standardised Milk 1Ltr"
   },
   {
     "id": 189,
     "title": "Amul Lactose Free Milk 250Ml",
     "slug": "amul-lactose-free-milk-250ml",
-    "price": 25.0,
+    "price": 25,
     "image": "/images/products/amul-lactose-free-milk-250ml.jpg",
     "stock": 31,
     "description": "Amul Lactose Free Milk 250Ml - Refreshing beverage or health drink.",
@@ -123,13 +131,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 189
+    "rank": 189,
+    "name": "Amul Lactose Free Milk 250Ml"
   },
   {
     "id": 191,
     "title": "Amul Lite Milk Fat Spread 100Gm",
     "slug": "amul-lite-milk-fat-spread-100gm",
-    "price": 48.0,
+    "price": 48,
     "image": "/images/products/amul-lite-milk-fat-spread-100gm.jpg",
     "stock": 7,
     "description": "Amul Lite Milk Fat Spread 100Gm - Refreshing beverage or health drink.",
@@ -137,13 +146,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 191
+    "rank": 191,
+    "name": "Amul Lite Milk Fat Spread 100Gm"
   },
   {
     "id": 192,
     "title": "Amul Masti Buttermilk 1Ltr",
     "slug": "amul-masti-buttermilk-1ltr",
-    "price": 70.0,
+    "price": 70,
     "image": "/images/products/amul-masti-buttermilk-1ltr.jpg",
     "stock": 3,
     "description": "Amul Masti Buttermilk 1Ltr - Refreshing beverage or health drink.",
@@ -151,13 +161,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 192
+    "rank": 192,
+    "name": "Amul Masti Buttermilk 1Ltr"
   },
   {
     "id": 193,
     "title": "Amul Masti Buttermilk 200Ml",
     "slug": "amul-masti-buttermilk-200ml",
-    "price": 15.0,
+    "price": 15,
     "image": "/images/products/amul-masti-buttermilk-200ml.jpg",
     "stock": 99,
     "description": "Amul Masti Buttermilk 200Ml - Refreshing beverage or health drink.",
@@ -165,13 +176,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 193
+    "rank": 193,
+    "name": "Amul Masti Buttermilk 200Ml"
   },
   {
     "id": 194,
     "title": "Amul Milk Chocolate 150Gm",
     "slug": "amul-milk-chocolate-150gm",
-    "price": 200.0,
+    "price": 200,
     "image": "/images/products/amul-milk-chocolate-150gm.jpg",
     "stock": 4,
     "description": "Amul Milk Chocolate 150Gm - Refreshing beverage or health drink.",
@@ -179,13 +191,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 194
+    "rank": 194,
+    "name": "Amul Milk Chocolate 150Gm"
   },
   {
     "id": 205,
     "title": "Amul Slim Milk 1L",
     "slug": "amul-slim-milk-1l",
-    "price": 80.0,
+    "price": 80,
     "image": "/images/products/amul-slim-milk-1l.jpg",
     "stock": 3,
     "description": "Amul Slim Milk 1L - Refreshing beverage or health drink.",
@@ -193,13 +206,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 205
+    "rank": 205,
+    "name": "Amul Slim Milk 1L"
   },
   {
     "id": 210,
     "title": "Amul Taaza Fresh Toned Milk 1Ltr",
     "slug": "amul-taaza-fresh-toned-milk-1ltr",
-    "price": 74.0,
+    "price": 74,
     "image": "/images/products/amul-taaza-fresh-toned-milk-1ltr.jpg",
     "stock": 30,
     "description": "Amul Taaza Fresh Toned Milk 1Ltr - Refreshing beverage or health drink.",
@@ -207,13 +221,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 210
+    "rank": 210,
+    "name": "Amul Taaza Fresh Toned Milk 1Ltr"
   },
   {
     "id": 211,
     "title": "Amul Taaza Fresh Toned Milk 200Ml",
     "slug": "amul-taaza-fresh-toned-milk-200ml",
-    "price": 16.0,
+    "price": 16,
     "image": "/images/products/amul-taaza-fresh-toned-milk-200ml.jpg",
     "stock": 69,
     "description": "Amul Taaza Fresh Toned Milk 200Ml - Refreshing beverage or health drink.",
@@ -221,13 +236,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 211
+    "rank": 211,
+    "name": "Amul Taaza Fresh Toned Milk 200Ml"
   },
   {
     "id": 331,
     "title": "Ayur Cleansing Milk 100Ml",
     "slug": "ayur-cleansing-milk-100ml",
-    "price": 80.0,
+    "price": 80,
     "image": "/images/products/ayur-cleansing-milk-100ml.jpg",
     "stock": 3,
     "description": "Ayur Cleansing Milk 100Ml - Refreshing beverage or health drink.",
@@ -235,13 +251,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 331
+    "rank": 331,
+    "name": "Ayur Cleansing Milk 100Ml"
   },
   {
     "id": 349,
     "title": "Bagh Bakri Green Tea Shudh Kahwa",
     "slug": "bagh-bakri-green-tea-shudh-kahwa",
-    "price": 300.0,
+    "price": 300,
     "image": "/images/products/bagh-bakri-green-tea-shudh-kahwa.jpg",
     "stock": 4,
     "description": "Bagh Bakri Green Tea Shudh Kahwa - Refreshing beverage or health drink.",
@@ -249,13 +266,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 349
+    "rank": 349,
+    "name": "Bagh Bakri Green Tea Shudh Kahwa"
   },
   {
     "id": 354,
     "title": "Bagh Bakri Ice Tea Lemon",
     "slug": "bagh-bakri-ice-tea-lemon",
-    "price": 120.0,
+    "price": 120,
     "image": "/images/products/bagh-bakri-ice-tea-lemon.jpg",
     "stock": 7,
     "description": "Bagh Bakri Ice Tea Lemon - Refreshing beverage or health drink.",
@@ -263,13 +281,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 354
+    "rank": 354,
+    "name": "Bagh Bakri Ice Tea Lemon"
   },
   {
     "id": 355,
     "title": "Bagh Bakri Instant Tea Elaichi Sf",
     "slug": "bagh-bakri-instant-tea-elaichi-sf",
-    "price": 140.0,
+    "price": 140,
     "image": "/images/products/bagh-bakri-instant-tea-elaichi-sf.jpg",
     "stock": 2,
     "description": "Bagh Bakri Instant Tea Elaichi Sf - Refreshing beverage or health drink.",
@@ -277,13 +296,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 355
+    "rank": 355,
+    "name": "Bagh Bakri Instant Tea Elaichi Sf"
   },
   {
     "id": 356,
     "title": "Bagh Bakri Instant Tea Ginger Sf",
     "slug": "bagh-bakri-instant-tea-ginger-sf",
-    "price": 140.0,
+    "price": 140,
     "image": "/images/products/bagh-bakri-instant-tea-ginger-sf.jpg",
     "stock": 2,
     "description": "Bagh Bakri Instant Tea Ginger Sf - Refreshing beverage or health drink.",
@@ -291,13 +311,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 356
+    "rank": 356,
+    "name": "Bagh Bakri Instant Tea Ginger Sf"
   },
   {
     "id": 357,
     "title": "Bagh Bakri Instant Tea Masala Sf",
     "slug": "bagh-bakri-instant-tea-masala-sf",
-    "price": 140.0,
+    "price": 140,
     "image": "/images/products/bagh-bakri-instant-tea-masala-sf.jpg",
     "stock": 2,
     "description": "Bagh Bakri Instant Tea Masala Sf - Refreshing beverage or health drink.",
@@ -305,13 +326,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 357
+    "rank": 357,
+    "name": "Bagh Bakri Instant Tea Masala Sf"
   },
   {
     "id": 358,
     "title": "Bagh Bakri Leaf Tea 1Kg",
     "slug": "bagh-bakri-leaf-tea-1kg",
-    "price": 640.0,
+    "price": 640,
     "image": "/images/products/bagh-bakri-leaf-tea-1kg.jpg",
     "stock": 11,
     "description": "Bagh Bakri Leaf Tea 1Kg - Refreshing beverage or health drink.",
@@ -319,13 +341,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 358
+    "rank": 358,
+    "name": "Bagh Bakri Leaf Tea 1Kg"
   },
   {
     "id": 359,
     "title": "Bagh Bakri Leaf Tea 500G",
     "slug": "bagh-bakri-leaf-tea-500g",
-    "price": 325.0,
+    "price": 325,
     "image": "/images/products/bagh-bakri-leaf-tea-500g.jpg",
     "stock": 4,
     "description": "Bagh Bakri Leaf Tea 500G - Refreshing beverage or health drink.",
@@ -333,13 +356,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 359
+    "rank": 359,
+    "name": "Bagh Bakri Leaf Tea 500G"
   },
   {
     "id": 360,
     "title": "Bagh Bakri Masala Tea 500G",
     "slug": "bagh-bakri-masala-tea-500g",
-    "price": 330.0,
+    "price": 330,
     "image": "/images/products/bagh-bakri-masala-tea-500g.jpg",
     "stock": 6,
     "description": "Bagh Bakri Masala Tea 500G - Refreshing beverage or health drink.",
@@ -347,13 +371,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 360
+    "rank": 360,
+    "name": "Bagh Bakri Masala Tea 500G"
   },
   {
     "id": 515,
     "title": "Biotique Tea Tree Face Wash",
     "slug": "biotique-tea-tree-face-wash",
-    "price": 320.0,
+    "price": 320,
     "image": "/images/products/biotique-tea-tree-face-wash.jpg",
     "stock": 2,
     "description": "Biotique Tea Tree Face Wash - Refreshing beverage or health drink.",
@@ -361,13 +386,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 515
+    "rank": 515,
+    "name": "Biotique Tea Tree Face Wash"
   },
   {
     "id": 610,
     "title": "Brijraj Tea Time",
     "slug": "brijraj-tea-time",
-    "price": 80.0,
+    "price": 80,
     "image": "/images/products/brijraj-tea-time.jpg",
     "stock": 5,
     "description": "Brijraj Tea Time - Refreshing beverage or health drink.",
@@ -375,13 +401,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 610
+    "rank": 610,
+    "name": "Brijraj Tea Time"
   },
   {
     "id": 644,
     "title": "Britannia Milk Bikis 190.5Gm",
     "slug": "britannia-milk-bikis-1905gm",
-    "price": 35.0,
+    "price": 35,
     "image": "/images/products/britannia-milk-bikis-1905gm.jpg",
     "stock": 5,
     "description": "Britannia Milk Bikis 190.5Gm - Refreshing beverage or health drink.",
@@ -389,13 +416,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 644
+    "rank": 644,
+    "name": "Britannia Milk Bikis 190.5Gm"
   },
   {
     "id": 645,
     "title": "Britannia Milk Bikis 71G",
     "slug": "britannia-milk-bikis-71g",
-    "price": 10.0,
+    "price": 10,
     "image": "/images/products/britannia-milk-bikis-71g.jpg",
     "stock": 17,
     "description": "Britannia Milk Bikis 71G - Refreshing beverage or health drink.",
@@ -403,13 +431,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 645
+    "rank": 645,
+    "name": "Britannia Milk Bikis 71G"
   },
   {
     "id": 646,
     "title": "Britannia Milk Bikis Cream 200G",
     "slug": "britannia-milk-bikis-cream-200g",
-    "price": 55.0,
+    "price": 55,
     "image": "/images/products/britannia-milk-bikis-cream-200g.jpg",
     "stock": 1,
     "description": "Britannia Milk Bikis Cream 200G - Refreshing beverage or health drink.",
@@ -417,13 +446,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 646
+    "rank": 646,
+    "name": "Britannia Milk Bikis Cream 200G"
   },
   {
     "id": 647,
     "title": "Britannia Milk Bikis Cream 44G",
     "slug": "britannia-milk-bikis-cream-44g",
-    "price": 10.0,
+    "price": 10,
     "image": "/images/products/britannia-milk-bikis-cream-44g.jpg",
     "stock": 6,
     "description": "Britannia Milk Bikis Cream 44G - Refreshing beverage or health drink.",
@@ -431,13 +461,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 647
+    "rank": 647,
+    "name": "Britannia Milk Bikis Cream 44G"
   },
   {
     "id": 648,
     "title": "Britannia Milk Rusk",
     "slug": "britannia-milk-rusk",
-    "price": 35.0,
+    "price": 35,
     "image": "/images/products/britannia-milk-rusk.jpg",
     "stock": 4,
     "description": "Britannia Milk Rusk - Refreshing beverage or health drink.",
@@ -445,13 +476,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 648
+    "rank": 648,
+    "name": "Britannia Milk Rusk"
   },
   {
     "id": 654,
     "title": "Britannia Nc Oats Milk& Almond",
     "slug": "britannia-nc-oats-milk-almond",
-    "price": 25.0,
+    "price": 25,
     "image": "/images/products/britannia-nc-oats-milk-almond.jpg",
     "stock": 13,
     "description": "Britannia Nc Oats Milk& Almond - Refreshing beverage or health drink.",
@@ -459,13 +491,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 654
+    "rank": 654,
+    "name": "Britannia Nc Oats Milk& Almond"
   },
   {
     "id": 677,
     "title": "Bru Pure Coffee 100Gm",
     "slug": "bru-pure-coffee-100gm",
-    "price": 540.0,
+    "price": 540,
     "image": "/images/products/bru-pure-coffee-100gm.jpg",
     "stock": 1,
     "description": "Bru Pure Coffee 100Gm - Refreshing beverage or health drink.",
@@ -473,13 +506,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 677
+    "rank": 677,
+    "name": "Bru Pure Coffee 100Gm"
   },
   {
     "id": 678,
     "title": "Bru Pure Coffee 25G",
     "slug": "bru-pure-coffee-25g",
-    "price": 135.0,
+    "price": 135,
     "image": "/images/products/bru-pure-coffee-25g.jpg",
     "stock": 3,
     "description": "Bru Pure Coffee 25G - Refreshing beverage or health drink.",
@@ -487,13 +521,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 678
+    "rank": 678,
+    "name": "Bru Pure Coffee 25G"
   },
   {
     "id": 679,
     "title": "Bru Pure Coffee 50G",
     "slug": "bru-pure-coffee-50g",
-    "price": 270.0,
+    "price": 270,
     "image": "/images/products/bru-pure-coffee-50g.jpg",
     "stock": 3,
     "description": "Bru Pure Coffee 50G - Refreshing beverage or health drink.",
@@ -501,13 +536,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 679
+    "rank": 679,
+    "name": "Bru Pure Coffee 50G"
   },
   {
     "id": 741,
     "title": "Cambay Tiger Surmai Steaks 500G",
     "slug": "cambay-tiger-surmai-steaks-500g",
-    "price": 760.0,
+    "price": 760,
     "image": "/images/products/cambay-tiger-surmai-steaks-500g.jpg",
     "stock": 1,
     "description": "Cambay Tiger Surmai Steaks 500G - Refreshing beverage or health drink.",
@@ -515,13 +551,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 741
+    "rank": 741,
+    "name": "Cambay Tiger Surmai Steaks 500G"
   },
   {
     "id": 829,
     "title": "Catch Tea Masala 50G",
     "slug": "catch-tea-masala-50g",
-    "price": 70.0,
+    "price": 70,
     "image": "/images/products/catch-tea-masala-50g.jpg",
     "stock": 2,
     "description": "Catch Tea Masala 50G - Refreshing beverage or health drink.",
@@ -529,13 +566,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 829
+    "rank": 829,
+    "name": "Catch Tea Masala 50G"
   },
   {
     "id": 831,
     "title": "Cavins Just Ice Tea",
     "slug": "cavins-just-ice-tea",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/cavins-just-ice-tea.jpg",
     "stock": 22,
     "description": "Cavins Just Ice Tea - Refreshing beverage or health drink.",
@@ -543,13 +581,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 831
+    "rank": 831,
+    "name": "Cavins Just Ice Tea"
   },
   {
     "id": 832,
     "title": "Cavins Just Milk Shake",
     "slug": "cavins-just-milk-shake",
-    "price": 35.0,
+    "price": 35,
     "image": "/images/products/cavins-just-milk-shake.jpg",
     "stock": 64,
     "description": "Cavins Just Milk Shake - Refreshing beverage or health drink.",
@@ -557,13 +596,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 832
+    "rank": 832,
+    "name": "Cavins Just Milk Shake"
   },
   {
     "id": 834,
     "title": "Cavins Milksake",
     "slug": "cavins-milksake",
-    "price": 40.0,
+    "price": 40,
     "image": "/images/products/cavins-milksake.jpg",
     "stock": 30,
     "description": "Cavins Milksake - Refreshing beverage or health drink.",
@@ -571,13 +611,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 834
+    "rank": 834,
+    "name": "Cavins Milksake"
   },
   {
     "id": 848,
     "title": "Cd Dairy Milk 123G",
     "slug": "cd-dairy-milk-123g",
-    "price": 100.0,
+    "price": 100,
     "image": "/images/products/cd-dairy-milk-123g.jpg",
     "stock": 10,
     "description": "Cd Dairy Milk 123G - Refreshing beverage or health drink.",
@@ -585,13 +626,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 848
+    "rank": 848,
+    "name": "Cd Dairy Milk 123G"
   },
   {
     "id": 849,
     "title": "Cd Dairy Milk 20/-",
     "slug": "cd-dairy-milk-20-",
-    "price": 20.0,
+    "price": 20,
     "image": "/images/products/cd-dairy-milk-20-.jpg",
     "stock": 19,
     "description": "Cd Dairy Milk 20/- - Refreshing beverage or health drink.",
@@ -599,13 +641,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 849
+    "rank": 849,
+    "name": "Cd Dairy Milk 20/-"
   },
   {
     "id": 850,
     "title": "Cd Dairy Milk 46G",
     "slug": "cd-dairy-milk-46g",
-    "price": 50.0,
+    "price": 50,
     "image": "/images/products/cd-dairy-milk-46g.jpg",
     "stock": 8,
     "description": "Cd Dairy Milk 46G - Refreshing beverage or health drink.",
@@ -613,13 +656,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 850
+    "rank": 850,
+    "name": "Cd Dairy Milk 46G"
   },
   {
     "id": 851,
     "title": "Cd Dairy Milk Crackle",
     "slug": "cd-dairy-milk-crackle",
-    "price": 50.0,
+    "price": 50,
     "image": "/images/products/cd-dairy-milk-crackle.jpg",
     "stock": 3,
     "description": "Cd Dairy Milk Crackle - Refreshing beverage or health drink.",
@@ -627,13 +671,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 851
+    "rank": 851,
+    "name": "Cd Dairy Milk Crackle"
   },
   {
     "id": 852,
     "title": "Cd Dairy Milk Crispello",
     "slug": "cd-dairy-milk-crispello",
-    "price": 40.0,
+    "price": 40,
     "image": "/images/products/cd-dairy-milk-crispello.jpg",
     "stock": 23,
     "description": "Cd Dairy Milk Crispello - Refreshing beverage or health drink.",
@@ -641,13 +686,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 852
+    "rank": 852,
+    "name": "Cd Dairy Milk Crispello"
   },
   {
     "id": 853,
     "title": "Cd Dairy Milk Crispello 13G",
     "slug": "cd-dairy-milk-crispello-13g",
-    "price": 10.0,
+    "price": 10,
     "image": "/images/products/cd-dairy-milk-crispello-13g.jpg",
     "stock": 22,
     "description": "Cd Dairy Milk Crispello 13G - Refreshing beverage or health drink.",
@@ -655,13 +701,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 853
+    "rank": 853,
+    "name": "Cd Dairy Milk Crispello 13G"
   },
   {
     "id": 854,
     "title": "Cd Dairy Milk Frut N Nut 36G",
     "slug": "cd-dairy-milk-frut-n-nut-36g",
-    "price": 55.0,
+    "price": 55,
     "image": "/images/products/cd-dairy-milk-frut-n-nut-36g.jpg",
     "stock": 10,
     "description": "Cd Dairy Milk Frut N Nut 36G - Refreshing beverage or health drink.",
@@ -669,13 +716,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 854
+    "rank": 854,
+    "name": "Cd Dairy Milk Frut N Nut 36G"
   },
   {
     "id": 855,
     "title": "Cd Dairy Milk Hazelnut 143G",
     "slug": "cd-dairy-milk-hazelnut-143g",
-    "price": 220.0,
+    "price": 220,
     "image": "/images/products/cd-dairy-milk-hazelnut-143g.jpg",
     "stock": 12,
     "description": "Cd Dairy Milk Hazelnut 143G - Refreshing beverage or health drink.",
@@ -683,13 +731,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 855
+    "rank": 855,
+    "name": "Cd Dairy Milk Hazelnut 143G"
   },
   {
     "id": 856,
     "title": "Cd Dairy Milk Lolly Pop",
     "slug": "cd-dairy-milk-lolly-pop",
-    "price": 5.0,
+    "price": 5,
     "image": "/images/products/cd-dairy-milk-lolly-pop.jpg",
     "stock": 28,
     "description": "Cd Dairy Milk Lolly Pop - Refreshing beverage or health drink.",
@@ -697,13 +746,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 856
+    "rank": 856,
+    "name": "Cd Dairy Milk Lolly Pop"
   },
   {
     "id": 857,
     "title": "Cd Dairy Milk Mini Treats",
     "slug": "cd-dairy-milk-mini-treats",
-    "price": 220.0,
+    "price": 220,
     "image": "/images/products/cd-dairy-milk-mini-treats.jpg",
     "stock": 1,
     "description": "Cd Dairy Milk Mini Treats - Refreshing beverage or health drink.",
@@ -711,13 +761,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 857
+    "rank": 857,
+    "name": "Cd Dairy Milk Mini Treats"
   },
   {
     "id": 858,
     "title": "Cd Dairy Milk Mini Treats 91G",
     "slug": "cd-dairy-milk-mini-treats-91g",
-    "price": 120.0,
+    "price": 120,
     "image": "/images/products/cd-dairy-milk-mini-treats-91g.jpg",
     "stock": 1,
     "description": "Cd Dairy Milk Mini Treats 91G - Refreshing beverage or health drink.",
@@ -725,13 +776,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 858
+    "rank": 858,
+    "name": "Cd Dairy Milk Mini Treats 91G"
   },
   {
     "id": 859,
     "title": "Cd Dairy Milk Mousse 116G",
     "slug": "cd-dairy-milk-mousse-116g",
-    "price": 220.0,
+    "price": 220,
     "image": "/images/products/cd-dairy-milk-mousse-116g.jpg",
     "stock": 12,
     "description": "Cd Dairy Milk Mousse 116G - Refreshing beverage or health drink.",
@@ -739,13 +791,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 859
+    "rank": 859,
+    "name": "Cd Dairy Milk Mousse 116G"
   },
   {
     "id": 860,
     "title": "Cd Dairy Milk Oreo 130G",
     "slug": "cd-dairy-milk-oreo-130g",
-    "price": 220.0,
+    "price": 220,
     "image": "/images/products/cd-dairy-milk-oreo-130g.jpg",
     "stock": 9,
     "description": "Cd Dairy Milk Oreo 130G - Refreshing beverage or health drink.",
@@ -753,13 +806,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 860
+    "rank": 860,
+    "name": "Cd Dairy Milk Oreo 130G"
   },
   {
     "id": 918,
     "title": "Chaokoh Coconut Milk",
     "slug": "chaokoh-coconut-milk",
-    "price": 249.0,
+    "price": 249,
     "image": "/images/products/chaokoh-coconut-milk.jpg",
     "stock": 3,
     "description": "Chaokoh Coconut Milk - Refreshing beverage or health drink.",
@@ -767,13 +821,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 918
+    "rank": 918,
+    "name": "Chaokoh Coconut Milk"
   },
   {
     "id": 992,
     "title": "Chicco Shampoo No Tears",
     "slug": "chicco-shampoo-no-tears",
-    "price": 279.0,
+    "price": 279,
     "image": "/images/products/chicco-shampoo-no-tears.jpg",
     "stock": 10,
     "description": "Chicco Shampoo No Tears - Refreshing beverage or health drink.",
@@ -781,13 +836,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 992
+    "rank": 992,
+    "name": "Chicco Shampoo No Tears"
   },
   {
     "id": 993,
     "title": "Chicco Shampoo No Tears 500Ml",
     "slug": "chicco-shampoo-no-tears-500ml",
-    "price": 599.0,
+    "price": 599,
     "image": "/images/products/chicco-shampoo-no-tears-500ml.jpg",
     "stock": 6,
     "description": "Chicco Shampoo No Tears 500Ml - Refreshing beverage or health drink.",
@@ -795,13 +851,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 993
+    "rank": 993,
+    "name": "Chicco Shampoo No Tears 500Ml"
   },
   {
     "id": 1038,
     "title": "Coco Coconut Milk Drink",
     "slug": "coco-coconut-milk-drink",
-    "price": 125.0,
+    "price": 125,
     "image": "/images/products/coco-coconut-milk-drink.jpg",
     "stock": 22,
     "description": "Coco Coconut Milk Drink - Refreshing beverage or health drink.",
@@ -809,13 +866,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 1038
+    "rank": 1038,
+    "name": "Coco Coconut Milk Drink"
   },
   {
     "id": 1049,
     "title": "Colambian Brew Instant Coffee Espress",
     "slug": "colambian-brew-instant-coffee-espress",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/colambian-brew-instant-coffee-espress.jpg",
     "stock": 1,
     "description": "Colambian Brew Instant Coffee Espress - Refreshing beverage or health drink.",
@@ -823,13 +881,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 1049
+    "rank": 1049,
+    "name": "Colambian Brew Instant Coffee Espress"
   },
   {
     "id": 1070,
     "title": "Colgate Mf Fresh Tea",
     "slug": "colgate-mf-fresh-tea",
-    "price": 185.0,
+    "price": 185,
     "image": "/images/products/colgate-mf-fresh-tea.jpg",
     "stock": 3,
     "description": "Colgate Mf Fresh Tea - Refreshing beverage or health drink.",
@@ -837,13 +896,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 1070
+    "rank": 1070,
+    "name": "Colgate Mf Fresh Tea"
   },
   {
     "id": 1104,
     "title": "Colombian Brew Instent Coffee 50G",
     "slug": "colombian-brew-instent-coffee-50g",
-    "price": 225.0,
+    "price": 225,
     "image": "/images/products/colombian-brew-instent-coffee-50g.jpg",
     "stock": 8,
     "description": "Colombian Brew Instent Coffee 50G - Refreshing beverage or health drink.",
@@ -851,13 +911,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 1104
+    "rank": 1104,
+    "name": "Colombian Brew Instent Coffee 50G"
   },
   {
     "id": 1106,
     "title": "Colombian Filter Coffee 100G",
     "slug": "colombian-filter-coffee-100g",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/colombian-filter-coffee-100g.jpg",
     "stock": 9,
     "description": "Colombian Filter Coffee 100G - Refreshing beverage or health drink.",
@@ -865,13 +926,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 1106
+    "rank": 1106,
+    "name": "Colombian Filter Coffee 100G"
   },
   {
     "id": 1151,
     "title": "Coombs Maple Syrup",
     "slug": "coombs-maple-syrup",
-    "price": 1050.0,
+    "price": 1050,
     "image": "/images/products/coombs-maple-syrup.jpg",
     "stock": 1,
     "description": "Coombs Maple Syrup - Refreshing beverage or health drink.",
@@ -879,13 +941,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 1151
+    "rank": 1151,
+    "name": "Coombs Maple Syrup"
   },
   {
     "id": 1200,
     "title": "D&K Green Tea&Niac Toner",
     "slug": "dk-green-teaniac-toner",
-    "price": 395.0,
+    "price": 395,
     "image": "/images/products/dk-green-teaniac-toner.jpg",
     "stock": 2,
     "description": "D&K Green Tea&Niac Toner - Refreshing beverage or health drink.",
@@ -893,13 +956,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 1200
+    "rank": 1200,
+    "name": "D&K Green Tea&Niac Toner"
   },
   {
     "id": 1253,
     "title": "Davidoff Coffee Origins 899/-",
     "slug": "davidoff-coffee-origins-899-",
-    "price": 899.0,
+    "price": 899,
     "image": "/images/products/davidoff-coffee-origins-899-.jpg",
     "stock": 5,
     "description": "Davidoff Coffee Origins 899/- - Refreshing beverage or health drink.",
@@ -907,13 +971,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 1253
+    "rank": 1253,
+    "name": "Davidoff Coffee Origins 899/-"
   },
   {
     "id": 1256,
     "title": "Davidoff Crema Intense Coffee",
     "slug": "davidoff-crema-intense-coffee",
-    "price": 749.0,
+    "price": 749,
     "image": "/images/products/davidoff-crema-intense-coffee.jpg",
     "stock": 3,
     "description": "Davidoff Crema Intense Coffee - Refreshing beverage or health drink.",
@@ -921,13 +986,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 1256
+    "rank": 1256,
+    "name": "Davidoff Crema Intense Coffee"
   },
   {
     "id": 1257,
     "title": "Davidoff Espressi Coffee",
     "slug": "davidoff-espressi-coffee",
-    "price": 749.0,
+    "price": 749,
     "image": "/images/products/davidoff-espressi-coffee.jpg",
     "stock": 2,
     "description": "Davidoff Espressi Coffee - Refreshing beverage or health drink.",
@@ -935,13 +1001,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 1257
+    "rank": 1257,
+    "name": "Davidoff Espressi Coffee"
   },
   {
     "id": 1258,
     "title": "Davidoff Fine Aroma Coffee",
     "slug": "davidoff-fine-aroma-coffee",
-    "price": 749.0,
+    "price": 749,
     "image": "/images/products/davidoff-fine-aroma-coffee.jpg",
     "stock": 2,
     "description": "Davidoff Fine Aroma Coffee - Refreshing beverage or health drink.",
@@ -949,13 +1016,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 1258
+    "rank": 1258,
+    "name": "Davidoff Fine Aroma Coffee"
   },
   {
     "id": 1259,
     "title": "Davidoff Rich Aroma Coffee",
     "slug": "davidoff-rich-aroma-coffee",
-    "price": 749.0,
+    "price": 749,
     "image": "/images/products/davidoff-rich-aroma-coffee.jpg",
     "stock": 1,
     "description": "Davidoff Rich Aroma Coffee - Refreshing beverage or health drink.",
@@ -963,13 +1031,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 1259
+    "rank": 1259,
+    "name": "Davidoff Rich Aroma Coffee"
   },
   {
     "id": 1265,
     "title": "Delmonte Chocolate Syrup 600G",
     "slug": "delmonte-chocolate-syrup-600g",
-    "price": 175.0,
+    "price": 175,
     "image": "/images/products/delmonte-chocolate-syrup-600g.jpg",
     "stock": 3,
     "description": "Delmonte Chocolate Syrup 600G - Refreshing beverage or health drink.",
@@ -977,13 +1046,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 1265
+    "rank": 1265,
+    "name": "Delmonte Chocolate Syrup 600G"
   },
   {
     "id": 1344,
     "title": "Devan'S Coffee Powder 500G",
     "slug": "devans-coffee-powder-500g",
-    "price": 890.0,
+    "price": 890,
     "image": "/images/products/devans-coffee-powder-500g.jpg",
     "stock": 6,
     "description": "Devan'S Coffee Powder 500G - Refreshing beverage or health drink.",
@@ -991,13 +1061,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 1344
+    "rank": 1344,
+    "name": "Devan'S Coffee Powder 500G"
   },
   {
     "id": 1515,
     "title": "Dubblin Milk&Cookies Mug 350Ml",
     "slug": "dubblin-milkcookies-mug-350ml",
-    "price": 469.0,
+    "price": 469,
     "image": "/images/products/dubblin-milkcookies-mug-350ml.jpg",
     "stock": 4,
     "description": "Dubblin Milk&Cookies Mug 350Ml - Refreshing beverage or health drink.",
@@ -1005,13 +1076,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 1515
+    "rank": 1515,
+    "name": "Dubblin Milk&Cookies Mug 350Ml"
   },
   {
     "id": 1555,
     "title": "English Oven Milk Bread",
     "slug": "english-oven-milk-bread",
-    "price": 50.0,
+    "price": 50,
     "image": "/images/products/english-oven-milk-bread.jpg",
     "stock": 2,
     "description": "English Oven Milk Bread - Refreshing beverage or health drink.",
@@ -1019,13 +1091,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 1555
+    "rank": 1555,
+    "name": "English Oven Milk Bread"
   },
   {
     "id": 1575,
     "title": "Epigamia Tp Shake Coffee",
     "slug": "epigamia-tp-shake-coffee",
-    "price": 150.0,
+    "price": 150,
     "image": "/images/products/epigamia-tp-shake-coffee.jpg",
     "stock": 6,
     "description": "Epigamia Tp Shake Coffee - Refreshing beverage or health drink.",
@@ -1033,13 +1106,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 1575
+    "rank": 1575,
+    "name": "Epigamia Tp Shake Coffee"
   },
   {
     "id": 1761,
     "title": "Galaxy Smooth Milk 110G",
     "slug": "galaxy-smooth-milk-110g",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/galaxy-smooth-milk-110g.jpg",
     "stock": 9,
     "description": "Galaxy Smooth Milk 110G - Refreshing beverage or health drink.",
@@ -1047,13 +1121,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 1761
+    "rank": 1761,
+    "name": "Galaxy Smooth Milk 110G"
   },
   {
     "id": 1903,
     "title": "Girnar Detox Green Tea",
     "slug": "girnar-detox-green-tea",
-    "price": 330.0,
+    "price": 330,
     "image": "/images/products/girnar-detox-green-tea.jpg",
     "stock": 6,
     "description": "Girnar Detox Green Tea - Refreshing beverage or health drink.",
@@ -1061,13 +1136,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 1903
+    "rank": 1903,
+    "name": "Girnar Detox Green Tea"
   },
   {
     "id": 1979,
     "title": "Granos Blu Tea",
     "slug": "granos-blu-tea",
-    "price": 349.0,
+    "price": 349,
     "image": "/images/products/granos-blu-tea.jpg",
     "stock": 2,
     "description": "Granos Blu Tea - Refreshing beverage or health drink.",
@@ -1075,13 +1151,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 1979
+    "rank": 1979,
+    "name": "Granos Blu Tea"
   },
   {
     "id": 1981,
     "title": "Granos Detox Tea",
     "slug": "granos-detox-tea",
-    "price": 349.0,
+    "price": 349,
     "image": "/images/products/granos-detox-tea.jpg",
     "stock": 2,
     "description": "Granos Detox Tea - Refreshing beverage or health drink.",
@@ -1089,13 +1166,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 1981
+    "rank": 1981,
+    "name": "Granos Detox Tea"
   },
   {
     "id": 1982,
     "title": "Granos Green Tea",
     "slug": "granos-green-tea",
-    "price": 299.0,
+    "price": 299,
     "image": "/images/products/granos-green-tea.jpg",
     "stock": 2,
     "description": "Granos Green Tea - Refreshing beverage or health drink.",
@@ -1103,13 +1181,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 1982
+    "rank": 1982,
+    "name": "Granos Green Tea"
   },
   {
     "id": 1983,
     "title": "Granos Jasmin Tea",
     "slug": "granos-jasmin-tea",
-    "price": 299.0,
+    "price": 299,
     "image": "/images/products/granos-jasmin-tea.jpg",
     "stock": 2,
     "description": "Granos Jasmin Tea - Refreshing beverage or health drink.",
@@ -1117,13 +1196,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 1983
+    "rank": 1983,
+    "name": "Granos Jasmin Tea"
   },
   {
     "id": 1986,
     "title": "Granos Spearmint Tea",
     "slug": "granos-spearmint-tea",
-    "price": 299.0,
+    "price": 299,
     "image": "/images/products/granos-spearmint-tea.jpg",
     "stock": 2,
     "description": "Granos Spearmint Tea - Refreshing beverage or health drink.",
@@ -1131,13 +1211,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 1986
+    "rank": 1986,
+    "name": "Granos Spearmint Tea"
   },
   {
     "id": 2232,
     "title": "Hershey'S Choco Syrup 623G",
     "slug": "hersheys-choco-syrup-623g",
-    "price": 250.0,
+    "price": 250,
     "image": "/images/products/hersheys-choco-syrup-623g.jpg",
     "stock": 2,
     "description": "Hershey'S Choco Syrup 623G - Refreshing beverage or health drink.",
@@ -1145,13 +1226,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 2232
+    "rank": 2232,
+    "name": "Hershey'S Choco Syrup 623G"
   },
   {
     "id": 2233,
     "title": "Hershey'S Chocolate Syrup",
     "slug": "hersheys-chocolate-syrup",
-    "price": 110.0,
+    "price": 110,
     "image": "/images/products/hersheys-chocolate-syrup.jpg",
     "stock": 4,
     "description": "Hershey'S Chocolate Syrup - Refreshing beverage or health drink.",
@@ -1159,13 +1241,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 2233
+    "rank": 2233,
+    "name": "Hershey'S Chocolate Syrup"
   },
   {
     "id": 2236,
     "title": "Hershey'S Creamy Milk Chocolate",
     "slug": "hersheys-creamy-milk-chocolate",
-    "price": 140.0,
+    "price": 140,
     "image": "/images/products/hersheys-creamy-milk-chocolate.jpg",
     "stock": 7,
     "description": "Hershey'S Creamy Milk Chocolate - Refreshing beverage or health drink.",
@@ -1173,13 +1256,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 2236
+    "rank": 2236,
+    "name": "Hershey'S Creamy Milk Chocolate"
   },
   {
     "id": 2244,
     "title": "Hershey'S Strawberry Syrup",
     "slug": "hersheys-strawberry-syrup",
-    "price": 115.0,
+    "price": 115,
     "image": "/images/products/hersheys-strawberry-syrup.jpg",
     "stock": 3,
     "description": "Hershey'S Strawberry Syrup - Refreshing beverage or health drink.",
@@ -1187,13 +1271,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 2244
+    "rank": 2244,
+    "name": "Hershey'S Strawberry Syrup"
   },
   {
     "id": 2251,
     "title": "Hi-Luxe Fringe Juice Glass 6P",
     "slug": "hi-luxe-fringe-juice-glass-6p",
-    "price": 630.0,
+    "price": 630,
     "image": "/images/products/hi-luxe-fringe-juice-glass-6p.jpg",
     "stock": 2,
     "description": "Hi-Luxe Fringe Juice Glass 6P - Refreshing beverage or health drink.",
@@ -1201,13 +1286,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 2251
+    "rank": 2251,
+    "name": "Hi-Luxe Fringe Juice Glass 6P"
   },
   {
     "id": 2291,
     "title": "Hitkari Belgiri Syrup 700Ml",
     "slug": "hitkari-belgiri-syrup-700ml",
-    "price": 205.0,
+    "price": 205,
     "image": "/images/products/hitkari-belgiri-syrup-700ml.jpg",
     "stock": 3,
     "description": "Hitkari Belgiri Syrup 700Ml - Refreshing beverage or health drink.",
@@ -1215,13 +1301,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 2291
+    "rank": 2291,
+    "name": "Hitkari Belgiri Syrup 700Ml"
   },
   {
     "id": 2293,
     "title": "Hitkari Butterscotch Syrup 700Ml",
     "slug": "hitkari-butterscotch-syrup-700ml",
-    "price": 205.0,
+    "price": 205,
     "image": "/images/products/hitkari-butterscotch-syrup-700ml.jpg",
     "stock": 3,
     "description": "Hitkari Butterscotch Syrup 700Ml - Refreshing beverage or health drink.",
@@ -1229,13 +1316,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 2293
+    "rank": 2293,
+    "name": "Hitkari Butterscotch Syrup 700Ml"
   },
   {
     "id": 2302,
     "title": "Hitkari Pineapple Syrup 700Ml",
     "slug": "hitkari-pineapple-syrup-700ml",
-    "price": 205.0,
+    "price": 205,
     "image": "/images/products/hitkari-pineapple-syrup-700ml.jpg",
     "stock": 2,
     "description": "Hitkari Pineapple Syrup 700Ml - Refreshing beverage or health drink.",
@@ -1243,13 +1331,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 2302
+    "rank": 2302,
+    "name": "Hitkari Pineapple Syrup 700Ml"
   },
   {
     "id": 2310,
     "title": "Hitkari Strawberry Syrup 700Ml",
     "slug": "hitkari-strawberry-syrup-700ml",
-    "price": 205.0,
+    "price": 205,
     "image": "/images/products/hitkari-strawberry-syrup-700ml.jpg",
     "stock": 3,
     "description": "Hitkari Strawberry Syrup 700Ml - Refreshing beverage or health drink.",
@@ -1257,13 +1346,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 2310
+    "rank": 2310,
+    "name": "Hitkari Strawberry Syrup 700Ml"
   },
   {
     "id": 2312,
     "title": "Hitkary Misty Lychee Syrup 700Ml",
     "slug": "hitkary-misty-lychee-syrup-700ml",
-    "price": 205.0,
+    "price": 205,
     "image": "/images/products/hitkary-misty-lychee-syrup-700ml.jpg",
     "stock": 3,
     "description": "Hitkary Misty Lychee Syrup 700Ml - Refreshing beverage or health drink.",
@@ -1271,13 +1361,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 2312
+    "rank": 2312,
+    "name": "Hitkary Misty Lychee Syrup 700Ml"
   },
   {
     "id": 2325,
     "title": "Horlicks 200Gm",
     "slug": "horlicks-200gm",
-    "price": 124.0,
+    "price": 124,
     "image": "/images/products/horlicks-200gm.jpg",
     "stock": 3,
     "description": "Horlicks 200Gm - Refreshing beverage or health drink.",
@@ -1285,13 +1376,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 2325
+    "rank": 2325,
+    "name": "Horlicks 200Gm"
   },
   {
     "id": 2326,
     "title": "Horlicks 500Gm",
     "slug": "horlicks-500gm",
-    "price": 294.0,
+    "price": 294,
     "image": "/images/products/horlicks-500gm.jpg",
     "stock": 2,
     "description": "Horlicks 500Gm - Refreshing beverage or health drink.",
@@ -1299,13 +1391,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 2326
+    "rank": 2326,
+    "name": "Horlicks 500Gm"
   },
   {
     "id": 2603,
     "title": "Jivo Healthy Wheat Grass Juice 200Ml",
     "slug": "jivo-healthy-wheat-grass-juice-200ml",
-    "price": 50.0,
+    "price": 50,
     "image": "/images/products/jivo-healthy-wheat-grass-juice-200ml.jpg",
     "stock": 39,
     "description": "Jivo Healthy Wheat Grass Juice 200Ml - Refreshing beverage or health drink.",
@@ -1313,13 +1406,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 2603
+    "rank": 2603,
+    "name": "Jivo Healthy Wheat Grass Juice 200Ml"
   },
   {
     "id": 2659,
     "title": "Johnson'S Baby  No Tears Shampoo 200Ml",
     "slug": "johnsons-baby-no-tears-shampoo-200ml",
-    "price": 240.0,
+    "price": 240,
     "image": "/images/products/johnsons-baby-no-tears-shampoo-200ml.jpg",
     "stock": 3,
     "description": "Johnson'S Baby  No Tears Shampoo 200Ml - Refreshing beverage or health drink.",
@@ -1327,13 +1421,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 2659
+    "rank": 2659,
+    "name": "Johnson'S Baby  No Tears Shampoo 200Ml"
   },
   {
     "id": 2665,
     "title": "Johnson'S Baby Milk Soap 75G",
     "slug": "johnsons-baby-milk-soap-75g",
-    "price": 75.0,
+    "price": 75,
     "image": "/images/products/johnsons-baby-milk-soap-75g.jpg",
     "stock": 5,
     "description": "Johnson'S Baby Milk Soap 75G - Refreshing beverage or health drink.",
@@ -1341,13 +1436,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 2665
+    "rank": 2665,
+    "name": "Johnson'S Baby Milk Soap 75G"
   },
   {
     "id": 2666,
     "title": "Johnson'S Baby Milk+Rice Cream 100G",
     "slug": "johnsons-baby-milkrice-cream-100g",
-    "price": 200.0,
+    "price": 200,
     "image": "/images/products/johnsons-baby-milkrice-cream-100g.jpg",
     "stock": 4,
     "description": "Johnson'S Baby Milk+Rice Cream 100G - Refreshing beverage or health drink.",
@@ -1355,13 +1451,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 2666
+    "rank": 2666,
+    "name": "Johnson'S Baby Milk+Rice Cream 100G"
   },
   {
     "id": 2667,
     "title": "Johnson'S Baby No Tears Shampoo 100Ml.",
     "slug": "johnsons-baby-no-tears-shampoo-100ml",
-    "price": 120.0,
+    "price": 120,
     "image": "/images/products/johnsons-baby-no-tears-shampoo-100ml.jpg",
     "stock": 5,
     "description": "Johnson'S Baby No Tears Shampoo 100Ml. - Refreshing beverage or health drink.",
@@ -1369,13 +1466,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 2667
+    "rank": 2667,
+    "name": "Johnson'S Baby No Tears Shampoo 100Ml."
   },
   {
     "id": 2684,
     "title": "Johnson'S Milk+Rice Cream 50G",
     "slug": "johnsons-milkrice-cream-50g",
-    "price": 0.0,
+    "price": 0,
     "image": "/images/products/johnsons-milkrice-cream-50g.jpg",
     "stock": 5,
     "description": "Johnson'S Milk+Rice Cream 50G - Refreshing beverage or health drink.",
@@ -1383,13 +1481,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 2684
+    "rank": 2684,
+    "name": "Johnson'S Milk+Rice Cream 50G"
   },
   {
     "id": 2685,
     "title": "Johnson'S Milk+Rice Lotion 200Ml",
     "slug": "johnsons-milkrice-lotion-200ml",
-    "price": 225.0,
+    "price": 225,
     "image": "/images/products/johnsons-milkrice-lotion-200ml.jpg",
     "stock": 3,
     "description": "Johnson'S Milk+Rice Lotion 200Ml - Refreshing beverage or health drink.",
@@ -1397,13 +1496,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 2685
+    "rank": 2685,
+    "name": "Johnson'S Milk+Rice Lotion 200Ml"
   },
   {
     "id": 2705,
     "title": "Jovees Tea Tree Face Wash",
     "slug": "jovees-tea-tree-face-wash",
-    "price": 195.0,
+    "price": 195,
     "image": "/images/products/jovees-tea-tree-face-wash.jpg",
     "stock": 9,
     "description": "Jovees Tea Tree Face Wash - Refreshing beverage or health drink.",
@@ -1411,13 +1511,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 2705
+    "rank": 2705,
+    "name": "Jovees Tea Tree Face Wash"
   },
   {
     "id": 2749,
     "title": "Kara Coconut Milk 200Ml",
     "slug": "kara-coconut-milk-200ml",
-    "price": 80.0,
+    "price": 80,
     "image": "/images/products/kara-coconut-milk-200ml.jpg",
     "stock": 20,
     "description": "Kara Coconut Milk 200Ml - Refreshing beverage or health drink.",
@@ -1425,13 +1526,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 2749
+    "rank": 2749,
+    "name": "Kara Coconut Milk 200Ml"
   },
   {
     "id": 2804,
     "title": "Keya Lemon Juice",
     "slug": "keya-lemon-juice",
-    "price": 79.0,
+    "price": 79,
     "image": "/images/products/keya-lemon-juice.jpg",
     "stock": 4,
     "description": "Keya Lemon Juice - Refreshing beverage or health drink.",
@@ -1439,13 +1541,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 2804
+    "rank": 2804,
+    "name": "Keya Lemon Juice"
   },
   {
     "id": 2992,
     "title": "Lakme Cleansing Milk 120Ml",
     "slug": "lakme-cleansing-milk-120ml",
-    "price": 299.0,
+    "price": 299,
     "image": "/images/products/lakme-cleansing-milk-120ml.jpg",
     "stock": 2,
     "description": "Lakme Cleansing Milk 120Ml - Refreshing beverage or health drink.",
@@ -1453,13 +1556,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 2992
+    "rank": 2992,
+    "name": "Lakme Cleansing Milk 120Ml"
   },
   {
     "id": 2993,
     "title": "Lakme Cleansing Milk 60Ml",
     "slug": "lakme-cleansing-milk-60ml",
-    "price": 150.0,
+    "price": 150,
     "image": "/images/products/lakme-cleansing-milk-60ml.jpg",
     "stock": 2,
     "description": "Lakme Cleansing Milk 60Ml - Refreshing beverage or health drink.",
@@ -1467,13 +1571,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 2993
+    "rank": 2993,
+    "name": "Lakme Cleansing Milk 60Ml"
   },
   {
     "id": 3001,
     "title": "Lakme Peach Milk Mois 120Ml",
     "slug": "lakme-peach-milk-mois-120ml",
-    "price": 274.0,
+    "price": 274,
     "image": "/images/products/lakme-peach-milk-mois-120ml.jpg",
     "stock": 3,
     "description": "Lakme Peach Milk Mois 120Ml - Refreshing beverage or health drink.",
@@ -1481,13 +1586,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 3001
+    "rank": 3001,
+    "name": "Lakme Peach Milk Mois 120Ml"
   },
   {
     "id": 3002,
     "title": "Lakme Peach Milk Mois 200Ml",
     "slug": "lakme-peach-milk-mois-200ml",
-    "price": 435.0,
+    "price": 435,
     "image": "/images/products/lakme-peach-milk-mois-200ml.jpg",
     "stock": 3,
     "description": "Lakme Peach Milk Mois 200Ml - Refreshing beverage or health drink.",
@@ -1495,13 +1601,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 3002
+    "rank": 3002,
+    "name": "Lakme Peach Milk Mois 200Ml"
   },
   {
     "id": 3003,
     "title": "Lakme Peach Milk Mois 60Ml",
     "slug": "lakme-peach-milk-mois-60ml",
-    "price": 135.0,
+    "price": 135,
     "image": "/images/products/lakme-peach-milk-mois-60ml.jpg",
     "stock": 3,
     "description": "Lakme Peach Milk Mois 60Ml - Refreshing beverage or health drink.",
@@ -1509,13 +1616,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 3003
+    "rank": 3003,
+    "name": "Lakme Peach Milk Mois 60Ml"
   },
   {
     "id": 3004,
     "title": "Lakme Peach Milk Spf 24 120Ml",
     "slug": "lakme-peach-milk-spf-24-120ml",
-    "price": 299.0,
+    "price": 299,
     "image": "/images/products/lakme-peach-milk-spf-24-120ml.jpg",
     "stock": 2,
     "description": "Lakme Peach Milk Spf 24 120Ml - Refreshing beverage or health drink.",
@@ -1523,13 +1631,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 3004
+    "rank": 3004,
+    "name": "Lakme Peach Milk Spf 24 120Ml"
   },
   {
     "id": 3005,
     "title": "Lakme Peach Milk Spf 24 200Ml",
     "slug": "lakme-peach-milk-spf-24-200ml",
-    "price": 520.0,
+    "price": 520,
     "image": "/images/products/lakme-peach-milk-spf-24-200ml.jpg",
     "stock": 3,
     "description": "Lakme Peach Milk Spf 24 200Ml - Refreshing beverage or health drink.",
@@ -1537,13 +1646,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 3005
+    "rank": 3005,
+    "name": "Lakme Peach Milk Spf 24 200Ml"
   },
   {
     "id": 3008,
     "title": "Lakme Ph Milk Soft Cream 100G",
     "slug": "lakme-ph-milk-soft-cream-100g",
-    "price": 284.0,
+    "price": 284,
     "image": "/images/products/lakme-ph-milk-soft-cream-100g.jpg",
     "stock": 3,
     "description": "Lakme Ph Milk Soft Cream 100G - Refreshing beverage or health drink.",
@@ -1551,13 +1661,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 3008
+    "rank": 3008,
+    "name": "Lakme Ph Milk Soft Cream 100G"
   },
   {
     "id": 3009,
     "title": "Lakme Ph Milk Soft Cream 50G",
     "slug": "lakme-ph-milk-soft-cream-50g",
-    "price": 142.0,
+    "price": 142,
     "image": "/images/products/lakme-ph-milk-soft-cream-50g.jpg",
     "stock": 2,
     "description": "Lakme Ph Milk Soft Cream 50G - Refreshing beverage or health drink.",
@@ -1565,13 +1676,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 3009
+    "rank": 3009,
+    "name": "Lakme Ph Milk Soft Cream 50G"
   },
   {
     "id": 3122,
     "title": "Lipton Green Tea 10No",
     "slug": "lipton-green-tea-10no",
-    "price": 75.0,
+    "price": 75,
     "image": "/images/products/lipton-green-tea-10no.jpg",
     "stock": 2,
     "description": "Lipton Green Tea 10No - Refreshing beverage or health drink.",
@@ -1579,13 +1691,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 3122
+    "rank": 3122,
+    "name": "Lipton Green Tea 10No"
   },
   {
     "id": 3123,
     "title": "Lipton Green Tea 25No",
     "slug": "lipton-green-tea-25no",
-    "price": 180.0,
+    "price": 180,
     "image": "/images/products/lipton-green-tea-25no.jpg",
     "stock": 8,
     "description": "Lipton Green Tea 25No - Refreshing beverage or health drink.",
@@ -1593,13 +1706,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 3123
+    "rank": 3123,
+    "name": "Lipton Green Tea 25No"
   },
   {
     "id": 3124,
     "title": "Lipton Green Tea Clr&L 100G",
     "slug": "lipton-green-tea-clrl-100g",
-    "price": 170.0,
+    "price": 170,
     "image": "/images/products/lipton-green-tea-clrl-100g.jpg",
     "stock": 2,
     "description": "Lipton Green Tea Clr&L 100G - Refreshing beverage or health drink.",
@@ -1607,13 +1721,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 3124
+    "rank": 3124,
+    "name": "Lipton Green Tea Clr&L 100G"
   },
   {
     "id": 3125,
     "title": "Lipton Green Tea Clr&L 250G",
     "slug": "lipton-green-tea-clrl-250g",
-    "price": 410.0,
+    "price": 410,
     "image": "/images/products/lipton-green-tea-clrl-250g.jpg",
     "stock": 2,
     "description": "Lipton Green Tea Clr&L 250G - Refreshing beverage or health drink.",
@@ -1621,13 +1736,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 3125
+    "rank": 3125,
+    "name": "Lipton Green Tea Clr&L 250G"
   },
   {
     "id": 3219,
     "title": "Lotus Tea Tree Fw",
     "slug": "lotus-tea-tree-fw",
-    "price": 175.0,
+    "price": 175,
     "image": "/images/products/lotus-tea-tree-fw.jpg",
     "stock": 2,
     "description": "Lotus Tea Tree Fw - Refreshing beverage or health drink.",
@@ -1635,13 +1751,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 3219
+    "rank": 3219,
+    "name": "Lotus Tea Tree Fw"
   },
   {
     "id": 3225,
     "title": "Lotus Wg Cleansing Milk",
     "slug": "lotus-wg-cleansing-milk",
-    "price": 310.0,
+    "price": 310,
     "image": "/images/products/lotus-wg-cleansing-milk.jpg",
     "stock": 2,
     "description": "Lotus Wg Cleansing Milk - Refreshing beverage or health drink.",
@@ -1649,13 +1766,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 3225
+    "rank": 3225,
+    "name": "Lotus Wg Cleansing Milk"
   },
   {
     "id": 3306,
     "title": "Mala'S Kacha Aam Syrup 750Ml",
     "slug": "malas-kacha-aam-syrup-750ml",
-    "price": 160.0,
+    "price": 160,
     "image": "/images/products/malas-kacha-aam-syrup-750ml.jpg",
     "stock": 2,
     "description": "Mala'S Kacha Aam Syrup 750Ml - Refreshing beverage or health drink.",
@@ -1663,13 +1781,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 3306
+    "rank": 3306,
+    "name": "Mala'S Kacha Aam Syrup 750Ml"
   },
   {
     "id": 3307,
     "title": "Mala'S Kala Khatta Syrup 750Ml",
     "slug": "malas-kala-khatta-syrup-750ml",
-    "price": 160.0,
+    "price": 160,
     "image": "/images/products/malas-kala-khatta-syrup-750ml.jpg",
     "stock": 2,
     "description": "Mala'S Kala Khatta Syrup 750Ml - Refreshing beverage or health drink.",
@@ -1677,13 +1796,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 3307
+    "rank": 3307,
+    "name": "Mala'S Kala Khatta Syrup 750Ml"
   },
   {
     "id": 3312,
     "title": "Mala'S Pineapple Syrup 750Ml",
     "slug": "malas-pineapple-syrup-750ml",
-    "price": 160.0,
+    "price": 160,
     "image": "/images/products/malas-pineapple-syrup-750ml.jpg",
     "stock": 2,
     "description": "Mala'S Pineapple Syrup 750Ml - Refreshing beverage or health drink.",
@@ -1691,13 +1811,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 3312
+    "rank": 3312,
+    "name": "Mala'S Pineapple Syrup 750Ml"
   },
   {
     "id": 3365,
     "title": "Maraearth Tea Tree Fs",
     "slug": "maraearth-tea-tree-fs",
-    "price": 349.0,
+    "price": 349,
     "image": "/images/products/maraearth-tea-tree-fs.jpg",
     "stock": 3,
     "description": "Maraearth Tea Tree Fs - Refreshing beverage or health drink.",
@@ -1705,13 +1826,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 3365
+    "rank": 3365,
+    "name": "Maraearth Tea Tree Fs"
   },
   {
     "id": 3366,
     "title": "Maraearth Tea Tree Fw",
     "slug": "maraearth-tea-tree-fw",
-    "price": 269.0,
+    "price": 269,
     "image": "/images/products/maraearth-tea-tree-fw.jpg",
     "stock": 3,
     "description": "Maraearth Tea Tree Fw - Refreshing beverage or health drink.",
@@ -1719,13 +1841,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 3366
+    "rank": 3366,
+    "name": "Maraearth Tea Tree Fw"
   },
   {
     "id": 3367,
     "title": "Maraearth Tea Tree Shampoo",
     "slug": "maraearth-tea-tree-shampoo",
-    "price": 349.0,
+    "price": 349,
     "image": "/images/products/maraearth-tea-tree-shampoo.jpg",
     "stock": 3,
     "description": "Maraearth Tea Tree Shampoo - Refreshing beverage or health drink.",
@@ -1733,13 +1856,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 3367
+    "rank": 3367,
+    "name": "Maraearth Tea Tree Shampoo"
   },
   {
     "id": 3461,
     "title": "Md Full Cream Milk",
     "slug": "md-full-cream-milk",
-    "price": 35.0,
+    "price": 35,
     "image": "/images/products/md-full-cream-milk.jpg",
     "stock": 6,
     "description": "Md Full Cream Milk - Refreshing beverage or health drink.",
@@ -1747,13 +1871,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 3461
+    "rank": 3461,
+    "name": "Md Full Cream Milk"
   },
   {
     "id": 3518,
     "title": "Milka Choclate 100G",
     "slug": "milka-choclate-100g",
-    "price": 250.0,
+    "price": 250,
     "image": "/images/products/milka-choclate-100g.jpg",
     "stock": 4,
     "description": "Milka Choclate 100G - Refreshing beverage or health drink.",
@@ -1761,13 +1886,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 3518
+    "rank": 3518,
+    "name": "Milka Choclate 100G"
   },
   {
     "id": 3519,
     "title": "Milka Choclate 100G",
     "slug": "milka-choclate-100g",
-    "price": 250.0,
+    "price": 250,
     "image": "/images/products/milka-choclate-100g.jpg",
     "stock": -2,
     "description": "Milka Choclate 100G - Refreshing beverage or health drink.",
@@ -1775,13 +1901,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 3519
+    "rank": 3519,
+    "name": "Milka Choclate 100G"
   },
   {
     "id": 3520,
     "title": "Milka Choclate 270G",
     "slug": "milka-choclate-270g",
-    "price": 700.0,
+    "price": 700,
     "image": "/images/products/milka-choclate-270g.jpg",
     "stock": 4,
     "description": "Milka Choclate 270G - Refreshing beverage or health drink.",
@@ -1789,13 +1916,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 3520
+    "rank": 3520,
+    "name": "Milka Choclate 270G"
   },
   {
     "id": 3539,
     "title": "Monster Energy Drink 500Ml",
     "slug": "monster-energy-drink-500ml",
-    "price": 220.0,
+    "price": 220,
     "image": "/images/products/monster-energy-drink-500ml.jpg",
     "stock": -3,
     "description": "Monster Energy Drink 500Ml - Refreshing beverage or health drink.",
@@ -1803,13 +1931,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 3539
+    "rank": 3539,
+    "name": "Monster Energy Drink 500Ml"
   },
   {
     "id": 3540,
     "title": "Monster Energy Drink 500Ml",
     "slug": "monster-energy-drink-500ml",
-    "price": 250.0,
+    "price": 250,
     "image": "/images/products/monster-energy-drink-500ml.jpg",
     "stock": 12,
     "description": "Monster Energy Drink 500Ml - Refreshing beverage or health drink.",
@@ -1817,13 +1946,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 3540
+    "rank": 3540,
+    "name": "Monster Energy Drink 500Ml"
   },
   {
     "id": 3802,
     "title": "Nescafe Alta Rica Coffee",
     "slug": "nescafe-alta-rica-coffee",
-    "price": 899.0,
+    "price": 899,
     "image": "/images/products/nescafe-alta-rica-coffee.jpg",
     "stock": 4,
     "description": "Nescafe Alta Rica Coffee - Refreshing beverage or health drink.",
@@ -1831,13 +1961,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 3802
+    "rank": 3802,
+    "name": "Nescafe Alta Rica Coffee"
   },
   {
     "id": 3810,
     "title": "Nescafe Gold 185Gm Coffee",
     "slug": "nescafe-gold-185gm-coffee",
-    "price": 1150.0,
+    "price": 1150,
     "image": "/images/products/nescafe-gold-185gm-coffee.jpg",
     "stock": 1,
     "description": "Nescafe Gold 185Gm Coffee - Refreshing beverage or health drink.",
@@ -1845,13 +1976,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 3810
+    "rank": 3810,
+    "name": "Nescafe Gold 185Gm Coffee"
   },
   {
     "id": 3812,
     "title": "Nescafe Gold Decaf Coffee",
     "slug": "nescafe-gold-decaf-coffee",
-    "price": 899.0,
+    "price": 899,
     "image": "/images/products/nescafe-gold-decaf-coffee.jpg",
     "stock": 1,
     "description": "Nescafe Gold Decaf Coffee - Refreshing beverage or health drink.",
@@ -1859,13 +1991,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 3812
+    "rank": 3812,
+    "name": "Nescafe Gold Decaf Coffee"
   },
   {
     "id": 3813,
     "title": "Nescafe Gold Espresso Coffee",
     "slug": "nescafe-gold-espresso-coffee",
-    "price": 899.0,
+    "price": 899,
     "image": "/images/products/nescafe-gold-espresso-coffee.jpg",
     "stock": 4,
     "description": "Nescafe Gold Espresso Coffee - Refreshing beverage or health drink.",
@@ -1873,13 +2006,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 3813
+    "rank": 3813,
+    "name": "Nescafe Gold Espresso Coffee"
   },
   {
     "id": 3826,
     "title": "Nestle Coffee Mate",
     "slug": "nestle-coffee-mate",
-    "price": 325.0,
+    "price": 325,
     "image": "/images/products/nestle-coffee-mate.jpg",
     "stock": 2,
     "description": "Nestle Coffee Mate - Refreshing beverage or health drink.",
@@ -1887,13 +2021,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 3826
+    "rank": 3826,
+    "name": "Nestle Coffee Mate"
   },
   {
     "id": 3830,
     "title": "Nestle Ice Tea Lemon 400G",
     "slug": "nestle-ice-tea-lemon-400g",
-    "price": 250.0,
+    "price": 250,
     "image": "/images/products/nestle-ice-tea-lemon-400g.jpg",
     "stock": 3,
     "description": "Nestle Ice Tea Lemon 400G - Refreshing beverage or health drink.",
@@ -1901,13 +2036,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 3830
+    "rank": 3830,
+    "name": "Nestle Ice Tea Lemon 400G"
   },
   {
     "id": 3831,
     "title": "Nestle Milkmaid 380G",
     "slug": "nestle-milkmaid-380g",
-    "price": 149.0,
+    "price": 149,
     "image": "/images/products/nestle-milkmaid-380g.jpg",
     "stock": 1,
     "description": "Nestle Milkmaid 380G - Refreshing beverage or health drink.",
@@ -1915,13 +2051,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 3831
+    "rank": 3831,
+    "name": "Nestle Milkmaid 380G"
   },
   {
     "id": 3832,
     "title": "Nestle Milkmaid Mini 210G",
     "slug": "nestle-milkmaid-mini-210g",
-    "price": 89.0,
+    "price": 89,
     "image": "/images/products/nestle-milkmaid-mini-210g.jpg",
     "stock": 5,
     "description": "Nestle Milkmaid Mini 210G - Refreshing beverage or health drink.",
@@ -1929,13 +2066,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 3832
+    "rank": 3832,
+    "name": "Nestle Milkmaid Mini 210G"
   },
   {
     "id": 3833,
     "title": "Nestle Milky Bar 12.5G",
     "slug": "nestle-milky-bar-125g",
-    "price": 10.0,
+    "price": 10,
     "image": "/images/products/nestle-milky-bar-125g.jpg",
     "stock": 14,
     "description": "Nestle Milky Bar 12.5G - Refreshing beverage or health drink.",
@@ -1943,13 +2081,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 3833
+    "rank": 3833,
+    "name": "Nestle Milky Bar 12.5G"
   },
   {
     "id": 3834,
     "title": "Nestle Milkybar 22.5G",
     "slug": "nestle-milkybar-225g",
-    "price": 20.0,
+    "price": 20,
     "image": "/images/products/nestle-milkybar-225g.jpg",
     "stock": 15,
     "description": "Nestle Milkybar 22.5G - Refreshing beverage or health drink.",
@@ -1957,13 +2096,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 3834
+    "rank": 3834,
+    "name": "Nestle Milkybar 22.5G"
   },
   {
     "id": 3846,
     "title": "Neu Hydro Boost Water Gel 50G",
     "slug": "neu-hydro-boost-water-gel-50g",
-    "price": 1150.0,
+    "price": 1150,
     "image": "/images/products/neu-hydro-boost-water-gel-50g.jpg",
     "stock": 2,
     "description": "Neu Hydro Boost Water Gel 50G - Refreshing beverage or health drink.",
@@ -1971,13 +2111,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 3846
+    "rank": 3846,
+    "name": "Neu Hydro Boost Water Gel 50G"
   },
   {
     "id": 3865,
     "title": "Nivea Body Milk 200Ml",
     "slug": "nivea-body-milk-200ml",
-    "price": 249.0,
+    "price": 249,
     "image": "/images/products/nivea-body-milk-200ml.jpg",
     "stock": 4,
     "description": "Nivea Body Milk 200Ml - Refreshing beverage or health drink.",
@@ -1985,13 +2126,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 3865
+    "rank": 3865,
+    "name": "Nivea Body Milk 200Ml"
   },
   {
     "id": 3866,
     "title": "Nivea Body Milk 400Ml",
     "slug": "nivea-body-milk-400ml",
-    "price": 495.0,
+    "price": 495,
     "image": "/images/products/nivea-body-milk-400ml.jpg",
     "stock": 3,
     "description": "Nivea Body Milk 400Ml - Refreshing beverage or health drink.",
@@ -1999,13 +2141,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 3866
+    "rank": 3866,
+    "name": "Nivea Body Milk 400Ml"
   },
   {
     "id": 4007,
     "title": "Novax Wooden Coffee Stirrer",
     "slug": "novax-wooden-coffee-stirrer",
-    "price": 159.0,
+    "price": 159,
     "image": "/images/products/novax-wooden-coffee-stirrer.jpg",
     "stock": 3,
     "description": "Novax Wooden Coffee Stirrer - Refreshing beverage or health drink.",
@@ -2013,13 +2156,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 4007
+    "rank": 4007,
+    "name": "Novax Wooden Coffee Stirrer"
   },
   {
     "id": 4155,
     "title": "Orgainc India Lemon Ginger Tea",
     "slug": "orgainc-india-lemon-ginger-tea",
-    "price": 215.0,
+    "price": 215,
     "image": "/images/products/orgainc-india-lemon-ginger-tea.jpg",
     "stock": 2,
     "description": "Orgainc India Lemon Ginger Tea - Refreshing beverage or health drink.",
@@ -2027,13 +2171,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 4155
+    "rank": 4155,
+    "name": "Orgainc India Lemon Ginger Tea"
   },
   {
     "id": 4157,
     "title": "Orgainc India Original Tea",
     "slug": "orgainc-india-original-tea",
-    "price": 195.0,
+    "price": 195,
     "image": "/images/products/orgainc-india-original-tea.jpg",
     "stock": 2,
     "description": "Orgainc India Original Tea - Refreshing beverage or health drink.",
@@ -2041,13 +2186,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 4157
+    "rank": 4157,
+    "name": "Orgainc India Original Tea"
   },
   {
     "id": 4160,
     "title": "Orgainc India Sweet Lemon Tea",
     "slug": "orgainc-india-sweet-lemon-tea",
-    "price": 215.0,
+    "price": 215,
     "image": "/images/products/orgainc-india-sweet-lemon-tea.jpg",
     "stock": 1,
     "description": "Orgainc India Sweet Lemon Tea - Refreshing beverage or health drink.",
@@ -2055,13 +2201,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 4160
+    "rank": 4160,
+    "name": "Orgainc India Sweet Lemon Tea"
   },
   {
     "id": 4162,
     "title": "Orgainc India Tulsi Green Tea Classic 100G",
     "slug": "orgainc-india-tulsi-green-tea-classic-100g",
-    "price": 210.0,
+    "price": 210,
     "image": "/images/products/orgainc-india-tulsi-green-tea-classic-100g.jpg",
     "stock": 4,
     "description": "Orgainc India Tulsi Green Tea Classic 100G - Refreshing beverage or health drink.",
@@ -2069,13 +2216,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 4162
+    "rank": 4162,
+    "name": "Orgainc India Tulsi Green Tea Classic 100G"
   },
   {
     "id": 4174,
     "title": "Organic India Tea Bags",
     "slug": "organic-india-tea-bags",
-    "price": 235.0,
+    "price": 235,
     "image": "/images/products/organic-india-tea-bags.jpg",
     "stock": 13,
     "description": "Organic India Tea Bags - Refreshing beverage or health drink.",
@@ -2083,13 +2231,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 4174
+    "rank": 4174,
+    "name": "Organic India Tea Bags"
   },
   {
     "id": 4175,
     "title": "Organic India Tpr Tea",
     "slug": "organic-india-tpr-tea",
-    "price": 210.0,
+    "price": 210,
     "image": "/images/products/organic-india-tpr-tea.jpg",
     "stock": 3,
     "description": "Organic India Tpr Tea - Refreshing beverage or health drink.",
@@ -2097,13 +2246,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 4175
+    "rank": 4175,
+    "name": "Organic India Tpr Tea"
   },
   {
     "id": 4176,
     "title": "Organic India Tulsi Ginger Tea Bags.",
     "slug": "organic-india-tulsi-ginger-tea-bags",
-    "price": 180.0,
+    "price": 180,
     "image": "/images/products/organic-india-tulsi-ginger-tea-bags.jpg",
     "stock": 3,
     "description": "Organic India Tulsi Ginger Tea Bags. - Refreshing beverage or health drink.",
@@ -2111,13 +2261,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 4176
+    "rank": 4176,
+    "name": "Organic India Tulsi Ginger Tea Bags."
   },
   {
     "id": 4177,
     "title": "Organic India Tulsi Green Tea Tin",
     "slug": "organic-india-tulsi-green-tea-tin",
-    "price": 265.0,
+    "price": 265,
     "image": "/images/products/organic-india-tulsi-green-tea-tin.jpg",
     "stock": 2,
     "description": "Organic India Tulsi Green Tea Tin - Refreshing beverage or health drink.",
@@ -2125,13 +2276,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 4177
+    "rank": 4177,
+    "name": "Organic India Tulsi Green Tea Tin"
   },
   {
     "id": 4359,
     "title": "Parle Hide&Seek Coffee",
     "slug": "parle-hideseek-coffee",
-    "price": 30.0,
+    "price": 30,
     "image": "/images/products/parle-hideseek-coffee.jpg",
     "stock": 10,
     "description": "Parle Hide&Seek Coffee - Refreshing beverage or health drink.",
@@ -2139,13 +2291,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 4359
+    "rank": 4359,
+    "name": "Parle Hide&Seek Coffee"
   },
   {
     "id": 4409,
     "title": "Patanjali Kk Milk Protein 180Ml",
     "slug": "patanjali-kk-milk-protein-180ml",
-    "price": 120.0,
+    "price": 120,
     "image": "/images/products/patanjali-kk-milk-protein-180ml.jpg",
     "stock": 2,
     "description": "Patanjali Kk Milk Protein 180Ml - Refreshing beverage or health drink.",
@@ -2153,13 +2306,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 4409
+    "rank": 4409,
+    "name": "Patanjali Kk Milk Protein 180Ml"
   },
   {
     "id": 4411,
     "title": "Patanjali Milk Protion Shampoo",
     "slug": "patanjali-milk-protion-shampoo",
-    "price": 120.0,
+    "price": 120,
     "image": "/images/products/patanjali-milk-protion-shampoo.jpg",
     "stock": 2,
     "description": "Patanjali Milk Protion Shampoo - Refreshing beverage or health drink.",
@@ -2167,13 +2321,14 @@ const products = [
     "unit": "7088",
     "category": "beverages",
     "popular": false,
-    "rank": 4411
+    "rank": 4411,
+    "name": "Patanjali Milk Protion Shampoo"
   },
   {
     "id": 4432,
     "title": "Pedigree Puppy Chic&Milk 1Kg",
     "slug": "pedigree-puppy-chicmilk-1kg",
-    "price": 290.0,
+    "price": 290,
     "image": "/images/products/pedigree-puppy-chicmilk-1kg.jpg",
     "stock": 3,
     "description": "Pedigree Puppy Chic&Milk 1Kg - Refreshing beverage or health drink.",
@@ -2181,13 +2336,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 4432
+    "rank": 4432,
+    "name": "Pedigree Puppy Chic&Milk 1Kg"
   },
   {
     "id": 4433,
     "title": "Pedigree Puppy Chic&Milk 370G",
     "slug": "pedigree-puppy-chicmilk-370g",
-    "price": 110.0,
+    "price": 110,
     "image": "/images/products/pedigree-puppy-chicmilk-370g.jpg",
     "stock": 3,
     "description": "Pedigree Puppy Chic&Milk 370G - Refreshing beverage or health drink.",
@@ -2195,13 +2351,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 4433
+    "rank": 4433,
+    "name": "Pedigree Puppy Chic&Milk 370G"
   },
   {
     "id": 4434,
     "title": "Pedigree Puppy Chic&Milk 90G",
     "slug": "pedigree-puppy-chicmilk-90g",
-    "price": 25.0,
+    "price": 25,
     "image": "/images/products/pedigree-puppy-chicmilk-90g.jpg",
     "stock": 12,
     "description": "Pedigree Puppy Chic&Milk 90G - Refreshing beverage or health drink.",
@@ -2209,13 +2366,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 4434
+    "rank": 4434,
+    "name": "Pedigree Puppy Chic&Milk 90G"
   },
   {
     "id": 4471,
     "title": "Phab Protein Milkshake 200Ml",
     "slug": "phab-protein-milkshake-200ml",
-    "price": 135.0,
+    "price": 135,
     "image": "/images/products/phab-protein-milkshake-200ml.jpg",
     "stock": 25,
     "description": "Phab Protein Milkshake 200Ml - Refreshing beverage or health drink.",
@@ -2223,13 +2381,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 4471
+    "rank": 4471,
+    "name": "Phab Protein Milkshake 200Ml"
   },
   {
     "id": 4515,
     "title": "Plum Chamomile & White Tea Fw",
     "slug": "plum-chamomile-white-tea-fw",
-    "price": 495.0,
+    "price": 495,
     "image": "/images/products/plum-chamomile-white-tea-fw.jpg",
     "stock": 2,
     "description": "Plum Chamomile & White Tea Fw - Refreshing beverage or health drink.",
@@ -2237,13 +2396,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 4515
+    "rank": 4515,
+    "name": "Plum Chamomile & White Tea Fw"
   },
   {
     "id": 4517,
     "title": "Plum Green Tea Fw",
     "slug": "plum-green-tea-fw",
-    "price": 275.0,
+    "price": 275,
     "image": "/images/products/plum-green-tea-fw.jpg",
     "stock": 2,
     "description": "Plum Green Tea Fw - Refreshing beverage or health drink.",
@@ -2251,13 +2411,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 4517
+    "rank": 4517,
+    "name": "Plum Green Tea Fw"
   },
   {
     "id": 4518,
     "title": "Plum Green Tea Mattifying Moist",
     "slug": "plum-green-tea-mattifying-moist",
-    "price": 470.0,
+    "price": 470,
     "image": "/images/products/plum-green-tea-mattifying-moist.jpg",
     "stock": 2,
     "description": "Plum Green Tea Mattifying Moist - Refreshing beverage or health drink.",
@@ -2265,13 +2426,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 4518
+    "rank": 4518,
+    "name": "Plum Green Tea Mattifying Moist"
   },
   {
     "id": 4519,
     "title": "Plum Green Tea Night Gel",
     "slug": "plum-green-tea-night-gel",
-    "price": 575.0,
+    "price": 575,
     "image": "/images/products/plum-green-tea-night-gel.jpg",
     "stock": 1,
     "description": "Plum Green Tea Night Gel - Refreshing beverage or health drink.",
@@ -2279,13 +2441,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 4519
+    "rank": 4519,
+    "name": "Plum Green Tea Night Gel"
   },
   {
     "id": 4520,
     "title": "Plum Green Tea Oil Free Moist",
     "slug": "plum-green-tea-oil-free-moist",
-    "price": 470.0,
+    "price": 470,
     "image": "/images/products/plum-green-tea-oil-free-moist.jpg",
     "stock": 2,
     "description": "Plum Green Tea Oil Free Moist - Refreshing beverage or health drink.",
@@ -2293,13 +2456,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 4520
+    "rank": 4520,
+    "name": "Plum Green Tea Oil Free Moist"
   },
   {
     "id": 4677,
     "title": "Raw Iced Greeen Tea 250Ml",
     "slug": "raw-iced-greeen-tea-250ml",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/raw-iced-greeen-tea-250ml.jpg",
     "stock": 4,
     "description": "Raw Iced Greeen Tea 250Ml - Refreshing beverage or health drink.",
@@ -2307,13 +2471,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 4677
+    "rank": 4677,
+    "name": "Raw Iced Greeen Tea 250Ml"
   },
   {
     "id": 4687,
     "title": "Real Juice Apple 1L",
     "slug": "real-juice-apple-1l",
-    "price": 115.0,
+    "price": 115,
     "image": "/images/products/real-juice-apple-1l.jpg",
     "stock": 4,
     "description": "Real Juice Apple 1L - Refreshing beverage or health drink.",
@@ -2321,13 +2486,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 4687
+    "rank": 4687,
+    "name": "Real Juice Apple 1L"
   },
   {
     "id": 4688,
     "title": "Real Juice Creanberry 180Ml",
     "slug": "real-juice-creanberry-180ml",
-    "price": 20.0,
+    "price": 20,
     "image": "/images/products/real-juice-creanberry-180ml.jpg",
     "stock": 15,
     "description": "Real Juice Creanberry 180Ml - Refreshing beverage or health drink.",
@@ -2335,13 +2501,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 4688
+    "rank": 4688,
+    "name": "Real Juice Creanberry 180Ml"
   },
   {
     "id": 4689,
     "title": "Real Juice Creanberry 1L",
     "slug": "real-juice-creanberry-1l",
-    "price": 140.0,
+    "price": 140,
     "image": "/images/products/real-juice-creanberry-1l.jpg",
     "stock": 11,
     "description": "Real Juice Creanberry 1L - Refreshing beverage or health drink.",
@@ -2349,13 +2516,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 4689
+    "rank": 4689,
+    "name": "Real Juice Creanberry 1L"
   },
   {
     "id": 4690,
     "title": "Real Juice Guava 180Ml",
     "slug": "real-juice-guava-180ml",
-    "price": 20.0,
+    "price": 20,
     "image": "/images/products/real-juice-guava-180ml.jpg",
     "stock": 9,
     "description": "Real Juice Guava 180Ml - Refreshing beverage or health drink.",
@@ -2363,13 +2531,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 4690
+    "rank": 4690,
+    "name": "Real Juice Guava 180Ml"
   },
   {
     "id": 4691,
     "title": "Real Juice Guava 1L",
     "slug": "real-juice-guava-1l",
-    "price": 120.0,
+    "price": 120,
     "image": "/images/products/real-juice-guava-1l.jpg",
     "stock": 3,
     "description": "Real Juice Guava 1L - Refreshing beverage or health drink.",
@@ -2377,13 +2546,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 4691
+    "rank": 4691,
+    "name": "Real Juice Guava 1L"
   },
   {
     "id": 4692,
     "title": "Real Juice Mango 180Ml",
     "slug": "real-juice-mango-180ml",
-    "price": 20.0,
+    "price": 20,
     "image": "/images/products/real-juice-mango-180ml.jpg",
     "stock": 12,
     "description": "Real Juice Mango 180Ml - Refreshing beverage or health drink.",
@@ -2391,13 +2561,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 4692
+    "rank": 4692,
+    "name": "Real Juice Mango 180Ml"
   },
   {
     "id": 4693,
     "title": "Real Juice Mango 1L",
     "slug": "real-juice-mango-1l",
-    "price": 115.0,
+    "price": 115,
     "image": "/images/products/real-juice-mango-1l.jpg",
     "stock": 5,
     "description": "Real Juice Mango 1L - Refreshing beverage or health drink.",
@@ -2405,13 +2576,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 4693
+    "rank": 4693,
+    "name": "Real Juice Mango 1L"
   },
   {
     "id": 4694,
     "title": "Real Juice Mango 250Ml",
     "slug": "real-juice-mango-250ml",
-    "price": 20.0,
+    "price": 20,
     "image": "/images/products/real-juice-mango-250ml.jpg",
     "stock": 17,
     "description": "Real Juice Mango 250Ml - Refreshing beverage or health drink.",
@@ -2419,13 +2591,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 4694
+    "rank": 4694,
+    "name": "Real Juice Mango 250Ml"
   },
   {
     "id": 4695,
     "title": "Real Juice Mixed Fruit 180Ml",
     "slug": "real-juice-mixed-fruit-180ml",
-    "price": 20.0,
+    "price": 20,
     "image": "/images/products/real-juice-mixed-fruit-180ml.jpg",
     "stock": 28,
     "description": "Real Juice Mixed Fruit 180Ml - Refreshing beverage or health drink.",
@@ -2433,13 +2606,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 4695
+    "rank": 4695,
+    "name": "Real Juice Mixed Fruit 180Ml"
   },
   {
     "id": 4696,
     "title": "Real Juice Mixed Fruit 1L",
     "slug": "real-juice-mixed-fruit-1l",
-    "price": 130.0,
+    "price": 130,
     "image": "/images/products/real-juice-mixed-fruit-1l.jpg",
     "stock": 11,
     "description": "Real Juice Mixed Fruit 1L - Refreshing beverage or health drink.",
@@ -2447,13 +2621,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 4696
+    "rank": 4696,
+    "name": "Real Juice Mixed Fruit 1L"
   },
   {
     "id": 4697,
     "title": "Real Juice Mixed Fruit 250Ml",
     "slug": "real-juice-mixed-fruit-250ml",
-    "price": 20.0,
+    "price": 20,
     "image": "/images/products/real-juice-mixed-fruit-250ml.jpg",
     "stock": 2,
     "description": "Real Juice Mixed Fruit 250Ml - Refreshing beverage or health drink.",
@@ -2461,13 +2636,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 4697
+    "rank": 4697,
+    "name": "Real Juice Mixed Fruit 250Ml"
   },
   {
     "id": 4698,
     "title": "Real Juice Mosambi 180Ml",
     "slug": "real-juice-mosambi-180ml",
-    "price": 20.0,
+    "price": 20,
     "image": "/images/products/real-juice-mosambi-180ml.jpg",
     "stock": 20,
     "description": "Real Juice Mosambi 180Ml - Refreshing beverage or health drink.",
@@ -2475,13 +2651,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 4698
+    "rank": 4698,
+    "name": "Real Juice Mosambi 180Ml"
   },
   {
     "id": 4699,
     "title": "Real Juice Mosambi 1L",
     "slug": "real-juice-mosambi-1l",
-    "price": 130.0,
+    "price": 130,
     "image": "/images/products/real-juice-mosambi-1l.jpg",
     "stock": 6,
     "description": "Real Juice Mosambi 1L - Refreshing beverage or health drink.",
@@ -2489,13 +2666,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 4699
+    "rank": 4699,
+    "name": "Real Juice Mosambi 1L"
   },
   {
     "id": 4700,
     "title": "Real Juice Orange 1L",
     "slug": "real-juice-orange-1l",
-    "price": 130.0,
+    "price": 130,
     "image": "/images/products/real-juice-orange-1l.jpg",
     "stock": 6,
     "description": "Real Juice Orange 1L - Refreshing beverage or health drink.",
@@ -2503,13 +2681,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 4700
+    "rank": 4700,
+    "name": "Real Juice Orange 1L"
   },
   {
     "id": 4701,
     "title": "Real Juice Pineapple 180Ml",
     "slug": "real-juice-pineapple-180ml",
-    "price": 20.0,
+    "price": 20,
     "image": "/images/products/real-juice-pineapple-180ml.jpg",
     "stock": 16,
     "description": "Real Juice Pineapple 180Ml - Refreshing beverage or health drink.",
@@ -2517,13 +2696,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 4701
+    "rank": 4701,
+    "name": "Real Juice Pineapple 180Ml"
   },
   {
     "id": 4702,
     "title": "Real Juice Pineapple 1L",
     "slug": "real-juice-pineapple-1l",
-    "price": 130.0,
+    "price": 130,
     "image": "/images/products/real-juice-pineapple-1l.jpg",
     "stock": 4,
     "description": "Real Juice Pineapple 1L - Refreshing beverage or health drink.",
@@ -2531,13 +2711,14 @@ const products = [
     "unit": "pcs",
     "category": "beverages",
     "popular": false,
-    "rank": 4702
+    "rank": 4702,
+    "name": "Real Juice Pineapple 1L"
   },
   {
     "id": 4703,
     "title": "Real Juice Pomegranate 180Ml",
     "slug": "real-juice-pomegranate-180ml",
-    "price": 20.0,
+    "price": 20,
     "image": "/images/products/real-juice-pomegranate-180ml.jpg",
     "stock": 17,
     "description": "Real Juice Pomegranate 180Ml - Refreshing beverage or health drink.",
@@ -2545,13 +2726,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 4703
+    "rank": 4703,
+    "name": "Real Juice Pomegranate 180Ml"
   },
   {
     "id": 4704,
     "title": "Real Juice Pomegranate 1L",
     "slug": "real-juice-pomegranate-1l",
-    "price": 130.0,
+    "price": 130,
     "image": "/images/products/real-juice-pomegranate-1l.jpg",
     "stock": 9,
     "description": "Real Juice Pomegranate 1L - Refreshing beverage or health drink.",
@@ -2559,13 +2741,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 4704
+    "rank": 4704,
+    "name": "Real Juice Pomegranate 1L"
   },
   {
     "id": 4705,
     "title": "Real Thai Coconut Milk 400Ml",
     "slug": "real-thai-coconut-milk-400ml",
-    "price": 209.0,
+    "price": 209,
     "image": "/images/products/real-thai-coconut-milk-400ml.jpg",
     "stock": 6,
     "description": "Real Thai Coconut Milk 400Ml - Refreshing beverage or health drink.",
@@ -2573,13 +2756,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 4705
+    "rank": 4705,
+    "name": "Real Thai Coconut Milk 400Ml"
   },
   {
     "id": 4706,
     "title": "Real Thai Coconut Milk Lite 400Ml",
     "slug": "real-thai-coconut-milk-lite-400ml",
-    "price": 159.0,
+    "price": 159,
     "image": "/images/products/real-thai-coconut-milk-lite-400ml.jpg",
     "stock": 6,
     "description": "Real Thai Coconut Milk Lite 400Ml - Refreshing beverage or health drink.",
@@ -2587,13 +2771,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 4706
+    "rank": 4706,
+    "name": "Real Thai Coconut Milk Lite 400Ml"
   },
   {
     "id": 4996,
     "title": "Skin Cottage Hand Shoap Green Tea",
     "slug": "skin-cottage-hand-shoap-green-tea",
-    "price": 225.0,
+    "price": 225,
     "image": "/images/products/skin-cottage-hand-shoap-green-tea.jpg",
     "stock": 1,
     "description": "Skin Cottage Hand Shoap Green Tea - Refreshing beverage or health drink.",
@@ -2601,13 +2786,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 4996
+    "rank": 4996,
+    "name": "Skin Cottage Hand Shoap Green Tea"
   },
   {
     "id": 5006,
     "title": "Skin Cottage Shower Gel Green Tea",
     "slug": "skin-cottage-shower-gel-green-tea",
-    "price": 569.0,
+    "price": 569,
     "image": "/images/products/skin-cottage-shower-gel-green-tea.jpg",
     "stock": 1,
     "description": "Skin Cottage Shower Gel Green Tea - Refreshing beverage or health drink.",
@@ -2615,13 +2801,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5006
+    "rank": 5006,
+    "name": "Skin Cottage Shower Gel Green Tea"
   },
   {
     "id": 5041,
     "title": "Sleepy Owl  Vannila Coffee 2G",
     "slug": "sleepy-owl-vannila-coffee-2g",
-    "price": 10.0,
+    "price": 10,
     "image": "/images/products/sleepy-owl-vannila-coffee-2g.jpg",
     "stock": 49,
     "description": "Sleepy Owl  Vannila Coffee 2G - Refreshing beverage or health drink.",
@@ -2629,13 +2816,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5041
+    "rank": 5041,
+    "name": "Sleepy Owl  Vannila Coffee 2G"
   },
   {
     "id": 5042,
     "title": "Sleepy Owl Coffee Dip Bags",
     "slug": "sleepy-owl-coffee-dip-bags",
-    "price": 500.0,
+    "price": 500,
     "image": "/images/products/sleepy-owl-coffee-dip-bags.jpg",
     "stock": 4,
     "description": "Sleepy Owl Coffee Dip Bags - Refreshing beverage or health drink.",
@@ -2643,13 +2831,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5042
+    "rank": 5042,
+    "name": "Sleepy Owl Coffee Dip Bags"
   },
   {
     "id": 5043,
     "title": "Sleepy Owl Cold Coffee",
     "slug": "sleepy-owl-cold-coffee",
-    "price": 125.0,
+    "price": 125,
     "image": "/images/products/sleepy-owl-cold-coffee.jpg",
     "stock": 16,
     "description": "Sleepy Owl Cold Coffee - Refreshing beverage or health drink.",
@@ -2657,13 +2846,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5043
+    "rank": 5043,
+    "name": "Sleepy Owl Cold Coffee"
   },
   {
     "id": 5047,
     "title": "Sleepy Owl Hezelnut Coffee 2G",
     "slug": "sleepy-owl-hezelnut-coffee-2g",
-    "price": 10.0,
+    "price": 10,
     "image": "/images/products/sleepy-owl-hezelnut-coffee-2g.jpg",
     "stock": 45,
     "description": "Sleepy Owl Hezelnut Coffee 2G - Refreshing beverage or health drink.",
@@ -2671,13 +2861,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5047
+    "rank": 5047,
+    "name": "Sleepy Owl Hezelnut Coffee 2G"
   },
   {
     "id": 5048,
     "title": "Sleepy Owl Hot Coffee Assr 100G",
     "slug": "sleepy-owl-hot-coffee-assr-100g",
-    "price": 500.0,
+    "price": 500,
     "image": "/images/products/sleepy-owl-hot-coffee-assr-100g.jpg",
     "stock": 1,
     "description": "Sleepy Owl Hot Coffee Assr 100G - Refreshing beverage or health drink.",
@@ -2685,13 +2876,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5048
+    "rank": 5048,
+    "name": "Sleepy Owl Hot Coffee Assr 100G"
   },
   {
     "id": 5049,
     "title": "Sleepy Owl Instant Coffee Assorted",
     "slug": "sleepy-owl-instant-coffee-assorted",
-    "price": 100.0,
+    "price": 100,
     "image": "/images/products/sleepy-owl-instant-coffee-assorted.jpg",
     "stock": 10,
     "description": "Sleepy Owl Instant Coffee Assorted - Refreshing beverage or health drink.",
@@ -2699,13 +2891,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5049
+    "rank": 5049,
+    "name": "Sleepy Owl Instant Coffee Assorted"
   },
   {
     "id": 5052,
     "title": "Sleepy Owl Orignal Coffee 2G",
     "slug": "sleepy-owl-orignal-coffee-2g",
-    "price": 10.0,
+    "price": 10,
     "image": "/images/products/sleepy-owl-orignal-coffee-2g.jpg",
     "stock": 27,
     "description": "Sleepy Owl Orignal Coffee 2G - Refreshing beverage or health drink.",
@@ -2713,13 +2906,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5052
+    "rank": 5052,
+    "name": "Sleepy Owl Orignal Coffee 2G"
   },
   {
     "id": 5054,
     "title": "Sleepy Owl Rtd Coffee Hazel/Class",
     "slug": "sleepy-owl-rtd-coffee-hazelclass",
-    "price": 150.0,
+    "price": 150,
     "image": "/images/products/sleepy-owl-rtd-coffee-hazelclass.jpg",
     "stock": 12,
     "description": "Sleepy Owl Rtd Coffee Hazel/Class - Refreshing beverage or health drink.",
@@ -2727,13 +2921,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5054
+    "rank": 5054,
+    "name": "Sleepy Owl Rtd Coffee Hazel/Class"
   },
   {
     "id": 5056,
     "title": "Sleepy Owl Xpresso Coffee 2G",
     "slug": "sleepy-owl-xpresso-coffee-2g",
-    "price": 10.0,
+    "price": 10,
     "image": "/images/products/sleepy-owl-xpresso-coffee-2g.jpg",
     "stock": 7,
     "description": "Sleepy Owl Xpresso Coffee 2G - Refreshing beverage or health drink.",
@@ -2741,13 +2936,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5056
+    "rank": 5056,
+    "name": "Sleepy Owl Xpresso Coffee 2G"
   },
   {
     "id": 5069,
     "title": "So Good Almond Milk 1L",
     "slug": "so-good-almond-milk-1l",
-    "price": 300.0,
+    "price": 300,
     "image": "/images/products/so-good-almond-milk-1l.jpg",
     "stock": 9,
     "description": "So Good Almond Milk 1L - Refreshing beverage or health drink.",
@@ -2755,13 +2951,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5069
+    "rank": 5069,
+    "name": "So Good Almond Milk 1L"
   },
   {
     "id": 5070,
     "title": "So Good Almond Milk 200Ml",
     "slug": "so-good-almond-milk-200ml",
-    "price": 75.0,
+    "price": 75,
     "image": "/images/products/so-good-almond-milk-200ml.jpg",
     "stock": 19,
     "description": "So Good Almond Milk 200Ml - Refreshing beverage or health drink.",
@@ -2769,13 +2966,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5070
+    "rank": 5070,
+    "name": "So Good Almond Milk 200Ml"
   },
   {
     "id": 5071,
     "title": "So Good Oat Milk 1L",
     "slug": "so-good-oat-milk-1l",
-    "price": 300.0,
+    "price": 300,
     "image": "/images/products/so-good-oat-milk-1l.jpg",
     "stock": 8,
     "description": "So Good Oat Milk 1L - Refreshing beverage or health drink.",
@@ -2783,13 +2981,14 @@ const products = [
     "unit": "pcs",
     "category": "beverages",
     "popular": false,
-    "rank": 5071
+    "rank": 5071,
+    "name": "So Good Oat Milk 1L"
   },
   {
     "id": 5072,
     "title": "So Good Oat Milk 200Ml",
     "slug": "so-good-oat-milk-200ml",
-    "price": 75.0,
+    "price": 75,
     "image": "/images/products/so-good-oat-milk-200ml.jpg",
     "stock": 20,
     "description": "So Good Oat Milk 200Ml - Refreshing beverage or health drink.",
@@ -2797,13 +2996,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5072
+    "rank": 5072,
+    "name": "So Good Oat Milk 200Ml"
   },
   {
     "id": 5073,
     "title": "So Good Soy Milk 1L",
     "slug": "so-good-soy-milk-1l",
-    "price": 145.0,
+    "price": 145,
     "image": "/images/products/so-good-soy-milk-1l.jpg",
     "stock": 12,
     "description": "So Good Soy Milk 1L - Refreshing beverage or health drink.",
@@ -2811,13 +3011,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5073
+    "rank": 5073,
+    "name": "So Good Soy Milk 1L"
   },
   {
     "id": 5074,
     "title": "So Good Soy Milk 200Ml",
     "slug": "so-good-soy-milk-200ml",
-    "price": 40.0,
+    "price": 40,
     "image": "/images/products/so-good-soy-milk-200ml.jpg",
     "stock": 28,
     "description": "So Good Soy Milk 200Ml - Refreshing beverage or health drink.",
@@ -2825,13 +3026,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5074
+    "rank": 5074,
+    "name": "So Good Soy Milk 200Ml"
   },
   {
     "id": 5082,
     "title": "Softsens Baby Milk Bar",
     "slug": "softsens-baby-milk-bar",
-    "price": 210.0,
+    "price": 210,
     "image": "/images/products/softsens-baby-milk-bar.jpg",
     "stock": 12,
     "description": "Softsens Baby Milk Bar - Refreshing beverage or health drink.",
@@ -2839,13 +3041,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5082
+    "rank": 5082,
+    "name": "Softsens Baby Milk Bar"
   },
   {
     "id": 5093,
     "title": "Softsens Milk Bar",
     "slug": "softsens-milk-bar",
-    "price": 48.0,
+    "price": 48,
     "image": "/images/products/softsens-milk-bar.jpg",
     "stock": 12,
     "description": "Softsens Milk Bar - Refreshing beverage or health drink.",
@@ -2853,13 +3056,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5093
+    "rank": 5093,
+    "name": "Softsens Milk Bar"
   },
   {
     "id": 5097,
     "title": "Solh Cold Coffee Classic 200Ml",
     "slug": "solh-cold-coffee-classic-200ml",
-    "price": 50.0,
+    "price": 50,
     "image": "/images/products/solh-cold-coffee-classic-200ml.jpg",
     "stock": 6,
     "description": "Solh Cold Coffee Classic 200Ml - Refreshing beverage or health drink.",
@@ -2867,13 +3071,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5097
+    "rank": 5097,
+    "name": "Solh Cold Coffee Classic 200Ml"
   },
   {
     "id": 5098,
     "title": "Solh Cold Coffee Frappe 200Ml",
     "slug": "solh-cold-coffee-frappe-200ml",
-    "price": 50.0,
+    "price": 50,
     "image": "/images/products/solh-cold-coffee-frappe-200ml.jpg",
     "stock": 3,
     "description": "Solh Cold Coffee Frappe 200Ml - Refreshing beverage or health drink.",
@@ -2881,13 +3086,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5098
+    "rank": 5098,
+    "name": "Solh Cold Coffee Frappe 200Ml"
   },
   {
     "id": 5099,
     "title": "Solh Cold Coffee Mocha 200Ml",
     "slug": "solh-cold-coffee-mocha-200ml",
-    "price": 50.0,
+    "price": 50,
     "image": "/images/products/solh-cold-coffee-mocha-200ml.jpg",
     "stock": 4,
     "description": "Solh Cold Coffee Mocha 200Ml - Refreshing beverage or health drink.",
@@ -2895,13 +3101,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5099
+    "rank": 5099,
+    "name": "Solh Cold Coffee Mocha 200Ml"
   },
   {
     "id": 5197,
     "title": "Starbucks C&C Coffee",
     "slug": "starbucks-cc-coffee",
-    "price": 299.0,
+    "price": 299,
     "image": "/images/products/starbucks-cc-coffee.jpg",
     "stock": 4,
     "description": "Starbucks C&C Coffee - Refreshing beverage or health drink.",
@@ -2909,13 +3116,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5197
+    "rank": 5197,
+    "name": "Starbucks C&C Coffee"
   },
   {
     "id": 5198,
     "title": "Starbucks Carmel Coffee",
     "slug": "starbucks-carmel-coffee",
-    "price": 299.0,
+    "price": 299,
     "image": "/images/products/starbucks-carmel-coffee.jpg",
     "stock": 6,
     "description": "Starbucks Carmel Coffee - Refreshing beverage or health drink.",
@@ -2923,13 +3131,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5198
+    "rank": 5198,
+    "name": "Starbucks Carmel Coffee"
   },
   {
     "id": 5224,
     "title": "Steax Hair Serum Canvo",
     "slug": "steax-hair-serum-canvo",
-    "price": 435.0,
+    "price": 435,
     "image": "/images/products/steax-hair-serum-canvo.jpg",
     "stock": 12,
     "description": "Steax Hair Serum Canvo - Refreshing beverage or health drink.",
@@ -2937,13 +3146,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5224
+    "rank": 5224,
+    "name": "Steax Hair Serum Canvo"
   },
   {
     "id": 5275,
     "title": "Superyou Coffee Wafer 400Gm",
     "slug": "superyou-coffee-wafer-400gm",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/superyou-coffee-wafer-400gm.jpg",
     "stock": 17,
     "description": "Superyou Coffee Wafer 400Gm - Refreshing beverage or health drink.",
@@ -2951,13 +3161,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5275
+    "rank": 5275,
+    "name": "Superyou Coffee Wafer 400Gm"
   },
   {
     "id": 5298,
     "title": "Taj Mahal Tea 1Kg",
     "slug": "taj-mahal-tea-1kg",
-    "price": 710.0,
+    "price": 710,
     "image": "/images/products/taj-mahal-tea-1kg.jpg",
     "stock": 1,
     "description": "Taj Mahal Tea 1Kg - Refreshing beverage or health drink.",
@@ -2965,13 +3176,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5298
+    "rank": 5298,
+    "name": "Taj Mahal Tea 1Kg"
   },
   {
     "id": 5299,
     "title": "Taj Mahal Tea 500Gm",
     "slug": "taj-mahal-tea-500gm",
-    "price": 360.0,
+    "price": 360,
     "image": "/images/products/taj-mahal-tea-500gm.jpg",
     "stock": 5,
     "description": "Taj Mahal Tea 500Gm - Refreshing beverage or health drink.",
@@ -2979,13 +3191,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5299
+    "rank": 5299,
+    "name": "Taj Mahal Tea 500Gm"
   },
   {
     "id": 5300,
     "title": "Taj Mahal Tea Bags 100 Nos",
     "slug": "taj-mahal-tea-bags-100-nos",
-    "price": 220.0,
+    "price": 220,
     "image": "/images/products/taj-mahal-tea-bags-100-nos.jpg",
     "stock": 4,
     "description": "Taj Mahal Tea Bags 100 Nos - Refreshing beverage or health drink.",
@@ -2993,13 +3206,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5300
+    "rank": 5300,
+    "name": "Taj Mahal Tea Bags 100 Nos"
   },
   {
     "id": 5306,
     "title": "Tata Cold Coffee Belgian Chocolate",
     "slug": "tata-cold-coffee-belgian-chocolate",
-    "price": 70.0,
+    "price": 70,
     "image": "/images/products/tata-cold-coffee-belgian-chocolate.jpg",
     "stock": 9,
     "description": "Tata Cold Coffee Belgian Chocolate - Refreshing beverage or health drink.",
@@ -3007,13 +3221,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5306
+    "rank": 5306,
+    "name": "Tata Cold Coffee Belgian Chocolate"
   },
   {
     "id": 5307,
     "title": "Tata Cold Coffee French Vanilla",
     "slug": "tata-cold-coffee-french-vanilla",
-    "price": 70.0,
+    "price": 70,
     "image": "/images/products/tata-cold-coffee-french-vanilla.jpg",
     "stock": 9,
     "description": "Tata Cold Coffee French Vanilla - Refreshing beverage or health drink.",
@@ -3021,13 +3236,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5307
+    "rank": 5307,
+    "name": "Tata Cold Coffee French Vanilla"
   },
   {
     "id": 5308,
     "title": "Tata Cold Coffee Swiss Caramel",
     "slug": "tata-cold-coffee-swiss-caramel",
-    "price": 70.0,
+    "price": 70,
     "image": "/images/products/tata-cold-coffee-swiss-caramel.jpg",
     "stock": 9,
     "description": "Tata Cold Coffee Swiss Caramel - Refreshing beverage or health drink.",
@@ -3035,13 +3251,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5308
+    "rank": 5308,
+    "name": "Tata Cold Coffee Swiss Caramel"
   },
   {
     "id": 5312,
     "title": "Tata Tea Agni Elaichi 250G",
     "slug": "tata-tea-agni-elaichi-250g",
-    "price": 90.0,
+    "price": 90,
     "image": "/images/products/tata-tea-agni-elaichi-250g.jpg",
     "stock": 10,
     "description": "Tata Tea Agni Elaichi 250G - Refreshing beverage or health drink.",
@@ -3049,13 +3266,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5312
+    "rank": 5312,
+    "name": "Tata Tea Agni Elaichi 250G"
   },
   {
     "id": 5313,
     "title": "Tata Tea Agni Storng Leaf 500G",
     "slug": "tata-tea-agni-storng-leaf-500g",
-    "price": 120.0,
+    "price": 120,
     "image": "/images/products/tata-tea-agni-storng-leaf-500g.jpg",
     "stock": 10,
     "description": "Tata Tea Agni Storng Leaf 500G - Refreshing beverage or health drink.",
@@ -3063,13 +3281,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5313
+    "rank": 5313,
+    "name": "Tata Tea Agni Storng Leaf 500G"
   },
   {
     "id": 5314,
     "title": "Tata Tea Gold 250G",
     "slug": "tata-tea-gold-250g",
-    "price": 180.0,
+    "price": 180,
     "image": "/images/products/tata-tea-gold-250g.jpg",
     "stock": 6,
     "description": "Tata Tea Gold 250G - Refreshing beverage or health drink.",
@@ -3077,13 +3296,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5314
+    "rank": 5314,
+    "name": "Tata Tea Gold 250G"
   },
   {
     "id": 5315,
     "title": "Tata Tea Gold 500G",
     "slug": "tata-tea-gold-500g",
-    "price": 360.0,
+    "price": 360,
     "image": "/images/products/tata-tea-gold-500g.jpg",
     "stock": 9,
     "description": "Tata Tea Gold 500G - Refreshing beverage or health drink.",
@@ -3091,13 +3311,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5315
+    "rank": 5315,
+    "name": "Tata Tea Gold 500G"
   },
   {
     "id": 5316,
     "title": "Tata Tea Premium 1Kg",
     "slug": "tata-tea-premium-1kg",
-    "price": 580.0,
+    "price": 580,
     "image": "/images/products/tata-tea-premium-1kg.jpg",
     "stock": 3,
     "description": "Tata Tea Premium 1Kg - Refreshing beverage or health drink.",
@@ -3105,13 +3326,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5316
+    "rank": 5316,
+    "name": "Tata Tea Premium 1Kg"
   },
   {
     "id": 5317,
     "title": "Tata Tea Premium 250G",
     "slug": "tata-tea-premium-250g",
-    "price": 140.0,
+    "price": 140,
     "image": "/images/products/tata-tea-premium-250g.jpg",
     "stock": 5,
     "description": "Tata Tea Premium 250G - Refreshing beverage or health drink.",
@@ -3119,13 +3341,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5317
+    "rank": 5317,
+    "name": "Tata Tea Premium 250G"
   },
   {
     "id": 5318,
     "title": "Tata Tea Premium 500G",
     "slug": "tata-tea-premium-500g",
-    "price": 280.0,
+    "price": 280,
     "image": "/images/products/tata-tea-premium-500g.jpg",
     "stock": 10,
     "description": "Tata Tea Premium 500G - Refreshing beverage or health drink.",
@@ -3133,13 +3356,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5318
+    "rank": 5318,
+    "name": "Tata Tea Premium 500G"
   },
   {
     "id": 5319,
     "title": "Tatatea Premium 100Bags",
     "slug": "tatatea-premium-100bags",
-    "price": 155.0,
+    "price": 155,
     "image": "/images/products/tatatea-premium-100bags.jpg",
     "stock": 2,
     "description": "Tatatea Premium 100Bags - Refreshing beverage or health drink.",
@@ -3147,13 +3371,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5319
+    "rank": 5319,
+    "name": "Tatatea Premium 100Bags"
   },
   {
     "id": 5344,
     "title": "Tetley Green Tea Classic 25B",
     "slug": "tetley-green-tea-classic-25b",
-    "price": 175.0,
+    "price": 175,
     "image": "/images/products/tetley-green-tea-classic-25b.jpg",
     "stock": 6,
     "description": "Tetley Green Tea Classic 25B - Refreshing beverage or health drink.",
@@ -3161,13 +3386,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5344
+    "rank": 5344,
+    "name": "Tetley Green Tea Classic 25B"
   },
   {
     "id": 5345,
     "title": "Tetley Green Tea L&H",
     "slug": "tetley-green-tea-lh",
-    "price": 175.0,
+    "price": 175,
     "image": "/images/products/tetley-green-tea-lh.jpg",
     "stock": 4,
     "description": "Tetley Green Tea L&H - Refreshing beverage or health drink.",
@@ -3175,13 +3401,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5345
+    "rank": 5345,
+    "name": "Tetley Green Tea L&H"
   },
   {
     "id": 5348,
     "title": "Tetley Original Tea Big",
     "slug": "tetley-original-tea-big",
-    "price": 240.0,
+    "price": 240,
     "image": "/images/products/tetley-original-tea-big.jpg",
     "stock": 4,
     "description": "Tetley Original Tea Big - Refreshing beverage or health drink.",
@@ -3189,13 +3416,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5348
+    "rank": 5348,
+    "name": "Tetley Original Tea Big"
   },
   {
     "id": 5349,
     "title": "Tetley Qrignal Tea 100Bags",
     "slug": "tetley-qrignal-tea-100bags",
-    "price": 220.0,
+    "price": 220,
     "image": "/images/products/tetley-qrignal-tea-100bags.jpg",
     "stock": 4,
     "description": "Tetley Qrignal Tea 100Bags - Refreshing beverage or health drink.",
@@ -3203,13 +3431,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5349
+    "rank": 5349,
+    "name": "Tetley Qrignal Tea 100Bags"
   },
   {
     "id": 5369,
     "title": "The Body Shop Tea Tree Body Wash",
     "slug": "the-body-shop-tea-tree-body-wash",
-    "price": 795.0,
+    "price": 795,
     "image": "/images/products/the-body-shop-tea-tree-body-wash.jpg",
     "stock": 1,
     "description": "The Body Shop Tea Tree Body Wash - Refreshing beverage or health drink.",
@@ -3217,13 +3446,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5369
+    "rank": 5369,
+    "name": "The Body Shop Tea Tree Body Wash"
   },
   {
     "id": 5487,
     "title": "Tropicana Juice 180Ml",
     "slug": "tropicana-juice-180ml",
-    "price": 20.0,
+    "price": 20,
     "image": "/images/products/tropicana-juice-180ml.jpg",
     "stock": 174,
     "description": "Tropicana Juice 180Ml - Refreshing beverage or health drink.",
@@ -3231,13 +3461,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5487
+    "rank": 5487,
+    "name": "Tropicana Juice 180Ml"
   },
   {
     "id": 5503,
     "title": "Twinings Assam Loose Leaf Tea 250G",
     "slug": "twinings-assam-loose-leaf-tea-250g",
-    "price": 450.0,
+    "price": 450,
     "image": "/images/products/twinings-assam-loose-leaf-tea-250g.jpg",
     "stock": 2,
     "description": "Twinings Assam Loose Leaf Tea 250G - Refreshing beverage or health drink.",
@@ -3245,13 +3476,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5503
+    "rank": 5503,
+    "name": "Twinings Assam Loose Leaf Tea 250G"
   },
   {
     "id": 5504,
     "title": "Twinings Assam Tea",
     "slug": "twinings-assam-tea",
-    "price": 299.0,
+    "price": 299,
     "image": "/images/products/twinings-assam-tea.jpg",
     "stock": 5,
     "description": "Twinings Assam Tea - Refreshing beverage or health drink.",
@@ -3259,13 +3491,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5504
+    "rank": 5504,
+    "name": "Twinings Assam Tea"
   },
   {
     "id": 5505,
     "title": "Twinings Green Apple Tea",
     "slug": "twinings-green-apple-tea",
-    "price": 330.0,
+    "price": 330,
     "image": "/images/products/twinings-green-apple-tea.jpg",
     "stock": 2,
     "description": "Twinings Green Apple Tea - Refreshing beverage or health drink.",
@@ -3273,13 +3506,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5505
+    "rank": 5505,
+    "name": "Twinings Green Apple Tea"
   },
   {
     "id": 5506,
     "title": "Twinings Green Tea",
     "slug": "twinings-green-tea",
-    "price": 330.0,
+    "price": 330,
     "image": "/images/products/twinings-green-tea.jpg",
     "stock": 2,
     "description": "Twinings Green Tea - Refreshing beverage or health drink.",
@@ -3287,13 +3521,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5506
+    "rank": 5506,
+    "name": "Twinings Green Tea"
   },
   {
     "id": 5507,
     "title": "Twinings Green Tea",
     "slug": "twinings-green-tea",
-    "price": 330.0,
+    "price": 330,
     "image": "/images/products/twinings-green-tea.jpg",
     "stock": 8,
     "description": "Twinings Green Tea - Refreshing beverage or health drink.",
@@ -3301,13 +3536,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5507
+    "rank": 5507,
+    "name": "Twinings Green Tea"
   },
   {
     "id": 5508,
     "title": "Twinings Green Tea Cranberry",
     "slug": "twinings-green-tea-cranberry",
-    "price": 330.0,
+    "price": 330,
     "image": "/images/products/twinings-green-tea-cranberry.jpg",
     "stock": 2,
     "description": "Twinings Green Tea Cranberry - Refreshing beverage or health drink.",
@@ -3315,13 +3551,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5508
+    "rank": 5508,
+    "name": "Twinings Green Tea Cranberry"
   },
   {
     "id": 5509,
     "title": "Twinings Green Tea Earl Grey",
     "slug": "twinings-green-tea-earl-grey",
-    "price": 330.0,
+    "price": 330,
     "image": "/images/products/twinings-green-tea-earl-grey.jpg",
     "stock": 1,
     "description": "Twinings Green Tea Earl Grey - Refreshing beverage or health drink.",
@@ -3329,13 +3566,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5509
+    "rank": 5509,
+    "name": "Twinings Green Tea Earl Grey"
   },
   {
     "id": 5510,
     "title": "Twinings Green Tea Pomegranate",
     "slug": "twinings-green-tea-pomegranate",
-    "price": 330.0,
+    "price": 330,
     "image": "/images/products/twinings-green-tea-pomegranate.jpg",
     "stock": 2,
     "description": "Twinings Green Tea Pomegranate - Refreshing beverage or health drink.",
@@ -3343,13 +3581,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5510
+    "rank": 5510,
+    "name": "Twinings Green Tea Pomegranate"
   },
   {
     "id": 5511,
     "title": "Twinings Green Tea Pure/Mint",
     "slug": "twinings-green-tea-puremint",
-    "price": 345.0,
+    "price": 345,
     "image": "/images/products/twinings-green-tea-puremint.jpg",
     "stock": 1,
     "description": "Twinings Green Tea Pure/Mint - Refreshing beverage or health drink.",
@@ -3357,13 +3596,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5511
+    "rank": 5511,
+    "name": "Twinings Green Tea Pure/Mint"
   },
   {
     "id": 5512,
     "title": "Twinings Green Tea Pure/Mint",
     "slug": "twinings-green-tea-puremint",
-    "price": 345.0,
+    "price": 345,
     "image": "/images/products/twinings-green-tea-puremint.jpg",
     "stock": 6,
     "description": "Twinings Green Tea Pure/Mint - Refreshing beverage or health drink.",
@@ -3371,13 +3611,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5512
+    "rank": 5512,
+    "name": "Twinings Green Tea Pure/Mint"
   },
   {
     "id": 5513,
     "title": "Twinings Green Tea Strawberry",
     "slug": "twinings-green-tea-strawberry",
-    "price": 330.0,
+    "price": 330,
     "image": "/images/products/twinings-green-tea-strawberry.jpg",
     "stock": 1,
     "description": "Twinings Green Tea Strawberry - Refreshing beverage or health drink.",
@@ -3385,13 +3626,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5513
+    "rank": 5513,
+    "name": "Twinings Green Tea Strawberry"
   },
   {
     "id": 5516,
     "title": "Twinings Tea Pure Pepermint/Assorted",
     "slug": "twinings-tea-pure-pepermintassorted",
-    "price": 375.0,
+    "price": 375,
     "image": "/images/products/twinings-tea-pure-pepermintassorted.jpg",
     "stock": 2,
     "description": "Twinings Tea Pure Pepermint/Assorted - Refreshing beverage or health drink.",
@@ -3399,13 +3641,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5516
+    "rank": 5516,
+    "name": "Twinings Tea Pure Pepermint/Assorted"
   },
   {
     "id": 5522,
     "title": "Uji Coconut Milk 250Ml",
     "slug": "uji-coconut-milk-250ml",
-    "price": 115.0,
+    "price": 115,
     "image": "/images/products/uji-coconut-milk-250ml.jpg",
     "stock": 23,
     "description": "Uji Coconut Milk 250Ml - Refreshing beverage or health drink.",
@@ -3413,13 +3656,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5522
+    "rank": 5522,
+    "name": "Uji Coconut Milk 250Ml"
   },
   {
     "id": 5556,
     "title": "Valley Culture Blue Tea Tea",
     "slug": "valley-culture-blue-tea-tea",
-    "price": 400.0,
+    "price": 400,
     "image": "/images/products/valley-culture-blue-tea-tea.jpg",
     "stock": 3,
     "description": "Valley Culture Blue Tea Tea - Refreshing beverage or health drink.",
@@ -3427,13 +3671,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5556
+    "rank": 5556,
+    "name": "Valley Culture Blue Tea Tea"
   },
   {
     "id": 5558,
     "title": "Valley Culture Chamomile Tea",
     "slug": "valley-culture-chamomile-tea",
-    "price": 400.0,
+    "price": 400,
     "image": "/images/products/valley-culture-chamomile-tea.jpg",
     "stock": 5,
     "description": "Valley Culture Chamomile Tea - Refreshing beverage or health drink.",
@@ -3441,13 +3686,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5558
+    "rank": 5558,
+    "name": "Valley Culture Chamomile Tea"
   },
   {
     "id": 5559,
     "title": "Valley Culture Hibiscus Tea",
     "slug": "valley-culture-hibiscus-tea",
-    "price": 400.0,
+    "price": 400,
     "image": "/images/products/valley-culture-hibiscus-tea.jpg",
     "stock": 3,
     "description": "Valley Culture Hibiscus Tea - Refreshing beverage or health drink.",
@@ -3455,13 +3701,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5559
+    "rank": 5559,
+    "name": "Valley Culture Hibiscus Tea"
   },
   {
     "id": 5564,
     "title": "Valley Culture Lavender Tea",
     "slug": "valley-culture-lavender-tea",
-    "price": 400.0,
+    "price": 400,
     "image": "/images/products/valley-culture-lavender-tea.jpg",
     "stock": 4,
     "description": "Valley Culture Lavender Tea - Refreshing beverage or health drink.",
@@ -3469,13 +3716,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5564
+    "rank": 5564,
+    "name": "Valley Culture Lavender Tea"
   },
   {
     "id": 5565,
     "title": "Valley Culture Spearmint Tea",
     "slug": "valley-culture-spearmint-tea",
-    "price": 400.0,
+    "price": 400,
     "image": "/images/products/valley-culture-spearmint-tea.jpg",
     "stock": 5,
     "description": "Valley Culture Spearmint Tea - Refreshing beverage or health drink.",
@@ -3483,13 +3731,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5565
+    "rank": 5565,
+    "name": "Valley Culture Spearmint Tea"
   },
   {
     "id": 5607,
     "title": "Veeba Caramel Syrup",
     "slug": "veeba-caramel-syrup",
-    "price": 105.0,
+    "price": 105,
     "image": "/images/products/veeba-caramel-syrup.jpg",
     "stock": 3,
     "description": "Veeba Caramel Syrup - Refreshing beverage or health drink.",
@@ -3497,13 +3746,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5607
+    "rank": 5607,
+    "name": "Veeba Caramel Syrup"
   },
   {
     "id": 5617,
     "title": "Veeba Choco Syrup",
     "slug": "veeba-choco-syrup",
-    "price": 100.0,
+    "price": 100,
     "image": "/images/products/veeba-choco-syrup.jpg",
     "stock": 3,
     "description": "Veeba Choco Syrup - Refreshing beverage or health drink.",
@@ -3511,13 +3761,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5617
+    "rank": 5617,
+    "name": "Veeba Choco Syrup"
   },
   {
     "id": 5656,
     "title": "Veeba Strawbeery Syrup",
     "slug": "veeba-strawbeery-syrup",
-    "price": 110.0,
+    "price": 110,
     "image": "/images/products/veeba-strawbeery-syrup.jpg",
     "stock": 3,
     "description": "Veeba Strawbeery Syrup - Refreshing beverage or health drink.",
@@ -3525,13 +3776,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5656
+    "rank": 5656,
+    "name": "Veeba Strawbeery Syrup"
   },
   {
     "id": 5788,
     "title": "Vita Millets Milk 200Ml",
     "slug": "vita-millets-milk-200ml",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/vita-millets-milk-200ml.jpg",
     "stock": 29,
     "description": "Vita Millets Milk 200Ml - Refreshing beverage or health drink.",
@@ -3539,13 +3791,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5788
+    "rank": 5788,
+    "name": "Vita Millets Milk 200Ml"
   },
   {
     "id": 5799,
     "title": "Wagh Bakri Instant Tea",
     "slug": "wagh-bakri-instant-tea",
-    "price": 150.0,
+    "price": 150,
     "image": "/images/products/wagh-bakri-instant-tea.jpg",
     "stock": 9,
     "description": "Wagh Bakri Instant Tea - Refreshing beverage or health drink.",
@@ -3553,13 +3806,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5799
+    "rank": 5799,
+    "name": "Wagh Bakri Instant Tea"
   },
   {
     "id": 5800,
     "title": "Wagh Bakri Leaf Tea",
     "slug": "wagh-bakri-leaf-tea",
-    "price": 145.0,
+    "price": 145,
     "image": "/images/products/wagh-bakri-leaf-tea.jpg",
     "stock": 4,
     "description": "Wagh Bakri Leaf Tea - Refreshing beverage or health drink.",
@@ -3567,13 +3821,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5800
+    "rank": 5800,
+    "name": "Wagh Bakri Leaf Tea"
   },
   {
     "id": 5801,
     "title": "Wagh Bakri Leaf Tea",
     "slug": "wagh-bakri-leaf-tea",
-    "price": 165.0,
+    "price": 165,
     "image": "/images/products/wagh-bakri-leaf-tea.jpg",
     "stock": 2,
     "description": "Wagh Bakri Leaf Tea - Refreshing beverage or health drink.",
@@ -3581,13 +3836,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5801
+    "rank": 5801,
+    "name": "Wagh Bakri Leaf Tea"
   },
   {
     "id": 5802,
     "title": "Wagh Bakri Spiced Tea",
     "slug": "wagh-bakri-spiced-tea",
-    "price": 165.0,
+    "price": 165,
     "image": "/images/products/wagh-bakri-spiced-tea.jpg",
     "stock": 7,
     "description": "Wagh Bakri Spiced Tea - Refreshing beverage or health drink.",
@@ -3595,13 +3851,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5802
+    "rank": 5802,
+    "name": "Wagh Bakri Spiced Tea"
   },
   {
     "id": 5803,
     "title": "Wagh Bakri Strong Leaf Tea",
     "slug": "wagh-bakri-strong-leaf-tea",
-    "price": 135.0,
+    "price": 135,
     "image": "/images/products/wagh-bakri-strong-leaf-tea.jpg",
     "stock": 5,
     "description": "Wagh Bakri Strong Leaf Tea - Refreshing beverage or health drink.",
@@ -3609,13 +3866,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5803
+    "rank": 5803,
+    "name": "Wagh Bakri Strong Leaf Tea"
   },
   {
     "id": 5891,
     "title": "White Gold Coffeee Mug Set 8",
     "slug": "white-gold-coffeee-mug-set-8",
-    "price": 2875.0,
+    "price": 2875,
     "image": "/images/products/white-gold-coffeee-mug-set-8.jpg",
     "stock": 1,
     "description": "White Gold Coffeee Mug Set 8 - Refreshing beverage or health drink.",
@@ -3623,13 +3881,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5891
+    "rank": 5891,
+    "name": "White Gold Coffeee Mug Set 8"
   },
   {
     "id": 5901,
     "title": "White Gold Tea Sugar Set-360.3",
     "slug": "white-gold-tea-sugar-set-3603",
-    "price": 2350.0,
+    "price": 2350,
     "image": "/images/products/white-gold-tea-sugar-set-3603.jpg",
     "stock": 1,
     "description": "White Gold Tea Sugar Set-360.3 - Refreshing beverage or health drink.",
@@ -3637,13 +3896,14 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 5901
+    "rank": 5901,
+    "name": "White Gold Tea Sugar Set-360.3"
   },
   {
     "id": 6016,
     "title": "Zero Vida Juice",
     "slug": "zero-vida-juice",
-    "price": 125.0,
+    "price": 125,
     "image": "/images/products/zero-vida-juice.jpg",
     "stock": 16,
     "description": "Zero Vida Juice - Refreshing beverage or health drink.",
@@ -3651,7 +3911,8 @@ const products = [
     "unit": "PCS",
     "category": "beverages",
     "popular": false,
-    "rank": 6016
+    "rank": 6016,
+    "name": "Zero Vida Juice"
   }
 ];
 

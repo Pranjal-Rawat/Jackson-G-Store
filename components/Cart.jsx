@@ -1,5 +1,7 @@
 'use client';
 
+// Route: /components/Cart.jsx – Main Cart Page
+
 import { useState, useCallback } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import Link from 'next/link';
@@ -22,12 +24,14 @@ export default function Cart() {
   const [showConfirm, setShowConfirm] = useState(false);
   const [isRedirecting, setIsRedirecting] = useState(false);
 
+  // Memoized input handler for performance
   const handleInputChange = useCallback((e) => {
     const { name, value } = e.target;
     setCustomer((prev) => ({ ...prev, [name]: value }));
   }, []);
 
-  const validateForm = () => {
+  // Robust validation for customer input
+  const validateForm = useCallback(() => {
     if (customer.name.trim().length < 3) {
       alert('Full name must be at least 3 characters.');
       return false;
@@ -41,23 +45,26 @@ export default function Cart() {
       return false;
     }
     return true;
-  };
-
-  const handleCheckout = useCallback(async () => {
-    if (!validateForm()) return;
-    setShowConfirm(true);
   }, [customer]);
 
-  const confirmRedirect = async () => {
+  // Start checkout – show confirmation modal if valid
+  const handleCheckout = useCallback(() => {
+    if (!validateForm()) return;
+    setShowConfirm(true);
+  }, [validateForm]);
+
+  // Confirm and perform redirect/stock update
+  const confirmRedirect = useCallback(async () => {
     setShowConfirm(false);
     setIsRedirecting(true);
     try {
+      // 1. Verify order and generate WhatsApp URL
       const response = await fetch('/api/verify-order', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           cartItems: items.map((item) => ({
-            _id: item._id, // or item.id or item.productId, as available
+            _id: item._id,
             quantity: item.quantity,
             slug: item.slug,
             id: item.id,
@@ -65,13 +72,12 @@ export default function Cart() {
           customer,
         }),
       });
-
       const data = await response.json();
+
       if (response.ok && data.whatsappUrl) {
-        // 1. Open WhatsApp order
         window.open(data.whatsappUrl, '_blank');
 
-        // 2. Reduce stock in DB
+        // 2. Reduce stock after WhatsApp confirmation (can be optimized server-side)
         await fetch('/api/reduce-stock', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
@@ -85,9 +91,8 @@ export default function Cart() {
           }),
         });
 
-        // 3. Clear cart after successful stock reduction
+        // 3. Clear cart
         clearCart();
-
       } else {
         alert(data.error || 'Failed to generate WhatsApp link.');
       }
@@ -97,7 +102,7 @@ export default function Cart() {
     } finally {
       setIsRedirecting(false);
     }
-  };
+  }, [items, customer, clearCart]);
 
   return (
     <main className="min-h-screen bg-gradient-to-b from-gray-50 via-white to-gray-100 text-gray-800">
@@ -111,11 +116,14 @@ export default function Cart() {
             <FiArrowLeft className="h-5 w-5 mr-2" />
             Continue Shopping
           </button>
-          <h1 className="text-2xl sm:text-3xl font-extrabold ml-4 tracking-tight">My Cart <span className="text-primary-600">({count})</span></h1>
+          <h1 className="text-2xl sm:text-3xl font-extrabold ml-4 tracking-tight">
+            My Cart <span className="text-primary-600">({count})</span>
+          </h1>
         </div>
 
         <AnimatePresence>
           {items.length === 0 ? (
+            // Empty Cart Animation
             <motion.div
               key="empty-cart"
               initial={{ opacity: 0, scale: 0.9 }}
@@ -164,6 +172,8 @@ export default function Cart() {
                         alt={item.title || 'Cart item'}
                         fill
                         className="object-cover"
+                        sizes="80px"
+                        priority
                       />
                     </div>
                     <div className="ml-5 flex-1">
@@ -175,6 +185,7 @@ export default function Cart() {
                             onClick={() => updateQuantity(item.id, item.quantity - 1)}
                             className="px-3 py-1.5 text-lg font-bold text-gray-700 hover:bg-gray-200 transition rounded-l-xl"
                             aria-label="Decrease quantity"
+                            disabled={item.quantity <= 1}
                           >
                             −
                           </button>
@@ -213,6 +224,8 @@ export default function Cart() {
                       value={customer.name}
                       onChange={handleInputChange}
                       className="border border-gray-200 rounded-xl p-3 focus:ring-2 focus:ring-primary-400 transition text-gray-700"
+                      autoComplete="name"
+                      required
                     />
                     <input
                       type="tel"
@@ -221,6 +234,8 @@ export default function Cart() {
                       value={customer.phone}
                       onChange={handleInputChange}
                       className="border border-gray-200 rounded-xl p-3 focus:ring-2 focus:ring-primary-400 transition text-gray-700"
+                      autoComplete="tel"
+                      required
                     />
                     <textarea
                       name="address"
@@ -229,6 +244,8 @@ export default function Cart() {
                       onChange={handleInputChange}
                       className="md:col-span-2 border border-gray-200 rounded-xl p-3 focus:ring-2 focus:ring-primary-400 transition text-gray-700"
                       rows="3"
+                      autoComplete="street-address"
+                      required
                     />
                     <select
                       name="paymentMethod"

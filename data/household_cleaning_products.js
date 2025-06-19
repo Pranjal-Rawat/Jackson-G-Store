@@ -3,7 +3,7 @@ const products = [
     "id": 237,
     "title": "Ariel Liquid F Load 2L",
     "slug": "ariel-liquid-f-load-2l",
-    "price": 364.0,
+    "price": 364,
     "image": "/images/products/ariel-liquid-f-load-2l.jpg",
     "stock": 2,
     "description": "Ariel Liquid F Load 2L - Trusted household or cleaning product.",
@@ -11,13 +11,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 237
+    "rank": 237,
+    "name": "Ariel Liquid F Load 2L"
   },
   {
     "id": 238,
     "title": "Ariel Liquid F Load 2L+500Ml",
     "slug": "ariel-liquid-f-load-2l500ml",
-    "price": 459.0,
+    "price": 459,
     "image": "/images/products/ariel-liquid-f-load-2l500ml.jpg",
     "stock": 1,
     "description": "Ariel Liquid F Load 2L+500Ml - Trusted household or cleaning product.",
@@ -25,13 +26,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 238
+    "rank": 238,
+    "name": "Ariel Liquid F Load 2L+500Ml"
   },
   {
     "id": 239,
     "title": "Ariel Liquid F Load 500Ml",
     "slug": "ariel-liquid-f-load-500ml",
-    "price": 134.0,
+    "price": 134,
     "image": "/images/products/ariel-liquid-f-load-500ml.jpg",
     "stock": 3,
     "description": "Ariel Liquid F Load 500Ml - Trusted household or cleaning product.",
@@ -39,13 +41,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 239
+    "rank": 239,
+    "name": "Ariel Liquid F Load 500Ml"
   },
   {
     "id": 240,
     "title": "Ariel Liquid Front Load 1Ltr",
     "slug": "ariel-liquid-front-load-1ltr",
-    "price": 259.0,
+    "price": 259,
     "image": "/images/products/ariel-liquid-front-load-1ltr.jpg",
     "stock": 2,
     "description": "Ariel Liquid Front Load 1Ltr - Trusted household or cleaning product.",
@@ -53,13 +56,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 240
+    "rank": 240,
+    "name": "Ariel Liquid Front Load 1Ltr"
   },
   {
     "id": 241,
     "title": "Ariel Liquid Pouch Front Load 1Ltr",
     "slug": "ariel-liquid-pouch-front-load-1ltr",
-    "price": 169.0,
+    "price": 169,
     "image": "/images/products/ariel-liquid-pouch-front-load-1ltr.jpg",
     "stock": 4,
     "description": "Ariel Liquid Pouch Front Load 1Ltr - Trusted household or cleaning product.",
@@ -67,13 +71,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 241
+    "rank": 241,
+    "name": "Ariel Liquid Pouch Front Load 1Ltr"
   },
   {
     "id": 242,
     "title": "Ariel Liquid Pouch Top Load 1Ltr",
     "slug": "ariel-liquid-pouch-top-load-1ltr",
-    "price": 173.0,
+    "price": 173,
     "image": "/images/products/ariel-liquid-pouch-top-load-1ltr.jpg",
     "stock": 1,
     "description": "Ariel Liquid Pouch Top Load 1Ltr - Trusted household or cleaning product.",
@@ -81,13 +86,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 242
+    "rank": 242,
+    "name": "Ariel Liquid Pouch Top Load 1Ltr"
   },
   {
     "id": 243,
     "title": "Ariel Liquid Pouch Top Load 1Ltr",
     "slug": "ariel-liquid-pouch-top-load-1ltr",
-    "price": 149.0,
+    "price": 149,
     "image": "/images/products/ariel-liquid-pouch-top-load-1ltr.jpg",
     "stock": 3,
     "description": "Ariel Liquid Pouch Top Load 1Ltr - Trusted household or cleaning product.",
@@ -95,13 +101,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 243
+    "rank": 243,
+    "name": "Ariel Liquid Pouch Top Load 1Ltr"
   },
   {
     "id": 244,
     "title": "Ariel Liquid Top Load 1L",
     "slug": "ariel-liquid-top-load-1l",
-    "price": 225.0,
+    "price": 225,
     "image": "/images/products/ariel-liquid-top-load-1l.jpg",
     "stock": 6,
     "description": "Ariel Liquid Top Load 1L - Trusted household or cleaning product.",
@@ -109,13 +116,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 244
+    "rank": 244,
+    "name": "Ariel Liquid Top Load 1L"
   },
   {
     "id": 245,
     "title": "Ariel Liquid Top Load 2L+500Ml",
     "slug": "ariel-liquid-top-load-2l500ml",
-    "price": 399.0,
+    "price": 399,
     "image": "/images/products/ariel-liquid-top-load-2l500ml.jpg",
     "stock": 1,
     "description": "Ariel Liquid Top Load 2L+500Ml - Trusted household or cleaning product.",
@@ -123,13 +131,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 245
+    "rank": 245,
+    "name": "Ariel Liquid Top Load 2L+500Ml"
   },
   {
     "id": 246,
     "title": "Ariel Liquid Top Load 500Ml",
     "slug": "ariel-liquid-top-load-500ml",
-    "price": 138.0,
+    "price": 138,
     "image": "/images/products/ariel-liquid-top-load-500ml.jpg",
     "stock": 3,
     "description": "Ariel Liquid Top Load 500Ml - Trusted household or cleaning product.",
@@ -137,13 +146,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 246
+    "rank": 246,
+    "name": "Ariel Liquid Top Load 500Ml"
   },
   {
     "id": 254,
     "title": "Aristo Aqua Bucket 12L",
     "slug": "aristo-aqua-bucket-12l",
-    "price": 268.0,
+    "price": 268,
     "image": "/images/products/aristo-aqua-bucket-12l.jpg",
     "stock": 3,
     "description": "Aristo Aqua Bucket 12L - Trusted household or cleaning product.",
@@ -151,13 +161,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 254
+    "rank": 254,
+    "name": "Aristo Aqua Bucket 12L"
   },
   {
     "id": 255,
     "title": "Aristo Aqua Bucket 20L",
     "slug": "aristo-aqua-bucket-20l",
-    "price": 436.0,
+    "price": 436,
     "image": "/images/products/aristo-aqua-bucket-20l.jpg",
     "stock": 5,
     "description": "Aristo Aqua Bucket 20L - Trusted household or cleaning product.",
@@ -165,13 +176,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 255
+    "rank": 255,
+    "name": "Aristo Aqua Bucket 20L"
   },
   {
     "id": 256,
     "title": "Aristo Aqua Bucket 26L",
     "slug": "aristo-aqua-bucket-26l",
-    "price": 552.0,
+    "price": 552,
     "image": "/images/products/aristo-aqua-bucket-26l.jpg",
     "stock": 6,
     "description": "Aristo Aqua Bucket 26L - Trusted household or cleaning product.",
@@ -179,13 +191,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 256
+    "rank": 256,
+    "name": "Aristo Aqua Bucket 26L"
   },
   {
     "id": 421,
     "title": "Beardo De-Tan Scrub 100Gm",
     "slug": "beardo-de-tan-scrub-100gm",
-    "price": 375.0,
+    "price": 375,
     "image": "/images/products/beardo-de-tan-scrub-100gm.jpg",
     "stock": 3,
     "description": "Beardo De-Tan Scrub 100Gm - Trusted household or cleaning product.",
@@ -193,13 +206,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 421
+    "rank": 421,
+    "name": "Beardo De-Tan Scrub 100Gm"
   },
   {
     "id": 505,
     "title": "Biotique Papaya Scrub",
     "slug": "biotique-papaya-scrub",
-    "price": 299.0,
+    "price": 299,
     "image": "/images/products/biotique-papaya-scrub.jpg",
     "stock": 2,
     "description": "Biotique Papaya Scrub - Trusted household or cleaning product.",
@@ -207,13 +221,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 505
+    "rank": 505,
+    "name": "Biotique Papaya Scrub"
   },
   {
     "id": 519,
     "title": "Biotique Walnut Scrub",
     "slug": "biotique-walnut-scrub",
-    "price": 299.0,
+    "price": 299,
     "image": "/images/products/biotique-walnut-scrub.jpg",
     "stock": 3,
     "description": "Biotique Walnut Scrub - Trusted household or cleaning product.",
@@ -221,13 +236,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 519
+    "rank": 519,
+    "name": "Biotique Walnut Scrub"
   },
   {
     "id": 970,
     "title": "Chicco Baby Laundry Detergent",
     "slug": "chicco-baby-laundry-detergent",
-    "price": 349.0,
+    "price": 349,
     "image": "/images/products/chicco-baby-laundry-detergent.jpg",
     "stock": 12,
     "description": "Chicco Baby Laundry Detergent - Trusted household or cleaning product.",
@@ -235,13 +251,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 970
+    "rank": 970,
+    "name": "Chicco Baby Laundry Detergent"
   },
   {
     "id": 1012,
     "title": "Cif Cleaner 500Ml",
     "slug": "cif-cleaner-500ml",
-    "price": 275.0,
+    "price": 275,
     "image": "/images/products/cif-cleaner-500ml.jpg",
     "stock": 6,
     "description": "Cif Cleaner 500Ml - Trusted household or cleaning product.",
@@ -249,13 +266,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 1012
+    "rank": 1012,
+    "name": "Cif Cleaner 500Ml"
   },
   {
     "id": 1013,
     "title": "Cif Floors Cleaner 997Ml",
     "slug": "cif-floors-cleaner-997ml",
-    "price": 249.0,
+    "price": 249,
     "image": "/images/products/cif-floors-cleaner-997ml.jpg",
     "stock": 6,
     "description": "Cif Floors Cleaner 997Ml - Trusted household or cleaning product.",
@@ -263,7 +281,8 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 1013
+    "rank": 1013,
+    "name": "Cif Floors Cleaner 997Ml"
   },
   {
     "id": 1315,
@@ -277,13 +296,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 1315
+    "rank": 1315,
+    "name": "Dettol Antiseptic Liquid 125Ml"
   },
   {
     "id": 1316,
     "title": "Dettol Antiseptic Liquid 1L",
     "slug": "dettol-antiseptic-liquid-1l",
-    "price": 441.0,
+    "price": 441,
     "image": "/images/products/dettol-antiseptic-liquid-1l.jpg",
     "stock": 3,
     "description": "Dettol Antiseptic Liquid 1L - Trusted household or cleaning product.",
@@ -291,7 +311,8 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 1316
+    "rank": 1316,
+    "name": "Dettol Antiseptic Liquid 1L"
   },
   {
     "id": 1317,
@@ -305,13 +326,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 1317
+    "rank": 1317,
+    "name": "Dettol Antiseptic Liquid 250L"
   },
   {
     "id": 1318,
     "title": "Dettol Antiseptic Liquid 550Ml",
     "slug": "dettol-antiseptic-liquid-550ml",
-    "price": 259.0,
+    "price": 259,
     "image": "/images/products/dettol-antiseptic-liquid-550ml.jpg",
     "stock": 6,
     "description": "Dettol Antiseptic Liquid 550Ml - Trusted household or cleaning product.",
@@ -319,13 +341,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 1318
+    "rank": 1318,
+    "name": "Dettol Antiseptic Liquid 550Ml"
   },
   {
     "id": 1319,
     "title": "Dettol Antiseptic Liquid 60Ml",
     "slug": "dettol-antiseptic-liquid-60ml",
-    "price": 40.0,
+    "price": 40,
     "image": "/images/products/dettol-antiseptic-liquid-60ml.jpg",
     "stock": 5,
     "description": "Dettol Antiseptic Liquid 60Ml - Trusted household or cleaning product.",
@@ -333,13 +356,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 1319
+    "rank": 1319,
+    "name": "Dettol Antiseptic Liquid 60Ml"
   },
   {
     "id": 1336,
     "title": "Dettol Sanitizer 200Ml",
     "slug": "dettol-sanitizer-200ml",
-    "price": 125.0,
+    "price": 125,
     "image": "/images/products/dettol-sanitizer-200ml.jpg",
     "stock": 3,
     "description": "Dettol Sanitizer 200Ml - Trusted household or cleaning product.",
@@ -347,13 +371,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 1336
+    "rank": 1336,
+    "name": "Dettol Sanitizer 200Ml"
   },
   {
     "id": 1337,
     "title": "Dettol Sanitizer 47Ml",
     "slug": "dettol-sanitizer-47ml",
-    "price": 30.0,
+    "price": 30,
     "image": "/images/products/dettol-sanitizer-47ml.jpg",
     "stock": 3,
     "description": "Dettol Sanitizer 47Ml - Trusted household or cleaning product.",
@@ -361,13 +386,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 1337
+    "rank": 1337,
+    "name": "Dettol Sanitizer 47Ml"
   },
   {
     "id": 1586,
     "title": "Everyuth Tan Removal Cherry Scrub 50G",
     "slug": "everyuth-tan-removal-cherry-scrub-50g",
-    "price": 125.0,
+    "price": 125,
     "image": "/images/products/everyuth-tan-removal-cherry-scrub-50g.jpg",
     "stock": 3,
     "description": "Everyuth Tan Removal Cherry Scrub 50G - Trusted household or cleaning product.",
@@ -375,13 +401,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 1586
+    "rank": 1586,
+    "name": "Everyuth Tan Removal Cherry Scrub 50G"
   },
   {
     "id": 1619,
     "title": "Feathers Broom",
     "slug": "feathers-broom",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/feathers-broom.jpg",
     "stock": 5,
     "description": "Feathers Broom - Trusted household or cleaning product.",
@@ -389,13 +416,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 1619
+    "rank": 1619,
+    "name": "Feathers Broom"
   },
   {
     "id": 1620,
     "title": "Feathers Facial Tissue Pull 100",
     "slug": "feathers-facial-tissue-pull-100",
-    "price": 115.0,
+    "price": 115,
     "image": "/images/products/feathers-facial-tissue-pull-100.jpg",
     "stock": 3,
     "description": "Feathers Facial Tissue Pull 100 - Trusted household or cleaning product.",
@@ -403,13 +431,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 1620
+    "rank": 1620,
+    "name": "Feathers Facial Tissue Pull 100"
   },
   {
     "id": 1621,
     "title": "Feathers Facial Tissue Pull 200",
     "slug": "feathers-facial-tissue-pull-200",
-    "price": 210.0,
+    "price": 210,
     "image": "/images/products/feathers-facial-tissue-pull-200.jpg",
     "stock": 1,
     "description": "Feathers Facial Tissue Pull 200 - Trusted household or cleaning product.",
@@ -417,13 +446,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 1621
+    "rank": 1621,
+    "name": "Feathers Facial Tissue Pull 200"
   },
   {
     "id": 1628,
     "title": "Feathers Toilet Roll 6 In 1",
     "slug": "feathers-toilet-roll-6-in-1",
-    "price": 290.0,
+    "price": 290,
     "image": "/images/products/feathers-toilet-roll-6-in-1.jpg",
     "stock": 2,
     "description": "Feathers Toilet Roll 6 In 1 - Trusted household or cleaning product.",
@@ -431,13 +461,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 1628
+    "rank": 1628,
+    "name": "Feathers Toilet Roll 6 In 1"
   },
   {
     "id": 1629,
     "title": "Feathers Toilet Roll Single 275Sheet",
     "slug": "feathers-toilet-roll-single-275sheet",
-    "price": 52.0,
+    "price": 52,
     "image": "/images/products/feathers-toilet-roll-single-275sheet.jpg",
     "stock": 2,
     "description": "Feathers Toilet Roll Single 275Sheet - Trusted household or cleaning product.",
@@ -445,13 +476,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 1629
+    "rank": 1629,
+    "name": "Feathers Toilet Roll Single 275Sheet"
   },
   {
     "id": 1697,
     "title": "Foil Fringe Curtain Gk",
     "slug": "foil-fringe-curtain-gk",
-    "price": 50.0,
+    "price": 50,
     "image": "/images/products/foil-fringe-curtain-gk.jpg",
     "stock": 13,
     "description": "Foil Fringe Curtain Gk - Trusted household or cleaning product.",
@@ -459,13 +491,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 1697
+    "rank": 1697,
+    "name": "Foil Fringe Curtain Gk"
   },
   {
     "id": 1753,
     "title": "Gainda Glass Cleaner",
     "slug": "gainda-glass-cleaner",
-    "price": 90.0,
+    "price": 90,
     "image": "/images/products/gainda-glass-cleaner.jpg",
     "stock": 12,
     "description": "Gainda Glass Cleaner - Trusted household or cleaning product.",
@@ -473,13 +506,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 1753
+    "rank": 1753,
+    "name": "Gainda Glass Cleaner"
   },
   {
     "id": 1757,
     "title": "Gainda Toilate Cleaner 500Ml",
     "slug": "gainda-toilate-cleaner-500ml",
-    "price": 85.0,
+    "price": 85,
     "image": "/images/products/gainda-toilate-cleaner-500ml.jpg",
     "stock": 9,
     "description": "Gainda Toilate Cleaner 500Ml - Trusted household or cleaning product.",
@@ -487,13 +521,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 1757
+    "rank": 1757,
+    "name": "Gainda Toilate Cleaner 500Ml"
   },
   {
     "id": 1992,
     "title": "Gubb Bb Sponge",
     "slug": "gubb-bb-sponge",
-    "price": 250.0,
+    "price": 250,
     "image": "/images/products/gubb-bb-sponge.jpg",
     "stock": 3,
     "description": "Gubb Bb Sponge - Trusted household or cleaning product.",
@@ -501,13 +536,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 1992
+    "rank": 1992,
+    "name": "Gubb Bb Sponge"
   },
   {
     "id": 2051,
     "title": "Gubb Scrubber",
     "slug": "gubb-scrubber",
-    "price": 125.0,
+    "price": 125,
     "image": "/images/products/gubb-scrubber.jpg",
     "stock": 3,
     "description": "Gubb Scrubber - Trusted household or cleaning product.",
@@ -515,13 +551,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 2051
+    "rank": 2051,
+    "name": "Gubb Scrubber"
   },
   {
     "id": 2058,
     "title": "Gubb Tongue Cleaner Brass Grip",
     "slug": "gubb-tongue-cleaner-brass-grip",
-    "price": 185.0,
+    "price": 185,
     "image": "/images/products/gubb-tongue-cleaner-brass-grip.jpg",
     "stock": 3,
     "description": "Gubb Tongue Cleaner Brass Grip - Trusted household or cleaning product.",
@@ -529,13 +566,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 2058
+    "rank": 2058,
+    "name": "Gubb Tongue Cleaner Brass Grip"
   },
   {
     "id": 2059,
     "title": "Gubb Tongue Cleaner Copper Handle",
     "slug": "gubb-tongue-cleaner-copper-handle",
-    "price": 219.0,
+    "price": 219,
     "image": "/images/products/gubb-tongue-cleaner-copper-handle.jpg",
     "stock": 2,
     "description": "Gubb Tongue Cleaner Copper Handle - Trusted household or cleaning product.",
@@ -543,13 +581,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 2059
+    "rank": 2059,
+    "name": "Gubb Tongue Cleaner Copper Handle"
   },
   {
     "id": 2060,
     "title": "Gubb Tongue Cleaner Copper Round",
     "slug": "gubb-tongue-cleaner-copper-round",
-    "price": 105.0,
+    "price": 105,
     "image": "/images/products/gubb-tongue-cleaner-copper-round.jpg",
     "stock": 2,
     "description": "Gubb Tongue Cleaner Copper Round - Trusted household or cleaning product.",
@@ -557,13 +596,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 2060
+    "rank": 2060,
+    "name": "Gubb Tongue Cleaner Copper Round"
   },
   {
     "id": 2061,
     "title": "Gubb Tongue Cleaner Loop Metal",
     "slug": "gubb-tongue-cleaner-loop-metal",
-    "price": 205.0,
+    "price": 205,
     "image": "/images/products/gubb-tongue-cleaner-loop-metal.jpg",
     "stock": 2,
     "description": "Gubb Tongue Cleaner Loop Metal - Trusted household or cleaning product.",
@@ -571,13 +611,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 2061
+    "rank": 2061,
+    "name": "Gubb Tongue Cleaner Loop Metal"
   },
   {
     "id": 2062,
     "title": "Gubb Tongue Cleaner Metal",
     "slug": "gubb-tongue-cleaner-metal",
-    "price": 165.0,
+    "price": 165,
     "image": "/images/products/gubb-tongue-cleaner-metal.jpg",
     "stock": 3,
     "description": "Gubb Tongue Cleaner Metal - Trusted household or cleaning product.",
@@ -585,13 +626,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 2062
+    "rank": 2062,
+    "name": "Gubb Tongue Cleaner Metal"
   },
   {
     "id": 2063,
     "title": "Gubb Tongue Cleaner Plastic 1P",
     "slug": "gubb-tongue-cleaner-plastic-1p",
-    "price": 65.0,
+    "price": 65,
     "image": "/images/products/gubb-tongue-cleaner-plastic-1p.jpg",
     "stock": 3,
     "description": "Gubb Tongue Cleaner Plastic 1P - Trusted household or cleaning product.",
@@ -599,13 +641,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 2063
+    "rank": 2063,
+    "name": "Gubb Tongue Cleaner Plastic 1P"
   },
   {
     "id": 2064,
     "title": "Gubb Tongue Cleaner Set Of 2",
     "slug": "gubb-tongue-cleaner-set-of-2",
-    "price": 115.0,
+    "price": 115,
     "image": "/images/products/gubb-tongue-cleaner-set-of-2.jpg",
     "stock": 3,
     "description": "Gubb Tongue Cleaner Set Of 2 - Trusted household or cleaning product.",
@@ -613,13 +656,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 2064
+    "rank": 2064,
+    "name": "Gubb Tongue Cleaner Set Of 2"
   },
   {
     "id": 2065,
     "title": "Gubb Tongue Cleaner T+1",
     "slug": "gubb-tongue-cleaner-t1",
-    "price": 85.0,
+    "price": 85,
     "image": "/images/products/gubb-tongue-cleaner-t1.jpg",
     "stock": 3,
     "description": "Gubb Tongue Cleaner T+1 - Trusted household or cleaning product.",
@@ -627,13 +671,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 2065
+    "rank": 2065,
+    "name": "Gubb Tongue Cleaner T+1"
   },
   {
     "id": 2066,
     "title": "Gubb Tongue Cleaner T+2",
     "slug": "gubb-tongue-cleaner-t2",
-    "price": 145.0,
+    "price": 145,
     "image": "/images/products/gubb-tongue-cleaner-t2.jpg",
     "stock": 2,
     "description": "Gubb Tongue Cleaner T+2 - Trusted household or cleaning product.",
@@ -641,13 +686,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 2066
+    "rank": 2066,
+    "name": "Gubb Tongue Cleaner T+2"
   },
   {
     "id": 2104,
     "title": "H.Loom Floor Mop (9No)",
     "slug": "hloom-floor-mop-9no",
-    "price": 30.0,
+    "price": 30,
     "image": "/images/products/hloom-floor-mop-9no.jpg",
     "stock": 10,
     "description": "H.Loom Floor Mop (9No) - Trusted household or cleaning product.",
@@ -655,13 +701,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 2104
+    "rank": 2104,
+    "name": "H.Loom Floor Mop (9No)"
   },
   {
     "id": 2105,
     "title": "H.Loom Mop (12No)",
     "slug": "hloom-mop-12no",
-    "price": 50.0,
+    "price": 50,
     "image": "/images/products/hloom-mop-12no.jpg",
     "stock": 7,
     "description": "H.Loom Mop (12No) - Trusted household or cleaning product.",
@@ -669,13 +716,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 2105
+    "rank": 2105,
+    "name": "H.Loom Mop (12No)"
   },
   {
     "id": 2106,
     "title": "H.Loom Mop 13No",
     "slug": "hloom-mop-13no",
-    "price": 80.0,
+    "price": 80,
     "image": "/images/products/hloom-mop-13no.jpg",
     "stock": 16,
     "description": "H.Loom Mop 13No - Trusted household or cleaning product.",
@@ -683,13 +731,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 2106
+    "rank": 2106,
+    "name": "H.Loom Mop 13No"
   },
   {
     "id": 2107,
     "title": "H.Loom Mop(11No)",
     "slug": "hloom-mop11no",
-    "price": 40.0,
+    "price": 40,
     "image": "/images/products/hloom-mop11no.jpg",
     "stock": 10,
     "description": "H.Loom Mop(11No) - Trusted household or cleaning product.",
@@ -697,13 +746,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 2107
+    "rank": 2107,
+    "name": "H.Loom Mop(11No)"
   },
   {
     "id": 2200,
     "title": "Happy Birthday Foil Bt",
     "slug": "happy-birthday-foil-bt",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/happy-birthday-foil-bt.jpg",
     "stock": 4,
     "description": "Happy Birthday Foil Bt - Trusted household or cleaning product.",
@@ -711,13 +761,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 2200
+    "rank": 2200,
+    "name": "Happy Birthday Foil Bt"
   },
   {
     "id": 2203,
     "title": "Harpic 500Ml",
     "slug": "harpic-500ml",
-    "price": 110.0,
+    "price": 110,
     "image": "/images/products/harpic-500ml.jpg",
     "stock": 18,
     "description": "Harpic 500Ml - Trusted household or cleaning product.",
@@ -725,13 +776,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 2203
+    "rank": 2203,
+    "name": "Harpic 500Ml"
   },
   {
     "id": 2204,
     "title": "Harpic 5L",
     "slug": "harpic-5l",
-    "price": 999.0,
+    "price": 999,
     "image": "/images/products/harpic-5l.jpg",
     "stock": 1,
     "description": "Harpic 5L - Trusted household or cleaning product.",
@@ -739,13 +791,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 2204
+    "rank": 2204,
+    "name": "Harpic 5L"
   },
   {
     "id": 2205,
     "title": "Harpic 900Ml",
     "slug": "harpic-900ml",
-    "price": 195.0,
+    "price": 195,
     "image": "/images/products/harpic-900ml.jpg",
     "stock": 9,
     "description": "Harpic 900Ml - Trusted household or cleaning product.",
@@ -753,13 +806,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 2205
+    "rank": 2205,
+    "name": "Harpic 900Ml"
   },
   {
     "id": 2206,
     "title": "Harpic Bathroom Cleaner 1L",
     "slug": "harpic-bathroom-cleaner-1l",
-    "price": 219.0,
+    "price": 219,
     "image": "/images/products/harpic-bathroom-cleaner-1l.jpg",
     "stock": 3,
     "description": "Harpic Bathroom Cleaner 1L - Trusted household or cleaning product.",
@@ -767,13 +821,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 2206
+    "rank": 2206,
+    "name": "Harpic Bathroom Cleaner 1L"
   },
   {
     "id": 2207,
     "title": "Harpic Bathroom Cleaner 500Ml",
     "slug": "harpic-bathroom-cleaner-500ml",
-    "price": 115.0,
+    "price": 115,
     "image": "/images/products/harpic-bathroom-cleaner-500ml.jpg",
     "stock": 4,
     "description": "Harpic Bathroom Cleaner 500Ml - Trusted household or cleaning product.",
@@ -781,13 +836,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 2207
+    "rank": 2207,
+    "name": "Harpic Bathroom Cleaner 500Ml"
   },
   {
     "id": 2208,
     "title": "Harpic Drain Xpert Powder",
     "slug": "harpic-drain-xpert-powder",
-    "price": 33.0,
+    "price": 33,
     "image": "/images/products/harpic-drain-xpert-powder.jpg",
     "stock": 11,
     "description": "Harpic Drain Xpert Powder - Trusted household or cleaning product.",
@@ -795,13 +851,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 2208
+    "rank": 2208,
+    "name": "Harpic Drain Xpert Powder"
   },
   {
     "id": 2209,
     "title": "Harpic Flush Matic 50Gm",
     "slug": "harpic-flush-matic-50gm",
-    "price": 95.0,
+    "price": 95,
     "image": "/images/products/harpic-flush-matic-50gm.jpg",
     "stock": 3,
     "description": "Harpic Flush Matic 50Gm - Trusted household or cleaning product.",
@@ -809,13 +866,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 2209
+    "rank": 2209,
+    "name": "Harpic Flush Matic 50Gm"
   },
   {
     "id": 2210,
     "title": "Harpic Flush Matic 50X2Gm",
     "slug": "harpic-flush-matic-50x2gm",
-    "price": 172.0,
+    "price": 172,
     "image": "/images/products/harpic-flush-matic-50x2gm.jpg",
     "stock": 7,
     "description": "Harpic Flush Matic 50X2Gm - Trusted household or cleaning product.",
@@ -823,13 +881,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 2210
+    "rank": 2210,
+    "name": "Harpic Flush Matic 50X2Gm"
   },
   {
     "id": 2211,
     "title": "Harpic Flush Matic 50X3Gm",
     "slug": "harpic-flush-matic-50x3gm",
-    "price": 248.0,
+    "price": 248,
     "image": "/images/products/harpic-flush-matic-50x3gm.jpg",
     "stock": 2,
     "description": "Harpic Flush Matic 50X3Gm - Trusted household or cleaning product.",
@@ -837,13 +896,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 2211
+    "rank": 2211,
+    "name": "Harpic Flush Matic 50X3Gm"
   },
   {
     "id": 2212,
     "title": "Harpic Flush Matic 50X3Gm",
     "slug": "harpic-flush-matic-50x3gm",
-    "price": 260.0,
+    "price": 260,
     "image": "/images/products/harpic-flush-matic-50x3gm.jpg",
     "stock": 1,
     "description": "Harpic Flush Matic 50X3Gm - Trusted household or cleaning product.",
@@ -851,13 +911,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 2212
+    "rank": 2212,
+    "name": "Harpic Flush Matic 50X3Gm"
   },
   {
     "id": 2213,
     "title": "Harpic Flush Matic Cit 50Gm",
     "slug": "harpic-flush-matic-cit-50gm",
-    "price": 95.0,
+    "price": 95,
     "image": "/images/products/harpic-flush-matic-cit-50gm.jpg",
     "stock": 6,
     "description": "Harpic Flush Matic Cit 50Gm - Trusted household or cleaning product.",
@@ -865,13 +926,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 2213
+    "rank": 2213,
+    "name": "Harpic Flush Matic Cit 50Gm"
   },
   {
     "id": 2214,
     "title": "Harpic Hygine 26G",
     "slug": "harpic-hygine-26g",
-    "price": 91.0,
+    "price": 91,
     "image": "/images/products/harpic-hygine-26g.jpg",
     "stock": 2,
     "description": "Harpic Hygine 26G - Trusted household or cleaning product.",
@@ -879,13 +941,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 2214
+    "rank": 2214,
+    "name": "Harpic Hygine 26G"
   },
   {
     "id": 2215,
     "title": "Harpic Hygine 26G",
     "slug": "harpic-hygine-26g",
-    "price": 95.0,
+    "price": 95,
     "image": "/images/products/harpic-hygine-26g.jpg",
     "stock": 5,
     "description": "Harpic Hygine 26G - Trusted household or cleaning product.",
@@ -893,13 +956,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 2215
+    "rank": 2215,
+    "name": "Harpic Hygine 26G"
   },
   {
     "id": 2216,
     "title": "Harpic White 500Ml",
     "slug": "harpic-white-500ml",
-    "price": 115.0,
+    "price": 115,
     "image": "/images/products/harpic-white-500ml.jpg",
     "stock": 6,
     "description": "Harpic White 500Ml - Trusted household or cleaning product.",
@@ -907,13 +971,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 2216
+    "rank": 2216,
+    "name": "Harpic White 500Ml"
   },
   {
     "id": 2268,
     "title": "Himalaya Neem Face Scrub",
     "slug": "himalaya-neem-face-scrub",
-    "price": 95.0,
+    "price": 95,
     "image": "/images/products/himalaya-neem-face-scrub.jpg",
     "stock": 3,
     "description": "Himalaya Neem Face Scrub - Trusted household or cleaning product.",
@@ -921,13 +986,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 2268
+    "rank": 2268,
+    "name": "Himalaya Neem Face Scrub"
   },
   {
     "id": 2313,
     "title": "Homefoil 1Kg",
     "slug": "homefoil-1kg",
-    "price": 1040.0,
+    "price": 1040,
     "image": "/images/products/homefoil-1kg.jpg",
     "stock": 5,
     "description": "Homefoil 1Kg - Trusted household or cleaning product.",
@@ -935,13 +1001,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 2313
+    "rank": 2313,
+    "name": "Homefoil 1Kg"
   },
   {
     "id": 2314,
     "title": "Homefoil 25 Mtr",
     "slug": "homefoil-25-mtr",
-    "price": 400.0,
+    "price": 400,
     "image": "/images/products/homefoil-25-mtr.jpg",
     "stock": 11,
     "description": "Homefoil 25 Mtr - Trusted household or cleaning product.",
@@ -949,13 +1016,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 2314
+    "rank": 2314,
+    "name": "Homefoil 25 Mtr"
   },
   {
     "id": 2315,
     "title": "Homefoil 2In1 200Gm",
     "slug": "homefoil-2in1-200gm",
-    "price": 280.0,
+    "price": 280,
     "image": "/images/products/homefoil-2in1-200gm.jpg",
     "stock": 12,
     "description": "Homefoil 2In1 200Gm - Trusted household or cleaning product.",
@@ -963,13 +1031,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 2315
+    "rank": 2315,
+    "name": "Homefoil 2In1 200Gm"
   },
   {
     "id": 2316,
     "title": "Homefoil 75Mtr",
     "slug": "homefoil-75mtr",
-    "price": 1020.0,
+    "price": 1020,
     "image": "/images/products/homefoil-75mtr.jpg",
     "stock": 6,
     "description": "Homefoil 75Mtr - Trusted household or cleaning product.",
@@ -977,13 +1046,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 2316
+    "rank": 2316,
+    "name": "Homefoil 75Mtr"
   },
   {
     "id": 2317,
     "title": "Homefoil 9Mtr",
     "slug": "homefoil-9mtr",
-    "price": 190.0,
+    "price": 190,
     "image": "/images/products/homefoil-9mtr.jpg",
     "stock": 11,
     "description": "Homefoil 9Mtr - Trusted household or cleaning product.",
@@ -991,13 +1061,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 2317
+    "rank": 2317,
+    "name": "Homefoil 9Mtr"
   },
   {
     "id": 2540,
     "title": "Jimmy'S Cocktails Cosmopolitan",
     "slug": "jimmys-cocktails-cosmopolitan",
-    "price": 120.0,
+    "price": 120,
     "image": "/images/products/jimmys-cocktails-cosmopolitan.jpg",
     "stock": 6,
     "description": "Jimmy'S Cocktails Cosmopolitan - Trusted household or cleaning product.",
@@ -1005,13 +1076,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 2540
+    "rank": 2540,
+    "name": "Jimmy'S Cocktails Cosmopolitan"
   },
   {
     "id": 2688,
     "title": "Jovees Apricot Scrub",
     "slug": "jovees-apricot-scrub",
-    "price": 185.0,
+    "price": 185,
     "image": "/images/products/jovees-apricot-scrub.jpg",
     "stock": 1,
     "description": "Jovees Apricot Scrub - Trusted household or cleaning product.",
@@ -1019,13 +1091,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 2688
+    "rank": 2688,
+    "name": "Jovees Apricot Scrub"
   },
   {
     "id": 2691,
     "title": "Jovees De Tan Face Scrub",
     "slug": "jovees-de-tan-face-scrub",
-    "price": 255.0,
+    "price": 255,
     "image": "/images/products/jovees-de-tan-face-scrub.jpg",
     "stock": 3,
     "description": "Jovees De Tan Face Scrub - Trusted household or cleaning product.",
@@ -1033,13 +1106,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 2691
+    "rank": 2691,
+    "name": "Jovees De Tan Face Scrub"
   },
   {
     "id": 2696,
     "title": "Jovees Jojoba Scrub",
     "slug": "jovees-jojoba-scrub",
-    "price": 245.0,
+    "price": 245,
     "image": "/images/products/jovees-jojoba-scrub.jpg",
     "stock": 2,
     "description": "Jovees Jojoba Scrub - Trusted household or cleaning product.",
@@ -1047,13 +1121,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 2696
+    "rank": 2696,
+    "name": "Jovees Jojoba Scrub"
   },
   {
     "id": 2698,
     "title": "Jovees Papaya  Scrub",
     "slug": "jovees-papaya-scrub",
-    "price": 235.0,
+    "price": 235,
     "image": "/images/products/jovees-papaya-scrub.jpg",
     "stock": 1,
     "description": "Jovees Papaya  Scrub - Trusted household or cleaning product.",
@@ -1061,13 +1136,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 2698
+    "rank": 2698,
+    "name": "Jovees Papaya  Scrub"
   },
   {
     "id": 2735,
     "title": "Kapiva Dal Ubtain Face Scrub",
     "slug": "kapiva-dal-ubtain-face-scrub",
-    "price": 299.0,
+    "price": 299,
     "image": "/images/products/kapiva-dal-ubtain-face-scrub.jpg",
     "stock": 3,
     "description": "Kapiva Dal Ubtain Face Scrub - Trusted household or cleaning product.",
@@ -1075,13 +1151,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 2735
+    "rank": 2735,
+    "name": "Kapiva Dal Ubtain Face Scrub"
   },
   {
     "id": 3140,
     "title": "Lizol 500Ml",
     "slug": "lizol-500ml",
-    "price": 123.0,
+    "price": 123,
     "image": "/images/products/lizol-500ml.jpg",
     "stock": 13,
     "description": "Lizol 500Ml - Trusted household or cleaning product.",
@@ -1089,13 +1166,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 3140
+    "rank": 3140,
+    "name": "Lizol 500Ml"
   },
   {
     "id": 3141,
     "title": "Lizol Jasmine/Floral 500Ml",
     "slug": "lizol-jasminefloral-500ml",
-    "price": 123.0,
+    "price": 123,
     "image": "/images/products/lizol-jasminefloral-500ml.jpg",
     "stock": 4,
     "description": "Lizol Jasmine/Floral 500Ml - Trusted household or cleaning product.",
@@ -1103,13 +1181,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 3141
+    "rank": 3141,
+    "name": "Lizol Jasmine/Floral 500Ml"
   },
   {
     "id": 3142,
     "title": "Lizol Lavender 500Ml",
     "slug": "lizol-lavender-500ml",
-    "price": 123.0,
+    "price": 123,
     "image": "/images/products/lizol-lavender-500ml.jpg",
     "stock": 2,
     "description": "Lizol Lavender 500Ml - Trusted household or cleaning product.",
@@ -1117,13 +1196,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 3142
+    "rank": 3142,
+    "name": "Lizol Lavender 500Ml"
   },
   {
     "id": 3143,
     "title": "Lizol Lev/Floral 5L",
     "slug": "lizol-levfloral-5l",
-    "price": 949.0,
+    "price": 949,
     "image": "/images/products/lizol-levfloral-5l.jpg",
     "stock": 2,
     "description": "Lizol Lev/Floral 5L - Trusted household or cleaning product.",
@@ -1131,13 +1211,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 3143
+    "rank": 3143,
+    "name": "Lizol Lev/Floral 5L"
   },
   {
     "id": 3144,
     "title": "Lizol Lev/Floral 5L",
     "slug": "lizol-levfloral-5l",
-    "price": 1029.0,
+    "price": 1029,
     "image": "/images/products/lizol-levfloral-5l.jpg",
     "stock": 2,
     "description": "Lizol Lev/Floral 5L - Trusted household or cleaning product.",
@@ -1145,13 +1226,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 3144
+    "rank": 3144,
+    "name": "Lizol Lev/Floral 5L"
   },
   {
     "id": 3145,
     "title": "Lizol Pine Floor Cleaner 500Ml",
     "slug": "lizol-pine-floor-cleaner-500ml",
-    "price": 123.0,
+    "price": 123,
     "image": "/images/products/lizol-pine-floor-cleaner-500ml.jpg",
     "stock": 1,
     "description": "Lizol Pine Floor Cleaner 500Ml - Trusted household or cleaning product.",
@@ -1159,13 +1241,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 3145
+    "rank": 3145,
+    "name": "Lizol Pine Floor Cleaner 500Ml"
   },
   {
     "id": 3146,
     "title": "Lizol Sandal/Neem 500Ml",
     "slug": "lizol-sandalneem-500ml",
-    "price": 116.0,
+    "price": 116,
     "image": "/images/products/lizol-sandalneem-500ml.jpg",
     "stock": 1,
     "description": "Lizol Sandal/Neem 500Ml - Trusted household or cleaning product.",
@@ -1173,13 +1256,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 3146
+    "rank": 3146,
+    "name": "Lizol Sandal/Neem 500Ml"
   },
   {
     "id": 3147,
     "title": "Lizol Sandal/Neem 500Ml",
     "slug": "lizol-sandalneem-500ml",
-    "price": 123.0,
+    "price": 123,
     "image": "/images/products/lizol-sandalneem-500ml.jpg",
     "stock": 2,
     "description": "Lizol Sandal/Neem 500Ml - Trusted household or cleaning product.",
@@ -1187,13 +1271,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 3147
+    "rank": 3147,
+    "name": "Lizol Sandal/Neem 500Ml"
   },
   {
     "id": 3148,
     "title": "Lizol Shakti 450Ml",
     "slug": "lizol-shakti-450ml",
-    "price": 69.0,
+    "price": 69,
     "image": "/images/products/lizol-shakti-450ml.jpg",
     "stock": 9,
     "description": "Lizol Shakti 450Ml - Trusted household or cleaning product.",
@@ -1201,13 +1286,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 3148
+    "rank": 3148,
+    "name": "Lizol Shakti 450Ml"
   },
   {
     "id": 3149,
     "title": "Lizol Shati Aqua",
     "slug": "lizol-shati-aqua",
-    "price": 135.0,
+    "price": 135,
     "image": "/images/products/lizol-shati-aqua.jpg",
     "stock": 6,
     "description": "Lizol Shati Aqua - Trusted household or cleaning product.",
@@ -1215,13 +1301,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 3149
+    "rank": 3149,
+    "name": "Lizol Shati Aqua"
   },
   {
     "id": 3150,
     "title": "Lizol Surface Cleaner 5L",
     "slug": "lizol-surface-cleaner-5l",
-    "price": 1029.0,
+    "price": 1029,
     "image": "/images/products/lizol-surface-cleaner-5l.jpg",
     "stock": 2,
     "description": "Lizol Surface Cleaner 5L - Trusted household or cleaning product.",
@@ -1229,13 +1316,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 3150
+    "rank": 3150,
+    "name": "Lizol Surface Cleaner 5L"
   },
   {
     "id": 3151,
     "title": "Lizol Surface Cleaner 975Ml",
     "slug": "lizol-surface-cleaner-975ml",
-    "price": 235.0,
+    "price": 235,
     "image": "/images/products/lizol-surface-cleaner-975ml.jpg",
     "stock": 12,
     "description": "Lizol Surface Cleaner 975Ml - Trusted household or cleaning product.",
@@ -1243,13 +1331,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 3151
+    "rank": 3151,
+    "name": "Lizol Surface Cleaner 975Ml"
   },
   {
     "id": 3178,
     "title": "Lotus Apricot Scrub 100G",
     "slug": "lotus-apricot-scrub-100g",
-    "price": 235.0,
+    "price": 235,
     "image": "/images/products/lotus-apricot-scrub-100g.jpg",
     "stock": 3,
     "description": "Lotus Apricot Scrub 100G - Trusted household or cleaning product.",
@@ -1257,13 +1346,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 3178
+    "rank": 3178,
+    "name": "Lotus Apricot Scrub 100G"
   },
   {
     "id": 3179,
     "title": "Lotus Apricot Scrub 60G",
     "slug": "lotus-apricot-scrub-60g",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/lotus-apricot-scrub-60g.jpg",
     "stock": 2,
     "description": "Lotus Apricot Scrub 60G - Trusted household or cleaning product.",
@@ -1271,13 +1361,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 3179
+    "rank": 3179,
+    "name": "Lotus Apricot Scrub 60G"
   },
   {
     "id": 3181,
     "title": "Lotus Berryscrub",
     "slug": "lotus-berryscrub",
-    "price": 175.0,
+    "price": 175,
     "image": "/images/products/lotus-berryscrub.jpg",
     "stock": 3,
     "description": "Lotus Berryscrub - Trusted household or cleaning product.",
@@ -1285,13 +1376,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 3181
+    "rank": 3181,
+    "name": "Lotus Berryscrub"
   },
   {
     "id": 3202,
     "title": "Lotus Rb Ubtan Face Scrub",
     "slug": "lotus-rb-ubtan-face-scrub",
-    "price": 255.0,
+    "price": 255,
     "image": "/images/products/lotus-rb-ubtan-face-scrub.jpg",
     "stock": 2,
     "description": "Lotus Rb Ubtan Face Scrub - Trusted household or cleaning product.",
@@ -1299,13 +1391,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 3202
+    "rank": 3202,
+    "name": "Lotus Rb Ubtan Face Scrub"
   },
   {
     "id": 3208,
     "title": "Lotus Safesun Detan Face Scrub",
     "slug": "lotus-safesun-detan-face-scrub",
-    "price": 370.0,
+    "price": 370,
     "image": "/images/products/lotus-safesun-detan-face-scrub.jpg",
     "stock": 3,
     "description": "Lotus Safesun Detan Face Scrub - Trusted household or cleaning product.",
@@ -1313,13 +1406,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 3208
+    "rank": 3208,
+    "name": "Lotus Safesun Detan Face Scrub"
   },
   {
     "id": 3231,
     "title": "Lotus Wg Whitening Scrub",
     "slug": "lotus-wg-whitening-scrub",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/lotus-wg-whitening-scrub.jpg",
     "stock": 2,
     "description": "Lotus Wg Whitening Scrub - Trusted household or cleaning product.",
@@ -1327,13 +1421,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 3231
+    "rank": 3231,
+    "name": "Lotus Wg Whitening Scrub"
   },
   {
     "id": 3368,
     "title": "Maraearth Ubtan Face Scrub",
     "slug": "maraearth-ubtan-face-scrub",
-    "price": 349.0,
+    "price": 349,
     "image": "/images/products/maraearth-ubtan-face-scrub.jpg",
     "stock": 3,
     "description": "Maraearth Ubtan Face Scrub - Trusted household or cleaning product.",
@@ -1341,13 +1436,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 3368
+    "rank": 3368,
+    "name": "Maraearth Ubtan Face Scrub"
   },
   {
     "id": 3948,
     "title": "Nl Organic Sorghum Floor 500G",
     "slug": "nl-organic-sorghum-floor-500g",
-    "price": 79.0,
+    "price": 79,
     "image": "/images/products/nl-organic-sorghum-floor-500g.jpg",
     "stock": 3,
     "description": "Nl Organic Sorghum Floor 500G - Trusted household or cleaning product.",
@@ -1355,13 +1451,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 3948
+    "rank": 3948,
+    "name": "Nl Organic Sorghum Floor 500G"
   },
   {
     "id": 3978,
     "title": "Novax Aluminium Foil 21Mtr",
     "slug": "novax-aluminium-foil-21mtr",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/novax-aluminium-foil-21mtr.jpg",
     "stock": 4,
     "description": "Novax Aluminium Foil 21Mtr - Trusted household or cleaning product.",
@@ -1369,13 +1466,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 3978
+    "rank": 3978,
+    "name": "Novax Aluminium Foil 21Mtr"
   },
   {
     "id": 3979,
     "title": "Novax Aluminium Foil 9Mtr",
     "slug": "novax-aluminium-foil-9mtr",
-    "price": 139.0,
+    "price": 139,
     "image": "/images/products/novax-aluminium-foil-9mtr.jpg",
     "stock": 5,
     "description": "Novax Aluminium Foil 9Mtr - Trusted household or cleaning product.",
@@ -1383,13 +1481,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 3979
+    "rank": 3979,
+    "name": "Novax Aluminium Foil 9Mtr"
   },
   {
     "id": 4006,
     "title": "Novax Toilet Paper",
     "slug": "novax-toilet-paper",
-    "price": 90.0,
+    "price": 90,
     "image": "/images/products/novax-toilet-paper.jpg",
     "stock": 5,
     "description": "Novax Toilet Paper - Trusted household or cleaning product.",
@@ -1397,13 +1496,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 4006
+    "rank": 4006,
+    "name": "Novax Toilet Paper"
   },
   {
     "id": 4046,
     "title": "Nykaa All Day Matte Liquid Lipstick 425/",
     "slug": "nykaa-all-day-matte-liquid-lipstick-425",
-    "price": 425.0,
+    "price": 425,
     "image": "/images/products/nykaa-all-day-matte-liquid-lipstick-425.jpg",
     "stock": 46,
     "description": "Nykaa All Day Matte Liquid Lipstick 425/ - Trusted household or cleaning product.",
@@ -1411,13 +1511,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 4046
+    "rank": 4046,
+    "name": "Nykaa All Day Matte Liquid Lipstick 425/"
   },
   {
     "id": 4060,
     "title": "Nykaa Liquid Liner 325/",
     "slug": "nykaa-liquid-liner-325",
-    "price": 325.0,
+    "price": 325,
     "image": "/images/products/nykaa-liquid-liner-325.jpg",
     "stock": 3,
     "description": "Nykaa Liquid Liner 325/ - Trusted household or cleaning product.",
@@ -1425,13 +1526,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 4060
+    "rank": 4060,
+    "name": "Nykaa Liquid Liner 325/"
   },
   {
     "id": 4061,
     "title": "Nykaa Liquid Lipstick 675/",
     "slug": "nykaa-liquid-lipstick-675",
-    "price": 675.0,
+    "price": 675,
     "image": "/images/products/nykaa-liquid-lipstick-675.jpg",
     "stock": 9,
     "description": "Nykaa Liquid Lipstick 675/ - Trusted household or cleaning product.",
@@ -1439,13 +1541,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 4061
+    "rank": 4061,
+    "name": "Nykaa Liquid Lipstick 675/"
   },
   {
     "id": 4062,
     "title": "Nykaa Liquid Lipstick 699/",
     "slug": "nykaa-liquid-lipstick-699",
-    "price": 699.0,
+    "price": 699,
     "image": "/images/products/nykaa-liquid-lipstick-699.jpg",
     "stock": 12,
     "description": "Nykaa Liquid Lipstick 699/ - Trusted household or cleaning product.",
@@ -1453,13 +1556,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 4062
+    "rank": 4062,
+    "name": "Nykaa Liquid Lipstick 699/"
   },
   {
     "id": 4072,
     "title": "Nykaa Sl Cloud Liquid Lipstick799/",
     "slug": "nykaa-sl-cloud-liquid-lipstick799",
-    "price": 799.0,
+    "price": 799,
     "image": "/images/products/nykaa-sl-cloud-liquid-lipstick799.jpg",
     "stock": 20,
     "description": "Nykaa Sl Cloud Liquid Lipstick799/ - Trusted household or cleaning product.",
@@ -1467,13 +1571,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 4072
+    "rank": 4072,
+    "name": "Nykaa Sl Cloud Liquid Lipstick799/"
   },
   {
     "id": 4075,
     "title": "Nykaa Strobe &Glow Liquid Highlighter725/",
     "slug": "nykaa-strobe-glow-liquid-highlighter725",
-    "price": 725.0,
+    "price": 725,
     "image": "/images/products/nykaa-strobe-glow-liquid-highlighter725.jpg",
     "stock": 6,
     "description": "Nykaa Strobe &Glow Liquid Highlighter725/ - Trusted household or cleaning product.",
@@ -1481,13 +1586,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 4075
+    "rank": 4075,
+    "name": "Nykaa Strobe &Glow Liquid Highlighter725/"
   },
   {
     "id": 4204,
     "title": "Origami Crepe Tissues",
     "slug": "origami-crepe-tissues",
-    "price": 90.0,
+    "price": 90,
     "image": "/images/products/origami-crepe-tissues.jpg",
     "stock": 3,
     "description": "Origami Crepe Tissues - Trusted household or cleaning product.",
@@ -1495,13 +1601,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 4204
+    "rank": 4204,
+    "name": "Origami Crepe Tissues"
   },
   {
     "id": 4205,
     "title": "Origami Face Tissue",
     "slug": "origami-face-tissue",
-    "price": 150.0,
+    "price": 150,
     "image": "/images/products/origami-face-tissue.jpg",
     "stock": 6,
     "description": "Origami Face Tissue - Trusted household or cleaning product.",
@@ -1509,13 +1616,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 4205
+    "rank": 4205,
+    "name": "Origami Face Tissue"
   },
   {
     "id": 4206,
     "title": "Origami Face Tissue (4X100)",
     "slug": "origami-face-tissue-4x100",
-    "price": 390.0,
+    "price": 390,
     "image": "/images/products/origami-face-tissue-4x100.jpg",
     "stock": 2,
     "description": "Origami Face Tissue (4X100) - Trusted household or cleaning product.",
@@ -1523,13 +1631,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 4206
+    "rank": 4206,
+    "name": "Origami Face Tissue (4X100)"
   },
   {
     "id": 4215,
     "title": "Origami Toilet Roll 12In1",
     "slug": "origami-toilet-roll-12in1",
-    "price": 570.0,
+    "price": 570,
     "image": "/images/products/origami-toilet-roll-12in1.jpg",
     "stock": 3,
     "description": "Origami Toilet Roll 12In1 - Trusted household or cleaning product.",
@@ -1537,13 +1646,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 4215
+    "rank": 4215,
+    "name": "Origami Toilet Roll 12In1"
   },
   {
     "id": 4216,
     "title": "Origami Toilet Roll 4In1",
     "slug": "origami-toilet-roll-4in1",
-    "price": 375.0,
+    "price": 375,
     "image": "/images/products/origami-toilet-roll-4in1.jpg",
     "stock": 3,
     "description": "Origami Toilet Roll 4In1 - Trusted household or cleaning product.",
@@ -1551,13 +1661,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 4216
+    "rank": 4216,
+    "name": "Origami Toilet Roll 4In1"
   },
   {
     "id": 4217,
     "title": "Origami Toilet Roll 6In1",
     "slug": "origami-toilet-roll-6in1",
-    "price": 290.0,
+    "price": 290,
     "image": "/images/products/origami-toilet-roll-6in1.jpg",
     "stock": 2,
     "description": "Origami Toilet Roll 6In1 - Trusted household or cleaning product.",
@@ -1565,13 +1676,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 4217
+    "rank": 4217,
+    "name": "Origami Toilet Roll 6In1"
   },
   {
     "id": 4218,
     "title": "Origami Toilet Seat Cover",
     "slug": "origami-toilet-seat-cover",
-    "price": 90.0,
+    "price": 90,
     "image": "/images/products/origami-toilet-seat-cover.jpg",
     "stock": 6,
     "description": "Origami Toilet Seat Cover - Trusted household or cleaning product.",
@@ -1579,13 +1691,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 4218
+    "rank": 4218,
+    "name": "Origami Toilet Seat Cover"
   },
   {
     "id": 4295,
     "title": "Pantanjali Dishwasher Gel 250Ml",
     "slug": "pantanjali-dishwasher-gel-250ml",
-    "price": 50.0,
+    "price": 50,
     "image": "/images/products/pantanjali-dishwasher-gel-250ml.jpg",
     "stock": 12,
     "description": "Pantanjali Dishwasher Gel 250Ml - Trusted household or cleaning product.",
@@ -1593,13 +1706,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 4295
+    "rank": 4295,
+    "name": "Pantanjali Dishwasher Gel 250Ml"
   },
   {
     "id": 4302,
     "title": "Pantanjali Super Dishwash Bar 600G",
     "slug": "pantanjali-super-dishwash-bar-600g",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/pantanjali-super-dishwash-bar-600g.jpg",
     "stock": 3,
     "description": "Pantanjali Super Dishwash Bar 600G - Trusted household or cleaning product.",
@@ -1607,13 +1721,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 4302
+    "rank": 4302,
+    "name": "Pantanjali Super Dishwash Bar 600G"
   },
   {
     "id": 4303,
     "title": "Pantanjali Super Dishwasher 3+1",
     "slug": "pantanjali-super-dishwasher-31",
-    "price": 72.0,
+    "price": 72,
     "image": "/images/products/pantanjali-super-dishwasher-31.jpg",
     "stock": 10,
     "description": "Pantanjali Super Dishwasher 3+1 - Trusted household or cleaning product.",
@@ -1621,13 +1736,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 4303
+    "rank": 4303,
+    "name": "Pantanjali Super Dishwasher 3+1"
   },
   {
     "id": 4413,
     "title": "Patanjali Super Dishwasher Pack4",
     "slug": "patanjali-super-dishwasher-pack4",
-    "price": 30.0,
+    "price": 30,
     "image": "/images/products/patanjali-super-dishwasher-pack4.jpg",
     "stock": 15,
     "description": "Patanjali Super Dishwasher Pack4 - Trusted household or cleaning product.",
@@ -1635,13 +1751,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 4413
+    "rank": 4413,
+    "name": "Patanjali Super Dishwasher Pack4"
   },
   {
     "id": 4457,
     "title": "Pepsodent Tounge Cleaner",
     "slug": "pepsodent-tounge-cleaner",
-    "price": 40.0,
+    "price": 40,
     "image": "/images/products/pepsodent-tounge-cleaner.jpg",
     "stock": 10,
     "description": "Pepsodent Tounge Cleaner - Trusted household or cleaning product.",
@@ -1649,13 +1766,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 4457
+    "rank": 4457,
+    "name": "Pepsodent Tounge Cleaner"
   },
   {
     "id": 4477,
     "title": "Pigeon Liquid Cleanser 200Ml",
     "slug": "pigeon-liquid-cleanser-200ml",
-    "price": 275.0,
+    "price": 275,
     "image": "/images/products/pigeon-liquid-cleanser-200ml.jpg",
     "stock": 3,
     "description": "Pigeon Liquid Cleanser 200Ml - Trusted household or cleaning product.",
@@ -1663,13 +1781,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 4477
+    "rank": 4477,
+    "name": "Pigeon Liquid Cleanser 200Ml"
   },
   {
     "id": 4478,
     "title": "Pigeon Liquid Cleanser 500Ml",
     "slug": "pigeon-liquid-cleanser-500ml",
-    "price": 479.0,
+    "price": 479,
     "image": "/images/products/pigeon-liquid-cleanser-500ml.jpg",
     "stock": 3,
     "description": "Pigeon Liquid Cleanser 500Ml - Trusted household or cleaning product.",
@@ -1677,13 +1796,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 4478
+    "rank": 4478,
+    "name": "Pigeon Liquid Cleanser 500Ml"
   },
   {
     "id": 4854,
     "title": "Savlon Disinfectant Liquid 1Ltr",
     "slug": "savlon-disinfectant-liquid-1ltr",
-    "price": 400.0,
+    "price": 400,
     "image": "/images/products/savlon-disinfectant-liquid-1ltr.jpg",
     "stock": 1,
     "description": "Savlon Disinfectant Liquid 1Ltr - Trusted household or cleaning product.",
@@ -1691,13 +1811,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 4854
+    "rank": 4854,
+    "name": "Savlon Disinfectant Liquid 1Ltr"
   },
   {
     "id": 4855,
     "title": "Savlon Disinfectant Liquid 200Ml",
     "slug": "savlon-disinfectant-liquid-200ml",
-    "price": 111.0,
+    "price": 111,
     "image": "/images/products/savlon-disinfectant-liquid-200ml.jpg",
     "stock": 5,
     "description": "Savlon Disinfectant Liquid 200Ml - Trusted household or cleaning product.",
@@ -1705,13 +1826,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 4855
+    "rank": 4855,
+    "name": "Savlon Disinfectant Liquid 200Ml"
   },
   {
     "id": 4856,
     "title": "Savlon Disinfectant Liquid 500Ml",
     "slug": "savlon-disinfectant-liquid-500ml",
-    "price": 225.0,
+    "price": 225,
     "image": "/images/products/savlon-disinfectant-liquid-500ml.jpg",
     "stock": 3,
     "description": "Savlon Disinfectant Liquid 500Ml - Trusted household or cleaning product.",
@@ -1719,13 +1841,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 4856
+    "rank": 4856,
+    "name": "Savlon Disinfectant Liquid 500Ml"
   },
   {
     "id": 4863,
     "title": "Savlon Hand Sanitizer Gel 50Ml",
     "slug": "savlon-hand-sanitizer-gel-50ml",
-    "price": 25.0,
+    "price": 25,
     "image": "/images/products/savlon-hand-sanitizer-gel-50ml.jpg",
     "stock": 7,
     "description": "Savlon Hand Sanitizer Gel 50Ml - Trusted household or cleaning product.",
@@ -1733,13 +1856,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 4863
+    "rank": 4863,
+    "name": "Savlon Hand Sanitizer Gel 50Ml"
   },
   {
     "id": 4873,
     "title": "Savlon Surface Dis Spray 230Ml",
     "slug": "savlon-surface-dis-spray-230ml",
-    "price": 185.0,
+    "price": 185,
     "image": "/images/products/savlon-surface-dis-spray-230ml.jpg",
     "stock": 6,
     "description": "Savlon Surface Dis Spray 230Ml - Trusted household or cleaning product.",
@@ -1747,13 +1871,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 4873
+    "rank": 4873,
+    "name": "Savlon Surface Dis Spray 230Ml"
   },
   {
     "id": 4877,
     "title": "Scotch Brite Anti Scrub Pad",
     "slug": "scotch-brite-anti-scrub-pad",
-    "price": 40.0,
+    "price": 40,
     "image": "/images/products/scotch-brite-anti-scrub-pad.jpg",
     "stock": 9,
     "description": "Scotch Brite Anti Scrub Pad - Trusted household or cleaning product.",
@@ -1761,13 +1886,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 4877
+    "rank": 4877,
+    "name": "Scotch Brite Anti Scrub Pad"
   },
   {
     "id": 4878,
     "title": "Scotch Brite Bathroom Wiper 3M",
     "slug": "scotch-brite-bathroom-wiper-3m",
-    "price": 450.0,
+    "price": 450,
     "image": "/images/products/scotch-brite-bathroom-wiper-3m.jpg",
     "stock": 7,
     "description": "Scotch Brite Bathroom Wiper 3M - Trusted household or cleaning product.",
@@ -1775,13 +1901,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 4878
+    "rank": 4878,
+    "name": "Scotch Brite Bathroom Wiper 3M"
   },
   {
     "id": 4879,
     "title": "Scotch Brite Bathroom Wiper 40Cm",
     "slug": "scotch-brite-bathroom-wiper-40cm",
-    "price": 500.0,
+    "price": 500,
     "image": "/images/products/scotch-brite-bathroom-wiper-40cm.jpg",
     "stock": 7,
     "description": "Scotch Brite Bathroom Wiper 40Cm - Trusted household or cleaning product.",
@@ -1789,13 +1916,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 4879
+    "rank": 4879,
+    "name": "Scotch Brite Bathroom Wiper 40Cm"
   },
   {
     "id": 4880,
     "title": "Scotch Brite Boom",
     "slug": "scotch-brite-boom",
-    "price": 375.0,
+    "price": 375,
     "image": "/images/products/scotch-brite-boom.jpg",
     "stock": 7,
     "description": "Scotch Brite Boom - Trusted household or cleaning product.",
@@ -1803,13 +1931,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 4880
+    "rank": 4880,
+    "name": "Scotch Brite Boom"
   },
   {
     "id": 4881,
     "title": "Scotch Brite Bottle Cleaner",
     "slug": "scotch-brite-bottle-cleaner",
-    "price": 200.0,
+    "price": 200,
     "image": "/images/products/scotch-brite-bottle-cleaner.jpg",
     "stock": 3,
     "description": "Scotch Brite Bottle Cleaner - Trusted household or cleaning product.",
@@ -1817,13 +1946,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 4881
+    "rank": 4881,
+    "name": "Scotch Brite Bottle Cleaner"
   },
   {
     "id": 4882,
     "title": "Scotch Brite Kichen Wip",
     "slug": "scotch-brite-kichen-wip",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/scotch-brite-kichen-wip.jpg",
     "stock": 8,
     "description": "Scotch Brite Kichen Wip - Trusted household or cleaning product.",
@@ -1831,13 +1961,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 4882
+    "rank": 4882,
+    "name": "Scotch Brite Kichen Wip"
   },
   {
     "id": 4883,
     "title": "Scotch Brite Kitchen Glaves S",
     "slug": "scotch-brite-kitchen-glaves-s",
-    "price": 130.0,
+    "price": 130,
     "image": "/images/products/scotch-brite-kitchen-glaves-s.jpg",
     "stock": 3,
     "description": "Scotch Brite Kitchen Glaves S - Trusted household or cleaning product.",
@@ -1845,13 +1976,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 4883
+    "rank": 4883,
+    "name": "Scotch Brite Kitchen Glaves S"
   },
   {
     "id": 4884,
     "title": "Scotch Brite Kitchen Gloves",
     "slug": "scotch-brite-kitchen-gloves",
-    "price": 130.0,
+    "price": 130,
     "image": "/images/products/scotch-brite-kitchen-gloves.jpg",
     "stock": 3,
     "description": "Scotch Brite Kitchen Gloves - Trusted household or cleaning product.",
@@ -1859,13 +1991,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 4884
+    "rank": 4884,
+    "name": "Scotch Brite Kitchen Gloves"
   },
   {
     "id": 4885,
     "title": "Scotch Brite Kitchen Gloves M",
     "slug": "scotch-brite-kitchen-gloves-m",
-    "price": 130.0,
+    "price": 130,
     "image": "/images/products/scotch-brite-kitchen-gloves-m.jpg",
     "stock": 3,
     "description": "Scotch Brite Kitchen Gloves M - Trusted household or cleaning product.",
@@ -1873,13 +2006,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 4885
+    "rank": 4885,
+    "name": "Scotch Brite Kitchen Gloves M"
   },
   {
     "id": 4886,
     "title": "Scotch Brite Polishing Wipes",
     "slug": "scotch-brite-polishing-wipes",
-    "price": 179.0,
+    "price": 179,
     "image": "/images/products/scotch-brite-polishing-wipes.jpg",
     "stock": 5,
     "description": "Scotch Brite Polishing Wipes - Trusted household or cleaning product.",
@@ -1887,13 +2021,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 4886
+    "rank": 4886,
+    "name": "Scotch Brite Polishing Wipes"
   },
   {
     "id": 4887,
     "title": "Scotch Brite Scrub 55/-",
     "slug": "scotch-brite-scrub-55-",
-    "price": 55.0,
+    "price": 55,
     "image": "/images/products/scotch-brite-scrub-55-.jpg",
     "stock": 10,
     "description": "Scotch Brite Scrub 55/- - Trusted household or cleaning product.",
@@ -1901,13 +2036,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 4887
+    "rank": 4887,
+    "name": "Scotch Brite Scrub 55/-"
   },
   {
     "id": 4888,
     "title": "Scotch Brite Scrub+Sleel Scrub",
     "slug": "scotch-brite-scrubsleel-scrub",
-    "price": 30.0,
+    "price": 30,
     "image": "/images/products/scotch-brite-scrubsleel-scrub.jpg",
     "stock": 31,
     "description": "Scotch Brite Scrub+Sleel Scrub - Trusted household or cleaning product.",
@@ -1915,13 +2051,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 4888
+    "rank": 4888,
+    "name": "Scotch Brite Scrub+Sleel Scrub"
   },
   {
     "id": 4889,
     "title": "Scotch Brite Sink Brush",
     "slug": "scotch-brite-sink-brush",
-    "price": 160.0,
+    "price": 160,
     "image": "/images/products/scotch-brite-sink-brush.jpg",
     "stock": 8,
     "description": "Scotch Brite Sink Brush - Trusted household or cleaning product.",
@@ -1929,13 +2066,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 4889
+    "rank": 4889,
+    "name": "Scotch Brite Sink Brush"
   },
   {
     "id": 4890,
     "title": "Scotch Brite Sparkling Tiles Clean",
     "slug": "scotch-brite-sparkling-tiles-clean",
-    "price": 160.0,
+    "price": 160,
     "image": "/images/products/scotch-brite-sparkling-tiles-clean.jpg",
     "stock": 2,
     "description": "Scotch Brite Sparkling Tiles Clean - Trusted household or cleaning product.",
@@ -1943,13 +2081,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 4890
+    "rank": 4890,
+    "name": "Scotch Brite Sparkling Tiles Clean"
   },
   {
     "id": 4891,
     "title": "Scotch Brite Sparks 20/-",
     "slug": "scotch-brite-sparks-20-",
-    "price": 20.0,
+    "price": 20,
     "image": "/images/products/scotch-brite-sparks-20-.jpg",
     "stock": 45,
     "description": "Scotch Brite Sparks 20/- - Trusted household or cleaning product.",
@@ -1957,13 +2096,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 4891
+    "rank": 4891,
+    "name": "Scotch Brite Sparks 20/-"
   },
   {
     "id": 4892,
     "title": "Scotch Brite Sparks 40/-",
     "slug": "scotch-brite-sparks-40-",
-    "price": 40.0,
+    "price": 40,
     "image": "/images/products/scotch-brite-sparks-40-.jpg",
     "stock": 19,
     "description": "Scotch Brite Sparks 40/- - Trusted household or cleaning product.",
@@ -1971,13 +2111,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 4892
+    "rank": 4892,
+    "name": "Scotch Brite Sparks 40/-"
   },
   {
     "id": 4893,
     "title": "Scotch Brite Sponge",
     "slug": "scotch-brite-sponge",
-    "price": 35.0,
+    "price": 35,
     "image": "/images/products/scotch-brite-sponge.jpg",
     "stock": 32,
     "description": "Scotch Brite Sponge - Trusted household or cleaning product.",
@@ -1985,13 +2126,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 4893
+    "rank": 4893,
+    "name": "Scotch Brite Sponge"
   },
   {
     "id": 4894,
     "title": "Scotch Brite Toilate Brush",
     "slug": "scotch-brite-toilate-brush",
-    "price": 300.0,
+    "price": 300,
     "image": "/images/products/scotch-brite-toilate-brush.jpg",
     "stock": 2,
     "description": "Scotch Brite Toilate Brush - Trusted household or cleaning product.",
@@ -1999,13 +2141,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 4894
+    "rank": 4894,
+    "name": "Scotch Brite Toilate Brush"
   },
   {
     "id": 4895,
     "title": "Scotch Brite Toilate Brush 190/-",
     "slug": "scotch-brite-toilate-brush-190-",
-    "price": 190.0,
+    "price": 190,
     "image": "/images/products/scotch-brite-toilate-brush-190-.jpg",
     "stock": 2,
     "description": "Scotch Brite Toilate Brush 190/- - Trusted household or cleaning product.",
@@ -2013,13 +2156,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 4895
+    "rank": 4895,
+    "name": "Scotch Brite Toilate Brush 190/-"
   },
   {
     "id": 4896,
     "title": "Scotch Brite Toilate Brush Ds",
     "slug": "scotch-brite-toilate-brush-ds",
-    "price": 250.0,
+    "price": 250,
     "image": "/images/products/scotch-brite-toilate-brush-ds.jpg",
     "stock": 1,
     "description": "Scotch Brite Toilate Brush Ds - Trusted household or cleaning product.",
@@ -2027,13 +2171,14 @@ const products = [
     "unit": "pcs",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 4896
+    "rank": 4896,
+    "name": "Scotch Brite Toilate Brush Ds"
   },
   {
     "id": 4897,
     "title": "Scotch Brite Wipes 1P",
     "slug": "scotch-brite-wipes-1p",
-    "price": 80.0,
+    "price": 80,
     "image": "/images/products/scotch-brite-wipes-1p.jpg",
     "stock": 3,
     "description": "Scotch Brite Wipes 1P - Trusted household or cleaning product.",
@@ -2041,13 +2186,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 4897
+    "rank": 4897,
+    "name": "Scotch Brite Wipes 1P"
   },
   {
     "id": 4898,
     "title": "Scotch Brite Wipes 3P",
     "slug": "scotch-brite-wipes-3p",
-    "price": 230.0,
+    "price": 230,
     "image": "/images/products/scotch-brite-wipes-3p.jpg",
     "stock": 4,
     "description": "Scotch Brite Wipes 3P - Trusted household or cleaning product.",
@@ -2055,13 +2201,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 4898
+    "rank": 4898,
+    "name": "Scotch Brite Wipes 3P"
   },
   {
     "id": 5100,
     "title": "Sonic+ Flore Cleaner 1L",
     "slug": "sonic-flore-cleaner-1l",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/sonic-flore-cleaner-1l.jpg",
     "stock": 40,
     "description": "Sonic+ Flore Cleaner 1L - Trusted household or cleaning product.",
@@ -2069,13 +2216,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5100
+    "rank": 5100,
+    "name": "Sonic+ Flore Cleaner 1L"
   },
   {
     "id": 5101,
     "title": "Sonic+ Flore Cleaner 1Lwhite",
     "slug": "sonic-flore-cleaner-1lwhite",
-    "price": 50.0,
+    "price": 50,
     "image": "/images/products/sonic-flore-cleaner-1lwhite.jpg",
     "stock": 20,
     "description": "Sonic+ Flore Cleaner 1Lwhite - Trusted household or cleaning product.",
@@ -2083,13 +2231,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5101
+    "rank": 5101,
+    "name": "Sonic+ Flore Cleaner 1Lwhite"
   },
   {
     "id": 5102,
     "title": "Sonic+ Flore Cleaner 5L",
     "slug": "sonic-flore-cleaner-5l",
-    "price": 250.0,
+    "price": 250,
     "image": "/images/products/sonic-flore-cleaner-5l.jpg",
     "stock": 8,
     "description": "Sonic+ Flore Cleaner 5L - Trusted household or cleaning product.",
@@ -2097,13 +2246,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5102
+    "rank": 5102,
+    "name": "Sonic+ Flore Cleaner 5L"
   },
   {
     "id": 5107,
     "title": "Sonic+ Super Broom",
     "slug": "sonic-super-broom",
-    "price": 150.0,
+    "price": 150,
     "image": "/images/products/sonic-super-broom.jpg",
     "stock": 50,
     "description": "Sonic+ Super Broom - Trusted household or cleaning product.",
@@ -2111,13 +2261,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5107
+    "rank": 5107,
+    "name": "Sonic+ Super Broom"
   },
   {
     "id": 5118,
     "title": "Sportzero Dry Mop Cotton",
     "slug": "sportzero-dry-mop-cotton",
-    "price": 690.0,
+    "price": 690,
     "image": "/images/products/sportzero-dry-mop-cotton.jpg",
     "stock": 1,
     "description": "Sportzero Dry Mop Cotton - Trusted household or cleaning product.",
@@ -2125,13 +2276,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5118
+    "rank": 5118,
+    "name": "Sportzero Dry Mop Cotton"
   },
   {
     "id": 5119,
     "title": "Sportzero Dry Mop Super",
     "slug": "sportzero-dry-mop-super",
-    "price": 849.0,
+    "price": 849,
     "image": "/images/products/sportzero-dry-mop-super.jpg",
     "stock": 2,
     "description": "Sportzero Dry Mop Super - Trusted household or cleaning product.",
@@ -2139,13 +2291,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5119
+    "rank": 5119,
+    "name": "Sportzero Dry Mop Super"
   },
   {
     "id": 5120,
     "title": "Sportzero Eco Mop",
     "slug": "sportzero-eco-mop",
-    "price": 190.0,
+    "price": 190,
     "image": "/images/products/sportzero-eco-mop.jpg",
     "stock": 3,
     "description": "Sportzero Eco Mop - Trusted household or cleaning product.",
@@ -2153,13 +2306,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5120
+    "rank": 5120,
+    "name": "Sportzero Eco Mop"
   },
   {
     "id": 5124,
     "title": "Sportzero Sleek Moppy",
     "slug": "sportzero-sleek-moppy",
-    "price": 150.0,
+    "price": 150,
     "image": "/images/products/sportzero-sleek-moppy.jpg",
     "stock": 3,
     "description": "Sportzero Sleek Moppy - Trusted household or cleaning product.",
@@ -2167,13 +2321,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5124
+    "rank": 5124,
+    "name": "Sportzero Sleek Moppy"
   },
   {
     "id": 5125,
     "title": "Sportzero Slender Floor Wiper",
     "slug": "sportzero-slender-floor-wiper",
-    "price": 230.0,
+    "price": 230,
     "image": "/images/products/sportzero-slender-floor-wiper.jpg",
     "stock": 2,
     "description": "Sportzero Slender Floor Wiper - Trusted household or cleaning product.",
@@ -2181,13 +2336,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5125
+    "rank": 5125,
+    "name": "Sportzero Slender Floor Wiper"
   },
   {
     "id": 5126,
     "title": "Sportzero Slender Floor Wiper",
     "slug": "sportzero-slender-floor-wiper",
-    "price": 250.0,
+    "price": 250,
     "image": "/images/products/sportzero-slender-floor-wiper.jpg",
     "stock": 1,
     "description": "Sportzero Slender Floor Wiper - Trusted household or cleaning product.",
@@ -2195,13 +2351,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5126
+    "rank": 5126,
+    "name": "Sportzero Slender Floor Wiper"
   },
   {
     "id": 5127,
     "title": "Sportzero Sponge Wipe Set Of 3",
     "slug": "sportzero-sponge-wipe-set-of-3",
-    "price": 180.0,
+    "price": 180,
     "image": "/images/products/sportzero-sponge-wipe-set-of-3.jpg",
     "stock": 3,
     "description": "Sportzero Sponge Wipe Set Of 3 - Trusted household or cleaning product.",
@@ -2209,13 +2366,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5127
+    "rank": 5127,
+    "name": "Sportzero Sponge Wipe Set Of 3"
   },
   {
     "id": 5131,
     "title": "Spotzero Bucket 18L",
     "slug": "spotzero-bucket-18l",
-    "price": 435.0,
+    "price": 435,
     "image": "/images/products/spotzero-bucket-18l.jpg",
     "stock": 3,
     "description": "Spotzero Bucket 18L - Trusted household or cleaning product.",
@@ -2223,13 +2381,14 @@ const products = [
     "unit": "pcs",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5131
+    "rank": 5131,
+    "name": "Spotzero Bucket 18L"
   },
   {
     "id": 5132,
     "title": "Spotzero Bucket 20L",
     "slug": "spotzero-bucket-20l",
-    "price": 330.0,
+    "price": 330,
     "image": "/images/products/spotzero-bucket-20l.jpg",
     "stock": 4,
     "description": "Spotzero Bucket 20L - Trusted household or cleaning product.",
@@ -2237,13 +2396,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5132
+    "rank": 5132,
+    "name": "Spotzero Bucket 20L"
   },
   {
     "id": 5133,
     "title": "Spotzero Bucket 25L",
     "slug": "spotzero-bucket-25l",
-    "price": 430.0,
+    "price": 430,
     "image": "/images/products/spotzero-bucket-25l.jpg",
     "stock": 3,
     "description": "Spotzero Bucket 25L - Trusted household or cleaning product.",
@@ -2251,13 +2411,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5133
+    "rank": 5133,
+    "name": "Spotzero Bucket 25L"
   },
   {
     "id": 5143,
     "title": "Spotzero Khara Broom",
     "slug": "spotzero-khara-broom",
-    "price": 135.0,
+    "price": 135,
     "image": "/images/products/spotzero-khara-broom.jpg",
     "stock": 3,
     "description": "Spotzero Khara Broom - Trusted household or cleaning product.",
@@ -2265,13 +2426,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5143
+    "rank": 5143,
+    "name": "Spotzero Khara Broom"
   },
   {
     "id": 5144,
     "title": "Spotzero Pebble Bucket 20L",
     "slug": "spotzero-pebble-bucket-20l",
-    "price": 615.0,
+    "price": 615,
     "image": "/images/products/spotzero-pebble-bucket-20l.jpg",
     "stock": 2,
     "description": "Spotzero Pebble Bucket 20L - Trusted household or cleaning product.",
@@ -2279,13 +2441,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5144
+    "rank": 5144,
+    "name": "Spotzero Pebble Bucket 20L"
   },
   {
     "id": 5145,
     "title": "Spotzero Scrub 15",
     "slug": "spotzero-scrub-15",
-    "price": 15.0,
+    "price": 15,
     "image": "/images/products/spotzero-scrub-15.jpg",
     "stock": 9,
     "description": "Spotzero Scrub 15 - Trusted household or cleaning product.",
@@ -2293,13 +2456,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5145
+    "rank": 5145,
+    "name": "Spotzero Scrub 15"
   },
   {
     "id": 5146,
     "title": "Spotzero Scrub 28",
     "slug": "spotzero-scrub-28",
-    "price": 28.0,
+    "price": 28,
     "image": "/images/products/spotzero-scrub-28.jpg",
     "stock": 9,
     "description": "Spotzero Scrub 28 - Trusted household or cleaning product.",
@@ -2307,13 +2471,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5146
+    "rank": 5146,
+    "name": "Spotzero Scrub 28"
   },
   {
     "id": 5147,
     "title": "Spotzero Scrub Ss 20/-",
     "slug": "spotzero-scrub-ss-20-",
-    "price": 20.0,
+    "price": 20,
     "image": "/images/products/spotzero-scrub-ss-20-.jpg",
     "stock": 26,
     "description": "Spotzero Scrub Ss 20/- - Trusted household or cleaning product.",
@@ -2321,13 +2486,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5147
+    "rank": 5147,
+    "name": "Spotzero Scrub Ss 20/-"
   },
   {
     "id": 5148,
     "title": "Spotzero Spin Mop Refill",
     "slug": "spotzero-spin-mop-refill",
-    "price": 175.0,
+    "price": 175,
     "image": "/images/products/spotzero-spin-mop-refill.jpg",
     "stock": 6,
     "description": "Spotzero Spin Mop Refill - Trusted household or cleaning product.",
@@ -2335,13 +2501,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5148
+    "rank": 5148,
+    "name": "Spotzero Spin Mop Refill"
   },
   {
     "id": 5149,
     "title": "Spotzero Spin Mop Set",
     "slug": "spotzero-spin-mop-set",
-    "price": 725.0,
+    "price": 725,
     "image": "/images/products/spotzero-spin-mop-set.jpg",
     "stock": 2,
     "description": "Spotzero Spin Mop Set - Trusted household or cleaning product.",
@@ -2349,13 +2516,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5149
+    "rank": 5149,
+    "name": "Spotzero Spin Mop Set"
   },
   {
     "id": 5150,
     "title": "Spotzero Super Smart Mop",
     "slug": "spotzero-super-smart-mop",
-    "price": 1450.0,
+    "price": 1450,
     "image": "/images/products/spotzero-super-smart-mop.jpg",
     "stock": 2,
     "description": "Spotzero Super Smart Mop - Trusted household or cleaning product.",
@@ -2363,13 +2531,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5150
+    "rank": 5150,
+    "name": "Spotzero Super Smart Mop"
   },
   {
     "id": 5151,
     "title": "Spotzero Twist Mop",
     "slug": "spotzero-twist-mop",
-    "price": 549.0,
+    "price": 549,
     "image": "/images/products/spotzero-twist-mop.jpg",
     "stock": 3,
     "description": "Spotzero Twist Mop - Trusted household or cleaning product.",
@@ -2377,13 +2546,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5151
+    "rank": 5151,
+    "name": "Spotzero Twist Mop"
   },
   {
     "id": 5152,
     "title": "Spotzero Wiper 12Inch",
     "slug": "spotzero-wiper-12inch",
-    "price": 200.0,
+    "price": 200,
     "image": "/images/products/spotzero-wiper-12inch.jpg",
     "stock": 3,
     "description": "Spotzero Wiper 12Inch - Trusted household or cleaning product.",
@@ -2391,13 +2561,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5152
+    "rank": 5152,
+    "name": "Spotzero Wiper 12Inch"
   },
   {
     "id": 5153,
     "title": "Spotzero Wiper 20Inch",
     "slug": "spotzero-wiper-20inch",
-    "price": 280.0,
+    "price": 280,
     "image": "/images/products/spotzero-wiper-20inch.jpg",
     "stock": 2,
     "description": "Spotzero Wiper 20Inch - Trusted household or cleaning product.",
@@ -2405,13 +2576,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5153
+    "rank": 5153,
+    "name": "Spotzero Wiper 20Inch"
   },
   {
     "id": 5154,
     "title": "Spotzero Wiper Popular",
     "slug": "spotzero-wiper-popular",
-    "price": 230.0,
+    "price": 230,
     "image": "/images/products/spotzero-wiper-popular.jpg",
     "stock": 3,
     "description": "Spotzero Wiper Popular - Trusted household or cleaning product.",
@@ -2419,13 +2591,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5154
+    "rank": 5154,
+    "name": "Spotzero Wiper Popular"
   },
   {
     "id": 5155,
     "title": "Spotzero Wiper Popular",
     "slug": "spotzero-wiper-popular",
-    "price": 250.0,
+    "price": 250,
     "image": "/images/products/spotzero-wiper-popular.jpg",
     "stock": 3,
     "description": "Spotzero Wiper Popular - Trusted household or cleaning product.",
@@ -2433,13 +2606,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5155
+    "rank": 5155,
+    "name": "Spotzero Wiper Popular"
   },
   {
     "id": 5156,
     "title": "Spotzero Wow Spin Mop",
     "slug": "spotzero-wow-spin-mop",
-    "price": 1200.0,
+    "price": 1200,
     "image": "/images/products/spotzero-wow-spin-mop.jpg",
     "stock": 1,
     "description": "Spotzero Wow Spin Mop - Trusted household or cleaning product.",
@@ -2447,13 +2621,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5156
+    "rank": 5156,
+    "name": "Spotzero Wow Spin Mop"
   },
   {
     "id": 5157,
     "title": "Spotzero Zero Dust Broom",
     "slug": "spotzero-zero-dust-broom",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/spotzero-zero-dust-broom.jpg",
     "stock": 6,
     "description": "Spotzero Zero Dust Broom - Trusted household or cleaning product.",
@@ -2461,13 +2636,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5157
+    "rank": 5157,
+    "name": "Spotzero Zero Dust Broom"
   },
   {
     "id": 5158,
     "title": "Spotzero Zero Dust Broom+Dust Pen",
     "slug": "spotzero-zero-dust-broomdust-pen",
-    "price": 190.0,
+    "price": 190,
     "image": "/images/products/spotzero-zero-dust-broomdust-pen.jpg",
     "stock": 20,
     "description": "Spotzero Zero Dust Broom+Dust Pen - Trusted household or cleaning product.",
@@ -2475,13 +2651,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5158
+    "rank": 5158,
+    "name": "Spotzero Zero Dust Broom+Dust Pen"
   },
   {
     "id": 5159,
     "title": "Spotzerogajraj Broom",
     "slug": "spotzerogajraj-broom",
-    "price": 160.0,
+    "price": 160,
     "image": "/images/products/spotzerogajraj-broom.jpg",
     "stock": 9,
     "description": "Spotzerogajraj Broom - Trusted household or cleaning product.",
@@ -2489,13 +2666,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5159
+    "rank": 5159,
+    "name": "Spotzerogajraj Broom"
   },
   {
     "id": 5185,
     "title": "Stan Fresh Fabric Detergent 1Ltr",
     "slug": "stan-fresh-fabric-detergent-1ltr",
-    "price": 349.0,
+    "price": 349,
     "image": "/images/products/stan-fresh-fabric-detergent-1ltr.jpg",
     "stock": 3,
     "description": "Stan Fresh Fabric Detergent 1Ltr - Trusted household or cleaning product.",
@@ -2503,13 +2681,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5185
+    "rank": 5185,
+    "name": "Stan Fresh Fabric Detergent 1Ltr"
   },
   {
     "id": 5189,
     "title": "Stan Fresh Glass Cleaner 500+500Ml",
     "slug": "stan-fresh-glass-cleaner-500500ml",
-    "price": 159.0,
+    "price": 159,
     "image": "/images/products/stan-fresh-glass-cleaner-500500ml.jpg",
     "stock": 3,
     "description": "Stan Fresh Glass Cleaner 500+500Ml - Trusted household or cleaning product.",
@@ -2517,13 +2696,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5189
+    "rank": 5189,
+    "name": "Stan Fresh Glass Cleaner 500+500Ml"
   },
   {
     "id": 5243,
     "title": "Sugar Pop Liquid Foundation",
     "slug": "sugar-pop-liquid-foundation",
-    "price": 399.0,
+    "price": 399,
     "image": "/images/products/sugar-pop-liquid-foundation.jpg",
     "stock": 12,
     "description": "Sugar Pop Liquid Foundation - Trusted household or cleaning product.",
@@ -2531,13 +2711,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5243
+    "rank": 5243,
+    "name": "Sugar Pop Liquid Foundation"
   },
   {
     "id": 5277,
     "title": "Surf Excel Bar 250Gm",
     "slug": "surf-excel-bar-250gm",
-    "price": 38.0,
+    "price": 38,
     "image": "/images/products/surf-excel-bar-250gm.jpg",
     "stock": 10,
     "description": "Surf Excel Bar 250Gm - Trusted household or cleaning product.",
@@ -2545,13 +2726,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5277
+    "rank": 5277,
+    "name": "Surf Excel Bar 250Gm"
   },
   {
     "id": 5278,
     "title": "Surf Excel Bar 80G",
     "slug": "surf-excel-bar-80g",
-    "price": 10.0,
+    "price": 10,
     "image": "/images/products/surf-excel-bar-80g.jpg",
     "stock": 3,
     "description": "Surf Excel Bar 80G - Trusted household or cleaning product.",
@@ -2559,13 +2741,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5278
+    "rank": 5278,
+    "name": "Surf Excel Bar 80G"
   },
   {
     "id": 5279,
     "title": "Surf Excel Easy Wash 1Kg",
     "slug": "surf-excel-easy-wash-1kg",
-    "price": 144.0,
+    "price": 144,
     "image": "/images/products/surf-excel-easy-wash-1kg.jpg",
     "stock": 16,
     "description": "Surf Excel Easy Wash 1Kg - Trusted household or cleaning product.",
@@ -2573,13 +2756,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5279
+    "rank": 5279,
+    "name": "Surf Excel Easy Wash 1Kg"
   },
   {
     "id": 5280,
     "title": "Surf Excel Easy Wash 3Kg",
     "slug": "surf-excel-easy-wash-3kg",
-    "price": 390.0,
+    "price": 390,
     "image": "/images/products/surf-excel-easy-wash-3kg.jpg",
     "stock": 4,
     "description": "Surf Excel Easy Wash 3Kg - Trusted household or cleaning product.",
@@ -2587,13 +2771,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5280
+    "rank": 5280,
+    "name": "Surf Excel Easy Wash 3Kg"
   },
   {
     "id": 5281,
     "title": "Surf Excel Easy Wash 500G",
     "slug": "surf-excel-easy-wash-500g",
-    "price": 72.0,
+    "price": 72,
     "image": "/images/products/surf-excel-easy-wash-500g.jpg",
     "stock": 11,
     "description": "Surf Excel Easy Wash 500G - Trusted household or cleaning product.",
@@ -2601,13 +2786,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5281
+    "rank": 5281,
+    "name": "Surf Excel Easy Wash 500G"
   },
   {
     "id": 5282,
     "title": "Surf Excel Matic Front Load 1L",
     "slug": "surf-excel-matic-front-load-1l",
-    "price": 255.0,
+    "price": 255,
     "image": "/images/products/surf-excel-matic-front-load-1l.jpg",
     "stock": 3,
     "description": "Surf Excel Matic Front Load 1L - Trusted household or cleaning product.",
@@ -2615,13 +2801,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5282
+    "rank": 5282,
+    "name": "Surf Excel Matic Front Load 1L"
   },
   {
     "id": 5283,
     "title": "Surf Excel Matic Front Load 500Ml",
     "slug": "surf-excel-matic-front-load-500ml",
-    "price": 130.0,
+    "price": 130,
     "image": "/images/products/surf-excel-matic-front-load-500ml.jpg",
     "stock": 3,
     "description": "Surf Excel Matic Front Load 500Ml - Trusted household or cleaning product.",
@@ -2629,13 +2816,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5283
+    "rank": 5283,
+    "name": "Surf Excel Matic Front Load 500Ml"
   },
   {
     "id": 5284,
     "title": "Surf Excel Matic Liquid Fl 1L",
     "slug": "surf-excel-matic-liquid-fl-1l",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/surf-excel-matic-liquid-fl-1l.jpg",
     "stock": 4,
     "description": "Surf Excel Matic Liquid Fl 1L - Trusted household or cleaning product.",
@@ -2643,13 +2831,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5284
+    "rank": 5284,
+    "name": "Surf Excel Matic Liquid Fl 1L"
   },
   {
     "id": 5285,
     "title": "Surf Excel Matic Liquid Tl 1L",
     "slug": "surf-excel-matic-liquid-tl-1l",
-    "price": 175.0,
+    "price": 175,
     "image": "/images/products/surf-excel-matic-liquid-tl-1l.jpg",
     "stock": 1,
     "description": "Surf Excel Matic Liquid Tl 1L - Trusted household or cleaning product.",
@@ -2657,13 +2846,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5285
+    "rank": 5285,
+    "name": "Surf Excel Matic Liquid Tl 1L"
   },
   {
     "id": 5286,
     "title": "Surf Excel Matic Tl 1L",
     "slug": "surf-excel-matic-tl-1l",
-    "price": 225.0,
+    "price": 225,
     "image": "/images/products/surf-excel-matic-tl-1l.jpg",
     "stock": 2,
     "description": "Surf Excel Matic Tl 1L - Trusted household or cleaning product.",
@@ -2671,13 +2861,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5286
+    "rank": 5286,
+    "name": "Surf Excel Matic Tl 1L"
   },
   {
     "id": 5287,
     "title": "Surf Excel Quick Wash 1Kg",
     "slug": "surf-excel-quick-wash-1kg",
-    "price": 230.0,
+    "price": 230,
     "image": "/images/products/surf-excel-quick-wash-1kg.jpg",
     "stock": 2,
     "description": "Surf Excel Quick Wash 1Kg - Trusted household or cleaning product.",
@@ -2685,13 +2876,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5287
+    "rank": 5287,
+    "name": "Surf Excel Quick Wash 1Kg"
   },
   {
     "id": 5288,
     "title": "Surf Excel Quick Wash 500G",
     "slug": "surf-excel-quick-wash-500g",
-    "price": 115.0,
+    "price": 115,
     "image": "/images/products/surf-excel-quick-wash-500g.jpg",
     "stock": 5,
     "description": "Surf Excel Quick Wash 500G - Trusted household or cleaning product.",
@@ -2699,13 +2891,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5288
+    "rank": 5288,
+    "name": "Surf Excel Quick Wash 500G"
   },
   {
     "id": 5389,
     "title": "Tide Matic Liquid Front Load 2L",
     "slug": "tide-matic-liquid-front-load-2l",
-    "price": 430.0,
+    "price": 430,
     "image": "/images/products/tide-matic-liquid-front-load-2l.jpg",
     "stock": 3,
     "description": "Tide Matic Liquid Front Load 2L - Trusted household or cleaning product.",
@@ -2713,13 +2906,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5389
+    "rank": 5389,
+    "name": "Tide Matic Liquid Front Load 2L"
   },
   {
     "id": 5390,
     "title": "Tide Matic Liquid Front Load 850Ml",
     "slug": "tide-matic-liquid-front-load-850ml",
-    "price": 155.0,
+    "price": 155,
     "image": "/images/products/tide-matic-liquid-front-load-850ml.jpg",
     "stock": 2,
     "description": "Tide Matic Liquid Front Load 850Ml - Trusted household or cleaning product.",
@@ -2727,13 +2921,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5390
+    "rank": 5390,
+    "name": "Tide Matic Liquid Front Load 850Ml"
   },
   {
     "id": 5391,
     "title": "Tide Matic Liquid Top Load 2L",
     "slug": "tide-matic-liquid-top-load-2l",
-    "price": 380.0,
+    "price": 380,
     "image": "/images/products/tide-matic-liquid-top-load-2l.jpg",
     "stock": 2,
     "description": "Tide Matic Liquid Top Load 2L - Trusted household or cleaning product.",
@@ -2741,13 +2936,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5391
+    "rank": 5391,
+    "name": "Tide Matic Liquid Top Load 2L"
   },
   {
     "id": 5392,
     "title": "Tide Matic Liquid Top Load 850Ml",
     "slug": "tide-matic-liquid-top-load-850ml",
-    "price": 130.0,
+    "price": 130,
     "image": "/images/products/tide-matic-liquid-top-load-850ml.jpg",
     "stock": 2,
     "description": "Tide Matic Liquid Top Load 850Ml - Trusted household or cleaning product.",
@@ -2755,13 +2951,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5392
+    "rank": 5392,
+    "name": "Tide Matic Liquid Top Load 850Ml"
   },
   {
     "id": 5451,
     "title": "Trisa Bracket Cleaner Care",
     "slug": "trisa-bracket-cleaner-care",
-    "price": 359.0,
+    "price": 359,
     "image": "/images/products/trisa-bracket-cleaner-care.jpg",
     "stock": 3,
     "description": "Trisa Bracket Cleaner Care - Trusted household or cleaning product.",
@@ -2769,13 +2966,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5451
+    "rank": 5451,
+    "name": "Trisa Bracket Cleaner Care"
   },
   {
     "id": 5470,
     "title": "Trisa Tongue Cleaner",
     "slug": "trisa-tongue-cleaner",
-    "price": 289.0,
+    "price": 289,
     "image": "/images/products/trisa-tongue-cleaner.jpg",
     "stock": 4,
     "description": "Trisa Tongue Cleaner - Trusted household or cleaning product.",
@@ -2783,13 +2981,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5470
+    "rank": 5470,
+    "name": "Trisa Tongue Cleaner"
   },
   {
     "id": 5471,
     "title": "Trisa Toungue Cleaner",
     "slug": "trisa-toungue-cleaner",
-    "price": 259.0,
+    "price": 259,
     "image": "/images/products/trisa-toungue-cleaner.jpg",
     "stock": 3,
     "description": "Trisa Toungue Cleaner - Trusted household or cleaning product.",
@@ -2797,13 +2996,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5471
+    "rank": 5471,
+    "name": "Trisa Toungue Cleaner"
   },
   {
     "id": 5479,
     "title": "Trishul Phenyle",
     "slug": "trishul-phenyle",
-    "price": 149.0,
+    "price": 149,
     "image": "/images/products/trishul-phenyle.jpg",
     "stock": 2,
     "description": "Trishul Phenyle - Trusted household or cleaning product.",
@@ -2811,13 +3011,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5479
+    "rank": 5479,
+    "name": "Trishul Phenyle"
   },
   {
     "id": 5675,
     "title": "Vega Bath Sponge 2/3",
     "slug": "vega-bath-sponge-23",
-    "price": 165.0,
+    "price": 165,
     "image": "/images/products/vega-bath-sponge-23.jpg",
     "stock": 2,
     "description": "Vega Bath Sponge 2/3 - Trusted household or cleaning product.",
@@ -2825,13 +3026,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5675
+    "rank": 5675,
+    "name": "Vega Bath Sponge 2/3"
   },
   {
     "id": 5701,
     "title": "Vega Tounge Cleaner Copper",
     "slug": "vega-tounge-cleaner-copper",
-    "price": 110.0,
+    "price": 110,
     "image": "/images/products/vega-tounge-cleaner-copper.jpg",
     "stock": 2,
     "description": "Vega Tounge Cleaner Copper - Trusted household or cleaning product.",
@@ -2839,13 +3041,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5701
+    "rank": 5701,
+    "name": "Vega Tounge Cleaner Copper"
   },
   {
     "id": 5702,
     "title": "Vega Tounge Cleaner Metal",
     "slug": "vega-tounge-cleaner-metal",
-    "price": 179.0,
+    "price": 179,
     "image": "/images/products/vega-tounge-cleaner-metal.jpg",
     "stock": 1,
     "description": "Vega Tounge Cleaner Metal - Trusted household or cleaning product.",
@@ -2853,13 +3056,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5702
+    "rank": 5702,
+    "name": "Vega Tounge Cleaner Metal"
   },
   {
     "id": 5754,
     "title": "Vim Anti Bac Bar 250G",
     "slug": "vim-anti-bac-bar-250g",
-    "price": 29.0,
+    "price": 29,
     "image": "/images/products/vim-anti-bac-bar-250g.jpg",
     "stock": -1,
     "description": "Vim Anti Bac Bar 250G - Trusted household or cleaning product.",
@@ -2867,13 +3071,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5754
+    "rank": 5754,
+    "name": "Vim Anti Bac Bar 250G"
   },
   {
     "id": 5755,
     "title": "Vim Antismell Bar 250G",
     "slug": "vim-antismell-bar-250g",
-    "price": 30.0,
+    "price": 30,
     "image": "/images/products/vim-antismell-bar-250g.jpg",
     "stock": 4,
     "description": "Vim Antismell Bar 250G - Trusted household or cleaning product.",
@@ -2881,13 +3086,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5755
+    "rank": 5755,
+    "name": "Vim Antismell Bar 250G"
   },
   {
     "id": 5756,
     "title": "Vim Bar 110G",
     "slug": "vim-bar-110g",
-    "price": 10.0,
+    "price": 10,
     "image": "/images/products/vim-bar-110g.jpg",
     "stock": 2,
     "description": "Vim Bar 110G - Trusted household or cleaning product.",
@@ -2895,13 +3101,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5756
+    "rank": 5756,
+    "name": "Vim Bar 110G"
   },
   {
     "id": 5757,
     "title": "Vim Bar 3+1",
     "slug": "vim-bar-31",
-    "price": 30.0,
+    "price": 30,
     "image": "/images/products/vim-bar-31.jpg",
     "stock": 56,
     "description": "Vim Bar 3+1 - Trusted household or cleaning product.",
@@ -2909,13 +3116,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5757
+    "rank": 5757,
+    "name": "Vim Bar 3+1"
   },
   {
     "id": 5758,
     "title": "Vim Bar 300G",
     "slug": "vim-bar-300g",
-    "price": 30.0,
+    "price": 30,
     "image": "/images/products/vim-bar-300g.jpg",
     "stock": 19,
     "description": "Vim Bar 300G - Trusted household or cleaning product.",
@@ -2923,13 +3131,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5758
+    "rank": 5758,
+    "name": "Vim Bar 300G"
   },
   {
     "id": 5759,
     "title": "Vim Bar Pack Of 6",
     "slug": "vim-bar-pack-of-6",
-    "price": 43.0,
+    "price": 43,
     "image": "/images/products/vim-bar-pack-of-6.jpg",
     "stock": 3,
     "description": "Vim Bar Pack Of 6 - Trusted household or cleaning product.",
@@ -2937,13 +3146,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5759
+    "rank": 5759,
+    "name": "Vim Bar Pack Of 6"
   },
   {
     "id": 5760,
     "title": "Vim Bar Super Saver Pack",
     "slug": "vim-bar-super-saver-pack",
-    "price": 65.0,
+    "price": 65,
     "image": "/images/products/vim-bar-super-saver-pack.jpg",
     "stock": 9,
     "description": "Vim Bar Super Saver Pack - Trusted household or cleaning product.",
@@ -2951,13 +3161,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5760
+    "rank": 5760,
+    "name": "Vim Bar Super Saver Pack"
   },
   {
     "id": 5761,
     "title": "Vim Bar Tub",
     "slug": "vim-bar-tub",
-    "price": 32.0,
+    "price": 32,
     "image": "/images/products/vim-bar-tub.jpg",
     "stock": 4,
     "description": "Vim Bar Tub - Trusted household or cleaning product.",
@@ -2965,13 +3176,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5761
+    "rank": 5761,
+    "name": "Vim Bar Tub"
   },
   {
     "id": 5762,
     "title": "Vim Liquid Gel 130Ml",
     "slug": "vim-liquid-gel-130ml",
-    "price": 20.0,
+    "price": 20,
     "image": "/images/products/vim-liquid-gel-130ml.jpg",
     "stock": 10,
     "description": "Vim Liquid Gel 130Ml - Trusted household or cleaning product.",
@@ -2979,13 +3191,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5762
+    "rank": 5762,
+    "name": "Vim Liquid Gel 130Ml"
   },
   {
     "id": 5763,
     "title": "Vim Lquid 250Ml",
     "slug": "vim-lquid-250ml",
-    "price": 58.0,
+    "price": 58,
     "image": "/images/products/vim-lquid-250ml.jpg",
     "stock": 4,
     "description": "Vim Lquid 250Ml - Trusted household or cleaning product.",
@@ -2993,13 +3206,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5763
+    "rank": 5763,
+    "name": "Vim Lquid 250Ml"
   },
   {
     "id": 5764,
     "title": "Vim Lquid 750Ml",
     "slug": "vim-lquid-750ml",
-    "price": 205.0,
+    "price": 205,
     "image": "/images/products/vim-lquid-750ml.jpg",
     "stock": 4,
     "description": "Vim Lquid 750Ml - Trusted household or cleaning product.",
@@ -3007,13 +3221,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5764
+    "rank": 5764,
+    "name": "Vim Lquid 750Ml"
   },
   {
     "id": 5765,
     "title": "Vim Maha Bar 110G+50G",
     "slug": "vim-maha-bar-110g50g",
-    "price": 10.0,
+    "price": 10,
     "image": "/images/products/vim-maha-bar-110g50g.jpg",
     "stock": 9,
     "description": "Vim Maha Bar 110G+50G - Trusted household or cleaning product.",
@@ -3021,13 +3236,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5765
+    "rank": 5765,
+    "name": "Vim Maha Bar 110G+50G"
   },
   {
     "id": 5766,
     "title": "Vim Maha Tub Bar",
     "slug": "vim-maha-tub-bar",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/vim-maha-tub-bar.jpg",
     "stock": 6,
     "description": "Vim Maha Tub Bar - Trusted household or cleaning product.",
@@ -3035,13 +3251,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5766
+    "rank": 5766,
+    "name": "Vim Maha Tub Bar"
   },
   {
     "id": 5840,
     "title": "Whimsy Scrub&Stay",
     "slug": "whimsy-scrubstay",
-    "price": 399.0,
+    "price": 399,
     "image": "/images/products/whimsy-scrubstay.jpg",
     "stock": 2,
     "description": "Whimsy Scrub&Stay - Trusted household or cleaning product.",
@@ -3049,13 +3266,14 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5840
+    "rank": 5840,
+    "name": "Whimsy Scrub&Stay"
   },
   {
     "id": 5955,
     "title": "Wow Skin Science Face Scrub 1+1 100G",
     "slug": "wow-skin-science-face-scrub-11-100g",
-    "price": 259.0,
+    "price": 259,
     "image": "/images/products/wow-skin-science-face-scrub-11-100g.jpg",
     "stock": 26,
     "description": "Wow Skin Science Face Scrub 1+1 100G - Trusted household or cleaning product.",
@@ -3063,7 +3281,8 @@ const products = [
     "unit": "PCS",
     "category": "household-cleaning",
     "popular": false,
-    "rank": 5955
+    "rank": 5955,
+    "name": "Wow Skin Science Face Scrub 1+1 100G"
   }
 ];
 

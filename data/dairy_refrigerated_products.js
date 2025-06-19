@@ -3,7 +3,7 @@ const products = [
     "id": 6,
     "title": "Orgainc India Tulsi Green Tea Classic",
     "slug": "orgainc-india-tulsi-green-tea-classic",
-    "price": 215.0,
+    "price": 215,
     "image": "/images/products/orgainc-india-tulsi-green-tea-classic.jpg",
     "stock": 4,
     "description": "Orgainc India Tulsi Green Tea Classic - Fresh dairy or refrigerated item.",
@@ -11,13 +11,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 6
+    "rank": 6,
+    "name": "Orgainc India Tulsi Green Tea Classic"
   },
   {
     "id": 63,
     "title": "Act2 Butter Lovers",
     "slug": "act2-butter-lovers",
-    "price": 30.0,
+    "price": 30,
     "image": "/images/products/act2-butter-lovers.jpg",
     "stock": 19,
     "description": "Act2 Butter Lovers - Fresh dairy or refrigerated item.",
@@ -25,13 +26,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 63
+    "rank": 63,
+    "name": "Act2 Butter Lovers"
   },
   {
     "id": 64,
     "title": "Act2 Butter Popcorn",
     "slug": "act2-butter-popcorn",
-    "price": 30.0,
+    "price": 30,
     "image": "/images/products/act2-butter-popcorn.jpg",
     "stock": 10,
     "description": "Act2 Butter Popcorn - Fresh dairy or refrigerated item.",
@@ -39,13 +41,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 64
+    "rank": 64,
+    "name": "Act2 Butter Popcorn"
   },
   {
     "id": 65,
     "title": "Act2 Butter Popcorn Rte",
     "slug": "act2-butter-popcorn-rte",
-    "price": 25.0,
+    "price": 25,
     "image": "/images/products/act2-butter-popcorn-rte.jpg",
     "stock": 8,
     "description": "Act2 Butter Popcorn Rte - Fresh dairy or refrigerated item.",
@@ -53,13 +56,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 65
+    "rank": 65,
+    "name": "Act2 Butter Popcorn Rte"
   },
   {
     "id": 67,
     "title": "Act2 Popcorn Butter Delite",
     "slug": "act2-popcorn-butter-delite",
-    "price": 35.0,
+    "price": 35,
     "image": "/images/products/act2-popcorn-butter-delite.jpg",
     "stock": 27,
     "description": "Act2 Popcorn Butter Delite - Fresh dairy or refrigerated item.",
@@ -67,13 +71,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 67
+    "rank": 67,
+    "name": "Act2 Popcorn Butter Delite"
   },
   {
     "id": 68,
     "title": "Act2 Popcorn Butter Pepper",
     "slug": "act2-popcorn-butter-pepper",
-    "price": 35.0,
+    "price": 35,
     "image": "/images/products/act2-popcorn-butter-pepper.jpg",
     "stock": 30,
     "description": "Act2 Popcorn Butter Pepper - Fresh dairy or refrigerated item.",
@@ -81,13 +86,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 68
+    "rank": 68,
+    "name": "Act2 Popcorn Butter Pepper"
   },
   {
     "id": 79,
     "title": "Act2 Popcorn Xtreme Butter",
     "slug": "act2-popcorn-xtreme-butter",
-    "price": 35.0,
+    "price": 35,
     "image": "/images/products/act2-popcorn-xtreme-butter.jpg",
     "stock": 26,
     "description": "Act2 Popcorn Xtreme Butter - Fresh dairy or refrigerated item.",
@@ -95,13 +101,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 79
+    "rank": 79,
+    "name": "Act2 Popcorn Xtreme Butter"
   },
   {
     "id": 130,
     "title": "Amul Almondo 200G",
     "slug": "amul-almondo-200g",
-    "price": 230.0,
+    "price": 230,
     "image": "/images/products/amul-almondo-200g.jpg",
     "stock": 1,
     "description": "Amul Almondo 200G - Fresh dairy or refrigerated item.",
@@ -109,13 +116,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 130
+    "rank": 130,
+    "name": "Amul Almondo 200G"
   },
   {
     "id": 131,
     "title": "Amul Belgian Chocolate 125Gm",
     "slug": "amul-belgian-chocolate-125gm",
-    "price": 180.0,
+    "price": 180,
     "image": "/images/products/amul-belgian-chocolate-125gm.jpg",
     "stock": 5,
     "description": "Amul Belgian Chocolate 125Gm - Fresh dairy or refrigerated item.",
@@ -123,13 +131,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 131
+    "rank": 131,
+    "name": "Amul Belgian Chocolate 125Gm"
   },
   {
     "id": 132,
     "title": "Amul Berry Bazzle 1L",
     "slug": "amul-berry-bazzle-1l",
-    "price": 300.0,
+    "price": 300,
     "image": "/images/products/amul-berry-bazzle-1l.jpg",
     "stock": 3,
     "description": "Amul Berry Bazzle 1L - Fresh dairy or refrigerated item.",
@@ -137,13 +146,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 132
+    "rank": 132,
+    "name": "Amul Berry Bazzle 1L"
   },
   {
     "id": 133,
     "title": "Amul Bitter Chocolate 150Gm",
     "slug": "amul-bitter-chocolate-150gm",
-    "price": 200.0,
+    "price": 200,
     "image": "/images/products/amul-bitter-chocolate-150gm.jpg",
     "stock": 3,
     "description": "Amul Bitter Chocolate 150Gm - Fresh dairy or refrigerated item.",
@@ -151,13 +161,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 133
+    "rank": 133,
+    "name": "Amul Bitter Chocolate 150Gm"
   },
   {
     "id": 134,
     "title": "Amul Bitter Chocolate 90% 150Gm",
     "slug": "amul-bitter-chocolate-90-150gm",
-    "price": 200.0,
+    "price": 200,
     "image": "/images/products/amul-bitter-chocolate-90-150gm.jpg",
     "stock": 4,
     "description": "Amul Bitter Chocolate 90% 150Gm - Fresh dairy or refrigerated item.",
@@ -165,13 +176,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 134
+    "rank": 134,
+    "name": "Amul Bitter Chocolate 90% 150Gm"
   },
   {
     "id": 135,
     "title": "Amul Butter 100Gm",
     "slug": "amul-butter-100gm",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/amul-butter-100gm.jpg",
     "stock": 9,
     "description": "Amul Butter 100Gm - Fresh dairy or refrigerated item.",
@@ -179,13 +191,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 135
+    "rank": 135,
+    "name": "Amul Butter 100Gm"
   },
   {
     "id": 136,
     "title": "Amul Butter 500Gm",
     "slug": "amul-butter-500gm",
-    "price": 295.0,
+    "price": 295,
     "image": "/images/products/amul-butter-500gm.jpg",
     "stock": 7,
     "description": "Amul Butter 500Gm - Fresh dairy or refrigerated item.",
@@ -193,13 +206,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 136
+    "rank": 136,
+    "name": "Amul Butter 500Gm"
   },
   {
     "id": 137,
     "title": "Amul Butter 500Gm",
     "slug": "amul-butter-500gm",
-    "price": 305.0,
+    "price": 305,
     "image": "/images/products/amul-butter-500gm.jpg",
     "stock": 8,
     "description": "Amul Butter 500Gm - Fresh dairy or refrigerated item.",
@@ -207,13 +221,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 137
+    "rank": 137,
+    "name": "Amul Butter 500Gm"
   },
   {
     "id": 138,
     "title": "Amul Butter School Pack 10X10Gm",
     "slug": "amul-butter-school-pack-10x10gm",
-    "price": 70.0,
+    "price": 70,
     "image": "/images/products/amul-butter-school-pack-10x10gm.jpg",
     "stock": 4,
     "description": "Amul Butter School Pack 10X10Gm - Fresh dairy or refrigerated item.",
@@ -221,13 +236,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 138
+    "rank": 138,
+    "name": "Amul Butter School Pack 10X10Gm"
   },
   {
     "id": 139,
     "title": "Amul Butter Tub 200Gm",
     "slug": "amul-butter-tub-200gm",
-    "price": 122.0,
+    "price": 122,
     "image": "/images/products/amul-butter-tub-200gm.jpg",
     "stock": 1,
     "description": "Amul Butter Tub 200Gm - Fresh dairy or refrigerated item.",
@@ -235,13 +251,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 139
+    "rank": 139,
+    "name": "Amul Butter Tub 200Gm"
   },
   {
     "id": 140,
     "title": "Amul Butter Tub 200Gm",
     "slug": "amul-butter-tub-200gm",
-    "price": 126.0,
+    "price": 126,
     "image": "/images/products/amul-butter-tub-200gm.jpg",
     "stock": 1,
     "description": "Amul Butter Tub 200Gm - Fresh dairy or refrigerated item.",
@@ -249,13 +266,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 140
+    "rank": 140,
+    "name": "Amul Butter Tub 200Gm"
   },
   {
     "id": 141,
     "title": "Amul Buttery Spread Garlic Herb 100Gm",
     "slug": "amul-buttery-spread-garlic-herb-100gm",
-    "price": 65.0,
+    "price": 65,
     "image": "/images/products/amul-buttery-spread-garlic-herb-100gm.jpg",
     "stock": 4,
     "description": "Amul Buttery Spread Garlic Herb 100Gm - Fresh dairy or refrigerated item.",
@@ -263,13 +281,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 141
+    "rank": 141,
+    "name": "Amul Buttery Spread Garlic Herb 100Gm"
   },
   {
     "id": 142,
     "title": "Amul Cacao 99% Dark Choco",
     "slug": "amul-cacao-99-dark-choco",
-    "price": 200.0,
+    "price": 200,
     "image": "/images/products/amul-cacao-99-dark-choco.jpg",
     "stock": 4,
     "description": "Amul Cacao 99% Dark Choco - Fresh dairy or refrigerated item.",
@@ -277,13 +296,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 142
+    "rank": 142,
+    "name": "Amul Cacao 99% Dark Choco"
   },
   {
     "id": 143,
     "title": "Amul Camel Milk Choco",
     "slug": "amul-camel-milk-choco",
-    "price": 180.0,
+    "price": 180,
     "image": "/images/products/amul-camel-milk-choco.jpg",
     "stock": 5,
     "description": "Amul Camel Milk Choco - Fresh dairy or refrigerated item.",
@@ -291,13 +311,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 143
+    "rank": 143,
+    "name": "Amul Camel Milk Choco"
   },
   {
     "id": 144,
     "title": "Amul Cashew Cookies 50 Gm",
     "slug": "amul-cashew-cookies-50-gm",
-    "price": 20.0,
+    "price": 20,
     "image": "/images/products/amul-cashew-cookies-50-gm.jpg",
     "stock": 9,
     "description": "Amul Cashew Cookies 50 Gm - Fresh dairy or refrigerated item.",
@@ -305,13 +326,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 144
+    "rank": 144,
+    "name": "Amul Cashew Cookies 50 Gm"
   },
   {
     "id": 145,
     "title": "Amul Cheddar Cheese 250G",
     "slug": "amul-cheddar-cheese-250g",
-    "price": 185.0,
+    "price": 185,
     "image": "/images/products/amul-cheddar-cheese-250g.jpg",
     "stock": 1,
     "description": "Amul Cheddar Cheese 250G - Fresh dairy or refrigerated item.",
@@ -319,13 +341,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 145
+    "rank": 145,
+    "name": "Amul Cheddar Cheese 250G"
   },
   {
     "id": 146,
     "title": "Amul Cheese Open Chiplet 25Gm",
     "slug": "amul-cheese-open-chiplet-25gm",
-    "price": 135.0,
+    "price": 135,
     "image": "/images/products/amul-cheese-open-chiplet-25gm.jpg",
     "stock": 4,
     "description": "Amul Cheese Open Chiplet 25Gm - Fresh dairy or refrigerated item.",
@@ -333,13 +356,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 146
+    "rank": 146,
+    "name": "Amul Cheese Open Chiplet 25Gm"
   },
   {
     "id": 147,
     "title": "Amul Cheese Sauce 200G",
     "slug": "amul-cheese-sauce-200g",
-    "price": 100.0,
+    "price": 100,
     "image": "/images/products/amul-cheese-sauce-200g.jpg",
     "stock": 2,
     "description": "Amul Cheese Sauce 200G - Fresh dairy or refrigerated item.",
@@ -347,13 +371,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 147
+    "rank": 147,
+    "name": "Amul Cheese Sauce 200G"
   },
   {
     "id": 148,
     "title": "Amul Cheese Spread 200G",
     "slug": "amul-cheese-spread-200g",
-    "price": 110.0,
+    "price": 110,
     "image": "/images/products/amul-cheese-spread-200g.jpg",
     "stock": 1,
     "description": "Amul Cheese Spread 200G - Fresh dairy or refrigerated item.",
@@ -361,13 +386,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 148
+    "rank": 148,
+    "name": "Amul Cheese Spread 200G"
   },
   {
     "id": 149,
     "title": "Amul Cheese Spread Creamy 180Gm",
     "slug": "amul-cheese-spread-creamy-180gm",
-    "price": 110.0,
+    "price": 110,
     "image": "/images/products/amul-cheese-spread-creamy-180gm.jpg",
     "stock": 2,
     "description": "Amul Cheese Spread Creamy 180Gm - Fresh dairy or refrigerated item.",
@@ -375,13 +401,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 149
+    "rank": 149,
+    "name": "Amul Cheese Spread Creamy 180Gm"
   },
   {
     "id": 150,
     "title": "Amul Cheese Spread Org Pickle 200Gm",
     "slug": "amul-cheese-spread-org-pickle-200gm",
-    "price": 110.0,
+    "price": 110,
     "image": "/images/products/amul-cheese-spread-org-pickle-200gm.jpg",
     "stock": 1,
     "description": "Amul Cheese Spread Org Pickle 200Gm - Fresh dairy or refrigerated item.",
@@ -389,13 +416,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 150
+    "rank": 150,
+    "name": "Amul Cheese Spread Org Pickle 200Gm"
   },
   {
     "id": 151,
     "title": "Amul Cheese Spread Pepper 200Gm",
     "slug": "amul-cheese-spread-pepper-200gm",
-    "price": 110.0,
+    "price": 110,
     "image": "/images/products/amul-cheese-spread-pepper-200gm.jpg",
     "stock": 2,
     "description": "Amul Cheese Spread Pepper 200Gm - Fresh dairy or refrigerated item.",
@@ -403,13 +431,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 151
+    "rank": 151,
+    "name": "Amul Cheese Spread Pepper 200Gm"
   },
   {
     "id": 152,
     "title": "Amul Cheese Spread Plain 200Gm",
     "slug": "amul-cheese-spread-plain-200gm",
-    "price": 110.0,
+    "price": 110,
     "image": "/images/products/amul-cheese-spread-plain-200gm.jpg",
     "stock": 1,
     "description": "Amul Cheese Spread Plain 200Gm - Fresh dairy or refrigerated item.",
@@ -417,13 +446,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 152
+    "rank": 152,
+    "name": "Amul Cheese Spread Plain 200Gm"
   },
   {
     "id": 153,
     "title": "Amul Choco Cracker 150Gm",
     "slug": "amul-choco-cracker-150gm",
-    "price": 180.0,
+    "price": 180,
     "image": "/images/products/amul-choco-cracker-150gm.jpg",
     "stock": 2,
     "description": "Amul Choco Cracker 150Gm - Fresh dairy or refrigerated item.",
@@ -431,13 +461,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 153
+    "rank": 153,
+    "name": "Amul Choco Cracker 150Gm"
   },
   {
     "id": 154,
     "title": "Amul Choco Crackle 1L",
     "slug": "amul-choco-crackle-1l",
-    "price": 250.0,
+    "price": 250,
     "image": "/images/products/amul-choco-crackle-1l.jpg",
     "stock": 2,
     "description": "Amul Choco Crackle 1L - Fresh dairy or refrigerated item.",
@@ -445,13 +476,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 154
+    "rank": 154,
+    "name": "Amul Choco Crackle 1L"
   },
   {
     "id": 155,
     "title": "Amul Chocobar 60Ml",
     "slug": "amul-chocobar-60ml",
-    "price": 20.0,
+    "price": 20,
     "image": "/images/products/amul-chocobar-60ml.jpg",
     "stock": 20,
     "description": "Amul Chocobar 60Ml - Fresh dairy or refrigerated item.",
@@ -459,13 +491,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 155
+    "rank": 155,
+    "name": "Amul Chocobar 60Ml"
   },
   {
     "id": 156,
     "title": "Amul Chocolate Brownie 540G",
     "slug": "amul-chocolate-brownie-540g",
-    "price": 230.0,
+    "price": 230,
     "image": "/images/products/amul-chocolate-brownie-540g.jpg",
     "stock": 2,
     "description": "Amul Chocolate Brownie 540G - Fresh dairy or refrigerated item.",
@@ -473,13 +506,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 156
+    "rank": 156,
+    "name": "Amul Chocolate Brownie 540G"
   },
   {
     "id": 157,
     "title": "Amul Chocolate Cookies 50Gm",
     "slug": "amul-chocolate-cookies-50gm",
-    "price": 25.0,
+    "price": 25,
     "image": "/images/products/amul-chocolate-cookies-50gm.jpg",
     "stock": 13,
     "description": "Amul Chocolate Cookies 50Gm - Fresh dairy or refrigerated item.",
@@ -487,13 +521,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 157
+    "rank": 157,
+    "name": "Amul Chocolate Cookies 50Gm"
   },
   {
     "id": 158,
     "title": "Amul Chocomini Tub 250Gm",
     "slug": "amul-chocomini-tub-250gm",
-    "price": 140.0,
+    "price": 140,
     "image": "/images/products/amul-chocomini-tub-250gm.jpg",
     "stock": 4,
     "description": "Amul Chocomini Tub 250Gm - Fresh dairy or refrigerated item.",
@@ -501,13 +536,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 158
+    "rank": 158,
+    "name": "Amul Chocomini Tub 250Gm"
   },
   {
     "id": 159,
     "title": "Amul Chocozoo Tub 250Gm",
     "slug": "amul-chocozoo-tub-250gm",
-    "price": 140.0,
+    "price": 140,
     "image": "/images/products/amul-chocozoo-tub-250gm.jpg",
     "stock": 2,
     "description": "Amul Chocozoo Tub 250Gm - Fresh dairy or refrigerated item.",
@@ -515,13 +551,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 159
+    "rank": 159,
+    "name": "Amul Chocozoo Tub 250Gm"
   },
   {
     "id": 160,
     "title": "Amul Coe Ghrr Tp",
     "slug": "amul-coe-ghrr-tp",
-    "price": 650.0,
+    "price": 650,
     "image": "/images/products/amul-coe-ghrr-tp.jpg",
     "stock": 1,
     "description": "Amul Coe Ghrr Tp - Fresh dairy or refrigerated item.",
@@ -529,13 +566,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 160
+    "rank": 160,
+    "name": "Amul Coe Ghrr Tp"
   },
   {
     "id": 161,
     "title": "Amul Coffee Cup 125Ml",
     "slug": "amul-coffee-cup-125ml",
-    "price": 40.0,
+    "price": 40,
     "image": "/images/products/amul-coffee-cup-125ml.jpg",
     "stock": 8,
     "description": "Amul Coffee Cup 125Ml - Fresh dairy or refrigerated item.",
@@ -543,13 +581,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 161
+    "rank": 161,
+    "name": "Amul Coffee Cup 125Ml"
   },
   {
     "id": 162,
     "title": "Amul Cow Ghee 1Ltr",
     "slug": "amul-cow-ghee-1ltr",
-    "price": 665.0,
+    "price": 665,
     "image": "/images/products/amul-cow-ghee-1ltr.jpg",
     "stock": 4,
     "description": "Amul Cow Ghee 1Ltr - Fresh dairy or refrigerated item.",
@@ -557,13 +596,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 162
+    "rank": 162,
+    "name": "Amul Cow Ghee 1Ltr"
   },
   {
     "id": 163,
     "title": "Amul Cow Ghee 500Ml",
     "slug": "amul-cow-ghee-500ml",
-    "price": 345.0,
+    "price": 345,
     "image": "/images/products/amul-cow-ghee-500ml.jpg",
     "stock": 1,
     "description": "Amul Cow Ghee 500Ml - Fresh dairy or refrigerated item.",
@@ -571,13 +611,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 163
+    "rank": 163,
+    "name": "Amul Cow Ghee 500Ml"
   },
   {
     "id": 164,
     "title": "Amul Cream Chesse",
     "slug": "amul-cream-chesse",
-    "price": 100.0,
+    "price": 100,
     "image": "/images/products/amul-cream-chesse.jpg",
     "stock": 2,
     "description": "Amul Cream Chesse - Fresh dairy or refrigerated item.",
@@ -585,13 +626,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 164
+    "rank": 164,
+    "name": "Amul Cream Chesse"
   },
   {
     "id": 165,
     "title": "Amul Crunchy Peanut Chocolate",
     "slug": "amul-crunchy-peanut-chocolate",
-    "price": 130.0,
+    "price": 130,
     "image": "/images/products/amul-crunchy-peanut-chocolate.jpg",
     "stock": 3,
     "description": "Amul Crunchy Peanut Chocolate - Fresh dairy or refrigerated item.",
@@ -599,13 +641,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 165
+    "rank": 165,
+    "name": "Amul Crunchy Peanut Chocolate"
   },
   {
     "id": 166,
     "title": "Amul Dark Chocolate 55%",
     "slug": "amul-dark-chocolate-55",
-    "price": 200.0,
+    "price": 200,
     "image": "/images/products/amul-dark-chocolate-55.jpg",
     "stock": 4,
     "description": "Amul Dark Chocolate 55% - Fresh dairy or refrigerated item.",
@@ -613,13 +656,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 166
+    "rank": 166,
+    "name": "Amul Dark Chocolate 55%"
   },
   {
     "id": 167,
     "title": "Amul Dark Minis 250Gm",
     "slug": "amul-dark-minis-250gm",
-    "price": 110.0,
+    "price": 110,
     "image": "/images/products/amul-dark-minis-250gm.jpg",
     "stock": 2,
     "description": "Amul Dark Minis 250Gm - Fresh dairy or refrigerated item.",
@@ -627,13 +671,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 167
+    "rank": 167,
+    "name": "Amul Dark Minis 250Gm"
   },
   {
     "id": 168,
     "title": "Amul Diced Ceese Blend 1Kg",
     "slug": "amul-diced-ceese-blend-1kg",
-    "price": 550.0,
+    "price": 550,
     "image": "/images/products/amul-diced-ceese-blend-1kg.jpg",
     "stock": 1,
     "description": "Amul Diced Ceese Blend 1Kg - Fresh dairy or refrigerated item.",
@@ -641,13 +686,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 168
+    "rank": 168,
+    "name": "Amul Diced Ceese Blend 1Kg"
   },
   {
     "id": 169,
     "title": "Amul Diced Cheese Blend 200Gm",
     "slug": "amul-diced-cheese-blend-200gm",
-    "price": 125.0,
+    "price": 125,
     "image": "/images/products/amul-diced-cheese-blend-200gm.jpg",
     "stock": 2,
     "description": "Amul Diced Cheese Blend 200Gm - Fresh dairy or refrigerated item.",
@@ -655,13 +701,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 169
+    "rank": 169,
+    "name": "Amul Diced Cheese Blend 200Gm"
   },
   {
     "id": 170,
     "title": "Amul Diced Mozzarella 1 Kg",
     "slug": "amul-diced-mozzarella-1-kg",
-    "price": 540.0,
+    "price": 540,
     "image": "/images/products/amul-diced-mozzarella-1-kg.jpg",
     "stock": 2,
     "description": "Amul Diced Mozzarella 1 Kg - Fresh dairy or refrigerated item.",
@@ -669,13 +716,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 170
+    "rank": 170,
+    "name": "Amul Diced Mozzarella 1 Kg"
   },
   {
     "id": 171,
     "title": "Amul Digestive Cookies",
     "slug": "amul-digestive-cookies",
-    "price": 100.0,
+    "price": 100,
     "image": "/images/products/amul-digestive-cookies.jpg",
     "stock": 2,
     "description": "Amul Digestive Cookies - Fresh dairy or refrigerated item.",
@@ -683,13 +731,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 171
+    "rank": 171,
+    "name": "Amul Digestive Cookies"
   },
   {
     "id": 172,
     "title": "Amul Duetz Mango 60Ml",
     "slug": "amul-duetz-mango-60ml",
-    "price": 15.0,
+    "price": 15,
     "image": "/images/products/amul-duetz-mango-60ml.jpg",
     "stock": 17,
     "description": "Amul Duetz Mango 60Ml - Fresh dairy or refrigerated item.",
@@ -697,13 +746,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 172
+    "rank": 172,
+    "name": "Amul Duetz Mango 60Ml"
   },
   {
     "id": 173,
     "title": "Amul Duetz Raspberry 60Ml",
     "slug": "amul-duetz-raspberry-60ml",
-    "price": 15.0,
+    "price": 15,
     "image": "/images/products/amul-duetz-raspberry-60ml.jpg",
     "stock": 10,
     "description": "Amul Duetz Raspberry 60Ml - Fresh dairy or refrigerated item.",
@@ -711,13 +761,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 173
+    "rank": 173,
+    "name": "Amul Duetz Raspberry 60Ml"
   },
   {
     "id": 174,
     "title": "Amul Edam Cheese 250G",
     "slug": "amul-edam-cheese-250g",
-    "price": 215.0,
+    "price": 215,
     "image": "/images/products/amul-edam-cheese-250g.jpg",
     "stock": 1,
     "description": "Amul Edam Cheese 250G - Fresh dairy or refrigerated item.",
@@ -725,13 +776,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 174
+    "rank": 174,
+    "name": "Amul Edam Cheese 250G"
   },
   {
     "id": 175,
     "title": "Amul Feta Cheese 250G",
     "slug": "amul-feta-cheese-250g",
-    "price": 175.0,
+    "price": 175,
     "image": "/images/products/amul-feta-cheese-250g.jpg",
     "stock": 1,
     "description": "Amul Feta Cheese 250G - Fresh dairy or refrigerated item.",
@@ -739,13 +791,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 175
+    "rank": 175,
+    "name": "Amul Feta Cheese 250G"
   },
   {
     "id": 176,
     "title": "Amul Fresh Cream 250Ml",
     "slug": "amul-fresh-cream-250ml",
-    "price": 68.0,
+    "price": 68,
     "image": "/images/products/amul-fresh-cream-250ml.jpg",
     "stock": 4,
     "description": "Amul Fresh Cream 250Ml - Fresh dairy or refrigerated item.",
@@ -753,13 +806,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 176
+    "rank": 176,
+    "name": "Amul Fresh Cream 250Ml"
   },
   {
     "id": 177,
     "title": "Amul Frostik Dark Choc 70Ml",
     "slug": "amul-frostik-dark-choc-70ml",
-    "price": 40.0,
+    "price": 40,
     "image": "/images/products/amul-frostik-dark-choc-70ml.jpg",
     "stock": 17,
     "description": "Amul Frostik Dark Choc 70Ml - Fresh dairy or refrigerated item.",
@@ -767,13 +821,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 177
+    "rank": 177,
+    "name": "Amul Frostik Dark Choc 70Ml"
   },
   {
     "id": 178,
     "title": "Amul Fruit N Nut 125Ml",
     "slug": "amul-fruit-n-nut-125ml",
-    "price": 35.0,
+    "price": 35,
     "image": "/images/products/amul-fruit-n-nut-125ml.jpg",
     "stock": 5,
     "description": "Amul Fruit N Nut 125Ml - Fresh dairy or refrigerated item.",
@@ -781,13 +836,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 178
+    "rank": 178,
+    "name": "Amul Fruit N Nut 125Ml"
   },
   {
     "id": 179,
     "title": "Amul Fruit N Nut Chocolate 150Gm",
     "slug": "amul-fruit-n-nut-chocolate-150gm",
-    "price": 200.0,
+    "price": 200,
     "image": "/images/products/amul-fruit-n-nut-chocolate-150gm.jpg",
     "stock": 4,
     "description": "Amul Fruit N Nut Chocolate 150Gm - Fresh dairy or refrigerated item.",
@@ -795,13 +851,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 179
+    "rank": 179,
+    "name": "Amul Fruit N Nut Chocolate 150Gm"
   },
   {
     "id": 180,
     "title": "Amul Full Cream Milk",
     "slug": "amul-full-cream-milk",
-    "price": 35.0,
+    "price": 35,
     "image": "/images/products/amul-full-cream-milk.jpg",
     "stock": 1,
     "description": "Amul Full Cream Milk - Fresh dairy or refrigerated item.",
@@ -809,7 +866,8 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 180
+    "rank": 180,
+    "name": "Amul Full Cream Milk"
   },
   {
     "id": 181,
@@ -823,13 +881,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 181
+    "rank": 181,
+    "name": "Amul Ghee Pet Jar 1Kg"
   },
   {
     "id": 182,
     "title": "Amul Ghee Pet Jar 1Kg",
     "slug": "amul-ghee-pet-jar-1kg",
-    "price": 650.0,
+    "price": 650,
     "image": "/images/products/amul-ghee-pet-jar-1kg.jpg",
     "stock": 3,
     "description": "Amul Ghee Pet Jar 1Kg - Fresh dairy or refrigerated item.",
@@ -837,13 +896,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 182
+    "rank": 182,
+    "name": "Amul Ghee Pet Jar 1Kg"
   },
   {
     "id": 183,
     "title": "Amul Ghee Pure Tp",
     "slug": "amul-ghee-pure-tp",
-    "price": 650.0,
+    "price": 650,
     "image": "/images/products/amul-ghee-pure-tp.jpg",
     "stock": 3,
     "description": "Amul Ghee Pure Tp - Fresh dairy or refrigerated item.",
@@ -851,13 +911,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 183
+    "rank": 183,
+    "name": "Amul Ghee Pure Tp"
   },
   {
     "id": 184,
     "title": "Amul Gold Butter Cookies 50Gm",
     "slug": "amul-gold-butter-cookies-50gm",
-    "price": 20.0,
+    "price": 20,
     "image": "/images/products/amul-gold-butter-cookies-50gm.jpg",
     "stock": 2,
     "description": "Amul Gold Butter Cookies 50Gm - Fresh dairy or refrigerated item.",
@@ -865,13 +926,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 184
+    "rank": 184,
+    "name": "Amul Gold Butter Cookies 50Gm"
   },
   {
     "id": 185,
     "title": "Amul Gold Standardised Milk 1Ltr",
     "slug": "amul-gold-standardised-milk-1ltr",
-    "price": 80.0,
+    "price": 80,
     "image": "/images/products/amul-gold-standardised-milk-1ltr.jpg",
     "stock": 1,
     "description": "Amul Gold Standardised Milk 1Ltr - Fresh dairy or refrigerated item.",
@@ -879,13 +941,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 185
+    "rank": 185,
+    "name": "Amul Gold Standardised Milk 1Ltr"
   },
   {
     "id": 186,
     "title": "Amul Hazelnut Chocolate 150Gm",
     "slug": "amul-hazelnut-chocolate-150gm",
-    "price": 250.0,
+    "price": 250,
     "image": "/images/products/amul-hazelnut-chocolate-150gm.jpg",
     "stock": 3,
     "description": "Amul Hazelnut Chocolate 150Gm - Fresh dairy or refrigerated item.",
@@ -893,13 +956,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 186
+    "rank": 186,
+    "name": "Amul Hazelnut Chocolate 150Gm"
   },
   {
     "id": 187,
     "title": "Amul Kaji Kulfi 60Ml",
     "slug": "amul-kaji-kulfi-60ml",
-    "price": 20.0,
+    "price": 20,
     "image": "/images/products/amul-kaji-kulfi-60ml.jpg",
     "stock": 5,
     "description": "Amul Kaji Kulfi 60Ml - Fresh dairy or refrigerated item.",
@@ -907,13 +971,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 187
+    "rank": 187,
+    "name": "Amul Kaji Kulfi 60Ml"
   },
   {
     "id": 188,
     "title": "Amul Kashmiri Kulfi 60Ml",
     "slug": "amul-kashmiri-kulfi-60ml",
-    "price": 20.0,
+    "price": 20,
     "image": "/images/products/amul-kashmiri-kulfi-60ml.jpg",
     "stock": 3,
     "description": "Amul Kashmiri Kulfi 60Ml - Fresh dairy or refrigerated item.",
@@ -921,13 +986,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 188
+    "rank": 188,
+    "name": "Amul Kashmiri Kulfi 60Ml"
   },
   {
     "id": 189,
     "title": "Amul Lactose Free Milk 250Ml",
     "slug": "amul-lactose-free-milk-250ml",
-    "price": 25.0,
+    "price": 25,
     "image": "/images/products/amul-lactose-free-milk-250ml.jpg",
     "stock": 31,
     "description": "Amul Lactose Free Milk 250Ml - Fresh dairy or refrigerated item.",
@@ -935,13 +1001,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 189
+    "rank": 189,
+    "name": "Amul Lactose Free Milk 250Ml"
   },
   {
     "id": 190,
     "title": "Amul Lassi 250Ml",
     "slug": "amul-lassi-250ml",
-    "price": 25.0,
+    "price": 25,
     "image": "/images/products/amul-lassi-250ml.jpg",
     "stock": 9,
     "description": "Amul Lassi 250Ml - Fresh dairy or refrigerated item.",
@@ -949,13 +1016,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 190
+    "rank": 190,
+    "name": "Amul Lassi 250Ml"
   },
   {
     "id": 191,
     "title": "Amul Lite Milk Fat Spread 100Gm",
     "slug": "amul-lite-milk-fat-spread-100gm",
-    "price": 48.0,
+    "price": 48,
     "image": "/images/products/amul-lite-milk-fat-spread-100gm.jpg",
     "stock": 7,
     "description": "Amul Lite Milk Fat Spread 100Gm - Fresh dairy or refrigerated item.",
@@ -963,13 +1031,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 191
+    "rank": 191,
+    "name": "Amul Lite Milk Fat Spread 100Gm"
   },
   {
     "id": 192,
     "title": "Amul Masti Buttermilk 1Ltr",
     "slug": "amul-masti-buttermilk-1ltr",
-    "price": 70.0,
+    "price": 70,
     "image": "/images/products/amul-masti-buttermilk-1ltr.jpg",
     "stock": 3,
     "description": "Amul Masti Buttermilk 1Ltr - Fresh dairy or refrigerated item.",
@@ -977,13 +1046,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 192
+    "rank": 192,
+    "name": "Amul Masti Buttermilk 1Ltr"
   },
   {
     "id": 193,
     "title": "Amul Masti Buttermilk 200Ml",
     "slug": "amul-masti-buttermilk-200ml",
-    "price": 15.0,
+    "price": 15,
     "image": "/images/products/amul-masti-buttermilk-200ml.jpg",
     "stock": 99,
     "description": "Amul Masti Buttermilk 200Ml - Fresh dairy or refrigerated item.",
@@ -991,13 +1061,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 193
+    "rank": 193,
+    "name": "Amul Masti Buttermilk 200Ml"
   },
   {
     "id": 194,
     "title": "Amul Milk Chocolate 150Gm",
     "slug": "amul-milk-chocolate-150gm",
-    "price": 200.0,
+    "price": 200,
     "image": "/images/products/amul-milk-chocolate-150gm.jpg",
     "stock": 4,
     "description": "Amul Milk Chocolate 150Gm - Fresh dairy or refrigerated item.",
@@ -1005,13 +1076,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 194
+    "rank": 194,
+    "name": "Amul Milk Chocolate 150Gm"
   },
   {
     "id": 195,
     "title": "Amul Mithai Mate",
     "slug": "amul-mithai-mate",
-    "price": 126.0,
+    "price": 126,
     "image": "/images/products/amul-mithai-mate.jpg",
     "stock": 2,
     "description": "Amul Mithai Mate - Fresh dairy or refrigerated item.",
@@ -1019,13 +1091,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 195
+    "rank": 195,
+    "name": "Amul Mithai Mate"
   },
   {
     "id": 196,
     "title": "Amul Paneer 200Gm",
     "slug": "amul-paneer-200gm",
-    "price": 91.0,
+    "price": 91,
     "image": "/images/products/amul-paneer-200gm.jpg",
     "stock": 2,
     "description": "Amul Paneer 200Gm - Fresh dairy or refrigerated item.",
@@ -1033,13 +1106,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 196
+    "rank": 196,
+    "name": "Amul Paneer 200Gm"
   },
   {
     "id": 197,
     "title": "Amul Pista Malai Kulfi",
     "slug": "amul-pista-malai-kulfi",
-    "price": 30.0,
+    "price": 30,
     "image": "/images/products/amul-pista-malai-kulfi.jpg",
     "stock": 11,
     "description": "Amul Pista Malai Kulfi - Fresh dairy or refrigerated item.",
@@ -1047,13 +1121,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 197
+    "rank": 197,
+    "name": "Amul Pista Malai Kulfi"
   },
   {
     "id": 198,
     "title": "Amul Processed Cheese Block 200Gm",
     "slug": "amul-processed-cheese-block-200gm",
-    "price": 130.0,
+    "price": 130,
     "image": "/images/products/amul-processed-cheese-block-200gm.jpg",
     "stock": 4,
     "description": "Amul Processed Cheese Block 200Gm - Fresh dairy or refrigerated item.",
@@ -1061,13 +1136,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 198
+    "rank": 198,
+    "name": "Amul Processed Cheese Block 200Gm"
   },
   {
     "id": 199,
     "title": "Amul Processed Cheese Slices 15Gm",
     "slug": "amul-processed-cheese-slices-15gm",
-    "price": 440.0,
+    "price": 440,
     "image": "/images/products/amul-processed-cheese-slices-15gm.jpg",
     "stock": 3,
     "description": "Amul Processed Cheese Slices 15Gm - Fresh dairy or refrigerated item.",
@@ -1075,13 +1151,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 199
+    "rank": 199,
+    "name": "Amul Processed Cheese Slices 15Gm"
   },
   {
     "id": 200,
     "title": "Amul Processed Cheese Slices 20Gm",
     "slug": "amul-processed-cheese-slices-20gm",
-    "price": 145.0,
+    "price": 145,
     "image": "/images/products/amul-processed-cheese-slices-20gm.jpg",
     "stock": 5,
     "description": "Amul Processed Cheese Slices 20Gm - Fresh dairy or refrigerated item.",
@@ -1089,13 +1166,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 200
+    "rank": 200,
+    "name": "Amul Processed Cheese Slices 20Gm"
   },
   {
     "id": 201,
     "title": "Amul Processed Cheese Slices 400Gm",
     "slug": "amul-processed-cheese-slices-400gm",
-    "price": 275.0,
+    "price": 275,
     "image": "/images/products/amul-processed-cheese-slices-400gm.jpg",
     "stock": 3,
     "description": "Amul Processed Cheese Slices 400Gm - Fresh dairy or refrigerated item.",
@@ -1103,13 +1181,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 201
+    "rank": 201,
+    "name": "Amul Processed Cheese Slices 400Gm"
   },
   {
     "id": 202,
     "title": "Amul Punjabi Kulfi",
     "slug": "amul-punjabi-kulfi",
-    "price": 25.0,
+    "price": 25,
     "image": "/images/products/amul-punjabi-kulfi.jpg",
     "stock": 1,
     "description": "Amul Punjabi Kulfi - Fresh dairy or refrigerated item.",
@@ -1117,13 +1196,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 202
+    "rank": 202,
+    "name": "Amul Punjabi Kulfi"
   },
   {
     "id": 203,
     "title": "Amul Pure Ghee 500Ml",
     "slug": "amul-pure-ghee-500ml",
-    "price": 330.0,
+    "price": 330,
     "image": "/images/products/amul-pure-ghee-500ml.jpg",
     "stock": 4,
     "description": "Amul Pure Ghee 500Ml - Fresh dairy or refrigerated item.",
@@ -1131,13 +1211,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 203
+    "rank": 203,
+    "name": "Amul Pure Ghee 500Ml"
   },
   {
     "id": 204,
     "title": "Amul Safed Makkhan 100Gm",
     "slug": "amul-safed-makkhan-100gm",
-    "price": 62.0,
+    "price": 62,
     "image": "/images/products/amul-safed-makkhan-100gm.jpg",
     "stock": 1,
     "description": "Amul Safed Makkhan 100Gm - Fresh dairy or refrigerated item.",
@@ -1145,13 +1226,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 204
+    "rank": 204,
+    "name": "Amul Safed Makkhan 100Gm"
   },
   {
     "id": 205,
     "title": "Amul Slim Milk 1L",
     "slug": "amul-slim-milk-1l",
-    "price": 80.0,
+    "price": 80,
     "image": "/images/products/amul-slim-milk-1l.jpg",
     "stock": 3,
     "description": "Amul Slim Milk 1L - Fresh dairy or refrigerated item.",
@@ -1159,13 +1241,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 205
+    "rank": 205,
+    "name": "Amul Slim Milk 1L"
   },
   {
     "id": 206,
     "title": "Amul Strawberry Magic 540G",
     "slug": "amul-strawberry-magic-540g",
-    "price": 215.0,
+    "price": 215,
     "image": "/images/products/amul-strawberry-magic-540g.jpg",
     "stock": 3,
     "description": "Amul Strawberry Magic 540G - Fresh dairy or refrigerated item.",
@@ -1173,13 +1256,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 206
+    "rank": 206,
+    "name": "Amul Strawberry Magic 540G"
   },
   {
     "id": 207,
     "title": "Amul Sugar Free Dark Chocolate 150Gm",
     "slug": "amul-sugar-free-dark-chocolate-150gm",
-    "price": 200.0,
+    "price": 200,
     "image": "/images/products/amul-sugar-free-dark-chocolate-150gm.jpg",
     "stock": 4,
     "description": "Amul Sugar Free Dark Chocolate 150Gm - Fresh dairy or refrigerated item.",
@@ -1187,13 +1271,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 207
+    "rank": 207,
+    "name": "Amul Sugar Free Dark Chocolate 150Gm"
   },
   {
     "id": 208,
     "title": "Amul Sugar Free Vanilla",
     "slug": "amul-sugar-free-vanilla",
-    "price": 40.0,
+    "price": 40,
     "image": "/images/products/amul-sugar-free-vanilla.jpg",
     "stock": 7,
     "description": "Amul Sugar Free Vanilla - Fresh dairy or refrigerated item.",
@@ -1201,13 +1286,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 208
+    "rank": 208,
+    "name": "Amul Sugar Free Vanilla"
   },
   {
     "id": 209,
     "title": "Amul Superfruit Chocolate 150Gm",
     "slug": "amul-superfruit-chocolate-150gm",
-    "price": 180.0,
+    "price": 180,
     "image": "/images/products/amul-superfruit-chocolate-150gm.jpg",
     "stock": 3,
     "description": "Amul Superfruit Chocolate 150Gm - Fresh dairy or refrigerated item.",
@@ -1215,13 +1301,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 209
+    "rank": 209,
+    "name": "Amul Superfruit Chocolate 150Gm"
   },
   {
     "id": 210,
     "title": "Amul Taaza Fresh Toned Milk 1Ltr",
     "slug": "amul-taaza-fresh-toned-milk-1ltr",
-    "price": 74.0,
+    "price": 74,
     "image": "/images/products/amul-taaza-fresh-toned-milk-1ltr.jpg",
     "stock": 30,
     "description": "Amul Taaza Fresh Toned Milk 1Ltr - Fresh dairy or refrigerated item.",
@@ -1229,13 +1316,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 210
+    "rank": 210,
+    "name": "Amul Taaza Fresh Toned Milk 1Ltr"
   },
   {
     "id": 211,
     "title": "Amul Taaza Fresh Toned Milk 200Ml",
     "slug": "amul-taaza-fresh-toned-milk-200ml",
-    "price": 16.0,
+    "price": 16,
     "image": "/images/products/amul-taaza-fresh-toned-milk-200ml.jpg",
     "stock": 69,
     "description": "Amul Taaza Fresh Toned Milk 200Ml - Fresh dairy or refrigerated item.",
@@ -1243,13 +1331,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 211
+    "rank": 211,
+    "name": "Amul Taaza Fresh Toned Milk 200Ml"
   },
   {
     "id": 212,
     "title": "Amul Tender Coconut 1L",
     "slug": "amul-tender-coconut-1l",
-    "price": 275.0,
+    "price": 275,
     "image": "/images/products/amul-tender-coconut-1l.jpg",
     "stock": 2,
     "description": "Amul Tender Coconut 1L - Fresh dairy or refrigerated item.",
@@ -1257,13 +1346,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 212
+    "rank": 212,
+    "name": "Amul Tender Coconut 1L"
   },
   {
     "id": 213,
     "title": "Amul White Chocolate 150Gm",
     "slug": "amul-white-chocolate-150gm",
-    "price": 130.0,
+    "price": 130,
     "image": "/images/products/amul-white-chocolate-150gm.jpg",
     "stock": 4,
     "description": "Amul White Chocolate 150Gm - Fresh dairy or refrigerated item.",
@@ -1271,13 +1361,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 213
+    "rank": 213,
+    "name": "Amul White Chocolate 150Gm"
   },
   {
     "id": 216,
     "title": "Ananda Ghee 450Ml",
     "slug": "ananda-ghee-450ml",
-    "price": 330.0,
+    "price": 330,
     "image": "/images/products/ananda-ghee-450ml.jpg",
     "stock": 5,
     "description": "Ananda Ghee 450Ml - Fresh dairy or refrigerated item.",
@@ -1285,13 +1376,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 216
+    "rank": 216,
+    "name": "Ananda Ghee 450Ml"
   },
   {
     "id": 217,
     "title": "Ananda Ghee 900Ml",
     "slug": "ananda-ghee-900ml",
-    "price": 650.0,
+    "price": 650,
     "image": "/images/products/ananda-ghee-900ml.jpg",
     "stock": 5,
     "description": "Ananda Ghee 900Ml - Fresh dairy or refrigerated item.",
@@ -1299,13 +1391,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 217
+    "rank": 217,
+    "name": "Ananda Ghee 900Ml"
   },
   {
     "id": 218,
     "title": "Ananda Rich Paneer 200G",
     "slug": "ananda-rich-paneer-200g",
-    "price": 95.0,
+    "price": 95,
     "image": "/images/products/ananda-rich-paneer-200g.jpg",
     "stock": 2,
     "description": "Ananda Rich Paneer 200G - Fresh dairy or refrigerated item.",
@@ -1313,13 +1406,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 218
+    "rank": 218,
+    "name": "Ananda Rich Paneer 200G"
   },
   {
     "id": 225,
     "title": "Anik Ghee 1L",
     "slug": "anik-ghee-1l",
-    "price": 670.0,
+    "price": 670,
     "image": "/images/products/anik-ghee-1l.jpg",
     "stock": 4,
     "description": "Anik Ghee 1L - Fresh dairy or refrigerated item.",
@@ -1327,13 +1421,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 225
+    "rank": 225,
+    "name": "Anik Ghee 1L"
   },
   {
     "id": 226,
     "title": "Anik Ghee 500Ml",
     "slug": "anik-ghee-500ml",
-    "price": 345.0,
+    "price": 345,
     "image": "/images/products/anik-ghee-500ml.jpg",
     "stock": 6,
     "description": "Anik Ghee 500Ml - Fresh dairy or refrigerated item.",
@@ -1341,13 +1436,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 226
+    "rank": 226,
+    "name": "Anik Ghee 500Ml"
   },
   {
     "id": 331,
     "title": "Ayur Cleansing Milk 100Ml",
     "slug": "ayur-cleansing-milk-100ml",
-    "price": 80.0,
+    "price": 80,
     "image": "/images/products/ayur-cleansing-milk-100ml.jpg",
     "stock": 3,
     "description": "Ayur Cleansing Milk 100Ml - Fresh dairy or refrigerated item.",
@@ -1355,13 +1451,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 331
+    "rank": 331,
+    "name": "Ayur Cleansing Milk 100Ml"
   },
   {
     "id": 332,
     "title": "Ayur Cold Cream 100Ml",
     "slug": "ayur-cold-cream-100ml",
-    "price": 100.0,
+    "price": 100,
     "image": "/images/products/ayur-cold-cream-100ml.jpg",
     "stock": 3,
     "description": "Ayur Cold Cream 100Ml - Fresh dairy or refrigerated item.",
@@ -1369,13 +1466,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 332
+    "rank": 332,
+    "name": "Ayur Cold Cream 100Ml"
   },
   {
     "id": 407,
     "title": "Bauli Moonfills Sweet Cheese 45G",
     "slug": "bauli-moonfills-sweet-cheese-45g",
-    "price": 25.0,
+    "price": 25,
     "image": "/images/products/bauli-moonfills-sweet-cheese-45g.jpg",
     "stock": 16,
     "description": "Bauli Moonfills Sweet Cheese 45G - Fresh dairy or refrigerated item.",
@@ -1383,13 +1481,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 407
+    "rank": 407,
+    "name": "Bauli Moonfills Sweet Cheese 45G"
   },
   {
     "id": 469,
     "title": "Bicano Paneer Bhujia",
     "slug": "bicano-paneer-bhujia",
-    "price": 70.0,
+    "price": 70,
     "image": "/images/products/bicano-paneer-bhujia.jpg",
     "stock": 5,
     "description": "Bicano Paneer Bhujia - Fresh dairy or refrigerated item.",
@@ -1397,13 +1496,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 469
+    "rank": 469,
+    "name": "Bicano Paneer Bhujia"
   },
   {
     "id": 484,
     "title": "Biotique Coconut Cream",
     "slug": "biotique-coconut-cream",
-    "price": 315.0,
+    "price": 315,
     "image": "/images/products/biotique-coconut-cream.jpg",
     "stock": 3,
     "description": "Biotique Coconut Cream - Fresh dairy or refrigerated item.",
@@ -1411,13 +1511,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 484
+    "rank": 484,
+    "name": "Biotique Coconut Cream"
   },
   {
     "id": 507,
     "title": "Biotique Saffron Cream",
     "slug": "biotique-saffron-cream",
-    "price": 399.0,
+    "price": 399,
     "image": "/images/products/biotique-saffron-cream.jpg",
     "stock": 3,
     "description": "Biotique Saffron Cream - Fresh dairy or refrigerated item.",
@@ -1425,13 +1526,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 507
+    "rank": 507,
+    "name": "Biotique Saffron Cream"
   },
   {
     "id": 520,
     "title": "Biotique Wheatgerm Cream",
     "slug": "biotique-wheatgerm-cream",
-    "price": 399.0,
+    "price": 399,
     "image": "/images/products/biotique-wheatgerm-cream.jpg",
     "stock": 3,
     "description": "Biotique Wheatgerm Cream - Fresh dairy or refrigerated item.",
@@ -1439,13 +1541,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 520
+    "rank": 520,
+    "name": "Biotique Wheatgerm Cream"
   },
   {
     "id": 583,
     "title": "Boro Plus Cream 120Ml",
     "slug": "boro-plus-cream-120ml",
-    "price": 210.0,
+    "price": 210,
     "image": "/images/products/boro-plus-cream-120ml.jpg",
     "stock": 3,
     "description": "Boro Plus Cream 120Ml - Fresh dairy or refrigerated item.",
@@ -1453,13 +1556,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 583
+    "rank": 583,
+    "name": "Boro Plus Cream 120Ml"
   },
   {
     "id": 584,
     "title": "Boro Plus Cream 40Ml",
     "slug": "boro-plus-cream-40ml",
-    "price": 90.0,
+    "price": 90,
     "image": "/images/products/boro-plus-cream-40ml.jpg",
     "stock": 1,
     "description": "Boro Plus Cream 40Ml - Fresh dairy or refrigerated item.",
@@ -1467,13 +1571,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 584
+    "rank": 584,
+    "name": "Boro Plus Cream 40Ml"
   },
   {
     "id": 585,
     "title": "Boro Plus Cream 80Ml",
     "slug": "boro-plus-cream-80ml",
-    "price": 160.0,
+    "price": 160,
     "image": "/images/products/boro-plus-cream-80ml.jpg",
     "stock": 3,
     "description": "Boro Plus Cream 80Ml - Fresh dairy or refrigerated item.",
@@ -1481,13 +1586,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 585
+    "rank": 585,
+    "name": "Boro Plus Cream 80Ml"
   },
   {
     "id": 613,
     "title": "Britannia 50 50 Classic S&S",
     "slug": "britannia-50-50-classic-ss",
-    "price": 10.0,
+    "price": 10,
     "image": "/images/products/britannia-50-50-classic-ss.jpg",
     "stock": 13,
     "description": "Britannia 50 50 Classic S&S - Fresh dairy or refrigerated item.",
@@ -1495,13 +1601,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 613
+    "rank": 613,
+    "name": "Britannia 50 50 Classic S&S"
   },
   {
     "id": 625,
     "title": "Britannia Cream Wafers",
     "slug": "britannia-cream-wafers",
-    "price": 10.0,
+    "price": 10,
     "image": "/images/products/britannia-cream-wafers.jpg",
     "stock": 23,
     "description": "Britannia Cream Wafers - Fresh dairy or refrigerated item.",
@@ -1509,13 +1616,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 625
+    "rank": 625,
+    "name": "Britannia Cream Wafers"
   },
   {
     "id": 628,
     "title": "Britannia Good Day Butter 200Gm",
     "slug": "britannia-good-day-butter-200gm",
-    "price": 40.0,
+    "price": 40,
     "image": "/images/products/britannia-good-day-butter-200gm.jpg",
     "stock": 6,
     "description": "Britannia Good Day Butter 200Gm - Fresh dairy or refrigerated item.",
@@ -1523,13 +1631,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 628
+    "rank": 628,
+    "name": "Britannia Good Day Butter 200Gm"
   },
   {
     "id": 629,
     "title": "Britannia Good Day Butter 53Gm",
     "slug": "britannia-good-day-butter-53gm",
-    "price": 10.0,
+    "price": 10,
     "image": "/images/products/britannia-good-day-butter-53gm.jpg",
     "stock": 24,
     "description": "Britannia Good Day Butter 53Gm - Fresh dairy or refrigerated item.",
@@ -1537,13 +1646,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 629
+    "rank": 629,
+    "name": "Britannia Good Day Butter 53Gm"
   },
   {
     "id": 630,
     "title": "Britannia Good Day Butter Jeera",
     "slug": "britannia-good-day-butter-jeera",
-    "price": 20.0,
+    "price": 20,
     "image": "/images/products/britannia-good-day-butter-jeera.jpg",
     "stock": 13,
     "description": "Britannia Good Day Butter Jeera - Fresh dairy or refrigerated item.",
@@ -1551,13 +1661,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 630
+    "rank": 630,
+    "name": "Britannia Good Day Butter Jeera"
   },
   {
     "id": 644,
     "title": "Britannia Milk Bikis 190.5Gm",
     "slug": "britannia-milk-bikis-1905gm",
-    "price": 35.0,
+    "price": 35,
     "image": "/images/products/britannia-milk-bikis-1905gm.jpg",
     "stock": 5,
     "description": "Britannia Milk Bikis 190.5Gm - Fresh dairy or refrigerated item.",
@@ -1565,13 +1676,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 644
+    "rank": 644,
+    "name": "Britannia Milk Bikis 190.5Gm"
   },
   {
     "id": 645,
     "title": "Britannia Milk Bikis 71G",
     "slug": "britannia-milk-bikis-71g",
-    "price": 10.0,
+    "price": 10,
     "image": "/images/products/britannia-milk-bikis-71g.jpg",
     "stock": 17,
     "description": "Britannia Milk Bikis 71G - Fresh dairy or refrigerated item.",
@@ -1579,13 +1691,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 645
+    "rank": 645,
+    "name": "Britannia Milk Bikis 71G"
   },
   {
     "id": 646,
     "title": "Britannia Milk Bikis Cream 200G",
     "slug": "britannia-milk-bikis-cream-200g",
-    "price": 55.0,
+    "price": 55,
     "image": "/images/products/britannia-milk-bikis-cream-200g.jpg",
     "stock": 1,
     "description": "Britannia Milk Bikis Cream 200G - Fresh dairy or refrigerated item.",
@@ -1593,13 +1706,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 646
+    "rank": 646,
+    "name": "Britannia Milk Bikis Cream 200G"
   },
   {
     "id": 647,
     "title": "Britannia Milk Bikis Cream 44G",
     "slug": "britannia-milk-bikis-cream-44g",
-    "price": 10.0,
+    "price": 10,
     "image": "/images/products/britannia-milk-bikis-cream-44g.jpg",
     "stock": 6,
     "description": "Britannia Milk Bikis Cream 44G - Fresh dairy or refrigerated item.",
@@ -1607,13 +1721,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 647
+    "rank": 647,
+    "name": "Britannia Milk Bikis Cream 44G"
   },
   {
     "id": 648,
     "title": "Britannia Milk Rusk",
     "slug": "britannia-milk-rusk",
-    "price": 35.0,
+    "price": 35,
     "image": "/images/products/britannia-milk-rusk.jpg",
     "stock": 4,
     "description": "Britannia Milk Rusk - Fresh dairy or refrigerated item.",
@@ -1621,13 +1736,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 648
+    "rank": 648,
+    "name": "Britannia Milk Rusk"
   },
   {
     "id": 654,
     "title": "Britannia Nc Oats Milk& Almond",
     "slug": "britannia-nc-oats-milk-almond",
-    "price": 25.0,
+    "price": 25,
     "image": "/images/products/britannia-nc-oats-milk-almond.jpg",
     "stock": 13,
     "description": "Britannia Nc Oats Milk& Almond - Fresh dairy or refrigerated item.",
@@ -1635,13 +1751,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 654
+    "rank": 654,
+    "name": "Britannia Nc Oats Milk& Almond"
   },
   {
     "id": 766,
     "title": "Campco Creamy Eclairs 360Gm",
     "slug": "campco-creamy-eclairs-360gm",
-    "price": 100.0,
+    "price": 100,
     "image": "/images/products/campco-creamy-eclairs-360gm.jpg",
     "stock": 3,
     "description": "Campco Creamy Eclairs 360Gm - Fresh dairy or refrigerated item.",
@@ -1649,13 +1766,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 766
+    "rank": 766,
+    "name": "Campco Creamy Eclairs 360Gm"
   },
   {
     "id": 773,
     "title": "Carnivore Chic Cheese & Onion",
     "slug": "carnivore-chic-cheese-onion",
-    "price": 380.0,
+    "price": 380,
     "image": "/images/products/carnivore-chic-cheese-onion.jpg",
     "stock": 2,
     "description": "Carnivore Chic Cheese & Onion - Fresh dairy or refrigerated item.",
@@ -1663,13 +1781,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 773
+    "rank": 773,
+    "name": "Carnivore Chic Cheese & Onion"
   },
   {
     "id": 827,
     "title": "Catch Shahi Paneer Masala",
     "slug": "catch-shahi-paneer-masala",
-    "price": 100.0,
+    "price": 100,
     "image": "/images/products/catch-shahi-paneer-masala.jpg",
     "stock": 6,
     "description": "Catch Shahi Paneer Masala - Fresh dairy or refrigerated item.",
@@ -1677,13 +1796,14 @@ const products = [
     "unit": "1192",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 827
+    "rank": 827,
+    "name": "Catch Shahi Paneer Masala"
   },
   {
     "id": 832,
     "title": "Cavins Just Milk Shake",
     "slug": "cavins-just-milk-shake",
-    "price": 35.0,
+    "price": 35,
     "image": "/images/products/cavins-just-milk-shake.jpg",
     "stock": 64,
     "description": "Cavins Just Milk Shake - Fresh dairy or refrigerated item.",
@@ -1691,13 +1811,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 832
+    "rank": 832,
+    "name": "Cavins Just Milk Shake"
   },
   {
     "id": 834,
     "title": "Cavins Milksake",
     "slug": "cavins-milksake",
-    "price": 40.0,
+    "price": 40,
     "image": "/images/products/cavins-milksake.jpg",
     "stock": 30,
     "description": "Cavins Milksake - Fresh dairy or refrigerated item.",
@@ -1705,13 +1826,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 834
+    "rank": 834,
+    "name": "Cavins Milksake"
   },
   {
     "id": 835,
     "title": "Cavins Rose Lassi",
     "slug": "cavins-rose-lassi",
-    "price": 30.0,
+    "price": 30,
     "image": "/images/products/cavins-rose-lassi.jpg",
     "stock": 30,
     "description": "Cavins Rose Lassi - Fresh dairy or refrigerated item.",
@@ -1719,13 +1841,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 835
+    "rank": 835,
+    "name": "Cavins Rose Lassi"
   },
   {
     "id": 840,
     "title": "Cd Bournville Classic 50%Dark",
     "slug": "cd-bournville-classic-50dark",
-    "price": 120.0,
+    "price": 120,
     "image": "/images/products/cd-bournville-classic-50dark.jpg",
     "stock": 4,
     "description": "Cd Bournville Classic 50%Dark - Fresh dairy or refrigerated item.",
@@ -1733,13 +1856,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 840
+    "rank": 840,
+    "name": "Cd Bournville Classic 50%Dark"
   },
   {
     "id": 848,
     "title": "Cd Dairy Milk 123G",
     "slug": "cd-dairy-milk-123g",
-    "price": 100.0,
+    "price": 100,
     "image": "/images/products/cd-dairy-milk-123g.jpg",
     "stock": 10,
     "description": "Cd Dairy Milk 123G - Fresh dairy or refrigerated item.",
@@ -1747,13 +1871,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 848
+    "rank": 848,
+    "name": "Cd Dairy Milk 123G"
   },
   {
     "id": 849,
     "title": "Cd Dairy Milk 20/-",
     "slug": "cd-dairy-milk-20-",
-    "price": 20.0,
+    "price": 20,
     "image": "/images/products/cd-dairy-milk-20-.jpg",
     "stock": 19,
     "description": "Cd Dairy Milk 20/- - Fresh dairy or refrigerated item.",
@@ -1761,13 +1886,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 849
+    "rank": 849,
+    "name": "Cd Dairy Milk 20/-"
   },
   {
     "id": 850,
     "title": "Cd Dairy Milk 46G",
     "slug": "cd-dairy-milk-46g",
-    "price": 50.0,
+    "price": 50,
     "image": "/images/products/cd-dairy-milk-46g.jpg",
     "stock": 8,
     "description": "Cd Dairy Milk 46G - Fresh dairy or refrigerated item.",
@@ -1775,13 +1901,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 850
+    "rank": 850,
+    "name": "Cd Dairy Milk 46G"
   },
   {
     "id": 851,
     "title": "Cd Dairy Milk Crackle",
     "slug": "cd-dairy-milk-crackle",
-    "price": 50.0,
+    "price": 50,
     "image": "/images/products/cd-dairy-milk-crackle.jpg",
     "stock": 3,
     "description": "Cd Dairy Milk Crackle - Fresh dairy or refrigerated item.",
@@ -1789,13 +1916,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 851
+    "rank": 851,
+    "name": "Cd Dairy Milk Crackle"
   },
   {
     "id": 852,
     "title": "Cd Dairy Milk Crispello",
     "slug": "cd-dairy-milk-crispello",
-    "price": 40.0,
+    "price": 40,
     "image": "/images/products/cd-dairy-milk-crispello.jpg",
     "stock": 23,
     "description": "Cd Dairy Milk Crispello - Fresh dairy or refrigerated item.",
@@ -1803,13 +1931,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 852
+    "rank": 852,
+    "name": "Cd Dairy Milk Crispello"
   },
   {
     "id": 853,
     "title": "Cd Dairy Milk Crispello 13G",
     "slug": "cd-dairy-milk-crispello-13g",
-    "price": 10.0,
+    "price": 10,
     "image": "/images/products/cd-dairy-milk-crispello-13g.jpg",
     "stock": 22,
     "description": "Cd Dairy Milk Crispello 13G - Fresh dairy or refrigerated item.",
@@ -1817,13 +1946,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 853
+    "rank": 853,
+    "name": "Cd Dairy Milk Crispello 13G"
   },
   {
     "id": 854,
     "title": "Cd Dairy Milk Frut N Nut 36G",
     "slug": "cd-dairy-milk-frut-n-nut-36g",
-    "price": 55.0,
+    "price": 55,
     "image": "/images/products/cd-dairy-milk-frut-n-nut-36g.jpg",
     "stock": 10,
     "description": "Cd Dairy Milk Frut N Nut 36G - Fresh dairy or refrigerated item.",
@@ -1831,13 +1961,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 854
+    "rank": 854,
+    "name": "Cd Dairy Milk Frut N Nut 36G"
   },
   {
     "id": 855,
     "title": "Cd Dairy Milk Hazelnut 143G",
     "slug": "cd-dairy-milk-hazelnut-143g",
-    "price": 220.0,
+    "price": 220,
     "image": "/images/products/cd-dairy-milk-hazelnut-143g.jpg",
     "stock": 12,
     "description": "Cd Dairy Milk Hazelnut 143G - Fresh dairy or refrigerated item.",
@@ -1845,13 +1976,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 855
+    "rank": 855,
+    "name": "Cd Dairy Milk Hazelnut 143G"
   },
   {
     "id": 856,
     "title": "Cd Dairy Milk Lolly Pop",
     "slug": "cd-dairy-milk-lolly-pop",
-    "price": 5.0,
+    "price": 5,
     "image": "/images/products/cd-dairy-milk-lolly-pop.jpg",
     "stock": 28,
     "description": "Cd Dairy Milk Lolly Pop - Fresh dairy or refrigerated item.",
@@ -1859,13 +1991,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 856
+    "rank": 856,
+    "name": "Cd Dairy Milk Lolly Pop"
   },
   {
     "id": 857,
     "title": "Cd Dairy Milk Mini Treats",
     "slug": "cd-dairy-milk-mini-treats",
-    "price": 220.0,
+    "price": 220,
     "image": "/images/products/cd-dairy-milk-mini-treats.jpg",
     "stock": 1,
     "description": "Cd Dairy Milk Mini Treats - Fresh dairy or refrigerated item.",
@@ -1873,13 +2006,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 857
+    "rank": 857,
+    "name": "Cd Dairy Milk Mini Treats"
   },
   {
     "id": 858,
     "title": "Cd Dairy Milk Mini Treats 91G",
     "slug": "cd-dairy-milk-mini-treats-91g",
-    "price": 120.0,
+    "price": 120,
     "image": "/images/products/cd-dairy-milk-mini-treats-91g.jpg",
     "stock": 1,
     "description": "Cd Dairy Milk Mini Treats 91G - Fresh dairy or refrigerated item.",
@@ -1887,13 +2021,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 858
+    "rank": 858,
+    "name": "Cd Dairy Milk Mini Treats 91G"
   },
   {
     "id": 859,
     "title": "Cd Dairy Milk Mousse 116G",
     "slug": "cd-dairy-milk-mousse-116g",
-    "price": 220.0,
+    "price": 220,
     "image": "/images/products/cd-dairy-milk-mousse-116g.jpg",
     "stock": 12,
     "description": "Cd Dairy Milk Mousse 116G - Fresh dairy or refrigerated item.",
@@ -1901,13 +2036,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 859
+    "rank": 859,
+    "name": "Cd Dairy Milk Mousse 116G"
   },
   {
     "id": 860,
     "title": "Cd Dairy Milk Oreo 130G",
     "slug": "cd-dairy-milk-oreo-130g",
-    "price": 220.0,
+    "price": 220,
     "image": "/images/products/cd-dairy-milk-oreo-130g.jpg",
     "stock": 9,
     "description": "Cd Dairy Milk Oreo 130G - Fresh dairy or refrigerated item.",
@@ -1915,13 +2051,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 860
+    "rank": 860,
+    "name": "Cd Dairy Milk Oreo 130G"
   },
   {
     "id": 887,
     "title": "Cetaphil Baby Diaper Cream 70G",
     "slug": "cetaphil-baby-diaper-cream-70g",
-    "price": 449.0,
+    "price": 449,
     "image": "/images/products/cetaphil-baby-diaper-cream-70g.jpg",
     "stock": 2,
     "description": "Cetaphil Baby Diaper Cream 70G - Fresh dairy or refrigerated item.",
@@ -1929,13 +2066,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 887
+    "rank": 887,
+    "name": "Cetaphil Baby Diaper Cream 70G"
   },
   {
     "id": 891,
     "title": "Cetaphil Bright Healthy Radiance Cream",
     "slug": "cetaphil-bright-healthy-radiance-cream",
-    "price": 1199.0,
+    "price": 1199,
     "image": "/images/products/cetaphil-bright-healthy-radiance-cream.jpg",
     "stock": 2,
     "description": "Cetaphil Bright Healthy Radiance Cream - Fresh dairy or refrigerated item.",
@@ -1943,13 +2081,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 891
+    "rank": 891,
+    "name": "Cetaphil Bright Healthy Radiance Cream"
   },
   {
     "id": 904,
     "title": "Cetaphil Moisturising Cream",
     "slug": "cetaphil-moisturising-cream",
-    "price": 1349.0,
+    "price": 1349,
     "image": "/images/products/cetaphil-moisturising-cream.jpg",
     "stock": 2,
     "description": "Cetaphil Moisturising Cream - Fresh dairy or refrigerated item.",
@@ -1957,13 +2096,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 904
+    "rank": 904,
+    "name": "Cetaphil Moisturising Cream"
   },
   {
     "id": 905,
     "title": "Cetaphil Moisturising Cream 80G",
     "slug": "cetaphil-moisturising-cream-80g",
-    "price": 629.0,
+    "price": 629,
     "image": "/images/products/cetaphil-moisturising-cream-80g.jpg",
     "stock": 2,
     "description": "Cetaphil Moisturising Cream 80G - Fresh dairy or refrigerated item.",
@@ -1971,13 +2111,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 905
+    "rank": 905,
+    "name": "Cetaphil Moisturising Cream 80G"
   },
   {
     "id": 917,
     "title": "Chaokoh Coconut Cream",
     "slug": "chaokoh-coconut-cream",
-    "price": 280.0,
+    "price": 280,
     "image": "/images/products/chaokoh-coconut-cream.jpg",
     "stock": 4,
     "description": "Chaokoh Coconut Cream - Fresh dairy or refrigerated item.",
@@ -1985,13 +2126,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 917
+    "rank": 917,
+    "name": "Chaokoh Coconut Cream"
   },
   {
     "id": 918,
     "title": "Chaokoh Coconut Milk",
     "slug": "chaokoh-coconut-milk",
-    "price": 249.0,
+    "price": 249,
     "image": "/images/products/chaokoh-coconut-milk.jpg",
     "stock": 3,
     "description": "Chaokoh Coconut Milk - Fresh dairy or refrigerated item.",
@@ -1999,13 +2141,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 918
+    "rank": 918,
+    "name": "Chaokoh Coconut Milk"
   },
   {
     "id": 920,
     "title": "Charmis Deep Nourshing Cold Cream 100Ml",
     "slug": "charmis-deep-nourshing-cold-cream-100ml",
-    "price": 155.0,
+    "price": 155,
     "image": "/images/products/charmis-deep-nourshing-cold-cream-100ml.jpg",
     "stock": 3,
     "description": "Charmis Deep Nourshing Cold Cream 100Ml - Fresh dairy or refrigerated item.",
@@ -2013,13 +2156,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 920
+    "rank": 920,
+    "name": "Charmis Deep Nourshing Cold Cream 100Ml"
   },
   {
     "id": 921,
     "title": "Charmis Deep Nourshing Cold Cream 175Ml",
     "slug": "charmis-deep-nourshing-cold-cream-175ml",
-    "price": 215.0,
+    "price": 215,
     "image": "/images/products/charmis-deep-nourshing-cold-cream-175ml.jpg",
     "stock": 2,
     "description": "Charmis Deep Nourshing Cold Cream 175Ml - Fresh dairy or refrigerated item.",
@@ -2027,13 +2171,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 921
+    "rank": 921,
+    "name": "Charmis Deep Nourshing Cold Cream 175Ml"
   },
   {
     "id": 926,
     "title": "Chef Urbano Oats Chips Cream&Onion",
     "slug": "chef-urbano-oats-chips-creamonion",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/chef-urbano-oats-chips-creamonion.jpg",
     "stock": 4,
     "description": "Chef Urbano Oats Chips Cream&Onion - Fresh dairy or refrigerated item.",
@@ -2041,13 +2186,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 926
+    "rank": 926,
+    "name": "Chef Urbano Oats Chips Cream&Onion"
   },
   {
     "id": 957,
     "title": "Chicco Baby Cream 100G",
     "slug": "chicco-baby-cream-100g",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/chicco-baby-cream-100g.jpg",
     "stock": 5,
     "description": "Chicco Baby Cream 100G - Fresh dairy or refrigerated item.",
@@ -2055,13 +2201,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 957
+    "rank": 957,
+    "name": "Chicco Baby Cream 100G"
   },
   {
     "id": 958,
     "title": "Chicco Baby Cream 200G",
     "slug": "chicco-baby-cream-200g",
-    "price": 379.0,
+    "price": 379,
     "image": "/images/products/chicco-baby-cream-200g.jpg",
     "stock": 6,
     "description": "Chicco Baby Cream 200G - Fresh dairy or refrigerated item.",
@@ -2069,13 +2216,14 @@ const products = [
     "unit": "pcs",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 958
+    "rank": 958,
+    "name": "Chicco Baby Cream 200G"
   },
   {
     "id": 959,
     "title": "Chicco Baby Cream 50G",
     "slug": "chicco-baby-cream-50g",
-    "price": 109.0,
+    "price": 109,
     "image": "/images/products/chicco-baby-cream-50g.jpg",
     "stock": 5,
     "description": "Chicco Baby Cream 50G - Fresh dairy or refrigerated item.",
@@ -2083,13 +2231,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 959
+    "rank": 959,
+    "name": "Chicco Baby Cream 50G"
   },
   {
     "id": 974,
     "title": "Chicco Baby Rich Cream",
     "slug": "chicco-baby-rich-cream",
-    "price": 379.0,
+    "price": 379,
     "image": "/images/products/chicco-baby-rich-cream.jpg",
     "stock": 3,
     "description": "Chicco Baby Rich Cream - Fresh dairy or refrigerated item.",
@@ -2097,13 +2246,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 974
+    "rank": 974,
+    "name": "Chicco Baby Rich Cream"
   },
   {
     "id": 1015,
     "title": "Classic Connect 20S",
     "slug": "classic-connect-20s",
-    "price": 300.0,
+    "price": 300,
     "image": "/images/products/classic-connect-20s.jpg",
     "stock": 25,
     "description": "Classic Connect 20S - Fresh dairy or refrigerated item.",
@@ -2111,13 +2261,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 1015
+    "rank": 1015,
+    "name": "Classic Connect 20S"
   },
   {
     "id": 1016,
     "title": "Classic Double Brust 20S",
     "slug": "classic-double-brust-20s",
-    "price": 340.0,
+    "price": 340,
     "image": "/images/products/classic-double-brust-20s.jpg",
     "stock": 10,
     "description": "Classic Double Brust 20S - Fresh dairy or refrigerated item.",
@@ -2125,13 +2276,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 1016
+    "rank": 1016,
+    "name": "Classic Double Brust 20S"
   },
   {
     "id": 1017,
     "title": "Classic Ice Brust 20S",
     "slug": "classic-ice-brust-20s",
-    "price": 340.0,
+    "price": 340,
     "image": "/images/products/classic-ice-brust-20s.jpg",
     "stock": 9,
     "description": "Classic Ice Brust 20S - Fresh dairy or refrigerated item.",
@@ -2139,13 +2291,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 1017
+    "rank": 1017,
+    "name": "Classic Ice Brust 20S"
   },
   {
     "id": 1018,
     "title": "Classic Mild 20S",
     "slug": "classic-mild-20s",
-    "price": 340.0,
+    "price": 340,
     "image": "/images/products/classic-mild-20s.jpg",
     "stock": 18,
     "description": "Classic Mild 20S - Fresh dairy or refrigerated item.",
@@ -2153,13 +2306,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 1018
+    "rank": 1018,
+    "name": "Classic Mild 20S"
   },
   {
     "id": 1019,
     "title": "Classic Regular 20S",
     "slug": "classic-regular-20s",
-    "price": 340.0,
+    "price": 340,
     "image": "/images/products/classic-regular-20s.jpg",
     "stock": 9,
     "description": "Classic Regular 20S - Fresh dairy or refrigerated item.",
@@ -2167,13 +2321,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 1019
+    "rank": 1019,
+    "name": "Classic Regular 20S"
   },
   {
     "id": 1020,
     "title": "Classic Rich Taste 10P",
     "slug": "classic-rich-taste-10p",
-    "price": 170.0,
+    "price": 170,
     "image": "/images/products/classic-rich-taste-10p.jpg",
     "stock": 19,
     "description": "Classic Rich Taste 10P - Fresh dairy or refrigerated item.",
@@ -2181,13 +2336,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 1020
+    "rank": 1020,
+    "name": "Classic Rich Taste 10P"
   },
   {
     "id": 1021,
     "title": "Classic Ultra Mild 20S",
     "slug": "classic-ultra-mild-20s",
-    "price": 340.0,
+    "price": 340,
     "image": "/images/products/classic-ultra-mild-20s.jpg",
     "stock": 20,
     "description": "Classic Ultra Mild 20S - Fresh dairy or refrigerated item.",
@@ -2195,13 +2351,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 1021
+    "rank": 1021,
+    "name": "Classic Ultra Mild 20S"
   },
   {
     "id": 1022,
     "title": "Classic Verve Low Smell",
     "slug": "classic-verve-low-smell",
-    "price": 190.0,
+    "price": 190,
     "image": "/images/products/classic-verve-low-smell.jpg",
     "stock": 10,
     "description": "Classic Verve Low Smell - Fresh dairy or refrigerated item.",
@@ -2209,13 +2366,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 1022
+    "rank": 1022,
+    "name": "Classic Verve Low Smell"
   },
   {
     "id": 1038,
     "title": "Coco Coconut Milk Drink",
     "slug": "coco-coconut-milk-drink",
-    "price": 125.0,
+    "price": 125,
     "image": "/images/products/coco-coconut-milk-drink.jpg",
     "stock": 22,
     "description": "Coco Coconut Milk Drink - Fresh dairy or refrigerated item.",
@@ -2223,13 +2381,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 1038
+    "rank": 1038,
+    "name": "Coco Coconut Milk Drink"
   },
   {
     "id": 1040,
     "title": "Coconut Cream 400Ml",
     "slug": "coconut-cream-400ml",
-    "price": 250.0,
+    "price": 250,
     "image": "/images/products/coconut-cream-400ml.jpg",
     "stock": 6,
     "description": "Coconut Cream 400Ml - Fresh dairy or refrigerated item.",
@@ -2237,13 +2396,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 1040
+    "rank": 1040,
+    "name": "Coconut Cream 400Ml"
   },
   {
     "id": 1109,
     "title": "Colorbar Bb Cream",
     "slug": "colorbar-bb-cream",
-    "price": 650.0,
+    "price": 650,
     "image": "/images/products/colorbar-bb-cream.jpg",
     "stock": 8,
     "description": "Colorbar Bb Cream - Fresh dairy or refrigerated item.",
@@ -2251,13 +2411,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 1109
+    "rank": 1109,
+    "name": "Colorbar Bb Cream"
   },
   {
     "id": 1206,
     "title": "D&K Pomegranate Eye Cream 20Ml",
     "slug": "dk-pomegranate-eye-cream-20ml",
-    "price": 495.0,
+    "price": 495,
     "image": "/images/products/dk-pomegranate-eye-cream-20ml.jpg",
     "stock": 1,
     "description": "D&K Pomegranate Eye Cream 20Ml - Fresh dairy or refrigerated item.",
@@ -2265,13 +2426,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 1206
+    "rank": 1206,
+    "name": "D&K Pomegranate Eye Cream 20Ml"
   },
   {
     "id": 1208,
     "title": "D&K Pomegranate Retinol Night Cream",
     "slug": "dk-pomegranate-retinol-night-cream",
-    "price": 695.0,
+    "price": 695,
     "image": "/images/products/dk-pomegranate-retinol-night-cream.jpg",
     "stock": 2,
     "description": "D&K Pomegranate Retinol Night Cream - Fresh dairy or refrigerated item.",
@@ -2279,13 +2441,14 @@ const products = [
     "unit": "pcs",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 1208
+    "rank": 1208,
+    "name": "D&K Pomegranate Retinol Night Cream"
   },
   {
     "id": 1212,
     "title": "D&K Strawberry Dew Strobe Cream",
     "slug": "dk-strawberry-dew-strobe-cream",
-    "price": 345.0,
+    "price": 345,
     "image": "/images/products/dk-strawberry-dew-strobe-cream.jpg",
     "stock": 2,
     "description": "D&K Strawberry Dew Strobe Cream - Fresh dairy or refrigerated item.",
@@ -2293,13 +2456,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 1212
+    "rank": 1212,
+    "name": "D&K Strawberry Dew Strobe Cream"
   },
   {
     "id": 1219,
     "title": "D&K Vitamin C+E Strobe Cream",
     "slug": "dk-vitamin-ce-strobe-cream",
-    "price": 345.0,
+    "price": 345,
     "image": "/images/products/dk-vitamin-ce-strobe-cream.jpg",
     "stock": 2,
     "description": "D&K Vitamin C+E Strobe Cream - Fresh dairy or refrigerated item.",
@@ -2307,13 +2471,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 1219
+    "rank": 1219,
+    "name": "D&K Vitamin C+E Strobe Cream"
   },
   {
     "id": 1220,
     "title": "D&K Watermelon\u0002Strobe Cream 30Ml",
     "slug": "dk-watermelonstrobe-cream-30ml",
-    "price": 345.0,
+    "price": 345,
     "image": "/images/products/dk-watermelonstrobe-cream-30ml.jpg",
     "stock": 1,
     "description": "D&K Watermelon\u0002Strobe Cream 30Ml - Fresh dairy or refrigerated item.",
@@ -2321,13 +2486,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 1220
+    "rank": 1220,
+    "name": "D&K Watermelon\u0002Strobe Cream 30Ml"
   },
   {
     "id": 1234,
     "title": "Dairy Craft Cream Chesse",
     "slug": "dairy-craft-cream-chesse",
-    "price": 260.0,
+    "price": 260,
     "image": "/images/products/dairy-craft-cream-chesse.jpg",
     "stock": 3,
     "description": "Dairy Craft Cream Chesse - Fresh dairy or refrigerated item.",
@@ -2335,13 +2501,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 1234
+    "rank": 1234,
+    "name": "Dairy Craft Cream Chesse"
   },
   {
     "id": 1260,
     "title": "Dehradun Ghee 1Kg",
     "slug": "dehradun-ghee-1kg",
-    "price": 1199.0,
+    "price": 1199,
     "image": "/images/products/dehradun-ghee-1kg.jpg",
     "stock": 6,
     "description": "Dehradun Ghee 1Kg - Fresh dairy or refrigerated item.",
@@ -2349,13 +2516,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 1260
+    "rank": 1260,
+    "name": "Dehradun Ghee 1Kg"
   },
   {
     "id": 1266,
     "title": "Delmonte Classic Olive Oil 100Ml",
     "slug": "delmonte-classic-olive-oil-100ml",
-    "price": 210.0,
+    "price": 210,
     "image": "/images/products/delmonte-classic-olive-oil-100ml.jpg",
     "stock": 3,
     "description": "Delmonte Classic Olive Oil 100Ml - Fresh dairy or refrigerated item.",
@@ -2363,13 +2531,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 1266
+    "rank": 1266,
+    "name": "Delmonte Classic Olive Oil 100Ml"
   },
   {
     "id": 1267,
     "title": "Delmonte Classic Olive Oil 1L",
     "slug": "delmonte-classic-olive-oil-1l",
-    "price": 2159.0,
+    "price": 2159,
     "image": "/images/products/delmonte-classic-olive-oil-1l.jpg",
     "stock": 2,
     "description": "Delmonte Classic Olive Oil 1L - Fresh dairy or refrigerated item.",
@@ -2377,13 +2546,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 1267
+    "rank": 1267,
+    "name": "Delmonte Classic Olive Oil 1L"
   },
   {
     "id": 1301,
     "title": "Delmonte Tomato Ketchup Classic 450G",
     "slug": "delmonte-tomato-ketchup-classic-450g",
-    "price": 55.0,
+    "price": 55,
     "image": "/images/products/delmonte-tomato-ketchup-classic-450g.jpg",
     "stock": 2,
     "description": "Delmonte Tomato Ketchup Classic 450G - Fresh dairy or refrigerated item.",
@@ -2391,13 +2561,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 1301
+    "rank": 1301,
+    "name": "Delmonte Tomato Ketchup Classic 450G"
   },
   {
     "id": 1302,
     "title": "Delmonte Tomato Ketchup Classic 900Gm",
     "slug": "delmonte-tomato-ketchup-classic-900gm",
-    "price": 130.0,
+    "price": 130,
     "image": "/images/products/delmonte-tomato-ketchup-classic-900gm.jpg",
     "stock": 3,
     "description": "Delmonte Tomato Ketchup Classic 900Gm - Fresh dairy or refrigerated item.",
@@ -2405,13 +2576,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 1302
+    "rank": 1302,
+    "name": "Delmonte Tomato Ketchup Classic 900Gm"
   },
   {
     "id": 1338,
     "title": "Dettol Shaving Cream 78G",
     "slug": "dettol-shaving-cream-78g",
-    "price": 93.0,
+    "price": 93,
     "image": "/images/products/dettol-shaving-cream-78g.jpg",
     "stock": 3,
     "description": "Dettol Shaving Cream 78G - Fresh dairy or refrigerated item.",
@@ -2419,13 +2591,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 1338
+    "rank": 1338,
+    "name": "Dettol Shaving Cream 78G"
   },
   {
     "id": 1378,
     "title": "Disano Peanut Butter 350G",
     "slug": "disano-peanut-butter-350g",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/disano-peanut-butter-350g.jpg",
     "stock": 5,
     "description": "Disano Peanut Butter 350G - Fresh dairy or refrigerated item.",
@@ -2433,13 +2606,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 1378
+    "rank": 1378,
+    "name": "Disano Peanut Butter 350G"
   },
   {
     "id": 1428,
     "title": "Dove Cream Bar 100Gm",
     "slug": "dove-cream-bar-100gm",
-    "price": 63.0,
+    "price": 63,
     "image": "/images/products/dove-cream-bar-100gm.jpg",
     "stock": 6,
     "description": "Dove Cream Bar 100Gm - Fresh dairy or refrigerated item.",
@@ -2447,13 +2621,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 1428
+    "rank": 1428,
+    "name": "Dove Cream Bar 100Gm"
   },
   {
     "id": 1429,
     "title": "Dove Cream Bar 3X75Gm",
     "slug": "dove-cream-bar-3x75gm",
-    "price": 155.0,
+    "price": 155,
     "image": "/images/products/dove-cream-bar-3x75gm.jpg",
     "stock": 4,
     "description": "Dove Cream Bar 3X75Gm - Fresh dairy or refrigerated item.",
@@ -2461,13 +2636,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 1429
+    "rank": 1429,
+    "name": "Dove Cream Bar 3X75Gm"
   },
   {
     "id": 1430,
     "title": "Dove Cream Bar 50Gm",
     "slug": "dove-cream-bar-50gm",
-    "price": 25.0,
+    "price": 25,
     "image": "/images/products/dove-cream-bar-50gm.jpg",
     "stock": 5,
     "description": "Dove Cream Bar 50Gm - Fresh dairy or refrigerated item.",
@@ -2475,13 +2651,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 1430
+    "rank": 1430,
+    "name": "Dove Cream Bar 50Gm"
   },
   {
     "id": 1431,
     "title": "Dove Cream Bar 75G",
     "slug": "dove-cream-bar-75g",
-    "price": 45.0,
+    "price": 45,
     "image": "/images/products/dove-cream-bar-75g.jpg",
     "stock": 6,
     "description": "Dove Cream Bar 75G - Fresh dairy or refrigerated item.",
@@ -2489,13 +2666,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 1431
+    "rank": 1431,
+    "name": "Dove Cream Bar 75G"
   },
   {
     "id": 1451,
     "title": "Dr.Oetker Peanut Butter Creamy 375Ml",
     "slug": "droetker-peanut-butter-creamy-375ml",
-    "price": 139.0,
+    "price": 139,
     "image": "/images/products/droetker-peanut-butter-creamy-375ml.jpg",
     "stock": 3,
     "description": "Dr.Oetker Peanut Butter Creamy 375Ml - Fresh dairy or refrigerated item.",
@@ -2503,13 +2681,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 1451
+    "rank": 1451,
+    "name": "Dr.Oetker Peanut Butter Creamy 375Ml"
   },
   {
     "id": 1452,
     "title": "Dr.Oetker Peanut Butter Creamy 750Ml",
     "slug": "droetker-peanut-butter-creamy-750ml",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/droetker-peanut-butter-creamy-750ml.jpg",
     "stock": 2,
     "description": "Dr.Oetker Peanut Butter Creamy 750Ml - Fresh dairy or refrigerated item.",
@@ -2517,13 +2696,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 1452
+    "rank": 1452,
+    "name": "Dr.Oetker Peanut Butter Creamy 750Ml"
   },
   {
     "id": 1453,
     "title": "Dr.Oetker Peanut Butter Crunchy 375Ml",
     "slug": "droetker-peanut-butter-crunchy-375ml",
-    "price": 139.0,
+    "price": 139,
     "image": "/images/products/droetker-peanut-butter-crunchy-375ml.jpg",
     "stock": 3,
     "description": "Dr.Oetker Peanut Butter Crunchy 375Ml - Fresh dairy or refrigerated item.",
@@ -2531,13 +2711,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 1453
+    "rank": 1453,
+    "name": "Dr.Oetker Peanut Butter Crunchy 375Ml"
   },
   {
     "id": 1454,
     "title": "Dr.Oetker Peanut Butter Crunchy 750Ml",
     "slug": "droetker-peanut-butter-crunchy-750ml",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/droetker-peanut-butter-crunchy-750ml.jpg",
     "stock": 2,
     "description": "Dr.Oetker Peanut Butter Crunchy 750Ml - Fresh dairy or refrigerated item.",
@@ -2545,13 +2726,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 1454
+    "rank": 1454,
+    "name": "Dr.Oetker Peanut Butter Crunchy 750Ml"
   },
   {
     "id": 1456,
     "title": "Dr.Oetker Sandwich Sp Cheese & Chillies 250Gm",
     "slug": "droetker-sandwich-sp-cheese-chillies-250gm",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/droetker-sandwich-sp-cheese-chillies-250gm.jpg",
     "stock": 3,
     "description": "Dr.Oetker Sandwich Sp Cheese & Chillies 250Gm - Fresh dairy or refrigerated item.",
@@ -2559,13 +2741,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 1456
+    "rank": 1456,
+    "name": "Dr.Oetker Sandwich Sp Cheese & Chillies 250Gm"
   },
   {
     "id": 1515,
     "title": "Dubblin Milk&Cookies Mug 350Ml",
     "slug": "dubblin-milkcookies-mug-350ml",
-    "price": 469.0,
+    "price": 469,
     "image": "/images/products/dubblin-milkcookies-mug-350ml.jpg",
     "stock": 4,
     "description": "Dubblin Milk&Cookies Mug 350Ml - Fresh dairy or refrigerated item.",
@@ -2573,13 +2756,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 1515
+    "rank": 1515,
+    "name": "Dubblin Milk&Cookies Mug 350Ml"
   },
   {
     "id": 1555,
     "title": "English Oven Milk Bread",
     "slug": "english-oven-milk-bread",
-    "price": 50.0,
+    "price": 50,
     "image": "/images/products/english-oven-milk-bread.jpg",
     "stock": 2,
     "description": "English Oven Milk Bread - Fresh dairy or refrigerated item.",
@@ -2587,13 +2771,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 1555
+    "rank": 1555,
+    "name": "English Oven Milk Bread"
   },
   {
     "id": 1573,
     "title": "Epigamia Natural Yogurt 400G",
     "slug": "epigamia-natural-yogurt-400g",
-    "price": 250.0,
+    "price": 250,
     "image": "/images/products/epigamia-natural-yogurt-400g.jpg",
     "stock": 2,
     "description": "Epigamia Natural Yogurt 400G - Fresh dairy or refrigerated item.",
@@ -2601,13 +2786,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 1573
+    "rank": 1573,
+    "name": "Epigamia Natural Yogurt 400G"
   },
   {
     "id": 1576,
     "title": "Epigamia Tp Shake Cookies&Cream",
     "slug": "epigamia-tp-shake-cookiescream",
-    "price": 150.0,
+    "price": 150,
     "image": "/images/products/epigamia-tp-shake-cookiescream.jpg",
     "stock": 6,
     "description": "Epigamia Tp Shake Cookies&Cream - Fresh dairy or refrigerated item.",
@@ -2615,13 +2801,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 1576
+    "rank": 1576,
+    "name": "Epigamia Tp Shake Cookies&Cream"
   },
   {
     "id": 1591,
     "title": "F&H Bright Cream 60G",
     "slug": "fh-bright-cream-60g",
-    "price": 175.0,
+    "price": 175,
     "image": "/images/products/fh-bright-cream-60g.jpg",
     "stock": 1,
     "description": "F&H Bright Cream 60G - Fresh dairy or refrigerated item.",
@@ -2629,13 +2816,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 1591
+    "rank": 1591,
+    "name": "F&H Bright Cream 60G"
   },
   {
     "id": 1597,
     "title": "Fair&Lovely Advance Cream 110G",
     "slug": "fairlovely-advance-cream-110g",
-    "price": 325.0,
+    "price": 325,
     "image": "/images/products/fairlovely-advance-cream-110g.jpg",
     "stock": 3,
     "description": "Fair&Lovely Advance Cream 110G - Fresh dairy or refrigerated item.",
@@ -2643,13 +2831,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 1597
+    "rank": 1597,
+    "name": "Fair&Lovely Advance Cream 110G"
   },
   {
     "id": 1680,
     "title": "Fit&Flex Oats Peanut Butter",
     "slug": "fitflex-oats-peanut-butter",
-    "price": 250.0,
+    "price": 250,
     "image": "/images/products/fitflex-oats-peanut-butter.jpg",
     "stock": 5,
     "description": "Fit&Flex Oats Peanut Butter - Fresh dairy or refrigerated item.",
@@ -2657,13 +2846,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 1680
+    "rank": 1680,
+    "name": "Fit&Flex Oats Peanut Butter"
   },
   {
     "id": 1682,
     "title": "Fit&Flex Protin Puffs Cream&Onion",
     "slug": "fitflex-protin-puffs-creamonion",
-    "price": 50.0,
+    "price": 50,
     "image": "/images/products/fitflex-protin-puffs-creamonion.jpg",
     "stock": 4,
     "description": "Fit&Flex Protin Puffs Cream&Onion - Fresh dairy or refrigerated item.",
@@ -2671,13 +2861,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 1682
+    "rank": 1682,
+    "name": "Fit&Flex Protin Puffs Cream&Onion"
   },
   {
     "id": 1761,
     "title": "Galaxy Smooth Milk 110G",
     "slug": "galaxy-smooth-milk-110g",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/galaxy-smooth-milk-110g.jpg",
     "stock": 9,
     "description": "Galaxy Smooth Milk 110G - Fresh dairy or refrigerated item.",
@@ -2685,13 +2876,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 1761
+    "rank": 1761,
+    "name": "Galaxy Smooth Milk 110G"
   },
   {
     "id": 1802,
     "title": "Garnier Wrinkle Cream 40G",
     "slug": "garnier-wrinkle-cream-40g",
-    "price": 329.0,
+    "price": 329,
     "image": "/images/products/garnier-wrinkle-cream-40g.jpg",
     "stock": 3,
     "description": "Garnier Wrinkle Cream 40G - Fresh dairy or refrigerated item.",
@@ -2699,13 +2891,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 1802
+    "rank": 1802,
+    "name": "Garnier Wrinkle Cream 40G"
   },
   {
     "id": 1807,
     "title": "Giani Butter Scotch 125Ml",
     "slug": "giani-butter-scotch-125ml",
-    "price": 65.0,
+    "price": 65,
     "image": "/images/products/giani-butter-scotch-125ml.jpg",
     "stock": 10,
     "description": "Giani Butter Scotch 125Ml - Fresh dairy or refrigerated item.",
@@ -2713,13 +2906,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 1807
+    "rank": 1807,
+    "name": "Giani Butter Scotch 125Ml"
   },
   {
     "id": 1823,
     "title": "Gianis Cookies & Cream 1L",
     "slug": "gianis-cookies-cream-1l",
-    "price": 460.0,
+    "price": 460,
     "image": "/images/products/gianis-cookies-cream-1l.jpg",
     "stock": 2,
     "description": "Gianis Cookies & Cream 1L - Fresh dairy or refrigerated item.",
@@ -2727,13 +2921,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 1823
+    "rank": 1823,
+    "name": "Gianis Cookies & Cream 1L"
   },
   {
     "id": 1844,
     "title": "Gillette Cream Regular 30Gm",
     "slug": "gillette-cream-regular-30gm",
-    "price": 40.0,
+    "price": 40,
     "image": "/images/products/gillette-cream-regular-30gm.jpg",
     "stock": -1,
     "description": "Gillette Cream Regular 30Gm - Fresh dairy or refrigerated item.",
@@ -2741,13 +2936,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 1844
+    "rank": 1844,
+    "name": "Gillette Cream Regular 30Gm"
   },
   {
     "id": 1865,
     "title": "Gillette Guard Cream 125Gm",
     "slug": "gillette-guard-cream-125gm",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/gillette-guard-cream-125gm.jpg",
     "stock": 2,
     "description": "Gillette Guard Cream 125Gm - Fresh dairy or refrigerated item.",
@@ -2755,13 +2951,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 1865
+    "rank": 1865,
+    "name": "Gillette Guard Cream 125Gm"
   },
   {
     "id": 1866,
     "title": "Gillette Guard Cream 25Gm",
     "slug": "gillette-guard-cream-25gm",
-    "price": 29.0,
+    "price": 29,
     "image": "/images/products/gillette-guard-cream-25gm.jpg",
     "stock": 2,
     "description": "Gillette Guard Cream 25Gm - Fresh dairy or refrigerated item.",
@@ -2769,13 +2966,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 1866
+    "rank": 1866,
+    "name": "Gillette Guard Cream 25Gm"
   },
   {
     "id": 1873,
     "title": "Gillette Lime Cream 30Gm",
     "slug": "gillette-lime-cream-30gm",
-    "price": 40.0,
+    "price": 40,
     "image": "/images/products/gillette-lime-cream-30gm.jpg",
     "stock": 4,
     "description": "Gillette Lime Cream 30Gm - Fresh dairy or refrigerated item.",
@@ -2783,13 +2981,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 1873
+    "rank": 1873,
+    "name": "Gillette Lime Cream 30Gm"
   },
   {
     "id": 1874,
     "title": "Gillette Lime Cream 70Gm",
     "slug": "gillette-lime-cream-70gm",
-    "price": 75.0,
+    "price": 75,
     "image": "/images/products/gillette-lime-cream-70gm.jpg",
     "stock": 3,
     "description": "Gillette Lime Cream 70Gm - Fresh dairy or refrigerated item.",
@@ -2797,13 +2996,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 1874
+    "rank": 1874,
+    "name": "Gillette Lime Cream 70Gm"
   },
   {
     "id": 1885,
     "title": "Gillette Shaving Cream 60G",
     "slug": "gillette-shaving-cream-60g",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/gillette-shaving-cream-60g.jpg",
     "stock": 2,
     "description": "Gillette Shaving Cream 60G - Fresh dairy or refrigerated item.",
@@ -2811,13 +3011,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 1885
+    "rank": 1885,
+    "name": "Gillette Shaving Cream 60G"
   },
   {
     "id": 1908,
     "title": "Glow&Lovely Ayurvedic Care Cream",
     "slug": "glowlovely-ayurvedic-care-cream",
-    "price": 88.0,
+    "price": 88,
     "image": "/images/products/glowlovely-ayurvedic-care-cream.jpg",
     "stock": 2,
     "description": "Glow&Lovely Ayurvedic Care Cream - Fresh dairy or refrigerated item.",
@@ -2825,13 +3026,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 1908
+    "rank": 1908,
+    "name": "Glow&Lovely Ayurvedic Care Cream"
   },
   {
     "id": 1909,
     "title": "Glow&Lovely Ayurvedic Cream 50G",
     "slug": "glowlovely-ayurvedic-cream-50g",
-    "price": 165.0,
+    "price": 165,
     "image": "/images/products/glowlovely-ayurvedic-cream-50g.jpg",
     "stock": 2,
     "description": "Glow&Lovely Ayurvedic Cream 50G - Fresh dairy or refrigerated item.",
@@ -2839,13 +3041,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 1909
+    "rank": 1909,
+    "name": "Glow&Lovely Ayurvedic Cream 50G"
   },
   {
     "id": 1910,
     "title": "Glow&Lovely Bb Cream",
     "slug": "glowlovely-bb-cream",
-    "price": 115.0,
+    "price": 115,
     "image": "/images/products/glowlovely-bb-cream.jpg",
     "stock": 4,
     "description": "Glow&Lovely Bb Cream - Fresh dairy or refrigerated item.",
@@ -2853,13 +3056,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 1910
+    "rank": 1910,
+    "name": "Glow&Lovely Bb Cream"
   },
   {
     "id": 1911,
     "title": "Glow&Lovely Bb Cream 01",
     "slug": "glowlovely-bb-cream-01",
-    "price": 220.0,
+    "price": 220,
     "image": "/images/products/glowlovely-bb-cream-01.jpg",
     "stock": 1,
     "description": "Glow&Lovely Bb Cream 01 - Fresh dairy or refrigerated item.",
@@ -2867,13 +3071,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 1911
+    "rank": 1911,
+    "name": "Glow&Lovely Bb Cream 01"
   },
   {
     "id": 1914,
     "title": "Glow&Lovely Cream Bb 01",
     "slug": "glowlovely-cream-bb-01",
-    "price": 54.0,
+    "price": 54,
     "image": "/images/products/glowlovely-cream-bb-01.jpg",
     "stock": 1,
     "description": "Glow&Lovely Cream Bb 01 - Fresh dairy or refrigerated item.",
@@ -2881,13 +3086,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 1914
+    "rank": 1914,
+    "name": "Glow&Lovely Cream Bb 01"
   },
   {
     "id": 1918,
     "title": "Glow&Lovely Man Cream 25G",
     "slug": "glowlovely-man-cream-25g",
-    "price": 90.0,
+    "price": 90,
     "image": "/images/products/glowlovely-man-cream-25g.jpg",
     "stock": 3,
     "description": "Glow&Lovely Man Cream 25G - Fresh dairy or refrigerated item.",
@@ -2895,13 +3101,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 1918
+    "rank": 1918,
+    "name": "Glow&Lovely Man Cream 25G"
   },
   {
     "id": 1919,
     "title": "Glow&Lovely Man Cream 50G",
     "slug": "glowlovely-man-cream-50g",
-    "price": 175.0,
+    "price": 175,
     "image": "/images/products/glowlovely-man-cream-50g.jpg",
     "stock": 4,
     "description": "Glow&Lovely Man Cream 50G - Fresh dairy or refrigerated item.",
@@ -2909,13 +3116,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 1919
+    "rank": 1919,
+    "name": "Glow&Lovely Man Cream 50G"
   },
   {
     "id": 1920,
     "title": "Glow&Lovely Mv Cream 25G",
     "slug": "glowlovely-mv-cream-25g",
-    "price": 68.0,
+    "price": 68,
     "image": "/images/products/glowlovely-mv-cream-25g.jpg",
     "stock": 6,
     "description": "Glow&Lovely Mv Cream 25G - Fresh dairy or refrigerated item.",
@@ -2923,13 +3131,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 1920
+    "rank": 1920,
+    "name": "Glow&Lovely Mv Cream 25G"
   },
   {
     "id": 1921,
     "title": "Glow&Lovely Mv Cream 50G",
     "slug": "glowlovely-mv-cream-50g",
-    "price": 130.0,
+    "price": 130,
     "image": "/images/products/glowlovely-mv-cream-50g.jpg",
     "stock": 2,
     "description": "Glow&Lovely Mv Cream 50G - Fresh dairy or refrigerated item.",
@@ -2937,13 +3146,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 1921
+    "rank": 1921,
+    "name": "Glow&Lovely Mv Cream 50G"
   },
   {
     "id": 1922,
     "title": "Glow&Lovely Mv Cream 80G",
     "slug": "glowlovely-mv-cream-80g",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/glowlovely-mv-cream-80g.jpg",
     "stock": 3,
     "description": "Glow&Lovely Mv Cream 80G - Fresh dairy or refrigerated item.",
@@ -2951,13 +3161,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 1922
+    "rank": 1922,
+    "name": "Glow&Lovely Mv Cream 80G"
   },
   {
     "id": 1952,
     "title": "Godrej Rich Creame 20G",
     "slug": "godrej-rich-creame-20g",
-    "price": 37.0,
+    "price": 37,
     "image": "/images/products/godrej-rich-creame-20g.jpg",
     "stock": 28,
     "description": "Godrej Rich Creame 20G - Fresh dairy or refrigerated item.",
@@ -2965,13 +3176,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 1952
+    "rank": 1952,
+    "name": "Godrej Rich Creame 20G"
   },
   {
     "id": 2235,
     "title": "Hershey'S Coookies N Cream Chocolate",
     "slug": "hersheys-coookies-n-cream-chocolate",
-    "price": 150.0,
+    "price": 150,
     "image": "/images/products/hersheys-coookies-n-cream-chocolate.jpg",
     "stock": 4,
     "description": "Hershey'S Coookies N Cream Chocolate - Fresh dairy or refrigerated item.",
@@ -2979,13 +3191,14 @@ const products = [
     "unit": "6942",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 2235
+    "rank": 2235,
+    "name": "Hershey'S Coookies N Cream Chocolate"
   },
   {
     "id": 2236,
     "title": "Hershey'S Creamy Milk Chocolate",
     "slug": "hersheys-creamy-milk-chocolate",
-    "price": 140.0,
+    "price": 140,
     "image": "/images/products/hersheys-creamy-milk-chocolate.jpg",
     "stock": 7,
     "description": "Hershey'S Creamy Milk Chocolate - Fresh dairy or refrigerated item.",
@@ -2993,13 +3206,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 2236
+    "rank": 2236,
+    "name": "Hershey'S Creamy Milk Chocolate"
   },
   {
     "id": 2247,
     "title": "Hf Organic A2 Cow Ghee 500Ml",
     "slug": "hf-organic-a2-cow-ghee-500ml",
-    "price": 1425.0,
+    "price": 1425,
     "image": "/images/products/hf-organic-a2-cow-ghee-500ml.jpg",
     "stock": 3,
     "description": "Hf Organic A2 Cow Ghee 500Ml - Fresh dairy or refrigerated item.",
@@ -3007,13 +3221,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 2247
+    "rank": 2247,
+    "name": "Hf Organic A2 Cow Ghee 500Ml"
   },
   {
     "id": 2261,
     "title": "Himalaya Anti Dandruff Hair Cream",
     "slug": "himalaya-anti-dandruff-hair-cream",
-    "price": 100.0,
+    "price": 100,
     "image": "/images/products/himalaya-anti-dandruff-hair-cream.jpg",
     "stock": 3,
     "description": "Himalaya Anti Dandruff Hair Cream - Fresh dairy or refrigerated item.",
@@ -3021,13 +3236,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 2261
+    "rank": 2261,
+    "name": "Himalaya Anti Dandruff Hair Cream"
   },
   {
     "id": 2263,
     "title": "Himalaya Anti Hair Fall Cream",
     "slug": "himalaya-anti-hair-fall-cream",
-    "price": 100.0,
+    "price": 100,
     "image": "/images/products/himalaya-anti-hair-fall-cream.jpg",
     "stock": 3,
     "description": "Himalaya Anti Hair Fall Cream - Fresh dairy or refrigerated item.",
@@ -3035,13 +3251,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 2263
+    "rank": 2263,
+    "name": "Himalaya Anti Hair Fall Cream"
   },
   {
     "id": 2266,
     "title": "Himalaya Footcare Cream",
     "slug": "himalaya-footcare-cream",
-    "price": 140.0,
+    "price": 140,
     "image": "/images/products/himalaya-footcare-cream.jpg",
     "stock": 3,
     "description": "Himalaya Footcare Cream - Fresh dairy or refrigerated item.",
@@ -3049,13 +3266,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 2266
+    "rank": 2266,
+    "name": "Himalaya Footcare Cream"
   },
   {
     "id": 2272,
     "title": "Himalaya Protein Hari Cream",
     "slug": "himalaya-protein-hari-cream",
-    "price": 100.0,
+    "price": 100,
     "image": "/images/products/himalaya-protein-hari-cream.jpg",
     "stock": 3,
     "description": "Himalaya Protein Hari Cream - Fresh dairy or refrigerated item.",
@@ -3063,13 +3281,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 2272
+    "rank": 2272,
+    "name": "Himalaya Protein Hari Cream"
   },
   {
     "id": 2293,
     "title": "Hitkari Butterscotch Syrup 700Ml",
     "slug": "hitkari-butterscotch-syrup-700ml",
-    "price": 205.0,
+    "price": 205,
     "image": "/images/products/hitkari-butterscotch-syrup-700ml.jpg",
     "stock": 3,
     "description": "Hitkari Butterscotch Syrup 700Ml - Fresh dairy or refrigerated item.",
@@ -3077,13 +3296,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 2293
+    "rank": 2293,
+    "name": "Hitkari Butterscotch Syrup 700Ml"
   },
   {
     "id": 2386,
     "title": "India Gate Classic Rice 1Kg",
     "slug": "india-gate-classic-rice-1kg",
-    "price": 252.0,
+    "price": 252,
     "image": "/images/products/india-gate-classic-rice-1kg.jpg",
     "stock": 4,
     "description": "India Gate Classic Rice 1Kg - Fresh dairy or refrigerated item.",
@@ -3091,13 +3311,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 2386
+    "rank": 2386,
+    "name": "India Gate Classic Rice 1Kg"
   },
   {
     "id": 2387,
     "title": "India Gate Classic Rice 5Kg",
     "slug": "india-gate-classic-rice-5kg",
-    "price": 1255.0,
+    "price": 1255,
     "image": "/images/products/india-gate-classic-rice-5kg.jpg",
     "stock": 3,
     "description": "India Gate Classic Rice 5Kg - Fresh dairy or refrigerated item.",
@@ -3105,13 +3326,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 2387
+    "rank": 2387,
+    "name": "India Gate Classic Rice 5Kg"
   },
   {
     "id": 2430,
     "title": "Itc Classic Aloo Tikki 480G",
     "slug": "itc-classic-aloo-tikki-480g",
-    "price": 135.0,
+    "price": 135,
     "image": "/images/products/itc-classic-aloo-tikki-480g.jpg",
     "stock": 5,
     "description": "Itc Classic Aloo Tikki 480G - Fresh dairy or refrigerated item.",
@@ -3119,13 +3341,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 2430
+    "rank": 2430,
+    "name": "Itc Classic Aloo Tikki 480G"
   },
   {
     "id": 2454,
     "title": "Jabsons Classic Peanuts 150G",
     "slug": "jabsons-classic-peanuts-150g",
-    "price": 80.0,
+    "price": 80,
     "image": "/images/products/jabsons-classic-peanuts-150g.jpg",
     "stock": 2,
     "description": "Jabsons Classic Peanuts 150G - Fresh dairy or refrigerated item.",
@@ -3133,13 +3356,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 2454
+    "rank": 2454,
+    "name": "Jabsons Classic Peanuts 150G"
   },
   {
     "id": 2662,
     "title": "Johnson'S Baby Cream 100G",
     "slug": "johnsons-baby-cream-100g",
-    "price": 190.0,
+    "price": 190,
     "image": "/images/products/johnsons-baby-cream-100g.jpg",
     "stock": 3,
     "description": "Johnson'S Baby Cream 100G - Fresh dairy or refrigerated item.",
@@ -3147,13 +3371,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 2662
+    "rank": 2662,
+    "name": "Johnson'S Baby Cream 100G"
   },
   {
     "id": 2663,
     "title": "Johnson'S Baby Cream 50G",
     "slug": "johnsons-baby-cream-50g",
-    "price": 100.0,
+    "price": 100,
     "image": "/images/products/johnsons-baby-cream-50g.jpg",
     "stock": 6,
     "description": "Johnson'S Baby Cream 50G - Fresh dairy or refrigerated item.",
@@ -3161,13 +3386,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 2663
+    "rank": 2663,
+    "name": "Johnson'S Baby Cream 50G"
   },
   {
     "id": 2665,
     "title": "Johnson'S Baby Milk Soap 75G",
     "slug": "johnsons-baby-milk-soap-75g",
-    "price": 75.0,
+    "price": 75,
     "image": "/images/products/johnsons-baby-milk-soap-75g.jpg",
     "stock": 5,
     "description": "Johnson'S Baby Milk Soap 75G - Fresh dairy or refrigerated item.",
@@ -3175,13 +3401,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 2665
+    "rank": 2665,
+    "name": "Johnson'S Baby Milk Soap 75G"
   },
   {
     "id": 2666,
     "title": "Johnson'S Baby Milk+Rice Cream 100G",
     "slug": "johnsons-baby-milkrice-cream-100g",
-    "price": 200.0,
+    "price": 200,
     "image": "/images/products/johnsons-baby-milkrice-cream-100g.jpg",
     "stock": 4,
     "description": "Johnson'S Baby Milk+Rice Cream 100G - Fresh dairy or refrigerated item.",
@@ -3189,13 +3416,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 2666
+    "rank": 2666,
+    "name": "Johnson'S Baby Milk+Rice Cream 100G"
   },
   {
     "id": 2684,
     "title": "Johnson'S Milk+Rice Cream 50G",
     "slug": "johnsons-milkrice-cream-50g",
-    "price": 0.0,
+    "price": 0,
     "image": "/images/products/johnsons-milkrice-cream-50g.jpg",
     "stock": 5,
     "description": "Johnson'S Milk+Rice Cream 50G - Fresh dairy or refrigerated item.",
@@ -3203,13 +3431,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 2684
+    "rank": 2684,
+    "name": "Johnson'S Milk+Rice Cream 50G"
   },
   {
     "id": 2685,
     "title": "Johnson'S Milk+Rice Lotion 200Ml",
     "slug": "johnsons-milkrice-lotion-200ml",
-    "price": 225.0,
+    "price": 225,
     "image": "/images/products/johnsons-milkrice-lotion-200ml.jpg",
     "stock": 3,
     "description": "Johnson'S Milk+Rice Lotion 200Ml - Fresh dairy or refrigerated item.",
@@ -3217,13 +3446,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 2685
+    "rank": 2685,
+    "name": "Johnson'S Milk+Rice Lotion 200Ml"
   },
   {
     "id": 2736,
     "title": "Kapiva Desi Ghee 500Ml",
     "slug": "kapiva-desi-ghee-500ml",
-    "price": 1499.0,
+    "price": 1499,
     "image": "/images/products/kapiva-desi-ghee-500ml.jpg",
     "stock": 2,
     "description": "Kapiva Desi Ghee 500Ml - Fresh dairy or refrigerated item.",
@@ -3231,13 +3461,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 2736
+    "rank": 2736,
+    "name": "Kapiva Desi Ghee 500Ml"
   },
   {
     "id": 2743,
     "title": "Kapiva Organic Cow Ghee 1Ltr",
     "slug": "kapiva-organic-cow-ghee-1ltr",
-    "price": 1499.0,
+    "price": 1499,
     "image": "/images/products/kapiva-organic-cow-ghee-1ltr.jpg",
     "stock": 3,
     "description": "Kapiva Organic Cow Ghee 1Ltr - Fresh dairy or refrigerated item.",
@@ -3245,13 +3476,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 2743
+    "rank": 2743,
+    "name": "Kapiva Organic Cow Ghee 1Ltr"
   },
   {
     "id": 2744,
     "title": "Kapiva Organic Cow Ghee 500Ml",
     "slug": "kapiva-organic-cow-ghee-500ml",
-    "price": 799.0,
+    "price": 799,
     "image": "/images/products/kapiva-organic-cow-ghee-500ml.jpg",
     "stock": 2,
     "description": "Kapiva Organic Cow Ghee 500Ml - Fresh dairy or refrigerated item.",
@@ -3259,13 +3491,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 2744
+    "rank": 2744,
+    "name": "Kapiva Organic Cow Ghee 500Ml"
   },
   {
     "id": 2749,
     "title": "Kara Coconut Milk 200Ml",
     "slug": "kara-coconut-milk-200ml",
-    "price": 80.0,
+    "price": 80,
     "image": "/images/products/kara-coconut-milk-200ml.jpg",
     "stock": 20,
     "description": "Kara Coconut Milk 200Ml - Fresh dairy or refrigerated item.",
@@ -3273,13 +3506,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 2749
+    "rank": 2749,
+    "name": "Kara Coconut Milk 200Ml"
   },
   {
     "id": 2840,
     "title": "Kinder Creamy 19G",
     "slug": "kinder-creamy-19g",
-    "price": 30.0,
+    "price": 30,
     "image": "/images/products/kinder-creamy-19g.jpg",
     "stock": 14,
     "description": "Kinder Creamy 19G - Fresh dairy or refrigerated item.",
@@ -3287,13 +3521,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 2840
+    "rank": 2840,
+    "name": "Kinder Creamy 19G"
   },
   {
     "id": 2936,
     "title": "Kwallty Walls Butterscotch Cone",
     "slug": "kwallty-walls-butterscotch-cone",
-    "price": 45.0,
+    "price": 45,
     "image": "/images/products/kwallty-walls-butterscotch-cone.jpg",
     "stock": 13,
     "description": "Kwallty Walls Butterscotch Cone - Fresh dairy or refrigerated item.",
@@ -3301,13 +3536,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 2936
+    "rank": 2936,
+    "name": "Kwallty Walls Butterscotch Cone"
   },
   {
     "id": 2938,
     "title": "L'Orea Excellence Cream",
     "slug": "lorea-excellence-cream",
-    "price": 769.0,
+    "price": 769,
     "image": "/images/products/lorea-excellence-cream.jpg",
     "stock": 4,
     "description": "L'Orea Excellence Cream - Fresh dairy or refrigerated item.",
@@ -3315,13 +3551,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 2938
+    "rank": 2938,
+    "name": "L'Orea Excellence Cream"
   },
   {
     "id": 2946,
     "title": "L'Oreal Casting Cream 87.Gg+72Ml",
     "slug": "loreal-casting-cream-87gg72ml",
-    "price": 699.0,
+    "price": 699,
     "image": "/images/products/loreal-casting-cream-87gg72ml.jpg",
     "stock": 20,
     "description": "L'Oreal Casting Cream 87.Gg+72Ml - Fresh dairy or refrigerated item.",
@@ -3329,13 +3566,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 2946
+    "rank": 2946,
+    "name": "L'Oreal Casting Cream 87.Gg+72Ml"
   },
   {
     "id": 2947,
     "title": "L'Oreal Casting Cream 87.Gg+72Ml",
     "slug": "loreal-casting-cream-87gg72ml",
-    "price": 679.0,
+    "price": 679,
     "image": "/images/products/loreal-casting-cream-87gg72ml.jpg",
     "stock": 1,
     "description": "L'Oreal Casting Cream 87.Gg+72Ml - Fresh dairy or refrigerated item.",
@@ -3343,13 +3581,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 2947
+    "rank": 2947,
+    "name": "L'Oreal Casting Cream 87.Gg+72Ml"
   },
   {
     "id": 2948,
     "title": "L'Oreal Casting Cream Gloss 21G+24Ml",
     "slug": "loreal-casting-cream-gloss-21g24ml",
-    "price": 239.0,
+    "price": 239,
     "image": "/images/products/loreal-casting-cream-gloss-21g24ml.jpg",
     "stock": 10,
     "description": "L'Oreal Casting Cream Gloss 21G+24Ml - Fresh dairy or refrigerated item.",
@@ -3357,13 +3596,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 2948
+    "rank": 2948,
+    "name": "L'Oreal Casting Cream Gloss 21G+24Ml"
   },
   {
     "id": 2951,
     "title": "L'Oreal Excellence Cream 100G+72Ml",
     "slug": "loreal-excellence-cream-100g72ml",
-    "price": 769.0,
+    "price": 769,
     "image": "/images/products/loreal-excellence-cream-100g72ml.jpg",
     "stock": 11,
     "description": "L'Oreal Excellence Cream 100G+72Ml - Fresh dairy or refrigerated item.",
@@ -3371,13 +3611,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 2951
+    "rank": 2951,
+    "name": "L'Oreal Excellence Cream 100G+72Ml"
   },
   {
     "id": 2992,
     "title": "Lakme Cleansing Milk 120Ml",
     "slug": "lakme-cleansing-milk-120ml",
-    "price": 299.0,
+    "price": 299,
     "image": "/images/products/lakme-cleansing-milk-120ml.jpg",
     "stock": 2,
     "description": "Lakme Cleansing Milk 120Ml - Fresh dairy or refrigerated item.",
@@ -3385,13 +3626,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 2992
+    "rank": 2992,
+    "name": "Lakme Cleansing Milk 120Ml"
   },
   {
     "id": 2993,
     "title": "Lakme Cleansing Milk 60Ml",
     "slug": "lakme-cleansing-milk-60ml",
-    "price": 150.0,
+    "price": 150,
     "image": "/images/products/lakme-cleansing-milk-60ml.jpg",
     "stock": 2,
     "description": "Lakme Cleansing Milk 60Ml - Fresh dairy or refrigerated item.",
@@ -3399,13 +3641,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 2993
+    "rank": 2993,
+    "name": "Lakme Cleansing Milk 60Ml"
   },
   {
     "id": 3001,
     "title": "Lakme Peach Milk Mois 120Ml",
     "slug": "lakme-peach-milk-mois-120ml",
-    "price": 274.0,
+    "price": 274,
     "image": "/images/products/lakme-peach-milk-mois-120ml.jpg",
     "stock": 3,
     "description": "Lakme Peach Milk Mois 120Ml - Fresh dairy or refrigerated item.",
@@ -3413,13 +3656,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3001
+    "rank": 3001,
+    "name": "Lakme Peach Milk Mois 120Ml"
   },
   {
     "id": 3002,
     "title": "Lakme Peach Milk Mois 200Ml",
     "slug": "lakme-peach-milk-mois-200ml",
-    "price": 435.0,
+    "price": 435,
     "image": "/images/products/lakme-peach-milk-mois-200ml.jpg",
     "stock": 3,
     "description": "Lakme Peach Milk Mois 200Ml - Fresh dairy or refrigerated item.",
@@ -3427,13 +3671,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3002
+    "rank": 3002,
+    "name": "Lakme Peach Milk Mois 200Ml"
   },
   {
     "id": 3003,
     "title": "Lakme Peach Milk Mois 60Ml",
     "slug": "lakme-peach-milk-mois-60ml",
-    "price": 135.0,
+    "price": 135,
     "image": "/images/products/lakme-peach-milk-mois-60ml.jpg",
     "stock": 3,
     "description": "Lakme Peach Milk Mois 60Ml - Fresh dairy or refrigerated item.",
@@ -3441,13 +3686,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3003
+    "rank": 3003,
+    "name": "Lakme Peach Milk Mois 60Ml"
   },
   {
     "id": 3004,
     "title": "Lakme Peach Milk Spf 24 120Ml",
     "slug": "lakme-peach-milk-spf-24-120ml",
-    "price": 299.0,
+    "price": 299,
     "image": "/images/products/lakme-peach-milk-spf-24-120ml.jpg",
     "stock": 2,
     "description": "Lakme Peach Milk Spf 24 120Ml - Fresh dairy or refrigerated item.",
@@ -3455,13 +3701,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3004
+    "rank": 3004,
+    "name": "Lakme Peach Milk Spf 24 120Ml"
   },
   {
     "id": 3005,
     "title": "Lakme Peach Milk Spf 24 200Ml",
     "slug": "lakme-peach-milk-spf-24-200ml",
-    "price": 520.0,
+    "price": 520,
     "image": "/images/products/lakme-peach-milk-spf-24-200ml.jpg",
     "stock": 3,
     "description": "Lakme Peach Milk Spf 24 200Ml - Fresh dairy or refrigerated item.",
@@ -3469,13 +3716,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3005
+    "rank": 3005,
+    "name": "Lakme Peach Milk Spf 24 200Ml"
   },
   {
     "id": 3008,
     "title": "Lakme Ph Milk Soft Cream 100G",
     "slug": "lakme-ph-milk-soft-cream-100g",
-    "price": 284.0,
+    "price": 284,
     "image": "/images/products/lakme-ph-milk-soft-cream-100g.jpg",
     "stock": 3,
     "description": "Lakme Ph Milk Soft Cream 100G - Fresh dairy or refrigerated item.",
@@ -3483,13 +3731,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3008
+    "rank": 3008,
+    "name": "Lakme Ph Milk Soft Cream 100G"
   },
   {
     "id": 3009,
     "title": "Lakme Ph Milk Soft Cream 50G",
     "slug": "lakme-ph-milk-soft-cream-50g",
-    "price": 142.0,
+    "price": 142,
     "image": "/images/products/lakme-ph-milk-soft-cream-50g.jpg",
     "stock": 2,
     "description": "Lakme Ph Milk Soft Cream 50G - Fresh dairy or refrigerated item.",
@@ -3497,13 +3746,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3009
+    "rank": 3009,
+    "name": "Lakme Ph Milk Soft Cream 50G"
   },
   {
     "id": 3066,
     "title": "Ld Berry'S & Cream 100Ml",
     "slug": "ld-berrys-cream-100ml",
-    "price": 150.0,
+    "price": 150,
     "image": "/images/products/ld-berrys-cream-100ml.jpg",
     "stock": 8,
     "description": "Ld Berry'S & Cream 100Ml - Fresh dairy or refrigerated item.",
@@ -3511,13 +3761,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3066
+    "rank": 3066,
+    "name": "Ld Berry'S & Cream 100Ml"
   },
   {
     "id": 3069,
     "title": "Ld Cookies &Cream 500Ml",
     "slug": "ld-cookies-cream-500ml",
-    "price": 500.0,
+    "price": 500,
     "image": "/images/products/ld-cookies-cream-500ml.jpg",
     "stock": 4,
     "description": "Ld Cookies &Cream 500Ml - Fresh dairy or refrigerated item.",
@@ -3525,13 +3776,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3069
+    "rank": 3069,
+    "name": "Ld Cookies &Cream 500Ml"
   },
   {
     "id": 3073,
     "title": "Ld Praline & Cream Cup 125Ml",
     "slug": "ld-praline-cream-cup-125ml",
-    "price": 150.0,
+    "price": 150,
     "image": "/images/products/ld-praline-cream-cup-125ml.jpg",
     "stock": 10,
     "description": "Ld Praline & Cream Cup 125Ml - Fresh dairy or refrigerated item.",
@@ -3539,13 +3791,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3073
+    "rank": 3073,
+    "name": "Ld Praline & Cream Cup 125Ml"
   },
   {
     "id": 3077,
     "title": "Ld Strawberry Cheese 500Ml",
     "slug": "ld-strawberry-cheese-500ml",
-    "price": 500.0,
+    "price": 500,
     "image": "/images/products/ld-strawberry-cheese-500ml.jpg",
     "stock": 3,
     "description": "Ld Strawberry Cheese 500Ml - Fresh dairy or refrigerated item.",
@@ -3553,13 +3806,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3077
+    "rank": 3077,
+    "name": "Ld Strawberry Cheese 500Ml"
   },
   {
     "id": 3117,
     "title": "Lint Swiss Classic",
     "slug": "lint-swiss-classic",
-    "price": 450.0,
+    "price": 450,
     "image": "/images/products/lint-swiss-classic.jpg",
     "stock": 3,
     "description": "Lint Swiss Classic - Fresh dairy or refrigerated item.",
@@ -3567,13 +3821,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3117
+    "rank": 3117,
+    "name": "Lint Swiss Classic"
   },
   {
     "id": 3176,
     "title": "Lotus  Wg Night Cream 60G",
     "slug": "lotus-wg-night-cream-60g",
-    "price": 480.0,
+    "price": 480,
     "image": "/images/products/lotus-wg-night-cream-60g.jpg",
     "stock": 1,
     "description": "Lotus  Wg Night Cream 60G - Fresh dairy or refrigerated item.",
@@ -3581,13 +3836,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3176
+    "rank": 3176,
+    "name": "Lotus  Wg Night Cream 60G"
   },
   {
     "id": 3198,
     "title": "Lotus Papaya Cream",
     "slug": "lotus-papaya-cream",
-    "price": 485.0,
+    "price": 485,
     "image": "/images/products/lotus-papaya-cream.jpg",
     "stock": 3,
     "description": "Lotus Papaya Cream - Fresh dairy or refrigerated item.",
@@ -3595,13 +3851,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3198
+    "rank": 3198,
+    "name": "Lotus Papaya Cream"
   },
   {
     "id": 3199,
     "title": "Lotus Pg Cream Spf25",
     "slug": "lotus-pg-cream-spf25",
-    "price": 325.0,
+    "price": 325,
     "image": "/images/products/lotus-pg-cream-spf25.jpg",
     "stock": 3,
     "description": "Lotus Pg Cream Spf25 - Fresh dairy or refrigerated item.",
@@ -3609,13 +3866,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3199
+    "rank": 3199,
+    "name": "Lotus Pg Cream Spf25"
   },
   {
     "id": 3201,
     "title": "Lotus Rb Ubtan Face Cream",
     "slug": "lotus-rb-ubtan-face-cream",
-    "price": 395.0,
+    "price": 395,
     "image": "/images/products/lotus-rb-ubtan-face-cream.jpg",
     "stock": 2,
     "description": "Lotus Rb Ubtan Face Cream - Fresh dairy or refrigerated item.",
@@ -3623,13 +3881,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3201
+    "rank": 3201,
+    "name": "Lotus Rb Ubtan Face Cream"
   },
   {
     "id": 3205,
     "title": "Lotus Rx Day Cream 50G",
     "slug": "lotus-rx-day-cream-50g",
-    "price": 755.0,
+    "price": 755,
     "image": "/images/products/lotus-rx-day-cream-50g.jpg",
     "stock": 2,
     "description": "Lotus Rx Day Cream 50G - Fresh dairy or refrigerated item.",
@@ -3637,13 +3896,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3205
+    "rank": 3205,
+    "name": "Lotus Rx Day Cream 50G"
   },
   {
     "id": 3206,
     "title": "Lotus Rx Night Cream 50G",
     "slug": "lotus-rx-night-cream-50g",
-    "price": 790.0,
+    "price": 790,
     "image": "/images/products/lotus-rx-night-cream-50g.jpg",
     "stock": 3,
     "description": "Lotus Rx Night Cream 50G - Fresh dairy or refrigerated item.",
@@ -3651,13 +3911,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3206
+    "rank": 3206,
+    "name": "Lotus Rx Night Cream 50G"
   },
   {
     "id": 3223,
     "title": "Lotus Vitamine C Cream",
     "slug": "lotus-vitamine-c-cream",
-    "price": 475.0,
+    "price": 475,
     "image": "/images/products/lotus-vitamine-c-cream.jpg",
     "stock": 3,
     "description": "Lotus Vitamine C Cream - Fresh dairy or refrigerated item.",
@@ -3665,13 +3926,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3223
+    "rank": 3223,
+    "name": "Lotus Vitamine C Cream"
   },
   {
     "id": 3225,
     "title": "Lotus Wg Cleansing Milk",
     "slug": "lotus-wg-cleansing-milk",
-    "price": 310.0,
+    "price": 310,
     "image": "/images/products/lotus-wg-cleansing-milk.jpg",
     "stock": 2,
     "description": "Lotus Wg Cleansing Milk - Fresh dairy or refrigerated item.",
@@ -3679,13 +3941,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3225
+    "rank": 3225,
+    "name": "Lotus Wg Cleansing Milk"
   },
   {
     "id": 3227,
     "title": "Lotus Wg Gel Cream 60G",
     "slug": "lotus-wg-gel-cream-60g",
-    "price": 435.0,
+    "price": 435,
     "image": "/images/products/lotus-wg-gel-cream-60g.jpg",
     "stock": 3,
     "description": "Lotus Wg Gel Cream 60G - Fresh dairy or refrigerated item.",
@@ -3693,13 +3956,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3227
+    "rank": 3227,
+    "name": "Lotus Wg Gel Cream 60G"
   },
   {
     "id": 3228,
     "title": "Lotus Wg Massage Cream",
     "slug": "lotus-wg-massage-cream",
-    "price": 445.0,
+    "price": 445,
     "image": "/images/products/lotus-wg-massage-cream.jpg",
     "stock": 3,
     "description": "Lotus Wg Massage Cream - Fresh dairy or refrigerated item.",
@@ -3707,13 +3971,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3228
+    "rank": 3228,
+    "name": "Lotus Wg Massage Cream"
   },
   {
     "id": 3235,
     "title": "Lux Creamy Perfection 125G",
     "slug": "lux-creamy-perfection-125g",
-    "price": 83.0,
+    "price": 83,
     "image": "/images/products/lux-creamy-perfection-125g.jpg",
     "stock": 6,
     "description": "Lux Creamy Perfection 125G - Fresh dairy or refrigerated item.",
@@ -3721,13 +3986,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3235
+    "rank": 3235,
+    "name": "Lux Creamy Perfection 125G"
   },
   {
     "id": 3236,
     "title": "Lux Creamy Perfection 75G",
     "slug": "lux-creamy-perfection-75g",
-    "price": 40.0,
+    "price": 40,
     "image": "/images/products/lux-creamy-perfection-75g.jpg",
     "stock": 6,
     "description": "Lux Creamy Perfection 75G - Fresh dairy or refrigerated item.",
@@ -3735,13 +4001,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3236
+    "rank": 3236,
+    "name": "Lux Creamy Perfection 75G"
   },
   {
     "id": 3270,
     "title": "Maggi Pazzta Cheese Macaroni 75G",
     "slug": "maggi-pazzta-cheese-macaroni-75g",
-    "price": 30.0,
+    "price": 30,
     "image": "/images/products/maggi-pazzta-cheese-macaroni-75g.jpg",
     "stock": 7,
     "description": "Maggi Pazzta Cheese Macaroni 75G - Fresh dairy or refrigerated item.",
@@ -3749,13 +4016,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3270
+    "rank": 3270,
+    "name": "Maggi Pazzta Cheese Macaroni 75G"
   },
   {
     "id": 3271,
     "title": "Maggi Pazzta Cheese Tomato Twist 68.5G",
     "slug": "maggi-pazzta-cheese-tomato-twist-685g",
-    "price": 35.0,
+    "price": 35,
     "image": "/images/products/maggi-pazzta-cheese-tomato-twist-685g.jpg",
     "stock": 1,
     "description": "Maggi Pazzta Cheese Tomato Twist 68.5G - Fresh dairy or refrigerated item.",
@@ -3763,13 +4031,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3271
+    "rank": 3271,
+    "name": "Maggi Pazzta Cheese Tomato Twist 68.5G"
   },
   {
     "id": 3272,
     "title": "Maggi Pazzta Cheese Tomato Twist 68.5G",
     "slug": "maggi-pazzta-cheese-tomato-twist-685g",
-    "price": 30.0,
+    "price": 30,
     "image": "/images/products/maggi-pazzta-cheese-tomato-twist-685g.jpg",
     "stock": 5,
     "description": "Maggi Pazzta Cheese Tomato Twist 68.5G - Fresh dairy or refrigerated item.",
@@ -3777,13 +4046,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3272
+    "rank": 3272,
+    "name": "Maggi Pazzta Cheese Tomato Twist 68.5G"
   },
   {
     "id": 3287,
     "title": "Magnum Ice Cream Almond",
     "slug": "magnum-ice-cream-almond",
-    "price": 70.0,
+    "price": 70,
     "image": "/images/products/magnum-ice-cream-almond.jpg",
     "stock": 10,
     "description": "Magnum Ice Cream Almond - Fresh dairy or refrigerated item.",
@@ -3791,13 +4061,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3287
+    "rank": 3287,
+    "name": "Magnum Ice Cream Almond"
   },
   {
     "id": 3292,
     "title": "Makhana Walas Cream&Oniin",
     "slug": "makhana-walas-creamoniin",
-    "price": 140.0,
+    "price": 140,
     "image": "/images/products/makhana-walas-creamoniin.jpg",
     "stock": 3,
     "description": "Makhana Walas Cream&Oniin - Fresh dairy or refrigerated item.",
@@ -3805,13 +4076,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3292
+    "rank": 3292,
+    "name": "Makhana Walas Cream&Oniin"
   },
   {
     "id": 3422,
     "title": "Mccain Chilli Cheese Nuggets 250Gm",
     "slug": "mccain-chilli-cheese-nuggets-250gm",
-    "price": 170.0,
+    "price": 170,
     "image": "/images/products/mccain-chilli-cheese-nuggets-250gm.jpg",
     "stock": 5,
     "description": "Mccain Chilli Cheese Nuggets 250Gm - Fresh dairy or refrigerated item.",
@@ -3819,13 +4091,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3422
+    "rank": 3422,
+    "name": "Mccain Chilli Cheese Nuggets 250Gm"
   },
   {
     "id": 3436,
     "title": "Mcvities Butter Jeera Buscuits",
     "slug": "mcvities-butter-jeera-buscuits",
-    "price": 10.0,
+    "price": 10,
     "image": "/images/products/mcvities-butter-jeera-buscuits.jpg",
     "stock": 16,
     "description": "Mcvities Butter Jeera Buscuits - Fresh dairy or refrigerated item.",
@@ -3833,13 +4106,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3436
+    "rank": 3436,
+    "name": "Mcvities Butter Jeera Buscuits"
   },
   {
     "id": 3459,
     "title": "Mcvities Vanillla Cream 100Gm",
     "slug": "mcvities-vanillla-cream-100gm",
-    "price": 30.0,
+    "price": 30,
     "image": "/images/products/mcvities-vanillla-cream-100gm.jpg",
     "stock": 5,
     "description": "Mcvities Vanillla Cream 100Gm - Fresh dairy or refrigerated item.",
@@ -3847,13 +4121,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3459
+    "rank": 3459,
+    "name": "Mcvities Vanillla Cream 100Gm"
   },
   {
     "id": 3461,
     "title": "Md Full Cream Milk",
     "slug": "md-full-cream-milk",
-    "price": 35.0,
+    "price": 35,
     "image": "/images/products/md-full-cream-milk.jpg",
     "stock": 6,
     "description": "Md Full Cream Milk - Fresh dairy or refrigerated item.",
@@ -3861,13 +4136,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3461
+    "rank": 3461,
+    "name": "Md Full Cream Milk"
   },
   {
     "id": 3462,
     "title": "Md Paneer",
     "slug": "md-paneer",
-    "price": 95.0,
+    "price": 95,
     "image": "/images/products/md-paneer.jpg",
     "stock": 7,
     "description": "Md Paneer - Fresh dairy or refrigerated item.",
@@ -3875,13 +4151,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3462
+    "rank": 3462,
+    "name": "Md Paneer"
   },
   {
     "id": 3518,
     "title": "Milka Choclate 100G",
     "slug": "milka-choclate-100g",
-    "price": 250.0,
+    "price": 250,
     "image": "/images/products/milka-choclate-100g.jpg",
     "stock": 4,
     "description": "Milka Choclate 100G - Fresh dairy or refrigerated item.",
@@ -3889,13 +4166,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3518
+    "rank": 3518,
+    "name": "Milka Choclate 100G"
   },
   {
     "id": 3519,
     "title": "Milka Choclate 100G",
     "slug": "milka-choclate-100g",
-    "price": 250.0,
+    "price": 250,
     "image": "/images/products/milka-choclate-100g.jpg",
     "stock": -2,
     "description": "Milka Choclate 100G - Fresh dairy or refrigerated item.",
@@ -3903,13 +4181,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3519
+    "rank": 3519,
+    "name": "Milka Choclate 100G"
   },
   {
     "id": 3520,
     "title": "Milka Choclate 270G",
     "slug": "milka-choclate-270g",
-    "price": 700.0,
+    "price": 700,
     "image": "/images/products/milka-choclate-270g.jpg",
     "stock": 4,
     "description": "Milka Choclate 270G - Fresh dairy or refrigerated item.",
@@ -3917,13 +4196,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3520
+    "rank": 3520,
+    "name": "Milka Choclate 270G"
   },
   {
     "id": 3543,
     "title": "Moov Cream Reg 30Gm",
     "slug": "moov-cream-reg-30gm",
-    "price": 159.0,
+    "price": 159,
     "image": "/images/products/moov-cream-reg-30gm.jpg",
     "stock": 2,
     "description": "Moov Cream Reg 30Gm - Fresh dairy or refrigerated item.",
@@ -3931,13 +4211,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3543
+    "rank": 3543,
+    "name": "Moov Cream Reg 30Gm"
   },
   {
     "id": 3544,
     "title": "Moov Cream Reg 50Gm",
     "slug": "moov-cream-reg-50gm",
-    "price": 225.0,
+    "price": 225,
     "image": "/images/products/moov-cream-reg-50gm.jpg",
     "stock": 3,
     "description": "Moov Cream Reg 50Gm - Fresh dairy or refrigerated item.",
@@ -3945,13 +4226,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3544
+    "rank": 3544,
+    "name": "Moov Cream Reg 50Gm"
   },
   {
     "id": 3545,
     "title": "Moov Cream Reg 75Gm",
     "slug": "moov-cream-reg-75gm",
-    "price": 269.0,
+    "price": 269,
     "image": "/images/products/moov-cream-reg-75gm.jpg",
     "stock": 3,
     "description": "Moov Cream Reg 75Gm - Fresh dairy or refrigerated item.",
@@ -3959,13 +4241,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3545
+    "rank": 3545,
+    "name": "Moov Cream Reg 75Gm"
   },
   {
     "id": 3575,
     "title": "Mr Makhana Cream &Onion",
     "slug": "mr-makhana-cream-onion",
-    "price": 150.0,
+    "price": 150,
     "image": "/images/products/mr-makhana-cream-onion.jpg",
     "stock": 12,
     "description": "Mr Makhana Cream &Onion - Fresh dairy or refrigerated item.",
@@ -3973,13 +4256,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3575
+    "rank": 3575,
+    "name": "Mr Makhana Cream &Onion"
   },
   {
     "id": 3602,
     "title": "Mtr Gormet Butter Idli 500Gm",
     "slug": "mtr-gormet-butter-idli-500gm",
-    "price": 160.0,
+    "price": 160,
     "image": "/images/products/mtr-gormet-butter-idli-500gm.jpg",
     "stock": 2,
     "description": "Mtr Gormet Butter Idli 500Gm - Fresh dairy or refrigerated item.",
@@ -3987,13 +4271,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3602
+    "rank": 3602,
+    "name": "Mtr Gormet Butter Idli 500Gm"
   },
   {
     "id": 3610,
     "title": "Mtr Mutter Paneer 300Gm",
     "slug": "mtr-mutter-paneer-300gm",
-    "price": 155.0,
+    "price": 155,
     "image": "/images/products/mtr-mutter-paneer-300gm.jpg",
     "stock": 3,
     "description": "Mtr Mutter Paneer 300Gm - Fresh dairy or refrigerated item.",
@@ -4001,13 +4286,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3610
+    "rank": 3610,
+    "name": "Mtr Mutter Paneer 300Gm"
   },
   {
     "id": 3611,
     "title": "Mtr Paneer Butter Masala 300Gm",
     "slug": "mtr-paneer-butter-masala-300gm",
-    "price": 155.0,
+    "price": 155,
     "image": "/images/products/mtr-paneer-butter-masala-300gm.jpg",
     "stock": 1,
     "description": "Mtr Paneer Butter Masala 300Gm - Fresh dairy or refrigerated item.",
@@ -4015,13 +4301,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3611
+    "rank": 3611,
+    "name": "Mtr Paneer Butter Masala 300Gm"
   },
   {
     "id": 3612,
     "title": "Mtr Paneer Makhni 300Gm",
     "slug": "mtr-paneer-makhni-300gm",
-    "price": 155.0,
+    "price": 155,
     "image": "/images/products/mtr-paneer-makhni-300gm.jpg",
     "stock": 2,
     "description": "Mtr Paneer Makhni 300Gm - Fresh dairy or refrigerated item.",
@@ -4029,13 +4316,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3612
+    "rank": 3612,
+    "name": "Mtr Paneer Makhni 300Gm"
   },
   {
     "id": 3613,
     "title": "Mtr Paneer Tikka 300Gm",
     "slug": "mtr-paneer-tikka-300gm",
-    "price": 155.0,
+    "price": 155,
     "image": "/images/products/mtr-paneer-tikka-300gm.jpg",
     "stock": 3,
     "description": "Mtr Paneer Tikka 300Gm - Fresh dairy or refrigerated item.",
@@ -4043,13 +4331,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3613
+    "rank": 3613,
+    "name": "Mtr Paneer Tikka 300Gm"
   },
   {
     "id": 3622,
     "title": "Mtr Shahi Paneer 300Gm",
     "slug": "mtr-shahi-paneer-300gm",
-    "price": 155.0,
+    "price": 155,
     "image": "/images/products/mtr-shahi-paneer-300gm.jpg",
     "stock": 3,
     "description": "Mtr Shahi Paneer 300Gm - Fresh dairy or refrigerated item.",
@@ -4057,13 +4346,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3622
+    "rank": 3622,
+    "name": "Mtr Shahi Paneer 300Gm"
   },
   {
     "id": 3628,
     "title": "Mtr(Rte)Palak Paneer 300Gm",
     "slug": "mtrrtepalak-paneer-300gm",
-    "price": 155.0,
+    "price": 155,
     "image": "/images/products/mtrrtepalak-paneer-300gm.jpg",
     "stock": 2,
     "description": "Mtr(Rte)Palak Paneer 300Gm - Fresh dairy or refrigerated item.",
@@ -4071,13 +4361,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3628
+    "rank": 3628,
+    "name": "Mtr(Rte)Palak Paneer 300Gm"
   },
   {
     "id": 3630,
     "title": "Munchy'S Butter Sandwich Crackers",
     "slug": "munchys-butter-sandwich-crackers",
-    "price": 249.0,
+    "price": 249,
     "image": "/images/products/munchys-butter-sandwich-crackers.jpg",
     "stock": 2,
     "description": "Munchy'S Butter Sandwich Crackers - Fresh dairy or refrigerated item.",
@@ -4085,13 +4376,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3630
+    "rank": 3630,
+    "name": "Munchy'S Butter Sandwich Crackers"
   },
   {
     "id": 3632,
     "title": "Munchy'S Cream Crackers",
     "slug": "munchys-cream-crackers",
-    "price": 225.0,
+    "price": 225,
     "image": "/images/products/munchys-cream-crackers.jpg",
     "stock": 3,
     "description": "Munchy'S Cream Crackers - Fresh dairy or refrigerated item.",
@@ -4099,13 +4391,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3632
+    "rank": 3632,
+    "name": "Munchy'S Cream Crackers"
   },
   {
     "id": 3643,
     "title": "Myfitness Peanut Butter 510Gm",
     "slug": "myfitness-peanut-butter-510gm",
-    "price": 320.0,
+    "price": 320,
     "image": "/images/products/myfitness-peanut-butter-510gm.jpg",
     "stock": 2,
     "description": "Myfitness Peanut Butter 510Gm - Fresh dairy or refrigerated item.",
@@ -4113,13 +4406,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3643
+    "rank": 3643,
+    "name": "Myfitness Peanut Butter 510Gm"
   },
   {
     "id": 3804,
     "title": "Nescafe Classic 180Gm",
     "slug": "nescafe-classic-180gm",
-    "price": 899.0,
+    "price": 899,
     "image": "/images/products/nescafe-classic-180gm.jpg",
     "stock": 2,
     "description": "Nescafe Classic 180Gm - Fresh dairy or refrigerated item.",
@@ -4127,13 +4421,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3804
+    "rank": 3804,
+    "name": "Nescafe Classic 180Gm"
   },
   {
     "id": 3805,
     "title": "Nescafe Classic 28Gm",
     "slug": "nescafe-classic-28gm",
-    "price": 10.0,
+    "price": 10,
     "image": "/images/products/nescafe-classic-28gm.jpg",
     "stock": 54,
     "description": "Nescafe Classic 28Gm - Fresh dairy or refrigerated item.",
@@ -4141,13 +4436,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3805
+    "rank": 3805,
+    "name": "Nescafe Classic 28Gm"
   },
   {
     "id": 3806,
     "title": "Nescafe Classic 45Gm",
     "slug": "nescafe-classic-45gm",
-    "price": 230.0,
+    "price": 230,
     "image": "/images/products/nescafe-classic-45gm.jpg",
     "stock": 1,
     "description": "Nescafe Classic 45Gm - Fresh dairy or refrigerated item.",
@@ -4155,13 +4451,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3806
+    "rank": 3806,
+    "name": "Nescafe Classic 45Gm"
   },
   {
     "id": 3807,
     "title": "Nescafe Classic 500G",
     "slug": "nescafe-classic-500g",
-    "price": 1940.0,
+    "price": 1940,
     "image": "/images/products/nescafe-classic-500g.jpg",
     "stock": 2,
     "description": "Nescafe Classic 500G - Fresh dairy or refrigerated item.",
@@ -4169,13 +4466,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3807
+    "rank": 3807,
+    "name": "Nescafe Classic 500G"
   },
   {
     "id": 3808,
     "title": "Nescafe Classic Jar 24Gm",
     "slug": "nescafe-classic-jar-24gm",
-    "price": 110.0,
+    "price": 110,
     "image": "/images/products/nescafe-classic-jar-24gm.jpg",
     "stock": 2,
     "description": "Nescafe Classic Jar 24Gm - Fresh dairy or refrigerated item.",
@@ -4183,13 +4481,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3808
+    "rank": 3808,
+    "name": "Nescafe Classic Jar 24Gm"
   },
   {
     "id": 3809,
     "title": "Nescafe Classic Stick 0.9Gm",
     "slug": "nescafe-classic-stick-09gm",
-    "price": 2.0,
+    "price": 2,
     "image": "/images/products/nescafe-classic-stick-09gm.jpg",
     "stock": 281,
     "description": "Nescafe Classic Stick 0.9Gm - Fresh dairy or refrigerated item.",
@@ -4197,13 +4496,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3809
+    "rank": 3809,
+    "name": "Nescafe Classic Stick 0.9Gm"
   },
   {
     "id": 3821,
     "title": "Nestle Classic 34.5G",
     "slug": "nestle-classic-345g",
-    "price": 20.0,
+    "price": 20,
     "image": "/images/products/nestle-classic-345g.jpg",
     "stock": 5,
     "description": "Nestle Classic 34.5G - Fresh dairy or refrigerated item.",
@@ -4211,13 +4511,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3821
+    "rank": 3821,
+    "name": "Nestle Classic 34.5G"
   },
   {
     "id": 3822,
     "title": "Nestle Classic Chocolate 15G",
     "slug": "nestle-classic-chocolate-15g",
-    "price": 10.0,
+    "price": 10,
     "image": "/images/products/nestle-classic-chocolate-15g.jpg",
     "stock": 23,
     "description": "Nestle Classic Chocolate 15G - Fresh dairy or refrigerated item.",
@@ -4225,13 +4526,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3822
+    "rank": 3822,
+    "name": "Nestle Classic Chocolate 15G"
   },
   {
     "id": 3823,
     "title": "Nestle Classic Chocolate 30G",
     "slug": "nestle-classic-chocolate-30g",
-    "price": 20.0,
+    "price": 20,
     "image": "/images/products/nestle-classic-chocolate-30g.jpg",
     "stock": 21,
     "description": "Nestle Classic Chocolate 30G - Fresh dairy or refrigerated item.",
@@ -4239,13 +4541,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3823
+    "rank": 3823,
+    "name": "Nestle Classic Chocolate 30G"
   },
   {
     "id": 3824,
     "title": "Nestle Classic Staabilo 200Gm",
     "slug": "nestle-classic-staabilo-200gm",
-    "price": 870.0,
+    "price": 870,
     "image": "/images/products/nestle-classic-staabilo-200gm.jpg",
     "stock": 1,
     "description": "Nestle Classic Staabilo 200Gm - Fresh dairy or refrigerated item.",
@@ -4253,13 +4556,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3824
+    "rank": 3824,
+    "name": "Nestle Classic Staabilo 200Gm"
   },
   {
     "id": 3825,
     "title": "Nestle Classic Staabilo 200Gm",
     "slug": "nestle-classic-staabilo-200gm",
-    "price": 920.0,
+    "price": 920,
     "image": "/images/products/nestle-classic-staabilo-200gm.jpg",
     "stock": 9,
     "description": "Nestle Classic Staabilo 200Gm - Fresh dairy or refrigerated item.",
@@ -4267,13 +4571,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3825
+    "rank": 3825,
+    "name": "Nestle Classic Staabilo 200Gm"
   },
   {
     "id": 3831,
     "title": "Nestle Milkmaid 380G",
     "slug": "nestle-milkmaid-380g",
-    "price": 149.0,
+    "price": 149,
     "image": "/images/products/nestle-milkmaid-380g.jpg",
     "stock": 1,
     "description": "Nestle Milkmaid 380G - Fresh dairy or refrigerated item.",
@@ -4281,13 +4586,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3831
+    "rank": 3831,
+    "name": "Nestle Milkmaid 380G"
   },
   {
     "id": 3832,
     "title": "Nestle Milkmaid Mini 210G",
     "slug": "nestle-milkmaid-mini-210g",
-    "price": 89.0,
+    "price": 89,
     "image": "/images/products/nestle-milkmaid-mini-210g.jpg",
     "stock": 5,
     "description": "Nestle Milkmaid Mini 210G - Fresh dairy or refrigerated item.",
@@ -4295,13 +4601,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3832
+    "rank": 3832,
+    "name": "Nestle Milkmaid Mini 210G"
   },
   {
     "id": 3833,
     "title": "Nestle Milky Bar 12.5G",
     "slug": "nestle-milky-bar-125g",
-    "price": 10.0,
+    "price": 10,
     "image": "/images/products/nestle-milky-bar-125g.jpg",
     "stock": 14,
     "description": "Nestle Milky Bar 12.5G - Fresh dairy or refrigerated item.",
@@ -4309,13 +4616,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3833
+    "rank": 3833,
+    "name": "Nestle Milky Bar 12.5G"
   },
   {
     "id": 3834,
     "title": "Nestle Milkybar 22.5G",
     "slug": "nestle-milkybar-225g",
-    "price": 20.0,
+    "price": 20,
     "image": "/images/products/nestle-milkybar-225g.jpg",
     "stock": 15,
     "description": "Nestle Milkybar 22.5G - Fresh dairy or refrigerated item.",
@@ -4323,13 +4631,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3834
+    "rank": 3834,
+    "name": "Nestle Milkybar 22.5G"
   },
   {
     "id": 3837,
     "title": "Nestle Munch Butterscotch 37.5G",
     "slug": "nestle-munch-butterscotch-375g",
-    "price": 30.0,
+    "price": 30,
     "image": "/images/products/nestle-munch-butterscotch-375g.jpg",
     "stock": 8,
     "description": "Nestle Munch Butterscotch 37.5G - Fresh dairy or refrigerated item.",
@@ -4337,13 +4646,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3837
+    "rank": 3837,
+    "name": "Nestle Munch Butterscotch 37.5G"
   },
   {
     "id": 3864,
     "title": "Nivea Blue Cream 60Ml",
     "slug": "nivea-blue-cream-60ml",
-    "price": 140.0,
+    "price": 140,
     "image": "/images/products/nivea-blue-cream-60ml.jpg",
     "stock": 3,
     "description": "Nivea Blue Cream 60Ml - Fresh dairy or refrigerated item.",
@@ -4351,13 +4661,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3864
+    "rank": 3864,
+    "name": "Nivea Blue Cream 60Ml"
   },
   {
     "id": 3865,
     "title": "Nivea Body Milk 200Ml",
     "slug": "nivea-body-milk-200ml",
-    "price": 249.0,
+    "price": 249,
     "image": "/images/products/nivea-body-milk-200ml.jpg",
     "stock": 4,
     "description": "Nivea Body Milk 200Ml - Fresh dairy or refrigerated item.",
@@ -4365,13 +4676,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3865
+    "rank": 3865,
+    "name": "Nivea Body Milk 200Ml"
   },
   {
     "id": 3866,
     "title": "Nivea Body Milk 400Ml",
     "slug": "nivea-body-milk-400ml",
-    "price": 495.0,
+    "price": 495,
     "image": "/images/products/nivea-body-milk-400ml.jpg",
     "stock": 3,
     "description": "Nivea Body Milk 400Ml - Fresh dairy or refrigerated item.",
@@ -4379,13 +4691,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3866
+    "rank": 3866,
+    "name": "Nivea Body Milk 400Ml"
   },
   {
     "id": 3869,
     "title": "Nivea Cream 30Ml",
     "slug": "nivea-cream-30ml",
-    "price": 70.0,
+    "price": 70,
     "image": "/images/products/nivea-cream-30ml.jpg",
     "stock": 2,
     "description": "Nivea Cream 30Ml - Fresh dairy or refrigerated item.",
@@ -4393,13 +4706,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3869
+    "rank": 3869,
+    "name": "Nivea Cream 30Ml"
   },
   {
     "id": 3882,
     "title": "Nivea Men Cream 30Ml",
     "slug": "nivea-men-cream-30ml",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/nivea-men-cream-30ml.jpg",
     "stock": 3,
     "description": "Nivea Men Cream 30Ml - Fresh dairy or refrigerated item.",
@@ -4407,13 +4721,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3882
+    "rank": 3882,
+    "name": "Nivea Men Cream 30Ml"
   },
   {
     "id": 3883,
     "title": "Nivea Men Cream 75Ml",
     "slug": "nivea-men-cream-75ml",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/nivea-men-cream-75ml.jpg",
     "stock": 3,
     "description": "Nivea Men Cream 75Ml - Fresh dairy or refrigerated item.",
@@ -4421,13 +4736,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3883
+    "rank": 3883,
+    "name": "Nivea Men Cream 75Ml"
   },
   {
     "id": 3907,
     "title": "Nivea Soft Spf15 Cream",
     "slug": "nivea-soft-spf15-cream",
-    "price": 165.0,
+    "price": 165,
     "image": "/images/products/nivea-soft-spf15-cream.jpg",
     "stock": 3,
     "description": "Nivea Soft Spf15 Cream - Fresh dairy or refrigerated item.",
@@ -4435,13 +4751,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3907
+    "rank": 3907,
+    "name": "Nivea Soft Spf15 Cream"
   },
   {
     "id": 3925,
     "title": "Nl Organic Desi Ghee 400Ml",
     "slug": "nl-organic-desi-ghee-400ml",
-    "price": 655.0,
+    "price": 655,
     "image": "/images/products/nl-organic-desi-ghee-400ml.jpg",
     "stock": 2,
     "description": "Nl Organic Desi Ghee 400Ml - Fresh dairy or refrigerated item.",
@@ -4449,13 +4766,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3925
+    "rank": 3925,
+    "name": "Nl Organic Desi Ghee 400Ml"
   },
   {
     "id": 3980,
     "title": "Novax Butter Paper 21Mtr",
     "slug": "novax-butter-paper-21mtr",
-    "price": 289.0,
+    "price": 289,
     "image": "/images/products/novax-butter-paper-21mtr.jpg",
     "stock": 6,
     "description": "Novax Butter Paper 21Mtr - Fresh dairy or refrigerated item.",
@@ -4463,13 +4781,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3980
+    "rank": 3980,
+    "name": "Novax Butter Paper 21Mtr"
   },
   {
     "id": 3981,
     "title": "Novax Butter Paper 25Mtr",
     "slug": "novax-butter-paper-25mtr",
-    "price": 320.0,
+    "price": 320,
     "image": "/images/products/novax-butter-paper-25mtr.jpg",
     "stock": 3,
     "description": "Novax Butter Paper 25Mtr - Fresh dairy or refrigerated item.",
@@ -4477,13 +4796,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3981
+    "rank": 3981,
+    "name": "Novax Butter Paper 25Mtr"
   },
   {
     "id": 3982,
     "title": "Novax Butter Paper 50Mtr",
     "slug": "novax-butter-paper-50mtr",
-    "price": 415.0,
+    "price": 415,
     "image": "/images/products/novax-butter-paper-50mtr.jpg",
     "stock": 6,
     "description": "Novax Butter Paper 50Mtr - Fresh dairy or refrigerated item.",
@@ -4491,13 +4811,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3982
+    "rank": 3982,
+    "name": "Novax Butter Paper 50Mtr"
   },
   {
     "id": 3983,
     "title": "Novax Butter Paper 9Mtr",
     "slug": "novax-butter-paper-9mtr",
-    "price": 149.0,
+    "price": 149,
     "image": "/images/products/novax-butter-paper-9mtr.jpg",
     "stock": 5,
     "description": "Novax Butter Paper 9Mtr - Fresh dairy or refrigerated item.",
@@ -4505,13 +4826,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 3983
+    "rank": 3983,
+    "name": "Novax Butter Paper 9Mtr"
   },
   {
     "id": 4056,
     "title": "Nykaa Glow All Day Strobe Cream 575/",
     "slug": "nykaa-glow-all-day-strobe-cream-575",
-    "price": 575.0,
+    "price": 575,
     "image": "/images/products/nykaa-glow-all-day-strobe-cream-575.jpg",
     "stock": 6,
     "description": "Nykaa Glow All Day Strobe Cream 575/ - Fresh dairy or refrigerated item.",
@@ -4519,13 +4841,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 4056
+    "rank": 4056,
+    "name": "Nykaa Glow All Day Strobe Cream 575/"
   },
   {
     "id": 4073,
     "title": "Nykaa So Creamy Matte Lipstick 329/",
     "slug": "nykaa-so-creamy-matte-lipstick-329",
-    "price": 329.0,
+    "price": 329,
     "image": "/images/products/nykaa-so-creamy-matte-lipstick-329.jpg",
     "stock": 65,
     "description": "Nykaa So Creamy Matte Lipstick 329/ - Fresh dairy or refrigerated item.",
@@ -4533,13 +4856,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 4073
+    "rank": 4073,
+    "name": "Nykaa So Creamy Matte Lipstick 329/"
   },
   {
     "id": 4080,
     "title": "Olay Anti-Ageing Cream",
     "slug": "olay-anti-ageing-cream",
-    "price": 399.0,
+    "price": 399,
     "image": "/images/products/olay-anti-ageing-cream.jpg",
     "stock": 2,
     "description": "Olay Anti-Ageing Cream - Fresh dairy or refrigerated item.",
@@ -4547,13 +4871,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 4080
+    "rank": 4080,
+    "name": "Olay Anti-Ageing Cream"
   },
   {
     "id": 4081,
     "title": "Olay Anti-Ageing Cream 18G",
     "slug": "olay-anti-ageing-cream-18g",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/olay-anti-ageing-cream-18g.jpg",
     "stock": 3,
     "description": "Olay Anti-Ageing Cream 18G - Fresh dairy or refrigerated item.",
@@ -4561,13 +4886,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 4081
+    "rank": 4081,
+    "name": "Olay Anti-Ageing Cream 18G"
   },
   {
     "id": 4082,
     "title": "Olay Day Cream 50G",
     "slug": "olay-day-cream-50g",
-    "price": 449.0,
+    "price": 449,
     "image": "/images/products/olay-day-cream-50g.jpg",
     "stock": 2,
     "description": "Olay Day Cream 50G - Fresh dairy or refrigerated item.",
@@ -4575,13 +4901,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 4082
+    "rank": 4082,
+    "name": "Olay Day Cream 50G"
   },
   {
     "id": 4083,
     "title": "Olay Day Cream Normal 20Gm",
     "slug": "olay-day-cream-normal-20gm",
-    "price": 429.0,
+    "price": 429,
     "image": "/images/products/olay-day-cream-normal-20gm.jpg",
     "stock": 4,
     "description": "Olay Day Cream Normal 20Gm - Fresh dairy or refrigerated item.",
@@ -4589,13 +4916,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 4083
+    "rank": 4083,
+    "name": "Olay Day Cream Normal 20Gm"
   },
   {
     "id": 4084,
     "title": "Olay Day Cream Normal 50Gm",
     "slug": "olay-day-cream-normal-50gm",
-    "price": 949.0,
+    "price": 949,
     "image": "/images/products/olay-day-cream-normal-50gm.jpg",
     "stock": 1,
     "description": "Olay Day Cream Normal 50Gm - Fresh dairy or refrigerated item.",
@@ -4603,13 +4931,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 4084
+    "rank": 4084,
+    "name": "Olay Day Cream Normal 50Gm"
   },
   {
     "id": 4085,
     "title": "Olay Day Cream Spf15 Normal 50Gm",
     "slug": "olay-day-cream-spf15-normal-50gm",
-    "price": 949.0,
+    "price": 949,
     "image": "/images/products/olay-day-cream-spf15-normal-50gm.jpg",
     "stock": 1,
     "description": "Olay Day Cream Spf15 Normal 50Gm - Fresh dairy or refrigerated item.",
@@ -4617,13 +4946,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 4085
+    "rank": 4085,
+    "name": "Olay Day Cream Spf15 Normal 50Gm"
   },
   {
     "id": 4091,
     "title": "Olay Night Cream 20Gm",
     "slug": "olay-night-cream-20gm",
-    "price": 429.0,
+    "price": 429,
     "image": "/images/products/olay-night-cream-20gm.jpg",
     "stock": 2,
     "description": "Olay Night Cream 20Gm - Fresh dairy or refrigerated item.",
@@ -4631,13 +4961,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 4091
+    "rank": 4091,
+    "name": "Olay Night Cream 20Gm"
   },
   {
     "id": 4092,
     "title": "Olay Night Cream 50G",
     "slug": "olay-night-cream-50g",
-    "price": 449.0,
+    "price": 449,
     "image": "/images/products/olay-night-cream-50g.jpg",
     "stock": 2,
     "description": "Olay Night Cream 50G - Fresh dairy or refrigerated item.",
@@ -4645,13 +4976,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 4092
+    "rank": 4092,
+    "name": "Olay Night Cream 50G"
   },
   {
     "id": 4093,
     "title": "Olay Regenerist Night Cream",
     "slug": "olay-regenerist-night-cream",
-    "price": 1799.0,
+    "price": 1799,
     "image": "/images/products/olay-regenerist-night-cream.jpg",
     "stock": 1,
     "description": "Olay Regenerist Night Cream - Fresh dairy or refrigerated item.",
@@ -4659,13 +4991,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 4093
+    "rank": 4093,
+    "name": "Olay Regenerist Night Cream"
   },
   {
     "id": 4162,
     "title": "Orgainc India Tulsi Green Tea Classic 100G",
     "slug": "orgainc-india-tulsi-green-tea-classic-100g",
-    "price": 210.0,
+    "price": 210,
     "image": "/images/products/orgainc-india-tulsi-green-tea-classic-100g.jpg",
     "stock": 4,
     "description": "Orgainc India Tulsi Green Tea Classic 100G - Fresh dairy or refrigerated item.",
@@ -4673,13 +5006,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 4162
+    "rank": 4162,
+    "name": "Orgainc India Tulsi Green Tea Classic 100G"
   },
   {
     "id": 4181,
     "title": "Organic Nation Classic Tulsi 25N",
     "slug": "organic-nation-classic-tulsi-25n",
-    "price": 220.0,
+    "price": 220,
     "image": "/images/products/organic-nation-classic-tulsi-25n.jpg",
     "stock": 2,
     "description": "Organic Nation Classic Tulsi 25N - Fresh dairy or refrigerated item.",
@@ -4687,13 +5021,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 4181
+    "rank": 4181,
+    "name": "Organic Nation Classic Tulsi 25N"
   },
   {
     "id": 4203,
     "title": "Oriental Cheese Balls",
     "slug": "oriental-cheese-balls",
-    "price": 100.0,
+    "price": 100,
     "image": "/images/products/oriental-cheese-balls.jpg",
     "stock": 7,
     "description": "Oriental Cheese Balls - Fresh dairy or refrigerated item.",
@@ -4701,13 +5036,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 4203
+    "rank": 4203,
+    "name": "Oriental Cheese Balls"
   },
   {
     "id": 4211,
     "title": "Origami Napkin Klassic",
     "slug": "origami-napkin-klassic",
-    "price": 65.0,
+    "price": 65,
     "image": "/images/products/origami-napkin-klassic.jpg",
     "stock": 1,
     "description": "Origami Napkin Klassic - Fresh dairy or refrigerated item.",
@@ -4715,13 +5051,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 4211
+    "rank": 4211,
+    "name": "Origami Napkin Klassic"
   },
   {
     "id": 4234,
     "title": "Ornimas Whip Cream",
     "slug": "ornimas-whip-cream",
-    "price": 220.0,
+    "price": 220,
     "image": "/images/products/ornimas-whip-cream.jpg",
     "stock": 1,
     "description": "Ornimas Whip Cream - Fresh dairy or refrigerated item.",
@@ -4729,13 +5066,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 4234
+    "rank": 4234,
+    "name": "Ornimas Whip Cream"
   },
   {
     "id": 4235,
     "title": "Ornimas Whip Cream Gold",
     "slug": "ornimas-whip-cream-gold",
-    "price": 200.0,
+    "price": 200,
     "image": "/images/products/ornimas-whip-cream-gold.jpg",
     "stock": 1,
     "description": "Ornimas Whip Cream Gold - Fresh dairy or refrigerated item.",
@@ -4743,13 +5081,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 4235
+    "rank": 4235,
+    "name": "Ornimas Whip Cream Gold"
   },
   {
     "id": 4331,
     "title": "Parachute Mens Cream 100Gm",
     "slug": "parachute-mens-cream-100gm",
-    "price": 100.0,
+    "price": 100,
     "image": "/images/products/parachute-mens-cream-100gm.jpg",
     "stock": 4,
     "description": "Parachute Mens Cream 100Gm - Fresh dairy or refrigerated item.",
@@ -4757,13 +5096,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 4331
+    "rank": 4331,
+    "name": "Parachute Mens Cream 100Gm"
   },
   {
     "id": 4332,
     "title": "Param Ghee Jar 1Kg",
     "slug": "param-ghee-jar-1kg",
-    "price": 785.0,
+    "price": 785,
     "image": "/images/products/param-ghee-jar-1kg.jpg",
     "stock": 4,
     "description": "Param Ghee Jar 1Kg - Fresh dairy or refrigerated item.",
@@ -4771,13 +5111,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 4332
+    "rank": 4332,
+    "name": "Param Ghee Jar 1Kg"
   },
   {
     "id": 4333,
     "title": "Param Ghee Jar 500Ml",
     "slug": "param-ghee-jar-500ml",
-    "price": 395.0,
+    "price": 395,
     "image": "/images/products/param-ghee-jar-500ml.jpg",
     "stock": 2,
     "description": "Param Ghee Jar 500Ml - Fresh dairy or refrigerated item.",
@@ -4785,13 +5126,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 4333
+    "rank": 4333,
+    "name": "Param Ghee Jar 500Ml"
   },
   {
     "id": 4334,
     "title": "Param Ghee Tp 1L",
     "slug": "param-ghee-tp-1l",
-    "price": 690.0,
+    "price": 690,
     "image": "/images/products/param-ghee-tp-1l.jpg",
     "stock": 4,
     "description": "Param Ghee Tp 1L - Fresh dairy or refrigerated item.",
@@ -4799,13 +5141,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 4334
+    "rank": 4334,
+    "name": "Param Ghee Tp 1L"
   },
   {
     "id": 4335,
     "title": "Param Ghee Tp 500Ml",
     "slug": "param-ghee-tp-500ml",
-    "price": 365.0,
+    "price": 365,
     "image": "/images/products/param-ghee-tp-500ml.jpg",
     "stock": 2,
     "description": "Param Ghee Tp 500Ml - Fresh dairy or refrigerated item.",
@@ -4813,13 +5156,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 4335
+    "rank": 4335,
+    "name": "Param Ghee Tp 500Ml"
   },
   {
     "id": 4336,
     "title": "Paras Dahi Cup 160G",
     "slug": "paras-dahi-cup-160g",
-    "price": 20.0,
+    "price": 20,
     "image": "/images/products/paras-dahi-cup-160g.jpg",
     "stock": 5,
     "description": "Paras Dahi Cup 160G - Fresh dairy or refrigerated item.",
@@ -4827,13 +5171,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 4336
+    "rank": 4336,
+    "name": "Paras Dahi Cup 160G"
   },
   {
     "id": 4337,
     "title": "Paras Dahi Cup 360G",
     "slug": "paras-dahi-cup-360g",
-    "price": 40.0,
+    "price": 40,
     "image": "/images/products/paras-dahi-cup-360g.jpg",
     "stock": 5,
     "description": "Paras Dahi Cup 360G - Fresh dairy or refrigerated item.",
@@ -4841,13 +5186,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 4337
+    "rank": 4337,
+    "name": "Paras Dahi Cup 360G"
   },
   {
     "id": 4346,
     "title": "Park Avenue Shaving Cream 84Gm",
     "slug": "park-avenue-shaving-cream-84gm",
-    "price": 75.0,
+    "price": 75,
     "image": "/images/products/park-avenue-shaving-cream-84gm.jpg",
     "stock": 7,
     "description": "Park Avenue Shaving Cream 84Gm - Fresh dairy or refrigerated item.",
@@ -4855,13 +5201,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 4346
+    "rank": 4346,
+    "name": "Park Avenue Shaving Cream 84Gm"
   },
   {
     "id": 4351,
     "title": "Parle 20 20 Butter Cookies",
     "slug": "parle-20-20-butter-cookies",
-    "price": 20.0,
+    "price": 20,
     "image": "/images/products/parle-20-20-butter-cookies.jpg",
     "stock": 27,
     "description": "Parle 20 20 Butter Cookies - Fresh dairy or refrigerated item.",
@@ -4869,13 +5216,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 4351
+    "rank": 4351,
+    "name": "Parle 20 20 Butter Cookies"
   },
   {
     "id": 4352,
     "title": "Parle 20-20 Butter 70G",
     "slug": "parle-20-20-butter-70g",
-    "price": 10.0,
+    "price": 10,
     "image": "/images/products/parle-20-20-butter-70g.jpg",
     "stock": 21,
     "description": "Parle 20-20 Butter 70G - Fresh dairy or refrigerated item.",
@@ -4883,13 +5231,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 4352
+    "rank": 4352,
+    "name": "Parle 20-20 Butter 70G"
   },
   {
     "id": 4378,
     "title": "Parle Monaco Classic",
     "slug": "parle-monaco-classic",
-    "price": 10.0,
+    "price": 10,
     "image": "/images/products/parle-monaco-classic.jpg",
     "stock": 7,
     "description": "Parle Monaco Classic - Fresh dairy or refrigerated item.",
@@ -4897,13 +5246,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 4378
+    "rank": 4378,
+    "name": "Parle Monaco Classic"
   },
   {
     "id": 4409,
     "title": "Patanjali Kk Milk Protein 180Ml",
     "slug": "patanjali-kk-milk-protein-180ml",
-    "price": 120.0,
+    "price": 120,
     "image": "/images/products/patanjali-kk-milk-protein-180ml.jpg",
     "stock": 2,
     "description": "Patanjali Kk Milk Protein 180Ml - Fresh dairy or refrigerated item.",
@@ -4911,13 +5261,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 4409
+    "rank": 4409,
+    "name": "Patanjali Kk Milk Protein 180Ml"
   },
   {
     "id": 4411,
     "title": "Patanjali Milk Protion Shampoo",
     "slug": "patanjali-milk-protion-shampoo",
-    "price": 120.0,
+    "price": 120,
     "image": "/images/products/patanjali-milk-protion-shampoo.jpg",
     "stock": 2,
     "description": "Patanjali Milk Protion Shampoo - Fresh dairy or refrigerated item.",
@@ -4925,13 +5276,14 @@ const products = [
     "unit": "7088",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 4411
+    "rank": 4411,
+    "name": "Patanjali Milk Protion Shampoo"
   },
   {
     "id": 4415,
     "title": "Paul&Mike Brunost Cheese",
     "slug": "paulmike-brunost-cheese",
-    "price": 365.0,
+    "price": 365,
     "image": "/images/products/paulmike-brunost-cheese.jpg",
     "stock": 2,
     "description": "Paul&Mike Brunost Cheese - Fresh dairy or refrigerated item.",
@@ -4939,13 +5291,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 4415
+    "rank": 4415,
+    "name": "Paul&Mike Brunost Cheese"
   },
   {
     "id": 4432,
     "title": "Pedigree Puppy Chic&Milk 1Kg",
     "slug": "pedigree-puppy-chicmilk-1kg",
-    "price": 290.0,
+    "price": 290,
     "image": "/images/products/pedigree-puppy-chicmilk-1kg.jpg",
     "stock": 3,
     "description": "Pedigree Puppy Chic&Milk 1Kg - Fresh dairy or refrigerated item.",
@@ -4953,13 +5306,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 4432
+    "rank": 4432,
+    "name": "Pedigree Puppy Chic&Milk 1Kg"
   },
   {
     "id": 4433,
     "title": "Pedigree Puppy Chic&Milk 370G",
     "slug": "pedigree-puppy-chicmilk-370g",
-    "price": 110.0,
+    "price": 110,
     "image": "/images/products/pedigree-puppy-chicmilk-370g.jpg",
     "stock": 3,
     "description": "Pedigree Puppy Chic&Milk 370G - Fresh dairy or refrigerated item.",
@@ -4967,13 +5321,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 4433
+    "rank": 4433,
+    "name": "Pedigree Puppy Chic&Milk 370G"
   },
   {
     "id": 4434,
     "title": "Pedigree Puppy Chic&Milk 90G",
     "slug": "pedigree-puppy-chicmilk-90g",
-    "price": 25.0,
+    "price": 25,
     "image": "/images/products/pedigree-puppy-chicmilk-90g.jpg",
     "stock": 12,
     "description": "Pedigree Puppy Chic&Milk 90G - Fresh dairy or refrigerated item.",
@@ -4981,13 +5336,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 4434
+    "rank": 4434,
+    "name": "Pedigree Puppy Chic&Milk 90G"
   },
   {
     "id": 4464,
     "title": "Phab Cheese Crunch Bar",
     "slug": "phab-cheese-crunch-bar",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/phab-cheese-crunch-bar.jpg",
     "stock": 10,
     "description": "Phab Cheese Crunch Bar - Fresh dairy or refrigerated item.",
@@ -4995,13 +5351,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 4464
+    "rank": 4464,
+    "name": "Phab Cheese Crunch Bar"
   },
   {
     "id": 4471,
     "title": "Phab Protein Milkshake 200Ml",
     "slug": "phab-protein-milkshake-200ml",
-    "price": 135.0,
+    "price": 135,
     "image": "/images/products/phab-protein-milkshake-200ml.jpg",
     "stock": 25,
     "description": "Phab Protein Milkshake 200Ml - Fresh dairy or refrigerated item.",
@@ -5009,13 +5366,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 4471
+    "rank": 4471,
+    "name": "Phab Protein Milkshake 200Ml"
   },
   {
     "id": 4473,
     "title": "Phabulous Cookies&Cream Bar",
     "slug": "phabulous-cookiescream-bar",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/phabulous-cookiescream-bar.jpg",
     "stock": 10,
     "description": "Phabulous Cookies&Cream Bar - Fresh dairy or refrigerated item.",
@@ -5023,13 +5381,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 4473
+    "rank": 4473,
+    "name": "Phabulous Cookies&Cream Bar"
   },
   {
     "id": 4548,
     "title": "Ponds Bb Cream 23G",
     "slug": "ponds-bb-cream-23g",
-    "price": 90.0,
+    "price": 90,
     "image": "/images/products/ponds-bb-cream-23g.jpg",
     "stock": 6,
     "description": "Ponds Bb Cream 23G - Fresh dairy or refrigerated item.",
@@ -5037,13 +5396,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 4548
+    "rank": 4548,
+    "name": "Ponds Bb Cream 23G"
   },
   {
     "id": 4549,
     "title": "Ponds Bb Cream 34G",
     "slug": "ponds-bb-cream-34g",
-    "price": 139.0,
+    "price": 139,
     "image": "/images/products/ponds-bb-cream-34g.jpg",
     "stock": 3,
     "description": "Ponds Bb Cream 34G - Fresh dairy or refrigerated item.",
@@ -5051,13 +5411,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 4549
+    "rank": 4549,
+    "name": "Ponds Bb Cream 34G"
   },
   {
     "id": 4552,
     "title": "Ponds Bb+ Cream Spf 30 18G",
     "slug": "ponds-bb-cream-spf-30-18g",
-    "price": 189.0,
+    "price": 189,
     "image": "/images/products/ponds-bb-cream-spf-30-18g.jpg",
     "stock": 2,
     "description": "Ponds Bb+ Cream Spf 30 18G - Fresh dairy or refrigerated item.",
@@ -5065,13 +5426,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 4552
+    "rank": 4552,
+    "name": "Ponds Bb+ Cream Spf 30 18G"
   },
   {
     "id": 4553,
     "title": "Ponds Bb+ Cream Spf 30 9G",
     "slug": "ponds-bb-cream-spf-30-9g",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/ponds-bb-cream-spf-30-9g.jpg",
     "stock": 3,
     "description": "Ponds Bb+ Cream Spf 30 9G - Fresh dairy or refrigerated item.",
@@ -5079,13 +5441,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 4553
+    "rank": 4553,
+    "name": "Ponds Bb+ Cream Spf 30 9G"
   },
   {
     "id": 4558,
     "title": "Ponds Cream 15G",
     "slug": "ponds-cream-15g",
-    "price": 59.0,
+    "price": 59,
     "image": "/images/products/ponds-cream-15g.jpg",
     "stock": 3,
     "description": "Ponds Cream 15G - Fresh dairy or refrigerated item.",
@@ -5093,13 +5456,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 4558
+    "rank": 4558,
+    "name": "Ponds Cream 15G"
   },
   {
     "id": 4559,
     "title": "Ponds Day Cream 50Gm",
     "slug": "ponds-day-cream-50gm",
-    "price": 899.0,
+    "price": 899,
     "image": "/images/products/ponds-day-cream-50gm.jpg",
     "stock": 2,
     "description": "Ponds Day Cream 50Gm - Fresh dairy or refrigerated item.",
@@ -5107,13 +5471,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 4559
+    "rank": 4559,
+    "name": "Ponds Day Cream 50Gm"
   },
   {
     "id": 4573,
     "title": "Ponds Night Cream 20G",
     "slug": "ponds-night-cream-20g",
-    "price": 305.0,
+    "price": 305,
     "image": "/images/products/ponds-night-cream-20g.jpg",
     "stock": 2,
     "description": "Ponds Night Cream 20G - Fresh dairy or refrigerated item.",
@@ -5121,13 +5486,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 4573
+    "rank": 4573,
+    "name": "Ponds Night Cream 20G"
   },
   {
     "id": 4574,
     "title": "Ponds Rr Cream 50G",
     "slug": "ponds-rr-cream-50g",
-    "price": 330.0,
+    "price": 330,
     "image": "/images/products/ponds-rr-cream-50g.jpg",
     "stock": 1,
     "description": "Ponds Rr Cream 50G - Fresh dairy or refrigerated item.",
@@ -5135,13 +5501,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 4574
+    "rank": 4574,
+    "name": "Ponds Rr Cream 50G"
   },
   {
     "id": 4575,
     "title": "Ponds Super Gel Cream 50Ml",
     "slug": "ponds-super-gel-cream-50ml",
-    "price": 130.0,
+    "price": 130,
     "image": "/images/products/ponds-super-gel-cream-50ml.jpg",
     "stock": 6,
     "description": "Ponds Super Gel Cream 50Ml - Fresh dairy or refrigerated item.",
@@ -5149,13 +5516,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 4575
+    "rank": 4575,
+    "name": "Ponds Super Gel Cream 50Ml"
   },
   {
     "id": 4582,
     "title": "Prasuma Bao Buns Butter Ch",
     "slug": "prasuma-bao-buns-butter-ch",
-    "price": 249.0,
+    "price": 249,
     "image": "/images/products/prasuma-bao-buns-butter-ch.jpg",
     "stock": 3,
     "description": "Prasuma Bao Buns Butter Ch - Fresh dairy or refrigerated item.",
@@ -5163,13 +5531,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 4582
+    "rank": 4582,
+    "name": "Prasuma Bao Buns Butter Ch"
   },
   {
     "id": 4584,
     "title": "Prasuma Cheese Spicy Veg",
     "slug": "prasuma-cheese-spicy-veg",
-    "price": 325.0,
+    "price": 325,
     "image": "/images/products/prasuma-cheese-spicy-veg.jpg",
     "stock": 2,
     "description": "Prasuma Cheese Spicy Veg - Fresh dairy or refrigerated item.",
@@ -5177,13 +5546,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 4584
+    "rank": 4584,
+    "name": "Prasuma Cheese Spicy Veg"
   },
   {
     "id": 4588,
     "title": "Prasuma Veg & Paneer Momos",
     "slug": "prasuma-veg-paneer-momos",
-    "price": 295.0,
+    "price": 295,
     "image": "/images/products/prasuma-veg-paneer-momos.jpg",
     "stock": 3,
     "description": "Prasuma Veg & Paneer Momos - Fresh dairy or refrigerated item.",
@@ -5191,13 +5561,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 4588
+    "rank": 4588,
+    "name": "Prasuma Veg & Paneer Momos"
   },
   {
     "id": 4600,
     "title": "Pringles Cheese",
     "slug": "pringles-cheese",
-    "price": 270.0,
+    "price": 270,
     "image": "/images/products/pringles-cheese.jpg",
     "stock": 2,
     "description": "Pringles Cheese - Fresh dairy or refrigerated item.",
@@ -5205,13 +5576,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 4600
+    "rank": 4600,
+    "name": "Pringles Cheese"
   },
   {
     "id": 4705,
     "title": "Real Thai Coconut Milk 400Ml",
     "slug": "real-thai-coconut-milk-400ml",
-    "price": 209.0,
+    "price": 209,
     "image": "/images/products/real-thai-coconut-milk-400ml.jpg",
     "stock": 6,
     "description": "Real Thai Coconut Milk 400Ml - Fresh dairy or refrigerated item.",
@@ -5219,13 +5591,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 4705
+    "rank": 4705,
+    "name": "Real Thai Coconut Milk 400Ml"
   },
   {
     "id": 4706,
     "title": "Real Thai Coconut Milk Lite 400Ml",
     "slug": "real-thai-coconut-milk-lite-400ml",
-    "price": 159.0,
+    "price": 159,
     "image": "/images/products/real-thai-coconut-milk-lite-400ml.jpg",
     "stock": 6,
     "description": "Real Thai Coconut Milk Lite 400Ml - Fresh dairy or refrigerated item.",
@@ -5233,13 +5606,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 4706
+    "rank": 4706,
+    "name": "Real Thai Coconut Milk Lite 400Ml"
   },
   {
     "id": 4829,
     "title": "Samyang Noodle Cheese",
     "slug": "samyang-noodle-cheese",
-    "price": 150.0,
+    "price": 150,
     "image": "/images/products/samyang-noodle-cheese.jpg",
     "stock": 49,
     "description": "Samyang Noodle Cheese - Fresh dairy or refrigerated item.",
@@ -5247,13 +5621,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 4829
+    "rank": 4829,
+    "name": "Samyang Noodle Cheese"
   },
   {
     "id": 4830,
     "title": "Samyang Noodle Cheese",
     "slug": "samyang-noodle-cheese",
-    "price": 150.0,
+    "price": 150,
     "image": "/images/products/samyang-noodle-cheese.jpg",
     "stock": -27,
     "description": "Samyang Noodle Cheese - Fresh dairy or refrigerated item.",
@@ -5261,13 +5636,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 4830
+    "rank": 4830,
+    "name": "Samyang Noodle Cheese"
   },
   {
     "id": 4911,
     "title": "Sds Kadai Paneer Masala",
     "slug": "sds-kadai-paneer-masala",
-    "price": 50.0,
+    "price": 50,
     "image": "/images/products/sds-kadai-paneer-masala.jpg",
     "stock": 3,
     "description": "Sds Kadai Paneer Masala - Fresh dairy or refrigerated item.",
@@ -5275,13 +5651,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 4911
+    "rank": 4911,
+    "name": "Sds Kadai Paneer Masala"
   },
   {
     "id": 4913,
     "title": "Sds Matar Paneer Masala",
     "slug": "sds-matar-paneer-masala",
-    "price": 35.0,
+    "price": 35,
     "image": "/images/products/sds-matar-paneer-masala.jpg",
     "stock": 3,
     "description": "Sds Matar Paneer Masala - Fresh dairy or refrigerated item.",
@@ -5289,13 +5666,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 4913
+    "rank": 4913,
+    "name": "Sds Matar Paneer Masala"
   },
   {
     "id": 4925,
     "title": "Sds Shai Paneer Masala",
     "slug": "sds-shai-paneer-masala",
-    "price": 50.0,
+    "price": 50,
     "image": "/images/products/sds-shai-paneer-masala.jpg",
     "stock": 3,
     "description": "Sds Shai Paneer Masala - Fresh dairy or refrigerated item.",
@@ -5303,13 +5681,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 4925
+    "rank": 4925,
+    "name": "Sds Shai Paneer Masala"
   },
   {
     "id": 4942,
     "title": "Seba Med Protective Cream",
     "slug": "seba-med-protective-cream",
-    "price": 890.0,
+    "price": 890,
     "image": "/images/products/seba-med-protective-cream.jpg",
     "stock": 1,
     "description": "Seba Med Protective Cream - Fresh dairy or refrigerated item.",
@@ -5317,13 +5696,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 4942
+    "rank": 4942,
+    "name": "Seba Med Protective Cream"
   },
   {
     "id": 4947,
     "title": "Sf Choclate/Banana/Classi Pancake",
     "slug": "sf-choclatebananaclassi-pancake",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/sf-choclatebananaclassi-pancake.jpg",
     "stock": 12,
     "description": "Sf Choclate/Banana/Classi Pancake - Fresh dairy or refrigerated item.",
@@ -5331,13 +5711,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 4947
+    "rank": 4947,
+    "name": "Sf Choclate/Banana/Classi Pancake"
   },
   {
     "id": 4982,
     "title": "Shan Butter Chicken Masala",
     "slug": "shan-butter-chicken-masala",
-    "price": 110.0,
+    "price": 110,
     "image": "/images/products/shan-butter-chicken-masala.jpg",
     "stock": 4,
     "description": "Shan Butter Chicken Masala - Fresh dairy or refrigerated item.",
@@ -5345,13 +5726,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 4982
+    "rank": 4982,
+    "name": "Shan Butter Chicken Masala"
   },
   {
     "id": 5035,
     "title": "Skippy Peanut Butter Crunchy",
     "slug": "skippy-peanut-butter-crunchy",
-    "price": 575.0,
+    "price": 575,
     "image": "/images/products/skippy-peanut-butter-crunchy.jpg",
     "stock": 3,
     "description": "Skippy Peanut Butter Crunchy - Fresh dairy or refrigerated item.",
@@ -5359,13 +5741,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 5035
+    "rank": 5035,
+    "name": "Skippy Peanut Butter Crunchy"
   },
   {
     "id": 5067,
     "title": "Snickers Butterscotch 40Gm",
     "slug": "snickers-butterscotch-40gm",
-    "price": 70.0,
+    "price": 70,
     "image": "/images/products/snickers-butterscotch-40gm.jpg",
     "stock": 10,
     "description": "Snickers Butterscotch 40Gm - Fresh dairy or refrigerated item.",
@@ -5373,13 +5756,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 5067
+    "rank": 5067,
+    "name": "Snickers Butterscotch 40Gm"
   },
   {
     "id": 5069,
     "title": "So Good Almond Milk 1L",
     "slug": "so-good-almond-milk-1l",
-    "price": 300.0,
+    "price": 300,
     "image": "/images/products/so-good-almond-milk-1l.jpg",
     "stock": 9,
     "description": "So Good Almond Milk 1L - Fresh dairy or refrigerated item.",
@@ -5387,13 +5771,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 5069
+    "rank": 5069,
+    "name": "So Good Almond Milk 1L"
   },
   {
     "id": 5070,
     "title": "So Good Almond Milk 200Ml",
     "slug": "so-good-almond-milk-200ml",
-    "price": 75.0,
+    "price": 75,
     "image": "/images/products/so-good-almond-milk-200ml.jpg",
     "stock": 19,
     "description": "So Good Almond Milk 200Ml - Fresh dairy or refrigerated item.",
@@ -5401,13 +5786,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 5070
+    "rank": 5070,
+    "name": "So Good Almond Milk 200Ml"
   },
   {
     "id": 5071,
     "title": "So Good Oat Milk 1L",
     "slug": "so-good-oat-milk-1l",
-    "price": 300.0,
+    "price": 300,
     "image": "/images/products/so-good-oat-milk-1l.jpg",
     "stock": 8,
     "description": "So Good Oat Milk 1L - Fresh dairy or refrigerated item.",
@@ -5415,13 +5801,14 @@ const products = [
     "unit": "pcs",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 5071
+    "rank": 5071,
+    "name": "So Good Oat Milk 1L"
   },
   {
     "id": 5072,
     "title": "So Good Oat Milk 200Ml",
     "slug": "so-good-oat-milk-200ml",
-    "price": 75.0,
+    "price": 75,
     "image": "/images/products/so-good-oat-milk-200ml.jpg",
     "stock": 20,
     "description": "So Good Oat Milk 200Ml - Fresh dairy or refrigerated item.",
@@ -5429,13 +5816,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 5072
+    "rank": 5072,
+    "name": "So Good Oat Milk 200Ml"
   },
   {
     "id": 5073,
     "title": "So Good Soy Milk 1L",
     "slug": "so-good-soy-milk-1l",
-    "price": 145.0,
+    "price": 145,
     "image": "/images/products/so-good-soy-milk-1l.jpg",
     "stock": 12,
     "description": "So Good Soy Milk 1L - Fresh dairy or refrigerated item.",
@@ -5443,13 +5831,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 5073
+    "rank": 5073,
+    "name": "So Good Soy Milk 1L"
   },
   {
     "id": 5074,
     "title": "So Good Soy Milk 200Ml",
     "slug": "so-good-soy-milk-200ml",
-    "price": 40.0,
+    "price": 40,
     "image": "/images/products/so-good-soy-milk-200ml.jpg",
     "stock": 28,
     "description": "So Good Soy Milk 200Ml - Fresh dairy or refrigerated item.",
@@ -5457,13 +5846,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 5074
+    "rank": 5074,
+    "name": "So Good Soy Milk 200Ml"
   },
   {
     "id": 5080,
     "title": "Softsens Baby Cream",
     "slug": "softsens-baby-cream",
-    "price": 175.0,
+    "price": 175,
     "image": "/images/products/softsens-baby-cream.jpg",
     "stock": 6,
     "description": "Softsens Baby Cream - Fresh dairy or refrigerated item.",
@@ -5471,13 +5861,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 5080
+    "rank": 5080,
+    "name": "Softsens Baby Cream"
   },
   {
     "id": 5082,
     "title": "Softsens Baby Milk Bar",
     "slug": "softsens-baby-milk-bar",
-    "price": 210.0,
+    "price": 210,
     "image": "/images/products/softsens-baby-milk-bar.jpg",
     "stock": 12,
     "description": "Softsens Baby Milk Bar - Fresh dairy or refrigerated item.",
@@ -5485,13 +5876,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 5082
+    "rank": 5082,
+    "name": "Softsens Baby Milk Bar"
   },
   {
     "id": 5092,
     "title": "Softsens Cream Bar",
     "slug": "softsens-cream-bar",
-    "price": 210.0,
+    "price": 210,
     "image": "/images/products/softsens-cream-bar.jpg",
     "stock": 12,
     "description": "Softsens Cream Bar - Fresh dairy or refrigerated item.",
@@ -5499,13 +5891,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 5092
+    "rank": 5092,
+    "name": "Softsens Cream Bar"
   },
   {
     "id": 5093,
     "title": "Softsens Milk Bar",
     "slug": "softsens-milk-bar",
-    "price": 48.0,
+    "price": 48,
     "image": "/images/products/softsens-milk-bar.jpg",
     "stock": 12,
     "description": "Softsens Milk Bar - Fresh dairy or refrigerated item.",
@@ -5513,13 +5906,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 5093
+    "rank": 5093,
+    "name": "Softsens Milk Bar"
   },
   {
     "id": 5094,
     "title": "Softsens Soap Creamy",
     "slug": "softsens-soap-creamy",
-    "price": 180.0,
+    "price": 180,
     "image": "/images/products/softsens-soap-creamy.jpg",
     "stock": 12,
     "description": "Softsens Soap Creamy - Fresh dairy or refrigerated item.",
@@ -5527,13 +5921,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 5094
+    "rank": 5094,
+    "name": "Softsens Soap Creamy"
   },
   {
     "id": 5096,
     "title": "Softsens Sunblock Cream",
     "slug": "softsens-sunblock-cream",
-    "price": 235.0,
+    "price": 235,
     "image": "/images/products/softsens-sunblock-cream.jpg",
     "stock": 6,
     "description": "Softsens Sunblock Cream - Fresh dairy or refrigerated item.",
@@ -5541,13 +5936,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 5096
+    "rank": 5096,
+    "name": "Softsens Sunblock Cream"
   },
   {
     "id": 5097,
     "title": "Solh Cold Coffee Classic 200Ml",
     "slug": "solh-cold-coffee-classic-200ml",
-    "price": 50.0,
+    "price": 50,
     "image": "/images/products/solh-cold-coffee-classic-200ml.jpg",
     "stock": 6,
     "description": "Solh Cold Coffee Classic 200Ml - Fresh dairy or refrigerated item.",
@@ -5555,13 +5951,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 5097
+    "rank": 5097,
+    "name": "Solh Cold Coffee Classic 200Ml"
   },
   {
     "id": 5253,
     "title": "Sundrop Peanut Butter Creamy",
     "slug": "sundrop-peanut-butter-creamy",
-    "price": 150.0,
+    "price": 150,
     "image": "/images/products/sundrop-peanut-butter-creamy.jpg",
     "stock": 2,
     "description": "Sundrop Peanut Butter Creamy - Fresh dairy or refrigerated item.",
@@ -5569,13 +5966,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 5253
+    "rank": 5253,
+    "name": "Sundrop Peanut Butter Creamy"
   },
   {
     "id": 5254,
     "title": "Sundrop Peanut Butter Creamy 200G",
     "slug": "sundrop-peanut-butter-creamy-200g",
-    "price": 75.0,
+    "price": 75,
     "image": "/images/products/sundrop-peanut-butter-creamy-200g.jpg",
     "stock": 1,
     "description": "Sundrop Peanut Butter Creamy 200G - Fresh dairy or refrigerated item.",
@@ -5583,13 +5981,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 5254
+    "rank": 5254,
+    "name": "Sundrop Peanut Butter Creamy 200G"
   },
   {
     "id": 5255,
     "title": "Sundrop Peanut Butter Crunchy",
     "slug": "sundrop-peanut-butter-crunchy",
-    "price": 150.0,
+    "price": 150,
     "image": "/images/products/sundrop-peanut-butter-crunchy.jpg",
     "stock": 3,
     "description": "Sundrop Peanut Butter Crunchy - Fresh dairy or refrigerated item.",
@@ -5597,13 +5996,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 5255
+    "rank": 5255,
+    "name": "Sundrop Peanut Butter Crunchy"
   },
   {
     "id": 5256,
     "title": "Sundrop Peanut Butter Regular",
     "slug": "sundrop-peanut-butter-regular",
-    "price": 295.0,
+    "price": 295,
     "image": "/images/products/sundrop-peanut-butter-regular.jpg",
     "stock": 3,
     "description": "Sundrop Peanut Butter Regular - Fresh dairy or refrigerated item.",
@@ -5611,13 +6011,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 5256
+    "rank": 5256,
+    "name": "Sundrop Peanut Butter Regular"
   },
   {
     "id": 5272,
     "title": "Superyou Cheese Wafer 400Gm",
     "slug": "superyou-cheese-wafer-400gm",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/superyou-cheese-wafer-400gm.jpg",
     "stock": 15,
     "description": "Superyou Cheese Wafer 400Gm - Fresh dairy or refrigerated item.",
@@ -5625,13 +6026,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 5272
+    "rank": 5272,
+    "name": "Superyou Cheese Wafer 400Gm"
   },
   {
     "id": 5326,
     "title": "Tdc Kojic Acid Face Cream",
     "slug": "tdc-kojic-acid-face-cream",
-    "price": 499.0,
+    "price": 499,
     "image": "/images/products/tdc-kojic-acid-face-cream.jpg",
     "stock": 3,
     "description": "Tdc Kojic Acid Face Cream - Fresh dairy or refrigerated item.",
@@ -5639,13 +6041,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 5326
+    "rank": 5326,
+    "name": "Tdc Kojic Acid Face Cream"
   },
   {
     "id": 5344,
     "title": "Tetley Green Tea Classic 25B",
     "slug": "tetley-green-tea-classic-25b",
-    "price": 175.0,
+    "price": 175,
     "image": "/images/products/tetley-green-tea-classic-25b.jpg",
     "stock": 6,
     "description": "Tetley Green Tea Classic 25B - Fresh dairy or refrigerated item.",
@@ -5653,13 +6056,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 5344
+    "rank": 5344,
+    "name": "Tetley Green Tea Classic 25B"
   },
   {
     "id": 5370,
     "title": "The Pahadi Ghee 500Gm",
     "slug": "the-pahadi-ghee-500gm",
-    "price": 2100.0,
+    "price": 2100,
     "image": "/images/products/the-pahadi-ghee-500gm.jpg",
     "stock": 18,
     "description": "The Pahadi Ghee 500Gm - Fresh dairy or refrigerated item.",
@@ -5667,13 +6071,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 5370
+    "rank": 5370,
+    "name": "The Pahadi Ghee 500Gm"
   },
   {
     "id": 5411,
     "title": "Tiffy Crunch & Cream",
     "slug": "tiffy-crunch-cream",
-    "price": 100.0,
+    "price": 100,
     "image": "/images/products/tiffy-crunch-cream.jpg",
     "stock": 1,
     "description": "Tiffy Crunch & Cream - Fresh dairy or refrigerated item.",
@@ -5681,13 +6086,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 5411
+    "rank": 5411,
+    "name": "Tiffy Crunch & Cream"
   },
   {
     "id": 5522,
     "title": "Uji Coconut Milk 250Ml",
     "slug": "uji-coconut-milk-250ml",
-    "price": 115.0,
+    "price": 115,
     "image": "/images/products/uji-coconut-milk-250ml.jpg",
     "stock": 23,
     "description": "Uji Coconut Milk 250Ml - Fresh dairy or refrigerated item.",
@@ -5695,13 +6101,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 5522
+    "rank": 5522,
+    "name": "Uji Coconut Milk 250Ml"
   },
   {
     "id": 5555,
     "title": "Valley Culture A2 Ghee 500G",
     "slug": "valley-culture-a2-ghee-500g",
-    "price": 1250.0,
+    "price": 1250,
     "image": "/images/products/valley-culture-a2-ghee-500g.jpg",
     "stock": 5,
     "description": "Valley Culture A2 Ghee 500G - Fresh dairy or refrigerated item.",
@@ -5709,13 +6116,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 5555
+    "rank": 5555,
+    "name": "Valley Culture A2 Ghee 500G"
   },
   {
     "id": 5608,
     "title": "Veeba Cheese & Jalapino",
     "slug": "veeba-cheese-jalapino",
-    "price": 174.0,
+    "price": 174,
     "image": "/images/products/veeba-cheese-jalapino.jpg",
     "stock": 3,
     "description": "Veeba Cheese & Jalapino - Fresh dairy or refrigerated item.",
@@ -5723,13 +6131,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 5608
+    "rank": 5608,
+    "name": "Veeba Cheese & Jalapino"
   },
   {
     "id": 5616,
     "title": "Veeba Choco Crunch Peanut Butter",
     "slug": "veeba-choco-crunch-peanut-butter",
-    "price": 269.0,
+    "price": 269,
     "image": "/images/products/veeba-choco-crunch-peanut-butter.jpg",
     "stock": 3,
     "description": "Veeba Choco Crunch Peanut Butter - Fresh dairy or refrigerated item.",
@@ -5737,13 +6146,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 5616
+    "rank": 5616,
+    "name": "Veeba Choco Crunch Peanut Butter"
   },
   {
     "id": 5618,
     "title": "Veeba Classic Marinara Pp Sauce",
     "slug": "veeba-classic-marinara-pp-sauce",
-    "price": 169.0,
+    "price": 169,
     "image": "/images/products/veeba-classic-marinara-pp-sauce.jpg",
     "stock": 2,
     "description": "Veeba Classic Marinara Pp Sauce - Fresh dairy or refrigerated item.",
@@ -5751,13 +6161,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 5618
+    "rank": 5618,
+    "name": "Veeba Classic Marinara Pp Sauce"
   },
   {
     "id": 5619,
     "title": "Veeba Classic Ranch",
     "slug": "veeba-classic-ranch",
-    "price": 219.0,
+    "price": 219,
     "image": "/images/products/veeba-classic-ranch.jpg",
     "stock": 3,
     "description": "Veeba Classic Ranch - Fresh dairy or refrigerated item.",
@@ -5765,13 +6176,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 5619
+    "rank": 5619,
+    "name": "Veeba Classic Ranch"
   },
   {
     "id": 5637,
     "title": "Veeba Peanut Butter Creamy 340G",
     "slug": "veeba-peanut-butter-creamy-340g",
-    "price": 219.0,
+    "price": 219,
     "image": "/images/products/veeba-peanut-butter-creamy-340g.jpg",
     "stock": 3,
     "description": "Veeba Peanut Butter Creamy 340G - Fresh dairy or refrigerated item.",
@@ -5779,13 +6191,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 5637
+    "rank": 5637,
+    "name": "Veeba Peanut Butter Creamy 340G"
   },
   {
     "id": 5638,
     "title": "Veeba Peanut Butter Creamy 925G",
     "slug": "veeba-peanut-butter-creamy-925g",
-    "price": 399.0,
+    "price": 399,
     "image": "/images/products/veeba-peanut-butter-creamy-925g.jpg",
     "stock": 2,
     "description": "Veeba Peanut Butter Creamy 925G - Fresh dairy or refrigerated item.",
@@ -5793,13 +6206,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 5638
+    "rank": 5638,
+    "name": "Veeba Peanut Butter Creamy 925G"
   },
   {
     "id": 5639,
     "title": "Veeba Peanut Butter Crunchy",
     "slug": "veeba-peanut-butter-crunchy",
-    "price": 399.0,
+    "price": 399,
     "image": "/images/products/veeba-peanut-butter-crunchy.jpg",
     "stock": 2,
     "description": "Veeba Peanut Butter Crunchy - Fresh dairy or refrigerated item.",
@@ -5807,13 +6221,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 5639
+    "rank": 5639,
+    "name": "Veeba Peanut Butter Crunchy"
   },
   {
     "id": 5640,
     "title": "Veeba Peanut Butter Cruncy 340G",
     "slug": "veeba-peanut-butter-cruncy-340g",
-    "price": 219.0,
+    "price": 219,
     "image": "/images/products/veeba-peanut-butter-cruncy-340g.jpg",
     "stock": 1,
     "description": "Veeba Peanut Butter Cruncy 340G - Fresh dairy or refrigerated item.",
@@ -5821,13 +6236,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 5640
+    "rank": 5640,
+    "name": "Veeba Peanut Butter Cruncy 340G"
   },
   {
     "id": 5652,
     "title": "Veeba Select Creamy Caesr Dressing",
     "slug": "veeba-select-creamy-caesr-dressing",
-    "price": 189.0,
+    "price": 189,
     "image": "/images/products/veeba-select-creamy-caesr-dressing.jpg",
     "stock": 2,
     "description": "Veeba Select Creamy Caesr Dressing - Fresh dairy or refrigerated item.",
@@ -5835,13 +6251,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 5652
+    "rank": 5652,
+    "name": "Veeba Select Creamy Caesr Dressing"
   },
   {
     "id": 5666,
     "title": "Veet Cream 30G",
     "slug": "veet-cream-30g",
-    "price": 109.0,
+    "price": 109,
     "image": "/images/products/veet-cream-30g.jpg",
     "stock": 9,
     "description": "Veet Cream 30G - Fresh dairy or refrigerated item.",
@@ -5849,13 +6266,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 5666
+    "rank": 5666,
+    "name": "Veet Cream 30G"
   },
   {
     "id": 5667,
     "title": "Veet Cream 50Gm",
     "slug": "veet-cream-50gm",
-    "price": 159.0,
+    "price": 159,
     "image": "/images/products/veet-cream-50gm.jpg",
     "stock": 9,
     "description": "Veet Cream 50Gm - Fresh dairy or refrigerated item.",
@@ -5863,13 +6281,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 5667
+    "rank": 5667,
+    "name": "Veet Cream 50Gm"
   },
   {
     "id": 5672,
     "title": "Veet Strips Butter 20N",
     "slug": "veet-strips-butter-20n",
-    "price": 280.0,
+    "price": 280,
     "image": "/images/products/veet-strips-butter-20n.jpg",
     "stock": 2,
     "description": "Veet Strips Butter 20N - Fresh dairy or refrigerated item.",
@@ -5877,13 +6296,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 5672
+    "rank": 5672,
+    "name": "Veet Strips Butter 20N"
   },
   {
     "id": 5710,
     "title": "Venky'S Chicken & Cheese Nuggets 500Gm",
     "slug": "venkys-chicken-cheese-nuggets-500gm",
-    "price": 355.0,
+    "price": 355,
     "image": "/images/products/venkys-chicken-cheese-nuggets-500gm.jpg",
     "stock": 1,
     "description": "Venky'S Chicken & Cheese Nuggets 500Gm - Fresh dairy or refrigerated item.",
@@ -5891,13 +6311,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 5710
+    "rank": 5710,
+    "name": "Venky'S Chicken & Cheese Nuggets 500Gm"
   },
   {
     "id": 5733,
     "title": "Vicco Turmeric Skin Cream 15G",
     "slug": "vicco-turmeric-skin-cream-15g",
-    "price": 80.0,
+    "price": 80,
     "image": "/images/products/vicco-turmeric-skin-cream-15g.jpg",
     "stock": 2,
     "description": "Vicco Turmeric Skin Cream 15G - Fresh dairy or refrigerated item.",
@@ -5905,13 +6326,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 5733
+    "rank": 5733,
+    "name": "Vicco Turmeric Skin Cream 15G"
   },
   {
     "id": 5734,
     "title": "Vicco Turmeric Skin Cream 30G",
     "slug": "vicco-turmeric-skin-cream-30g",
-    "price": 145.0,
+    "price": 145,
     "image": "/images/products/vicco-turmeric-skin-cream-30g.jpg",
     "stock": 2,
     "description": "Vicco Turmeric Skin Cream 30G - Fresh dairy or refrigerated item.",
@@ -5919,13 +6341,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 5734
+    "rank": 5734,
+    "name": "Vicco Turmeric Skin Cream 30G"
   },
   {
     "id": 5788,
     "title": "Vita Millets Milk 200Ml",
     "slug": "vita-millets-milk-200ml",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/vita-millets-milk-200ml.jpg",
     "stock": 29,
     "description": "Vita Millets Milk 200Ml - Fresh dairy or refrigerated item.",
@@ -5933,13 +6356,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 5788
+    "rank": 5788,
+    "name": "Vita Millets Milk 200Ml"
   },
   {
     "id": 5811,
     "title": "Weikfield Custard/Mango/Straw/Butter",
     "slug": "weikfield-custardmangostrawbutter",
-    "price": 52.0,
+    "price": 52,
     "image": "/images/products/weikfield-custardmangostrawbutter.jpg",
     "stock": 9,
     "description": "Weikfield Custard/Mango/Straw/Butter - Fresh dairy or refrigerated item.",
@@ -5947,13 +6371,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 5811
+    "rank": 5811,
+    "name": "Weikfield Custard/Mango/Straw/Butter"
   },
   {
     "id": 5823,
     "title": "Whimsy Butter Me Up",
     "slug": "whimsy-butter-me-up",
-    "price": 399.0,
+    "price": 399,
     "image": "/images/products/whimsy-butter-me-up.jpg",
     "stock": 1,
     "description": "Whimsy Butter Me Up - Fresh dairy or refrigerated item.",
@@ -5961,13 +6386,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 5823
+    "rank": 5823,
+    "name": "Whimsy Butter Me Up"
   },
   {
     "id": 5903,
     "title": "Whitetone Cream 25G",
     "slug": "whitetone-cream-25g",
-    "price": 75.0,
+    "price": 75,
     "image": "/images/products/whitetone-cream-25g.jpg",
     "stock": 2,
     "description": "Whitetone Cream 25G - Fresh dairy or refrigerated item.",
@@ -5975,13 +6401,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 5903
+    "rank": 5903,
+    "name": "Whitetone Cream 25G"
   },
   {
     "id": 5904,
     "title": "Whitetone Cream 35G",
     "slug": "whitetone-cream-35g",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/whitetone-cream-35g.jpg",
     "stock": 6,
     "description": "Whitetone Cream 35G - Fresh dairy or refrigerated item.",
@@ -5989,13 +6416,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 5904
+    "rank": 5904,
+    "name": "Whitetone Cream 35G"
   },
   {
     "id": 5905,
     "title": "Whitetone Cream 50G",
     "slug": "whitetone-cream-50g",
-    "price": 140.0,
+    "price": 140,
     "image": "/images/products/whitetone-cream-50g.jpg",
     "stock": 6,
     "description": "Whitetone Cream 50G - Fresh dairy or refrigerated item.",
@@ -6003,13 +6431,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 5905
+    "rank": 5905,
+    "name": "Whitetone Cream 50G"
   },
   {
     "id": 5909,
     "title": "Wingreeen Chilli Cheese Dip 180G",
     "slug": "wingreeen-chilli-cheese-dip-180g",
-    "price": 250.0,
+    "price": 250,
     "image": "/images/products/wingreeen-chilli-cheese-dip-180g.jpg",
     "stock": 4,
     "description": "Wingreeen Chilli Cheese Dip 180G - Fresh dairy or refrigerated item.",
@@ -6017,13 +6446,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 5909
+    "rank": 5909,
+    "name": "Wingreeen Chilli Cheese Dip 180G"
   },
   {
     "id": 5912,
     "title": "Wingreeen Jalapeno Cheese Dip 150G",
     "slug": "wingreeen-jalapeno-cheese-dip-150g",
-    "price": 250.0,
+    "price": 250,
     "image": "/images/products/wingreeen-jalapeno-cheese-dip-150g.jpg",
     "stock": 4,
     "description": "Wingreeen Jalapeno Cheese Dip 150G - Fresh dairy or refrigerated item.",
@@ -6031,13 +6461,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 5912
+    "rank": 5912,
+    "name": "Wingreeen Jalapeno Cheese Dip 150G"
   },
   {
     "id": 5922,
     "title": "Wingreeen Truffle Cheese Dip 180G",
     "slug": "wingreeen-truffle-cheese-dip-180g",
-    "price": 250.0,
+    "price": 250,
     "image": "/images/products/wingreeen-truffle-cheese-dip-180g.jpg",
     "stock": 4,
     "description": "Wingreeen Truffle Cheese Dip 180G - Fresh dairy or refrigerated item.",
@@ -6045,13 +6476,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 5922
+    "rank": 5922,
+    "name": "Wingreeen Truffle Cheese Dip 180G"
   },
   {
     "id": 5967,
     "title": "Yardley Classic Roll On",
     "slug": "yardley-classic-roll-on",
-    "price": 249.0,
+    "price": 249,
     "image": "/images/products/yardley-classic-roll-on.jpg",
     "stock": 2,
     "description": "Yardley Classic Roll On - Fresh dairy or refrigerated item.",
@@ -6059,13 +6491,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 5967
+    "rank": 5967,
+    "name": "Yardley Classic Roll On"
   },
   {
     "id": 5990,
     "title": "Yu Food Korean Chilli Cheese",
     "slug": "yu-food-korean-chilli-cheese",
-    "price": 45.0,
+    "price": 45,
     "image": "/images/products/yu-food-korean-chilli-cheese.jpg",
     "stock": 33,
     "description": "Yu Food Korean Chilli Cheese - Fresh dairy or refrigerated item.",
@@ -6073,13 +6506,14 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 5990
+    "rank": 5990,
+    "name": "Yu Food Korean Chilli Cheese"
   },
   {
     "id": 5994,
     "title": "Yu Food Three Cheese Pasta Cup",
     "slug": "yu-food-three-cheese-pasta-cup",
-    "price": 95.0,
+    "price": 95,
     "image": "/images/products/yu-food-three-cheese-pasta-cup.jpg",
     "stock": -7,
     "description": "Yu Food Three Cheese Pasta Cup - Fresh dairy or refrigerated item.",
@@ -6087,7 +6521,8 @@ const products = [
     "unit": "PCS",
     "category": "dairy-refrigerated",
     "popular": false,
-    "rank": 5994
+    "rank": 5994,
+    "name": "Yu Food Three Cheese Pasta Cup"
   }
 ];
 

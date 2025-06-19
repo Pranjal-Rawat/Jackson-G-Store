@@ -1,7 +1,8 @@
+// Route: /api/products  (GET – List products, optional: ?category=fruits&skip=0&limit=50)
+
 import mongoose from 'mongoose';
 import Product from '../../lib/models/Product';
 
-// GET /api/products?category=fruits&skip=50&limit=50
 export async function GET(req) {
   try {
     const { searchParams } = new URL(req.url);
@@ -18,16 +19,16 @@ export async function GET(req) {
       });
     }
 
-    // Always filter by slug (your category is slugified)
+    // Filter products by category (if provided)
     const filter = category ? { category } : {};
 
-    // Get products
+    // Fetch products with pagination
     const products = await Product.find(filter)
       .skip(skip)
       .limit(limit)
       .lean();
 
-    // Ensure _id is string (for Next.js/React)
+    // Convert _id to string for frontend compatibility
     const safeProducts = products.map((p) => ({
       ...p,
       _id: p._id?.toString(),

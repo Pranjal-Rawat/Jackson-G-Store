@@ -1,12 +1,13 @@
+// Route: /app/products/[slug]/page.jsx – Single Product Detail (SSR + SEO)
 import clientPromise from '../../lib/mongodb';
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import AddToCartButton from '@/components/AddToCartButton';
 import Link from 'next/link';
 
-export const dynamic = 'force-dynamic';
+export const dynamic = 'force-dynamic'; // Always SSR, latest data
 
-// SEO Metadata
+// --- SEO Metadata ---
 export async function generateMetadata({ params }) {
   const { slug } = params;
   const client = await clientPromise;
@@ -36,16 +37,16 @@ export async function generateMetadata({ params }) {
   };
 }
 
-
-
 export default async function ProductPage({ params }) {
   const { slug } = params;
   const client = await clientPromise;
   const db = client.db('jackson-grocery-store');
 
+  // --- Fetch product ---
   const product = await db.collection('products').findOne({ slug });
   if (!product) return notFound();
 
+  // --- Related products ---
   const related = await db
     .collection('products')
     .find({ category: product.category, slug: { $ne: slug } })
@@ -61,6 +62,7 @@ export default async function ProductPage({ params }) {
     _id: p._id?.toString?.() || p._id || '',
   }));
 
+  // --- Safe fields ---
   const title = mainProduct.title || mainProduct['Product Name'] || 'Product';
   const description = mainProduct.description || mainProduct.Description || '';
   const price = Number(mainProduct.price || mainProduct.Price || 0);
@@ -168,4 +170,3 @@ export default async function ProductPage({ params }) {
     </main>
   );
 }
-

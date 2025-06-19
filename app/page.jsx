@@ -1,18 +1,23 @@
-// app/page.jsx
+// Route: /app/page.jsx – Home page (SSR, product fetch, hero, features, and carousels)
+
 import PerformanceCarousel from '@/components/Carousel';
 import CategoryCarousel from '@/components/CategoryCarousel';
 import PopularProducts from '@/components/PopularProducts';
 import clientPromise from './lib/mongodb';
 
+export const dynamic = 'force-dynamic'; // Ensure SSR with fresh data
+
 export default async function Home() {
+  // --- MongoDB: Fetch all products for PopularProducts ---
   const client = await clientPromise;
   const db = client.db('jackson-grocery-store');
   const products = await db.collection('products').find().toArray();
-  const safeProducts = products.map(p => ({
+  const safeProducts = products.map((p) => ({
     ...p,
     _id: p._id?.toString(),
   }));
 
+  // --- Features Data ---
   const features = [
     {
       icon: (
@@ -54,13 +59,13 @@ export default async function Home() {
 
   return (
     <>
-      {/* Carousel - full width */}
+      {/* Hero Carousel */}
       <PerformanceCarousel />
 
-      {/* CategoryCarousel - full width */}
+      {/* Shop By Category Carousel */}
       <CategoryCarousel />
 
-      {/* Hero Section (centered & padded) */}
+      {/* Hero Section */}
       <section className="relative bg-white">
         <div className="max-w-7xl mx-auto px-4 py-16 text-center">
           <h1 className="text-4xl font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
@@ -72,14 +77,14 @@ export default async function Home() {
         </div>
       </section>
 
-      {/* Popular Products (centered & padded) */}
+      {/* Popular Products */}
       <section>
         <div className="max-w-7xl mx-auto px-4">
           <PopularProducts products={safeProducts} />
         </div>
       </section>
 
-      {/* Quality Promise Section (centered & padded) */}
+      {/* Quality Promise Section */}
       <section className="bg-white py-16">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">

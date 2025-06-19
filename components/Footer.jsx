@@ -1,7 +1,15 @@
+// Route: /components/Footer.jsx – Modern site footer with branding, links, and copyright
+
 import Image from 'next/image';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
+
+  const linkSections = [
+    { label: 'Company', links: [{ name: 'About', href: '/about' }, { name: 'Careers', href: '/careers' }, { name: 'History', href: '/history' }] },
+    { label: 'Services', links: [{ name: 'Delivery', href: '/delivery' }, { name: 'FAQ', href: '/faq' }, { name: 'Support', href: '/support' }] },
+    { label: 'Connect', links: [{ name: 'Blog', href: '/blog' }, { name: 'Projects', href: '/projects' }, { name: 'Contact', href: '/contact' }] },
+  ];
 
   return (
     <footer className="relative bg-primary-500 text-white mt-20 overflow-hidden">
@@ -36,22 +44,18 @@ export default function Footer() {
 
           {/* Links Sections */}
           <div className="grid grid-cols-2 gap-8 md:col-span-2 md:grid-cols-3">
-            {[
-              { label: 'Company', links: ['About', 'Careers', 'History'] },
-              { label: 'Services', links: ['Delivery', 'FAQ', 'Support'] },
-              { label: 'Connect', links: ['Blog', 'Projects', 'Contact'] }
-            ].map((section) => (
+            {linkSections.map((section) => (
               <div key={section.label}>
                 <h3 className="text-lg font-semibold mb-4 text-secondary-400 tracking-wide uppercase">{section.label}</h3>
                 <ul className="space-y-2">
                   {section.links.map((item) => (
-                    <li key={item}>
+                    <li key={item.name}>
                       <a
-                        href="#"
-                        className="group relative text-gray-200 hover:text-secondary-400 font-medium transition-colors py-1 inline-block"
-                        aria-label={item}
+                        href={item.href}
+                        className="group relative text-gray-200 hover:text-secondary-400 font-medium transition-colors py-1 inline-block focus:outline-none focus:underline"
+                        aria-label={item.name}
                       >
-                        {item}
+                        {item.name}
                         <span className="absolute left-0 -bottom-0.5 w-0 h-0.5 bg-secondary-400 rounded-full group-hover:w-full transition-all duration-300"></span>
                       </a>
                     </li>
@@ -65,7 +69,7 @@ export default function Footer() {
         {/* Copyright */}
         <div className="border-t border-primary-400/60 mt-10 pt-7">
           <p className="text-center text-gray-300 text-sm tracking-wide">
-            © {currentYear} <span className="font-bold">Grocery Store</span>. All rights reserved.
+            © {currentYear} <span className="font-bold">Jackson Grocery</span>. All rights reserved.
           </p>
         </div>
       </div>

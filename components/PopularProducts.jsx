@@ -1,6 +1,8 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+// Route: /components/PopularProducts.jsx – Popular products grid with add to cart
+
+import { useState, useMemo, useCallback } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useCartStore } from '@/stores/cartStore';
@@ -9,7 +11,7 @@ export default function PopularProducts({ products }) {
   const addToCart = useCartStore((state) => state.addItem);
   const [visibleCount, setVisibleCount] = useState(10);
 
-  // Sort/filter popular products from props
+  // Sort/filter popular products from props (memoized for performance)
   const popularSorted = useMemo(() => {
     return [...products]
       .filter((p) => p.popular)
@@ -20,13 +22,14 @@ export default function PopularProducts({ products }) {
     return popularSorted.slice(0, visibleCount);
   }, [popularSorted, visibleCount]);
 
-  const handleAddToCart = (product, quantity = 1, option = null) => {
+  // Stable handlers with useCallback
+  const handleAddToCart = useCallback((product, quantity = 1, option = null) => {
     addToCart({ ...product, quantity, option });
-  };
+  }, [addToCart]);
 
-  const handleLoadMore = () => {
+  const handleLoadMore = useCallback(() => {
     setVisibleCount((prev) => Math.min(prev + 10, popularSorted.length));
-  };
+  }, [popularSorted.length]);
 
   const ProductCard = ({ product }) => {
     const stock = product.stock ?? 0;
@@ -35,8 +38,9 @@ export default function PopularProducts({ products }) {
     return (
       <Link
         href={`/products/${product.slug}`}
-        className="bg-white rounded-lg shadow hover:shadow-md transition-shadow cursor-pointer group block"
+        className="bg-white rounded-lg shadow hover:shadow-md transition-shadow cursor-pointer group block focus:outline-none"
         aria-label={`View details of ${product.title}`}
+        tabIndex={0}
       >
         <div className="relative h-48 w-full overflow-hidden rounded-t-lg">
           <Image
@@ -70,10 +74,11 @@ export default function PopularProducts({ products }) {
                 ${isOutOfStock ? 'opacity-60 cursor-not-allowed' : ''}
               `}
               disabled={isOutOfStock}
-              aria-label={`Add ${product.title} to cart`}
+              aria-label={isOutOfStock ? `Out of Stock` : `Add ${product.title} to cart`}
               type="button"
+              tabIndex={isOutOfStock ? -1 : 0}
             >
-              Add to Cart
+              {isOutOfStock ? 'Out of Stock' : 'Add to Cart'}
             </button>
           </div>
         </div>
@@ -85,18 +90,17 @@ export default function PopularProducts({ products }) {
     <section className="px-4 py-12 sm:px-6 lg:px-8 bg-gray-50">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-2xl font-bold mb-8">Our Popular Products</h2>
-
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {visibleProducts.map((product) => (
             <ProductCard key={product._id || product.id} product={product} />
           ))}
         </div>
-
         {visibleCount < popularSorted.length && (
           <div className="py-8 text-center">
             <button
               onClick={handleLoadMore}
               className="bg-green-600 text-white px-6 py-2 rounded-lg shadow hover:bg-green-700 transition"
+              type="button"
             >
               Load More
             </button>

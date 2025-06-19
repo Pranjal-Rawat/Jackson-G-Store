@@ -3,7 +3,7 @@ const products = [
     "id": 8,
     "title": "24Mantra 7Grain Atta 5Kg",
     "slug": "24mantra-7grain-atta-5kg",
-    "price": 550.0,
+    "price": 550,
     "image": "/images/products/24mantra-7grain-atta-5kg.jpg",
     "stock": 2,
     "description": "24Mantra 7Grain Atta 5Kg - Essential kitchen staple item.",
@@ -11,13 +11,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 8
+    "rank": 8,
+    "name": "24Mantra 7Grain Atta 5Kg"
   },
   {
     "id": 9,
     "title": "24Mantra Bajra Flour 500G",
     "slug": "24mantra-bajra-flour-500g",
-    "price": 65.0,
+    "price": 65,
     "image": "/images/products/24mantra-bajra-flour-500g.jpg",
     "stock": 5,
     "description": "24Mantra Bajra Flour 500G - Essential kitchen staple item.",
@@ -25,13 +26,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 9
+    "rank": 9,
+    "name": "24Mantra Bajra Flour 500G"
   },
   {
     "id": 10,
     "title": "24Mantra Basmati Rice 1Kg",
     "slug": "24mantra-basmati-rice-1kg",
-    "price": 290.0,
+    "price": 290,
     "image": "/images/products/24mantra-basmati-rice-1kg.jpg",
     "stock": 5,
     "description": "24Mantra Basmati Rice 1Kg - Essential kitchen staple item.",
@@ -39,13 +41,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 10
+    "rank": 10,
+    "name": "24Mantra Basmati Rice 1Kg"
   },
   {
     "id": 11,
     "title": "24Mantra Broken Rice 1Kg",
     "slug": "24mantra-broken-rice-1kg",
-    "price": 75.0,
+    "price": 75,
     "image": "/images/products/24mantra-broken-rice-1kg.jpg",
     "stock": 5,
     "description": "24Mantra Broken Rice 1Kg - Essential kitchen staple item.",
@@ -53,13 +56,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 11
+    "rank": 11,
+    "name": "24Mantra Broken Rice 1Kg"
   },
   {
     "id": 12,
     "title": "24Mantra Brown Basmati Rice 1Kg",
     "slug": "24mantra-brown-basmati-rice-1kg",
-    "price": 270.0,
+    "price": 270,
     "image": "/images/products/24mantra-brown-basmati-rice-1kg.jpg",
     "stock": 6,
     "description": "24Mantra Brown Basmati Rice 1Kg - Essential kitchen staple item.",
@@ -67,13 +71,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 12
+    "rank": 12,
+    "name": "24Mantra Brown Basmati Rice 1Kg"
   },
   {
     "id": 13,
     "title": "24Mantra Brown Chana 1Kg",
     "slug": "24mantra-brown-chana-1kg",
-    "price": 240.0,
+    "price": 240,
     "image": "/images/products/24mantra-brown-chana-1kg.jpg",
     "stock": 1,
     "description": "24Mantra Brown Chana 1Kg - Essential kitchen staple item.",
@@ -81,13 +86,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 13
+    "rank": 13,
+    "name": "24Mantra Brown Chana 1Kg"
   },
   {
     "id": 14,
     "title": "24Mantra Brown Chana 500G",
     "slug": "24mantra-brown-chana-500g",
-    "price": 120.0,
+    "price": 120,
     "image": "/images/products/24mantra-brown-chana-500g.jpg",
     "stock": 6,
     "description": "24Mantra Brown Chana 500G - Essential kitchen staple item.",
@@ -95,13 +101,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 14
+    "rank": 14,
+    "name": "24Mantra Brown Chana 500G"
   },
   {
     "id": 15,
     "title": "24Mantra Chana Dal 1Kg",
     "slug": "24mantra-chana-dal-1kg",
-    "price": 270.0,
+    "price": 270,
     "image": "/images/products/24mantra-chana-dal-1kg.jpg",
     "stock": 5,
     "description": "24Mantra Chana Dal 1Kg - Essential kitchen staple item.",
@@ -109,13 +116,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 15
+    "rank": 15,
+    "name": "24Mantra Chana Dal 1Kg"
   },
   {
     "id": 16,
     "title": "24Mantra Chana Dal 500G",
     "slug": "24mantra-chana-dal-500g",
-    "price": 140.0,
+    "price": 140,
     "image": "/images/products/24mantra-chana-dal-500g.jpg",
     "stock": 4,
     "description": "24Mantra Chana Dal 500G - Essential kitchen staple item.",
@@ -123,13 +131,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 16
+    "rank": 16,
+    "name": "24Mantra Chana Dal 500G"
   },
   {
     "id": 18,
     "title": "24Mantra Himalayan Rock Salt 1Kg",
     "slug": "24mantra-himalayan-rock-salt-1kg",
-    "price": 120.0,
+    "price": 120,
     "image": "/images/products/24mantra-himalayan-rock-salt-1kg.jpg",
     "stock": 6,
     "description": "24Mantra Himalayan Rock Salt 1Kg - Essential kitchen staple item.",
@@ -137,13 +146,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 18
+    "rank": 18,
+    "name": "24Mantra Himalayan Rock Salt 1Kg"
   },
   {
     "id": 19,
     "title": "24Mantra Himalayan Salt 1Kg",
     "slug": "24mantra-himalayan-salt-1kg",
-    "price": 120.0,
+    "price": 120,
     "image": "/images/products/24mantra-himalayan-salt-1kg.jpg",
     "stock": 5,
     "description": "24Mantra Himalayan Salt 1Kg - Essential kitchen staple item.",
@@ -151,13 +161,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 19
+    "rank": 19,
+    "name": "24Mantra Himalayan Salt 1Kg"
   },
   {
     "id": 20,
     "title": "24Mantra Idly Rice 1Kg",
     "slug": "24mantra-idly-rice-1kg",
-    "price": 120.0,
+    "price": 120,
     "image": "/images/products/24mantra-idly-rice-1kg.jpg",
     "stock": 4,
     "description": "24Mantra Idly Rice 1Kg - Essential kitchen staple item.",
@@ -165,13 +176,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 20
+    "rank": 20,
+    "name": "24Mantra Idly Rice 1Kg"
   },
   {
     "id": 22,
     "title": "24Mantra Kabuli Chana 500Gm",
     "slug": "24mantra-kabuli-chana-500gm",
-    "price": 180.0,
+    "price": 180,
     "image": "/images/products/24mantra-kabuli-chana-500gm.jpg",
     "stock": 4,
     "description": "24Mantra Kabuli Chana 500Gm - Essential kitchen staple item.",
@@ -179,13 +191,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 22
+    "rank": 22,
+    "name": "24Mantra Kabuli Chana 500Gm"
   },
   {
     "id": 23,
     "title": "24Mantra Masoor Dal 500G",
     "slug": "24mantra-masoor-dal-500g",
-    "price": 150.0,
+    "price": 150,
     "image": "/images/products/24mantra-masoor-dal-500g.jpg",
     "stock": 3,
     "description": "24Mantra Masoor Dal 500G - Essential kitchen staple item.",
@@ -193,13 +206,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 23
+    "rank": 23,
+    "name": "24Mantra Masoor Dal 500G"
   },
   {
     "id": 24,
     "title": "24Mantra Masoor Malka 500Gm",
     "slug": "24mantra-masoor-malka-500gm",
-    "price": 160.0,
+    "price": 160,
     "image": "/images/products/24mantra-masoor-malka-500gm.jpg",
     "stock": 1,
     "description": "24Mantra Masoor Malka 500Gm - Essential kitchen staple item.",
@@ -207,13 +221,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 24
+    "rank": 24,
+    "name": "24Mantra Masoor Malka 500Gm"
   },
   {
     "id": 25,
     "title": "24Mantra Masoor Whole 500G",
     "slug": "24mantra-masoor-whole-500g",
-    "price": 160.0,
+    "price": 160,
     "image": "/images/products/24mantra-masoor-whole-500g.jpg",
     "stock": 5,
     "description": "24Mantra Masoor Whole 500G - Essential kitchen staple item.",
@@ -221,13 +236,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 25
+    "rank": 25,
+    "name": "24Mantra Masoor Whole 500G"
   },
   {
     "id": 26,
     "title": "24Mantra Moong Dal 500G",
     "slug": "24mantra-moong-dal-500g",
-    "price": 170.0,
+    "price": 170,
     "image": "/images/products/24mantra-moong-dal-500g.jpg",
     "stock": 5,
     "description": "24Mantra Moong Dal 500G - Essential kitchen staple item.",
@@ -235,13 +251,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 26
+    "rank": 26,
+    "name": "24Mantra Moong Dal 500G"
   },
   {
     "id": 28,
     "title": "24Mantra Organic Sugar 500G",
     "slug": "24mantra-organic-sugar-500g",
-    "price": 75.0,
+    "price": 75,
     "image": "/images/products/24mantra-organic-sugar-500g.jpg",
     "stock": 5,
     "description": "24Mantra Organic Sugar 500G - Essential kitchen staple item.",
@@ -249,13 +266,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 28
+    "rank": 28,
+    "name": "24Mantra Organic Sugar 500G"
   },
   {
     "id": 29,
     "title": "24Mantra Organic Sugar 500Gm",
     "slug": "24mantra-organic-sugar-500gm",
-    "price": 85.0,
+    "price": 85,
     "image": "/images/products/24mantra-organic-sugar-500gm.jpg",
     "stock": 4,
     "description": "24Mantra Organic Sugar 500Gm - Essential kitchen staple item.",
@@ -263,13 +281,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 29
+    "rank": 29,
+    "name": "24Mantra Organic Sugar 500Gm"
   },
   {
     "id": 30,
     "title": "24Mantra Ragi Flour 500",
     "slug": "24mantra-ragi-flour-500",
-    "price": 85.0,
+    "price": 85,
     "image": "/images/products/24mantra-ragi-flour-500.jpg",
     "stock": 5,
     "description": "24Mantra Ragi Flour 500 - Essential kitchen staple item.",
@@ -277,13 +296,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 30
+    "rank": 30,
+    "name": "24Mantra Ragi Flour 500"
   },
   {
     "id": 31,
     "title": "24Mantra Red Rice 1Kg",
     "slug": "24mantra-red-rice-1kg",
-    "price": 190.0,
+    "price": 190,
     "image": "/images/products/24mantra-red-rice-1kg.jpg",
     "stock": 4,
     "description": "24Mantra Red Rice 1Kg - Essential kitchen staple item.",
@@ -291,13 +311,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 31
+    "rank": 31,
+    "name": "24Mantra Red Rice 1Kg"
   },
   {
     "id": 32,
     "title": "24Mantra Rice Flour",
     "slug": "24mantra-rice-flour",
-    "price": 75.0,
+    "price": 75,
     "image": "/images/products/24mantra-rice-flour.jpg",
     "stock": 6,
     "description": "24Mantra Rice Flour - Essential kitchen staple item.",
@@ -305,13 +326,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 32
+    "rank": 32,
+    "name": "24Mantra Rice Flour"
   },
   {
     "id": 33,
     "title": "24Mantra Sona Mussoorie Brown Rice 1Kg",
     "slug": "24mantra-sona-mussoorie-brown-rice-1kg",
-    "price": 125.0,
+    "price": 125,
     "image": "/images/products/24mantra-sona-mussoorie-brown-rice-1kg.jpg",
     "stock": 5,
     "description": "24Mantra Sona Mussoorie Brown Rice 1Kg - Essential kitchen staple item.",
@@ -319,13 +341,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 33
+    "rank": 33,
+    "name": "24Mantra Sona Mussoorie Brown Rice 1Kg"
   },
   {
     "id": 34,
     "title": "24Mantra Sona Mussoorie White Rice 1Kg",
     "slug": "24mantra-sona-mussoorie-white-rice-1kg",
-    "price": 125.0,
+    "price": 125,
     "image": "/images/products/24mantra-sona-mussoorie-white-rice-1kg.jpg",
     "stock": 4,
     "description": "24Mantra Sona Mussoorie White Rice 1Kg - Essential kitchen staple item.",
@@ -333,13 +356,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 34
+    "rank": 34,
+    "name": "24Mantra Sona Mussoorie White Rice 1Kg"
   },
   {
     "id": 40,
     "title": "24Mantra Wheat Daliya 500G",
     "slug": "24mantra-wheat-daliya-500g",
-    "price": 55.0,
+    "price": 55,
     "image": "/images/products/24mantra-wheat-daliya-500g.jpg",
     "stock": 3,
     "description": "24Mantra Wheat Daliya 500G - Essential kitchen staple item.",
@@ -347,13 +371,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 40
+    "rank": 40,
+    "name": "24Mantra Wheat Daliya 500G"
   },
   {
     "id": 41,
     "title": "24Mantra Whole Wheat Atta 1Kg",
     "slug": "24mantra-whole-wheat-atta-1kg",
-    "price": 90.0,
+    "price": 90,
     "image": "/images/products/24mantra-whole-wheat-atta-1kg.jpg",
     "stock": 6,
     "description": "24Mantra Whole Wheat Atta 1Kg - Essential kitchen staple item.",
@@ -361,13 +386,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 41
+    "rank": 41,
+    "name": "24Mantra Whole Wheat Atta 1Kg"
   },
   {
     "id": 42,
     "title": "24Mantra Whole Wheat Atta 5Kg",
     "slug": "24mantra-whole-wheat-atta-5kg",
-    "price": 395.0,
+    "price": 395,
     "image": "/images/products/24mantra-whole-wheat-atta-5kg.jpg",
     "stock": 4,
     "description": "24Mantra Whole Wheat Atta 5Kg - Essential kitchen staple item.",
@@ -375,13 +401,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 42
+    "rank": 42,
+    "name": "24Mantra Whole Wheat Atta 5Kg"
   },
   {
     "id": 47,
     "title": "Aashirvaad Atta 5Kg",
     "slug": "aashirvaad-atta-5kg",
-    "price": 259.0,
+    "price": 259,
     "image": "/images/products/aashirvaad-atta-5kg.jpg",
     "stock": 3,
     "description": "Aashirvaad Atta 5Kg - Essential kitchen staple item.",
@@ -389,13 +416,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 47
+    "rank": 47,
+    "name": "Aashirvaad Atta 5Kg"
   },
   {
     "id": 51,
     "title": "Aashirvad Shudh Chakki Atta 10Kg",
     "slug": "aashirvad-shudh-chakki-atta-10kg",
-    "price": 495.0,
+    "price": 495,
     "image": "/images/products/aashirvad-shudh-chakki-atta-10kg.jpg",
     "stock": 3,
     "description": "Aashirvad Shudh Chakki Atta 10Kg - Essential kitchen staple item.",
@@ -403,13 +431,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 51
+    "rank": 51,
+    "name": "Aashirvad Shudh Chakki Atta 10Kg"
   },
   {
     "id": 74,
     "title": "Act2 Popcorn Salted",
     "slug": "act2-popcorn-salted",
-    "price": 25.0,
+    "price": 25,
     "image": "/images/products/act2-popcorn-salted.jpg",
     "stock": 11,
     "description": "Act2 Popcorn Salted - Essential kitchen staple item.",
@@ -417,13 +446,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 74
+    "rank": 74,
+    "name": "Act2 Popcorn Salted"
   },
   {
     "id": 77,
     "title": "Act2 Popcorn Sweet&Salty",
     "slug": "act2-popcorn-sweetsalty",
-    "price": 25.0,
+    "price": 25,
     "image": "/images/products/act2-popcorn-sweetsalty.jpg",
     "stock": 12,
     "description": "Act2 Popcorn Sweet&Salty - Essential kitchen staple item.",
@@ -431,13 +461,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 77
+    "rank": 77,
+    "name": "Act2 Popcorn Sweet&Salty"
   },
   {
     "id": 118,
     "title": "Ambi Pur Air Sandalwood",
     "slug": "ambi-pur-air-sandalwood",
-    "price": 299.0,
+    "price": 299,
     "image": "/images/products/ambi-pur-air-sandalwood.jpg",
     "stock": 1,
     "description": "Ambi Pur Air Sandalwood - Essential kitchen staple item.",
@@ -445,13 +476,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 118
+    "rank": 118,
+    "name": "Ambi Pur Air Sandalwood"
   },
   {
     "id": 207,
     "title": "Amul Sugar Free Dark Chocolate 150Gm",
     "slug": "amul-sugar-free-dark-chocolate-150gm",
-    "price": 200.0,
+    "price": 200,
     "image": "/images/products/amul-sugar-free-dark-chocolate-150gm.jpg",
     "stock": 4,
     "description": "Amul Sugar Free Dark Chocolate 150Gm - Essential kitchen staple item.",
@@ -459,13 +491,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 207
+    "rank": 207,
+    "name": "Amul Sugar Free Dark Chocolate 150Gm"
   },
   {
     "id": 208,
     "title": "Amul Sugar Free Vanilla",
     "slug": "amul-sugar-free-vanilla",
-    "price": 40.0,
+    "price": 40,
     "image": "/images/products/amul-sugar-free-vanilla.jpg",
     "stock": 7,
     "description": "Amul Sugar Free Vanilla - Essential kitchen staple item.",
@@ -473,13 +506,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 208
+    "rank": 208,
+    "name": "Amul Sugar Free Vanilla"
   },
   {
     "id": 280,
     "title": "Aristo Magnum Pedal Bin 20Ltr",
     "slug": "aristo-magnum-pedal-bin-20ltr",
-    "price": 622.0,
+    "price": 622,
     "image": "/images/products/aristo-magnum-pedal-bin-20ltr.jpg",
     "stock": 3,
     "description": "Aristo Magnum Pedal Bin 20Ltr - Essential kitchen staple item.",
@@ -487,13 +521,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 280
+    "rank": 280,
+    "name": "Aristo Magnum Pedal Bin 20Ltr"
   },
   {
     "id": 288,
     "title": "Aristo Twin Pedal Bin 20L",
     "slug": "aristo-twin-pedal-bin-20l",
-    "price": 1299.0,
+    "price": 1299,
     "image": "/images/products/aristo-twin-pedal-bin-20l.jpg",
     "stock": 4,
     "description": "Aristo Twin Pedal Bin 20L - Essential kitchen staple item.",
@@ -501,13 +536,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 288
+    "rank": 288,
+    "name": "Aristo Twin Pedal Bin 20L"
   },
   {
     "id": 325,
     "title": "Ashirwad Select Atta 5Kg",
     "slug": "ashirwad-select-atta-5kg",
-    "price": 370.0,
+    "price": 370,
     "image": "/images/products/ashirwad-select-atta-5kg.jpg",
     "stock": 4,
     "description": "Ashirwad Select Atta 5Kg - Essential kitchen staple item.",
@@ -515,13 +551,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 325
+    "rank": 325,
+    "name": "Ashirwad Select Atta 5Kg"
   },
   {
     "id": 391,
     "title": "Barilla Wholewheat Pasta 500Gm",
     "slug": "barilla-wholewheat-pasta-500gm",
-    "price": 399.0,
+    "price": 399,
     "image": "/images/products/barilla-wholewheat-pasta-500gm.jpg",
     "stock": 2,
     "description": "Barilla Wholewheat Pasta 500Gm - Essential kitchen staple item.",
@@ -529,13 +566,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 391
+    "rank": 391,
+    "name": "Barilla Wholewheat Pasta 500Gm"
   },
   {
     "id": 458,
     "title": "Bicano Chana Dal",
     "slug": "bicano-chana-dal",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/bicano-chana-dal.jpg",
     "stock": 6,
     "description": "Bicano Chana Dal - Essential kitchen staple item.",
@@ -543,13 +581,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 458
+    "rank": 458,
+    "name": "Bicano Chana Dal"
   },
   {
     "id": 459,
     "title": "Bicano Chana Pataka",
     "slug": "bicano-chana-pataka",
-    "price": 55.0,
+    "price": 55,
     "image": "/images/products/bicano-chana-pataka.jpg",
     "stock": 5,
     "description": "Bicano Chana Pataka - Essential kitchen staple item.",
@@ -557,13 +596,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 459
+    "rank": 459,
+    "name": "Bicano Chana Pataka"
   },
   {
     "id": 460,
     "title": "Bicano Dal Moth",
     "slug": "bicano-dal-moth",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/bicano-dal-moth.jpg",
     "stock": 4,
     "description": "Bicano Dal Moth - Essential kitchen staple item.",
@@ -571,13 +611,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 460
+    "rank": 460,
+    "name": "Bicano Dal Moth"
   },
   {
     "id": 464,
     "title": "Bicano Khatta Mithha",
     "slug": "bicano-khatta-mithha",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/bicano-khatta-mithha.jpg",
     "stock": 3,
     "description": "Bicano Khatta Mithha - Essential kitchen staple item.",
@@ -585,13 +626,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 464
+    "rank": 464,
+    "name": "Bicano Khatta Mithha"
   },
   {
     "id": 466,
     "title": "Bicano Moong Dal",
     "slug": "bicano-moong-dal",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/bicano-moong-dal.jpg",
     "stock": 5,
     "description": "Bicano Moong Dal - Essential kitchen staple item.",
@@ -599,13 +641,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 466
+    "rank": 466,
+    "name": "Bicano Moong Dal"
   },
   {
     "id": 495,
     "title": "Biotique Lotion Sandalwood",
     "slug": "biotique-lotion-sandalwood",
-    "price": 550.0,
+    "price": 550,
     "image": "/images/products/biotique-lotion-sandalwood.jpg",
     "stock": 3,
     "description": "Biotique Lotion Sandalwood - Essential kitchen staple item.",
@@ -613,13 +656,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 495
+    "rank": 495,
+    "name": "Biotique Lotion Sandalwood"
   },
   {
     "id": 520,
     "title": "Biotique Wheatgerm Cream",
     "slug": "biotique-wheatgerm-cream",
-    "price": 399.0,
+    "price": 399,
     "image": "/images/products/biotique-wheatgerm-cream.jpg",
     "stock": 3,
     "description": "Biotique Wheatgerm Cream - Essential kitchen staple item.",
@@ -627,13 +671,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 520
+    "rank": 520,
+    "name": "Biotique Wheatgerm Cream"
   },
   {
     "id": 542,
     "title": "Blue Dragon Pad Thai Rice Ndl 300Gm",
     "slug": "blue-dragon-pad-thai-rice-ndl-300gm",
-    "price": 400.0,
+    "price": 400,
     "image": "/images/products/blue-dragon-pad-thai-rice-ndl-300gm.jpg",
     "stock": 2,
     "description": "Blue Dragon Pad Thai Rice Ndl 300Gm - Essential kitchen staple item.",
@@ -641,13 +686,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 542
+    "rank": 542,
+    "name": "Blue Dragon Pad Thai Rice Ndl 300Gm"
   },
   {
     "id": 543,
     "title": "Blue Dragon Rice Noodles 250Gm",
     "slug": "blue-dragon-rice-noodles-250gm",
-    "price": 300.0,
+    "price": 300,
     "image": "/images/products/blue-dragon-rice-noodles-250gm.jpg",
     "stock": 2,
     "description": "Blue Dragon Rice Noodles 250Gm - Essential kitchen staple item.",
@@ -655,13 +701,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 543
+    "rank": 543,
+    "name": "Blue Dragon Rice Noodles 250Gm"
   },
   {
     "id": 575,
     "title": "Bonn Atta Bread",
     "slug": "bonn-atta-bread",
-    "price": 55.0,
+    "price": 55,
     "image": "/images/products/bonn-atta-bread.jpg",
     "stock": 2,
     "description": "Bonn Atta Bread - Essential kitchen staple item.",
@@ -669,13 +716,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 575
+    "rank": 575,
+    "name": "Bonn Atta Bread"
   },
   {
     "id": 600,
     "title": "Brijraj Chana Murmura 200G",
     "slug": "brijraj-chana-murmura-200g",
-    "price": 55.0,
+    "price": 55,
     "image": "/images/products/brijraj-chana-murmura-200g.jpg",
     "stock": 5,
     "description": "Brijraj Chana Murmura 200G - Essential kitchen staple item.",
@@ -683,13 +731,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 600
+    "rank": 600,
+    "name": "Brijraj Chana Murmura 200G"
   },
   {
     "id": 649,
     "title": "Britannia Nc Atta 200Gm",
     "slug": "britannia-nc-atta-200gm",
-    "price": 75.0,
+    "price": 75,
     "image": "/images/products/britannia-nc-atta-200gm.jpg",
     "stock": 4,
     "description": "Britannia Nc Atta 200Gm - Essential kitchen staple item.",
@@ -697,13 +746,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 649
+    "rank": 649,
+    "name": "Britannia Nc Atta 200Gm"
   },
   {
     "id": 671,
     "title": "Brown & Polson Corn Flour 100G",
     "slug": "brown-polson-corn-flour-100g",
-    "price": 30.0,
+    "price": 30,
     "image": "/images/products/brown-polson-corn-flour-100g.jpg",
     "stock": 4,
     "description": "Brown & Polson Corn Flour 100G - Essential kitchen staple item.",
@@ -711,13 +761,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 671
+    "rank": 671,
+    "name": "Brown & Polson Corn Flour 100G"
   },
   {
     "id": 672,
     "title": "Brown & Polson Corn Flour 500Gm",
     "slug": "brown-polson-corn-flour-500gm",
-    "price": 87.0,
+    "price": 87,
     "image": "/images/products/brown-polson-corn-flour-500gm.jpg",
     "stock": 4,
     "description": "Brown & Polson Corn Flour 500Gm - Essential kitchen staple item.",
@@ -725,13 +776,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 672
+    "rank": 672,
+    "name": "Brown & Polson Corn Flour 500Gm"
   },
   {
     "id": 700,
     "title": "Bullion Kala Kahatta Candy",
     "slug": "bullion-kala-kahatta-candy",
-    "price": 40.0,
+    "price": 40,
     "image": "/images/products/bullion-kala-kahatta-candy.jpg",
     "stock": 3,
     "description": "Bullion Kala Kahatta Candy - Essential kitchen staple item.",
@@ -739,13 +791,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 700
+    "rank": 700,
+    "name": "Bullion Kala Kahatta Candy"
   },
   {
     "id": 715,
     "title": "Bullion Sugar Coated Sonff",
     "slug": "bullion-sugar-coated-sonff",
-    "price": 45.0,
+    "price": 45,
     "image": "/images/products/bullion-sugar-coated-sonff.jpg",
     "stock": 3,
     "description": "Bullion Sugar Coated Sonff - Essential kitchen staple item.",
@@ -753,13 +806,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 715
+    "rank": 715,
+    "name": "Bullion Sugar Coated Sonff"
   },
   {
     "id": 793,
     "title": "Catch Black Salt",
     "slug": "catch-black-salt",
-    "price": 40.0,
+    "price": 40,
     "image": "/images/products/catch-black-salt.jpg",
     "stock": 4,
     "description": "Catch Black Salt - Essential kitchen staple item.",
@@ -767,13 +821,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 793
+    "rank": 793,
+    "name": "Catch Black Salt"
   },
   {
     "id": 794,
     "title": "Catch Black Salt 200G",
     "slug": "catch-black-salt-200g",
-    "price": 47.0,
+    "price": 47,
     "image": "/images/products/catch-black-salt-200g.jpg",
     "stock": 5,
     "description": "Catch Black Salt 200G - Essential kitchen staple item.",
@@ -781,13 +836,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 794
+    "rank": 794,
+    "name": "Catch Black Salt 200G"
   },
   {
     "id": 796,
     "title": "Catch Chana Masala",
     "slug": "catch-chana-masala",
-    "price": 89.0,
+    "price": 89,
     "image": "/images/products/catch-chana-masala.jpg",
     "stock": 5,
     "description": "Catch Chana Masala - Essential kitchen staple item.",
@@ -795,13 +851,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 796
+    "rank": 796,
+    "name": "Catch Chana Masala"
   },
   {
     "id": 801,
     "title": "Catch Dal Makhni Masala 100Gm",
     "slug": "catch-dal-makhni-masala-100gm",
-    "price": 80.0,
+    "price": 80,
     "image": "/images/products/catch-dal-makhni-masala-100gm.jpg",
     "stock": 3,
     "description": "Catch Dal Makhni Masala 100Gm - Essential kitchen staple item.",
@@ -809,13 +866,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 801
+    "rank": 801,
+    "name": "Catch Dal Makhni Masala 100Gm"
   },
   {
     "id": 828,
     "title": "Catch Table Salt 200G",
     "slug": "catch-table-salt-200g",
-    "price": 50.0,
+    "price": 50,
     "image": "/images/products/catch-table-salt-200g.jpg",
     "stock": 3,
     "description": "Catch Table Salt 200G - Essential kitchen staple item.",
@@ -823,13 +881,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 828
+    "rank": 828,
+    "name": "Catch Table Salt 200G"
   },
   {
     "id": 915,
     "title": "Chana Dal 500Gm",
     "slug": "chana-dal-500gm",
-    "price": 75.0,
+    "price": 75,
     "image": "/images/products/chana-dal-500gm.jpg",
     "stock": 4,
     "description": "Chana Dal 500Gm - Essential kitchen staple item.",
@@ -837,13 +896,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 915
+    "rank": 915,
+    "name": "Chana Dal 500Gm"
   },
   {
     "id": 916,
     "title": "Chana Plain 400G",
     "slug": "chana-plain-400g",
-    "price": 130.0,
+    "price": 130,
     "image": "/images/products/chana-plain-400g.jpg",
     "stock": 17,
     "description": "Chana Plain 400G - Essential kitchen staple item.",
@@ -851,13 +911,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 916
+    "rank": 916,
+    "name": "Chana Plain 400G"
   },
   {
     "id": 924,
     "title": "Chef Urbano Multigrain Pasta",
     "slug": "chef-urbano-multigrain-pasta",
-    "price": 180.0,
+    "price": 180,
     "image": "/images/products/chef-urbano-multigrain-pasta.jpg",
     "stock": 2,
     "description": "Chef Urbano Multigrain Pasta - Essential kitchen staple item.",
@@ -865,13 +926,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 924
+    "rank": 924,
+    "name": "Chef Urbano Multigrain Pasta"
   },
   {
     "id": 932,
     "title": "Chef Urbano Rice Pasta",
     "slug": "chef-urbano-rice-pasta",
-    "price": 160.0,
+    "price": 160,
     "image": "/images/products/chef-urbano-rice-pasta.jpg",
     "stock": 3,
     "description": "Chef Urbano Rice Pasta - Essential kitchen staple item.",
@@ -879,13 +941,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 932
+    "rank": 932,
+    "name": "Chef Urbano Rice Pasta"
   },
   {
     "id": 996,
     "title": "Chings Fried Rice Masala",
     "slug": "chings-fried-rice-masala",
-    "price": 10.0,
+    "price": 10,
     "image": "/images/products/chings-fried-rice-masala.jpg",
     "stock": 11,
     "description": "Chings Fried Rice Masala - Essential kitchen staple item.",
@@ -893,13 +956,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 996
+    "rank": 996,
+    "name": "Chings Fried Rice Masala"
   },
   {
     "id": 1077,
     "title": "Colgate Salt 200G",
     "slug": "colgate-salt-200g",
-    "price": 166.0,
+    "price": 166,
     "image": "/images/products/colgate-salt-200g.jpg",
     "stock": 3,
     "description": "Colgate Salt 200G - Essential kitchen staple item.",
@@ -907,13 +971,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 1077
+    "rank": 1077,
+    "name": "Colgate Salt 200G"
   },
   {
     "id": 1078,
     "title": "Colgate Salt T 100G",
     "slug": "colgate-salt-t-100g",
-    "price": 78.0,
+    "price": 78,
     "image": "/images/products/colgate-salt-t-100g.jpg",
     "stock": 3,
     "description": "Colgate Salt T 100G - Essential kitchen staple item.",
@@ -921,13 +986,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 1078
+    "rank": 1078,
+    "name": "Colgate Salt T 100G"
   },
   {
     "id": 1156,
     "title": "Cornitos Light Salted 25G",
     "slug": "cornitos-light-salted-25g",
-    "price": 50.0,
+    "price": 50,
     "image": "/images/products/cornitos-light-salted-25g.jpg",
     "stock": 12,
     "description": "Cornitos Light Salted 25G - Essential kitchen staple item.",
@@ -935,13 +1001,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 1156
+    "rank": 1156,
+    "name": "Cornitos Light Salted 25G"
   },
   {
     "id": 1226,
     "title": "Daawat Basmati Rice Briyani 1Kg",
     "slug": "daawat-basmati-rice-briyani-1kg",
-    "price": 250.0,
+    "price": 250,
     "image": "/images/products/daawat-basmati-rice-briyani-1kg.jpg",
     "stock": 3,
     "description": "Daawat Basmati Rice Briyani 1Kg - Essential kitchen staple item.",
@@ -949,13 +1016,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 1226
+    "rank": 1226,
+    "name": "Daawat Basmati Rice Briyani 1Kg"
   },
   {
     "id": 1227,
     "title": "Daawat Basmati Rice Brown 1Kg",
     "slug": "daawat-basmati-rice-brown-1kg",
-    "price": 175.0,
+    "price": 175,
     "image": "/images/products/daawat-basmati-rice-brown-1kg.jpg",
     "stock": 3,
     "description": "Daawat Basmati Rice Brown 1Kg - Essential kitchen staple item.",
@@ -963,13 +1031,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 1227
+    "rank": 1227,
+    "name": "Daawat Basmati Rice Brown 1Kg"
   },
   {
     "id": 1228,
     "title": "Daawat Basmati Rice Dubar 5Kg",
     "slug": "daawat-basmati-rice-dubar-5kg",
-    "price": 830.0,
+    "price": 830,
     "image": "/images/products/daawat-basmati-rice-dubar-5kg.jpg",
     "stock": 1,
     "description": "Daawat Basmati Rice Dubar 5Kg - Essential kitchen staple item.",
@@ -977,13 +1046,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 1228
+    "rank": 1228,
+    "name": "Daawat Basmati Rice Dubar 5Kg"
   },
   {
     "id": 1229,
     "title": "Daawat Basmati Rice Pulav 1Kg",
     "slug": "daawat-basmati-rice-pulav-1kg",
-    "price": 177.0,
+    "price": 177,
     "image": "/images/products/daawat-basmati-rice-pulav-1kg.jpg",
     "stock": 4,
     "description": "Daawat Basmati Rice Pulav 1Kg - Essential kitchen staple item.",
@@ -991,13 +1061,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 1229
+    "rank": 1229,
+    "name": "Daawat Basmati Rice Pulav 1Kg"
   },
   {
     "id": 1230,
     "title": "Daawat Basmati Rice Super",
     "slug": "daawat-basmati-rice-super",
-    "price": 200.0,
+    "price": 200,
     "image": "/images/products/daawat-basmati-rice-super.jpg",
     "stock": 4,
     "description": "Daawat Basmati Rice Super - Essential kitchen staple item.",
@@ -1005,13 +1076,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 1230
+    "rank": 1230,
+    "name": "Daawat Basmati Rice Super"
   },
   {
     "id": 1231,
     "title": "Daawat Basmati Rice Tibar 5Kg",
     "slug": "daawat-basmati-rice-tibar-5kg",
-    "price": 995.0,
+    "price": 995,
     "image": "/images/products/daawat-basmati-rice-tibar-5kg.jpg",
     "stock": 1,
     "description": "Daawat Basmati Rice Tibar 5Kg - Essential kitchen staple item.",
@@ -1019,13 +1091,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 1231
+    "rank": 1231,
+    "name": "Daawat Basmati Rice Tibar 5Kg"
   },
   {
     "id": 1247,
     "title": "Darshan Cones Sandal,Kasturi,Lavender",
     "slug": "darshan-cones-sandalkasturilavender",
-    "price": 15.0,
+    "price": 15,
     "image": "/images/products/darshan-cones-sandalkasturilavender.jpg",
     "stock": 30,
     "description": "Darshan Cones Sandal,Kasturi,Lavender - Essential kitchen staple item.",
@@ -1033,13 +1106,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 1247
+    "rank": 1247,
+    "name": "Darshan Cones Sandal,Kasturi,Lavender"
   },
   {
     "id": 1251,
     "title": "Darshan Red Sandal Jar",
     "slug": "darshan-red-sandal-jar",
-    "price": 80.0,
+    "price": 80,
     "image": "/images/products/darshan-red-sandal-jar.jpg",
     "stock": 12,
     "description": "Darshan Red Sandal Jar - Essential kitchen staple item.",
@@ -1047,13 +1121,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 1251
+    "rank": 1251,
+    "name": "Darshan Red Sandal Jar"
   },
   {
     "id": 1252,
     "title": "Darshan Red Sandal Long",
     "slug": "darshan-red-sandal-long",
-    "price": 70.0,
+    "price": 70,
     "image": "/images/products/darshan-red-sandal-long.jpg",
     "stock": 12,
     "description": "Darshan Red Sandal Long - Essential kitchen staple item.",
@@ -1061,13 +1136,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 1252
+    "rank": 1252,
+    "name": "Darshan Red Sandal Long"
   },
   {
     "id": 1474,
     "title": "Dr.Rashel Sheet Mask Rice",
     "slug": "drrashel-sheet-mask-rice",
-    "price": 75.0,
+    "price": 75,
     "image": "/images/products/drrashel-sheet-mask-rice.jpg",
     "stock": 2,
     "description": "Dr.Rashel Sheet Mask Rice - Essential kitchen staple item.",
@@ -1075,13 +1151,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 1474
+    "rank": 1474,
+    "name": "Dr.Rashel Sheet Mask Rice"
   },
   {
     "id": 1547,
     "title": "English Oven Atta Bread",
     "slug": "english-oven-atta-bread",
-    "price": 55.0,
+    "price": 55,
     "image": "/images/products/english-oven-atta-bread.jpg",
     "stock": 1,
     "description": "English Oven Atta Bread - Essential kitchen staple item.",
@@ -1089,13 +1166,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 1547
+    "rank": 1547,
+    "name": "English Oven Atta Bread"
   },
   {
     "id": 1556,
     "title": "English Oven Multigrain Bread",
     "slug": "english-oven-multigrain-bread",
-    "price": 70.0,
+    "price": 70,
     "image": "/images/products/english-oven-multigrain-bread.jpg",
     "stock": 2,
     "description": "English Oven Multigrain Bread - Essential kitchen staple item.",
@@ -1103,13 +1181,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 1556
+    "rank": 1556,
+    "name": "English Oven Multigrain Bread"
   },
   {
     "id": 1564,
     "title": "Epigamia Bluberry 0 Sugar",
     "slug": "epigamia-bluberry-0-sugar",
-    "price": 70.0,
+    "price": 70,
     "image": "/images/products/epigamia-bluberry-0-sugar.jpg",
     "stock": 1,
     "description": "Epigamia Bluberry 0 Sugar - Essential kitchen staple item.",
@@ -1117,13 +1196,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 1564
+    "rank": 1564,
+    "name": "Epigamia Bluberry 0 Sugar"
   },
   {
     "id": 1604,
     "title": "Fanta Zero Sugar 330Ml",
     "slug": "fanta-zero-sugar-330ml",
-    "price": 200.0,
+    "price": 200,
     "image": "/images/products/fanta-zero-sugar-330ml.jpg",
     "stock": 5,
     "description": "Fanta Zero Sugar 330Ml - Essential kitchen staple item.",
@@ -1131,13 +1211,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 1604
+    "rank": 1604,
+    "name": "Fanta Zero Sugar 330Ml"
   },
   {
     "id": 1605,
     "title": "Fantastic Rice Cracker",
     "slug": "fantastic-rice-cracker",
-    "price": 160.0,
+    "price": 160,
     "image": "/images/products/fantastic-rice-cracker.jpg",
     "stock": 6,
     "description": "Fantastic Rice Cracker - Essential kitchen staple item.",
@@ -1145,13 +1226,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 1605
+    "rank": 1605,
+    "name": "Fantastic Rice Cracker"
   },
   {
     "id": 1675,
     "title": "Fisherman'S Friend Sugar Free Mints",
     "slug": "fishermans-friend-sugar-free-mints",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/fishermans-friend-sugar-free-mints.jpg",
     "stock": 12,
     "description": "Fisherman'S Friend Sugar Free Mints - Essential kitchen staple item.",
@@ -1159,13 +1241,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 1675
+    "rank": 1675,
+    "name": "Fisherman'S Friend Sugar Free Mints"
   },
   {
     "id": 1699,
     "title": "Fortune Besan 500Gm",
     "slug": "fortune-besan-500gm",
-    "price": 85.0,
+    "price": 85,
     "image": "/images/products/fortune-besan-500gm.jpg",
     "stock": 9,
     "description": "Fortune Besan 500Gm - Essential kitchen staple item.",
@@ -1173,13 +1256,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 1699
+    "rank": 1699,
+    "name": "Fortune Besan 500Gm"
   },
   {
     "id": 1703,
     "title": "Fortune Maida 500Gm",
     "slug": "fortune-maida-500gm",
-    "price": 39.0,
+    "price": 39,
     "image": "/images/products/fortune-maida-500gm.jpg",
     "stock": 9,
     "description": "Fortune Maida 500Gm - Essential kitchen staple item.",
@@ -1187,13 +1271,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 1703
+    "rank": 1703,
+    "name": "Fortune Maida 500Gm"
   },
   {
     "id": 1704,
     "title": "Fortune Refined Rice 1Ltr",
     "slug": "fortune-refined-rice-1ltr",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/fortune-refined-rice-1ltr.jpg",
     "stock": 10,
     "description": "Fortune Refined Rice 1Ltr - Essential kitchen staple item.",
@@ -1201,13 +1286,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 1704
+    "rank": 1704,
+    "name": "Fortune Refined Rice 1Ltr"
   },
   {
     "id": 1708,
     "title": "Fortune Sugar 1Kg",
     "slug": "fortune-sugar-1kg",
-    "price": 65.0,
+    "price": 65,
     "image": "/images/products/fortune-sugar-1kg.jpg",
     "stock": 23,
     "description": "Fortune Sugar 1Kg - Essential kitchen staple item.",
@@ -1215,13 +1301,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 1708
+    "rank": 1708,
+    "name": "Fortune Sugar 1Kg"
   },
   {
     "id": 1709,
     "title": "Fortune Sugar 5Kg",
     "slug": "fortune-sugar-5kg",
-    "price": 320.0,
+    "price": 320,
     "image": "/images/products/fortune-sugar-5kg.jpg",
     "stock": 7,
     "description": "Fortune Sugar 5Kg - Essential kitchen staple item.",
@@ -1229,13 +1316,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 1709
+    "rank": 1709,
+    "name": "Fortune Sugar 5Kg"
   },
   {
     "id": 1712,
     "title": "Fortune Super Rice 1+1",
     "slug": "fortune-super-rice-11",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/fortune-super-rice-11.jpg",
     "stock": 20,
     "description": "Fortune Super Rice 1+1 - Essential kitchen staple item.",
@@ -1243,13 +1331,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 1712
+    "rank": 1712,
+    "name": "Fortune Super Rice 1+1"
   },
   {
     "id": 1809,
     "title": "Giani Cassatta Brownie 90G",
     "slug": "giani-cassatta-brownie-90g",
-    "price": 100.0,
+    "price": 100,
     "image": "/images/products/giani-cassatta-brownie-90g.jpg",
     "stock": 5,
     "description": "Giani Cassatta Brownie 90G - Essential kitchen staple item.",
@@ -1257,13 +1346,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 1809
+    "rank": 1809,
+    "name": "Giani Cassatta Brownie 90G"
   },
   {
     "id": 1810,
     "title": "Giani Cassatta Chocolate 90G",
     "slug": "giani-cassatta-chocolate-90g",
-    "price": 100.0,
+    "price": 100,
     "image": "/images/products/giani-cassatta-chocolate-90g.jpg",
     "stock": 6,
     "description": "Giani Cassatta Chocolate 90G - Essential kitchen staple item.",
@@ -1271,13 +1361,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 1810
+    "rank": 1810,
+    "name": "Giani Cassatta Chocolate 90G"
   },
   {
     "id": 1811,
     "title": "Giani Cassatta Rainbow 90G",
     "slug": "giani-cassatta-rainbow-90g",
-    "price": 100.0,
+    "price": 100,
     "image": "/images/products/giani-cassatta-rainbow-90g.jpg",
     "stock": 5,
     "description": "Giani Cassatta Rainbow 90G - Essential kitchen staple item.",
@@ -1285,13 +1376,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 1811
+    "rank": 1811,
+    "name": "Giani Cassatta Rainbow 90G"
   },
   {
     "id": 1928,
     "title": "Gm Foods Chana Sattu 200G",
     "slug": "gm-foods-chana-sattu-200g",
-    "price": 68.0,
+    "price": 68,
     "image": "/images/products/gm-foods-chana-sattu-200g.jpg",
     "stock": 2,
     "description": "Gm Foods Chana Sattu 200G - Essential kitchen staple item.",
@@ -1299,13 +1391,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 1928
+    "rank": 1928,
+    "name": "Gm Foods Chana Sattu 200G"
   },
   {
     "id": 1930,
     "title": "Gm Foods Moong Dal Halwa",
     "slug": "gm-foods-moong-dal-halwa",
-    "price": 120.0,
+    "price": 120,
     "image": "/images/products/gm-foods-moong-dal-halwa.jpg",
     "stock": 3,
     "description": "Gm Foods Moong Dal Halwa - Essential kitchen staple item.",
@@ -1313,13 +1406,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 1930
+    "rank": 1930,
+    "name": "Gm Foods Moong Dal Halwa"
   },
   {
     "id": 1931,
     "title": "Gm Foods Poha Pakora",
     "slug": "gm-foods-poha-pakora",
-    "price": 76.0,
+    "price": 76,
     "image": "/images/products/gm-foods-poha-pakora.jpg",
     "stock": 3,
     "description": "Gm Foods Poha Pakora - Essential kitchen staple item.",
@@ -1327,13 +1421,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 1931
+    "rank": 1931,
+    "name": "Gm Foods Poha Pakora"
   },
   {
     "id": 1975,
     "title": "Grainic Rice Cake",
     "slug": "grainic-rice-cake",
-    "price": 180.0,
+    "price": 180,
     "image": "/images/products/grainic-rice-cake.jpg",
     "stock": 9,
     "description": "Grainic Rice Cake - Essential kitchen staple item.",
@@ -1341,13 +1436,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 1975
+    "rank": 1975,
+    "name": "Grainic Rice Cake"
   },
   {
     "id": 1976,
     "title": "Grainic Rice Cake",
     "slug": "grainic-rice-cake",
-    "price": 180.0,
+    "price": 180,
     "image": "/images/products/grainic-rice-cake.jpg",
     "stock": -2,
     "description": "Grainic Rice Cake - Essential kitchen staple item.",
@@ -1355,13 +1451,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 1976
+    "rank": 1976,
+    "name": "Grainic Rice Cake"
   },
   {
     "id": 1977,
     "title": "Grainic Rice Cake 7Seed",
     "slug": "grainic-rice-cake-7seed",
-    "price": 190.0,
+    "price": 190,
     "image": "/images/products/grainic-rice-cake-7seed.jpg",
     "stock": 1,
     "description": "Grainic Rice Cake 7Seed - Essential kitchen staple item.",
@@ -1369,13 +1466,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 1977
+    "rank": 1977,
+    "name": "Grainic Rice Cake 7Seed"
   },
   {
     "id": 2118,
     "title": "Haldiram Chana Jor Garam 150Gm",
     "slug": "haldiram-chana-jor-garam-150gm",
-    "price": 35.0,
+    "price": 35,
     "image": "/images/products/haldiram-chana-jor-garam-150gm.jpg",
     "stock": 4,
     "description": "Haldiram Chana Jor Garam 150Gm - Essential kitchen staple item.",
@@ -1383,13 +1481,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2118
+    "rank": 2118,
+    "name": "Haldiram Chana Jor Garam 150Gm"
   },
   {
     "id": 2119,
     "title": "Haldiram Chatpata Dal 200Gm",
     "slug": "haldiram-chatpata-dal-200gm",
-    "price": 55.0,
+    "price": 55,
     "image": "/images/products/haldiram-chatpata-dal-200gm.jpg",
     "stock": 5,
     "description": "Haldiram Chatpata Dal 200Gm - Essential kitchen staple item.",
@@ -1397,13 +1496,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2119
+    "rank": 2119,
+    "name": "Haldiram Chatpata Dal 200Gm"
   },
   {
     "id": 2126,
     "title": "Haldiram Khatta Meetha 200Gm",
     "slug": "haldiram-khatta-meetha-200gm",
-    "price": 50.0,
+    "price": 50,
     "image": "/images/products/haldiram-khatta-meetha-200gm.jpg",
     "stock": 7,
     "description": "Haldiram Khatta Meetha 200Gm - Essential kitchen staple item.",
@@ -1411,13 +1511,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2126
+    "rank": 2126,
+    "name": "Haldiram Khatta Meetha 200Gm"
   },
   {
     "id": 2132,
     "title": "Haldiram Moomg Dal 200Gm",
     "slug": "haldiram-moomg-dal-200gm",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/haldiram-moomg-dal-200gm.jpg",
     "stock": 3,
     "description": "Haldiram Moomg Dal 200Gm - Essential kitchen staple item.",
@@ -1425,13 +1526,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2132
+    "rank": 2132,
+    "name": "Haldiram Moomg Dal 200Gm"
   },
   {
     "id": 2133,
     "title": "Haldiram Navrattan 200Gm",
     "slug": "haldiram-navrattan-200gm",
-    "price": 50.0,
+    "price": 50,
     "image": "/images/products/haldiram-navrattan-200gm.jpg",
     "stock": 2,
     "description": "Haldiram Navrattan 200Gm - Essential kitchen staple item.",
@@ -1439,13 +1541,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2133
+    "rank": 2133,
+    "name": "Haldiram Navrattan 200Gm"
   },
   {
     "id": 2137,
     "title": "Haldiram Nr Salt&Pepper",
     "slug": "haldiram-nr-saltpepper",
-    "price": 70.0,
+    "price": 70,
     "image": "/images/products/haldiram-nr-saltpepper.jpg",
     "stock": 5,
     "description": "Haldiram Nr Salt&Pepper - Essential kitchen staple item.",
@@ -1453,13 +1556,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2137
+    "rank": 2137,
+    "name": "Haldiram Nr Salt&Pepper"
   },
   {
     "id": 2138,
     "title": "Haldiram Nr Salted",
     "slug": "haldiram-nr-salted",
-    "price": 70.0,
+    "price": 70,
     "image": "/images/products/haldiram-nr-salted.jpg",
     "stock": 4,
     "description": "Haldiram Nr Salted - Essential kitchen staple item.",
@@ -1467,13 +1571,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2138
+    "rank": 2138,
+    "name": "Haldiram Nr Salted"
   },
   {
     "id": 2140,
     "title": "Haldiram Panchrattan 200Gm",
     "slug": "haldiram-panchrattan-200gm",
-    "price": 100.0,
+    "price": 100,
     "image": "/images/products/haldiram-panchrattan-200gm.jpg",
     "stock": 2,
     "description": "Haldiram Panchrattan 200Gm - Essential kitchen staple item.",
@@ -1481,13 +1586,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2140
+    "rank": 2140,
+    "name": "Haldiram Panchrattan 200Gm"
   },
   {
     "id": 2145,
     "title": "Haldiram Roasted Chana Cracker 200Gm",
     "slug": "haldiram-roasted-chana-cracker-200gm",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/haldiram-roasted-chana-cracker-200gm.jpg",
     "stock": 5,
     "description": "Haldiram Roasted Chana Cracker 200Gm - Essential kitchen staple item.",
@@ -1495,13 +1601,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2145
+    "rank": 2145,
+    "name": "Haldiram Roasted Chana Cracker 200Gm"
   },
   {
     "id": 2148,
     "title": "Haldiram Salted Penut 200Gm",
     "slug": "haldiram-salted-penut-200gm",
-    "price": 55.0,
+    "price": 55,
     "image": "/images/products/haldiram-salted-penut-200gm.jpg",
     "stock": 6,
     "description": "Haldiram Salted Penut 200Gm - Essential kitchen staple item.",
@@ -1509,13 +1616,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2148
+    "rank": 2148,
+    "name": "Haldiram Salted Penut 200Gm"
   },
   {
     "id": 2150,
     "title": "Haldiram Shahi Dal Biji 200Gm",
     "slug": "haldiram-shahi-dal-biji-200gm",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/haldiram-shahi-dal-biji-200gm.jpg",
     "stock": 2,
     "description": "Haldiram Shahi Dal Biji 200Gm - Essential kitchen staple item.",
@@ -1523,13 +1631,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2150
+    "rank": 2150,
+    "name": "Haldiram Shahi Dal Biji 200Gm"
   },
   {
     "id": 2158,
     "title": "Haldiram'S Moong Dal 400G",
     "slug": "haldirams-moong-dal-400g",
-    "price": 120.0,
+    "price": 120,
     "image": "/images/products/haldirams-moong-dal-400g.jpg",
     "stock": 1,
     "description": "Haldiram'S Moong Dal 400G - Essential kitchen staple item.",
@@ -1537,13 +1646,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2158
+    "rank": 2158,
+    "name": "Haldiram'S Moong Dal 400G"
   },
   {
     "id": 2190,
     "title": "Happilo Salted California Almond",
     "slug": "happilo-salted-california-almond",
-    "price": 335.0,
+    "price": 335,
     "image": "/images/products/happilo-salted-california-almond.jpg",
     "stock": 5,
     "description": "Happilo Salted California Almond - Essential kitchen staple item.",
@@ -1551,13 +1661,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2190
+    "rank": 2190,
+    "name": "Happilo Salted California Almond"
   },
   {
     "id": 2191,
     "title": "Happilo Salted Cashew",
     "slug": "happilo-salted-cashew",
-    "price": 465.0,
+    "price": 465,
     "image": "/images/products/happilo-salted-cashew.jpg",
     "stock": 4,
     "description": "Happilo Salted Cashew - Essential kitchen staple item.",
@@ -1565,13 +1676,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2191
+    "rank": 2191,
+    "name": "Happilo Salted Cashew"
   },
   {
     "id": 2196,
     "title": "Happilo Unsalted Pista",
     "slug": "happilo-unsalted-pista",
-    "price": 549.0,
+    "price": 549,
     "image": "/images/products/happilo-unsalted-pista.jpg",
     "stock": 6,
     "description": "Happilo Unsalted Pista - Essential kitchen staple item.",
@@ -1579,13 +1691,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2196
+    "rank": 2196,
+    "name": "Happilo Unsalted Pista"
   },
   {
     "id": 2299,
     "title": "Hitkari Kaala Khatta 700Ml",
     "slug": "hitkari-kaala-khatta-700ml",
-    "price": 210.0,
+    "price": 210,
     "image": "/images/products/hitkari-kaala-khatta-700ml.jpg",
     "stock": 3,
     "description": "Hitkari Kaala Khatta 700Ml - Essential kitchen staple item.",
@@ -1593,13 +1706,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2299
+    "rank": 2299,
+    "name": "Hitkari Kaala Khatta 700Ml"
   },
   {
     "id": 2303,
     "title": "Hitkari Sandali Thandai 700Ml",
     "slug": "hitkari-sandali-thandai-700ml",
-    "price": 375.0,
+    "price": 375,
     "image": "/images/products/hitkari-sandali-thandai-700ml.jpg",
     "stock": 1,
     "description": "Hitkari Sandali Thandai 700Ml - Essential kitchen staple item.",
@@ -1607,13 +1721,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2303
+    "rank": 2303,
+    "name": "Hitkari Sandali Thandai 700Ml"
   },
   {
     "id": 2304,
     "title": "Hitkari Shahi Sandal 700Ml",
     "slug": "hitkari-shahi-sandal-700ml",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/hitkari-shahi-sandal-700ml.jpg",
     "stock": 3,
     "description": "Hitkari Shahi Sandal 700Ml - Essential kitchen staple item.",
@@ -1621,13 +1736,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2304
+    "rank": 2304,
+    "name": "Hitkari Shahi Sandal 700Ml"
   },
   {
     "id": 2385,
     "title": "Independene Chakki Atta 10Kg",
     "slug": "independene-chakki-atta-10kg",
-    "price": 600.0,
+    "price": 600,
     "image": "/images/products/independene-chakki-atta-10kg.jpg",
     "stock": 2,
     "description": "Independene Chakki Atta 10Kg - Essential kitchen staple item.",
@@ -1635,13 +1751,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2385
+    "rank": 2385,
+    "name": "Independene Chakki Atta 10Kg"
   },
   {
     "id": 2386,
     "title": "India Gate Classic Rice 1Kg",
     "slug": "india-gate-classic-rice-1kg",
-    "price": 252.0,
+    "price": 252,
     "image": "/images/products/india-gate-classic-rice-1kg.jpg",
     "stock": 4,
     "description": "India Gate Classic Rice 1Kg - Essential kitchen staple item.",
@@ -1649,13 +1766,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2386
+    "rank": 2386,
+    "name": "India Gate Classic Rice 1Kg"
   },
   {
     "id": 2387,
     "title": "India Gate Classic Rice 5Kg",
     "slug": "india-gate-classic-rice-5kg",
-    "price": 1255.0,
+    "price": 1255,
     "image": "/images/products/india-gate-classic-rice-5kg.jpg",
     "stock": 3,
     "description": "India Gate Classic Rice 5Kg - Essential kitchen staple item.",
@@ -1663,13 +1781,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2387
+    "rank": 2387,
+    "name": "India Gate Classic Rice 5Kg"
   },
   {
     "id": 2388,
     "title": "India Gate Dubar Rice 1Kg",
     "slug": "india-gate-dubar-rice-1kg",
-    "price": 151.0,
+    "price": 151,
     "image": "/images/products/india-gate-dubar-rice-1kg.jpg",
     "stock": 1,
     "description": "India Gate Dubar Rice 1Kg - Essential kitchen staple item.",
@@ -1677,13 +1796,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2388
+    "rank": 2388,
+    "name": "India Gate Dubar Rice 1Kg"
   },
   {
     "id": 2389,
     "title": "India Gate Dubar Rice 5Kg",
     "slug": "india-gate-dubar-rice-5kg",
-    "price": 750.0,
+    "price": 750,
     "image": "/images/products/india-gate-dubar-rice-5kg.jpg",
     "stock": 1,
     "description": "India Gate Dubar Rice 5Kg - Essential kitchen staple item.",
@@ -1691,13 +1811,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2389
+    "rank": 2389,
+    "name": "India Gate Dubar Rice 5Kg"
   },
   {
     "id": 2391,
     "title": "India Gate Mini Mogra Rice 10Kg",
     "slug": "india-gate-mini-mogra-rice-10kg",
-    "price": 735.0,
+    "price": 735,
     "image": "/images/products/india-gate-mini-mogra-rice-10kg.jpg",
     "stock": 3,
     "description": "India Gate Mini Mogra Rice 10Kg - Essential kitchen staple item.",
@@ -1705,13 +1826,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2391
+    "rank": 2391,
+    "name": "India Gate Mini Mogra Rice 10Kg"
   },
   {
     "id": 2392,
     "title": "India Gate Mini Mogra Rice 5Kg",
     "slug": "india-gate-mini-mogra-rice-5kg",
-    "price": 378.0,
+    "price": 378,
     "image": "/images/products/india-gate-mini-mogra-rice-5kg.jpg",
     "stock": 3,
     "description": "India Gate Mini Mogra Rice 5Kg - Essential kitchen staple item.",
@@ -1719,13 +1841,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2392
+    "rank": 2392,
+    "name": "India Gate Mini Mogra Rice 5Kg"
   },
   {
     "id": 2393,
     "title": "India Gate Mogra Rice 10Kg",
     "slug": "india-gate-mogra-rice-10kg",
-    "price": 865.0,
+    "price": 865,
     "image": "/images/products/india-gate-mogra-rice-10kg.jpg",
     "stock": 3,
     "description": "India Gate Mogra Rice 10Kg - Essential kitchen staple item.",
@@ -1733,13 +1856,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2393
+    "rank": 2393,
+    "name": "India Gate Mogra Rice 10Kg"
   },
   {
     "id": 2394,
     "title": "India Gate Mogra Rice 5Kg",
     "slug": "india-gate-mogra-rice-5kg",
-    "price": 460.0,
+    "price": 460,
     "image": "/images/products/india-gate-mogra-rice-5kg.jpg",
     "stock": 3,
     "description": "India Gate Mogra Rice 5Kg - Essential kitchen staple item.",
@@ -1747,13 +1871,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2394
+    "rank": 2394,
+    "name": "India Gate Mogra Rice 5Kg"
   },
   {
     "id": 2395,
     "title": "India Gate Rozzana Rice 1Kg",
     "slug": "india-gate-rozzana-rice-1kg",
-    "price": 118.0,
+    "price": 118,
     "image": "/images/products/india-gate-rozzana-rice-1kg.jpg",
     "stock": 2,
     "description": "India Gate Rozzana Rice 1Kg - Essential kitchen staple item.",
@@ -1761,13 +1886,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2395
+    "rank": 2395,
+    "name": "India Gate Rozzana Rice 1Kg"
   },
   {
     "id": 2396,
     "title": "India Gate Rozzana Rice 5Kg",
     "slug": "india-gate-rozzana-rice-5kg",
-    "price": 585.0,
+    "price": 585,
     "image": "/images/products/india-gate-rozzana-rice-5kg.jpg",
     "stock": 1,
     "description": "India Gate Rozzana Rice 5Kg - Essential kitchen staple item.",
@@ -1775,13 +1901,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2396
+    "rank": 2396,
+    "name": "India Gate Rozzana Rice 5Kg"
   },
   {
     "id": 2397,
     "title": "India Gate Super Rice 1Kg",
     "slug": "india-gate-super-rice-1kg",
-    "price": 221.0,
+    "price": 221,
     "image": "/images/products/india-gate-super-rice-1kg.jpg",
     "stock": 5,
     "description": "India Gate Super Rice 1Kg - Essential kitchen staple item.",
@@ -1789,13 +1916,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2397
+    "rank": 2397,
+    "name": "India Gate Super Rice 1Kg"
   },
   {
     "id": 2398,
     "title": "India Gate Super Rice 5Kg",
     "slug": "india-gate-super-rice-5kg",
-    "price": 1100.0,
+    "price": 1100,
     "image": "/images/products/india-gate-super-rice-5kg.jpg",
     "stock": 2,
     "description": "India Gate Super Rice 5Kg - Essential kitchen staple item.",
@@ -1803,13 +1931,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2398
+    "rank": 2398,
+    "name": "India Gate Super Rice 5Kg"
   },
   {
     "id": 2399,
     "title": "India Gate Tibar Rice 1Kg",
     "slug": "india-gate-tibar-rice-1kg",
-    "price": 157.0,
+    "price": 157,
     "image": "/images/products/india-gate-tibar-rice-1kg.jpg",
     "stock": 4,
     "description": "India Gate Tibar Rice 1Kg - Essential kitchen staple item.",
@@ -1817,13 +1946,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2399
+    "rank": 2399,
+    "name": "India Gate Tibar Rice 1Kg"
   },
   {
     "id": 2400,
     "title": "India Gate Tibar Rice 5Kg",
     "slug": "india-gate-tibar-rice-5kg",
-    "price": 780.0,
+    "price": 780,
     "image": "/images/products/india-gate-tibar-rice-5kg.jpg",
     "stock": 2,
     "description": "India Gate Tibar Rice 5Kg - Essential kitchen staple item.",
@@ -1831,13 +1961,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2400
+    "rank": 2400,
+    "name": "India Gate Tibar Rice 5Kg"
   },
   {
     "id": 2452,
     "title": "Jabsons Chilli N Garlic Chana 140G",
     "slug": "jabsons-chilli-n-garlic-chana-140g",
-    "price": 80.0,
+    "price": 80,
     "image": "/images/products/jabsons-chilli-n-garlic-chana-140g.jpg",
     "stock": 2,
     "description": "Jabsons Chilli N Garlic Chana 140G - Essential kitchen staple item.",
@@ -1845,13 +1976,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2452
+    "rank": 2452,
+    "name": "Jabsons Chilli N Garlic Chana 140G"
   },
   {
     "id": 2461,
     "title": "Jabsons Hing Jeera Chana 150G",
     "slug": "jabsons-hing-jeera-chana-150g",
-    "price": 70.0,
+    "price": 70,
     "image": "/images/products/jabsons-hing-jeera-chana-150g.jpg",
     "stock": 4,
     "description": "Jabsons Hing Jeera Chana 150G - Essential kitchen staple item.",
@@ -1859,13 +1991,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2461
+    "rank": 2461,
+    "name": "Jabsons Hing Jeera Chana 150G"
   },
   {
     "id": 2463,
     "title": "Jabsons Hot N Spicy Chana 140G",
     "slug": "jabsons-hot-n-spicy-chana-140g",
-    "price": 80.0,
+    "price": 80,
     "image": "/images/products/jabsons-hot-n-spicy-chana-140g.jpg",
     "stock": 4,
     "description": "Jabsons Hot N Spicy Chana 140G - Essential kitchen staple item.",
@@ -1873,13 +2006,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2463
+    "rank": 2463,
+    "name": "Jabsons Hot N Spicy Chana 140G"
   },
   {
     "id": 2467,
     "title": "Jabsons Lemon N Mint Chana 140G",
     "slug": "jabsons-lemon-n-mint-chana-140g",
-    "price": 80.0,
+    "price": 80,
     "image": "/images/products/jabsons-lemon-n-mint-chana-140g.jpg",
     "stock": 2,
     "description": "Jabsons Lemon N Mint Chana 140G - Essential kitchen staple item.",
@@ -1887,13 +2021,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2467
+    "rank": 2467,
+    "name": "Jabsons Lemon N Mint Chana 140G"
   },
   {
     "id": 2468,
     "title": "Jabsons Moong Jor 150G",
     "slug": "jabsons-moong-jor-150g",
-    "price": 80.0,
+    "price": 80,
     "image": "/images/products/jabsons-moong-jor-150g.jpg",
     "stock": 2,
     "description": "Jabsons Moong Jor 150G - Essential kitchen staple item.",
@@ -1901,13 +2036,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2468
+    "rank": 2468,
+    "name": "Jabsons Moong Jor 150G"
   },
   {
     "id": 2469,
     "title": "Jabsons Nimboo Pudina Chana 150G",
     "slug": "jabsons-nimboo-pudina-chana-150g",
-    "price": 70.0,
+    "price": 70,
     "image": "/images/products/jabsons-nimboo-pudina-chana-150g.jpg",
     "stock": 2,
     "description": "Jabsons Nimboo Pudina Chana 150G - Essential kitchen staple item.",
@@ -1915,13 +2051,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2469
+    "rank": 2469,
+    "name": "Jabsons Nimboo Pudina Chana 150G"
   },
   {
     "id": 2470,
     "title": "Jabsons Nimboo Pudina Chana 150G",
     "slug": "jabsons-nimboo-pudina-chana-150g",
-    "price": 75.0,
+    "price": 75,
     "image": "/images/products/jabsons-nimboo-pudina-chana-150g.jpg",
     "stock": 3,
     "description": "Jabsons Nimboo Pudina Chana 150G - Essential kitchen staple item.",
@@ -1929,13 +2066,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2470
+    "rank": 2470,
+    "name": "Jabsons Nimboo Pudina Chana 150G"
   },
   {
     "id": 2472,
     "title": "Jabsons Papdi Salted 120G",
     "slug": "jabsons-papdi-salted-120g",
-    "price": 40.0,
+    "price": 40,
     "image": "/images/products/jabsons-papdi-salted-120g.jpg",
     "stock": 2,
     "description": "Jabsons Papdi Salted 120G - Essential kitchen staple item.",
@@ -1943,13 +2081,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2472
+    "rank": 2472,
+    "name": "Jabsons Papdi Salted 120G"
   },
   {
     "id": 2478,
     "title": "Jabsons Roast Chana Wht 200G",
     "slug": "jabsons-roast-chana-wht-200g",
-    "price": 90.0,
+    "price": 90,
     "image": "/images/products/jabsons-roast-chana-wht-200g.jpg",
     "stock": 3,
     "description": "Jabsons Roast Chana Wht 200G - Essential kitchen staple item.",
@@ -1957,13 +2096,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2478
+    "rank": 2478,
+    "name": "Jabsons Roast Chana Wht 200G"
   },
   {
     "id": 2479,
     "title": "Jabsons Roast Dana Chana 180G",
     "slug": "jabsons-roast-dana-chana-180g",
-    "price": 70.0,
+    "price": 70,
     "image": "/images/products/jabsons-roast-dana-chana-180g.jpg",
     "stock": 4,
     "description": "Jabsons Roast Dana Chana 180G - Essential kitchen staple item.",
@@ -1971,13 +2111,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2479
+    "rank": 2479,
+    "name": "Jabsons Roast Dana Chana 180G"
   },
   {
     "id": 2480,
     "title": "Jabsons Roasted Chana 200G",
     "slug": "jabsons-roasted-chana-200g",
-    "price": 80.0,
+    "price": 80,
     "image": "/images/products/jabsons-roasted-chana-200g.jpg",
     "stock": 2,
     "description": "Jabsons Roasted Chana 200G - Essential kitchen staple item.",
@@ -1985,13 +2126,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2480
+    "rank": 2480,
+    "name": "Jabsons Roasted Chana 200G"
   },
   {
     "id": 2482,
     "title": "Jabsons Salted Banana Chips 150G",
     "slug": "jabsons-salted-banana-chips-150g",
-    "price": 80.0,
+    "price": 80,
     "image": "/images/products/jabsons-salted-banana-chips-150g.jpg",
     "stock": 3,
     "description": "Jabsons Salted Banana Chips 150G - Essential kitchen staple item.",
@@ -1999,13 +2141,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2482
+    "rank": 2482,
+    "name": "Jabsons Salted Banana Chips 150G"
   },
   {
     "id": 2483,
     "title": "Jabsons Salted Potato Chips 110G",
     "slug": "jabsons-salted-potato-chips-110g",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/jabsons-salted-potato-chips-110g.jpg",
     "stock": 2,
     "description": "Jabsons Salted Potato Chips 110G - Essential kitchen staple item.",
@@ -2013,13 +2156,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2483
+    "rank": 2483,
+    "name": "Jabsons Salted Potato Chips 110G"
   },
   {
     "id": 2484,
     "title": "Jabsons Salted Sabudana Mix 180G",
     "slug": "jabsons-salted-sabudana-mix-180g",
-    "price": 80.0,
+    "price": 80,
     "image": "/images/products/jabsons-salted-sabudana-mix-180g.jpg",
     "stock": 3,
     "description": "Jabsons Salted Sabudana Mix 180G - Essential kitchen staple item.",
@@ -2027,13 +2171,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2484
+    "rank": 2484,
+    "name": "Jabsons Salted Sabudana Mix 180G"
   },
   {
     "id": 2485,
     "title": "Jabsons Sing Chana 250G",
     "slug": "jabsons-sing-chana-250g",
-    "price": 90.0,
+    "price": 90,
     "image": "/images/products/jabsons-sing-chana-250g.jpg",
     "stock": 3,
     "description": "Jabsons Sing Chana 250G - Essential kitchen staple item.",
@@ -2041,13 +2186,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2485
+    "rank": 2485,
+    "name": "Jabsons Sing Chana 250G"
   },
   {
     "id": 2487,
     "title": "Jabsons Spicy Masala Chana 150G",
     "slug": "jabsons-spicy-masala-chana-150g",
-    "price": 70.0,
+    "price": 70,
     "image": "/images/products/jabsons-spicy-masala-chana-150g.jpg",
     "stock": 3,
     "description": "Jabsons Spicy Masala Chana 150G - Essential kitchen staple item.",
@@ -2055,13 +2201,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2487
+    "rank": 2487,
+    "name": "Jabsons Spicy Masala Chana 150G"
   },
   {
     "id": 2489,
     "title": "Jabsons Tandoori Roast Chana 140G",
     "slug": "jabsons-tandoori-roast-chana-140g",
-    "price": 80.0,
+    "price": 80,
     "image": "/images/products/jabsons-tandoori-roast-chana-140g.jpg",
     "stock": 4,
     "description": "Jabsons Tandoori Roast Chana 140G - Essential kitchen staple item.",
@@ -2069,13 +2216,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2489
+    "rank": 2489,
+    "name": "Jabsons Tandoori Roast Chana 140G"
   },
   {
     "id": 2531,
     "title": "Jf Ragi/Multigr Flour",
     "slug": "jf-ragimultigr-flour",
-    "price": 128.0,
+    "price": 128,
     "image": "/images/products/jf-ragimultigr-flour.jpg",
     "stock": 3,
     "description": "Jf Ragi/Multigr Flour - Essential kitchen staple item.",
@@ -2083,13 +2231,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2531
+    "rank": 2531,
+    "name": "Jf Ragi/Multigr Flour"
   },
   {
     "id": 2536,
     "title": "Jf Salted Mix 200Gm",
     "slug": "jf-salted-mix-200gm",
-    "price": 399.0,
+    "price": 399,
     "image": "/images/products/jf-salted-mix-200gm.jpg",
     "stock": 2,
     "description": "Jf Salted Mix 200Gm - Essential kitchen staple item.",
@@ -2097,13 +2246,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2536
+    "rank": 2536,
+    "name": "Jf Salted Mix 200Gm"
   },
   {
     "id": 2555,
     "title": "Jimmy'S Zero Sugar Sparking Water",
     "slug": "jimmys-zero-sugar-sparking-water",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/jimmys-zero-sugar-sparking-water.jpg",
     "stock": 4,
     "description": "Jimmy'S Zero Sugar Sparking Water - Essential kitchen staple item.",
@@ -2111,13 +2261,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2555
+    "rank": 2555,
+    "name": "Jimmy'S Zero Sugar Sparking Water"
   },
   {
     "id": 2556,
     "title": "Jimmy'S Zero Sugar Sw Peach",
     "slug": "jimmys-zero-sugar-sw-peach",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/jimmys-zero-sugar-sw-peach.jpg",
     "stock": 4,
     "description": "Jimmy'S Zero Sugar Sw Peach - Essential kitchen staple item.",
@@ -2125,13 +2276,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2556
+    "rank": 2556,
+    "name": "Jimmy'S Zero Sugar Sw Peach"
   },
   {
     "id": 2557,
     "title": "Jimmy'S Zero Sugar Tonic Water",
     "slug": "jimmys-zero-sugar-tonic-water",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/jimmys-zero-sugar-tonic-water.jpg",
     "stock": 11,
     "description": "Jimmy'S Zero Sugar Tonic Water - Essential kitchen staple item.",
@@ -2139,13 +2291,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2557
+    "rank": 2557,
+    "name": "Jimmy'S Zero Sugar Tonic Water"
   },
   {
     "id": 2561,
     "title": "Jivamrit Organic Arhar Dal 500G",
     "slug": "jivamrit-organic-arhar-dal-500g",
-    "price": 185.0,
+    "price": 185,
     "image": "/images/products/jivamrit-organic-arhar-dal-500g.jpg",
     "stock": 2,
     "description": "Jivamrit Organic Arhar Dal 500G - Essential kitchen staple item.",
@@ -2153,13 +2306,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2561
+    "rank": 2561,
+    "name": "Jivamrit Organic Arhar Dal 500G"
   },
   {
     "id": 2562,
     "title": "Jivamrit Organic Bajra Flour",
     "slug": "jivamrit-organic-bajra-flour",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/jivamrit-organic-bajra-flour.jpg",
     "stock": 2,
     "description": "Jivamrit Organic Bajra Flour - Essential kitchen staple item.",
@@ -2167,13 +2321,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2562
+    "rank": 2562,
+    "name": "Jivamrit Organic Bajra Flour"
   },
   {
     "id": 2564,
     "title": "Jivamrit Organic Barley Daliya",
     "slug": "jivamrit-organic-barley-daliya",
-    "price": 85.0,
+    "price": 85,
     "image": "/images/products/jivamrit-organic-barley-daliya.jpg",
     "stock": 2,
     "description": "Jivamrit Organic Barley Daliya - Essential kitchen staple item.",
@@ -2181,13 +2336,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2564
+    "rank": 2564,
+    "name": "Jivamrit Organic Barley Daliya"
   },
   {
     "id": 2567,
     "title": "Jivamrit Organic Besan 500G",
     "slug": "jivamrit-organic-besan-500g",
-    "price": 125.0,
+    "price": 125,
     "image": "/images/products/jivamrit-organic-besan-500g.jpg",
     "stock": 1,
     "description": "Jivamrit Organic Besan 500G - Essential kitchen staple item.",
@@ -2195,13 +2351,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2567
+    "rank": 2567,
+    "name": "Jivamrit Organic Besan 500G"
   },
   {
     "id": 2571,
     "title": "Jivamrit Organic Chana Dal 500G",
     "slug": "jivamrit-organic-chana-dal-500g",
-    "price": 120.0,
+    "price": 120,
     "image": "/images/products/jivamrit-organic-chana-dal-500g.jpg",
     "stock": 2,
     "description": "Jivamrit Organic Chana Dal 500G - Essential kitchen staple item.",
@@ -2209,13 +2366,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2571
+    "rank": 2571,
+    "name": "Jivamrit Organic Chana Dal 500G"
   },
   {
     "id": 2576,
     "title": "Jivamrit Organic Kabuli Chana 500G",
     "slug": "jivamrit-organic-kabuli-chana-500g",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/jivamrit-organic-kabuli-chana-500g.jpg",
     "stock": 1,
     "description": "Jivamrit Organic Kabuli Chana 500G - Essential kitchen staple item.",
@@ -2223,13 +2381,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2576
+    "rank": 2576,
+    "name": "Jivamrit Organic Kabuli Chana 500G"
   },
   {
     "id": 2580,
     "title": "Jivamrit Organic Little Millet Flour",
     "slug": "jivamrit-organic-little-millet-flour",
-    "price": 138.0,
+    "price": 138,
     "image": "/images/products/jivamrit-organic-little-millet-flour.jpg",
     "stock": 2,
     "description": "Jivamrit Organic Little Millet Flour - Essential kitchen staple item.",
@@ -2237,13 +2396,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2580
+    "rank": 2580,
+    "name": "Jivamrit Organic Little Millet Flour"
   },
   {
     "id": 2581,
     "title": "Jivamrit Organic Masoor Dal 500G",
     "slug": "jivamrit-organic-masoor-dal-500g",
-    "price": 130.0,
+    "price": 130,
     "image": "/images/products/jivamrit-organic-masoor-dal-500g.jpg",
     "stock": 2,
     "description": "Jivamrit Organic Masoor Dal 500G - Essential kitchen staple item.",
@@ -2251,13 +2411,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2581
+    "rank": 2581,
+    "name": "Jivamrit Organic Masoor Dal 500G"
   },
   {
     "id": 2582,
     "title": "Jivamrit Organic Mix Dal 500G",
     "slug": "jivamrit-organic-mix-dal-500g",
-    "price": 175.0,
+    "price": 175,
     "image": "/images/products/jivamrit-organic-mix-dal-500g.jpg",
     "stock": 2,
     "description": "Jivamrit Organic Mix Dal 500G - Essential kitchen staple item.",
@@ -2265,13 +2426,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2582
+    "rank": 2582,
+    "name": "Jivamrit Organic Mix Dal 500G"
   },
   {
     "id": 2583,
     "title": "Jivamrit Organic Moong Chilka 500G",
     "slug": "jivamrit-organic-moong-chilka-500g",
-    "price": 145.0,
+    "price": 145,
     "image": "/images/products/jivamrit-organic-moong-chilka-500g.jpg",
     "stock": 2,
     "description": "Jivamrit Organic Moong Chilka 500G - Essential kitchen staple item.",
@@ -2279,13 +2441,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2583
+    "rank": 2583,
+    "name": "Jivamrit Organic Moong Chilka 500G"
   },
   {
     "id": 2584,
     "title": "Jivamrit Organic Moong Dal Yellow",
     "slug": "jivamrit-organic-moong-dal-yellow",
-    "price": 155.0,
+    "price": 155,
     "image": "/images/products/jivamrit-organic-moong-dal-yellow.jpg",
     "stock": 2,
     "description": "Jivamrit Organic Moong Dal Yellow - Essential kitchen staple item.",
@@ -2293,13 +2456,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2584
+    "rank": 2584,
+    "name": "Jivamrit Organic Moong Dal Yellow"
   },
   {
     "id": 2585,
     "title": "Jivamrit Organic Moong Whole 500G",
     "slug": "jivamrit-organic-moong-whole-500g",
-    "price": 145.0,
+    "price": 145,
     "image": "/images/products/jivamrit-organic-moong-whole-500g.jpg",
     "stock": 2,
     "description": "Jivamrit Organic Moong Whole 500G - Essential kitchen staple item.",
@@ -2307,13 +2471,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2585
+    "rank": 2585,
+    "name": "Jivamrit Organic Moong Whole 500G"
   },
   {
     "id": 2587,
     "title": "Jivamrit Organic Multigrain Atta 1Kg",
     "slug": "jivamrit-organic-multigrain-atta-1kg",
-    "price": 105.0,
+    "price": 105,
     "image": "/images/products/jivamrit-organic-multigrain-atta-1kg.jpg",
     "stock": 2,
     "description": "Jivamrit Organic Multigrain Atta 1Kg - Essential kitchen staple item.",
@@ -2321,13 +2486,14 @@ const products = [
     "unit": "8906",
     "category": "staples",
     "popular": false,
-    "rank": 2587
+    "rank": 2587,
+    "name": "Jivamrit Organic Multigrain Atta 1Kg"
   },
   {
     "id": 2591,
     "title": "Jivamrit Organic Ragi Atta 500G",
     "slug": "jivamrit-organic-ragi-atta-500g",
-    "price": 79.0,
+    "price": 79,
     "image": "/images/products/jivamrit-organic-ragi-atta-500g.jpg",
     "stock": 2,
     "description": "Jivamrit Organic Ragi Atta 500G - Essential kitchen staple item.",
@@ -2335,13 +2501,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2591
+    "rank": 2591,
+    "name": "Jivamrit Organic Ragi Atta 500G"
   },
   {
     "id": 2593,
     "title": "Jivamrit Organic Raw Sugar 500",
     "slug": "jivamrit-organic-raw-sugar-500",
-    "price": 90.0,
+    "price": 90,
     "image": "/images/products/jivamrit-organic-raw-sugar-500.jpg",
     "stock": 2,
     "description": "Jivamrit Organic Raw Sugar 500 - Essential kitchen staple item.",
@@ -2349,13 +2516,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2593
+    "rank": 2593,
+    "name": "Jivamrit Organic Raw Sugar 500"
   },
   {
     "id": 2595,
     "title": "Jivamrit Organic Rice Flour 500G",
     "slug": "jivamrit-organic-rice-flour-500g",
-    "price": 70.0,
+    "price": 70,
     "image": "/images/products/jivamrit-organic-rice-flour-500g.jpg",
     "stock": 2,
     "description": "Jivamrit Organic Rice Flour 500G - Essential kitchen staple item.",
@@ -2363,13 +2531,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2595
+    "rank": 2595,
+    "name": "Jivamrit Organic Rice Flour 500G"
   },
   {
     "id": 2596,
     "title": "Jivamrit Organic Sonamasri Rice 1Kg",
     "slug": "jivamrit-organic-sonamasri-rice-1kg",
-    "price": 145.0,
+    "price": 145,
     "image": "/images/products/jivamrit-organic-sonamasri-rice-1kg.jpg",
     "stock": 2,
     "description": "Jivamrit Organic Sonamasri Rice 1Kg - Essential kitchen staple item.",
@@ -2377,13 +2546,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2596
+    "rank": 2596,
+    "name": "Jivamrit Organic Sonamasri Rice 1Kg"
   },
   {
     "id": 2597,
     "title": "Jivamrit Organic Sugar 500G",
     "slug": "jivamrit-organic-sugar-500g",
-    "price": 82.0,
+    "price": 82,
     "image": "/images/products/jivamrit-organic-sugar-500g.jpg",
     "stock": 2,
     "description": "Jivamrit Organic Sugar 500G - Essential kitchen staple item.",
@@ -2391,13 +2561,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2597
+    "rank": 2597,
+    "name": "Jivamrit Organic Sugar 500G"
   },
   {
     "id": 2599,
     "title": "Jivamrit Organic Urad Dal Dhuli 500G",
     "slug": "jivamrit-organic-urad-dal-dhuli-500g",
-    "price": 170.0,
+    "price": 170,
     "image": "/images/products/jivamrit-organic-urad-dal-dhuli-500g.jpg",
     "stock": 2,
     "description": "Jivamrit Organic Urad Dal Dhuli 500G - Essential kitchen staple item.",
@@ -2405,13 +2576,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2599
+    "rank": 2599,
+    "name": "Jivamrit Organic Urad Dal Dhuli 500G"
   },
   {
     "id": 2601,
     "title": "Jivamrit Organic Wheat Aata 2.5Kg",
     "slug": "jivamrit-organic-wheat-aata-25kg",
-    "price": 200.0,
+    "price": 200,
     "image": "/images/products/jivamrit-organic-wheat-aata-25kg.jpg",
     "stock": 4,
     "description": "Jivamrit Organic Wheat Aata 2.5Kg - Essential kitchen staple item.",
@@ -2419,13 +2591,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2601
+    "rank": 2601,
+    "name": "Jivamrit Organic Wheat Aata 2.5Kg"
   },
   {
     "id": 2602,
     "title": "Jivamrit Organic Wheat Daliya",
     "slug": "jivamrit-organic-wheat-daliya",
-    "price": 70.0,
+    "price": 70,
     "image": "/images/products/jivamrit-organic-wheat-daliya.jpg",
     "stock": 2,
     "description": "Jivamrit Organic Wheat Daliya - Essential kitchen staple item.",
@@ -2433,13 +2606,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2602
+    "rank": 2602,
+    "name": "Jivamrit Organic Wheat Daliya"
   },
   {
     "id": 2603,
     "title": "Jivo Healthy Wheat Grass Juice 200Ml",
     "slug": "jivo-healthy-wheat-grass-juice-200ml",
-    "price": 50.0,
+    "price": 50,
     "image": "/images/products/jivo-healthy-wheat-grass-juice-200ml.jpg",
     "stock": 39,
     "description": "Jivo Healthy Wheat Grass Juice 200Ml - Essential kitchen staple item.",
@@ -2447,13 +2621,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2603
+    "rank": 2603,
+    "name": "Jivo Healthy Wheat Grass Juice 200Ml"
   },
   {
     "id": 2604,
     "title": "Jo Amarnath Flour 500G",
     "slug": "jo-amarnath-flour-500g",
-    "price": 210.0,
+    "price": 210,
     "image": "/images/products/jo-amarnath-flour-500g.jpg",
     "stock": 2,
     "description": "Jo Amarnath Flour 500G - Essential kitchen staple item.",
@@ -2461,13 +2636,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2604
+    "rank": 2604,
+    "name": "Jo Amarnath Flour 500G"
   },
   {
     "id": 2605,
     "title": "Jo Bajra Flour 500Gm",
     "slug": "jo-bajra-flour-500gm",
-    "price": 75.0,
+    "price": 75,
     "image": "/images/products/jo-bajra-flour-500gm.jpg",
     "stock": 1,
     "description": "Jo Bajra Flour 500Gm - Essential kitchen staple item.",
@@ -2475,13 +2651,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2605
+    "rank": 2605,
+    "name": "Jo Bajra Flour 500Gm"
   },
   {
     "id": 2606,
     "title": "Jo Buck Wheat Flour 500Gm",
     "slug": "jo-buck-wheat-flour-500gm",
-    "price": 165.0,
+    "price": 165,
     "image": "/images/products/jo-buck-wheat-flour-500gm.jpg",
     "stock": 3,
     "description": "Jo Buck Wheat Flour 500Gm - Essential kitchen staple item.",
@@ -2489,13 +2666,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2606
+    "rank": 2606,
+    "name": "Jo Buck Wheat Flour 500Gm"
   },
   {
     "id": 2607,
     "title": "Jo Chana Flour 500Gm",
     "slug": "jo-chana-flour-500gm",
-    "price": 120.0,
+    "price": 120,
     "image": "/images/products/jo-chana-flour-500gm.jpg",
     "stock": 2,
     "description": "Jo Chana Flour 500Gm - Essential kitchen staple item.",
@@ -2503,13 +2681,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2607
+    "rank": 2607,
+    "name": "Jo Chana Flour 500Gm"
   },
   {
     "id": 2608,
     "title": "Jo Jowar Flour 500Gm",
     "slug": "jo-jowar-flour-500gm",
-    "price": 80.0,
+    "price": 80,
     "image": "/images/products/jo-jowar-flour-500gm.jpg",
     "stock": 6,
     "description": "Jo Jowar Flour 500Gm - Essential kitchen staple item.",
@@ -2517,13 +2696,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2608
+    "rank": 2608,
+    "name": "Jo Jowar Flour 500Gm"
   },
   {
     "id": 2609,
     "title": "Jo Kodo Millet Flour 500Gm",
     "slug": "jo-kodo-millet-flour-500gm",
-    "price": 140.0,
+    "price": 140,
     "image": "/images/products/jo-kodo-millet-flour-500gm.jpg",
     "stock": 4,
     "description": "Jo Kodo Millet Flour 500Gm - Essential kitchen staple item.",
@@ -2531,13 +2711,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2609
+    "rank": 2609,
+    "name": "Jo Kodo Millet Flour 500Gm"
   },
   {
     "id": 2610,
     "title": "Jo Quinoa Flour 500Gm",
     "slug": "jo-quinoa-flour-500gm",
-    "price": 275.0,
+    "price": 275,
     "image": "/images/products/jo-quinoa-flour-500gm.jpg",
     "stock": 3,
     "description": "Jo Quinoa Flour 500Gm - Essential kitchen staple item.",
@@ -2545,13 +2726,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2610
+    "rank": 2610,
+    "name": "Jo Quinoa Flour 500Gm"
   },
   {
     "id": 2611,
     "title": "Jo Ragi Flour 500Gm",
     "slug": "jo-ragi-flour-500gm",
-    "price": 80.0,
+    "price": 80,
     "image": "/images/products/jo-ragi-flour-500gm.jpg",
     "stock": 6,
     "description": "Jo Ragi Flour 500Gm - Essential kitchen staple item.",
@@ -2559,13 +2741,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2611
+    "rank": 2611,
+    "name": "Jo Ragi Flour 500Gm"
   },
   {
     "id": 2612,
     "title": "Jo Rice Flour 500Gm",
     "slug": "jo-rice-flour-500gm",
-    "price": 75.0,
+    "price": 75,
     "image": "/images/products/jo-rice-flour-500gm.jpg",
     "stock": 5,
     "description": "Jo Rice Flour 500Gm - Essential kitchen staple item.",
@@ -2573,13 +2756,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2612
+    "rank": 2612,
+    "name": "Jo Rice Flour 500Gm"
   },
   {
     "id": 2613,
     "title": "Jo Soyabean White Flour 500Gm",
     "slug": "jo-soyabean-white-flour-500gm",
-    "price": 130.0,
+    "price": 130,
     "image": "/images/products/jo-soyabean-white-flour-500gm.jpg",
     "stock": 6,
     "description": "Jo Soyabean White Flour 500Gm - Essential kitchen staple item.",
@@ -2587,13 +2771,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2613
+    "rank": 2613,
+    "name": "Jo Soyabean White Flour 500Gm"
   },
   {
     "id": 2666,
     "title": "Johnson'S Baby Milk+Rice Cream 100G",
     "slug": "johnsons-baby-milkrice-cream-100g",
-    "price": 200.0,
+    "price": 200,
     "image": "/images/products/johnsons-baby-milkrice-cream-100g.jpg",
     "stock": 4,
     "description": "Johnson'S Baby Milk+Rice Cream 100G - Essential kitchen staple item.",
@@ -2601,13 +2786,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2666
+    "rank": 2666,
+    "name": "Johnson'S Baby Milk+Rice Cream 100G"
   },
   {
     "id": 2684,
     "title": "Johnson'S Milk+Rice Cream 50G",
     "slug": "johnsons-milkrice-cream-50g",
-    "price": 0.0,
+    "price": 0,
     "image": "/images/products/johnsons-milkrice-cream-50g.jpg",
     "stock": 5,
     "description": "Johnson'S Milk+Rice Cream 50G - Essential kitchen staple item.",
@@ -2615,13 +2801,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2684
+    "rank": 2684,
+    "name": "Johnson'S Milk+Rice Cream 50G"
   },
   {
     "id": 2685,
     "title": "Johnson'S Milk+Rice Lotion 200Ml",
     "slug": "johnsons-milkrice-lotion-200ml",
-    "price": 225.0,
+    "price": 225,
     "image": "/images/products/johnsons-milkrice-lotion-200ml.jpg",
     "stock": 3,
     "description": "Johnson'S Milk+Rice Lotion 200Ml - Essential kitchen staple item.",
@@ -2629,13 +2816,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2685
+    "rank": 2685,
+    "name": "Johnson'S Milk+Rice Lotion 200Ml"
   },
   {
     "id": 2689,
     "title": "Jovees Bridal Face Wash",
     "slug": "jovees-bridal-face-wash",
-    "price": 295.0,
+    "price": 295,
     "image": "/images/products/jovees-bridal-face-wash.jpg",
     "stock": 2,
     "description": "Jovees Bridal Face Wash - Essential kitchen staple item.",
@@ -2643,13 +2831,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2689
+    "rank": 2689,
+    "name": "Jovees Bridal Face Wash"
   },
   {
     "id": 2735,
     "title": "Kapiva Dal Ubtain Face Scrub",
     "slug": "kapiva-dal-ubtain-face-scrub",
-    "price": 299.0,
+    "price": 299,
     "image": "/images/products/kapiva-dal-ubtain-face-scrub.jpg",
     "stock": 3,
     "description": "Kapiva Dal Ubtain Face Scrub - Essential kitchen staple item.",
@@ -2657,13 +2846,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2735
+    "rank": 2735,
+    "name": "Kapiva Dal Ubtain Face Scrub"
   },
   {
     "id": 2746,
     "title": "Kapiva Organic Wheatgrass Powder 100Gm",
     "slug": "kapiva-organic-wheatgrass-powder-100gm",
-    "price": 275.0,
+    "price": 275,
     "image": "/images/products/kapiva-organic-wheatgrass-powder-100gm.jpg",
     "stock": 1,
     "description": "Kapiva Organic Wheatgrass Powder 100Gm - Essential kitchen staple item.",
@@ -2671,13 +2861,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2746
+    "rank": 2746,
+    "name": "Kapiva Organic Wheatgrass Powder 100Gm"
   },
   {
     "id": 2772,
     "title": "Kellogg'S Musli No Sugar 500Gm",
     "slug": "kelloggs-musli-no-sugar-500gm",
-    "price": 395.0,
+    "price": 395,
     "image": "/images/products/kelloggs-musli-no-sugar-500gm.jpg",
     "stock": 3,
     "description": "Kellogg'S Musli No Sugar 500Gm - Essential kitchen staple item.",
@@ -2685,13 +2876,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2772
+    "rank": 2772,
+    "name": "Kellogg'S Musli No Sugar 500Gm"
   },
   {
     "id": 2794,
     "title": "Keya Everyday Pink Salt",
     "slug": "keya-everyday-pink-salt",
-    "price": 109.0,
+    "price": 109,
     "image": "/images/products/keya-everyday-pink-salt.jpg",
     "stock": 3,
     "description": "Keya Everyday Pink Salt - Essential kitchen staple item.",
@@ -2699,13 +2891,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2794
+    "rank": 2794,
+    "name": "Keya Everyday Pink Salt"
   },
   {
     "id": 2802,
     "title": "Keya Grind Rock Salt 100G",
     "slug": "keya-grind-rock-salt-100g",
-    "price": 109.0,
+    "price": 109,
     "image": "/images/products/keya-grind-rock-salt-100g.jpg",
     "stock": 5,
     "description": "Keya Grind Rock Salt 100G - Essential kitchen staple item.",
@@ -2713,13 +2906,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2802
+    "rank": 2802,
+    "name": "Keya Grind Rock Salt 100G"
   },
   {
     "id": 2815,
     "title": "Keya Pink Salt 200Gm",
     "slug": "keya-pink-salt-200gm",
-    "price": 89.0,
+    "price": 89,
     "image": "/images/products/keya-pink-salt-200gm.jpg",
     "stock": 6,
     "description": "Keya Pink Salt 200Gm - Essential kitchen staple item.",
@@ -2727,13 +2921,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2815
+    "rank": 2815,
+    "name": "Keya Pink Salt 200Gm"
   },
   {
     "id": 2826,
     "title": "Keya Table Salt 200Gm",
     "slug": "keya-table-salt-200gm",
-    "price": 49.0,
+    "price": 49,
     "image": "/images/products/keya-table-salt-200gm.jpg",
     "stock": 5,
     "description": "Keya Table Salt 200Gm - Essential kitchen staple item.",
@@ -2741,13 +2936,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2826
+    "rank": 2826,
+    "name": "Keya Table Salt 200Gm"
   },
   {
     "id": 2835,
     "title": "Khadi Sandalwood &Turmeric Body Wash",
     "slug": "khadi-sandalwood-turmeric-body-wash",
-    "price": 299.0,
+    "price": 299,
     "image": "/images/products/khadi-sandalwood-turmeric-body-wash.jpg",
     "stock": 1,
     "description": "Khadi Sandalwood &Turmeric Body Wash - Essential kitchen staple item.",
@@ -2755,13 +2951,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2835
+    "rank": 2835,
+    "name": "Khadi Sandalwood &Turmeric Body Wash"
   },
   {
     "id": 2870,
     "title": "Kkk Mp Sharbati Atta 5Kg",
     "slug": "kkk-mp-sharbati-atta-5kg",
-    "price": 370.0,
+    "price": 370,
     "image": "/images/products/kkk-mp-sharbati-atta-5kg.jpg",
     "stock": 3,
     "description": "Kkk Mp Sharbati Atta 5Kg - Essential kitchen staple item.",
@@ -2769,13 +2966,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 2870
+    "rank": 2870,
+    "name": "Kkk Mp Sharbati Atta 5Kg"
   },
   {
     "id": 3063,
     "title": "Lay'S Wafer Chips Pink Salt",
     "slug": "lays-wafer-chips-pink-salt",
-    "price": 20.0,
+    "price": 20,
     "image": "/images/products/lays-wafer-chips-pink-salt.jpg",
     "stock": 8,
     "description": "Lay'S Wafer Chips Pink Salt - Essential kitchen staple item.",
@@ -2783,13 +2981,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3063
+    "rank": 3063,
+    "name": "Lay'S Wafer Chips Pink Salt"
   },
   {
     "id": 3146,
     "title": "Lizol Sandal/Neem 500Ml",
     "slug": "lizol-sandalneem-500ml",
-    "price": 116.0,
+    "price": 116,
     "image": "/images/products/lizol-sandalneem-500ml.jpg",
     "stock": 1,
     "description": "Lizol Sandal/Neem 500Ml - Essential kitchen staple item.",
@@ -2797,13 +2996,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3146
+    "rank": 3146,
+    "name": "Lizol Sandal/Neem 500Ml"
   },
   {
     "id": 3147,
     "title": "Lizol Sandal/Neem 500Ml",
     "slug": "lizol-sandalneem-500ml",
-    "price": 123.0,
+    "price": 123,
     "image": "/images/products/lizol-sandalneem-500ml.jpg",
     "stock": 2,
     "description": "Lizol Sandal/Neem 500Ml - Essential kitchen staple item.",
@@ -2811,13 +3011,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3147
+    "rank": 3147,
+    "name": "Lizol Sandal/Neem 500Ml"
   },
   {
     "id": 3190,
     "title": "Lotus Facial Kit Bridal Glow",
     "slug": "lotus-facial-kit-bridal-glow",
-    "price": 410.0,
+    "price": 410,
     "image": "/images/products/lotus-facial-kit-bridal-glow.jpg",
     "stock": 3,
     "description": "Lotus Facial Kit Bridal Glow - Essential kitchen staple item.",
@@ -2825,13 +3026,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3190
+    "rank": 3190,
+    "name": "Lotus Facial Kit Bridal Glow"
   },
   {
     "id": 3268,
     "title": "Maggi Masala Veg Atta 290G",
     "slug": "maggi-masala-veg-atta-290g",
-    "price": 116.0,
+    "price": 116,
     "image": "/images/products/maggi-masala-veg-atta-290g.jpg",
     "stock": 14,
     "description": "Maggi Masala Veg Atta 290G - Essential kitchen staple item.",
@@ -2839,13 +3041,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3268
+    "rank": 3268,
+    "name": "Maggi Masala Veg Atta 290G"
   },
   {
     "id": 3280,
     "title": "Maggi Veg Atta",
     "slug": "maggi-veg-atta",
-    "price": 116.0,
+    "price": 116,
     "image": "/images/products/maggi-veg-atta.jpg",
     "stock": -1,
     "description": "Maggi Veg Atta - Essential kitchen staple item.",
@@ -2853,13 +3056,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3280
+    "rank": 3280,
+    "name": "Maggi Veg Atta"
   },
   {
     "id": 3289,
     "title": "Makhan Chor Rice 5Kg",
     "slug": "makhan-chor-rice-5kg",
-    "price": 700.0,
+    "price": 700,
     "image": "/images/products/makhan-chor-rice-5kg.jpg",
     "stock": 4,
     "description": "Makhan Chor Rice 5Kg - Essential kitchen staple item.",
@@ -2867,13 +3071,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3289
+    "rank": 3289,
+    "name": "Makhan Chor Rice 5Kg"
   },
   {
     "id": 3290,
     "title": "Makhana Walas Black Salt",
     "slug": "makhana-walas-black-salt",
-    "price": 140.0,
+    "price": 140,
     "image": "/images/products/makhana-walas-black-salt.jpg",
     "stock": 2,
     "description": "Makhana Walas Black Salt - Essential kitchen staple item.",
@@ -2881,13 +3086,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3290
+    "rank": 3290,
+    "name": "Makhana Walas Black Salt"
   },
   {
     "id": 3293,
     "title": "Makhana Walas Himalayan Salt",
     "slug": "makhana-walas-himalayan-salt",
-    "price": 150.0,
+    "price": 150,
     "image": "/images/products/makhana-walas-himalayan-salt.jpg",
     "stock": 3,
     "description": "Makhana Walas Himalayan Salt - Essential kitchen staple item.",
@@ -2895,13 +3101,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3293
+    "rank": 3293,
+    "name": "Makhana Walas Himalayan Salt"
   },
   {
     "id": 3296,
     "title": "Makhana Walas Khatta Meetha",
     "slug": "makhana-walas-khatta-meetha",
-    "price": 140.0,
+    "price": 140,
     "image": "/images/products/makhana-walas-khatta-meetha.jpg",
     "stock": 3,
     "description": "Makhana Walas Khatta Meetha - Essential kitchen staple item.",
@@ -2909,13 +3116,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3296
+    "rank": 3296,
+    "name": "Makhana Walas Khatta Meetha"
   },
   {
     "id": 3301,
     "title": "Makhana Walas Salt N Pepper",
     "slug": "makhana-walas-salt-n-pepper",
-    "price": 150.0,
+    "price": 150,
     "image": "/images/products/makhana-walas-salt-n-pepper.jpg",
     "stock": 1,
     "description": "Makhana Walas Salt N Pepper - Essential kitchen staple item.",
@@ -2923,13 +3131,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3301
+    "rank": 3301,
+    "name": "Makhana Walas Salt N Pepper"
   },
   {
     "id": 3304,
     "title": "Mala'S Jamun Jan Sugar Free",
     "slug": "malas-jamun-jan-sugar-free",
-    "price": 280.0,
+    "price": 280,
     "image": "/images/products/malas-jamun-jan-sugar-free.jpg",
     "stock": 2,
     "description": "Mala'S Jamun Jan Sugar Free - Essential kitchen staple item.",
@@ -2937,13 +3146,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3304
+    "rank": 3304,
+    "name": "Mala'S Jamun Jan Sugar Free"
   },
   {
     "id": 3307,
     "title": "Mala'S Kala Khatta Syrup 750Ml",
     "slug": "malas-kala-khatta-syrup-750ml",
-    "price": 160.0,
+    "price": 160,
     "image": "/images/products/malas-kala-khatta-syrup-750ml.jpg",
     "stock": 2,
     "description": "Mala'S Kala Khatta Syrup 750Ml - Essential kitchen staple item.",
@@ -2951,13 +3161,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3307
+    "rank": 3307,
+    "name": "Mala'S Kala Khatta Syrup 750Ml"
   },
   {
     "id": 3315,
     "title": "Mala'S Strawbeery Jam Sugar Free",
     "slug": "malas-strawbeery-jam-sugar-free",
-    "price": 280.0,
+    "price": 280,
     "image": "/images/products/malas-strawbeery-jam-sugar-free.jpg",
     "stock": 2,
     "description": "Mala'S Strawbeery Jam Sugar Free - Essential kitchen staple item.",
@@ -2965,13 +3176,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3315
+    "rank": 3315,
+    "name": "Mala'S Strawbeery Jam Sugar Free"
   },
   {
     "id": 3331,
     "title": "Mamaearth Rice Water Suns 50G",
     "slug": "mamaearth-rice-water-suns-50g",
-    "price": 449.0,
+    "price": 449,
     "image": "/images/products/mamaearth-rice-water-suns-50g.jpg",
     "stock": 3,
     "description": "Mamaearth Rice Water Suns 50G - Essential kitchen staple item.",
@@ -2979,13 +3191,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3331
+    "rank": 3331,
+    "name": "Mamaearth Rice Water Suns 50G"
   },
   {
     "id": 3340,
     "title": "Mangat Ram Arhar Dal 500Gm",
     "slug": "mangat-ram-arhar-dal-500gm",
-    "price": 147.0,
+    "price": 147,
     "image": "/images/products/mangat-ram-arhar-dal-500gm.jpg",
     "stock": 4,
     "description": "Mangat Ram Arhar Dal 500Gm - Essential kitchen staple item.",
@@ -2993,13 +3206,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3340
+    "rank": 3340,
+    "name": "Mangat Ram Arhar Dal 500Gm"
   },
   {
     "id": 3341,
     "title": "Mangat Ram Masoor Dhuli 500Gm",
     "slug": "mangat-ram-masoor-dhuli-500gm",
-    "price": 76.0,
+    "price": 76,
     "image": "/images/products/mangat-ram-masoor-dhuli-500gm.jpg",
     "stock": -1,
     "description": "Mangat Ram Masoor Dhuli 500Gm - Essential kitchen staple item.",
@@ -3007,13 +3221,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3341
+    "rank": 3341,
+    "name": "Mangat Ram Masoor Dhuli 500Gm"
   },
   {
     "id": 3342,
     "title": "Mangat Ram Massar Dal 500Gm",
     "slug": "mangat-ram-massar-dal-500gm",
-    "price": 75.0,
+    "price": 75,
     "image": "/images/products/mangat-ram-massar-dal-500gm.jpg",
     "stock": 4,
     "description": "Mangat Ram Massar Dal 500Gm - Essential kitchen staple item.",
@@ -3021,13 +3236,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3342
+    "rank": 3342,
+    "name": "Mangat Ram Massar Dal 500Gm"
   },
   {
     "id": 3345,
     "title": "Mangat Ram Moong Chilka 500Gm",
     "slug": "mangat-ram-moong-chilka-500gm",
-    "price": 90.0,
+    "price": 90,
     "image": "/images/products/mangat-ram-moong-chilka-500gm.jpg",
     "stock": 3,
     "description": "Mangat Ram Moong Chilka 500Gm - Essential kitchen staple item.",
@@ -3035,13 +3251,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3345
+    "rank": 3345,
+    "name": "Mangat Ram Moong Chilka 500Gm"
   },
   {
     "id": 3360,
     "title": "Maraearth Rice Fw",
     "slug": "maraearth-rice-fw",
-    "price": 269.0,
+    "price": 269,
     "image": "/images/products/maraearth-rice-fw.jpg",
     "stock": 3,
     "description": "Maraearth Rice Fw - Essential kitchen staple item.",
@@ -3049,13 +3266,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3360
+    "rank": 3360,
+    "name": "Maraearth Rice Fw"
   },
   {
     "id": 3361,
     "title": "Maraearth Rice Water Shampoo",
     "slug": "maraearth-rice-water-shampoo",
-    "price": 349.0,
+    "price": 349,
     "image": "/images/products/maraearth-rice-water-shampoo.jpg",
     "stock": 3,
     "description": "Maraearth Rice Water Shampoo - Essential kitchen staple item.",
@@ -3063,13 +3281,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3361
+    "rank": 3361,
+    "name": "Maraearth Rice Water Shampoo"
   },
   {
     "id": 3387,
     "title": "Marshmello Sugar Candy",
     "slug": "marshmello-sugar-candy",
-    "price": 80.0,
+    "price": 80,
     "image": "/images/products/marshmello-sugar-candy.jpg",
     "stock": 4,
     "description": "Marshmello Sugar Candy - Essential kitchen staple item.",
@@ -3077,13 +3296,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3387
+    "rank": 3387,
+    "name": "Marshmello Sugar Candy"
   },
   {
     "id": 3455,
     "title": "Mcvities Marie Whole Wheat 100Gm",
     "slug": "mcvities-marie-whole-wheat-100gm",
-    "price": 20.0,
+    "price": 20,
     "image": "/images/products/mcvities-marie-whole-wheat-100gm.jpg",
     "stock": 9,
     "description": "Mcvities Marie Whole Wheat 100Gm - Essential kitchen staple item.",
@@ -3091,13 +3311,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3455
+    "rank": 3455,
+    "name": "Mcvities Marie Whole Wheat 100Gm"
   },
   {
     "id": 3460,
     "title": "Mcvities Whole Wheat 195G",
     "slug": "mcvities-whole-wheat-195g",
-    "price": 50.0,
+    "price": 50,
     "image": "/images/products/mcvities-whole-wheat-195g.jpg",
     "stock": 10,
     "description": "Mcvities Whole Wheat 195G - Essential kitchen staple item.",
@@ -3105,13 +3326,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3460
+    "rank": 3460,
+    "name": "Mcvities Whole Wheat 195G"
   },
   {
     "id": 3464,
     "title": "Mdh Chana Masala",
     "slug": "mdh-chana-masala",
-    "price": 90.0,
+    "price": 90,
     "image": "/images/products/mdh-chana-masala.jpg",
     "stock": 4,
     "description": "Mdh Chana Masala - Essential kitchen staple item.",
@@ -3119,13 +3341,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3464
+    "rank": 3464,
+    "name": "Mdh Chana Masala"
   },
   {
     "id": 3467,
     "title": "Mdh Dal Makhni Masala 100Gm",
     "slug": "mdh-dal-makhni-masala-100gm",
-    "price": 75.0,
+    "price": 75,
     "image": "/images/products/mdh-dal-makhni-masala-100gm.jpg",
     "stock": 3,
     "description": "Mdh Dal Makhni Masala 100Gm - Essential kitchen staple item.",
@@ -3133,13 +3356,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3467
+    "rank": 3467,
+    "name": "Mdh Dal Makhni Masala 100Gm"
   },
   {
     "id": 3571,
     "title": "Mr Kala Chana 500Gm",
     "slug": "mr-kala-chana-500gm",
-    "price": 83.0,
+    "price": 83,
     "image": "/images/products/mr-kala-chana-500gm.jpg",
     "stock": 3,
     "description": "Mr Kala Chana 500Gm - Essential kitchen staple item.",
@@ -3147,13 +3371,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3571
+    "rank": 3571,
+    "name": "Mr Kala Chana 500Gm"
   },
   {
     "id": 3581,
     "title": "Mr Makhana Sea Salt&Vinegar",
     "slug": "mr-makhana-sea-saltvinegar",
-    "price": 150.0,
+    "price": 150,
     "image": "/images/products/mr-makhana-sea-saltvinegar.jpg",
     "stock": -2,
     "description": "Mr Makhana Sea Salt&Vinegar - Essential kitchen staple item.",
@@ -3161,13 +3386,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3581
+    "rank": 3581,
+    "name": "Mr Makhana Sea Salt&Vinegar"
   },
   {
     "id": 3588,
     "title": "Mr Rice Papad",
     "slug": "mr-rice-papad",
-    "price": 25.0,
+    "price": 25,
     "image": "/images/products/mr-rice-papad.jpg",
     "stock": 5,
     "description": "Mr Rice Papad - Essential kitchen staple item.",
@@ -3175,13 +3401,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3588
+    "rank": 3588,
+    "name": "Mr Rice Papad"
   },
   {
     "id": 3589,
     "title": "Mr Rice Papad Jeera",
     "slug": "mr-rice-papad-jeera",
-    "price": 25.0,
+    "price": 25,
     "image": "/images/products/mr-rice-papad-jeera.jpg",
     "stock": 5,
     "description": "Mr Rice Papad Jeera - Essential kitchen staple item.",
@@ -3189,13 +3416,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3589
+    "rank": 3589,
+    "name": "Mr Rice Papad Jeera"
   },
   {
     "id": 3590,
     "title": "Mr Rice Papper 300G",
     "slug": "mr-rice-papper-300g",
-    "price": 185.0,
+    "price": 185,
     "image": "/images/products/mr-rice-papper-300g.jpg",
     "stock": 1,
     "description": "Mr Rice Papper 300G - Essential kitchen staple item.",
@@ -3203,13 +3431,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3590
+    "rank": 3590,
+    "name": "Mr Rice Papper 300G"
   },
   {
     "id": 3591,
     "title": "Mr Rice Papper 400G",
     "slug": "mr-rice-papper-400g",
-    "price": 240.0,
+    "price": 240,
     "image": "/images/products/mr-rice-papper-400g.jpg",
     "stock": 1,
     "description": "Mr Rice Papper 400G - Essential kitchen staple item.",
@@ -3217,13 +3446,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3591
+    "rank": 3591,
+    "name": "Mr Rice Papper 400G"
   },
   {
     "id": 3592,
     "title": "Mr Safed Chana 500Gm",
     "slug": "mr-safed-chana-500gm",
-    "price": 100.0,
+    "price": 100,
     "image": "/images/products/mr-safed-chana-500gm.jpg",
     "stock": 4,
     "description": "Mr Safed Chana 500Gm - Essential kitchen staple item.",
@@ -3231,13 +3461,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3592
+    "rank": 3592,
+    "name": "Mr Safed Chana 500Gm"
   },
   {
     "id": 3597,
     "title": "Mtr Dal Fry 300Gm",
     "slug": "mtr-dal-fry-300gm",
-    "price": 125.0,
+    "price": 125,
     "image": "/images/products/mtr-dal-fry-300gm.jpg",
     "stock": 1,
     "description": "Mtr Dal Fry 300Gm - Essential kitchen staple item.",
@@ -3245,13 +3476,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3597
+    "rank": 3597,
+    "name": "Mtr Dal Fry 300Gm"
   },
   {
     "id": 3598,
     "title": "Mtr Dal Makhni 300Gm",
     "slug": "mtr-dal-makhni-300gm",
-    "price": 125.0,
+    "price": 125,
     "image": "/images/products/mtr-dal-makhni-300gm.jpg",
     "stock": 2,
     "description": "Mtr Dal Makhni 300Gm - Essential kitchen staple item.",
@@ -3259,13 +3491,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3598
+    "rank": 3598,
+    "name": "Mtr Dal Makhni 300Gm"
   },
   {
     "id": 3604,
     "title": "Mtr Jeera Rice 250Gm",
     "slug": "mtr-jeera-rice-250gm",
-    "price": 115.0,
+    "price": 115,
     "image": "/images/products/mtr-jeera-rice-250gm.jpg",
     "stock": 3,
     "description": "Mtr Jeera Rice 250Gm - Essential kitchen staple item.",
@@ -3273,13 +3506,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3604
+    "rank": 3604,
+    "name": "Mtr Jeera Rice 250Gm"
   },
   {
     "id": 3607,
     "title": "Mtr Masala Rava Idli 500Gm",
     "slug": "mtr-masala-rava-idli-500gm",
-    "price": 150.0,
+    "price": 150,
     "image": "/images/products/mtr-masala-rava-idli-500gm.jpg",
     "stock": 2,
     "description": "Mtr Masala Rava Idli 500Gm - Essential kitchen staple item.",
@@ -3287,13 +3521,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3607
+    "rank": 3607,
+    "name": "Mtr Masala Rava Idli 500Gm"
   },
   {
     "id": 3614,
     "title": "Mtr Poha Khatta Meetha 160G",
     "slug": "mtr-poha-khatta-meetha-160g",
-    "price": 70.0,
+    "price": 70,
     "image": "/images/products/mtr-poha-khatta-meetha-160g.jpg",
     "stock": 2,
     "description": "Mtr Poha Khatta Meetha 160G - Essential kitchen staple item.",
@@ -3301,13 +3536,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3614
+    "rank": 3614,
+    "name": "Mtr Poha Khatta Meetha 160G"
   },
   {
     "id": 3616,
     "title": "Mtr Rava Idli 1Kg",
     "slug": "mtr-rava-idli-1kg",
-    "price": 290.0,
+    "price": 290,
     "image": "/images/products/mtr-rava-idli-1kg.jpg",
     "stock": 3,
     "description": "Mtr Rava Idli 1Kg - Essential kitchen staple item.",
@@ -3315,13 +3551,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3616
+    "rank": 3616,
+    "name": "Mtr Rava Idli 1Kg"
   },
   {
     "id": 3617,
     "title": "Mtr Rava Idli 500Gm",
     "slug": "mtr-rava-idli-500gm",
-    "price": 150.0,
+    "price": 150,
     "image": "/images/products/mtr-rava-idli-500gm.jpg",
     "stock": 3,
     "description": "Mtr Rava Idli 500Gm - Essential kitchen staple item.",
@@ -3329,13 +3566,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3617
+    "rank": 3617,
+    "name": "Mtr Rava Idli 500Gm"
   },
   {
     "id": 3618,
     "title": "Mtr Regular Poha 160G",
     "slug": "mtr-regular-poha-160g",
-    "price": 70.0,
+    "price": 70,
     "image": "/images/products/mtr-regular-poha-160g.jpg",
     "stock": 3,
     "description": "Mtr Regular Poha 160G - Essential kitchen staple item.",
@@ -3343,13 +3581,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3618
+    "rank": 3618,
+    "name": "Mtr Regular Poha 160G"
   },
   {
     "id": 3619,
     "title": "Mtr Rice Idli 1Kg",
     "slug": "mtr-rice-idli-1kg",
-    "price": 290.0,
+    "price": 290,
     "image": "/images/products/mtr-rice-idli-1kg.jpg",
     "stock": 5,
     "description": "Mtr Rice Idli 1Kg - Essential kitchen staple item.",
@@ -3357,13 +3596,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3619
+    "rank": 3619,
+    "name": "Mtr Rice Idli 1Kg"
   },
   {
     "id": 3627,
     "title": "Mtr(Rte)Chana Masala 300Gm",
     "slug": "mtrrtechana-masala-300gm",
-    "price": 125.0,
+    "price": 125,
     "image": "/images/products/mtrrtechana-masala-300gm.jpg",
     "stock": 3,
     "description": "Mtr(Rte)Chana Masala 300Gm - Essential kitchen staple item.",
@@ -3371,13 +3611,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3627
+    "rank": 3627,
+    "name": "Mtr(Rte)Chana Masala 300Gm"
   },
   {
     "id": 3633,
     "title": "Munchy'S Sugar Crackers",
     "slug": "munchys-sugar-crackers",
-    "price": 225.0,
+    "price": 225,
     "image": "/images/products/munchys-sugar-crackers.jpg",
     "stock": 3,
     "description": "Munchy'S Sugar Crackers - Essential kitchen staple item.",
@@ -3385,13 +3626,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3633
+    "rank": 3633,
+    "name": "Munchy'S Sugar Crackers"
   },
   {
     "id": 3675,
     "title": "Nb Chana Dal 1Kg",
     "slug": "nb-chana-dal-1kg",
-    "price": 119.0,
+    "price": 119,
     "image": "/images/products/nb-chana-dal-1kg.jpg",
     "stock": 2,
     "description": "Nb Chana Dal 1Kg - Essential kitchen staple item.",
@@ -3399,13 +3641,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3675
+    "rank": 3675,
+    "name": "Nb Chana Dal 1Kg"
   },
   {
     "id": 3676,
     "title": "Nb Chana Dal 1Kg",
     "slug": "nb-chana-dal-1kg",
-    "price": 145.0,
+    "price": 145,
     "image": "/images/products/nb-chana-dal-1kg.jpg",
     "stock": 4,
     "description": "Nb Chana Dal 1Kg - Essential kitchen staple item.",
@@ -3413,13 +3656,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3676
+    "rank": 3676,
+    "name": "Nb Chana Dal 1Kg"
   },
   {
     "id": 3684,
     "title": "Nb Dalchini Powder 50Gm",
     "slug": "nb-dalchini-powder-50gm",
-    "price": 32.0,
+    "price": 32,
     "image": "/images/products/nb-dalchini-powder-50gm.jpg",
     "stock": 7,
     "description": "Nb Dalchini Powder 50Gm - Essential kitchen staple item.",
@@ -3427,13 +3671,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3684
+    "rank": 3684,
+    "name": "Nb Dalchini Powder 50Gm"
   },
   {
     "id": 3685,
     "title": "Nb Dalchini Whole 50Gm",
     "slug": "nb-dalchini-whole-50gm",
-    "price": 42.0,
+    "price": 42,
     "image": "/images/products/nb-dalchini-whole-50gm.jpg",
     "stock": 11,
     "description": "Nb Dalchini Whole 50Gm - Essential kitchen staple item.",
@@ -3441,13 +3686,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3685
+    "rank": 3685,
+    "name": "Nb Dalchini Whole 50Gm"
   },
   {
     "id": 3713,
     "title": "Nb Kala Chana 500Gm",
     "slug": "nb-kala-chana-500gm",
-    "price": 70.0,
+    "price": 70,
     "image": "/images/products/nb-kala-chana-500gm.jpg",
     "stock": 7,
     "description": "Nb Kala Chana 500Gm - Essential kitchen staple item.",
@@ -3455,13 +3701,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3713
+    "rank": 3713,
+    "name": "Nb Kala Chana 500Gm"
   },
   {
     "id": 3723,
     "title": "Nb Kuttu Atta 250Gm",
     "slug": "nb-kuttu-atta-250gm",
-    "price": 48.0,
+    "price": 48,
     "image": "/images/products/nb-kuttu-atta-250gm.jpg",
     "stock": 2,
     "description": "Nb Kuttu Atta 250Gm - Essential kitchen staple item.",
@@ -3469,13 +3716,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3723
+    "rank": 3723,
+    "name": "Nb Kuttu Atta 250Gm"
   },
   {
     "id": 3729,
     "title": "Nb Malka Masoor 1Kg",
     "slug": "nb-malka-masoor-1kg",
-    "price": 118.0,
+    "price": 118,
     "image": "/images/products/nb-malka-masoor-1kg.jpg",
     "stock": 1,
     "description": "Nb Malka Masoor 1Kg - Essential kitchen staple item.",
@@ -3483,13 +3731,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3729
+    "rank": 3729,
+    "name": "Nb Malka Masoor 1Kg"
   },
   {
     "id": 3730,
     "title": "Nb Malka Masoor 500Gm",
     "slug": "nb-malka-masoor-500gm",
-    "price": 75.0,
+    "price": 75,
     "image": "/images/products/nb-malka-masoor-500gm.jpg",
     "stock": 3,
     "description": "Nb Malka Masoor 500Gm - Essential kitchen staple item.",
@@ -3497,13 +3746,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3730
+    "rank": 3730,
+    "name": "Nb Malka Masoor 500Gm"
   },
   {
     "id": 3731,
     "title": "Nb Malka Masoor 500Gm",
     "slug": "nb-malka-masoor-500gm",
-    "price": 85.0,
+    "price": 85,
     "image": "/images/products/nb-malka-masoor-500gm.jpg",
     "stock": 6,
     "description": "Nb Malka Masoor 500Gm - Essential kitchen staple item.",
@@ -3511,13 +3761,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3731
+    "rank": 3731,
+    "name": "Nb Malka Masoor 500Gm"
   },
   {
     "id": 3732,
     "title": "Nb Masoor 500G",
     "slug": "nb-masoor-500g",
-    "price": 66.0,
+    "price": 66,
     "image": "/images/products/nb-masoor-500g.jpg",
     "stock": 1,
     "description": "Nb Masoor 500G - Essential kitchen staple item.",
@@ -3525,13 +3776,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3732
+    "rank": 3732,
+    "name": "Nb Masoor 500G"
   },
   {
     "id": 3733,
     "title": "Nb Masoor 500G",
     "slug": "nb-masoor-500g",
-    "price": 90.0,
+    "price": 90,
     "image": "/images/products/nb-masoor-500g.jpg",
     "stock": 6,
     "description": "Nb Masoor 500G - Essential kitchen staple item.",
@@ -3539,13 +3791,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3733
+    "rank": 3733,
+    "name": "Nb Masoor 500G"
   },
   {
     "id": 3734,
     "title": "Nb Masoor Dal 500Gm",
     "slug": "nb-masoor-dal-500gm",
-    "price": 80.0,
+    "price": 80,
     "image": "/images/products/nb-masoor-dal-500gm.jpg",
     "stock": -3,
     "description": "Nb Masoor Dal 500Gm - Essential kitchen staple item.",
@@ -3553,13 +3806,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3734
+    "rank": 3734,
+    "name": "Nb Masoor Dal 500Gm"
   },
   {
     "id": 3735,
     "title": "Nb Masoor Dal 500Gm",
     "slug": "nb-masoor-dal-500gm",
-    "price": 85.0,
+    "price": 85,
     "image": "/images/products/nb-masoor-dal-500gm.jpg",
     "stock": 6,
     "description": "Nb Masoor Dal 500Gm - Essential kitchen staple item.",
@@ -3567,13 +3821,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3735
+    "rank": 3735,
+    "name": "Nb Masoor Dal 500Gm"
   },
   {
     "id": 3739,
     "title": "Nb Mix Dal 1Kg",
     "slug": "nb-mix-dal-1kg",
-    "price": 178.0,
+    "price": 178,
     "image": "/images/products/nb-mix-dal-1kg.jpg",
     "stock": 2,
     "description": "Nb Mix Dal 1Kg - Essential kitchen staple item.",
@@ -3581,13 +3836,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3739
+    "rank": 3739,
+    "name": "Nb Mix Dal 1Kg"
   },
   {
     "id": 3741,
     "title": "Nb Moong Badi 200Gm",
     "slug": "nb-moong-badi-200gm",
-    "price": 80.0,
+    "price": 80,
     "image": "/images/products/nb-moong-badi-200gm.jpg",
     "stock": 6,
     "description": "Nb Moong Badi 200Gm - Essential kitchen staple item.",
@@ -3595,13 +3851,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3741
+    "rank": 3741,
+    "name": "Nb Moong Badi 200Gm"
   },
   {
     "id": 3742,
     "title": "Nb Moong Chilka 1Kg",
     "slug": "nb-moong-chilka-1kg",
-    "price": 156.0,
+    "price": 156,
     "image": "/images/products/nb-moong-chilka-1kg.jpg",
     "stock": 2,
     "description": "Nb Moong Chilka 1Kg - Essential kitchen staple item.",
@@ -3609,13 +3866,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3742
+    "rank": 3742,
+    "name": "Nb Moong Chilka 1Kg"
   },
   {
     "id": 3743,
     "title": "Nb Moong Chilka 500G",
     "slug": "nb-moong-chilka-500g",
-    "price": 95.0,
+    "price": 95,
     "image": "/images/products/nb-moong-chilka-500g.jpg",
     "stock": 5,
     "description": "Nb Moong Chilka 500G - Essential kitchen staple item.",
@@ -3623,13 +3881,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3743
+    "rank": 3743,
+    "name": "Nb Moong Chilka 500G"
   },
   {
     "id": 3744,
     "title": "Nb Moong Chilka 500Gm",
     "slug": "nb-moong-chilka-500gm",
-    "price": 79.0,
+    "price": 79,
     "image": "/images/products/nb-moong-chilka-500gm.jpg",
     "stock": 3,
     "description": "Nb Moong Chilka 500Gm - Essential kitchen staple item.",
@@ -3637,13 +3896,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3744
+    "rank": 3744,
+    "name": "Nb Moong Chilka 500Gm"
   },
   {
     "id": 3745,
     "title": "Nb Moong Dhuli 1Kg",
     "slug": "nb-moong-dhuli-1kg",
-    "price": 171.0,
+    "price": 171,
     "image": "/images/products/nb-moong-dhuli-1kg.jpg",
     "stock": 3,
     "description": "Nb Moong Dhuli 1Kg - Essential kitchen staple item.",
@@ -3651,13 +3911,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3745
+    "rank": 3745,
+    "name": "Nb Moong Dhuli 1Kg"
   },
   {
     "id": 3746,
     "title": "Nb Moong Dhuli 500G",
     "slug": "nb-moong-dhuli-500g",
-    "price": 86.0,
+    "price": 86,
     "image": "/images/products/nb-moong-dhuli-500g.jpg",
     "stock": 4,
     "description": "Nb Moong Dhuli 500G - Essential kitchen staple item.",
@@ -3665,13 +3926,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3746
+    "rank": 3746,
+    "name": "Nb Moong Dhuli 500G"
   },
   {
     "id": 3747,
     "title": "Nb Moong Dhuli 500Gm",
     "slug": "nb-moong-dhuli-500gm",
-    "price": 100.0,
+    "price": 100,
     "image": "/images/products/nb-moong-dhuli-500gm.jpg",
     "stock": 3,
     "description": "Nb Moong Dhuli 500Gm - Essential kitchen staple item.",
@@ -3679,13 +3941,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3747
+    "rank": 3747,
+    "name": "Nb Moong Dhuli 500Gm"
   },
   {
     "id": 3748,
     "title": "Nb Moong Dhuli 500Gm",
     "slug": "nb-moong-dhuli-500gm",
-    "price": 110.0,
+    "price": 110,
     "image": "/images/products/nb-moong-dhuli-500gm.jpg",
     "stock": 3,
     "description": "Nb Moong Dhuli 500Gm - Essential kitchen staple item.",
@@ -3693,13 +3956,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3748
+    "rank": 3748,
+    "name": "Nb Moong Dhuli 500Gm"
   },
   {
     "id": 3749,
     "title": "Nb Moong Sabut 1Kg",
     "slug": "nb-moong-sabut-1kg",
-    "price": 151.0,
+    "price": 151,
     "image": "/images/products/nb-moong-sabut-1kg.jpg",
     "stock": 2,
     "description": "Nb Moong Sabut 1Kg - Essential kitchen staple item.",
@@ -3707,13 +3971,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3749
+    "rank": 3749,
+    "name": "Nb Moong Sabut 1Kg"
   },
   {
     "id": 3750,
     "title": "Nb Moong Sabut 500G",
     "slug": "nb-moong-sabut-500g",
-    "price": 76.0,
+    "price": 76,
     "image": "/images/products/nb-moong-sabut-500g.jpg",
     "stock": 5,
     "description": "Nb Moong Sabut 500G - Essential kitchen staple item.",
@@ -3721,13 +3986,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3750
+    "rank": 3750,
+    "name": "Nb Moong Sabut 500G"
   },
   {
     "id": 3751,
     "title": "Nb Moongfali Dana 250Gm",
     "slug": "nb-moongfali-dana-250gm",
-    "price": 56.0,
+    "price": 56,
     "image": "/images/products/nb-moongfali-dana-250gm.jpg",
     "stock": 6,
     "description": "Nb Moongfali Dana 250Gm - Essential kitchen staple item.",
@@ -3735,13 +4001,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3751
+    "rank": 3751,
+    "name": "Nb Moongfali Dana 250Gm"
   },
   {
     "id": 3752,
     "title": "Nb Moongfali Dana 500G",
     "slug": "nb-moongfali-dana-500g",
-    "price": 112.0,
+    "price": 112,
     "image": "/images/products/nb-moongfali-dana-500g.jpg",
     "stock": 8,
     "description": "Nb Moongfali Dana 500G - Essential kitchen staple item.",
@@ -3749,13 +4016,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3752
+    "rank": 3752,
+    "name": "Nb Moongfali Dana 500G"
   },
   {
     "id": 3755,
     "title": "Nb Pila Chana 1Kg",
     "slug": "nb-pila-chana-1kg",
-    "price": 145.0,
+    "price": 145,
     "image": "/images/products/nb-pila-chana-1kg.jpg",
     "stock": 4,
     "description": "Nb Pila Chana 1Kg - Essential kitchen staple item.",
@@ -3763,13 +4031,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3755
+    "rank": 3755,
+    "name": "Nb Pila Chana 1Kg"
   },
   {
     "id": 3756,
     "title": "Nb Pila Chana 500G",
     "slug": "nb-pila-chana-500g",
-    "price": 58.0,
+    "price": 58,
     "image": "/images/products/nb-pila-chana-500g.jpg",
     "stock": 3,
     "description": "Nb Pila Chana 500G - Essential kitchen staple item.",
@@ -3777,13 +4046,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3756
+    "rank": 3756,
+    "name": "Nb Pila Chana 500G"
   },
   {
     "id": 3774,
     "title": "Nb Samak Rice 250Gm",
     "slug": "nb-samak-rice-250gm",
-    "price": 44.0,
+    "price": 44,
     "image": "/images/products/nb-samak-rice-250gm.jpg",
     "stock": 15,
     "description": "Nb Samak Rice 250Gm - Essential kitchen staple item.",
@@ -3791,13 +4061,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3774
+    "rank": 3774,
+    "name": "Nb Samak Rice 250Gm"
   },
   {
     "id": 3775,
     "title": "Nb Samak Rice 500G",
     "slug": "nb-samak-rice-500g",
-    "price": 88.0,
+    "price": 88,
     "image": "/images/products/nb-samak-rice-500g.jpg",
     "stock": 6,
     "description": "Nb Samak Rice 500G - Essential kitchen staple item.",
@@ -3805,13 +4076,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3775
+    "rank": 3775,
+    "name": "Nb Samak Rice 500G"
   },
   {
     "id": 3780,
     "title": "Nb Singara Atta 500G",
     "slug": "nb-singara-atta-500g",
-    "price": 112.0,
+    "price": 112,
     "image": "/images/products/nb-singara-atta-500g.jpg",
     "stock": 6,
     "description": "Nb Singara Atta 500G - Essential kitchen staple item.",
@@ -3819,13 +4091,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3780
+    "rank": 3780,
+    "name": "Nb Singara Atta 500G"
   },
   {
     "id": 3781,
     "title": "Nb Singhara Atta 250Gm",
     "slug": "nb-singhara-atta-250gm",
-    "price": 65.0,
+    "price": 65,
     "image": "/images/products/nb-singhara-atta-250gm.jpg",
     "stock": 14,
     "description": "Nb Singhara Atta 250Gm - Essential kitchen staple item.",
@@ -3833,13 +4106,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3781
+    "rank": 3781,
+    "name": "Nb Singhara Atta 250Gm"
   },
   {
     "id": 3782,
     "title": "Nb Sona Masoori Rice 1Kg",
     "slug": "nb-sona-masoori-rice-1kg",
-    "price": 85.0,
+    "price": 85,
     "image": "/images/products/nb-sona-masoori-rice-1kg.jpg",
     "stock": 7,
     "description": "Nb Sona Masoori Rice 1Kg - Essential kitchen staple item.",
@@ -3847,13 +4121,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3782
+    "rank": 3782,
+    "name": "Nb Sona Masoori Rice 1Kg"
   },
   {
     "id": 3783,
     "title": "Nb Sona Masoori Rice 4Kg",
     "slug": "nb-sona-masoori-rice-4kg",
-    "price": 340.0,
+    "price": 340,
     "image": "/images/products/nb-sona-masoori-rice-4kg.jpg",
     "stock": 2,
     "description": "Nb Sona Masoori Rice 4Kg - Essential kitchen staple item.",
@@ -3861,13 +4136,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3783
+    "rank": 3783,
+    "name": "Nb Sona Masoori Rice 4Kg"
   },
   {
     "id": 3787,
     "title": "Nb Tejpatta 40Gm",
     "slug": "nb-tejpatta-40gm",
-    "price": 26.0,
+    "price": 26,
     "image": "/images/products/nb-tejpatta-40gm.jpg",
     "stock": 12,
     "description": "Nb Tejpatta 40Gm - Essential kitchen staple item.",
@@ -3875,13 +4151,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3787
+    "rank": 3787,
+    "name": "Nb Tejpatta 40Gm"
   },
   {
     "id": 3910,
     "title": "Nl Barley Dalia 500G",
     "slug": "nl-barley-dalia-500g",
-    "price": 85.0,
+    "price": 85,
     "image": "/images/products/nl-barley-dalia-500g.jpg",
     "stock": 3,
     "description": "Nl Barley Dalia 500G - Essential kitchen staple item.",
@@ -3889,13 +4166,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3910
+    "rank": 3910,
+    "name": "Nl Barley Dalia 500G"
   },
   {
     "id": 3911,
     "title": "Nl Moong Split",
     "slug": "nl-moong-split",
-    "price": 155.0,
+    "price": 155,
     "image": "/images/products/nl-moong-split.jpg",
     "stock": 3,
     "description": "Nl Moong Split - Essential kitchen staple item.",
@@ -3903,13 +4181,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3911
+    "rank": 3911,
+    "name": "Nl Moong Split"
   },
   {
     "id": 3913,
     "title": "Nl Organic Amaranthus Flour 500G",
     "slug": "nl-organic-amaranthus-flour-500g",
-    "price": 160.0,
+    "price": 160,
     "image": "/images/products/nl-organic-amaranthus-flour-500g.jpg",
     "stock": 3,
     "description": "Nl Organic Amaranthus Flour 500G - Essential kitchen staple item.",
@@ -3917,13 +4196,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3913
+    "rank": 3913,
+    "name": "Nl Organic Amaranthus Flour 500G"
   },
   {
     "id": 3914,
     "title": "Nl Organic Arhar Dal 500Gm",
     "slug": "nl-organic-arhar-dal-500gm",
-    "price": 185.0,
+    "price": 185,
     "image": "/images/products/nl-organic-arhar-dal-500gm.jpg",
     "stock": 1,
     "description": "Nl Organic Arhar Dal 500Gm - Essential kitchen staple item.",
@@ -3931,13 +4211,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3914
+    "rank": 3914,
+    "name": "Nl Organic Arhar Dal 500Gm"
   },
   {
     "id": 3915,
     "title": "Nl Organic Bajra Flour 500G",
     "slug": "nl-organic-bajra-flour-500g",
-    "price": 70.0,
+    "price": 70,
     "image": "/images/products/nl-organic-bajra-flour-500g.jpg",
     "stock": 6,
     "description": "Nl Organic Bajra Flour 500G - Essential kitchen staple item.",
@@ -3945,13 +4226,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3915
+    "rank": 3915,
+    "name": "Nl Organic Bajra Flour 500G"
   },
   {
     "id": 3916,
     "title": "Nl Organic Barley Flour 500G",
     "slug": "nl-organic-barley-flour-500g",
-    "price": 85.0,
+    "price": 85,
     "image": "/images/products/nl-organic-barley-flour-500g.jpg",
     "stock": 3,
     "description": "Nl Organic Barley Flour 500G - Essential kitchen staple item.",
@@ -3959,13 +4241,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3916
+    "rank": 3916,
+    "name": "Nl Organic Barley Flour 500G"
   },
   {
     "id": 3917,
     "title": "Nl Organic Basmati Rice Premium 1Kg",
     "slug": "nl-organic-basmati-rice-premium-1kg",
-    "price": 290.0,
+    "price": 290,
     "image": "/images/products/nl-organic-basmati-rice-premium-1kg.jpg",
     "stock": 2,
     "description": "Nl Organic Basmati Rice Premium 1Kg - Essential kitchen staple item.",
@@ -3973,13 +4256,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3917
+    "rank": 3917,
+    "name": "Nl Organic Basmati Rice Premium 1Kg"
   },
   {
     "id": 3918,
     "title": "Nl Organic Biryani Basmati Rice 1Kg",
     "slug": "nl-organic-biryani-basmati-rice-1kg",
-    "price": 299.0,
+    "price": 299,
     "image": "/images/products/nl-organic-biryani-basmati-rice-1kg.jpg",
     "stock": 1,
     "description": "Nl Organic Biryani Basmati Rice 1Kg - Essential kitchen staple item.",
@@ -3987,13 +4271,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3918
+    "rank": 3918,
+    "name": "Nl Organic Biryani Basmati Rice 1Kg"
   },
   {
     "id": 3919,
     "title": "Nl Organic Brown Rice Premium 1Kg",
     "slug": "nl-organic-brown-rice-premium-1kg",
-    "price": 290.0,
+    "price": 290,
     "image": "/images/products/nl-organic-brown-rice-premium-1kg.jpg",
     "stock": 2,
     "description": "Nl Organic Brown Rice Premium 1Kg - Essential kitchen staple item.",
@@ -4001,13 +4286,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3919
+    "rank": 3919,
+    "name": "Nl Organic Brown Rice Premium 1Kg"
   },
   {
     "id": 3920,
     "title": "Nl Organic Chana Dal 500Gm",
     "slug": "nl-organic-chana-dal-500gm",
-    "price": 120.0,
+    "price": 120,
     "image": "/images/products/nl-organic-chana-dal-500gm.jpg",
     "stock": 2,
     "description": "Nl Organic Chana Dal 500Gm - Essential kitchen staple item.",
@@ -4015,13 +4301,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3920
+    "rank": 3920,
+    "name": "Nl Organic Chana Dal 500Gm"
   },
   {
     "id": 3921,
     "title": "Nl Organic Chana Whole 500Gm",
     "slug": "nl-organic-chana-whole-500gm",
-    "price": 103.0,
+    "price": 103,
     "image": "/images/products/nl-organic-chana-whole-500gm.jpg",
     "stock": 2,
     "description": "Nl Organic Chana Whole 500Gm - Essential kitchen staple item.",
@@ -4029,13 +4316,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3921
+    "rank": 3921,
+    "name": "Nl Organic Chana Whole 500Gm"
   },
   {
     "id": 3922,
     "title": "Nl Organic Channa Besan 500G",
     "slug": "nl-organic-channa-besan-500g",
-    "price": 125.0,
+    "price": 125,
     "image": "/images/products/nl-organic-channa-besan-500g.jpg",
     "stock": 3,
     "description": "Nl Organic Channa Besan 500G - Essential kitchen staple item.",
@@ -4043,13 +4331,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3922
+    "rank": 3922,
+    "name": "Nl Organic Channa Besan 500G"
   },
   {
     "id": 3927,
     "title": "Nl Organic Kabuli Chana 500Gm",
     "slug": "nl-organic-kabuli-chana-500gm",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/nl-organic-kabuli-chana-500gm.jpg",
     "stock": 3,
     "description": "Nl Organic Kabuli Chana 500Gm - Essential kitchen staple item.",
@@ -4057,13 +4346,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3927
+    "rank": 3927,
+    "name": "Nl Organic Kabuli Chana 500Gm"
   },
   {
     "id": 3928,
     "title": "Nl Organic Maize Flour 500G",
     "slug": "nl-organic-maize-flour-500g",
-    "price": 70.0,
+    "price": 70,
     "image": "/images/products/nl-organic-maize-flour-500g.jpg",
     "stock": 3,
     "description": "Nl Organic Maize Flour 500G - Essential kitchen staple item.",
@@ -4071,13 +4361,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3928
+    "rank": 3928,
+    "name": "Nl Organic Maize Flour 500G"
   },
   {
     "id": 3932,
     "title": "Nl Organic Moong Split 500Gm",
     "slug": "nl-organic-moong-split-500gm",
-    "price": 150.0,
+    "price": 150,
     "image": "/images/products/nl-organic-moong-split-500gm.jpg",
     "stock": 2,
     "description": "Nl Organic Moong Split 500Gm - Essential kitchen staple item.",
@@ -4085,13 +4376,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3932
+    "rank": 3932,
+    "name": "Nl Organic Moong Split 500Gm"
   },
   {
     "id": 3933,
     "title": "Nl Organic Moong Whole 500Gm",
     "slug": "nl-organic-moong-whole-500gm",
-    "price": 145.0,
+    "price": 145,
     "image": "/images/products/nl-organic-moong-whole-500gm.jpg",
     "stock": 3,
     "description": "Nl Organic Moong Whole 500Gm - Essential kitchen staple item.",
@@ -4099,13 +4391,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3933
+    "rank": 3933,
+    "name": "Nl Organic Moong Whole 500Gm"
   },
   {
     "id": 3934,
     "title": "Nl Organic Multigrain Flour 750G",
     "slug": "nl-organic-multigrain-flour-750g",
-    "price": 140.0,
+    "price": 140,
     "image": "/images/products/nl-organic-multigrain-flour-750g.jpg",
     "stock": 2,
     "description": "Nl Organic Multigrain Flour 750G - Essential kitchen staple item.",
@@ -4113,13 +4406,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3934
+    "rank": 3934,
+    "name": "Nl Organic Multigrain Flour 750G"
   },
   {
     "id": 3937,
     "title": "Nl Organic Ragi Flour 500G",
     "slug": "nl-organic-ragi-flour-500g",
-    "price": 79.0,
+    "price": 79,
     "image": "/images/products/nl-organic-ragi-flour-500g.jpg",
     "stock": 2,
     "description": "Nl Organic Ragi Flour 500G - Essential kitchen staple item.",
@@ -4127,13 +4421,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3937
+    "rank": 3937,
+    "name": "Nl Organic Ragi Flour 500G"
   },
   {
     "id": 3941,
     "title": "Nl Organic Red Rice Poha 500Gm",
     "slug": "nl-organic-red-rice-poha-500gm",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/nl-organic-red-rice-poha-500gm.jpg",
     "stock": 2,
     "description": "Nl Organic Red Rice Poha 500Gm - Essential kitchen staple item.",
@@ -4141,13 +4436,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3941
+    "rank": 3941,
+    "name": "Nl Organic Red Rice Poha 500Gm"
   },
   {
     "id": 3942,
     "title": "Nl Organic Refined Wheat Flour 500G",
     "slug": "nl-organic-refined-wheat-flour-500g",
-    "price": 70.0,
+    "price": 70,
     "image": "/images/products/nl-organic-refined-wheat-flour-500g.jpg",
     "stock": 3,
     "description": "Nl Organic Refined Wheat Flour 500G - Essential kitchen staple item.",
@@ -4155,13 +4451,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3942
+    "rank": 3942,
+    "name": "Nl Organic Refined Wheat Flour 500G"
   },
   {
     "id": 3943,
     "title": "Nl Organic Reg. Basmati Rice 1Kg",
     "slug": "nl-organic-reg-basmati-rice-1kg",
-    "price": 225.0,
+    "price": 225,
     "image": "/images/products/nl-organic-reg-basmati-rice-1kg.jpg",
     "stock": 2,
     "description": "Nl Organic Reg. Basmati Rice 1Kg - Essential kitchen staple item.",
@@ -4169,13 +4466,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3943
+    "rank": 3943,
+    "name": "Nl Organic Reg. Basmati Rice 1Kg"
   },
   {
     "id": 3944,
     "title": "Nl Organic Rice Flour 500G",
     "slug": "nl-organic-rice-flour-500g",
-    "price": 70.0,
+    "price": 70,
     "image": "/images/products/nl-organic-rice-flour-500g.jpg",
     "stock": 6,
     "description": "Nl Organic Rice Flour 500G - Essential kitchen staple item.",
@@ -4183,13 +4481,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3944
+    "rank": 3944,
+    "name": "Nl Organic Rice Flour 500G"
   },
   {
     "id": 3945,
     "title": "Nl Organic Rice Murmure 200G",
     "slug": "nl-organic-rice-murmure-200g",
-    "price": 55.0,
+    "price": 55,
     "image": "/images/products/nl-organic-rice-murmure-200g.jpg",
     "stock": 2,
     "description": "Nl Organic Rice Murmure 200G - Essential kitchen staple item.",
@@ -4197,13 +4496,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3945
+    "rank": 3945,
+    "name": "Nl Organic Rice Murmure 200G"
   },
   {
     "id": 3946,
     "title": "Nl Organic Rice Poha 500Gm",
     "slug": "nl-organic-rice-poha-500gm",
-    "price": 90.0,
+    "price": 90,
     "image": "/images/products/nl-organic-rice-poha-500gm.jpg",
     "stock": 2,
     "description": "Nl Organic Rice Poha 500Gm - Essential kitchen staple item.",
@@ -4211,13 +4511,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3946
+    "rank": 3946,
+    "name": "Nl Organic Rice Poha 500Gm"
   },
   {
     "id": 3947,
     "title": "Nl Organic Sona Masoori Rice 1Kg",
     "slug": "nl-organic-sona-masoori-rice-1kg",
-    "price": 145.0,
+    "price": 145,
     "image": "/images/products/nl-organic-sona-masoori-rice-1kg.jpg",
     "stock": 1,
     "description": "Nl Organic Sona Masoori Rice 1Kg - Essential kitchen staple item.",
@@ -4225,13 +4526,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3947
+    "rank": 3947,
+    "name": "Nl Organic Sona Masoori Rice 1Kg"
   },
   {
     "id": 3949,
     "title": "Nl Organic Soybean Flour 500G",
     "slug": "nl-organic-soybean-flour-500g",
-    "price": 125.0,
+    "price": 125,
     "image": "/images/products/nl-organic-soybean-flour-500g.jpg",
     "stock": 3,
     "description": "Nl Organic Soybean Flour 500G - Essential kitchen staple item.",
@@ -4239,13 +4541,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3949
+    "rank": 3949,
+    "name": "Nl Organic Soybean Flour 500G"
   },
   {
     "id": 3954,
     "title": "Nl Organic Wheat Suji 500G",
     "slug": "nl-organic-wheat-suji-500g",
-    "price": 75.0,
+    "price": 75,
     "image": "/images/products/nl-organic-wheat-suji-500g.jpg",
     "stock": 3,
     "description": "Nl Organic Wheat Suji 500G - Essential kitchen staple item.",
@@ -4253,13 +4556,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3954
+    "rank": 3954,
+    "name": "Nl Organic Wheat Suji 500G"
   },
   {
     "id": 3957,
     "title": "Nl Organic Whole Wheat Flour 750G",
     "slug": "nl-organic-whole-wheat-flour-750g",
-    "price": 65.0,
+    "price": 65,
     "image": "/images/products/nl-organic-whole-wheat-flour-750g.jpg",
     "stock": 3,
     "description": "Nl Organic Whole Wheat Flour 750G - Essential kitchen staple item.",
@@ -4267,13 +4571,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3957
+    "rank": 3957,
+    "name": "Nl Organic Whole Wheat Flour 750G"
   },
   {
     "id": 3959,
     "title": "Nl Wheat Dalia 500Gm",
     "slug": "nl-wheat-dalia-500gm",
-    "price": 70.0,
+    "price": 70,
     "image": "/images/products/nl-wheat-dalia-500gm.jpg",
     "stock": 3,
     "description": "Nl Wheat Dalia 500Gm - Essential kitchen staple item.",
@@ -4281,13 +4586,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 3959
+    "rank": 3959,
+    "name": "Nl Wheat Dalia 500Gm"
   },
   {
     "id": 4123,
     "title": "Only Pink Salt 1Kg",
     "slug": "only-pink-salt-1kg",
-    "price": 119.0,
+    "price": 119,
     "image": "/images/products/only-pink-salt-1kg.jpg",
     "stock": 10,
     "description": "Only Pink Salt 1Kg - Essential kitchen staple item.",
@@ -4295,13 +4601,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 4123
+    "rank": 4123,
+    "name": "Only Pink Salt 1Kg"
   },
   {
     "id": 4135,
     "title": "Oraganic Bhuna Dalia 500Gm",
     "slug": "oraganic-bhuna-dalia-500gm",
-    "price": 90.0,
+    "price": 90,
     "image": "/images/products/oraganic-bhuna-dalia-500gm.jpg",
     "stock": 2,
     "description": "Oraganic Bhuna Dalia 500Gm - Essential kitchen staple item.",
@@ -4309,13 +4616,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 4135
+    "rank": 4135,
+    "name": "Oraganic Bhuna Dalia 500Gm"
   },
   {
     "id": 4158,
     "title": "Orgainc India Pink Salt",
     "slug": "orgainc-india-pink-salt",
-    "price": 150.0,
+    "price": 150,
     "image": "/images/products/orgainc-india-pink-salt.jpg",
     "stock": 10,
     "description": "Orgainc India Pink Salt - Essential kitchen staple item.",
@@ -4323,13 +4631,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 4158
+    "rank": 4158,
+    "name": "Orgainc India Pink Salt"
   },
   {
     "id": 4164,
     "title": "Orgainc India Wheat Grass Powder",
     "slug": "orgainc-india-wheat-grass-powder",
-    "price": 425.0,
+    "price": 425,
     "image": "/images/products/orgainc-india-wheat-grass-powder.jpg",
     "stock": 3,
     "description": "Orgainc India Wheat Grass Powder - Essential kitchen staple item.",
@@ -4337,13 +4646,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 4164
+    "rank": 4164,
+    "name": "Orgainc India Wheat Grass Powder"
   },
   {
     "id": 4178,
     "title": "Organic Nation Black Salt 150G",
     "slug": "organic-nation-black-salt-150g",
-    "price": 55.0,
+    "price": 55,
     "image": "/images/products/organic-nation-black-salt-150g.jpg",
     "stock": 1,
     "description": "Organic Nation Black Salt 150G - Essential kitchen staple item.",
@@ -4351,13 +4661,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 4178
+    "rank": 4178,
+    "name": "Organic Nation Black Salt 150G"
   },
   {
     "id": 4179,
     "title": "Organic Nation Brown Sugar",
     "slug": "organic-nation-brown-sugar",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/organic-nation-brown-sugar.jpg",
     "stock": 5,
     "description": "Organic Nation Brown Sugar - Essential kitchen staple item.",
@@ -4365,13 +4676,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 4179
+    "rank": 4179,
+    "name": "Organic Nation Brown Sugar"
   },
   {
     "id": 4196,
     "title": "Organic Nation Pink Rock Salt",
     "slug": "organic-nation-pink-rock-salt",
-    "price": 75.0,
+    "price": 75,
     "image": "/images/products/organic-nation-pink-rock-salt.jpg",
     "stock": 6,
     "description": "Organic Nation Pink Rock Salt - Essential kitchen staple item.",
@@ -4379,13 +4691,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 4196
+    "rank": 4196,
+    "name": "Organic Nation Pink Rock Salt"
   },
   {
     "id": 4231,
     "title": "Orion O Rice Cracker",
     "slug": "orion-o-rice-cracker",
-    "price": 165.0,
+    "price": 165,
     "image": "/images/products/orion-o-rice-cracker.jpg",
     "stock": 1,
     "description": "Orion O Rice Cracker - Essential kitchen staple item.",
@@ -4393,13 +4706,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 4231
+    "rank": 4231,
+    "name": "Orion O Rice Cracker"
   },
   {
     "id": 4232,
     "title": "Orion O Rice Cracker",
     "slug": "orion-o-rice-cracker",
-    "price": 200.0,
+    "price": 200,
     "image": "/images/products/orion-o-rice-cracker.jpg",
     "stock": 10,
     "description": "Orion O Rice Cracker - Essential kitchen staple item.",
@@ -4407,13 +4721,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 4232
+    "rank": 4232,
+    "name": "Orion O Rice Cracker"
   },
   {
     "id": 4238,
     "title": "Outreach Dalchini Powder 100Gm",
     "slug": "outreach-dalchini-powder-100gm",
-    "price": 100.0,
+    "price": 100,
     "image": "/images/products/outreach-dalchini-powder-100gm.jpg",
     "stock": 5,
     "description": "Outreach Dalchini Powder 100Gm - Essential kitchen staple item.",
@@ -4421,13 +4736,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 4238
+    "rank": 4238,
+    "name": "Outreach Dalchini Powder 100Gm"
   },
   {
     "id": 4239,
     "title": "Outreach Dalchini Powder 50Gm",
     "slug": "outreach-dalchini-powder-50gm",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/outreach-dalchini-powder-50gm.jpg",
     "stock": 5,
     "description": "Outreach Dalchini Powder 50Gm - Essential kitchen staple item.",
@@ -4435,13 +4751,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 4239
+    "rank": 4239,
+    "name": "Outreach Dalchini Powder 50Gm"
   },
   {
     "id": 4276,
     "title": "Pansari Chana Sattu Flour 500G",
     "slug": "pansari-chana-sattu-flour-500g",
-    "price": 140.0,
+    "price": 140,
     "image": "/images/products/pansari-chana-sattu-flour-500g.jpg",
     "stock": 1,
     "description": "Pansari Chana Sattu Flour 500G - Essential kitchen staple item.",
@@ -4449,13 +4766,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 4276
+    "rank": 4276,
+    "name": "Pansari Chana Sattu Flour 500G"
   },
   {
     "id": 4280,
     "title": "Pansari Moong Bhajiya Mix 500G",
     "slug": "pansari-moong-bhajiya-mix-500g",
-    "price": 160.0,
+    "price": 160,
     "image": "/images/products/pansari-moong-bhajiya-mix-500g.jpg",
     "stock": 5,
     "description": "Pansari Moong Bhajiya Mix 500G - Essential kitchen staple item.",
@@ -4463,13 +4781,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 4280
+    "rank": 4280,
+    "name": "Pansari Moong Bhajiya Mix 500G"
   },
   {
     "id": 4281,
     "title": "Pansari Moong Dal Chilla Mix 500G",
     "slug": "pansari-moong-dal-chilla-mix-500g",
-    "price": 160.0,
+    "price": 160,
     "image": "/images/products/pansari-moong-dal-chilla-mix-500g.jpg",
     "stock": 5,
     "description": "Pansari Moong Dal Chilla Mix 500G - Essential kitchen staple item.",
@@ -4477,13 +4796,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 4281
+    "rank": 4281,
+    "name": "Pansari Moong Dal Chilla Mix 500G"
   },
   {
     "id": 4283,
     "title": "Pansari Ragi Flour 500Gm",
     "slug": "pansari-ragi-flour-500gm",
-    "price": 81.0,
+    "price": 81,
     "image": "/images/products/pansari-ragi-flour-500gm.jpg",
     "stock": 4,
     "description": "Pansari Ragi Flour 500Gm - Essential kitchen staple item.",
@@ -4491,13 +4811,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 4283
+    "rank": 4283,
+    "name": "Pansari Ragi Flour 500Gm"
   },
   {
     "id": 4284,
     "title": "Pansari Rajgira Flour 500G",
     "slug": "pansari-rajgira-flour-500g",
-    "price": 180.0,
+    "price": 180,
     "image": "/images/products/pansari-rajgira-flour-500g.jpg",
     "stock": 4,
     "description": "Pansari Rajgira Flour 500G - Essential kitchen staple item.",
@@ -4505,13 +4826,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 4284
+    "rank": 4284,
+    "name": "Pansari Rajgira Flour 500G"
   },
   {
     "id": 4286,
     "title": "Pansari Rice Flour 500G",
     "slug": "pansari-rice-flour-500g",
-    "price": 63.0,
+    "price": 63,
     "image": "/images/products/pansari-rice-flour-500g.jpg",
     "stock": 5,
     "description": "Pansari Rice Flour 500G - Essential kitchen staple item.",
@@ -4519,13 +4841,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 4286
+    "rank": 4286,
+    "name": "Pansari Rice Flour 500G"
   },
   {
     "id": 4355,
     "title": "Parle Dal Chini Biscuits",
     "slug": "parle-dal-chini-biscuits",
-    "price": 10.0,
+    "price": 10,
     "image": "/images/products/parle-dal-chini-biscuits.jpg",
     "stock": 16,
     "description": "Parle Dal Chini Biscuits - Essential kitchen staple item.",
@@ -4533,13 +4856,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 4355
+    "rank": 4355,
+    "name": "Parle Dal Chini Biscuits"
   },
   {
     "id": 4525,
     "title": "Plum Rice Water Fw",
     "slug": "plum-rice-water-fw",
-    "price": 299.0,
+    "price": 299,
     "image": "/images/products/plum-rice-water-fw.jpg",
     "stock": 1,
     "description": "Plum Rice Water Fw - Essential kitchen staple item.",
@@ -4547,13 +4871,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 4525
+    "rank": 4525,
+    "name": "Plum Rice Water Fw"
   },
   {
     "id": 4526,
     "title": "Plum Rice Water Sunscreen Spf50",
     "slug": "plum-rice-water-sunscreen-spf50",
-    "price": 399.0,
+    "price": 399,
     "image": "/images/products/plum-rice-water-sunscreen-spf50.jpg",
     "stock": 1,
     "description": "Plum Rice Water Sunscreen Spf50 - Essential kitchen staple item.",
@@ -4561,13 +4886,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 4526
+    "rank": 4526,
+    "name": "Plum Rice Water Sunscreen Spf50"
   },
   {
     "id": 4618,
     "title": "Puro Salt",
     "slug": "puro-salt",
-    "price": 115.0,
+    "price": 115,
     "image": "/images/products/puro-salt.jpg",
     "stock": 12,
     "description": "Puro Salt - Essential kitchen staple item.",
@@ -4575,13 +4901,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 4618
+    "rank": 4618,
+    "name": "Puro Salt"
   },
   {
     "id": 4620,
     "title": "Pusht Barley Daliya",
     "slug": "pusht-barley-daliya",
-    "price": 85.0,
+    "price": 85,
     "image": "/images/products/pusht-barley-daliya.jpg",
     "stock": 3,
     "description": "Pusht Barley Daliya - Essential kitchen staple item.",
@@ -4589,13 +4916,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 4620
+    "rank": 4620,
+    "name": "Pusht Barley Daliya"
   },
   {
     "id": 4622,
     "title": "Pusht Brown Rice 1Kg",
     "slug": "pusht-brown-rice-1kg",
-    "price": 299.0,
+    "price": 299,
     "image": "/images/products/pusht-brown-rice-1kg.jpg",
     "stock": 3,
     "description": "Pusht Brown Rice 1Kg - Essential kitchen staple item.",
@@ -4603,13 +4931,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 4622
+    "rank": 4622,
+    "name": "Pusht Brown Rice 1Kg"
   },
   {
     "id": 4623,
     "title": "Pusht Brown Sugar 500Gm",
     "slug": "pusht-brown-sugar-500gm",
-    "price": 90.0,
+    "price": 90,
     "image": "/images/products/pusht-brown-sugar-500gm.jpg",
     "stock": 3,
     "description": "Pusht Brown Sugar 500Gm - Essential kitchen staple item.",
@@ -4617,13 +4946,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 4623
+    "rank": 4623,
+    "name": "Pusht Brown Sugar 500Gm"
   },
   {
     "id": 4625,
     "title": "Pusht Org Corn Daliya 500Gm",
     "slug": "pusht-org-corn-daliya-500gm",
-    "price": 80.0,
+    "price": 80,
     "image": "/images/products/pusht-org-corn-daliya-500gm.jpg",
     "stock": 3,
     "description": "Pusht Org Corn Daliya 500Gm - Essential kitchen staple item.",
@@ -4631,13 +4961,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 4625
+    "rank": 4625,
+    "name": "Pusht Org Corn Daliya 500Gm"
   },
   {
     "id": 4626,
     "title": "Pusht Org Daliya 500Gm",
     "slug": "pusht-org-daliya-500gm",
-    "price": 62.0,
+    "price": 62,
     "image": "/images/products/pusht-org-daliya-500gm.jpg",
     "stock": 3,
     "description": "Pusht Org Daliya 500Gm - Essential kitchen staple item.",
@@ -4645,13 +4976,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 4626
+    "rank": 4626,
+    "name": "Pusht Org Daliya 500Gm"
   },
   {
     "id": 4631,
     "title": "Pusht Org Poha 500Gm",
     "slug": "pusht-org-poha-500gm",
-    "price": 90.0,
+    "price": 90,
     "image": "/images/products/pusht-org-poha-500gm.jpg",
     "stock": 1,
     "description": "Pusht Org Poha 500Gm - Essential kitchen staple item.",
@@ -4659,13 +4991,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 4631
+    "rank": 4631,
+    "name": "Pusht Org Poha 500Gm"
   },
   {
     "id": 4633,
     "title": "Pusht Org Rock Salt 1Kg",
     "slug": "pusht-org-rock-salt-1kg",
-    "price": 145.0,
+    "price": 145,
     "image": "/images/products/pusht-org-rock-salt-1kg.jpg",
     "stock": 3,
     "description": "Pusht Org Rock Salt 1Kg - Essential kitchen staple item.",
@@ -4673,13 +5006,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 4633
+    "rank": 4633,
+    "name": "Pusht Org Rock Salt 1Kg"
   },
   {
     "id": 4634,
     "title": "Pusht Organic Besan 500Gm",
     "slug": "pusht-organic-besan-500gm",
-    "price": 125.0,
+    "price": 125,
     "image": "/images/products/pusht-organic-besan-500gm.jpg",
     "stock": 2,
     "description": "Pusht Organic Besan 500Gm - Essential kitchen staple item.",
@@ -4687,13 +5021,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 4634
+    "rank": 4634,
+    "name": "Pusht Organic Besan 500Gm"
   },
   {
     "id": 4635,
     "title": "Pusht Sona Massori Rice 1Kg",
     "slug": "pusht-sona-massori-rice-1kg",
-    "price": 164.0,
+    "price": 164,
     "image": "/images/products/pusht-sona-massori-rice-1kg.jpg",
     "stock": 4,
     "description": "Pusht Sona Massori Rice 1Kg - Essential kitchen staple item.",
@@ -4701,13 +5036,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 4635
+    "rank": 4635,
+    "name": "Pusht Sona Massori Rice 1Kg"
   },
   {
     "id": 4660,
     "title": "Rajdhani Besan 500Gm",
     "slug": "rajdhani-besan-500gm",
-    "price": 85.0,
+    "price": 85,
     "image": "/images/products/rajdhani-besan-500gm.jpg",
     "stock": 18,
     "description": "Rajdhani Besan 500Gm - Essential kitchen staple item.",
@@ -4715,13 +5051,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 4660
+    "rank": 4660,
+    "name": "Rajdhani Besan 500Gm"
   },
   {
     "id": 4661,
     "title": "Rajdhani Poha 500G",
     "slug": "rajdhani-poha-500g",
-    "price": 68.0,
+    "price": 68,
     "image": "/images/products/rajdhani-poha-500g.jpg",
     "stock": 2,
     "description": "Rajdhani Poha 500G - Essential kitchen staple item.",
@@ -4729,13 +5066,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 4661
+    "rank": 4661,
+    "name": "Rajdhani Poha 500G"
   },
   {
     "id": 4662,
     "title": "Rajdhani Sooji 500Gm",
     "slug": "rajdhani-sooji-500gm",
-    "price": 50.0,
+    "price": 50,
     "image": "/images/products/rajdhani-sooji-500gm.jpg",
     "stock": -6,
     "description": "Rajdhani Sooji 500Gm - Essential kitchen staple item.",
@@ -4743,13 +5081,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 4662
+    "rank": 4662,
+    "name": "Rajdhani Sooji 500Gm"
   },
   {
     "id": 4716,
     "title": "Real Thai Rice Stick 375G",
     "slug": "real-thai-rice-stick-375g",
-    "price": 240.0,
+    "price": 240,
     "image": "/images/products/real-thai-rice-stick-375g.jpg",
     "stock": 2,
     "description": "Real Thai Rice Stick 375G - Essential kitchen staple item.",
@@ -4757,13 +5096,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 4716
+    "rank": 4716,
+    "name": "Real Thai Rice Stick 375G"
   },
   {
     "id": 4717,
     "title": "Real Thai Rice Vermicelli 375G",
     "slug": "real-thai-rice-vermicelli-375g",
-    "price": 310.0,
+    "price": 310,
     "image": "/images/products/real-thai-rice-vermicelli-375g.jpg",
     "stock": 2,
     "description": "Real Thai Rice Vermicelli 375G - Essential kitchen staple item.",
@@ -4771,13 +5111,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 4717
+    "rank": 4717,
+    "name": "Real Thai Rice Vermicelli 375G"
   },
   {
     "id": 4736,
     "title": "Reggia Whole Wheat Pasta 500Gm",
     "slug": "reggia-whole-wheat-pasta-500gm",
-    "price": 350.0,
+    "price": 350,
     "image": "/images/products/reggia-whole-wheat-pasta-500gm.jpg",
     "stock": 24,
     "description": "Reggia Whole Wheat Pasta 500Gm - Essential kitchen staple item.",
@@ -4785,13 +5126,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 4736
+    "rank": 4736,
+    "name": "Reggia Whole Wheat Pasta 500Gm"
   },
   {
     "id": 4743,
     "title": "Rice Cooking Vinegar",
     "slug": "rice-cooking-vinegar",
-    "price": 499.0,
+    "price": 499,
     "image": "/images/products/rice-cooking-vinegar.jpg",
     "stock": 2,
     "description": "Rice Cooking Vinegar - Essential kitchen staple item.",
@@ -4799,13 +5141,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 4743
+    "rank": 4743,
+    "name": "Rice Cooking Vinegar"
   },
   {
     "id": 4744,
     "title": "Rice Paper Round 16Cm/22Cm",
     "slug": "rice-paper-round-16cm22cm",
-    "price": 185.0,
+    "price": 185,
     "image": "/images/products/rice-paper-round-16cm22cm.jpg",
     "stock": 10,
     "description": "Rice Paper Round 16Cm/22Cm - Essential kitchen staple item.",
@@ -4813,13 +5156,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 4744
+    "rank": 4744,
+    "name": "Rice Paper Round 16Cm/22Cm"
   },
   {
     "id": 4828,
     "title": "Sakura Rice 1Kg",
     "slug": "sakura-rice-1kg",
-    "price": 495.0,
+    "price": 495,
     "image": "/images/products/sakura-rice-1kg.jpg",
     "stock": 2,
     "description": "Sakura Rice 1Kg - Essential kitchen staple item.",
@@ -4827,13 +5171,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 4828
+    "rank": 4828,
+    "name": "Sakura Rice 1Kg"
   },
   {
     "id": 4835,
     "title": "Santoor Aloe Vera Soap",
     "slug": "santoor-aloe-vera-soap",
-    "price": 148.0,
+    "price": 148,
     "image": "/images/products/santoor-aloe-vera-soap.jpg",
     "stock": 6,
     "description": "Santoor Aloe Vera Soap - Essential kitchen staple item.",
@@ -4841,13 +5186,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 4835
+    "rank": 4835,
+    "name": "Santoor Aloe Vera Soap"
   },
   {
     "id": 4836,
     "title": "Santoor Body Wash Saffron&Marigold",
     "slug": "santoor-body-wash-saffronmarigold",
-    "price": 350.0,
+    "price": 350,
     "image": "/images/products/santoor-body-wash-saffronmarigold.jpg",
     "stock": 12,
     "description": "Santoor Body Wash Saffron&Marigold - Essential kitchen staple item.",
@@ -4855,13 +5201,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 4836
+    "rank": 4836,
+    "name": "Santoor Body Wash Saffron&Marigold"
   },
   {
     "id": 4837,
     "title": "Santoor Hand Wash 200+200",
     "slug": "santoor-hand-wash-200200",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/santoor-hand-wash-200200.jpg",
     "stock": 8,
     "description": "Santoor Hand Wash 200+200 - Essential kitchen staple item.",
@@ -4869,13 +5216,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 4837
+    "rank": 4837,
+    "name": "Santoor Hand Wash 200+200"
   },
   {
     "id": 4838,
     "title": "Santoor Hand Wash 675Ml",
     "slug": "santoor-hand-wash-675ml",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/santoor-hand-wash-675ml.jpg",
     "stock": 18,
     "description": "Santoor Hand Wash 675Ml - Essential kitchen staple item.",
@@ -4883,13 +5231,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 4838
+    "rank": 4838,
+    "name": "Santoor Hand Wash 675Ml"
   },
   {
     "id": 4839,
     "title": "Santoor Sandal Soap",
     "slug": "santoor-sandal-soap",
-    "price": 156.0,
+    "price": 156,
     "image": "/images/products/santoor-sandal-soap.jpg",
     "stock": 5,
     "description": "Santoor Sandal Soap - Essential kitchen staple item.",
@@ -4897,13 +5246,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 4839
+    "rank": 4839,
+    "name": "Santoor Sandal Soap"
   },
   {
     "id": 4905,
     "title": "Sds Chana Masala",
     "slug": "sds-chana-masala",
-    "price": 45.0,
+    "price": 45,
     "image": "/images/products/sds-chana-masala.jpg",
     "stock": 2,
     "description": "Sds Chana Masala - Essential kitchen staple item.",
@@ -4911,13 +5261,14 @@ const products = [
     "unit": "8908",
     "category": "staples",
     "popular": false,
-    "rank": 4905
+    "rank": 4905,
+    "name": "Sds Chana Masala"
   },
   {
     "id": 4908,
     "title": "Sds Dal Makhni Masala",
     "slug": "sds-dal-makhni-masala",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/sds-dal-makhni-masala.jpg",
     "stock": 3,
     "description": "Sds Dal Makhni Masala - Essential kitchen staple item.",
@@ -4925,13 +5276,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 4908
+    "rank": 4908,
+    "name": "Sds Dal Makhni Masala"
   },
   {
     "id": 4909,
     "title": "Sds Dal Masala",
     "slug": "sds-dal-masala",
-    "price": 25.0,
+    "price": 25,
     "image": "/images/products/sds-dal-masala.jpg",
     "stock": 3,
     "description": "Sds Dal Masala - Essential kitchen staple item.",
@@ -4939,13 +5291,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 4909
+    "rank": 4909,
+    "name": "Sds Dal Masala"
   },
   {
     "id": 4946,
     "title": "Sf Cereal Powder Banana/Ragi/Multigrain 200G",
     "slug": "sf-cereal-powder-bananaragimultigrain-200g",
-    "price": 349.0,
+    "price": 349,
     "image": "/images/products/sf-cereal-powder-bananaragimultigrain-200g.jpg",
     "stock": 5,
     "description": "Sf Cereal Powder Banana/Ragi/Multigrain 200G - Essential kitchen staple item.",
@@ -4953,13 +5306,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 4946
+    "rank": 4946,
+    "name": "Sf Cereal Powder Banana/Ragi/Multigrain 200G"
   },
   {
     "id": 4948,
     "title": "Sf Cocunut Sugar 300G",
     "slug": "sf-cocunut-sugar-300g",
-    "price": 299.0,
+    "price": 299,
     "image": "/images/products/sf-cocunut-sugar-300g.jpg",
     "stock": 1,
     "description": "Sf Cocunut Sugar 300G - Essential kitchen staple item.",
@@ -4967,13 +5321,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 4948
+    "rank": 4948,
+    "name": "Sf Cocunut Sugar 300G"
   },
   {
     "id": 4951,
     "title": "Sf Mille Supergrain Pasta 250G",
     "slug": "sf-mille-supergrain-pasta-250g",
-    "price": 200.0,
+    "price": 200,
     "image": "/images/products/sf-mille-supergrain-pasta-250g.jpg",
     "stock": 1,
     "description": "Sf Mille Supergrain Pasta 250G - Essential kitchen staple item.",
@@ -4981,13 +5336,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 4951
+    "rank": 4951,
+    "name": "Sf Mille Supergrain Pasta 250G"
   },
   {
     "id": 4961,
     "title": "Shadani Khatta Meetha Aampak 200G",
     "slug": "shadani-khatta-meetha-aampak-200g",
-    "price": 155.0,
+    "price": 155,
     "image": "/images/products/shadani-khatta-meetha-aampak-200g.jpg",
     "stock": 3,
     "description": "Shadani Khatta Meetha Aampak 200G - Essential kitchen staple item.",
@@ -4995,13 +5351,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 4961
+    "rank": 4961,
+    "name": "Shadani Khatta Meetha Aampak 200G"
   },
   {
     "id": 4973,
     "title": "Shakti Bhog Atta 5Kg",
     "slug": "shakti-bhog-atta-5kg",
-    "price": 251.0,
+    "price": 251,
     "image": "/images/products/shakti-bhog-atta-5kg.jpg",
     "stock": 4,
     "description": "Shakti Bhog Atta 5Kg - Essential kitchen staple item.",
@@ -5009,13 +5366,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 4973
+    "rank": 4973,
+    "name": "Shakti Bhog Atta 5Kg"
   },
   {
     "id": 4974,
     "title": "Shakti Bhog Besan 1Kg",
     "slug": "shakti-bhog-besan-1kg",
-    "price": 174.0,
+    "price": 174,
     "image": "/images/products/shakti-bhog-besan-1kg.jpg",
     "stock": 5,
     "description": "Shakti Bhog Besan 1Kg - Essential kitchen staple item.",
@@ -5023,13 +5381,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 4974
+    "rank": 4974,
+    "name": "Shakti Bhog Besan 1Kg"
   },
   {
     "id": 4975,
     "title": "Shakti Bhog Besan 500Gm",
     "slug": "shakti-bhog-besan-500gm",
-    "price": 91.0,
+    "price": 91,
     "image": "/images/products/shakti-bhog-besan-500gm.jpg",
     "stock": 3,
     "description": "Shakti Bhog Besan 500Gm - Essential kitchen staple item.",
@@ -5037,13 +5396,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 4975
+    "rank": 4975,
+    "name": "Shakti Bhog Besan 500Gm"
   },
   {
     "id": 4976,
     "title": "Shakti Bhog Dalia 500Gm",
     "slug": "shakti-bhog-dalia-500gm",
-    "price": 50.0,
+    "price": 50,
     "image": "/images/products/shakti-bhog-dalia-500gm.jpg",
     "stock": 9,
     "description": "Shakti Bhog Dalia 500Gm - Essential kitchen staple item.",
@@ -5051,13 +5411,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 4976
+    "rank": 4976,
+    "name": "Shakti Bhog Dalia 500Gm"
   },
   {
     "id": 4977,
     "title": "Shakti Bhog Maida 500Gm",
     "slug": "shakti-bhog-maida-500gm",
-    "price": 45.0,
+    "price": 45,
     "image": "/images/products/shakti-bhog-maida-500gm.jpg",
     "stock": 19,
     "description": "Shakti Bhog Maida 500Gm - Essential kitchen staple item.",
@@ -5065,13 +5426,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 4977
+    "rank": 4977,
+    "name": "Shakti Bhog Maida 500Gm"
   },
   {
     "id": 4978,
     "title": "Shakti Bhog Poha 500Gm",
     "slug": "shakti-bhog-poha-500gm",
-    "price": 70.0,
+    "price": 70,
     "image": "/images/products/shakti-bhog-poha-500gm.jpg",
     "stock": 8,
     "description": "Shakti Bhog Poha 500Gm - Essential kitchen staple item.",
@@ -5079,13 +5441,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 4978
+    "rank": 4978,
+    "name": "Shakti Bhog Poha 500Gm"
   },
   {
     "id": 4979,
     "title": "Shakti Bhog Sooji 500G",
     "slug": "shakti-bhog-sooji-500g",
-    "price": 50.0,
+    "price": 50,
     "image": "/images/products/shakti-bhog-sooji-500g.jpg",
     "stock": 15,
     "description": "Shakti Bhog Sooji 500G - Essential kitchen staple item.",
@@ -5093,13 +5456,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 4979
+    "rank": 4979,
+    "name": "Shakti Bhog Sooji 500G"
   },
   {
     "id": 5116,
     "title": "Soyabean Dal 500G",
     "slug": "soyabean-dal-500g",
-    "price": 70.0,
+    "price": 70,
     "image": "/images/products/soyabean-dal-500g.jpg",
     "stock": 4,
     "description": "Soyabean Dal 500G - Essential kitchen staple item.",
@@ -5107,13 +5471,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5116
+    "rank": 5116,
+    "name": "Soyabean Dal 500G"
   },
   {
     "id": 5117,
     "title": "Splenda Sugar Sachet",
     "slug": "splenda-sugar-sachet",
-    "price": 300.0,
+    "price": 300,
     "image": "/images/products/splenda-sugar-sachet.jpg",
     "stock": 2,
     "description": "Splenda Sugar Sachet - Essential kitchen staple item.",
@@ -5121,13 +5486,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5117
+    "rank": 5117,
+    "name": "Splenda Sugar Sachet"
   },
   {
     "id": 5163,
     "title": "Spring Celery Sea Salt",
     "slug": "spring-celery-sea-salt",
-    "price": 419.0,
+    "price": 419,
     "image": "/images/products/spring-celery-sea-salt.jpg",
     "stock": 1,
     "description": "Spring Celery Sea Salt - Essential kitchen staple item.",
@@ -5135,13 +5501,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5163
+    "rank": 5163,
+    "name": "Spring Celery Sea Salt"
   },
   {
     "id": 5164,
     "title": "Spring Coconut Sugar",
     "slug": "spring-coconut-sugar",
-    "price": 449.0,
+    "price": 449,
     "image": "/images/products/spring-coconut-sugar.jpg",
     "stock": 2,
     "description": "Spring Coconut Sugar - Essential kitchen staple item.",
@@ -5149,13 +5516,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5164
+    "rank": 5164,
+    "name": "Spring Coconut Sugar"
   },
   {
     "id": 5169,
     "title": "Spring Rosemary&Lavender Sea Salt",
     "slug": "spring-rosemarylavender-sea-salt",
-    "price": 499.0,
+    "price": 499,
     "image": "/images/products/spring-rosemarylavender-sea-salt.jpg",
     "stock": 1,
     "description": "Spring Rosemary&Lavender Sea Salt - Essential kitchen staple item.",
@@ -5163,13 +5531,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5169
+    "rank": 5169,
+    "name": "Spring Rosemary&Lavender Sea Salt"
   },
   {
     "id": 5171,
     "title": "Spring Sichuan Pepper Sea Salt",
     "slug": "spring-sichuan-pepper-sea-salt",
-    "price": 519.0,
+    "price": 519,
     "image": "/images/products/spring-sichuan-pepper-sea-salt.jpg",
     "stock": 1,
     "description": "Spring Sichuan Pepper Sea Salt - Essential kitchen staple item.",
@@ -5177,13 +5546,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5171
+    "rank": 5171,
+    "name": "Spring Sichuan Pepper Sea Salt"
   },
   {
     "id": 5180,
     "title": "St Dalfur Fig Royale Jam",
     "slug": "st-dalfur-fig-royale-jam",
-    "price": 425.0,
+    "price": 425,
     "image": "/images/products/st-dalfur-fig-royale-jam.jpg",
     "stock": 1,
     "description": "St Dalfur Fig Royale Jam - Essential kitchen staple item.",
@@ -5191,13 +5561,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5180
+    "rank": 5180,
+    "name": "St Dalfur Fig Royale Jam"
   },
   {
     "id": 5196,
     "title": "Star Lion Rice Vermicilli 200G",
     "slug": "star-lion-rice-vermicilli-200g",
-    "price": 75.0,
+    "price": 75,
     "image": "/images/products/star-lion-rice-vermicilli-200g.jpg",
     "stock": 1,
     "description": "Star Lion Rice Vermicilli 200G - Essential kitchen staple item.",
@@ -5205,13 +5576,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5196
+    "rank": 5196,
+    "name": "Star Lion Rice Vermicilli 200G"
   },
   {
     "id": 5229,
     "title": "Stute No Added Sugar Jam",
     "slug": "stute-no-added-sugar-jam",
-    "price": 499.0,
+    "price": 499,
     "image": "/images/products/stute-no-added-sugar-jam.jpg",
     "stock": 14,
     "description": "Stute No Added Sugar Jam - Essential kitchen staple item.",
@@ -5219,13 +5591,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5229
+    "rank": 5229,
+    "name": "Stute No Added Sugar Jam"
   },
   {
     "id": 5230,
     "title": "Sugar Free Gold + 100N",
     "slug": "sugar-free-gold-100n",
-    "price": 80.0,
+    "price": 80,
     "image": "/images/products/sugar-free-gold-100n.jpg",
     "stock": 3,
     "description": "Sugar Free Gold + 100N - Essential kitchen staple item.",
@@ -5233,13 +5606,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5230
+    "rank": 5230,
+    "name": "Sugar Free Gold + 100N"
   },
   {
     "id": 5231,
     "title": "Sugar Free Gold+ 300N",
     "slug": "sugar-free-gold-300n",
-    "price": 210.0,
+    "price": 210,
     "image": "/images/products/sugar-free-gold-300n.jpg",
     "stock": 2,
     "description": "Sugar Free Gold+ 300N - Essential kitchen staple item.",
@@ -5247,13 +5621,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5231
+    "rank": 5231,
+    "name": "Sugar Free Gold+ 300N"
   },
   {
     "id": 5232,
     "title": "Sugar Free Gold+ Powder 100Gm",
     "slug": "sugar-free-gold-powder-100gm",
-    "price": 159.0,
+    "price": 159,
     "image": "/images/products/sugar-free-gold-powder-100gm.jpg",
     "stock": 5,
     "description": "Sugar Free Gold+ Powder 100Gm - Essential kitchen staple item.",
@@ -5261,13 +5636,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5232
+    "rank": 5232,
+    "name": "Sugar Free Gold+ Powder 100Gm"
   },
   {
     "id": 5233,
     "title": "Sugar Free Green Stevia 200G",
     "slug": "sugar-free-green-stevia-200g",
-    "price": 275.0,
+    "price": 275,
     "image": "/images/products/sugar-free-green-stevia-200g.jpg",
     "stock": 2,
     "description": "Sugar Free Green Stevia 200G - Essential kitchen staple item.",
@@ -5275,13 +5651,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5233
+    "rank": 5233,
+    "name": "Sugar Free Green Stevia 200G"
   },
   {
     "id": 5234,
     "title": "Sugar Free Natura 200N",
     "slug": "sugar-free-natura-200n",
-    "price": 145.0,
+    "price": 145,
     "image": "/images/products/sugar-free-natura-200n.jpg",
     "stock": 3,
     "description": "Sugar Free Natura 200N - Essential kitchen staple item.",
@@ -5289,13 +5666,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5234
+    "rank": 5234,
+    "name": "Sugar Free Natura 200N"
   },
   {
     "id": 5235,
     "title": "Sugar Free Natura 300N",
     "slug": "sugar-free-natura-300n",
-    "price": 210.0,
+    "price": 210,
     "image": "/images/products/sugar-free-natura-300n.jpg",
     "stock": 3,
     "description": "Sugar Free Natura 300N - Essential kitchen staple item.",
@@ -5303,13 +5681,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5235
+    "rank": 5235,
+    "name": "Sugar Free Natura 300N"
   },
   {
     "id": 5236,
     "title": "Sugar Free Natura/Gold+ 500N",
     "slug": "sugar-free-naturagold-500n",
-    "price": 310.0,
+    "price": 310,
     "image": "/images/products/sugar-free-naturagold-500n.jpg",
     "stock": 6,
     "description": "Sugar Free Natura/Gold+ 500N - Essential kitchen staple item.",
@@ -5317,13 +5696,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5236
+    "rank": 5236,
+    "name": "Sugar Free Natura/Gold+ 500N"
   },
   {
     "id": 5237,
     "title": "Sugar Free Nautara 100N",
     "slug": "sugar-free-nautara-100n",
-    "price": 80.0,
+    "price": 80,
     "image": "/images/products/sugar-free-nautara-100n.jpg",
     "stock": 3,
     "description": "Sugar Free Nautara 100N - Essential kitchen staple item.",
@@ -5331,13 +5711,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5237
+    "rank": 5237,
+    "name": "Sugar Free Nautara 100N"
   },
   {
     "id": 5238,
     "title": "Sugar Pop  Eyeshadow",
     "slug": "sugar-pop-eyeshadow",
-    "price": 499.0,
+    "price": 499,
     "image": "/images/products/sugar-pop-eyeshadow.jpg",
     "stock": 3,
     "description": "Sugar Pop  Eyeshadow - Essential kitchen staple item.",
@@ -5345,13 +5726,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5238
+    "rank": 5238,
+    "name": "Sugar Pop  Eyeshadow"
   },
   {
     "id": 5239,
     "title": "Sugar Pop Compact Powder",
     "slug": "sugar-pop-compact-powder",
-    "price": 249.0,
+    "price": 249,
     "image": "/images/products/sugar-pop-compact-powder.jpg",
     "stock": 15,
     "description": "Sugar Pop Compact Powder - Essential kitchen staple item.",
@@ -5359,13 +5741,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5239
+    "rank": 5239,
+    "name": "Sugar Pop Compact Powder"
   },
   {
     "id": 5240,
     "title": "Sugar Pop Eyeliner",
     "slug": "sugar-pop-eyeliner",
-    "price": 219.0,
+    "price": 219,
     "image": "/images/products/sugar-pop-eyeliner.jpg",
     "stock": 5,
     "description": "Sugar Pop Eyeliner - Essential kitchen staple item.",
@@ -5373,13 +5756,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5240
+    "rank": 5240,
+    "name": "Sugar Pop Eyeliner"
   },
   {
     "id": 5241,
     "title": "Sugar Pop Kajal 1",
     "slug": "sugar-pop-kajal-1",
-    "price": 179.0,
+    "price": 179,
     "image": "/images/products/sugar-pop-kajal-1.jpg",
     "stock": 2,
     "description": "Sugar Pop Kajal 1 - Essential kitchen staple item.",
@@ -5387,13 +5771,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5241
+    "rank": 5241,
+    "name": "Sugar Pop Kajal 1"
   },
   {
     "id": 5242,
     "title": "Sugar Pop Lip Balm Mint",
     "slug": "sugar-pop-lip-balm-mint",
-    "price": 149.0,
+    "price": 149,
     "image": "/images/products/sugar-pop-lip-balm-mint.jpg",
     "stock": 5,
     "description": "Sugar Pop Lip Balm Mint - Essential kitchen staple item.",
@@ -5401,13 +5786,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5242
+    "rank": 5242,
+    "name": "Sugar Pop Lip Balm Mint"
   },
   {
     "id": 5243,
     "title": "Sugar Pop Liquid Foundation",
     "slug": "sugar-pop-liquid-foundation",
-    "price": 399.0,
+    "price": 399,
     "image": "/images/products/sugar-pop-liquid-foundation.jpg",
     "stock": 12,
     "description": "Sugar Pop Liquid Foundation - Essential kitchen staple item.",
@@ -5415,13 +5801,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5243
+    "rank": 5243,
+    "name": "Sugar Pop Liquid Foundation"
   },
   {
     "id": 5244,
     "title": "Sugar Pop Matte Lopcolor 279",
     "slug": "sugar-pop-matte-lopcolor-279",
-    "price": 279.0,
+    "price": 279,
     "image": "/images/products/sugar-pop-matte-lopcolor-279.jpg",
     "stock": 32,
     "description": "Sugar Pop Matte Lopcolor 279 - Essential kitchen staple item.",
@@ -5429,13 +5816,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5244
+    "rank": 5244,
+    "name": "Sugar Pop Matte Lopcolor 279"
   },
   {
     "id": 5245,
     "title": "Sugar Pop Nail Remover",
     "slug": "sugar-pop-nail-remover",
-    "price": 179.0,
+    "price": 179,
     "image": "/images/products/sugar-pop-nail-remover.jpg",
     "stock": 5,
     "description": "Sugar Pop Nail Remover - Essential kitchen staple item.",
@@ -5443,13 +5831,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5245
+    "rank": 5245,
+    "name": "Sugar Pop Nail Remover"
   },
   {
     "id": 5246,
     "title": "Sugar Pop Satin Matte Listick",
     "slug": "sugar-pop-satin-matte-listick",
-    "price": 299.0,
+    "price": 299,
     "image": "/images/products/sugar-pop-satin-matte-listick.jpg",
     "stock": 25,
     "description": "Sugar Pop Satin Matte Listick - Essential kitchen staple item.",
@@ -5457,13 +5846,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5246
+    "rank": 5246,
+    "name": "Sugar Pop Satin Matte Listick"
   },
   {
     "id": 5247,
     "title": "Sugar Pop Transerproof Lipstick",
     "slug": "sugar-pop-transerproof-lipstick",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/sugar-pop-transerproof-lipstick.jpg",
     "stock": 25,
     "description": "Sugar Pop Transerproof Lipstick - Essential kitchen staple item.",
@@ -5471,13 +5861,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5247
+    "rank": 5247,
+    "name": "Sugar Pop Transerproof Lipstick"
   },
   {
     "id": 5248,
     "title": "Sugar Pop Vitamin C Face Wash",
     "slug": "sugar-pop-vitamin-c-face-wash",
-    "price": 159.0,
+    "price": 159,
     "image": "/images/products/sugar-pop-vitamin-c-face-wash.jpg",
     "stock": 6,
     "description": "Sugar Pop Vitamin C Face Wash - Essential kitchen staple item.",
@@ -5485,13 +5876,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5248
+    "rank": 5248,
+    "name": "Sugar Pop Vitamin C Face Wash"
   },
   {
     "id": 5249,
     "title": "Sugar Pop Volumizing Mascara",
     "slug": "sugar-pop-volumizing-mascara",
-    "price": 329.0,
+    "price": 329,
     "image": "/images/products/sugar-pop-volumizing-mascara.jpg",
     "stock": 6,
     "description": "Sugar Pop Volumizing Mascara - Essential kitchen staple item.",
@@ -5499,13 +5891,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5249
+    "rank": 5249,
+    "name": "Sugar Pop Volumizing Mascara"
   },
   {
     "id": 5309,
     "title": "Tata Rock Salt 1Kg",
     "slug": "tata-rock-salt-1kg",
-    "price": 120.0,
+    "price": 120,
     "image": "/images/products/tata-rock-salt-1kg.jpg",
     "stock": 9,
     "description": "Tata Rock Salt 1Kg - Essential kitchen staple item.",
@@ -5513,13 +5906,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5309
+    "rank": 5309,
+    "name": "Tata Rock Salt 1Kg"
   },
   {
     "id": 5310,
     "title": "Tata Salt",
     "slug": "tata-salt",
-    "price": 30.0,
+    "price": 30,
     "image": "/images/products/tata-salt.jpg",
     "stock": 30,
     "description": "Tata Salt - Essential kitchen staple item.",
@@ -5527,13 +5921,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5310
+    "rank": 5310,
+    "name": "Tata Salt"
   },
   {
     "id": 5311,
     "title": "Tata Salt Lite",
     "slug": "tata-salt-lite",
-    "price": 50.0,
+    "price": 50,
     "image": "/images/products/tata-salt-lite.jpg",
     "stock": 16,
     "description": "Tata Salt Lite - Essential kitchen staple item.",
@@ -5541,13 +5936,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5311
+    "rank": 5311,
+    "name": "Tata Salt Lite"
   },
   {
     "id": 5361,
     "title": "Tg Salted Broad Beans",
     "slug": "tg-salted-broad-beans",
-    "price": 340.0,
+    "price": 340,
     "image": "/images/products/tg-salted-broad-beans.jpg",
     "stock": 2,
     "description": "Tg Salted Broad Beans - Essential kitchen staple item.",
@@ -5555,13 +5951,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5361
+    "rank": 5361,
+    "name": "Tg Salted Broad Beans"
   },
   {
     "id": 5362,
     "title": "Tg Salted Cashew Nuts 400G",
     "slug": "tg-salted-cashew-nuts-400g",
-    "price": 730.0,
+    "price": 730,
     "image": "/images/products/tg-salted-cashew-nuts-400g.jpg",
     "stock": 2,
     "description": "Tg Salted Cashew Nuts 400G - Essential kitchen staple item.",
@@ -5569,13 +5966,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5362
+    "rank": 5362,
+    "name": "Tg Salted Cashew Nuts 400G"
   },
   {
     "id": 5363,
     "title": "Tg Salted Cocktail Nuts 380G",
     "slug": "tg-salted-cocktail-nuts-380g",
-    "price": 730.0,
+    "price": 730,
     "image": "/images/products/tg-salted-cocktail-nuts-380g.jpg",
     "stock": 2,
     "description": "Tg Salted Cocktail Nuts 380G - Essential kitchen staple item.",
@@ -5583,13 +5981,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5363
+    "rank": 5363,
+    "name": "Tg Salted Cocktail Nuts 380G"
   },
   {
     "id": 5364,
     "title": "Tg Salted Peanut 30G",
     "slug": "tg-salted-peanut-30g",
-    "price": 30.0,
+    "price": 30,
     "image": "/images/products/tg-salted-peanut-30g.jpg",
     "stock": 20,
     "description": "Tg Salted Peanut 30G - Essential kitchen staple item.",
@@ -5597,13 +5996,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5364
+    "rank": 5364,
+    "name": "Tg Salted Peanut 30G"
   },
   {
     "id": 5365,
     "title": "Tg Salted Peanut 350/",
     "slug": "tg-salted-peanut-350",
-    "price": 350.0,
+    "price": 350,
     "image": "/images/products/tg-salted-peanut-350.jpg",
     "stock": 2,
     "description": "Tg Salted Peanut 350/ - Essential kitchen staple item.",
@@ -5611,13 +6011,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5365
+    "rank": 5365,
+    "name": "Tg Salted Peanut 350/"
   },
   {
     "id": 5366,
     "title": "Tg Salted Pista 30G",
     "slug": "tg-salted-pista-30g",
-    "price": 80.0,
+    "price": 80,
     "image": "/images/products/tg-salted-pista-30g.jpg",
     "stock": 9,
     "description": "Tg Salted Pista 30G - Essential kitchen staple item.",
@@ -5625,13 +6026,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5366
+    "rank": 5366,
+    "name": "Tg Salted Pista 30G"
   },
   {
     "id": 5367,
     "title": "Tg Salted Sunflower 30G",
     "slug": "tg-salted-sunflower-30g",
-    "price": 30.0,
+    "price": 30,
     "image": "/images/products/tg-salted-sunflower-30g.jpg",
     "stock": 10,
     "description": "Tg Salted Sunflower 30G - Essential kitchen staple item.",
@@ -5639,13 +6041,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5367
+    "rank": 5367,
+    "name": "Tg Salted Sunflower 30G"
   },
   {
     "id": 5368,
     "title": "Thai Jasmine Rice 20Gm",
     "slug": "thai-jasmine-rice-20gm",
-    "price": 295.0,
+    "price": 295,
     "image": "/images/products/thai-jasmine-rice-20gm.jpg",
     "stock": 6,
     "description": "Thai Jasmine Rice 20Gm - Essential kitchen staple item.",
@@ -5653,13 +6056,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5368
+    "rank": 5368,
+    "name": "Thai Jasmine Rice 20Gm"
   },
   {
     "id": 5371,
     "title": "The Pahadi Organic Black Wheat Flour",
     "slug": "the-pahadi-organic-black-wheat-flour",
-    "price": 80.0,
+    "price": 80,
     "image": "/images/products/the-pahadi-organic-black-wheat-flour.jpg",
     "stock": 94,
     "description": "The Pahadi Organic Black Wheat Flour - Essential kitchen staple item.",
@@ -5667,13 +6071,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5371
+    "rank": 5371,
+    "name": "The Pahadi Organic Black Wheat Flour"
   },
   {
     "id": 5372,
     "title": "The Pahadi Organic Noori Basmati Rice",
     "slug": "the-pahadi-organic-noori-basmati-rice",
-    "price": 105.0,
+    "price": 105,
     "image": "/images/products/the-pahadi-organic-noori-basmati-rice.jpg",
     "stock": 37,
     "description": "The Pahadi Organic Noori Basmati Rice - Essential kitchen staple item.",
@@ -5681,13 +6086,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5372
+    "rank": 5372,
+    "name": "The Pahadi Organic Noori Basmati Rice"
   },
   {
     "id": 5373,
     "title": "The Pahadi Organic Red Rice",
     "slug": "the-pahadi-organic-red-rice",
-    "price": 310.0,
+    "price": 310,
     "image": "/images/products/the-pahadi-organic-red-rice.jpg",
     "stock": 100,
     "description": "The Pahadi Organic Red Rice - Essential kitchen staple item.",
@@ -5695,13 +6101,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5373
+    "rank": 5373,
+    "name": "The Pahadi Organic Red Rice"
   },
   {
     "id": 5425,
     "title": "Tong Garden Salted Almonds 380G",
     "slug": "tong-garden-salted-almonds-380g",
-    "price": 730.0,
+    "price": 730,
     "image": "/images/products/tong-garden-salted-almonds-380g.jpg",
     "stock": 3,
     "description": "Tong Garden Salted Almonds 380G - Essential kitchen staple item.",
@@ -5709,13 +6116,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5425
+    "rank": 5425,
+    "name": "Tong Garden Salted Almonds 380G"
   },
   {
     "id": 5426,
     "title": "Tong Garden Salted Broad Beans 500G",
     "slug": "tong-garden-salted-broad-beans-500g",
-    "price": 340.0,
+    "price": 340,
     "image": "/images/products/tong-garden-salted-broad-beans-500g.jpg",
     "stock": 3,
     "description": "Tong Garden Salted Broad Beans 500G - Essential kitchen staple item.",
@@ -5723,13 +6131,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5426
+    "rank": 5426,
+    "name": "Tong Garden Salted Broad Beans 500G"
   },
   {
     "id": 5427,
     "title": "Tong Garden Salted Cocktail Nuts 140G",
     "slug": "tong-garden-salted-cocktail-nuts-140g",
-    "price": 280.0,
+    "price": 280,
     "image": "/images/products/tong-garden-salted-cocktail-nuts-140g.jpg",
     "stock": 3,
     "description": "Tong Garden Salted Cocktail Nuts 140G - Essential kitchen staple item.",
@@ -5737,13 +6146,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5427
+    "rank": 5427,
+    "name": "Tong Garden Salted Cocktail Nuts 140G"
   },
   {
     "id": 5428,
     "title": "Tong Garden Salted Cocktail Nuts 380G",
     "slug": "tong-garden-salted-cocktail-nuts-380g",
-    "price": 730.0,
+    "price": 730,
     "image": "/images/products/tong-garden-salted-cocktail-nuts-380g.jpg",
     "stock": 3,
     "description": "Tong Garden Salted Cocktail Nuts 380G - Essential kitchen staple item.",
@@ -5751,13 +6161,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5428
+    "rank": 5428,
+    "name": "Tong Garden Salted Cocktail Nuts 380G"
   },
   {
     "id": 5429,
     "title": "Tong Garden Salted Peanuts 150G",
     "slug": "tong-garden-salted-peanuts-150g",
-    "price": 150.0,
+    "price": 150,
     "image": "/images/products/tong-garden-salted-peanuts-150g.jpg",
     "stock": 4,
     "description": "Tong Garden Salted Peanuts 150G - Essential kitchen staple item.",
@@ -5765,13 +6176,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5429
+    "rank": 5429,
+    "name": "Tong Garden Salted Peanuts 150G"
   },
   {
     "id": 5430,
     "title": "Tong Garden Salted Peanuts 370G",
     "slug": "tong-garden-salted-peanuts-370g",
-    "price": 350.0,
+    "price": 350,
     "image": "/images/products/tong-garden-salted-peanuts-370g.jpg",
     "stock": 3,
     "description": "Tong Garden Salted Peanuts 370G - Essential kitchen staple item.",
@@ -5779,13 +6191,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5430
+    "rank": 5430,
+    "name": "Tong Garden Salted Peanuts 370G"
   },
   {
     "id": 5431,
     "title": "Tong Garden Salted Pistachios 140G",
     "slug": "tong-garden-salted-pistachios-140g",
-    "price": 375.0,
+    "price": 375,
     "image": "/images/products/tong-garden-salted-pistachios-140g.jpg",
     "stock": 2,
     "description": "Tong Garden Salted Pistachios 140G - Essential kitchen staple item.",
@@ -5793,13 +6206,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5431
+    "rank": 5431,
+    "name": "Tong Garden Salted Pistachios 140G"
   },
   {
     "id": 5432,
     "title": "Tong Garden Salted Pistachios 380G",
     "slug": "tong-garden-salted-pistachios-380g",
-    "price": 1000.0,
+    "price": 1000,
     "image": "/images/products/tong-garden-salted-pistachios-380g.jpg",
     "stock": 3,
     "description": "Tong Garden Salted Pistachios 380G - Essential kitchen staple item.",
@@ -5807,13 +6221,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5432
+    "rank": 5432,
+    "name": "Tong Garden Salted Pistachios 380G"
   },
   {
     "id": 5448,
     "title": "Trident Sugar Free Gums",
     "slug": "trident-sugar-free-gums",
-    "price": 150.0,
+    "price": 150,
     "image": "/images/products/trident-sugar-free-gums.jpg",
     "stock": 21,
     "description": "Trident Sugar Free Gums - Essential kitchen staple item.",
@@ -5821,13 +6236,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5448
+    "rank": 5448,
+    "name": "Trident Sugar Free Gums"
   },
   {
     "id": 5493,
     "title": "Trust Bura Sugar 500G",
     "slug": "trust-bura-sugar-500g",
-    "price": 50.0,
+    "price": 50,
     "image": "/images/products/trust-bura-sugar-500g.jpg",
     "stock": 11,
     "description": "Trust Bura Sugar 500G - Essential kitchen staple item.",
@@ -5835,13 +6251,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5493
+    "rank": 5493,
+    "name": "Trust Bura Sugar 500G"
   },
   {
     "id": 5495,
     "title": "Trust Refined Sugar 500G",
     "slug": "trust-refined-sugar-500g",
-    "price": 50.0,
+    "price": 50,
     "image": "/images/products/trust-refined-sugar-500g.jpg",
     "stock": 16,
     "description": "Trust Refined Sugar 500G - Essential kitchen staple item.",
@@ -5849,13 +6266,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5495
+    "rank": 5495,
+    "name": "Trust Refined Sugar 500G"
   },
   {
     "id": 5496,
     "title": "Trust Sugar 1Kg",
     "slug": "trust-sugar-1kg",
-    "price": 65.0,
+    "price": 65,
     "image": "/images/products/trust-sugar-1kg.jpg",
     "stock": 27,
     "description": "Trust Sugar 1Kg - Essential kitchen staple item.",
@@ -5863,13 +6281,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5496
+    "rank": 5496,
+    "name": "Trust Sugar 1Kg"
   },
   {
     "id": 5497,
     "title": "Trust Sugar 5Kg",
     "slug": "trust-sugar-5kg",
-    "price": 325.0,
+    "price": 325,
     "image": "/images/products/trust-sugar-5kg.jpg",
     "stock": 10,
     "description": "Trust Sugar 5Kg - Essential kitchen staple item.",
@@ -5877,13 +6296,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5497
+    "rank": 5497,
+    "name": "Trust Sugar 5Kg"
   },
   {
     "id": 5498,
     "title": "Trust Sugar Cubes",
     "slug": "trust-sugar-cubes",
-    "price": 68.0,
+    "price": 68,
     "image": "/images/products/trust-sugar-cubes.jpg",
     "stock": 7,
     "description": "Trust Sugar Cubes - Essential kitchen staple item.",
@@ -5891,13 +6311,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5498
+    "rank": 5498,
+    "name": "Trust Sugar Cubes"
   },
   {
     "id": 5499,
     "title": "Trust Sunehra Brown Sugar 1Kg",
     "slug": "trust-sunehra-brown-sugar-1kg",
-    "price": 90.0,
+    "price": 90,
     "image": "/images/products/trust-sunehra-brown-sugar-1kg.jpg",
     "stock": 10,
     "description": "Trust Sunehra Brown Sugar 1Kg - Essential kitchen staple item.",
@@ -5905,13 +6326,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5499
+    "rank": 5499,
+    "name": "Trust Sunehra Brown Sugar 1Kg"
   },
   {
     "id": 5548,
     "title": "Union Salt&Papper Set",
     "slug": "union-saltpapper-set",
-    "price": 180.0,
+    "price": 180,
     "image": "/images/products/union-saltpapper-set.jpg",
     "stock": 2,
     "description": "Union Salt&Papper Set - Essential kitchen staple item.",
@@ -5919,13 +6341,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5548
+    "rank": 5548,
+    "name": "Union Salt&Papper Set"
   },
   {
     "id": 5561,
     "title": "Valley Culture Himalayan Gahat Dal",
     "slug": "valley-culture-himalayan-gahat-dal",
-    "price": 320.0,
+    "price": 320,
     "image": "/images/products/valley-culture-himalayan-gahat-dal.jpg",
     "stock": 5,
     "description": "Valley Culture Himalayan Gahat Dal - Essential kitchen staple item.",
@@ -5933,13 +6356,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5561
+    "rank": 5561,
+    "name": "Valley Culture Himalayan Gahat Dal"
   },
   {
     "id": 5562,
     "title": "Valley Culture Himalayan Red Rice",
     "slug": "valley-culture-himalayan-red-rice",
-    "price": 280.0,
+    "price": 280,
     "image": "/images/products/valley-culture-himalayan-red-rice.jpg",
     "stock": 4,
     "description": "Valley Culture Himalayan Red Rice - Essential kitchen staple item.",
@@ -5947,13 +6371,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5562
+    "rank": 5562,
+    "name": "Valley Culture Himalayan Red Rice"
   },
   {
     "id": 5808,
     "title": "Weikfield Cornflour 100G",
     "slug": "weikfield-cornflour-100g",
-    "price": 30.0,
+    "price": 30,
     "image": "/images/products/weikfield-cornflour-100g.jpg",
     "stock": 2,
     "description": "Weikfield Cornflour 100G - Essential kitchen staple item.",
@@ -5961,13 +6386,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5808
+    "rank": 5808,
+    "name": "Weikfield Cornflour 100G"
   },
   {
     "id": 5901,
     "title": "White Gold Tea Sugar Set-360.3",
     "slug": "white-gold-tea-sugar-set-3603",
-    "price": 2350.0,
+    "price": 2350,
     "image": "/images/products/white-gold-tea-sugar-set-3603.jpg",
     "stock": 1,
     "description": "White Gold Tea Sugar Set-360.3 - Essential kitchen staple item.",
@@ -5975,13 +6401,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5901
+    "rank": 5901,
+    "name": "White Gold Tea Sugar Set-360.3"
   },
   {
     "id": 5902,
     "title": "White Gold Trea Sugar Set",
     "slug": "white-gold-trea-sugar-set",
-    "price": 2225.0,
+    "price": 2225,
     "image": "/images/products/white-gold-trea-sugar-set.jpg",
     "stock": 1,
     "description": "White Gold Trea Sugar Set - Essential kitchen staple item.",
@@ -5989,13 +6416,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5902
+    "rank": 5902,
+    "name": "White Gold Trea Sugar Set"
   },
   {
     "id": 5985,
     "title": "Yu Food Bombay Rava Upma",
     "slug": "yu-food-bombay-rava-upma",
-    "price": 49.0,
+    "price": 49,
     "image": "/images/products/yu-food-bombay-rava-upma.jpg",
     "stock": 7,
     "description": "Yu Food Bombay Rava Upma - Essential kitchen staple item.",
@@ -6003,13 +6431,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5985
+    "rank": 5985,
+    "name": "Yu Food Bombay Rava Upma"
   },
   {
     "id": 5987,
     "title": "Yu Food Durum Wheat Spaghetti",
     "slug": "yu-food-durum-wheat-spaghetti",
-    "price": 190.0,
+    "price": 190,
     "image": "/images/products/yu-food-durum-wheat-spaghetti.jpg",
     "stock": 9,
     "description": "Yu Food Durum Wheat Spaghetti - Essential kitchen staple item.",
@@ -6017,13 +6446,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5987
+    "rank": 5987,
+    "name": "Yu Food Durum Wheat Spaghetti"
   },
   {
     "id": 5996,
     "title": "Yu Garlic Fried Rice Cup",
     "slug": "yu-garlic-fried-rice-cup",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/yu-garlic-fried-rice-cup.jpg",
     "stock": -2,
     "description": "Yu Garlic Fried Rice Cup - Essential kitchen staple item.",
@@ -6031,13 +6461,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5996
+    "rank": 5996,
+    "name": "Yu Garlic Fried Rice Cup"
   },
   {
     "id": 5999,
     "title": "Yu Whole Wheat Noodle",
     "slug": "yu-whole-wheat-noodle",
-    "price": 75.0,
+    "price": 75,
     "image": "/images/products/yu-whole-wheat-noodle.jpg",
     "stock": 7,
     "description": "Yu Whole Wheat Noodle - Essential kitchen staple item.",
@@ -6045,13 +6476,14 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 5999
+    "rank": 5999,
+    "name": "Yu Whole Wheat Noodle"
   },
   {
     "id": 6000,
     "title": "Yu Whole Wheat Noodle Family Pack",
     "slug": "yu-whole-wheat-noodle-family-pack",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/yu-whole-wheat-noodle-family-pack.jpg",
     "stock": 8,
     "description": "Yu Whole Wheat Noodle Family Pack - Essential kitchen staple item.",
@@ -6059,7 +6491,8 @@ const products = [
     "unit": "PCS",
     "category": "staples",
     "popular": false,
-    "rank": 6000
+    "rank": 6000,
+    "name": "Yu Whole Wheat Noodle Family Pack"
   }
 ];
 

@@ -1,5 +1,7 @@
 'use client';
 
+// Route: /components/CategoryCarousel.jsx – Category grid/carousel for browsing
+
 import React from 'react';
 import Slider from 'react-slick';
 import Link from 'next/link';
@@ -31,14 +33,8 @@ const sliderSettings = {
   swipeToSlide: true,
   cssEase: 'cubic-bezier(.67,.04,.37,.99)',
   responsive: [
-    {
-      breakpoint: 1024,
-      settings: { slidesToShow: 3 },
-    },
-    {
-      breakpoint: 640,
-      settings: { slidesToShow: 3 },
-    },
+    { breakpoint: 1024, settings: { slidesToShow: 3 } },
+    { breakpoint: 640, settings: { slidesToShow: 3 } },
   ],
 };
 
@@ -55,17 +51,19 @@ export default function CategoryCarousel() {
           Shop By Category
         </motion.h2>
 
-        {/* Desktop grid for large screens */}
+        {/* Desktop grid */}
         <div className="hidden md:grid grid-cols-3 lg:grid-cols-7 gap-6">
           {categories.map((category) => (
             <motion.div
               key={category.slug}
               whileHover={{ scale: 1.06, boxShadow: '0 8px 24px rgba(50,50,100,0.12)' }}
+              className="focus-within:scale-105"
             >
               <Link
                 href={`/category/${category.slug}`}
-                className="group block relative overflow-hidden rounded-2xl shadow bg-white hover:shadow-lg transition-shadow"
+                className="group block relative overflow-hidden rounded-2xl shadow bg-white hover:shadow-lg transition-shadow focus:outline-none"
                 aria-label={`Shop ${category.name}`}
+                tabIndex={0}
               >
                 <Image
                   src={category.image}
@@ -74,6 +72,7 @@ export default function CategoryCarousel() {
                   height={300}
                   className="h-44 w-full object-cover transition-transform duration-300 group-hover:scale-105 rounded-t-2xl"
                   loading="lazy"
+                  sizes="(max-width: 1024px) 33vw, 14vw"
                 />
                 <div className="absolute inset-0 bg-gradient-to-br from-primary-500/40 to-secondary-400/30 flex items-center justify-center rounded-2xl">
                   <h3 className="text-white text-lg font-semibold text-center drop-shadow">
@@ -92,8 +91,9 @@ export default function CategoryCarousel() {
               <div key={category.slug} className="px-2">
                 <Link
                   href={`/category/${category.slug}`}
-                  className="block relative overflow-hidden rounded-xl shadow bg-white hover:shadow-md transition-shadow"
+                  className="block relative overflow-hidden rounded-xl shadow bg-white hover:shadow-md transition-shadow focus:outline-none"
                   aria-label={`Shop ${category.name}`}
+                  tabIndex={0}
                 >
                   <Image
                     src={category.image}
@@ -102,6 +102,7 @@ export default function CategoryCarousel() {
                     height={120}
                     className="h-28 w-full object-cover rounded-t-xl transition-transform duration-300"
                     loading="lazy"
+                    sizes="33vw"
                   />
                   <div className="absolute inset-0 bg-gradient-to-br from-primary-500/35 to-secondary-400/20 flex items-center justify-center rounded-xl">
                     <h3 className="text-white text-sm font-medium text-center drop-shadow">
@@ -116,7 +117,7 @@ export default function CategoryCarousel() {
 
         <Link
           href="/products"
-          className="flex justify-center mt-8 text-primary-600 hover:text-primary-700 font-semibold transition-colors"
+          className="flex justify-center mt-8 text-primary-600 hover:text-primary-700 font-semibold transition-colors focus:outline-none"
         >
           View All Products
         </Link>

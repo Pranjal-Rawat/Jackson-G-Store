@@ -3,7 +3,7 @@ const products = [
     "id": 1,
     "title": "\u0002Bodyx Man'S Innerwerabrief 294/-",
     "slug": "bodyx-mans-innerwerabrief-294-",
-    "price": 294.0,
+    "price": 294,
     "image": "/images/products/bodyx-mans-innerwerabrief-294-.jpg",
     "stock": 5,
     "description": "\u0002Bodyx Man'S Innerwerabrief 294/- - High quality personal care product.",
@@ -11,13 +11,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1
+    "rank": 1,
+    "name": "\u0002Bodyx Man'S Innerwerabrief 294/-"
   },
   {
     "id": 4,
     "title": "Biotique Hair Color 3",
     "slug": "biotique-hair-color-3",
-    "price": 375.0,
+    "price": 375,
     "image": "/images/products/biotique-hair-color-3.jpg",
     "stock": 3,
     "description": "Biotique Hair Color 3 - High quality personal care product.",
@@ -25,13 +26,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4
+    "rank": 4,
+    "name": "Biotique Hair Color 3"
   },
   {
     "id": 27,
     "title": "24Mantra Mustard Oil 1L",
     "slug": "24mantra-mustard-oil-1l",
-    "price": 350.0,
+    "price": 350,
     "image": "/images/products/24mantra-mustard-oil-1l.jpg",
     "stock": 5,
     "description": "24Mantra Mustard Oil 1L - High quality personal care product.",
@@ -39,13 +41,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 27
+    "rank": 27,
+    "name": "24Mantra Mustard Oil 1L"
   },
   {
     "id": 35,
     "title": "24Mantra Sunflower Oil 1L",
     "slug": "24mantra-sunflower-oil-1l",
-    "price": 395.0,
+    "price": 395,
     "image": "/images/products/24mantra-sunflower-oil-1l.jpg",
     "stock": 3,
     "description": "24Mantra Sunflower Oil 1L - High quality personal care product.",
@@ -53,13 +56,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 35
+    "rank": 35,
+    "name": "24Mantra Sunflower Oil 1L"
   },
   {
     "id": 82,
     "title": "Adidas Shower Gel 449/-",
     "slug": "adidas-shower-gel-449-",
-    "price": 449.0,
+    "price": 449,
     "image": "/images/products/adidas-shower-gel-449-.jpg",
     "stock": 6,
     "description": "Adidas Shower Gel 449/- - High quality personal care product.",
@@ -67,13 +71,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 82
+    "rank": 82,
+    "name": "Adidas Shower Gel 449/-"
   },
   {
     "id": 83,
     "title": "Adidas Shower Gel C D",
     "slug": "adidas-shower-gel-c-d",
-    "price": 549.0,
+    "price": 549,
     "image": "/images/products/adidas-shower-gel-c-d.jpg",
     "stock": 1,
     "description": "Adidas Shower Gel C D - High quality personal care product.",
@@ -81,13 +86,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 83
+    "rank": 83,
+    "name": "Adidas Shower Gel C D"
   },
   {
     "id": 84,
     "title": "Adidas Shower Gel Dc",
     "slug": "adidas-shower-gel-dc",
-    "price": 549.0,
+    "price": 549,
     "image": "/images/products/adidas-shower-gel-dc.jpg",
     "stock": 3,
     "description": "Adidas Shower Gel Dc - High quality personal care product.",
@@ -95,13 +101,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 84
+    "rank": 84,
+    "name": "Adidas Shower Gel Dc"
   },
   {
     "id": 85,
     "title": "Adidas Shower Gel Ek",
     "slug": "adidas-shower-gel-ek",
-    "price": 549.0,
+    "price": 549,
     "image": "/images/products/adidas-shower-gel-ek.jpg",
     "stock": 2,
     "description": "Adidas Shower Gel Ek - High quality personal care product.",
@@ -109,13 +116,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 85
+    "rank": 85,
+    "name": "Adidas Shower Gel Ek"
   },
   {
     "id": 86,
     "title": "Adidas Shower Gel Sd",
     "slug": "adidas-shower-gel-sd",
-    "price": 549.0,
+    "price": 549,
     "image": "/images/products/adidas-shower-gel-sd.jpg",
     "stock": 1,
     "description": "Adidas Shower Gel Sd - High quality personal care product.",
@@ -123,13 +131,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 86
+    "rank": 86,
+    "name": "Adidas Shower Gel Sd"
   },
   {
     "id": 121,
     "title": "Ambi Pur Car Gel Lemon",
     "slug": "ambi-pur-car-gel-lemon",
-    "price": 349.0,
+    "price": 349,
     "image": "/images/products/ambi-pur-car-gel-lemon.jpg",
     "stock": 2,
     "description": "Ambi Pur Car Gel Lemon - High quality personal care product.",
@@ -137,13 +146,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 121
+    "rank": 121,
+    "name": "Ambi Pur Car Gel Lemon"
   },
   {
     "id": 122,
     "title": "Ambi Pur Car Gel Levender",
     "slug": "ambi-pur-car-gel-levender",
-    "price": 349.0,
+    "price": 349,
     "image": "/images/products/ambi-pur-car-gel-levender.jpg",
     "stock": 3,
     "description": "Ambi Pur Car Gel Levender - High quality personal care product.",
@@ -151,13 +161,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 122
+    "rank": 122,
+    "name": "Ambi Pur Car Gel Levender"
   },
   {
     "id": 149,
     "title": "Amul Cheese Spread Creamy 180Gm",
     "slug": "amul-cheese-spread-creamy-180gm",
-    "price": 110.0,
+    "price": 110,
     "image": "/images/products/amul-cheese-spread-creamy-180gm.jpg",
     "stock": 2,
     "description": "Amul Cheese Spread Creamy 180Gm - High quality personal care product.",
@@ -165,13 +176,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 149
+    "rank": 149,
+    "name": "Amul Cheese Spread Creamy 180Gm"
   },
   {
     "id": 164,
     "title": "Amul Cream Chesse",
     "slug": "amul-cream-chesse",
-    "price": 100.0,
+    "price": 100,
     "image": "/images/products/amul-cream-chesse.jpg",
     "stock": 2,
     "description": "Amul Cream Chesse - High quality personal care product.",
@@ -179,13 +191,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 164
+    "rank": 164,
+    "name": "Amul Cream Chesse"
   },
   {
     "id": 176,
     "title": "Amul Fresh Cream 250Ml",
     "slug": "amul-fresh-cream-250ml",
-    "price": 68.0,
+    "price": 68,
     "image": "/images/products/amul-fresh-cream-250ml.jpg",
     "stock": 4,
     "description": "Amul Fresh Cream 250Ml - High quality personal care product.",
@@ -193,13 +206,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 176
+    "rank": 176,
+    "name": "Amul Fresh Cream 250Ml"
   },
   {
     "id": 180,
     "title": "Amul Full Cream Milk",
     "slug": "amul-full-cream-milk",
-    "price": 35.0,
+    "price": 35,
     "image": "/images/products/amul-full-cream-milk.jpg",
     "stock": 1,
     "description": "Amul Full Cream Milk - High quality personal care product.",
@@ -207,13 +221,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 180
+    "rank": 180,
+    "name": "Amul Full Cream Milk"
   },
   {
     "id": 219,
     "title": "Ananta Til Oil 400Gm",
     "slug": "ananta-til-oil-400gm",
-    "price": 108.0,
+    "price": 108,
     "image": "/images/products/ananta-til-oil-400gm.jpg",
     "stock": 11,
     "description": "Ananta Til Oil 400Gm - High quality personal care product.",
@@ -221,13 +236,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 219
+    "rank": 219,
+    "name": "Ananta Til Oil 400Gm"
   },
   {
     "id": 229,
     "title": "Aqualogica Face Wash 100Ml",
     "slug": "aqualogica-face-wash-100ml",
-    "price": 249.0,
+    "price": 249,
     "image": "/images/products/aqualogica-face-wash-100ml.jpg",
     "stock": 12,
     "description": "Aqualogica Face Wash 100Ml - High quality personal care product.",
@@ -235,13 +251,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 229
+    "rank": 229,
+    "name": "Aqualogica Face Wash 100Ml"
   },
   {
     "id": 234,
     "title": "Ariel Blue Perfect Wash 1Kg",
     "slug": "ariel-blue-perfect-wash-1kg",
-    "price": 138.0,
+    "price": 138,
     "image": "/images/products/ariel-blue-perfect-wash-1kg.jpg",
     "stock": 4,
     "description": "Ariel Blue Perfect Wash 1Kg - High quality personal care product.",
@@ -249,13 +266,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 234
+    "rank": 234,
+    "name": "Ariel Blue Perfect Wash 1Kg"
   },
   {
     "id": 235,
     "title": "Ariel Blue Perfect Wash 500Gm",
     "slug": "ariel-blue-perfect-wash-500gm",
-    "price": 72.0,
+    "price": 72,
     "image": "/images/products/ariel-blue-perfect-wash-500gm.jpg",
     "stock": 3,
     "description": "Ariel Blue Perfect Wash 500Gm - High quality personal care product.",
@@ -263,13 +281,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 235
+    "rank": 235,
+    "name": "Ariel Blue Perfect Wash 500Gm"
   },
   {
     "id": 279,
     "title": "Aristo Lotus Soap Dispenser",
     "slug": "aristo-lotus-soap-dispenser",
-    "price": 94.0,
+    "price": 94,
     "image": "/images/products/aristo-lotus-soap-dispenser.jpg",
     "stock": 3,
     "description": "Aristo Lotus Soap Dispenser - High quality personal care product.",
@@ -277,13 +296,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 279
+    "rank": 279,
+    "name": "Aristo Lotus Soap Dispenser"
   },
   {
     "id": 281,
     "title": "Aristo Olive Soap Dispenser",
     "slug": "aristo-olive-soap-dispenser",
-    "price": 91.0,
+    "price": 91,
     "image": "/images/products/aristo-olive-soap-dispenser.jpg",
     "stock": 4,
     "description": "Aristo Olive Soap Dispenser - High quality personal care product.",
@@ -291,13 +311,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 281
+    "rank": 281,
+    "name": "Aristo Olive Soap Dispenser"
   },
   {
     "id": 292,
     "title": "Armaf Body Mist Bh",
     "slug": "armaf-body-mist-bh",
-    "price": 499.0,
+    "price": 499,
     "image": "/images/products/armaf-body-mist-bh.jpg",
     "stock": 1,
     "description": "Armaf Body Mist Bh - High quality personal care product.",
@@ -305,13 +326,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 292
+    "rank": 292,
+    "name": "Armaf Body Mist Bh"
   },
   {
     "id": 293,
     "title": "Armaf Body Mist Cdni",
     "slug": "armaf-body-mist-cdni",
-    "price": 499.0,
+    "price": 499,
     "image": "/images/products/armaf-body-mist-cdni.jpg",
     "stock": 1,
     "description": "Armaf Body Mist Cdni - High quality personal care product.",
@@ -319,13 +341,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 293
+    "rank": 293,
+    "name": "Armaf Body Mist Cdni"
   },
   {
     "id": 294,
     "title": "Armaf Body Mist Dch",
     "slug": "armaf-body-mist-dch",
-    "price": 499.0,
+    "price": 499,
     "image": "/images/products/armaf-body-mist-dch.jpg",
     "stock": 1,
     "description": "Armaf Body Mist Dch - High quality personal care product.",
@@ -333,13 +356,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 294
+    "rank": 294,
+    "name": "Armaf Body Mist Dch"
   },
   {
     "id": 295,
     "title": "Armaf Body Mist Hs",
     "slug": "armaf-body-mist-hs",
-    "price": 499.0,
+    "price": 499,
     "image": "/images/products/armaf-body-mist-hs.jpg",
     "stock": 2,
     "description": "Armaf Body Mist Hs - High quality personal care product.",
@@ -347,13 +371,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 295
+    "rank": 295,
+    "name": "Armaf Body Mist Hs"
   },
   {
     "id": 296,
     "title": "Armaf Body Mist Th",
     "slug": "armaf-body-mist-th",
-    "price": 499.0,
+    "price": 499,
     "image": "/images/products/armaf-body-mist-th.jpg",
     "stock": 2,
     "description": "Armaf Body Mist Th - High quality personal care product.",
@@ -361,13 +386,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 296
+    "rank": 296,
+    "name": "Armaf Body Mist Th"
   },
   {
     "id": 297,
     "title": "Armaf Body Mist Tm",
     "slug": "armaf-body-mist-tm",
-    "price": 499.0,
+    "price": 499,
     "image": "/images/products/armaf-body-mist-tm.jpg",
     "stock": 1,
     "description": "Armaf Body Mist Tm - High quality personal care product.",
@@ -375,13 +401,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 297
+    "rank": 297,
+    "name": "Armaf Body Mist Tm"
   },
   {
     "id": 298,
     "title": "Armaf Body Mist Vf",
     "slug": "armaf-body-mist-vf",
-    "price": 499.0,
+    "price": 499,
     "image": "/images/products/armaf-body-mist-vf.jpg",
     "stock": 2,
     "description": "Armaf Body Mist Vf - High quality personal care product.",
@@ -389,13 +416,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 298
+    "rank": 298,
+    "name": "Armaf Body Mist Vf"
   },
   {
     "id": 299,
     "title": "Armaf Body Spray B",
     "slug": "armaf-body-spray-b",
-    "price": 275.0,
+    "price": 275,
     "image": "/images/products/armaf-body-spray-b.jpg",
     "stock": 1,
     "description": "Armaf Body Spray B - High quality personal care product.",
@@ -403,13 +431,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 299
+    "rank": 299,
+    "name": "Armaf Body Spray B"
   },
   {
     "id": 300,
     "title": "Armaf Body Spray Bea",
     "slug": "armaf-body-spray-bea",
-    "price": 275.0,
+    "price": 275,
     "image": "/images/products/armaf-body-spray-bea.jpg",
     "stock": 1,
     "description": "Armaf Body Spray Bea - High quality personal care product.",
@@ -417,13 +446,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 300
+    "rank": 300,
+    "name": "Armaf Body Spray Bea"
   },
   {
     "id": 301,
     "title": "Armaf Body Spray Bh M",
     "slug": "armaf-body-spray-bh-m",
-    "price": 349.0,
+    "price": 349,
     "image": "/images/products/armaf-body-spray-bh-m.jpg",
     "stock": 1,
     "description": "Armaf Body Spray Bh M - High quality personal care product.",
@@ -431,13 +461,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 301
+    "rank": 301,
+    "name": "Armaf Body Spray Bh M"
   },
   {
     "id": 302,
     "title": "Armaf Body Spray Cdn M",
     "slug": "armaf-body-spray-cdn-m",
-    "price": 349.0,
+    "price": 349,
     "image": "/images/products/armaf-body-spray-cdn-m.jpg",
     "stock": 3,
     "description": "Armaf Body Spray Cdn M - High quality personal care product.",
@@ -445,13 +476,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 302
+    "rank": 302,
+    "name": "Armaf Body Spray Cdn M"
   },
   {
     "id": 303,
     "title": "Armaf Body Spray Cdn W",
     "slug": "armaf-body-spray-cdn-w",
-    "price": 349.0,
+    "price": 349,
     "image": "/images/products/armaf-body-spray-cdn-w.jpg",
     "stock": 1,
     "description": "Armaf Body Spray Cdn W - High quality personal care product.",
@@ -459,13 +491,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 303
+    "rank": 303,
+    "name": "Armaf Body Spray Cdn W"
   },
   {
     "id": 304,
     "title": "Armaf Body Spray Dch W",
     "slug": "armaf-body-spray-dch-w",
-    "price": 349.0,
+    "price": 349,
     "image": "/images/products/armaf-body-spray-dch-w.jpg",
     "stock": 1,
     "description": "Armaf Body Spray Dch W - High quality personal care product.",
@@ -473,13 +506,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 304
+    "rank": 304,
+    "name": "Armaf Body Spray Dch W"
   },
   {
     "id": 305,
     "title": "Armaf Body Spray Enchanted",
     "slug": "armaf-body-spray-enchanted",
-    "price": 275.0,
+    "price": 275,
     "image": "/images/products/armaf-body-spray-enchanted.jpg",
     "stock": 1,
     "description": "Armaf Body Spray Enchanted - High quality personal care product.",
@@ -487,13 +521,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 305
+    "rank": 305,
+    "name": "Armaf Body Spray Enchanted"
   },
   {
     "id": 306,
     "title": "Armaf Body Spray Gesi",
     "slug": "armaf-body-spray-gesi",
-    "price": 349.0,
+    "price": 349,
     "image": "/images/products/armaf-body-spray-gesi.jpg",
     "stock": 1,
     "description": "Armaf Body Spray Gesi - High quality personal care product.",
@@ -501,13 +536,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 306
+    "rank": 306,
+    "name": "Armaf Body Spray Gesi"
   },
   {
     "id": 307,
     "title": "Armaf Body Spray Momoento",
     "slug": "armaf-body-spray-momoento",
-    "price": 349.0,
+    "price": 349,
     "image": "/images/products/armaf-body-spray-momoento.jpg",
     "stock": 1,
     "description": "Armaf Body Spray Momoento - High quality personal care product.",
@@ -515,13 +551,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 307
+    "rank": 307,
+    "name": "Armaf Body Spray Momoento"
   },
   {
     "id": 308,
     "title": "Armaf Body Spray Opus",
     "slug": "armaf-body-spray-opus",
-    "price": 349.0,
+    "price": 349,
     "image": "/images/products/armaf-body-spray-opus.jpg",
     "stock": 1,
     "description": "Armaf Body Spray Opus - High quality personal care product.",
@@ -529,13 +566,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 308
+    "rank": 308,
+    "name": "Armaf Body Spray Opus"
   },
   {
     "id": 309,
     "title": "Armaf Body Spray Romance",
     "slug": "armaf-body-spray-romance",
-    "price": 275.0,
+    "price": 275,
     "image": "/images/products/armaf-body-spray-romance.jpg",
     "stock": 2,
     "description": "Armaf Body Spray Romance - High quality personal care product.",
@@ -543,13 +581,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 309
+    "rank": 309,
+    "name": "Armaf Body Spray Romance"
   },
   {
     "id": 310,
     "title": "Armaf Body Spray Rose",
     "slug": "armaf-body-spray-rose",
-    "price": 275.0,
+    "price": 275,
     "image": "/images/products/armaf-body-spray-rose.jpg",
     "stock": 1,
     "description": "Armaf Body Spray Rose - High quality personal care product.",
@@ -557,13 +596,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 310
+    "rank": 310,
+    "name": "Armaf Body Spray Rose"
   },
   {
     "id": 311,
     "title": "Armaf Body Spray Summer",
     "slug": "armaf-body-spray-summer",
-    "price": 275.0,
+    "price": 275,
     "image": "/images/products/armaf-body-spray-summer.jpg",
     "stock": 1,
     "description": "Armaf Body Spray Summer - High quality personal care product.",
@@ -571,13 +611,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 311
+    "rank": 311,
+    "name": "Armaf Body Spray Summer"
   },
   {
     "id": 312,
     "title": "Armaf Body Spray T-H",
     "slug": "armaf-body-spray-t-h",
-    "price": 349.0,
+    "price": 349,
     "image": "/images/products/armaf-body-spray-t-h.jpg",
     "stock": 1,
     "description": "Armaf Body Spray T-H - High quality personal care product.",
@@ -585,13 +626,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 312
+    "rank": 312,
+    "name": "Armaf Body Spray T-H"
   },
   {
     "id": 313,
     "title": "Armaf Body Spray Tn",
     "slug": "armaf-body-spray-tn",
-    "price": 349.0,
+    "price": 349,
     "image": "/images/products/armaf-body-spray-tn.jpg",
     "stock": 1,
     "description": "Armaf Body Spray Tn - High quality personal care product.",
@@ -599,13 +641,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 313
+    "rank": 313,
+    "name": "Armaf Body Spray Tn"
   },
   {
     "id": 314,
     "title": "Armaf Body Spray Um",
     "slug": "armaf-body-spray-um",
-    "price": 349.0,
+    "price": 349,
     "image": "/images/products/armaf-body-spray-um.jpg",
     "stock": 1,
     "description": "Armaf Body Spray Um - High quality personal care product.",
@@ -613,13 +656,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 314
+    "rank": 314,
+    "name": "Armaf Body Spray Um"
   },
   {
     "id": 315,
     "title": "Armaf Body Spray Vb",
     "slug": "armaf-body-spray-vb",
-    "price": 349.0,
+    "price": 349,
     "image": "/images/products/armaf-body-spray-vb.jpg",
     "stock": 1,
     "description": "Armaf Body Spray Vb - High quality personal care product.",
@@ -627,13 +671,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 315
+    "rank": 315,
+    "name": "Armaf Body Spray Vb"
   },
   {
     "id": 316,
     "title": "Armaf Body Spray Vf W",
     "slug": "armaf-body-spray-vf-w",
-    "price": 349.0,
+    "price": 349,
     "image": "/images/products/armaf-body-spray-vf-w.jpg",
     "stock": 3,
     "description": "Armaf Body Spray Vf W - High quality personal care product.",
@@ -641,13 +686,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 316
+    "rank": 316,
+    "name": "Armaf Body Spray Vf W"
   },
   {
     "id": 317,
     "title": "Armaf Body Spray Vin",
     "slug": "armaf-body-spray-vin",
-    "price": 275.0,
+    "price": 275,
     "image": "/images/products/armaf-body-spray-vin.jpg",
     "stock": 1,
     "description": "Armaf Body Spray Vin - High quality personal care product.",
@@ -655,13 +701,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 317
+    "rank": 317,
+    "name": "Armaf Body Spray Vin"
   },
   {
     "id": 318,
     "title": "Armaf Body Sprayhs W",
     "slug": "armaf-body-sprayhs-w",
-    "price": 349.0,
+    "price": 349,
     "image": "/images/products/armaf-body-sprayhs-w.jpg",
     "stock": 1,
     "description": "Armaf Body Sprayhs W - High quality personal care product.",
@@ -669,13 +716,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 318
+    "rank": 318,
+    "name": "Armaf Body Sprayhs W"
   },
   {
     "id": 326,
     "title": "Axe Body Wash",
     "slug": "axe-body-wash",
-    "price": 239.0,
+    "price": 239,
     "image": "/images/products/axe-body-wash.jpg",
     "stock": 9,
     "description": "Axe Body Wash - High quality personal care product.",
@@ -683,13 +731,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 326
+    "rank": 326,
+    "name": "Axe Body Wash"
   },
   {
     "id": 327,
     "title": "Ayur Amla & Shikakai Shampoo 1Ltr",
     "slug": "ayur-amla-shikakai-shampoo-1ltr",
-    "price": 310.0,
+    "price": 310,
     "image": "/images/products/ayur-amla-shikakai-shampoo-1ltr.jpg",
     "stock": 3,
     "description": "Ayur Amla & Shikakai Shampoo 1Ltr - High quality personal care product.",
@@ -697,13 +746,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 327
+    "rank": 327,
+    "name": "Ayur Amla & Shikakai Shampoo 1Ltr"
   },
   {
     "id": 328,
     "title": "Ayur Amla & Shikakai Shampoo 200Ml",
     "slug": "ayur-amla-shikakai-shampoo-200ml",
-    "price": 110.0,
+    "price": 110,
     "image": "/images/products/ayur-amla-shikakai-shampoo-200ml.jpg",
     "stock": 3,
     "description": "Ayur Amla & Shikakai Shampoo 200Ml - High quality personal care product.",
@@ -711,13 +761,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 328
+    "rank": 328,
+    "name": "Ayur Amla & Shikakai Shampoo 200Ml"
   },
   {
     "id": 329,
     "title": "Ayur Amla & Shikakai Shampoo 500Ml",
     "slug": "ayur-amla-shikakai-shampoo-500ml",
-    "price": 250.0,
+    "price": 250,
     "image": "/images/products/ayur-amla-shikakai-shampoo-500ml.jpg",
     "stock": 2,
     "description": "Ayur Amla & Shikakai Shampoo 500Ml - High quality personal care product.",
@@ -725,13 +776,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 329
+    "rank": 329,
+    "name": "Ayur Amla & Shikakai Shampoo 500Ml"
   },
   {
     "id": 332,
     "title": "Ayur Cold Cream 100Ml",
     "slug": "ayur-cold-cream-100ml",
-    "price": 100.0,
+    "price": 100,
     "image": "/images/products/ayur-cold-cream-100ml.jpg",
     "stock": 3,
     "description": "Ayur Cold Cream 100Ml - High quality personal care product.",
@@ -739,13 +791,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 332
+    "rank": 332,
+    "name": "Ayur Cold Cream 100Ml"
   },
   {
     "id": 334,
     "title": "Ayur Face Pack 100G",
     "slug": "ayur-face-pack-100g",
-    "price": 50.0,
+    "price": 50,
     "image": "/images/products/ayur-face-pack-100g.jpg",
     "stock": 6,
     "description": "Ayur Face Pack 100G - High quality personal care product.",
@@ -753,13 +806,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 334
+    "rank": 334,
+    "name": "Ayur Face Pack 100G"
   },
   {
     "id": 338,
     "title": "Ayur Sunscreen Lotion 100Ml",
     "slug": "ayur-sunscreen-lotion-100ml",
-    "price": 110.0,
+    "price": 110,
     "image": "/images/products/ayur-sunscreen-lotion-100ml.jpg",
     "stock": 1,
     "description": "Ayur Sunscreen Lotion 100Ml - High quality personal care product.",
@@ -767,13 +821,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 338
+    "rank": 338,
+    "name": "Ayur Sunscreen Lotion 100Ml"
   },
   {
     "id": 339,
     "title": "Ayur Sunscreen Lotion 200Ml",
     "slug": "ayur-sunscreen-lotion-200ml",
-    "price": 170.0,
+    "price": 170,
     "image": "/images/products/ayur-sunscreen-lotion-200ml.jpg",
     "stock": 3,
     "description": "Ayur Sunscreen Lotion 200Ml - High quality personal care product.",
@@ -781,13 +836,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 339
+    "rank": 339,
+    "name": "Ayur Sunscreen Lotion 200Ml"
   },
   {
     "id": 364,
     "title": "Bail Kolhu Oil 5L",
     "slug": "bail-kolhu-oil-5l",
-    "price": 1027.0,
+    "price": 1027,
     "image": "/images/products/bail-kolhu-oil-5l.jpg",
     "stock": 1,
     "description": "Bail Kolhu Oil 5L - High quality personal care product.",
@@ -795,13 +851,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 364
+    "rank": 364,
+    "name": "Bail Kolhu Oil 5L"
   },
   {
     "id": 392,
     "title": "Basso Ev Olive Oil 250Ml",
     "slug": "basso-ev-olive-oil-250ml",
-    "price": 749.0,
+    "price": 749,
     "image": "/images/products/basso-ev-olive-oil-250ml.jpg",
     "stock": 3,
     "description": "Basso Ev Olive Oil 250Ml - High quality personal care product.",
@@ -809,13 +866,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 392
+    "rank": 392,
+    "name": "Basso Ev Olive Oil 250Ml"
   },
   {
     "id": 393,
     "title": "Basso Extra Virgin Olive Oil 1L",
     "slug": "basso-extra-virgin-olive-oil-1l",
-    "price": 2500.0,
+    "price": 2500,
     "image": "/images/products/basso-extra-virgin-olive-oil-1l.jpg",
     "stock": 3,
     "description": "Basso Extra Virgin Olive Oil 1L - High quality personal care product.",
@@ -823,13 +881,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 393
+    "rank": 393,
+    "name": "Basso Extra Virgin Olive Oil 1L"
   },
   {
     "id": 394,
     "title": "Basso Extra Virgin Olive Oil 1L",
     "slug": "basso-extra-virgin-olive-oil-1l",
-    "price": 1500.0,
+    "price": 1500,
     "image": "/images/products/basso-extra-virgin-olive-oil-1l.jpg",
     "stock": 3,
     "description": "Basso Extra Virgin Olive Oil 1L - High quality personal care product.",
@@ -837,13 +896,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 394
+    "rank": 394,
+    "name": "Basso Extra Virgin Olive Oil 1L"
   },
   {
     "id": 395,
     "title": "Basso Extra Virgine Oil 500Ml",
     "slug": "basso-extra-virgine-oil-500ml",
-    "price": 1399.0,
+    "price": 1399,
     "image": "/images/products/basso-extra-virgine-oil-500ml.jpg",
     "stock": 2,
     "description": "Basso Extra Virgine Oil 500Ml - High quality personal care product.",
@@ -851,13 +911,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 395
+    "rank": 395,
+    "name": "Basso Extra Virgine Oil 500Ml"
   },
   {
     "id": 396,
     "title": "Basso Pomace Oil 1L",
     "slug": "basso-pomace-oil-1l",
-    "price": 899.0,
+    "price": 899,
     "image": "/images/products/basso-pomace-oil-1l.jpg",
     "stock": 3,
     "description": "Basso Pomace Oil 1L - High quality personal care product.",
@@ -865,13 +926,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 396
+    "rank": 396,
+    "name": "Basso Pomace Oil 1L"
   },
   {
     "id": 397,
     "title": "Basso Pomace Oil 1L",
     "slug": "basso-pomace-oil-1l",
-    "price": 1799.0,
+    "price": 1799,
     "image": "/images/products/basso-pomace-oil-1l.jpg",
     "stock": 4,
     "description": "Basso Pomace Oil 1L - High quality personal care product.",
@@ -879,13 +941,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 397
+    "rank": 397,
+    "name": "Basso Pomace Oil 1L"
   },
   {
     "id": 398,
     "title": "Basso Pomace Oil 250Ml",
     "slug": "basso-pomace-oil-250ml",
-    "price": 599.0,
+    "price": 599,
     "image": "/images/products/basso-pomace-oil-250ml.jpg",
     "stock": 3,
     "description": "Basso Pomace Oil 250Ml - High quality personal care product.",
@@ -893,13 +956,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 398
+    "rank": 398,
+    "name": "Basso Pomace Oil 250Ml"
   },
   {
     "id": 399,
     "title": "Basso Pomace Oil 500Ml",
     "slug": "basso-pomace-oil-500ml",
-    "price": 999.0,
+    "price": 999,
     "image": "/images/products/basso-pomace-oil-500ml.jpg",
     "stock": 4,
     "description": "Basso Pomace Oil 500Ml - High quality personal care product.",
@@ -907,13 +971,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 399
+    "rank": 399,
+    "name": "Basso Pomace Oil 500Ml"
   },
   {
     "id": 400,
     "title": "Basso Pomace Oil 5L",
     "slug": "basso-pomace-oil-5l",
-    "price": 7999.0,
+    "price": 7999,
     "image": "/images/products/basso-pomace-oil-5l.jpg",
     "stock": 2,
     "description": "Basso Pomace Oil 5L - High quality personal care product.",
@@ -921,13 +986,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 400
+    "rank": 400,
+    "name": "Basso Pomace Oil 5L"
   },
   {
     "id": 413,
     "title": "Bb Shampoo 300Ml",
     "slug": "bb-shampoo-300ml",
-    "price": 399.0,
+    "price": 399,
     "image": "/images/products/bb-shampoo-300ml.jpg",
     "stock": 5,
     "description": "Bb Shampoo 300Ml - High quality personal care product.",
@@ -935,13 +1001,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 413
+    "rank": 413,
+    "name": "Bb Shampoo 300Ml"
   },
   {
     "id": 414,
     "title": "Bblunt Hair Colour",
     "slug": "bblunt-hair-colour",
-    "price": 225.0,
+    "price": 225,
     "image": "/images/products/bblunt-hair-colour.jpg",
     "stock": 18,
     "description": "Bblunt Hair Colour - High quality personal care product.",
@@ -949,13 +1016,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 414
+    "rank": 414,
+    "name": "Bblunt Hair Colour"
   },
   {
     "id": 415,
     "title": "Beardo & Hair Growth Oil 50Ml",
     "slug": "beardo-hair-growth-oil-50ml",
-    "price": 750.0,
+    "price": 750,
     "image": "/images/products/beardo-hair-growth-oil-50ml.jpg",
     "stock": 3,
     "description": "Beardo & Hair Growth Oil 50Ml - High quality personal care product.",
@@ -963,13 +1031,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 415
+    "rank": 415,
+    "name": "Beardo & Hair Growth Oil 50Ml"
   },
   {
     "id": 416,
     "title": "Beardo Bodywash 200Ml",
     "slug": "beardo-bodywash-200ml",
-    "price": 299.0,
+    "price": 299,
     "image": "/images/products/beardo-bodywash-200ml.jpg",
     "stock": 19,
     "description": "Beardo Bodywash 200Ml - High quality personal care product.",
@@ -977,13 +1046,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 416
+    "rank": 416,
+    "name": "Beardo Bodywash 200Ml"
   },
   {
     "id": 417,
     "title": "Beardo Charcoal Face Wash 100Ml",
     "slug": "beardo-charcoal-face-wash-100ml",
-    "price": 299.0,
+    "price": 299,
     "image": "/images/products/beardo-charcoal-face-wash-100ml.jpg",
     "stock": 3,
     "description": "Beardo Charcoal Face Wash 100Ml - High quality personal care product.",
@@ -991,13 +1061,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 417
+    "rank": 417,
+    "name": "Beardo Charcoal Face Wash 100Ml"
   },
   {
     "id": 419,
     "title": "Beardo De-Tan Face Wash 100Ml",
     "slug": "beardo-de-tan-face-wash-100ml",
-    "price": 299.0,
+    "price": 299,
     "image": "/images/products/beardo-de-tan-face-wash-100ml.jpg",
     "stock": 3,
     "description": "Beardo De-Tan Face Wash 100Ml - High quality personal care product.",
@@ -1005,13 +1076,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 419
+    "rank": 419,
+    "name": "Beardo De-Tan Face Wash 100Ml"
   },
   {
     "id": 422,
     "title": "Beardo Godfather Beard Oil 30Ml",
     "slug": "beardo-godfather-beard-oil-30ml",
-    "price": 350.0,
+    "price": 350,
     "image": "/images/products/beardo-godfather-beard-oil-30ml.jpg",
     "stock": 4,
     "description": "Beardo Godfather Beard Oil 30Ml - High quality personal care product.",
@@ -1019,13 +1091,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 422
+    "rank": 422,
+    "name": "Beardo Godfather Beard Oil 30Ml"
   },
   {
     "id": 423,
     "title": "Beardo Hair Clay Matte Wax 75G",
     "slug": "beardo-hair-clay-matte-wax-75g",
-    "price": 275.0,
+    "price": 275,
     "image": "/images/products/beardo-hair-clay-matte-wax-75g.jpg",
     "stock": 4,
     "description": "Beardo Hair Clay Matte Wax 75G - High quality personal care product.",
@@ -1033,13 +1106,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 423
+    "rank": 423,
+    "name": "Beardo Hair Clay Matte Wax 75G"
   },
   {
     "id": 424,
     "title": "Beardo Hair Removal Spray 200G",
     "slug": "beardo-hair-removal-spray-200g",
-    "price": 499.0,
+    "price": 499,
     "image": "/images/products/beardo-hair-removal-spray-200g.jpg",
     "stock": 4,
     "description": "Beardo Hair Removal Spray 200G - High quality personal care product.",
@@ -1047,13 +1121,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 424
+    "rank": 424,
+    "name": "Beardo Hair Removal Spray 200G"
   },
   {
     "id": 425,
     "title": "Beardo Hair Serum 50Ml",
     "slug": "beardo-hair-serum-50ml",
-    "price": 295.0,
+    "price": 295,
     "image": "/images/products/beardo-hair-serum-50ml.jpg",
     "stock": 3,
     "description": "Beardo Hair Serum 50Ml - High quality personal care product.",
@@ -1061,13 +1136,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 425
+    "rank": 425,
+    "name": "Beardo Hair Serum 50Ml"
   },
   {
     "id": 426,
     "title": "Beardo Hair Spray 150Ml",
     "slug": "beardo-hair-spray-150ml",
-    "price": 449.0,
+    "price": 449,
     "image": "/images/products/beardo-hair-spray-150ml.jpg",
     "stock": 3,
     "description": "Beardo Hair Spray 150Ml - High quality personal care product.",
@@ -1075,13 +1151,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 426
+    "rank": 426,
+    "name": "Beardo Hair Spray 150Ml"
   },
   {
     "id": 427,
     "title": "Beardo Hair Wax Red/Purple 50G",
     "slug": "beardo-hair-wax-redpurple-50g",
-    "price": 225.0,
+    "price": 225,
     "image": "/images/products/beardo-hair-wax-redpurple-50g.jpg",
     "stock": 8,
     "description": "Beardo Hair Wax Red/Purple 50G - High quality personal care product.",
@@ -1089,13 +1166,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 427
+    "rank": 427,
+    "name": "Beardo Hair Wax Red/Purple 50G"
   },
   {
     "id": 428,
     "title": "Beardo Hairwax+Detan Face Wash",
     "slug": "beardo-hairwaxdetan-face-wash",
-    "price": 275.0,
+    "price": 275,
     "image": "/images/products/beardo-hairwaxdetan-face-wash.jpg",
     "stock": 4,
     "description": "Beardo Hairwax+Detan Face Wash - High quality personal care product.",
@@ -1103,13 +1181,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 428
+    "rank": 428,
+    "name": "Beardo Hairwax+Detan Face Wash"
   },
   {
     "id": 429,
     "title": "Beardo Insane Hold Hair Spray",
     "slug": "beardo-insane-hold-hair-spray",
-    "price": 399.0,
+    "price": 399,
     "image": "/images/products/beardo-insane-hold-hair-spray.jpg",
     "stock": 4,
     "description": "Beardo Insane Hold Hair Spray - High quality personal care product.",
@@ -1117,13 +1196,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 429
+    "rank": 429,
+    "name": "Beardo Insane Hold Hair Spray"
   },
   {
     "id": 432,
     "title": "Beardo Oil Elixir 30G",
     "slug": "beardo-oil-elixir-30g",
-    "price": 450.0,
+    "price": 450,
     "image": "/images/products/beardo-oil-elixir-30g.jpg",
     "stock": 4,
     "description": "Beardo Oil Elixir 30G - High quality personal care product.",
@@ -1131,13 +1211,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 432
+    "rank": 432,
+    "name": "Beardo Oil Elixir 30G"
   },
   {
     "id": 476,
     "title": "Biotique Almond Oil Body Wash",
     "slug": "biotique-almond-oil-body-wash",
-    "price": 220.0,
+    "price": 220,
     "image": "/images/products/biotique-almond-oil-body-wash.jpg",
     "stock": 3,
     "description": "Biotique Almond Oil Body Wash - High quality personal care product.",
@@ -1145,13 +1226,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 476
+    "rank": 476,
+    "name": "Biotique Almond Oil Body Wash"
   },
   {
     "id": 477,
     "title": "Biotique Almond Soap",
     "slug": "biotique-almond-soap",
-    "price": 120.0,
+    "price": 120,
     "image": "/images/products/biotique-almond-soap.jpg",
     "stock": 3,
     "description": "Biotique Almond Soap - High quality personal care product.",
@@ -1159,13 +1241,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 477
+    "rank": 477,
+    "name": "Biotique Almond Soap"
   },
   {
     "id": 478,
     "title": "Biotique Avocado Oil",
     "slug": "biotique-avocado-oil",
-    "price": 160.0,
+    "price": 160,
     "image": "/images/products/biotique-avocado-oil.jpg",
     "stock": 3,
     "description": "Biotique Avocado Oil - High quality personal care product.",
@@ -1173,13 +1256,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 478
+    "rank": 478,
+    "name": "Biotique Avocado Oil"
   },
   {
     "id": 479,
     "title": "Biotique B&P Body Wash",
     "slug": "biotique-bp-body-wash",
-    "price": 220.0,
+    "price": 220,
     "image": "/images/products/biotique-bp-body-wash.jpg",
     "stock": 3,
     "description": "Biotique B&P Body Wash - High quality personal care product.",
@@ -1187,13 +1271,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 479
+    "rank": 479,
+    "name": "Biotique B&P Body Wash"
   },
   {
     "id": 480,
     "title": "Biotique B&P Soap",
     "slug": "biotique-bp-soap",
-    "price": 120.0,
+    "price": 120,
     "image": "/images/products/biotique-bp-soap.jpg",
     "stock": 3,
     "description": "Biotique B&P Soap - High quality personal care product.",
@@ -1201,13 +1286,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 480
+    "rank": 480,
+    "name": "Biotique B&P Soap"
   },
   {
     "id": 481,
     "title": "Biotique Bhringraj Oil",
     "slug": "biotique-bhringraj-oil",
-    "price": 240.0,
+    "price": 240,
     "image": "/images/products/biotique-bhringraj-oil.jpg",
     "stock": 3,
     "description": "Biotique Bhringraj Oil - High quality personal care product.",
@@ -1215,13 +1301,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 481
+    "rank": 481,
+    "name": "Biotique Bhringraj Oil"
   },
   {
     "id": 482,
     "title": "Biotique Body Wash Apricot",
     "slug": "biotique-body-wash-apricot",
-    "price": 220.0,
+    "price": 220,
     "image": "/images/products/biotique-body-wash-apricot.jpg",
     "stock": 2,
     "description": "Biotique Body Wash Apricot - High quality personal care product.",
@@ -1229,13 +1316,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 482
+    "rank": 482,
+    "name": "Biotique Body Wash Apricot"
   },
   {
     "id": 483,
     "title": "Biotique Carrot Oil",
     "slug": "biotique-carrot-oil",
-    "price": 200.0,
+    "price": 200,
     "image": "/images/products/biotique-carrot-oil.jpg",
     "stock": 3,
     "description": "Biotique Carrot Oil - High quality personal care product.",
@@ -1243,13 +1331,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 483
+    "rank": 483,
+    "name": "Biotique Carrot Oil"
   },
   {
     "id": 484,
     "title": "Biotique Coconut Cream",
     "slug": "biotique-coconut-cream",
-    "price": 315.0,
+    "price": 315,
     "image": "/images/products/biotique-coconut-cream.jpg",
     "stock": 3,
     "description": "Biotique Coconut Cream - High quality personal care product.",
@@ -1257,13 +1346,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 484
+    "rank": 484,
+    "name": "Biotique Coconut Cream"
   },
   {
     "id": 485,
     "title": "Biotique Color 4",
     "slug": "biotique-color-4",
-    "price": 375.0,
+    "price": 375,
     "image": "/images/products/biotique-color-4.jpg",
     "stock": 1,
     "description": "Biotique Color 4 - High quality personal care product.",
@@ -1271,13 +1361,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 485
+    "rank": 485,
+    "name": "Biotique Color 4"
   },
   {
     "id": 486,
     "title": "Biotique Cucumber Toner",
     "slug": "biotique-cucumber-toner",
-    "price": 260.0,
+    "price": 260,
     "image": "/images/products/biotique-cucumber-toner.jpg",
     "stock": 3,
     "description": "Biotique Cucumber Toner - High quality personal care product.",
@@ -1285,13 +1376,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 486
+    "rank": 486,
+    "name": "Biotique Cucumber Toner"
   },
   {
     "id": 487,
     "title": "Biotique Fruit Face Pack",
     "slug": "biotique-fruit-face-pack",
-    "price": 299.0,
+    "price": 299,
     "image": "/images/products/biotique-fruit-face-pack.jpg",
     "stock": 3,
     "description": "Biotique Fruit Face Pack - High quality personal care product.",
@@ -1299,13 +1391,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 487
+    "rank": 487,
+    "name": "Biotique Fruit Face Pack"
   },
   {
     "id": 488,
     "title": "Biotique Fruit Face Wash",
     "slug": "biotique-fruit-face-wash",
-    "price": 180.0,
+    "price": 180,
     "image": "/images/products/biotique-fruit-face-wash.jpg",
     "stock": 4,
     "description": "Biotique Fruit Face Wash - High quality personal care product.",
@@ -1313,13 +1406,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 488
+    "rank": 488,
+    "name": "Biotique Fruit Face Wash"
   },
   {
     "id": 489,
     "title": "Biotique Hair Color 1",
     "slug": "biotique-hair-color-1",
-    "price": 375.0,
+    "price": 375,
     "image": "/images/products/biotique-hair-color-1.jpg",
     "stock": 3,
     "description": "Biotique Hair Color 1 - High quality personal care product.",
@@ -1327,13 +1421,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 489
+    "rank": 489,
+    "name": "Biotique Hair Color 1"
   },
   {
     "id": 490,
     "title": "Biotique Hair Color 4",
     "slug": "biotique-hair-color-4",
-    "price": 300.0,
+    "price": 300,
     "image": "/images/products/biotique-hair-color-4.jpg",
     "stock": 2,
     "description": "Biotique Hair Color 4 - High quality personal care product.",
@@ -1341,13 +1436,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 490
+    "rank": 490,
+    "name": "Biotique Hair Color 4"
   },
   {
     "id": 491,
     "title": "Biotique Himalayan Soap",
     "slug": "biotique-himalayan-soap",
-    "price": 120.0,
+    "price": 120,
     "image": "/images/products/biotique-himalayan-soap.jpg",
     "stock": 2,
     "description": "Biotique Himalayan Soap - High quality personal care product.",
@@ -1355,13 +1451,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 491
+    "rank": 491,
+    "name": "Biotique Himalayan Soap"
   },
   {
     "id": 492,
     "title": "Biotique Honey Gel Fw",
     "slug": "biotique-honey-gel-fw",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/biotique-honey-gel-fw.jpg",
     "stock": 3,
     "description": "Biotique Honey Gel Fw - High quality personal care product.",
@@ -1369,13 +1466,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 492
+    "rank": 492,
+    "name": "Biotique Honey Gel Fw"
   },
   {
     "id": 493,
     "title": "Biotique Lotion Aloe Vera",
     "slug": "biotique-lotion-aloe-vera",
-    "price": 330.0,
+    "price": 330,
     "image": "/images/products/biotique-lotion-aloe-vera.jpg",
     "stock": 3,
     "description": "Biotique Lotion Aloe Vera - High quality personal care product.",
@@ -1383,13 +1481,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 493
+    "rank": 493,
+    "name": "Biotique Lotion Aloe Vera"
   },
   {
     "id": 494,
     "title": "Biotique Lotion Carrot",
     "slug": "biotique-lotion-carrot",
-    "price": 499.0,
+    "price": 499,
     "image": "/images/products/biotique-lotion-carrot.jpg",
     "stock": 3,
     "description": "Biotique Lotion Carrot - High quality personal care product.",
@@ -1397,13 +1496,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 494
+    "rank": 494,
+    "name": "Biotique Lotion Carrot"
   },
   {
     "id": 495,
     "title": "Biotique Lotion Sandalwood",
     "slug": "biotique-lotion-sandalwood",
-    "price": 550.0,
+    "price": 550,
     "image": "/images/products/biotique-lotion-sandalwood.jpg",
     "stock": 3,
     "description": "Biotique Lotion Sandalwood - High quality personal care product.",
@@ -1411,13 +1511,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 495
+    "rank": 495,
+    "name": "Biotique Lotion Sandalwood"
   },
   {
     "id": 496,
     "title": "Biotique Mn Soap",
     "slug": "biotique-mn-soap",
-    "price": 120.0,
+    "price": 120,
     "image": "/images/products/biotique-mn-soap.jpg",
     "stock": 3,
     "description": "Biotique Mn Soap - High quality personal care product.",
@@ -1425,13 +1526,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 496
+    "rank": 496,
+    "name": "Biotique Mn Soap"
   },
   {
     "id": 497,
     "title": "Biotique Morning Nectar Fw",
     "slug": "biotique-morning-nectar-fw",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/biotique-morning-nectar-fw.jpg",
     "stock": 4,
     "description": "Biotique Morning Nectar Fw - High quality personal care product.",
@@ -1439,13 +1541,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 497
+    "rank": 497,
+    "name": "Biotique Morning Nectar Fw"
   },
   {
     "id": 498,
     "title": "Biotique Morning Nectar Moisturzer 120Ml",
     "slug": "biotique-morning-nectar-moisturzer-120ml",
-    "price": 260.0,
+    "price": 260,
     "image": "/images/products/biotique-morning-nectar-moisturzer-120ml.jpg",
     "stock": 4,
     "description": "Biotique Morning Nectar Moisturzer 120Ml - High quality personal care product.",
@@ -1453,13 +1556,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 498
+    "rank": 498,
+    "name": "Biotique Morning Nectar Moisturzer 120Ml"
   },
   {
     "id": 499,
     "title": "Biotique Morning Nectar Moiturizer 190Ml",
     "slug": "biotique-morning-nectar-moiturizer-190ml",
-    "price": 425.0,
+    "price": 425,
     "image": "/images/products/biotique-morning-nectar-moiturizer-190ml.jpg",
     "stock": 3,
     "description": "Biotique Morning Nectar Moiturizer 190Ml - High quality personal care product.",
@@ -1467,13 +1571,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 499
+    "rank": 499,
+    "name": "Biotique Morning Nectar Moiturizer 190Ml"
   },
   {
     "id": 500,
     "title": "Biotique N&H  Body Wash",
     "slug": "biotique-nh-body-wash",
-    "price": 220.0,
+    "price": 220,
     "image": "/images/products/biotique-nh-body-wash.jpg",
     "stock": 3,
     "description": "Biotique N&H  Body Wash - High quality personal care product.",
@@ -1481,13 +1586,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 500
+    "rank": 500,
+    "name": "Biotique N&H  Body Wash"
   },
   {
     "id": 501,
     "title": "Biotique Neem Fw",
     "slug": "biotique-neem-fw",
-    "price": 150.0,
+    "price": 150,
     "image": "/images/products/biotique-neem-fw.jpg",
     "stock": 1,
     "description": "Biotique Neem Fw - High quality personal care product.",
@@ -1495,13 +1601,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 501
+    "rank": 501,
+    "name": "Biotique Neem Fw"
   },
   {
     "id": 502,
     "title": "Biotique Neem Fw",
     "slug": "biotique-neem-fw",
-    "price": 165.0,
+    "price": 165,
     "image": "/images/products/biotique-neem-fw.jpg",
     "stock": 3,
     "description": "Biotique Neem Fw - High quality personal care product.",
@@ -1509,13 +1616,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 502
+    "rank": 502,
+    "name": "Biotique Neem Fw"
   },
   {
     "id": 503,
     "title": "Biotique Orange Soap",
     "slug": "biotique-orange-soap",
-    "price": 120.0,
+    "price": 120,
     "image": "/images/products/biotique-orange-soap.jpg",
     "stock": 3,
     "description": "Biotique Orange Soap - High quality personal care product.",
@@ -1523,13 +1631,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 503
+    "rank": 503,
+    "name": "Biotique Orange Soap"
   },
   {
     "id": 504,
     "title": "Biotique Papaya Face Wash",
     "slug": "biotique-papaya-face-wash",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/biotique-papaya-face-wash.jpg",
     "stock": 3,
     "description": "Biotique Papaya Face Wash - High quality personal care product.",
@@ -1537,13 +1646,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 504
+    "rank": 504,
+    "name": "Biotique Papaya Face Wash"
   },
   {
     "id": 505,
     "title": "Biotique Papaya Scrub",
     "slug": "biotique-papaya-scrub",
-    "price": 299.0,
+    "price": 299,
     "image": "/images/products/biotique-papaya-scrub.jpg",
     "stock": 2,
     "description": "Biotique Papaya Scrub - High quality personal care product.",
@@ -1551,13 +1661,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 505
+    "rank": 505,
+    "name": "Biotique Papaya Scrub"
   },
   {
     "id": 506,
     "title": "Biotique Pineapple Fw",
     "slug": "biotique-pineapple-fw",
-    "price": 150.0,
+    "price": 150,
     "image": "/images/products/biotique-pineapple-fw.jpg",
     "stock": 3,
     "description": "Biotique Pineapple Fw - High quality personal care product.",
@@ -1565,13 +1676,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 506
+    "rank": 506,
+    "name": "Biotique Pineapple Fw"
   },
   {
     "id": 507,
     "title": "Biotique Saffron Cream",
     "slug": "biotique-saffron-cream",
-    "price": 399.0,
+    "price": 399,
     "image": "/images/products/biotique-saffron-cream.jpg",
     "stock": 3,
     "description": "Biotique Saffron Cream - High quality personal care product.",
@@ -1579,13 +1691,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 507
+    "rank": 507,
+    "name": "Biotique Saffron Cream"
   },
   {
     "id": 508,
     "title": "Biotique Shampoo Green Apple",
     "slug": "biotique-shampoo-green-apple",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/biotique-shampoo-green-apple.jpg",
     "stock": 4,
     "description": "Biotique Shampoo Green Apple - High quality personal care product.",
@@ -1593,13 +1706,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 508
+    "rank": 508,
+    "name": "Biotique Shampoo Green Apple"
   },
   {
     "id": 509,
     "title": "Biotique Shampoo Heena",
     "slug": "biotique-shampoo-heena",
-    "price": 180.0,
+    "price": 180,
     "image": "/images/products/biotique-shampoo-heena.jpg",
     "stock": 3,
     "description": "Biotique Shampoo Heena - High quality personal care product.",
@@ -1607,13 +1721,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 509
+    "rank": 509,
+    "name": "Biotique Shampoo Heena"
   },
   {
     "id": 510,
     "title": "Biotique Shampoo Neem",
     "slug": "biotique-shampoo-neem",
-    "price": 205.0,
+    "price": 205,
     "image": "/images/products/biotique-shampoo-neem.jpg",
     "stock": 3,
     "description": "Biotique Shampoo Neem - High quality personal care product.",
@@ -1621,13 +1736,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 510
+    "rank": 510,
+    "name": "Biotique Shampoo Neem"
   },
   {
     "id": 511,
     "title": "Biotique Shampoo Ocean Kelp",
     "slug": "biotique-shampoo-ocean-kelp",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/biotique-shampoo-ocean-kelp.jpg",
     "stock": 2,
     "description": "Biotique Shampoo Ocean Kelp - High quality personal care product.",
@@ -1635,13 +1751,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 511
+    "rank": 511,
+    "name": "Biotique Shampoo Ocean Kelp"
   },
   {
     "id": 512,
     "title": "Biotique Shampoo Soya",
     "slug": "biotique-shampoo-soya",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/biotique-shampoo-soya.jpg",
     "stock": 2,
     "description": "Biotique Shampoo Soya - High quality personal care product.",
@@ -1649,13 +1766,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 512
+    "rank": 512,
+    "name": "Biotique Shampoo Soya"
   },
   {
     "id": 513,
     "title": "Biotique Shampoo Walnut",
     "slug": "biotique-shampoo-walnut",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/biotique-shampoo-walnut.jpg",
     "stock": 1,
     "description": "Biotique Shampoo Walnut - High quality personal care product.",
@@ -1663,13 +1781,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 513
+    "rank": 513,
+    "name": "Biotique Shampoo Walnut"
   },
   {
     "id": 514,
     "title": "Biotique Soya Shampoo 340Ml",
     "slug": "biotique-soya-shampoo-340ml",
-    "price": 399.0,
+    "price": 399,
     "image": "/images/products/biotique-soya-shampoo-340ml.jpg",
     "stock": 3,
     "description": "Biotique Soya Shampoo 340Ml - High quality personal care product.",
@@ -1677,13 +1796,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 514
+    "rank": 514,
+    "name": "Biotique Soya Shampoo 340Ml"
   },
   {
     "id": 515,
     "title": "Biotique Tea Tree Face Wash",
     "slug": "biotique-tea-tree-face-wash",
-    "price": 320.0,
+    "price": 320,
     "image": "/images/products/biotique-tea-tree-face-wash.jpg",
     "stock": 2,
     "description": "Biotique Tea Tree Face Wash - High quality personal care product.",
@@ -1691,13 +1811,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 515
+    "rank": 515,
+    "name": "Biotique Tea Tree Face Wash"
   },
   {
     "id": 516,
     "title": "Biotique Ubtan Face Wash",
     "slug": "biotique-ubtan-face-wash",
-    "price": 375.0,
+    "price": 375,
     "image": "/images/products/biotique-ubtan-face-wash.jpg",
     "stock": 2,
     "description": "Biotique Ubtan Face Wash - High quality personal care product.",
@@ -1705,13 +1826,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 516
+    "rank": 516,
+    "name": "Biotique Ubtan Face Wash"
   },
   {
     "id": 517,
     "title": "Biotique Ubtan Face Wash 100G",
     "slug": "biotique-ubtan-face-wash-100g",
-    "price": 349.0,
+    "price": 349,
     "image": "/images/products/biotique-ubtan-face-wash-100g.jpg",
     "stock": 2,
     "description": "Biotique Ubtan Face Wash 100G - High quality personal care product.",
@@ -1719,13 +1841,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 517
+    "rank": 517,
+    "name": "Biotique Ubtan Face Wash 100G"
   },
   {
     "id": 518,
     "title": "Biotique Vit C Face Wash",
     "slug": "biotique-vit-c-face-wash",
-    "price": 320.0,
+    "price": 320,
     "image": "/images/products/biotique-vit-c-face-wash.jpg",
     "stock": 2,
     "description": "Biotique Vit C Face Wash - High quality personal care product.",
@@ -1733,13 +1856,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 518
+    "rank": 518,
+    "name": "Biotique Vit C Face Wash"
   },
   {
     "id": 519,
     "title": "Biotique Walnut Scrub",
     "slug": "biotique-walnut-scrub",
-    "price": 299.0,
+    "price": 299,
     "image": "/images/products/biotique-walnut-scrub.jpg",
     "stock": 3,
     "description": "Biotique Walnut Scrub - High quality personal care product.",
@@ -1747,13 +1871,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 519
+    "rank": 519,
+    "name": "Biotique Walnut Scrub"
   },
   {
     "id": 520,
     "title": "Biotique Wheatgerm Cream",
     "slug": "biotique-wheatgerm-cream",
-    "price": 399.0,
+    "price": 399,
     "image": "/images/products/biotique-wheatgerm-cream.jpg",
     "stock": 3,
     "description": "Biotique Wheatgerm Cream - High quality personal care product.",
@@ -1761,13 +1886,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 520
+    "rank": 520,
+    "name": "Biotique Wheatgerm Cream"
   },
   {
     "id": 544,
     "title": "Bodyx Handkerchief",
     "slug": "bodyx-handkerchief",
-    "price": 79.0,
+    "price": 79,
     "image": "/images/products/bodyx-handkerchief.jpg",
     "stock": 33,
     "description": "Bodyx Handkerchief - High quality personal care product.",
@@ -1775,13 +1901,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 544
+    "rank": 544,
+    "name": "Bodyx Handkerchief"
   },
   {
     "id": 545,
     "title": "Bodyx Man'S Innerwera Brief 248/-",
     "slug": "bodyx-mans-innerwera-brief-248-",
-    "price": 289.0,
+    "price": 289,
     "image": "/images/products/bodyx-mans-innerwera-brief-248-.jpg",
     "stock": 10,
     "description": "Bodyx Man'S Innerwera Brief 248/- - High quality personal care product.",
@@ -1789,13 +1916,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 545
+    "rank": 545,
+    "name": "Bodyx Man'S Innerwera Brief 248/-"
   },
   {
     "id": 546,
     "title": "Bodyx Man'S Innerwera Brief 309/-",
     "slug": "bodyx-mans-innerwera-brief-309-",
-    "price": 309.0,
+    "price": 309,
     "image": "/images/products/bodyx-mans-innerwera-brief-309-.jpg",
     "stock": 10,
     "description": "Bodyx Man'S Innerwera Brief 309/- - High quality personal care product.",
@@ -1803,13 +1931,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 546
+    "rank": 546,
+    "name": "Bodyx Man'S Innerwera Brief 309/-"
   },
   {
     "id": 547,
     "title": "Bodyx Man'S Innerwera Brief 314/-",
     "slug": "bodyx-mans-innerwera-brief-314-",
-    "price": 314.0,
+    "price": 314,
     "image": "/images/products/bodyx-mans-innerwera-brief-314-.jpg",
     "stock": 5,
     "description": "Bodyx Man'S Innerwera Brief 314/- - High quality personal care product.",
@@ -1817,13 +1946,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 547
+    "rank": 547,
+    "name": "Bodyx Man'S Innerwera Brief 314/-"
   },
   {
     "id": 548,
     "title": "Bodyx Man'S Innerwera Brief 374/-",
     "slug": "bodyx-mans-innerwera-brief-374-",
-    "price": 374.0,
+    "price": 374,
     "image": "/images/products/bodyx-mans-innerwera-brief-374-.jpg",
     "stock": 5,
     "description": "Bodyx Man'S Innerwera Brief 374/- - High quality personal care product.",
@@ -1831,13 +1961,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 548
+    "rank": 548,
+    "name": "Bodyx Man'S Innerwera Brief 374/-"
   },
   {
     "id": 549,
     "title": "Bodyx Man'S Innerwera Brief 418/-",
     "slug": "bodyx-mans-innerwera-brief-418-",
-    "price": 418.0,
+    "price": 418,
     "image": "/images/products/bodyx-mans-innerwera-brief-418-.jpg",
     "stock": 20,
     "description": "Bodyx Man'S Innerwera Brief 418/- - High quality personal care product.",
@@ -1845,13 +1976,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 549
+    "rank": 549,
+    "name": "Bodyx Man'S Innerwera Brief 418/-"
   },
   {
     "id": 550,
     "title": "Bodyx Man'S Innerwera Brief 428/-",
     "slug": "bodyx-mans-innerwera-brief-428-",
-    "price": 428.0,
+    "price": 428,
     "image": "/images/products/bodyx-mans-innerwera-brief-428-.jpg",
     "stock": 10,
     "description": "Bodyx Man'S Innerwera Brief 428/- - High quality personal care product.",
@@ -1859,13 +1991,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 550
+    "rank": 550,
+    "name": "Bodyx Man'S Innerwera Brief 428/-"
   },
   {
     "id": 551,
     "title": "Bodyx Man'S Innerwera Brioef 369/-",
     "slug": "bodyx-mans-innerwera-brioef-369-",
-    "price": 369.0,
+    "price": 369,
     "image": "/images/products/bodyx-mans-innerwera-brioef-369-.jpg",
     "stock": 10,
     "description": "Bodyx Man'S Innerwera Brioef 369/- - High quality personal care product.",
@@ -1873,13 +2006,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 551
+    "rank": 551,
+    "name": "Bodyx Man'S Innerwera Brioef 369/-"
   },
   {
     "id": 552,
     "title": "Bodyx Man'S Innerwera Bs 529/-",
     "slug": "bodyx-mans-innerwera-bs-529-",
-    "price": 529.0,
+    "price": 529,
     "image": "/images/products/bodyx-mans-innerwera-bs-529-.jpg",
     "stock": 10,
     "description": "Bodyx Man'S Innerwera Bs 529/- - High quality personal care product.",
@@ -1887,13 +2021,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 552
+    "rank": 552,
+    "name": "Bodyx Man'S Innerwera Bs 529/-"
   },
   {
     "id": 553,
     "title": "Bodyx Man'S Innerwera Bs 5498/-",
     "slug": "bodyx-mans-innerwera-bs-5498-",
-    "price": 549.0,
+    "price": 549,
     "image": "/images/products/bodyx-mans-innerwera-bs-5498-.jpg",
     "stock": 5,
     "description": "Bodyx Man'S Innerwera Bs 5498/- - High quality personal care product.",
@@ -1901,13 +2036,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 553
+    "rank": 553,
+    "name": "Bodyx Man'S Innerwera Bs 5498/-"
   },
   {
     "id": 554,
     "title": "Bodyx Man'S Innerwera Bx15T Trunk",
     "slug": "bodyx-mans-innerwera-bx15t-trunk",
-    "price": 339.0,
+    "price": 339,
     "image": "/images/products/bodyx-mans-innerwera-bx15t-trunk.jpg",
     "stock": 25,
     "description": "Bodyx Man'S Innerwera Bx15T Trunk - High quality personal care product.",
@@ -1915,13 +2051,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 554
+    "rank": 554,
+    "name": "Bodyx Man'S Innerwera Bx15T Trunk"
   },
   {
     "id": 555,
     "title": "Bodyx Man'S Innerwera Trunk 344/-",
     "slug": "bodyx-mans-innerwera-trunk-344-",
-    "price": 344.0,
+    "price": 344,
     "image": "/images/products/bodyx-mans-innerwera-trunk-344-.jpg",
     "stock": 13,
     "description": "Bodyx Man'S Innerwera Trunk 344/- - High quality personal care product.",
@@ -1929,13 +2066,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 555
+    "rank": 555,
+    "name": "Bodyx Man'S Innerwera Trunk 344/-"
   },
   {
     "id": 556,
     "title": "Bodyx Man'S Innerwera Trunk 399/-",
     "slug": "bodyx-mans-innerwera-trunk-399-",
-    "price": 399.0,
+    "price": 399,
     "image": "/images/products/bodyx-mans-innerwera-trunk-399-.jpg",
     "stock": 9,
     "description": "Bodyx Man'S Innerwera Trunk 399/- - High quality personal care product.",
@@ -1943,13 +2081,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 556
+    "rank": 556,
+    "name": "Bodyx Man'S Innerwera Trunk 399/-"
   },
   {
     "id": 557,
     "title": "Bodyx Man'S Innerwera Trunk 404/-",
     "slug": "bodyx-mans-innerwera-trunk-404-",
-    "price": 404.0,
+    "price": 404,
     "image": "/images/products/bodyx-mans-innerwera-trunk-404-.jpg",
     "stock": 2,
     "description": "Bodyx Man'S Innerwera Trunk 404/- - High quality personal care product.",
@@ -1957,13 +2096,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 557
+    "rank": 557,
+    "name": "Bodyx Man'S Innerwera Trunk 404/-"
   },
   {
     "id": 558,
     "title": "Bodyx Man'S Innerwera Trunk 528/-",
     "slug": "bodyx-mans-innerwera-trunk-528-",
-    "price": 528.0,
+    "price": 528,
     "image": "/images/products/bodyx-mans-innerwera-trunk-528-.jpg",
     "stock": 10,
     "description": "Bodyx Man'S Innerwera Trunk 528/- - High quality personal care product.",
@@ -1971,13 +2111,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 558
+    "rank": 558,
+    "name": "Bodyx Man'S Innerwera Trunk 528/-"
   },
   {
     "id": 559,
     "title": "Bodyx Man'S Innerwera Trunk 540/-",
     "slug": "bodyx-mans-innerwera-trunk-540-",
-    "price": 540.0,
+    "price": 540,
     "image": "/images/products/bodyx-mans-innerwera-trunk-540-.jpg",
     "stock": 20,
     "description": "Bodyx Man'S Innerwera Trunk 540/- - High quality personal care product.",
@@ -1985,13 +2126,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 559
+    "rank": 559,
+    "name": "Bodyx Man'S Innerwera Trunk 540/-"
   },
   {
     "id": 560,
     "title": "Bodyx Man'S Innerwera Tuto 224/-",
     "slug": "bodyx-mans-innerwera-tuto-224-",
-    "price": 224.0,
+    "price": 224,
     "image": "/images/products/bodyx-mans-innerwera-tuto-224-.jpg",
     "stock": 10,
     "description": "Bodyx Man'S Innerwera Tuto 224/- - High quality personal care product.",
@@ -1999,13 +2141,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 560
+    "rank": 560,
+    "name": "Bodyx Man'S Innerwera Tuto 224/-"
   },
   {
     "id": 561,
     "title": "Bodyx Man'S Innerwera Tuto V 239/-",
     "slug": "bodyx-mans-innerwera-tuto-v-239-",
-    "price": 239.0,
+    "price": 239,
     "image": "/images/products/bodyx-mans-innerwera-tuto-v-239-.jpg",
     "stock": 10,
     "description": "Bodyx Man'S Innerwera Tuto V 239/- - High quality personal care product.",
@@ -2013,13 +2156,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 561
+    "rank": 561,
+    "name": "Bodyx Man'S Innerwera Tuto V 239/-"
   },
   {
     "id": 562,
     "title": "Bodyx Man'S Innerwera Tuto Vest 209/-",
     "slug": "bodyx-mans-innerwera-tuto-vest-209-",
-    "price": 209.0,
+    "price": 209,
     "image": "/images/products/bodyx-mans-innerwera-tuto-vest-209-.jpg",
     "stock": 15,
     "description": "Bodyx Man'S Innerwera Tuto Vest 209/- - High quality personal care product.",
@@ -2027,13 +2171,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 562
+    "rank": 562,
+    "name": "Bodyx Man'S Innerwera Tuto Vest 209/-"
   },
   {
     "id": 563,
     "title": "Bodyx Man'S Innerwera Vest 349 /-",
     "slug": "bodyx-mans-innerwera-vest-349--",
-    "price": 349.0,
+    "price": 349,
     "image": "/images/products/bodyx-mans-innerwera-vest-349--.jpg",
     "stock": 15,
     "description": "Bodyx Man'S Innerwera Vest 349 /- - High quality personal care product.",
@@ -2041,13 +2186,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 563
+    "rank": 563,
+    "name": "Bodyx Man'S Innerwera Vest 349 /-"
   },
   {
     "id": 564,
     "title": "Bodyx Man'S Innerwera Vest 499/-",
     "slug": "bodyx-mans-innerwera-vest-499-",
-    "price": 499.0,
+    "price": 499,
     "image": "/images/products/bodyx-mans-innerwera-vest-499-.jpg",
     "stock": 8,
     "description": "Bodyx Man'S Innerwera Vest 499/- - High quality personal care product.",
@@ -2055,13 +2201,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 564
+    "rank": 564,
+    "name": "Bodyx Man'S Innerwera Vest 499/-"
   },
   {
     "id": 565,
     "title": "Bodyx Man'S Innerwera Vest 509/-",
     "slug": "bodyx-mans-innerwera-vest-509-",
-    "price": 509.0,
+    "price": 509,
     "image": "/images/products/bodyx-mans-innerwera-vest-509-.jpg",
     "stock": 10,
     "description": "Bodyx Man'S Innerwera Vest 509/- - High quality personal care product.",
@@ -2069,13 +2216,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 565
+    "rank": 565,
+    "name": "Bodyx Man'S Innerwera Vest 509/-"
   },
   {
     "id": 583,
     "title": "Boro Plus Cream 120Ml",
     "slug": "boro-plus-cream-120ml",
-    "price": 210.0,
+    "price": 210,
     "image": "/images/products/boro-plus-cream-120ml.jpg",
     "stock": 3,
     "description": "Boro Plus Cream 120Ml - High quality personal care product.",
@@ -2083,13 +2231,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 583
+    "rank": 583,
+    "name": "Boro Plus Cream 120Ml"
   },
   {
     "id": 584,
     "title": "Boro Plus Cream 40Ml",
     "slug": "boro-plus-cream-40ml",
-    "price": 90.0,
+    "price": 90,
     "image": "/images/products/boro-plus-cream-40ml.jpg",
     "stock": 1,
     "description": "Boro Plus Cream 40Ml - High quality personal care product.",
@@ -2097,13 +2246,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 584
+    "rank": 584,
+    "name": "Boro Plus Cream 40Ml"
   },
   {
     "id": 585,
     "title": "Boro Plus Cream 80Ml",
     "slug": "boro-plus-cream-80ml",
-    "price": 160.0,
+    "price": 160,
     "image": "/images/products/boro-plus-cream-80ml.jpg",
     "stock": 3,
     "description": "Boro Plus Cream 80Ml - High quality personal care product.",
@@ -2111,13 +2261,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 585
+    "rank": 585,
+    "name": "Boro Plus Cream 80Ml"
   },
   {
     "id": 625,
     "title": "Britannia Cream Wafers",
     "slug": "britannia-cream-wafers",
-    "price": 10.0,
+    "price": 10,
     "image": "/images/products/britannia-cream-wafers.jpg",
     "stock": 23,
     "description": "Britannia Cream Wafers - High quality personal care product.",
@@ -2125,13 +2276,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 625
+    "rank": 625,
+    "name": "Britannia Cream Wafers"
   },
   {
     "id": 646,
     "title": "Britannia Milk Bikis Cream 200G",
     "slug": "britannia-milk-bikis-cream-200g",
-    "price": 55.0,
+    "price": 55,
     "image": "/images/products/britannia-milk-bikis-cream-200g.jpg",
     "stock": 1,
     "description": "Britannia Milk Bikis Cream 200G - High quality personal care product.",
@@ -2139,13 +2291,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 646
+    "rank": 646,
+    "name": "Britannia Milk Bikis Cream 200G"
   },
   {
     "id": 647,
     "title": "Britannia Milk Bikis Cream 44G",
     "slug": "britannia-milk-bikis-cream-44g",
-    "price": 10.0,
+    "price": 10,
     "image": "/images/products/britannia-milk-bikis-cream-44g.jpg",
     "stock": 6,
     "description": "Britannia Milk Bikis Cream 44G - High quality personal care product.",
@@ -2153,13 +2306,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 647
+    "rank": 647,
+    "name": "Britannia Milk Bikis Cream 44G"
   },
   {
     "id": 681,
     "title": "Brush Big",
     "slug": "brush-big",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/brush-big.jpg",
     "stock": 6,
     "description": "Brush Big - High quality personal care product.",
@@ -2167,13 +2321,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 681
+    "rank": 681,
+    "name": "Brush Big"
   },
   {
     "id": 682,
     "title": "Brush M",
     "slug": "brush-m",
-    "price": 40.0,
+    "price": 40,
     "image": "/images/products/brush-m.jpg",
     "stock": 6,
     "description": "Brush M - High quality personal care product.",
@@ -2181,13 +2336,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 682
+    "rank": 682,
+    "name": "Brush M"
   },
   {
     "id": 683,
     "title": "Brut  Body Deodorant 200Ml",
     "slug": "brut-body-deodorant-200ml",
-    "price": 399.0,
+    "price": 399,
     "image": "/images/products/brut-body-deodorant-200ml.jpg",
     "stock": 13,
     "description": "Brut  Body Deodorant 200Ml - High quality personal care product.",
@@ -2195,13 +2351,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 683
+    "rank": 683,
+    "name": "Brut  Body Deodorant 200Ml"
   },
   {
     "id": 684,
     "title": "Brut Body Wash",
     "slug": "brut-body-wash",
-    "price": 449.0,
+    "price": 449,
     "image": "/images/products/brut-body-wash.jpg",
     "stock": 3,
     "description": "Brut Body Wash - High quality personal care product.",
@@ -2209,13 +2366,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 684
+    "rank": 684,
+    "name": "Brut Body Wash"
   },
   {
     "id": 685,
     "title": "Brylcreem Hair Creem 150Ml",
     "slug": "brylcreem-hair-creem-150ml",
-    "price": 299.0,
+    "price": 299,
     "image": "/images/products/brylcreem-hair-creem-150ml.jpg",
     "stock": 9,
     "description": "Brylcreem Hair Creem 150Ml - High quality personal care product.",
@@ -2223,13 +2381,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 685
+    "rank": 685,
+    "name": "Brylcreem Hair Creem 150Ml"
   },
   {
     "id": 744,
     "title": "Camel Brush Pens 12S",
     "slug": "camel-brush-pens-12s",
-    "price": 225.0,
+    "price": 225,
     "image": "/images/products/camel-brush-pens-12s.jpg",
     "stock": 2,
     "description": "Camel Brush Pens 12S - High quality personal care product.",
@@ -2237,13 +2396,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 744
+    "rank": 744,
+    "name": "Camel Brush Pens 12S"
   },
   {
     "id": 745,
     "title": "Camel Brush Pens 24S",
     "slug": "camel-brush-pens-24s",
-    "price": 440.0,
+    "price": 440,
     "image": "/images/products/camel-brush-pens-24s.jpg",
     "stock": 1,
     "description": "Camel Brush Pens 24S - High quality personal care product.",
@@ -2251,13 +2411,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 745
+    "rank": 745,
+    "name": "Camel Brush Pens 24S"
   },
   {
     "id": 749,
     "title": "Camel Oil Pastels Color 25S",
     "slug": "camel-oil-pastels-color-25s",
-    "price": 120.0,
+    "price": 120,
     "image": "/images/products/camel-oil-pastels-color-25s.jpg",
     "stock": 3,
     "description": "Camel Oil Pastels Color 25S - High quality personal care product.",
@@ -2265,13 +2426,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 749
+    "rank": 749,
+    "name": "Camel Oil Pastels Color 25S"
   },
   {
     "id": 750,
     "title": "Camel Oil Pastels Color 50S",
     "slug": "camel-oil-pastels-color-50s",
-    "price": 230.0,
+    "price": 230,
     "image": "/images/products/camel-oil-pastels-color-50s.jpg",
     "stock": 4,
     "description": "Camel Oil Pastels Color 50S - High quality personal care product.",
@@ -2279,13 +2441,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 750
+    "rank": 750,
+    "name": "Camel Oil Pastels Color 50S"
   },
   {
     "id": 766,
     "title": "Campco Creamy Eclairs 360Gm",
     "slug": "campco-creamy-eclairs-360gm",
-    "price": 100.0,
+    "price": 100,
     "image": "/images/products/campco-creamy-eclairs-360gm.jpg",
     "stock": 3,
     "description": "Campco Creamy Eclairs 360Gm - High quality personal care product.",
@@ -2293,13 +2456,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 766
+    "rank": 766,
+    "name": "Campco Creamy Eclairs 360Gm"
   },
   {
     "id": 771,
     "title": "Capital Beti Soap Case",
     "slug": "capital-beti-soap-case",
-    "price": 80.0,
+    "price": 80,
     "image": "/images/products/capital-beti-soap-case.jpg",
     "stock": 6,
     "description": "Capital Beti Soap Case - High quality personal care product.",
@@ -2307,13 +2471,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 771
+    "rank": 771,
+    "name": "Capital Beti Soap Case"
   },
   {
     "id": 885,
     "title": "Cetaphil Baby Calendula Lotion",
     "slug": "cetaphil-baby-calendula-lotion",
-    "price": 1599.0,
+    "price": 1599,
     "image": "/images/products/cetaphil-baby-calendula-lotion.jpg",
     "stock": 1,
     "description": "Cetaphil Baby Calendula Lotion - High quality personal care product.",
@@ -2321,13 +2486,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 885
+    "rank": 885,
+    "name": "Cetaphil Baby Calendula Lotion"
   },
   {
     "id": 886,
     "title": "Cetaphil Baby Daily Lotion 400Ml",
     "slug": "cetaphil-baby-daily-lotion-400ml",
-    "price": 950.0,
+    "price": 950,
     "image": "/images/products/cetaphil-baby-daily-lotion-400ml.jpg",
     "stock": 2,
     "description": "Cetaphil Baby Daily Lotion 400Ml - High quality personal care product.",
@@ -2335,13 +2501,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 886
+    "rank": 886,
+    "name": "Cetaphil Baby Daily Lotion 400Ml"
   },
   {
     "id": 887,
     "title": "Cetaphil Baby Diaper Cream 70G",
     "slug": "cetaphil-baby-diaper-cream-70g",
-    "price": 449.0,
+    "price": 449,
     "image": "/images/products/cetaphil-baby-diaper-cream-70g.jpg",
     "stock": 2,
     "description": "Cetaphil Baby Diaper Cream 70G - High quality personal care product.",
@@ -2349,13 +2516,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 887
+    "rank": 887,
+    "name": "Cetaphil Baby Diaper Cream 70G"
   },
   {
     "id": 889,
     "title": "Cetaphil Baby Wash&Shampoo Calendula",
     "slug": "cetaphil-baby-washshampoo-calendula",
-    "price": 849.0,
+    "price": 849,
     "image": "/images/products/cetaphil-baby-washshampoo-calendula.jpg",
     "stock": 1,
     "description": "Cetaphil Baby Wash&Shampoo Calendula - High quality personal care product.",
@@ -2363,13 +2531,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 889
+    "rank": 889,
+    "name": "Cetaphil Baby Wash&Shampoo Calendula"
   },
   {
     "id": 891,
     "title": "Cetaphil Bright Healthy Radiance Cream",
     "slug": "cetaphil-bright-healthy-radiance-cream",
-    "price": 1199.0,
+    "price": 1199,
     "image": "/images/products/cetaphil-bright-healthy-radiance-cream.jpg",
     "stock": 2,
     "description": "Cetaphil Bright Healthy Radiance Cream - High quality personal care product.",
@@ -2377,13 +2546,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 891
+    "rank": 891,
+    "name": "Cetaphil Bright Healthy Radiance Cream"
   },
   {
     "id": 892,
     "title": "Cetaphil Bright Healthy Serum 30Ml",
     "slug": "cetaphil-bright-healthy-serum-30ml",
-    "price": 2299.0,
+    "price": 2299,
     "image": "/images/products/cetaphil-bright-healthy-serum-30ml.jpg",
     "stock": 2,
     "description": "Cetaphil Bright Healthy Serum 30Ml - High quality personal care product.",
@@ -2391,13 +2561,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 892
+    "rank": 892,
+    "name": "Cetaphil Bright Healthy Serum 30Ml"
   },
   {
     "id": 901,
     "title": "Cetaphil Hydrating Foaming Face Cleanser",
     "slug": "cetaphil-hydrating-foaming-face-cleanser",
-    "price": 1050.0,
+    "price": 1050,
     "image": "/images/products/cetaphil-hydrating-foaming-face-cleanser.jpg",
     "stock": 1,
     "description": "Cetaphil Hydrating Foaming Face Cleanser - High quality personal care product.",
@@ -2405,13 +2576,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 901
+    "rank": 901,
+    "name": "Cetaphil Hydrating Foaming Face Cleanser"
   },
   {
     "id": 902,
     "title": "Cetaphil Massage Oil 200Ml",
     "slug": "cetaphil-massage-oil-200ml",
-    "price": 749.0,
+    "price": 749,
     "image": "/images/products/cetaphil-massage-oil-200ml.jpg",
     "stock": 2,
     "description": "Cetaphil Massage Oil 200Ml - High quality personal care product.",
@@ -2419,13 +2591,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 902
+    "rank": 902,
+    "name": "Cetaphil Massage Oil 200Ml"
   },
   {
     "id": 904,
     "title": "Cetaphil Moisturising Cream",
     "slug": "cetaphil-moisturising-cream",
-    "price": 1349.0,
+    "price": 1349,
     "image": "/images/products/cetaphil-moisturising-cream.jpg",
     "stock": 2,
     "description": "Cetaphil Moisturising Cream - High quality personal care product.",
@@ -2433,13 +2606,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 904
+    "rank": 904,
+    "name": "Cetaphil Moisturising Cream"
   },
   {
     "id": 905,
     "title": "Cetaphil Moisturising Cream 80G",
     "slug": "cetaphil-moisturising-cream-80g",
-    "price": 629.0,
+    "price": 629,
     "image": "/images/products/cetaphil-moisturising-cream-80g.jpg",
     "stock": 2,
     "description": "Cetaphil Moisturising Cream 80G - High quality personal care product.",
@@ -2447,13 +2621,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 905
+    "rank": 905,
+    "name": "Cetaphil Moisturising Cream 80G"
   },
   {
     "id": 906,
     "title": "Cetaphil Moisturising Lotion",
     "slug": "cetaphil-moisturising-lotion",
-    "price": 1199.0,
+    "price": 1199,
     "image": "/images/products/cetaphil-moisturising-lotion.jpg",
     "stock": 2,
     "description": "Cetaphil Moisturising Lotion - High quality personal care product.",
@@ -2461,13 +2636,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 906
+    "rank": 906,
+    "name": "Cetaphil Moisturising Lotion"
   },
   {
     "id": 907,
     "title": "Cetaphil Moisturising Lotion 100Ml",
     "slug": "cetaphil-moisturising-lotion-100ml",
-    "price": 620.0,
+    "price": 620,
     "image": "/images/products/cetaphil-moisturising-lotion-100ml.jpg",
     "stock": 2,
     "description": "Cetaphil Moisturising Lotion 100Ml - High quality personal care product.",
@@ -2475,13 +2651,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 907
+    "rank": 907,
+    "name": "Cetaphil Moisturising Lotion 100Ml"
   },
   {
     "id": 908,
     "title": "Cetaphil Oil Control Foam Face Wash",
     "slug": "cetaphil-oil-control-foam-face-wash",
-    "price": 1050.0,
+    "price": 1050,
     "image": "/images/products/cetaphil-oil-control-foam-face-wash.jpg",
     "stock": 2,
     "description": "Cetaphil Oil Control Foam Face Wash - High quality personal care product.",
@@ -2489,13 +2666,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 908
+    "rank": 908,
+    "name": "Cetaphil Oil Control Foam Face Wash"
   },
   {
     "id": 909,
     "title": "Cetaphil Oil Skin Cleanser",
     "slug": "cetaphil-oil-skin-cleanser",
-    "price": 1099.0,
+    "price": 1099,
     "image": "/images/products/cetaphil-oil-skin-cleanser.jpg",
     "stock": 2,
     "description": "Cetaphil Oil Skin Cleanser - High quality personal care product.",
@@ -2503,13 +2681,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 909
+    "rank": 909,
+    "name": "Cetaphil Oil Skin Cleanser"
   },
   {
     "id": 910,
     "title": "Cetaphil Oily Skin Cleanser 125Ml",
     "slug": "cetaphil-oily-skin-cleanser-125ml",
-    "price": 699.0,
+    "price": 699,
     "image": "/images/products/cetaphil-oily-skin-cleanser-125ml.jpg",
     "stock": 2,
     "description": "Cetaphil Oily Skin Cleanser 125Ml - High quality personal care product.",
@@ -2517,13 +2696,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 910
+    "rank": 910,
+    "name": "Cetaphil Oily Skin Cleanser 125Ml"
   },
   {
     "id": 912,
     "title": "Cetaphil Sun Spf 50Light Gel",
     "slug": "cetaphil-sun-spf-50light-gel",
-    "price": 1182.0,
+    "price": 1182,
     "image": "/images/products/cetaphil-sun-spf-50light-gel.jpg",
     "stock": 3,
     "description": "Cetaphil Sun Spf 50Light Gel - High quality personal care product.",
@@ -2531,13 +2711,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 912
+    "rank": 912,
+    "name": "Cetaphil Sun Spf 50Light Gel"
   },
   {
     "id": 913,
     "title": "Cetaphil Sun Spf30 Gel",
     "slug": "cetaphil-sun-spf30-gel",
-    "price": 1313.0,
+    "price": 1313,
     "image": "/images/products/cetaphil-sun-spf30-gel.jpg",
     "stock": 3,
     "description": "Cetaphil Sun Spf30 Gel - High quality personal care product.",
@@ -2545,13 +2726,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 913
+    "rank": 913,
+    "name": "Cetaphil Sun Spf30 Gel"
   },
   {
     "id": 917,
     "title": "Chaokoh Coconut Cream",
     "slug": "chaokoh-coconut-cream",
-    "price": 280.0,
+    "price": 280,
     "image": "/images/products/chaokoh-coconut-cream.jpg",
     "stock": 4,
     "description": "Chaokoh Coconut Cream - High quality personal care product.",
@@ -2559,13 +2741,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 917
+    "rank": 917,
+    "name": "Chaokoh Coconut Cream"
   },
   {
     "id": 920,
     "title": "Charmis Deep Nourshing Cold Cream 100Ml",
     "slug": "charmis-deep-nourshing-cold-cream-100ml",
-    "price": 155.0,
+    "price": 155,
     "image": "/images/products/charmis-deep-nourshing-cold-cream-100ml.jpg",
     "stock": 3,
     "description": "Charmis Deep Nourshing Cold Cream 100Ml - High quality personal care product.",
@@ -2573,13 +2756,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 920
+    "rank": 920,
+    "name": "Charmis Deep Nourshing Cold Cream 100Ml"
   },
   {
     "id": 921,
     "title": "Charmis Deep Nourshing Cold Cream 175Ml",
     "slug": "charmis-deep-nourshing-cold-cream-175ml",
-    "price": 215.0,
+    "price": 215,
     "image": "/images/products/charmis-deep-nourshing-cold-cream-175ml.jpg",
     "stock": 2,
     "description": "Charmis Deep Nourshing Cold Cream 175Ml - High quality personal care product.",
@@ -2587,13 +2771,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 921
+    "rank": 921,
+    "name": "Charmis Deep Nourshing Cold Cream 175Ml"
   },
   {
     "id": 926,
     "title": "Chef Urbano Oats Chips Cream&Onion",
     "slug": "chef-urbano-oats-chips-creamonion",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/chef-urbano-oats-chips-creamonion.jpg",
     "stock": 4,
     "description": "Chef Urbano Oats Chips Cream&Onion - High quality personal care product.",
@@ -2601,13 +2786,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 926
+    "rank": 926,
+    "name": "Chef Urbano Oats Chips Cream&Onion"
   },
   {
     "id": 947,
     "title": "Chicco Almond Soap",
     "slug": "chicco-almond-soap",
-    "price": 65.0,
+    "price": 65,
     "image": "/images/products/chicco-almond-soap.jpg",
     "stock": 12,
     "description": "Chicco Almond Soap - High quality personal care product.",
@@ -2615,13 +2801,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 947
+    "rank": 947,
+    "name": "Chicco Almond Soap"
   },
   {
     "id": 948,
     "title": "Chicco Baby Anti Mosquto Gel 100G",
     "slug": "chicco-baby-anti-mosquto-gel-100g",
-    "price": 195.0,
+    "price": 195,
     "image": "/images/products/chicco-baby-anti-mosquto-gel-100g.jpg",
     "stock": 6,
     "description": "Chicco Baby Anti Mosquto Gel 100G - High quality personal care product.",
@@ -2629,13 +2816,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 948
+    "rank": 948,
+    "name": "Chicco Baby Anti Mosquto Gel 100G"
   },
   {
     "id": 949,
     "title": "Chicco Baby Anti Mosquto Gel 10Ml",
     "slug": "chicco-baby-anti-mosquto-gel-10ml",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/chicco-baby-anti-mosquto-gel-10ml.jpg",
     "stock": 8,
     "description": "Chicco Baby Anti Mosquto Gel 10Ml - High quality personal care product.",
@@ -2643,13 +2831,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 949
+    "rank": 949,
+    "name": "Chicco Baby Anti Mosquto Gel 10Ml"
   },
   {
     "id": 950,
     "title": "Chicco Baby Anti Mosquto Gel 50G",
     "slug": "chicco-baby-anti-mosquto-gel-50g",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/chicco-baby-anti-mosquto-gel-50g.jpg",
     "stock": 6,
     "description": "Chicco Baby Anti Mosquto Gel 50G - High quality personal care product.",
@@ -2657,13 +2846,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 950
+    "rank": 950,
+    "name": "Chicco Baby Anti Mosquto Gel 50G"
   },
   {
     "id": 952,
     "title": "Chicco Baby Body Lotion",
     "slug": "chicco-baby-body-lotion",
-    "price": 319.0,
+    "price": 319,
     "image": "/images/products/chicco-baby-body-lotion.jpg",
     "stock": 12,
     "description": "Chicco Baby Body Lotion - High quality personal care product.",
@@ -2671,13 +2861,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 952
+    "rank": 952,
+    "name": "Chicco Baby Body Lotion"
   },
   {
     "id": 953,
     "title": "Chicco Baby Body Lotion 500Ml.",
     "slug": "chicco-baby-body-lotion-500ml",
-    "price": 599.0,
+    "price": 599,
     "image": "/images/products/chicco-baby-body-lotion-500ml.jpg",
     "stock": 5,
     "description": "Chicco Baby Body Lotion 500Ml. - High quality personal care product.",
@@ -2685,13 +2876,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 953
+    "rank": 953,
+    "name": "Chicco Baby Body Lotion 500Ml."
   },
   {
     "id": 955,
     "title": "Chicco Baby Brush 3-8",
     "slug": "chicco-baby-brush-3-8",
-    "price": 119.0,
+    "price": 119,
     "image": "/images/products/chicco-baby-brush-3-8.jpg",
     "stock": 4,
     "description": "Chicco Baby Brush 3-8 - High quality personal care product.",
@@ -2699,13 +2891,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 955
+    "rank": 955,
+    "name": "Chicco Baby Brush 3-8"
   },
   {
     "id": 956,
     "title": "Chicco Baby Brush 6-36 Month",
     "slug": "chicco-baby-brush-6-36-month",
-    "price": 149.0,
+    "price": 149,
     "image": "/images/products/chicco-baby-brush-6-36-month.jpg",
     "stock": 12,
     "description": "Chicco Baby Brush 6-36 Month - High quality personal care product.",
@@ -2713,13 +2906,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 956
+    "rank": 956,
+    "name": "Chicco Baby Brush 6-36 Month"
   },
   {
     "id": 957,
     "title": "Chicco Baby Cream 100G",
     "slug": "chicco-baby-cream-100g",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/chicco-baby-cream-100g.jpg",
     "stock": 5,
     "description": "Chicco Baby Cream 100G - High quality personal care product.",
@@ -2727,13 +2921,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 957
+    "rank": 957,
+    "name": "Chicco Baby Cream 100G"
   },
   {
     "id": 958,
     "title": "Chicco Baby Cream 200G",
     "slug": "chicco-baby-cream-200g",
-    "price": 379.0,
+    "price": 379,
     "image": "/images/products/chicco-baby-cream-200g.jpg",
     "stock": 6,
     "description": "Chicco Baby Cream 200G - High quality personal care product.",
@@ -2741,13 +2936,14 @@ const products = [
     "unit": "pcs",
     "category": "personal-care",
     "popular": false,
-    "rank": 958
+    "rank": 958,
+    "name": "Chicco Baby Cream 200G"
   },
   {
     "id": 959,
     "title": "Chicco Baby Cream 50G",
     "slug": "chicco-baby-cream-50g",
-    "price": 109.0,
+    "price": 109,
     "image": "/images/products/chicco-baby-cream-50g.jpg",
     "stock": 5,
     "description": "Chicco Baby Cream 50G - High quality personal care product.",
@@ -2755,13 +2951,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 959
+    "rank": 959,
+    "name": "Chicco Baby Cream 50G"
   },
   {
     "id": 971,
     "title": "Chicco Baby Mkassge Oil 100Ml",
     "slug": "chicco-baby-mkassge-oil-100ml",
-    "price": 139.0,
+    "price": 139,
     "image": "/images/products/chicco-baby-mkassge-oil-100ml.jpg",
     "stock": 6,
     "description": "Chicco Baby Mkassge Oil 100Ml - High quality personal care product.",
@@ -2769,13 +2966,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 971
+    "rank": 971,
+    "name": "Chicco Baby Mkassge Oil 100Ml"
   },
   {
     "id": 972,
     "title": "Chicco Baby Mkassge Oil 100Ml 200Ml",
     "slug": "chicco-baby-mkassge-oil-100ml-200ml",
-    "price": 249.0,
+    "price": 249,
     "image": "/images/products/chicco-baby-mkassge-oil-100ml-200ml.jpg",
     "stock": 6,
     "description": "Chicco Baby Mkassge Oil 100Ml 200Ml - High quality personal care product.",
@@ -2783,13 +2981,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 972
+    "rank": 972,
+    "name": "Chicco Baby Mkassge Oil 100Ml 200Ml"
   },
   {
     "id": 973,
     "title": "Chicco Baby Mkassge Oil 100Ml 300Ml",
     "slug": "chicco-baby-mkassge-oil-100ml-300ml",
-    "price": 349.0,
+    "price": 349,
     "image": "/images/products/chicco-baby-mkassge-oil-100ml-300ml.jpg",
     "stock": 3,
     "description": "Chicco Baby Mkassge Oil 100Ml 300Ml - High quality personal care product.",
@@ -2797,13 +2996,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 973
+    "rank": 973,
+    "name": "Chicco Baby Mkassge Oil 100Ml 300Ml"
   },
   {
     "id": 974,
     "title": "Chicco Baby Rich Cream",
     "slug": "chicco-baby-rich-cream",
-    "price": 379.0,
+    "price": 379,
     "image": "/images/products/chicco-baby-rich-cream.jpg",
     "stock": 3,
     "description": "Chicco Baby Rich Cream - High quality personal care product.",
@@ -2811,13 +3011,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 974
+    "rank": 974,
+    "name": "Chicco Baby Rich Cream"
   },
   {
     "id": 975,
     "title": "Chicco Baby Soap",
     "slug": "chicco-baby-soap",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/chicco-baby-soap.jpg",
     "stock": 10,
     "description": "Chicco Baby Soap - High quality personal care product.",
@@ -2825,13 +3026,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 975
+    "rank": 975,
+    "name": "Chicco Baby Soap"
   },
   {
     "id": 976,
     "title": "Chicco Baby Soap 199",
     "slug": "chicco-baby-soap-199",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/chicco-baby-soap-199.jpg",
     "stock": 11,
     "description": "Chicco Baby Soap 199 - High quality personal care product.",
@@ -2839,13 +3041,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 976
+    "rank": 976,
+    "name": "Chicco Baby Soap 199"
   },
   {
     "id": 977,
     "title": "Chicco Baby Soap Pack Of 4",
     "slug": "chicco-baby-soap-pack-of-4",
-    "price": 279.0,
+    "price": 279,
     "image": "/images/products/chicco-baby-soap-pack-of-4.jpg",
     "stock": 2,
     "description": "Chicco Baby Soap Pack Of 4 - High quality personal care product.",
@@ -2853,13 +3056,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 977
+    "rank": 977,
+    "name": "Chicco Baby Soap Pack Of 4"
   },
   {
     "id": 978,
     "title": "Chicco Baby Sunscreen",
     "slug": "chicco-baby-sunscreen",
-    "price": 999.0,
+    "price": 999,
     "image": "/images/products/chicco-baby-sunscreen.jpg",
     "stock": 5,
     "description": "Chicco Baby Sunscreen - High quality personal care product.",
@@ -2867,13 +3071,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 978
+    "rank": 978,
+    "name": "Chicco Baby Sunscreen"
   },
   {
     "id": 988,
     "title": "Chicco Gentle Bw & Shampoo 200Ml",
     "slug": "chicco-gentle-bw-shampoo-200ml",
-    "price": 279.0,
+    "price": 279,
     "image": "/images/products/chicco-gentle-bw-shampoo-200ml.jpg",
     "stock": 10,
     "description": "Chicco Gentle Bw & Shampoo 200Ml - High quality personal care product.",
@@ -2881,13 +3086,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 988
+    "rank": 988,
+    "name": "Chicco Gentle Bw & Shampoo 200Ml"
   },
   {
     "id": 989,
     "title": "Chicco Gentle Bw & Shampoo Apricot",
     "slug": "chicco-gentle-bw-shampoo-apricot",
-    "price": 599.0,
+    "price": 599,
     "image": "/images/products/chicco-gentle-bw-shampoo-apricot.jpg",
     "stock": 5,
     "description": "Chicco Gentle Bw & Shampoo Apricot - High quality personal care product.",
@@ -2895,13 +3101,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 989
+    "rank": 989,
+    "name": "Chicco Gentle Bw & Shampoo Apricot"
   },
   {
     "id": 990,
     "title": "Chicco Gentle Bw & Shampoo Ga",
     "slug": "chicco-gentle-bw-shampoo-ga",
-    "price": 319.0,
+    "price": 319,
     "image": "/images/products/chicco-gentle-bw-shampoo-ga.jpg",
     "stock": 9,
     "description": "Chicco Gentle Bw & Shampoo Ga - High quality personal care product.",
@@ -2909,13 +3116,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 990
+    "rank": 990,
+    "name": "Chicco Gentle Bw & Shampoo Ga"
   },
   {
     "id": 991,
     "title": "Chicco Gentle Bw & Shampoo Green Apple",
     "slug": "chicco-gentle-bw-shampoo-green-apple",
-    "price": 679.0,
+    "price": 679,
     "image": "/images/products/chicco-gentle-bw-shampoo-green-apple.jpg",
     "stock": 6,
     "description": "Chicco Gentle Bw & Shampoo Green Apple - High quality personal care product.",
@@ -2923,13 +3131,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 991
+    "rank": 991,
+    "name": "Chicco Gentle Bw & Shampoo Green Apple"
   },
   {
     "id": 992,
     "title": "Chicco Shampoo No Tears",
     "slug": "chicco-shampoo-no-tears",
-    "price": 279.0,
+    "price": 279,
     "image": "/images/products/chicco-shampoo-no-tears.jpg",
     "stock": 10,
     "description": "Chicco Shampoo No Tears - High quality personal care product.",
@@ -2937,13 +3146,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 992
+    "rank": 992,
+    "name": "Chicco Shampoo No Tears"
   },
   {
     "id": 993,
     "title": "Chicco Shampoo No Tears 500Ml",
     "slug": "chicco-shampoo-no-tears-500ml",
-    "price": 599.0,
+    "price": 599,
     "image": "/images/products/chicco-shampoo-no-tears-500ml.jpg",
     "stock": 6,
     "description": "Chicco Shampoo No Tears 500Ml - High quality personal care product.",
@@ -2951,13 +3161,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 993
+    "rank": 993,
+    "name": "Chicco Shampoo No Tears 500Ml"
   },
   {
     "id": 1023,
     "title": "Clean & Clear Foam Face Wash 100Ml",
     "slug": "clean-clear-foam-face-wash-100ml",
-    "price": 180.0,
+    "price": 180,
     "image": "/images/products/clean-clear-foam-face-wash-100ml.jpg",
     "stock": 3,
     "description": "Clean & Clear Foam Face Wash 100Ml - High quality personal care product.",
@@ -2965,13 +3176,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1023
+    "rank": 1023,
+    "name": "Clean & Clear Foam Face Wash 100Ml"
   },
   {
     "id": 1024,
     "title": "Clean & Clear Foam Face Wash 150Ml",
     "slug": "clean-clear-foam-face-wash-150ml",
-    "price": 250.0,
+    "price": 250,
     "image": "/images/products/clean-clear-foam-face-wash-150ml.jpg",
     "stock": 1,
     "description": "Clean & Clear Foam Face Wash 150Ml - High quality personal care product.",
@@ -2979,13 +3191,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1024
+    "rank": 1024,
+    "name": "Clean & Clear Foam Face Wash 150Ml"
   },
   {
     "id": 1025,
     "title": "Clean & Clear Vit-C Face Wash 100Ml",
     "slug": "clean-clear-vit-c-face-wash-100ml",
-    "price": 195.0,
+    "price": 195,
     "image": "/images/products/clean-clear-vit-c-face-wash-100ml.jpg",
     "stock": 2,
     "description": "Clean & Clear Vit-C Face Wash 100Ml - High quality personal care product.",
@@ -2993,13 +3206,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1025
+    "rank": 1025,
+    "name": "Clean & Clear Vit-C Face Wash 100Ml"
   },
   {
     "id": 1026,
     "title": "Clean&Clear Face Wash 100Ml",
     "slug": "cleanclear-face-wash-100ml",
-    "price": 215.0,
+    "price": 215,
     "image": "/images/products/cleanclear-face-wash-100ml.jpg",
     "stock": 5,
     "description": "Clean&Clear Face Wash 100Ml - High quality personal care product.",
@@ -3007,13 +3221,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1026
+    "rank": 1026,
+    "name": "Clean&Clear Face Wash 100Ml"
   },
   {
     "id": 1027,
     "title": "Clear Active Care Hair Oil 150Ml",
     "slug": "clear-active-care-hair-oil-150ml",
-    "price": 150.0,
+    "price": 150,
     "image": "/images/products/clear-active-care-hair-oil-150ml.jpg",
     "stock": 3,
     "description": "Clear Active Care Hair Oil 150Ml - High quality personal care product.",
@@ -3021,13 +3236,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1027
+    "rank": 1027,
+    "name": "Clear Active Care Hair Oil 150Ml"
   },
   {
     "id": 1028,
     "title": "Clear Active Care Hair Oil 75Ml",
     "slug": "clear-active-care-hair-oil-75ml",
-    "price": 74.0,
+    "price": 74,
     "image": "/images/products/clear-active-care-hair-oil-75ml.jpg",
     "stock": 4,
     "description": "Clear Active Care Hair Oil 75Ml - High quality personal care product.",
@@ -3035,13 +3251,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1028
+    "rank": 1028,
+    "name": "Clear Active Care Hair Oil 75Ml"
   },
   {
     "id": 1040,
     "title": "Coconut Cream 400Ml",
     "slug": "coconut-cream-400ml",
-    "price": 250.0,
+    "price": 250,
     "image": "/images/products/coconut-cream-400ml.jpg",
     "stock": 6,
     "description": "Coconut Cream 400Ml - High quality personal care product.",
@@ -3049,13 +3266,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1040
+    "rank": 1040,
+    "name": "Coconut Cream 400Ml"
   },
   {
     "id": 1050,
     "title": "Colavita Ev Olive Oil 1L",
     "slug": "colavita-ev-olive-oil-1l",
-    "price": 2995.0,
+    "price": 2995,
     "image": "/images/products/colavita-ev-olive-oil-1l.jpg",
     "stock": 2,
     "description": "Colavita Ev Olive Oil 1L - High quality personal care product.",
@@ -3063,13 +3281,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1050
+    "rank": 1050,
+    "name": "Colavita Ev Olive Oil 1L"
   },
   {
     "id": 1051,
     "title": "Colavita Ev Olive Oil 250Ml",
     "slug": "colavita-ev-olive-oil-250ml",
-    "price": 995.0,
+    "price": 995,
     "image": "/images/products/colavita-ev-olive-oil-250ml.jpg",
     "stock": 2,
     "description": "Colavita Ev Olive Oil 250Ml - High quality personal care product.",
@@ -3077,13 +3296,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1051
+    "rank": 1051,
+    "name": "Colavita Ev Olive Oil 250Ml"
   },
   {
     "id": 1052,
     "title": "Colavita Ev Olive Oil 500Ml",
     "slug": "colavita-ev-olive-oil-500ml",
-    "price": 1895.0,
+    "price": 1895,
     "image": "/images/products/colavita-ev-olive-oil-500ml.jpg",
     "stock": 2,
     "description": "Colavita Ev Olive Oil 500Ml - High quality personal care product.",
@@ -3091,13 +3311,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1052
+    "rank": 1052,
+    "name": "Colavita Ev Olive Oil 500Ml"
   },
   {
     "id": 1053,
     "title": "Colavita Ev Olive Oil Organic 500Ml",
     "slug": "colavita-ev-olive-oil-organic-500ml",
-    "price": 2195.0,
+    "price": 2195,
     "image": "/images/products/colavita-ev-olive-oil-organic-500ml.jpg",
     "stock": 2,
     "description": "Colavita Ev Olive Oil Organic 500Ml - High quality personal care product.",
@@ -3105,13 +3326,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1053
+    "rank": 1053,
+    "name": "Colavita Ev Olive Oil Organic 500Ml"
   },
   {
     "id": 1054,
     "title": "Colavita Ev Olive Oil Traditional",
     "slug": "colavita-ev-olive-oil-traditional",
-    "price": 1895.0,
+    "price": 1895,
     "image": "/images/products/colavita-ev-olive-oil-traditional.jpg",
     "stock": 2,
     "description": "Colavita Ev Olive Oil Traditional - High quality personal care product.",
@@ -3119,13 +3341,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1054
+    "rank": 1054,
+    "name": "Colavita Ev Olive Oil Traditional"
   },
   {
     "id": 1055,
     "title": "Colavita Pepperrolid Olive Oil",
     "slug": "colavita-pepperrolid-olive-oil",
-    "price": 995.0,
+    "price": 995,
     "image": "/images/products/colavita-pepperrolid-olive-oil.jpg",
     "stock": 2,
     "description": "Colavita Pepperrolid Olive Oil - High quality personal care product.",
@@ -3133,13 +3356,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1055
+    "rank": 1055,
+    "name": "Colavita Pepperrolid Olive Oil"
   },
   {
     "id": 1056,
     "title": "Colavitia Tartufolio Ev Olive Oil",
     "slug": "colavitia-tartufolio-ev-olive-oil",
-    "price": 1495.0,
+    "price": 1495,
     "image": "/images/products/colavitia-tartufolio-ev-olive-oil.jpg",
     "stock": 2,
     "description": "Colavitia Tartufolio Ev Olive Oil - High quality personal care product.",
@@ -3147,13 +3371,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1056
+    "rank": 1056,
+    "name": "Colavitia Tartufolio Ev Olive Oil"
   },
   {
     "id": 1057,
     "title": "Colgate",
     "slug": "colgate",
-    "price": 10.0,
+    "price": 10,
     "image": "/images/products/colgate.jpg",
     "stock": -1,
     "description": "Colgate - High quality personal care product.",
@@ -3161,13 +3386,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1057
+    "rank": 1057,
+    "name": "Colgate"
   },
   {
     "id": 1058,
     "title": "Colgate Barbe Tp",
     "slug": "colgate-barbe-tp",
-    "price": 180.0,
+    "price": 180,
     "image": "/images/products/colgate-barbe-tp.jpg",
     "stock": 3,
     "description": "Colgate Barbe Tp - High quality personal care product.",
@@ -3175,13 +3401,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1058
+    "rank": 1058,
+    "name": "Colgate Barbe Tp"
   },
   {
     "id": 1059,
     "title": "Colgate Cibaca 175G",
     "slug": "colgate-cibaca-175g",
-    "price": 72.0,
+    "price": 72,
     "image": "/images/products/colgate-cibaca-175g.jpg",
     "stock": 3,
     "description": "Colgate Cibaca 175G - High quality personal care product.",
@@ -3189,13 +3416,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1059
+    "rank": 1059,
+    "name": "Colgate Cibaca 175G"
   },
   {
     "id": 1060,
     "title": "Colgate Harble Tp",
     "slug": "colgate-harble-tp",
-    "price": 100.0,
+    "price": 100,
     "image": "/images/products/colgate-harble-tp.jpg",
     "stock": 3,
     "description": "Colgate Harble Tp - High quality personal care product.",
@@ -3203,13 +3431,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1060
+    "rank": 1060,
+    "name": "Colgate Harble Tp"
   },
   {
     "id": 1061,
     "title": "Colgate Kids Tp Boy",
     "slug": "colgate-kids-tp-boy",
-    "price": 180.0,
+    "price": 180,
     "image": "/images/products/colgate-kids-tp-boy.jpg",
     "stock": 3,
     "description": "Colgate Kids Tp Boy - High quality personal care product.",
@@ -3217,13 +3446,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1061
+    "rank": 1061,
+    "name": "Colgate Kids Tp Boy"
   },
   {
     "id": 1062,
     "title": "Colgate Maxfresh Blue",
     "slug": "colgate-maxfresh-blue",
-    "price": 172.0,
+    "price": 172,
     "image": "/images/products/colgate-maxfresh-blue.jpg",
     "stock": 3,
     "description": "Colgate Maxfresh Blue - High quality personal care product.",
@@ -3231,13 +3461,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1062
+    "rank": 1062,
+    "name": "Colgate Maxfresh Blue"
   },
   {
     "id": 1063,
     "title": "Colgate Maxfresh Blue 300Gm",
     "slug": "colgate-maxfresh-blue-300gm",
-    "price": 285.0,
+    "price": 285,
     "image": "/images/products/colgate-maxfresh-blue-300gm.jpg",
     "stock": 2,
     "description": "Colgate Maxfresh Blue 300Gm - High quality personal care product.",
@@ -3245,13 +3476,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1063
+    "rank": 1063,
+    "name": "Colgate Maxfresh Blue 300Gm"
   },
   {
     "id": 1064,
     "title": "Colgate Maxfresh Red",
     "slug": "colgate-maxfresh-red",
-    "price": 150.0,
+    "price": 150,
     "image": "/images/products/colgate-maxfresh-red.jpg",
     "stock": 4,
     "description": "Colgate Maxfresh Red - High quality personal care product.",
@@ -3259,13 +3491,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1064
+    "rank": 1064,
+    "name": "Colgate Maxfresh Red"
   },
   {
     "id": 1065,
     "title": "Colgate Maxfresh Red 300Gm",
     "slug": "colgate-maxfresh-red-300gm",
-    "price": 275.0,
+    "price": 275,
     "image": "/images/products/colgate-maxfresh-red-300gm.jpg",
     "stock": 2,
     "description": "Colgate Maxfresh Red 300Gm - High quality personal care product.",
@@ -3273,13 +3506,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1065
+    "rank": 1065,
+    "name": "Colgate Maxfresh Red 300Gm"
   },
   {
     "id": 1066,
     "title": "Colgate Maxfresh Red 300Gm",
     "slug": "colgate-maxfresh-red-300gm",
-    "price": 285.0,
+    "price": 285,
     "image": "/images/products/colgate-maxfresh-red-300gm.jpg",
     "stock": 3,
     "description": "Colgate Maxfresh Red 300Gm - High quality personal care product.",
@@ -3287,13 +3521,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1066
+    "rank": 1066,
+    "name": "Colgate Maxfresh Red 300Gm"
   },
   {
     "id": 1067,
     "title": "Colgate Mf 2+1",
     "slug": "colgate-mf-21",
-    "price": 160.0,
+    "price": 160,
     "image": "/images/products/colgate-mf-21.jpg",
     "stock": 4,
     "description": "Colgate Mf 2+1 - High quality personal care product.",
@@ -3301,13 +3536,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1067
+    "rank": 1067,
+    "name": "Colgate Mf 2+1"
   },
   {
     "id": 1068,
     "title": "Colgate Mf Charxcoal T 65G",
     "slug": "colgate-mf-charxcoal-t-65g",
-    "price": 75.0,
+    "price": 75,
     "image": "/images/products/colgate-mf-charxcoal-t-65g.jpg",
     "stock": 2,
     "description": "Colgate Mf Charxcoal T 65G - High quality personal care product.",
@@ -3315,13 +3551,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1068
+    "rank": 1068,
+    "name": "Colgate Mf Charxcoal T 65G"
   },
   {
     "id": 1069,
     "title": "Colgate Mf Charxcoal T 65G",
     "slug": "colgate-mf-charxcoal-t-65g",
-    "price": 80.0,
+    "price": 80,
     "image": "/images/products/colgate-mf-charxcoal-t-65g.jpg",
     "stock": 3,
     "description": "Colgate Mf Charxcoal T 65G - High quality personal care product.",
@@ -3329,13 +3566,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1069
+    "rank": 1069,
+    "name": "Colgate Mf Charxcoal T 65G"
   },
   {
     "id": 1070,
     "title": "Colgate Mf Fresh Tea",
     "slug": "colgate-mf-fresh-tea",
-    "price": 185.0,
+    "price": 185,
     "image": "/images/products/colgate-mf-fresh-tea.jpg",
     "stock": 3,
     "description": "Colgate Mf Fresh Tea - High quality personal care product.",
@@ -3343,13 +3581,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1070
+    "rank": 1070,
+    "name": "Colgate Mf Fresh Tea"
   },
   {
     "id": 1071,
     "title": "Colgate Mf Gentle",
     "slug": "colgate-mf-gentle",
-    "price": 175.0,
+    "price": 175,
     "image": "/images/products/colgate-mf-gentle.jpg",
     "stock": 3,
     "description": "Colgate Mf Gentle - High quality personal care product.",
@@ -3357,13 +3596,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1071
+    "rank": 1071,
+    "name": "Colgate Mf Gentle"
   },
   {
     "id": 1072,
     "title": "Colgate Mf Peppermint",
     "slug": "colgate-mf-peppermint",
-    "price": 185.0,
+    "price": 185,
     "image": "/images/products/colgate-mf-peppermint.jpg",
     "stock": 3,
     "description": "Colgate Mf Peppermint - High quality personal care product.",
@@ -3371,13 +3611,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1072
+    "rank": 1072,
+    "name": "Colgate Mf Peppermint"
   },
   {
     "id": 1073,
     "title": "Colgate Mf Preshmint",
     "slug": "colgate-mf-preshmint",
-    "price": 185.0,
+    "price": 185,
     "image": "/images/products/colgate-mf-preshmint.jpg",
     "stock": 3,
     "description": "Colgate Mf Preshmint - High quality personal care product.",
@@ -3385,13 +3626,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1073
+    "rank": 1073,
+    "name": "Colgate Mf Preshmint"
   },
   {
     "id": 1074,
     "title": "Colgate Mf Red 81G",
     "slug": "colgate-mf-red-81g",
-    "price": 78.0,
+    "price": 78,
     "image": "/images/products/colgate-mf-red-81g.jpg",
     "stock": 4,
     "description": "Colgate Mf Red 81G - High quality personal care product.",
@@ -3399,13 +3641,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1074
+    "rank": 1074,
+    "name": "Colgate Mf Red 81G"
   },
   {
     "id": 1075,
     "title": "Colgate Mixfresh Charcoal T",
     "slug": "colgate-mixfresh-charcoal-t",
-    "price": 150.0,
+    "price": 150,
     "image": "/images/products/colgate-mixfresh-charcoal-t.jpg",
     "stock": 4,
     "description": "Colgate Mixfresh Charcoal T - High quality personal care product.",
@@ -3413,13 +3656,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1075
+    "rank": 1075,
+    "name": "Colgate Mixfresh Charcoal T"
   },
   {
     "id": 1076,
     "title": "Colgate Neem Paste",
     "slug": "colgate-neem-paste",
-    "price": 90.0,
+    "price": 90,
     "image": "/images/products/colgate-neem-paste.jpg",
     "stock": 3,
     "description": "Colgate Neem Paste - High quality personal care product.",
@@ -3427,13 +3671,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1076
+    "rank": 1076,
+    "name": "Colgate Neem Paste"
   },
   {
     "id": 1077,
     "title": "Colgate Salt 200G",
     "slug": "colgate-salt-200g",
-    "price": 166.0,
+    "price": 166,
     "image": "/images/products/colgate-salt-200g.jpg",
     "stock": 3,
     "description": "Colgate Salt 200G - High quality personal care product.",
@@ -3441,13 +3686,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1077
+    "rank": 1077,
+    "name": "Colgate Salt 200G"
   },
   {
     "id": 1078,
     "title": "Colgate Salt T 100G",
     "slug": "colgate-salt-t-100g",
-    "price": 78.0,
+    "price": 78,
     "image": "/images/products/colgate-salt-t-100g.jpg",
     "stock": 3,
     "description": "Colgate Salt T 100G - High quality personal care product.",
@@ -3455,13 +3701,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1078
+    "rank": 1078,
+    "name": "Colgate Salt T 100G"
   },
   {
     "id": 1079,
     "title": "Colgate Sansitive Tb Pk 3",
     "slug": "colgate-sansitive-tb-pk-3",
-    "price": 130.0,
+    "price": 130,
     "image": "/images/products/colgate-sansitive-tb-pk-3.jpg",
     "stock": 4,
     "description": "Colgate Sansitive Tb Pk 3 - High quality personal care product.",
@@ -3469,13 +3716,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1079
+    "rank": 1079,
+    "name": "Colgate Sansitive Tb Pk 3"
   },
   {
     "id": 1080,
     "title": "Colgate Sasitive Tb Pack Of 4",
     "slug": "colgate-sasitive-tb-pack-of-4",
-    "price": 170.0,
+    "price": 170,
     "image": "/images/products/colgate-sasitive-tb-pack-of-4.jpg",
     "stock": 4,
     "description": "Colgate Sasitive Tb Pack Of 4 - High quality personal care product.",
@@ -3483,13 +3731,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1080
+    "rank": 1080,
+    "name": "Colgate Sasitive Tb Pack Of 4"
   },
   {
     "id": 1081,
     "title": "Colgate Ss Brush",
     "slug": "colgate-ss-brush",
-    "price": 90.0,
+    "price": 90,
     "image": "/images/products/colgate-ss-brush.jpg",
     "stock": 4,
     "description": "Colgate Ss Brush - High quality personal care product.",
@@ -3497,13 +3746,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1081
+    "rank": 1081,
+    "name": "Colgate Ss Brush"
   },
   {
     "id": 1082,
     "title": "Colgate Ss Tb",
     "slug": "colgate-ss-tb",
-    "price": 200.0,
+    "price": 200,
     "image": "/images/products/colgate-ss-tb.jpg",
     "stock": 2,
     "description": "Colgate Ss Tb - High quality personal care product.",
@@ -3511,13 +3761,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1082
+    "rank": 1082,
+    "name": "Colgate Ss Tb"
   },
   {
     "id": 1083,
     "title": "Colgate Ss Ultra Soft",
     "slug": "colgate-ss-ultra-soft",
-    "price": 120.0,
+    "price": 120,
     "image": "/images/products/colgate-ss-ultra-soft.jpg",
     "stock": 8,
     "description": "Colgate Ss Ultra Soft - High quality personal care product.",
@@ -3525,13 +3776,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1083
+    "rank": 1083,
+    "name": "Colgate Ss Ultra Soft"
   },
   {
     "id": 1084,
     "title": "Colgate St 100G",
     "slug": "colgate-st-100g",
-    "price": 69.0,
+    "price": 69,
     "image": "/images/products/colgate-st-100g.jpg",
     "stock": 1,
     "description": "Colgate St 100G - High quality personal care product.",
@@ -3539,13 +3791,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1084
+    "rank": 1084,
+    "name": "Colgate St 100G"
   },
   {
     "id": 1085,
     "title": "Colgate St 100G",
     "slug": "colgate-st-100g",
-    "price": 76.0,
+    "price": 76,
     "image": "/images/products/colgate-st-100g.jpg",
     "stock": 6,
     "description": "Colgate St 100G - High quality personal care product.",
@@ -3553,13 +3806,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1085
+    "rank": 1085,
+    "name": "Colgate St 100G"
   },
   {
     "id": 1086,
     "title": "Colgate St Teeth 100G",
     "slug": "colgate-st-teeth-100g",
-    "price": 73.0,
+    "price": 73,
     "image": "/images/products/colgate-st-teeth-100g.jpg",
     "stock": 6,
     "description": "Colgate St Teeth 100G - High quality personal care product.",
@@ -3567,13 +3821,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1086
+    "rank": 1086,
+    "name": "Colgate St Teeth 100G"
   },
   {
     "id": 1087,
     "title": "Colgate St Teeth 200G",
     "slug": "colgate-st-teeth-200g",
-    "price": 149.0,
+    "price": 149,
     "image": "/images/products/colgate-st-teeth-200g.jpg",
     "stock": 3,
     "description": "Colgate St Teeth 200G - High quality personal care product.",
@@ -3581,13 +3836,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1087
+    "rank": 1087,
+    "name": "Colgate St Teeth 200G"
   },
   {
     "id": 1088,
     "title": "Colgate St Teeth 300G",
     "slug": "colgate-st-teeth-300g",
-    "price": 206.0,
+    "price": 206,
     "image": "/images/products/colgate-st-teeth-300g.jpg",
     "stock": 1,
     "description": "Colgate St Teeth 300G - High quality personal care product.",
@@ -3595,13 +3851,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1088
+    "rank": 1088,
+    "name": "Colgate St Teeth 300G"
   },
   {
     "id": 1089,
     "title": "Colgate St Teeth 300G",
     "slug": "colgate-st-teeth-300g",
-    "price": 216.0,
+    "price": 216,
     "image": "/images/products/colgate-st-teeth-300g.jpg",
     "stock": 3,
     "description": "Colgate St Teeth 300G - High quality personal care product.",
@@ -3609,13 +3866,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1089
+    "rank": 1089,
+    "name": "Colgate St Teeth 300G"
   },
   {
     "id": 1090,
     "title": "Colgate St Teeth 38G",
     "slug": "colgate-st-teeth-38g",
-    "price": 20.0,
+    "price": 20,
     "image": "/images/products/colgate-st-teeth-38g.jpg",
     "stock": 9,
     "description": "Colgate St Teeth 38G - High quality personal care product.",
@@ -3623,13 +3881,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1090
+    "rank": 1090,
+    "name": "Colgate St Teeth 38G"
   },
   {
     "id": 1091,
     "title": "Colgate Stroge Teeth 150G",
     "slug": "colgate-stroge-teeth-150g",
-    "price": 105.0,
+    "price": 105,
     "image": "/images/products/colgate-stroge-teeth-150g.jpg",
     "stock": 6,
     "description": "Colgate Stroge Teeth 150G - High quality personal care product.",
@@ -3637,13 +3896,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1091
+    "rank": 1091,
+    "name": "Colgate Stroge Teeth 150G"
   },
   {
     "id": 1092,
     "title": "Colgate Tb Sastive",
     "slug": "colgate-tb-sastive",
-    "price": 65.0,
+    "price": 65,
     "image": "/images/products/colgate-tb-sastive.jpg",
     "stock": 6,
     "description": "Colgate Tb Sastive - High quality personal care product.",
@@ -3651,13 +3911,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1092
+    "rank": 1092,
+    "name": "Colgate Tb Sastive"
   },
   {
     "id": 1093,
     "title": "Colgate Total Ad Health",
     "slug": "colgate-total-ad-health",
-    "price": 190.0,
+    "price": 190,
     "image": "/images/products/colgate-total-ad-health.jpg",
     "stock": 4,
     "description": "Colgate Total Ad Health - High quality personal care product.",
@@ -3665,13 +3926,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1093
+    "rank": 1093,
+    "name": "Colgate Total Ad Health"
   },
   {
     "id": 1094,
     "title": "Colgate Total Carcoal T",
     "slug": "colgate-total-carcoal-t",
-    "price": 190.0,
+    "price": 190,
     "image": "/images/products/colgate-total-carcoal-t.jpg",
     "stock": 2,
     "description": "Colgate Total Carcoal T - High quality personal care product.",
@@ -3679,13 +3941,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1094
+    "rank": 1094,
+    "name": "Colgate Total Carcoal T"
   },
   {
     "id": 1095,
     "title": "Colgate Total Carcoal T",
     "slug": "colgate-total-carcoal-t",
-    "price": 250.0,
+    "price": 250,
     "image": "/images/products/colgate-total-carcoal-t.jpg",
     "stock": 2,
     "description": "Colgate Total Carcoal T - High quality personal care product.",
@@ -3693,13 +3956,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1095
+    "rank": 1095,
+    "name": "Colgate Total Carcoal T"
   },
   {
     "id": 1096,
     "title": "Colgate Total Sesitive",
     "slug": "colgate-total-sesitive",
-    "price": 190.0,
+    "price": 190,
     "image": "/images/products/colgate-total-sesitive.jpg",
     "stock": 3,
     "description": "Colgate Total Sesitive - High quality personal care product.",
@@ -3707,13 +3971,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1096
+    "rank": 1096,
+    "name": "Colgate Total Sesitive"
   },
   {
     "id": 1097,
     "title": "Colgate Vedsakti 200G",
     "slug": "colgate-vedsakti-200g",
-    "price": 165.0,
+    "price": 165,
     "image": "/images/products/colgate-vedsakti-200g.jpg",
     "stock": 3,
     "description": "Colgate Vedsakti 200G - High quality personal care product.",
@@ -3721,13 +3986,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1097
+    "rank": 1097,
+    "name": "Colgate Vedsakti 200G"
   },
   {
     "id": 1098,
     "title": "Colgate Vedsakti T 140G",
     "slug": "colgate-vedsakti-t-140g",
-    "price": 85.0,
+    "price": 85,
     "image": "/images/products/colgate-vedsakti-t-140g.jpg",
     "stock": 2,
     "description": "Colgate Vedsakti T 140G - High quality personal care product.",
@@ -3735,13 +4001,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1098
+    "rank": 1098,
+    "name": "Colgate Vedsakti T 140G"
   },
   {
     "id": 1099,
     "title": "Colgate Vedshakti 100G",
     "slug": "colgate-vedshakti-100g",
-    "price": 90.0,
+    "price": 90,
     "image": "/images/products/colgate-vedshakti-100g.jpg",
     "stock": 3,
     "description": "Colgate Vedshakti 100G - High quality personal care product.",
@@ -3749,13 +4016,14 @@ const products = [
     "unit": "8901",
     "category": "personal-care",
     "popular": false,
-    "rank": 1099
+    "rank": 1099,
+    "name": "Colgate Vedshakti 100G"
   },
   {
     "id": 1100,
     "title": "Colgate Visible White 100G",
     "slug": "colgate-visible-white-100g",
-    "price": 190.0,
+    "price": 190,
     "image": "/images/products/colgate-visible-white-100g.jpg",
     "stock": 3,
     "description": "Colgate Visible White 100G - High quality personal care product.",
@@ -3763,13 +4031,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1100
+    "rank": 1100,
+    "name": "Colgate Visible White 100G"
   },
   {
     "id": 1101,
     "title": "Colgate Visible White S",
     "slug": "colgate-visible-white-s",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/colgate-visible-white-s.jpg",
     "stock": 2,
     "description": "Colgate Visible White S - High quality personal care product.",
@@ -3777,13 +4046,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1101
+    "rank": 1101,
+    "name": "Colgate Visible White S"
   },
   {
     "id": 1109,
     "title": "Colorbar Bb Cream",
     "slug": "colorbar-bb-cream",
-    "price": 650.0,
+    "price": 650,
     "image": "/images/products/colorbar-bb-cream.jpg",
     "stock": 8,
     "description": "Colorbar Bb Cream - High quality personal care product.",
@@ -3791,13 +4061,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1109
+    "rank": 1109,
+    "name": "Colorbar Bb Cream"
   },
   {
     "id": 1167,
     "title": "Cp Antidandruff Shampoo 175Ml",
     "slug": "cp-antidandruff-shampoo-175ml",
-    "price": 149.0,
+    "price": 149,
     "image": "/images/products/cp-antidandruff-shampoo-175ml.jpg",
     "stock": 3,
     "description": "Cp Antidandruff Shampoo 175Ml - High quality personal care product.",
@@ -3805,13 +4076,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1167
+    "rank": 1167,
+    "name": "Cp Antidandruff Shampoo 175Ml"
   },
   {
     "id": 1168,
     "title": "Cp Stregth & Shine Shampoo 355Ml",
     "slug": "cp-stregth-shine-shampoo-355ml",
-    "price": 358.0,
+    "price": 358,
     "image": "/images/products/cp-stregth-shine-shampoo-355ml.jpg",
     "stock": 2,
     "description": "Cp Stregth & Shine Shampoo 355Ml - High quality personal care product.",
@@ -3819,13 +4091,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1168
+    "rank": 1168,
+    "name": "Cp Stregth & Shine Shampoo 355Ml"
   },
   {
     "id": 1169,
     "title": "Cp Strength & Shine Shampoo 175Ml",
     "slug": "cp-strength-shine-shampoo-175ml",
-    "price": 149.0,
+    "price": 149,
     "image": "/images/products/cp-strength-shine-shampoo-175ml.jpg",
     "stock": 2,
     "description": "Cp Strength & Shine Shampoo 175Ml - High quality personal care product.",
@@ -3833,13 +4106,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1169
+    "rank": 1169,
+    "name": "Cp Strength & Shine Shampoo 175Ml"
   },
   {
     "id": 1170,
     "title": "Cp Strong & Long Shampoo 175Ml",
     "slug": "cp-strong-long-shampoo-175ml",
-    "price": 163.0,
+    "price": 163,
     "image": "/images/products/cp-strong-long-shampoo-175ml.jpg",
     "stock": 2,
     "description": "Cp Strong & Long Shampoo 175Ml - High quality personal care product.",
@@ -3847,13 +4121,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1170
+    "rank": 1170,
+    "name": "Cp Strong & Long Shampoo 175Ml"
   },
   {
     "id": 1171,
     "title": "Cp Strong & Long Shampoo 355Ml",
     "slug": "cp-strong-long-shampoo-355ml",
-    "price": 358.0,
+    "price": 358,
     "image": "/images/products/cp-strong-long-shampoo-355ml.jpg",
     "stock": 2,
     "description": "Cp Strong & Long Shampoo 355Ml - High quality personal care product.",
@@ -3861,13 +4136,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1171
+    "rank": 1171,
+    "name": "Cp Strong & Long Shampoo 355Ml"
   },
   {
     "id": 1188,
     "title": "D&K 72Hr Hydrating Gel M+P",
     "slug": "dk-72hr-hydrating-gel-mp",
-    "price": 495.0,
+    "price": 495,
     "image": "/images/products/dk-72hr-hydrating-gel-mp.jpg",
     "stock": 2,
     "description": "D&K 72Hr Hydrating Gel M+P - High quality personal care product.",
@@ -3875,13 +4151,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1188
+    "rank": 1188,
+    "name": "D&K 72Hr Hydrating Gel M+P"
   },
   {
     "id": 1189,
     "title": "D&K Barrier Repair Body Lotion",
     "slug": "dk-barrier-repair-body-lotion",
-    "price": 395.0,
+    "price": 395,
     "image": "/images/products/dk-barrier-repair-body-lotion.jpg",
     "stock": 2,
     "description": "D&K Barrier Repair Body Lotion - High quality personal care product.",
@@ -3889,13 +4166,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1189
+    "rank": 1189,
+    "name": "D&K Barrier Repair Body Lotion"
   },
   {
     "id": 1190,
     "title": "D&K Barrier Repair Body Wash",
     "slug": "dk-barrier-repair-body-wash",
-    "price": 349.0,
+    "price": 349,
     "image": "/images/products/dk-barrier-repair-body-wash.jpg",
     "stock": 2,
     "description": "D&K Barrier Repair Body Wash - High quality personal care product.",
@@ -3903,13 +4181,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1190
+    "rank": 1190,
+    "name": "D&K Barrier Repair Body Wash"
   },
   {
     "id": 1195,
     "title": "D&K Cica Calming Night Gel",
     "slug": "dk-cica-calming-night-gel",
-    "price": 495.0,
+    "price": 495,
     "image": "/images/products/dk-cica-calming-night-gel.jpg",
     "stock": 2,
     "description": "D&K Cica Calming Night Gel - High quality personal care product.",
@@ -3917,13 +4196,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1195
+    "rank": 1195,
+    "name": "D&K Cica Calming Night Gel"
   },
   {
     "id": 1197,
     "title": "D&K Cica Calming Sunscreen 50Spf",
     "slug": "dk-cica-calming-sunscreen-50spf",
-    "price": 445.0,
+    "price": 445,
     "image": "/images/products/dk-cica-calming-sunscreen-50spf.jpg",
     "stock": 2,
     "description": "D&K Cica Calming Sunscreen 50Spf - High quality personal care product.",
@@ -3931,13 +4211,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1197
+    "rank": 1197,
+    "name": "D&K Cica Calming Sunscreen 50Spf"
   },
   {
     "id": 1198,
     "title": "D&K Cica+Niacinamide Serum",
     "slug": "dk-cicaniacinamide-serum",
-    "price": 599.0,
+    "price": 599,
     "image": "/images/products/dk-cicaniacinamide-serum.jpg",
     "stock": 2,
     "description": "D&K Cica+Niacinamide Serum - High quality personal care product.",
@@ -3945,13 +4226,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1198
+    "rank": 1198,
+    "name": "D&K Cica+Niacinamide Serum"
   },
   {
     "id": 1201,
     "title": "D&K Hyaluronic Serum 30Ml",
     "slug": "dk-hyaluronic-serum-30ml",
-    "price": 665.0,
+    "price": 665,
     "image": "/images/products/dk-hyaluronic-serum-30ml.jpg",
     "stock": 2,
     "description": "D&K Hyaluronic Serum 30Ml - High quality personal care product.",
@@ -3959,13 +4241,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1201
+    "rank": 1201,
+    "name": "D&K Hyaluronic Serum 30Ml"
   },
   {
     "id": 1203,
     "title": "D&K Lime Rush Sunscreen Spf 50",
     "slug": "dk-lime-rush-sunscreen-spf-50",
-    "price": 495.0,
+    "price": 495,
     "image": "/images/products/dk-lime-rush-sunscreen-spf-50.jpg",
     "stock": 1,
     "description": "D&K Lime Rush Sunscreen Spf 50 - High quality personal care product.",
@@ -3973,13 +4256,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1203
+    "rank": 1203,
+    "name": "D&K Lime Rush Sunscreen Spf 50"
   },
   {
     "id": 1206,
     "title": "D&K Pomegranate Eye Cream 20Ml",
     "slug": "dk-pomegranate-eye-cream-20ml",
-    "price": 495.0,
+    "price": 495,
     "image": "/images/products/dk-pomegranate-eye-cream-20ml.jpg",
     "stock": 1,
     "description": "D&K Pomegranate Eye Cream 20Ml - High quality personal care product.",
@@ -3987,13 +4271,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1206
+    "rank": 1206,
+    "name": "D&K Pomegranate Eye Cream 20Ml"
   },
   {
     "id": 1208,
     "title": "D&K Pomegranate Retinol Night Cream",
     "slug": "dk-pomegranate-retinol-night-cream",
-    "price": 695.0,
+    "price": 695,
     "image": "/images/products/dk-pomegranate-retinol-night-cream.jpg",
     "stock": 2,
     "description": "D&K Pomegranate Retinol Night Cream - High quality personal care product.",
@@ -4001,13 +4286,14 @@ const products = [
     "unit": "pcs",
     "category": "personal-care",
     "popular": false,
-    "rank": 1208
+    "rank": 1208,
+    "name": "D&K Pomegranate Retinol Night Cream"
   },
   {
     "id": 1209,
     "title": "D&K Salicylic Face Serum",
     "slug": "dk-salicylic-face-serum",
-    "price": 399.0,
+    "price": 399,
     "image": "/images/products/dk-salicylic-face-serum.jpg",
     "stock": 2,
     "description": "D&K Salicylic Face Serum - High quality personal care product.",
@@ -4015,13 +4301,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1209
+    "rank": 1209,
+    "name": "D&K Salicylic Face Serum"
   },
   {
     "id": 1210,
     "title": "D&K Salicylic Shower Gel250Ml",
     "slug": "dk-salicylic-shower-gel250ml",
-    "price": 399.0,
+    "price": 399,
     "image": "/images/products/dk-salicylic-shower-gel250ml.jpg",
     "stock": 2,
     "description": "D&K Salicylic Shower Gel250Ml - High quality personal care product.",
@@ -4029,13 +4316,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1210
+    "rank": 1210,
+    "name": "D&K Salicylic Shower Gel250Ml"
   },
   {
     "id": 1212,
     "title": "D&K Strawberry Dew Strobe Cream",
     "slug": "dk-strawberry-dew-strobe-cream",
-    "price": 345.0,
+    "price": 345,
     "image": "/images/products/dk-strawberry-dew-strobe-cream.jpg",
     "stock": 2,
     "description": "D&K Strawberry Dew Strobe Cream - High quality personal care product.",
@@ -4043,13 +4331,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1212
+    "rank": 1212,
+    "name": "D&K Strawberry Dew Strobe Cream"
   },
   {
     "id": 1214,
     "title": "D&K Strawberry Sunscreen Spf50+ 1",
     "slug": "dk-strawberry-sunscreen-spf50-1",
-    "price": 549.0,
+    "price": 549,
     "image": "/images/products/dk-strawberry-sunscreen-spf50-1.jpg",
     "stock": 3,
     "description": "D&K Strawberry Sunscreen Spf50+ 1 - High quality personal care product.",
@@ -4057,13 +4346,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1214
+    "rank": 1214,
+    "name": "D&K Strawberry Sunscreen Spf50+ 1"
   },
   {
     "id": 1215,
     "title": "D&K Vitamin C+E Body Lotion 250Ml",
     "slug": "dk-vitamin-ce-body-lotion-250ml",
-    "price": 395.0,
+    "price": 395,
     "image": "/images/products/dk-vitamin-ce-body-lotion-250ml.jpg",
     "stock": 2,
     "description": "D&K Vitamin C+E Body Lotion 250Ml - High quality personal care product.",
@@ -4071,13 +4361,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1215
+    "rank": 1215,
+    "name": "D&K Vitamin C+E Body Lotion 250Ml"
   },
   {
     "id": 1216,
     "title": "D&K Vitamin C+E Face  Serum",
     "slug": "dk-vitamin-ce-face-serum",
-    "price": 695.0,
+    "price": 695,
     "image": "/images/products/dk-vitamin-ce-face-serum.jpg",
     "stock": 2,
     "description": "D&K Vitamin C+E Face  Serum - High quality personal care product.",
@@ -4085,13 +4376,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1216
+    "rank": 1216,
+    "name": "D&K Vitamin C+E Face  Serum"
   },
   {
     "id": 1219,
     "title": "D&K Vitamin C+E Strobe Cream",
     "slug": "dk-vitamin-ce-strobe-cream",
-    "price": 345.0,
+    "price": 345,
     "image": "/images/products/dk-vitamin-ce-strobe-cream.jpg",
     "stock": 2,
     "description": "D&K Vitamin C+E Strobe Cream - High quality personal care product.",
@@ -4099,13 +4391,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1219
+    "rank": 1219,
+    "name": "D&K Vitamin C+E Strobe Cream"
   },
   {
     "id": 1220,
     "title": "D&K Watermelon\u0002Strobe Cream 30Ml",
     "slug": "dk-watermelonstrobe-cream-30ml",
-    "price": 345.0,
+    "price": 345,
     "image": "/images/products/dk-watermelonstrobe-cream-30ml.jpg",
     "stock": 1,
     "description": "D&K Watermelon\u0002Strobe Cream 30Ml - High quality personal care product.",
@@ -4113,13 +4406,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1220
+    "rank": 1220,
+    "name": "D&K Watermelon\u0002Strobe Cream 30Ml"
   },
   {
     "id": 1221,
     "title": "D&K Watermelon Face Serum 30Ml",
     "slug": "dk-watermelon-face-serum-30ml",
-    "price": 599.0,
+    "price": 599,
     "image": "/images/products/dk-watermelon-face-serum-30ml.jpg",
     "stock": 2,
     "description": "D&K Watermelon Face Serum 30Ml - High quality personal care product.",
@@ -4127,13 +4421,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1221
+    "rank": 1221,
+    "name": "D&K Watermelon Face Serum 30Ml"
   },
   {
     "id": 1222,
     "title": "D&K Watermelon Face Wash 100Ml",
     "slug": "dk-watermelon-face-wash-100ml",
-    "price": 249.0,
+    "price": 249,
     "image": "/images/products/dk-watermelon-face-wash-100ml.jpg",
     "stock": 3,
     "description": "D&K Watermelon Face Wash 100Ml - High quality personal care product.",
@@ -4141,13 +4436,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1222
+    "rank": 1222,
+    "name": "D&K Watermelon Face Wash 100Ml"
   },
   {
     "id": 1224,
     "title": "D&K Watermelon Shower Gel",
     "slug": "dk-watermelon-shower-gel",
-    "price": 349.0,
+    "price": 349,
     "image": "/images/products/dk-watermelon-shower-gel.jpg",
     "stock": 2,
     "description": "D&K Watermelon Shower Gel - High quality personal care product.",
@@ -4155,13 +4451,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1224
+    "rank": 1224,
+    "name": "D&K Watermelon Shower Gel"
   },
   {
     "id": 1232,
     "title": "Dabur Gulabari Rase Glow",
     "slug": "dabur-gulabari-rase-glow",
-    "price": 54.0,
+    "price": 54,
     "image": "/images/products/dabur-gulabari-rase-glow.jpg",
     "stock": 3,
     "description": "Dabur Gulabari Rase Glow - High quality personal care product.",
@@ -4169,13 +4466,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1232
+    "rank": 1232,
+    "name": "Dabur Gulabari Rase Glow"
   },
   {
     "id": 1233,
     "title": "Dabur Gulabari Rase Glow 3In1",
     "slug": "dabur-gulabari-rase-glow-3in1",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/dabur-gulabari-rase-glow-3in1.jpg",
     "stock": 3,
     "description": "Dabur Gulabari Rase Glow 3In1 - High quality personal care product.",
@@ -4183,13 +4481,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1233
+    "rank": 1233,
+    "name": "Dabur Gulabari Rase Glow 3In1"
   },
   {
     "id": 1234,
     "title": "Dairy Craft Cream Chesse",
     "slug": "dairy-craft-cream-chesse",
-    "price": 260.0,
+    "price": 260,
     "image": "/images/products/dairy-craft-cream-chesse.jpg",
     "stock": 3,
     "description": "Dairy Craft Cream Chesse - High quality personal care product.",
@@ -4197,13 +4496,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1234
+    "rank": 1234,
+    "name": "Dairy Craft Cream Chesse"
   },
   {
     "id": 1266,
     "title": "Delmonte Classic Olive Oil 100Ml",
     "slug": "delmonte-classic-olive-oil-100ml",
-    "price": 210.0,
+    "price": 210,
     "image": "/images/products/delmonte-classic-olive-oil-100ml.jpg",
     "stock": 3,
     "description": "Delmonte Classic Olive Oil 100Ml - High quality personal care product.",
@@ -4211,13 +4511,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1266
+    "rank": 1266,
+    "name": "Delmonte Classic Olive Oil 100Ml"
   },
   {
     "id": 1267,
     "title": "Delmonte Classic Olive Oil 1L",
     "slug": "delmonte-classic-olive-oil-1l",
-    "price": 2159.0,
+    "price": 2159,
     "image": "/images/products/delmonte-classic-olive-oil-1l.jpg",
     "stock": 2,
     "description": "Delmonte Classic Olive Oil 1L - High quality personal care product.",
@@ -4225,13 +4526,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1267
+    "rank": 1267,
+    "name": "Delmonte Classic Olive Oil 1L"
   },
   {
     "id": 1272,
     "title": "Delmonte Ev Olive Oil 1L",
     "slug": "delmonte-ev-olive-oil-1l",
-    "price": 2399.0,
+    "price": 2399,
     "image": "/images/products/delmonte-ev-olive-oil-1l.jpg",
     "stock": 2,
     "description": "Delmonte Ev Olive Oil 1L - High quality personal care product.",
@@ -4239,13 +4541,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1272
+    "rank": 1272,
+    "name": "Delmonte Ev Olive Oil 1L"
   },
   {
     "id": 1273,
     "title": "Delmonte Ev Olive Oil 250Ml",
     "slug": "delmonte-ev-olive-oil-250ml",
-    "price": 749.0,
+    "price": 749,
     "image": "/images/products/delmonte-ev-olive-oil-250ml.jpg",
     "stock": 2,
     "description": "Delmonte Ev Olive Oil 250Ml - High quality personal care product.",
@@ -4253,13 +4556,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1273
+    "rank": 1273,
+    "name": "Delmonte Ev Olive Oil 250Ml"
   },
   {
     "id": 1274,
     "title": "Delmonte Ev Olive Oil 500Ml",
     "slug": "delmonte-ev-olive-oil-500ml",
-    "price": 1499.0,
+    "price": 1499,
     "image": "/images/products/delmonte-ev-olive-oil-500ml.jpg",
     "stock": 2,
     "description": "Delmonte Ev Olive Oil 500Ml - High quality personal care product.",
@@ -4267,13 +4571,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1274
+    "rank": 1274,
+    "name": "Delmonte Ev Olive Oil 500Ml"
   },
   {
     "id": 1280,
     "title": "Delmonte Light Olive Oil 1L",
     "slug": "delmonte-light-olive-oil-1l",
-    "price": 2199.0,
+    "price": 2199,
     "image": "/images/products/delmonte-light-olive-oil-1l.jpg",
     "stock": 2,
     "description": "Delmonte Light Olive Oil 1L - High quality personal care product.",
@@ -4281,13 +4586,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1280
+    "rank": 1280,
+    "name": "Delmonte Light Olive Oil 1L"
   },
   {
     "id": 1291,
     "title": "Delmonte Pomace Oilve Oil 1L",
     "slug": "delmonte-pomace-oilve-oil-1l",
-    "price": 1100.0,
+    "price": 1100,
     "image": "/images/products/delmonte-pomace-oilve-oil-1l.jpg",
     "stock": 3,
     "description": "Delmonte Pomace Oilve Oil 1L - High quality personal care product.",
@@ -4295,13 +4601,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1291
+    "rank": 1291,
+    "name": "Delmonte Pomace Oilve Oil 1L"
   },
   {
     "id": 1320,
     "title": "Dettol Body Wash 250Ml",
     "slug": "dettol-body-wash-250ml",
-    "price": 129.0,
+    "price": 129,
     "image": "/images/products/dettol-body-wash-250ml.jpg",
     "stock": 4,
     "description": "Dettol Body Wash 250Ml - High quality personal care product.",
@@ -4309,13 +4616,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1320
+    "rank": 1320,
+    "name": "Dettol Body Wash 250Ml"
   },
   {
     "id": 1322,
     "title": "Dettol Foaming Hand Wash 700Ml",
     "slug": "dettol-foaming-hand-wash-700ml",
-    "price": 179.0,
+    "price": 179,
     "image": "/images/products/dettol-foaming-hand-wash-700ml.jpg",
     "stock": 5,
     "description": "Dettol Foaming Hand Wash 700Ml - High quality personal care product.",
@@ -4323,13 +4631,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1322
+    "rank": 1322,
+    "name": "Dettol Foaming Hand Wash 700Ml"
   },
   {
     "id": 1323,
     "title": "Dettol Hand Wash 650Ml",
     "slug": "dettol-hand-wash-650ml",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/dettol-hand-wash-650ml.jpg",
     "stock": 5,
     "description": "Dettol Hand Wash 650Ml - High quality personal care product.",
@@ -4337,13 +4646,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1323
+    "rank": 1323,
+    "name": "Dettol Hand Wash 650Ml"
   },
   {
     "id": 1324,
     "title": "Dettol Hand Wash Sen 200Ml",
     "slug": "dettol-hand-wash-sen-200ml",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/dettol-hand-wash-sen-200ml.jpg",
     "stock": 2,
     "description": "Dettol Hand Wash Sen 200Ml - High quality personal care product.",
@@ -4351,13 +4661,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1324
+    "rank": 1324,
+    "name": "Dettol Hand Wash Sen 200Ml"
   },
   {
     "id": 1325,
     "title": "Dettol Hand Wash Sesitive",
     "slug": "dettol-hand-wash-sesitive",
-    "price": 109.0,
+    "price": 109,
     "image": "/images/products/dettol-hand-wash-sesitive.jpg",
     "stock": 7,
     "description": "Dettol Hand Wash Sesitive - High quality personal care product.",
@@ -4365,13 +4676,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1325
+    "rank": 1325,
+    "name": "Dettol Hand Wash Sesitive"
   },
   {
     "id": 1326,
     "title": "Dettol Hand Wash Skc 200Ml",
     "slug": "dettol-hand-wash-skc-200ml",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/dettol-hand-wash-skc-200ml.jpg",
     "stock": 2,
     "description": "Dettol Hand Wash Skc 200Ml - High quality personal care product.",
@@ -4379,13 +4691,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1326
+    "rank": 1326,
+    "name": "Dettol Hand Wash Skc 200Ml"
   },
   {
     "id": 1327,
     "title": "Dettol Ice Cool Soap 4X125Gm",
     "slug": "dettol-ice-cool-soap-4x125gm",
-    "price": 250.0,
+    "price": 250,
     "image": "/images/products/dettol-ice-cool-soap-4x125gm.jpg",
     "stock": 5,
     "description": "Dettol Ice Cool Soap 4X125Gm - High quality personal care product.",
@@ -4393,13 +4706,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1327
+    "rank": 1327,
+    "name": "Dettol Ice Cool Soap 4X125Gm"
   },
   {
     "id": 1328,
     "title": "Dettol Icy Cool Soap",
     "slug": "dettol-icy-cool-soap",
-    "price": 72.0,
+    "price": 72,
     "image": "/images/products/dettol-icy-cool-soap.jpg",
     "stock": 12,
     "description": "Dettol Icy Cool Soap - High quality personal care product.",
@@ -4407,13 +4721,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1328
+    "rank": 1328,
+    "name": "Dettol Icy Cool Soap"
   },
   {
     "id": 1338,
     "title": "Dettol Shaving Cream 78G",
     "slug": "dettol-shaving-cream-78g",
-    "price": 93.0,
+    "price": 93,
     "image": "/images/products/dettol-shaving-cream-78g.jpg",
     "stock": 3,
     "description": "Dettol Shaving Cream 78G - High quality personal care product.",
@@ -4421,13 +4736,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1338
+    "rank": 1338,
+    "name": "Dettol Shaving Cream 78G"
   },
   {
     "id": 1340,
     "title": "Dettol Soap Lime Cool",
     "slug": "dettol-soap-lime-cool",
-    "price": 160.0,
+    "price": 160,
     "image": "/images/products/dettol-soap-lime-cool.jpg",
     "stock": 2,
     "description": "Dettol Soap Lime Cool - High quality personal care product.",
@@ -4435,13 +4751,14 @@ const products = [
     "unit": "3186",
     "category": "personal-care",
     "popular": false,
-    "rank": 1340
+    "rank": 1340,
+    "name": "Dettol Soap Lime Cool"
   },
   {
     "id": 1391,
     "title": "Doms Brush Pens 14S",
     "slug": "doms-brush-pens-14s",
-    "price": 200.0,
+    "price": 200,
     "image": "/images/products/doms-brush-pens-14s.jpg",
     "stock": 3,
     "description": "Doms Brush Pens 14S - High quality personal care product.",
@@ -4449,13 +4766,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1391
+    "rank": 1391,
+    "name": "Doms Brush Pens 14S"
   },
   {
     "id": 1427,
     "title": "Dove Body Wash 1Ltr",
     "slug": "dove-body-wash-1ltr",
-    "price": 849.0,
+    "price": 849,
     "image": "/images/products/dove-body-wash-1ltr.jpg",
     "stock": 1,
     "description": "Dove Body Wash 1Ltr - High quality personal care product.",
@@ -4463,13 +4781,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1427
+    "rank": 1427,
+    "name": "Dove Body Wash 1Ltr"
   },
   {
     "id": 1428,
     "title": "Dove Cream Bar 100Gm",
     "slug": "dove-cream-bar-100gm",
-    "price": 63.0,
+    "price": 63,
     "image": "/images/products/dove-cream-bar-100gm.jpg",
     "stock": 6,
     "description": "Dove Cream Bar 100Gm - High quality personal care product.",
@@ -4477,13 +4796,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1428
+    "rank": 1428,
+    "name": "Dove Cream Bar 100Gm"
   },
   {
     "id": 1429,
     "title": "Dove Cream Bar 3X75Gm",
     "slug": "dove-cream-bar-3x75gm",
-    "price": 155.0,
+    "price": 155,
     "image": "/images/products/dove-cream-bar-3x75gm.jpg",
     "stock": 4,
     "description": "Dove Cream Bar 3X75Gm - High quality personal care product.",
@@ -4491,13 +4811,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1429
+    "rank": 1429,
+    "name": "Dove Cream Bar 3X75Gm"
   },
   {
     "id": 1430,
     "title": "Dove Cream Bar 50Gm",
     "slug": "dove-cream-bar-50gm",
-    "price": 25.0,
+    "price": 25,
     "image": "/images/products/dove-cream-bar-50gm.jpg",
     "stock": 5,
     "description": "Dove Cream Bar 50Gm - High quality personal care product.",
@@ -4505,13 +4826,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1430
+    "rank": 1430,
+    "name": "Dove Cream Bar 50Gm"
   },
   {
     "id": 1431,
     "title": "Dove Cream Bar 75G",
     "slug": "dove-cream-bar-75g",
-    "price": 45.0,
+    "price": 45,
     "image": "/images/products/dove-cream-bar-75g.jpg",
     "stock": 6,
     "description": "Dove Cream Bar 75G - High quality personal care product.",
@@ -4519,13 +4841,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1431
+    "rank": 1431,
+    "name": "Dove Cream Bar 75G"
   },
   {
     "id": 1433,
     "title": "Dove Ds Biopro Shampoo 180Ml",
     "slug": "dove-ds-biopro-shampoo-180ml",
-    "price": 224.0,
+    "price": 224,
     "image": "/images/products/dove-ds-biopro-shampoo-180ml.jpg",
     "stock": 3,
     "description": "Dove Ds Biopro Shampoo 180Ml - High quality personal care product.",
@@ -4533,13 +4856,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1433
+    "rank": 1433,
+    "name": "Dove Ds Biopro Shampoo 180Ml"
   },
   {
     "id": 1434,
     "title": "Dove Ds Biopro Shampoo 340Ml",
     "slug": "dove-ds-biopro-shampoo-340ml",
-    "price": 447.0,
+    "price": 447,
     "image": "/images/products/dove-ds-biopro-shampoo-340ml.jpg",
     "stock": 3,
     "description": "Dove Ds Biopro Shampoo 340Ml - High quality personal care product.",
@@ -4547,13 +4871,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1434
+    "rank": 1434,
+    "name": "Dove Ds Biopro Shampoo 340Ml"
   },
   {
     "id": 1435,
     "title": "Dove Ds Biopro Shampoo 650Ml",
     "slug": "dove-ds-biopro-shampoo-650ml",
-    "price": 930.0,
+    "price": 930,
     "image": "/images/products/dove-ds-biopro-shampoo-650ml.jpg",
     "stock": 1,
     "description": "Dove Ds Biopro Shampoo 650Ml - High quality personal care product.",
@@ -4561,13 +4886,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1435
+    "rank": 1435,
+    "name": "Dove Ds Biopro Shampoo 650Ml"
   },
   {
     "id": 1437,
     "title": "Dove Hairfall Rescue 175Ml",
     "slug": "dove-hairfall-rescue-175ml",
-    "price": 260.0,
+    "price": 260,
     "image": "/images/products/dove-hairfall-rescue-175ml.jpg",
     "stock": 2,
     "description": "Dove Hairfall Rescue 175Ml - High quality personal care product.",
@@ -4575,13 +4901,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1437
+    "rank": 1437,
+    "name": "Dove Hairfall Rescue 175Ml"
   },
   {
     "id": 1438,
     "title": "Dove Hairfall Rescue 340Ml",
     "slug": "dove-hairfall-rescue-340ml",
-    "price": 447.0,
+    "price": 447,
     "image": "/images/products/dove-hairfall-rescue-340ml.jpg",
     "stock": 3,
     "description": "Dove Hairfall Rescue 340Ml - High quality personal care product.",
@@ -4589,13 +4916,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1438
+    "rank": 1438,
+    "name": "Dove Hairfall Rescue 340Ml"
   },
   {
     "id": 1439,
     "title": "Dove Hairfall Rescue 650Ml",
     "slug": "dove-hairfall-rescue-650ml",
-    "price": 850.0,
+    "price": 850,
     "image": "/images/products/dove-hairfall-rescue-650ml.jpg",
     "stock": 1,
     "description": "Dove Hairfall Rescue 650Ml - High quality personal care product.",
@@ -4603,13 +4931,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1439
+    "rank": 1439,
+    "name": "Dove Hairfall Rescue 650Ml"
   },
   {
     "id": 1443,
     "title": "Dove Man Face Wash",
     "slug": "dove-man-face-wash",
-    "price": 135.0,
+    "price": 135,
     "image": "/images/products/dove-man-face-wash.jpg",
     "stock": 4,
     "description": "Dove Man Face Wash - High quality personal care product.",
@@ -4617,13 +4946,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1443
+    "rank": 1443,
+    "name": "Dove Man Face Wash"
   },
   {
     "id": 1446,
     "title": "Dove Peptide Bond Shampoo 180Ml",
     "slug": "dove-peptide-bond-shampoo-180ml",
-    "price": 285.0,
+    "price": 285,
     "image": "/images/products/dove-peptide-bond-shampoo-180ml.jpg",
     "stock": 3,
     "description": "Dove Peptide Bond Shampoo 180Ml - High quality personal care product.",
@@ -4631,13 +4961,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1446
+    "rank": 1446,
+    "name": "Dove Peptide Bond Shampoo 180Ml"
   },
   {
     "id": 1447,
     "title": "Dove Peptide Bond Shampoo 340Ml",
     "slug": "dove-peptide-bond-shampoo-340ml",
-    "price": 565.0,
+    "price": 565,
     "image": "/images/products/dove-peptide-bond-shampoo-340ml.jpg",
     "stock": 3,
     "description": "Dove Peptide Bond Shampoo 340Ml - High quality personal care product.",
@@ -4645,13 +4976,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1447
+    "rank": 1447,
+    "name": "Dove Peptide Bond Shampoo 340Ml"
   },
   {
     "id": 1451,
     "title": "Dr.Oetker Peanut Butter Creamy 375Ml",
     "slug": "droetker-peanut-butter-creamy-375ml",
-    "price": 139.0,
+    "price": 139,
     "image": "/images/products/droetker-peanut-butter-creamy-375ml.jpg",
     "stock": 3,
     "description": "Dr.Oetker Peanut Butter Creamy 375Ml - High quality personal care product.",
@@ -4659,13 +4991,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1451
+    "rank": 1451,
+    "name": "Dr.Oetker Peanut Butter Creamy 375Ml"
   },
   {
     "id": 1452,
     "title": "Dr.Oetker Peanut Butter Creamy 750Ml",
     "slug": "droetker-peanut-butter-creamy-750ml",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/droetker-peanut-butter-creamy-750ml.jpg",
     "stock": 2,
     "description": "Dr.Oetker Peanut Butter Creamy 750Ml - High quality personal care product.",
@@ -4673,13 +5006,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1452
+    "rank": 1452,
+    "name": "Dr.Oetker Peanut Butter Creamy 750Ml"
   },
   {
     "id": 1461,
     "title": "Dr.Oetker Veg Mayo Olive Oil 250G",
     "slug": "droetker-veg-mayo-olive-oil-250g",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/droetker-veg-mayo-olive-oil-250g.jpg",
     "stock": 3,
     "description": "Dr.Oetker Veg Mayo Olive Oil 250G - High quality personal care product.",
@@ -4687,13 +5021,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1461
+    "rank": 1461,
+    "name": "Dr.Oetker Veg Mayo Olive Oil 250G"
   },
   {
     "id": 1486,
     "title": "Dubblin Bakke Oil Btl 100Ml",
     "slug": "dubblin-bakke-oil-btl-100ml",
-    "price": 599.0,
+    "price": 599,
     "image": "/images/products/dubblin-bakke-oil-btl-100ml.jpg",
     "stock": 2,
     "description": "Dubblin Bakke Oil Btl 100Ml - High quality personal care product.",
@@ -4701,13 +5036,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1486
+    "rank": 1486,
+    "name": "Dubblin Bakke Oil Btl 100Ml"
   },
   {
     "id": 1493,
     "title": "Dubblin Cook Oil Btl 1000Ml",
     "slug": "dubblin-cook-oil-btl-1000ml",
-    "price": 579.0,
+    "price": 579,
     "image": "/images/products/dubblin-cook-oil-btl-1000ml.jpg",
     "stock": 2,
     "description": "Dubblin Cook Oil Btl 1000Ml - High quality personal care product.",
@@ -4715,13 +5051,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1493
+    "rank": 1493,
+    "name": "Dubblin Cook Oil Btl 1000Ml"
   },
   {
     "id": 1563,
     "title": "Eon Soap Dispenser",
     "slug": "eon-soap-dispenser",
-    "price": 579.0,
+    "price": 579,
     "image": "/images/products/eon-soap-dispenser.jpg",
     "stock": 6,
     "description": "Eon Soap Dispenser - High quality personal care product.",
@@ -4729,13 +5066,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1563
+    "rank": 1563,
+    "name": "Eon Soap Dispenser"
   },
   {
     "id": 1576,
     "title": "Epigamia Tp Shake Cookies&Cream",
     "slug": "epigamia-tp-shake-cookiescream",
-    "price": 150.0,
+    "price": 150,
     "image": "/images/products/epigamia-tp-shake-cookiescream.jpg",
     "stock": 6,
     "description": "Epigamia Tp Shake Cookies&Cream - High quality personal care product.",
@@ -4743,13 +5081,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1576
+    "rank": 1576,
+    "name": "Epigamia Tp Shake Cookies&Cream"
   },
   {
     "id": 1583,
     "title": "Everyuth Anti Pollution Face Wash 50G",
     "slug": "everyuth-anti-pollution-face-wash-50g",
-    "price": 110.0,
+    "price": 110,
     "image": "/images/products/everyuth-anti-pollution-face-wash-50g.jpg",
     "stock": 3,
     "description": "Everyuth Anti Pollution Face Wash 50G - High quality personal care product.",
@@ -4757,13 +5096,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1583
+    "rank": 1583,
+    "name": "Everyuth Anti Pollution Face Wash 50G"
   },
   {
     "id": 1584,
     "title": "Everyuth Face Wash Neem/Fruits 50G",
     "slug": "everyuth-face-wash-neemfruits-50g",
-    "price": 80.0,
+    "price": 80,
     "image": "/images/products/everyuth-face-wash-neemfruits-50g.jpg",
     "stock": 6,
     "description": "Everyuth Face Wash Neem/Fruits 50G - High quality personal care product.",
@@ -4771,13 +5111,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1584
+    "rank": 1584,
+    "name": "Everyuth Face Wash Neem/Fruits 50G"
   },
   {
     "id": 1587,
     "title": "Everyuth Tan Removal Face Pack 50G",
     "slug": "everyuth-tan-removal-face-pack-50g",
-    "price": 110.0,
+    "price": 110,
     "image": "/images/products/everyuth-tan-removal-face-pack-50g.jpg",
     "stock": 1,
     "description": "Everyuth Tan Removal Face Pack 50G - High quality personal care product.",
@@ -4785,13 +5126,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1587
+    "rank": 1587,
+    "name": "Everyuth Tan Removal Face Pack 50G"
   },
   {
     "id": 1591,
     "title": "F&H Bright Cream 60G",
     "slug": "fh-bright-cream-60g",
-    "price": 175.0,
+    "price": 175,
     "image": "/images/products/fh-bright-cream-60g.jpg",
     "stock": 1,
     "description": "F&H Bright Cream 60G - High quality personal care product.",
@@ -4799,13 +5141,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1591
+    "rank": 1591,
+    "name": "F&H Bright Cream 60G"
   },
   {
     "id": 1592,
     "title": "F&H Brightning Face Wash 100G",
     "slug": "fh-brightning-face-wash-100g",
-    "price": 239.0,
+    "price": 239,
     "image": "/images/products/fh-brightning-face-wash-100g.jpg",
     "stock": 4,
     "description": "F&H Brightning Face Wash 100G - High quality personal care product.",
@@ -4813,13 +5156,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1592
+    "rank": 1592,
+    "name": "F&H Brightning Face Wash 100G"
   },
   {
     "id": 1597,
     "title": "Fair&Lovely Advance Cream 110G",
     "slug": "fairlovely-advance-cream-110g",
-    "price": 325.0,
+    "price": 325,
     "image": "/images/products/fairlovely-advance-cream-110g.jpg",
     "stock": 3,
     "description": "Fair&Lovely Advance Cream 110G - High quality personal care product.",
@@ -4827,13 +5171,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1597
+    "rank": 1597,
+    "name": "Fair&Lovely Advance Cream 110G"
   },
   {
     "id": 1616,
     "title": "Favrito Secchi Sundried In Oil 280Gm",
     "slug": "favrito-secchi-sundried-in-oil-280gm",
-    "price": 450.0,
+    "price": 450,
     "image": "/images/products/favrito-secchi-sundried-in-oil-280gm.jpg",
     "stock": 2,
     "description": "Favrito Secchi Sundried In Oil 280Gm - High quality personal care product.",
@@ -4841,13 +5186,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1616
+    "rank": 1616,
+    "name": "Favrito Secchi Sundried In Oil 280Gm"
   },
   {
     "id": 1628,
     "title": "Feathers Toilet Roll 6 In 1",
     "slug": "feathers-toilet-roll-6-in-1",
-    "price": 290.0,
+    "price": 290,
     "image": "/images/products/feathers-toilet-roll-6-in-1.jpg",
     "stock": 2,
     "description": "Feathers Toilet Roll 6 In 1 - High quality personal care product.",
@@ -4855,13 +5201,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1628
+    "rank": 1628,
+    "name": "Feathers Toilet Roll 6 In 1"
   },
   {
     "id": 1629,
     "title": "Feathers Toilet Roll Single 275Sheet",
     "slug": "feathers-toilet-roll-single-275sheet",
-    "price": 52.0,
+    "price": 52,
     "image": "/images/products/feathers-toilet-roll-single-275sheet.jpg",
     "stock": 2,
     "description": "Feathers Toilet Roll Single 275Sheet - High quality personal care product.",
@@ -4869,13 +5216,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1629
+    "rank": 1629,
+    "name": "Feathers Toilet Roll Single 275Sheet"
   },
   {
     "id": 1638,
     "title": "Fiama B&B Gel Bar",
     "slug": "fiama-bb-gel-bar",
-    "price": 35.0,
+    "price": 35,
     "image": "/images/products/fiama-bb-gel-bar.jpg",
     "stock": 3,
     "description": "Fiama B&B Gel Bar - High quality personal care product.",
@@ -4883,13 +5231,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1638
+    "rank": 1638,
+    "name": "Fiama B&B Gel Bar"
   },
   {
     "id": 1639,
     "title": "Fiama B&B Gel Bar 3+1 500Gm",
     "slug": "fiama-bb-gel-bar-31-500gm",
-    "price": 275.0,
+    "price": 275,
     "image": "/images/products/fiama-bb-gel-bar-31-500gm.jpg",
     "stock": 3,
     "description": "Fiama B&B Gel Bar 3+1 500Gm - High quality personal care product.",
@@ -4897,13 +5246,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1639
+    "rank": 1639,
+    "name": "Fiama B&B Gel Bar 3+1 500Gm"
   },
   {
     "id": 1643,
     "title": "Fiama Gel Bar C&G 125Gm",
     "slug": "fiama-gel-bar-cg-125gm",
-    "price": 69.0,
+    "price": 69,
     "image": "/images/products/fiama-gel-bar-cg-125gm.jpg",
     "stock": 2,
     "description": "Fiama Gel Bar C&G 125Gm - High quality personal care product.",
@@ -4911,13 +5261,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1643
+    "rank": 1643,
+    "name": "Fiama Gel Bar C&G 125Gm"
   },
   {
     "id": 1644,
     "title": "Fiama Gel Bar E&S 500Gm",
     "slug": "fiama-gel-bar-es-500gm",
-    "price": 295.0,
+    "price": 295,
     "image": "/images/products/fiama-gel-bar-es-500gm.jpg",
     "stock": 2,
     "description": "Fiama Gel Bar E&S 500Gm - High quality personal care product.",
@@ -4925,13 +5276,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1644
+    "rank": 1644,
+    "name": "Fiama Gel Bar E&S 500Gm"
   },
   {
     "id": 1645,
     "title": "Fiama Gel Bar Gs&P 125Gm+125Ml",
     "slug": "fiama-gel-bar-gsp-125gm125ml",
-    "price": 95.0,
+    "price": 95,
     "image": "/images/products/fiama-gel-bar-gsp-125gm125ml.jpg",
     "stock": 1,
     "description": "Fiama Gel Bar Gs&P 125Gm+125Ml - High quality personal care product.",
@@ -4939,13 +5291,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1645
+    "rank": 1645,
+    "name": "Fiama Gel Bar Gs&P 125Gm+125Ml"
   },
   {
     "id": 1646,
     "title": "Fiama Gel Bar Gs&P 3+1 500Gm",
     "slug": "fiama-gel-bar-gsp-31-500gm",
-    "price": 275.0,
+    "price": 275,
     "image": "/images/products/fiama-gel-bar-gsp-31-500gm.jpg",
     "stock": 1,
     "description": "Fiama Gel Bar Gs&P 3+1 500Gm - High quality personal care product.",
@@ -4953,13 +5306,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1646
+    "rank": 1646,
+    "name": "Fiama Gel Bar Gs&P 3+1 500Gm"
   },
   {
     "id": 1647,
     "title": "Fiama Gel Bar Gs&P 375Gm",
     "slug": "fiama-gel-bar-gsp-375gm",
-    "price": 265.0,
+    "price": 265,
     "image": "/images/products/fiama-gel-bar-gsp-375gm.jpg",
     "stock": 1,
     "description": "Fiama Gel Bar Gs&P 375Gm - High quality personal care product.",
@@ -4967,13 +5321,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1647
+    "rank": 1647,
+    "name": "Fiama Gel Bar Gs&P 375Gm"
   },
   {
     "id": 1648,
     "title": "Fiama Gel Bar M&M 125Gm",
     "slug": "fiama-gel-bar-mm-125gm",
-    "price": 69.0,
+    "price": 69,
     "image": "/images/products/fiama-gel-bar-mm-125gm.jpg",
     "stock": 3,
     "description": "Fiama Gel Bar M&M 125Gm - High quality personal care product.",
@@ -4981,13 +5336,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1648
+    "rank": 1648,
+    "name": "Fiama Gel Bar M&M 125Gm"
   },
   {
     "id": 1649,
     "title": "Fiama Gel Bar P&A 125Gm",
     "slug": "fiama-gel-bar-pa-125gm",
-    "price": 69.0,
+    "price": 69,
     "image": "/images/products/fiama-gel-bar-pa-125gm.jpg",
     "stock": 2,
     "description": "Fiama Gel Bar P&A 125Gm - High quality personal care product.",
@@ -4995,13 +5351,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1649
+    "rank": 1649,
+    "name": "Fiama Gel Bar P&A 125Gm"
   },
   {
     "id": 1650,
     "title": "Fiama Gel Bar R&P 125Gm",
     "slug": "fiama-gel-bar-rp-125gm",
-    "price": 69.0,
+    "price": 69,
     "image": "/images/products/fiama-gel-bar-rp-125gm.jpg",
     "stock": 1,
     "description": "Fiama Gel Bar R&P 125Gm - High quality personal care product.",
@@ -5009,13 +5366,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1650
+    "rank": 1650,
+    "name": "Fiama Gel Bar R&P 125Gm"
   },
   {
     "id": 1651,
     "title": "Fiama Gs&P Gel Bar",
     "slug": "fiama-gsp-gel-bar",
-    "price": 40.0,
+    "price": 40,
     "image": "/images/products/fiama-gsp-gel-bar.jpg",
     "stock": 2,
     "description": "Fiama Gs&P Gel Bar - High quality personal care product.",
@@ -5023,13 +5381,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1651
+    "rank": 1651,
+    "name": "Fiama Gs&P Gel Bar"
   },
   {
     "id": 1652,
     "title": "Fiama Hand Wash Fresh 350Ml",
     "slug": "fiama-hand-wash-fresh-350ml",
-    "price": 80.0,
+    "price": 80,
     "image": "/images/products/fiama-hand-wash-fresh-350ml.jpg",
     "stock": 6,
     "description": "Fiama Hand Wash Fresh 350Ml - High quality personal care product.",
@@ -5037,13 +5396,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1652
+    "rank": 1652,
+    "name": "Fiama Hand Wash Fresh 350Ml"
   },
   {
     "id": 1653,
     "title": "Fiama Hand Wash Fresh 400Ml",
     "slug": "fiama-hand-wash-fresh-400ml",
-    "price": 160.0,
+    "price": 160,
     "image": "/images/products/fiama-hand-wash-fresh-400ml.jpg",
     "stock": 5,
     "description": "Fiama Hand Wash Fresh 400Ml - High quality personal care product.",
@@ -5051,13 +5411,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1653
+    "rank": 1653,
+    "name": "Fiama Hand Wash Fresh 400Ml"
   },
   {
     "id": 1654,
     "title": "Fiama Hand Wash Happy 350Ml",
     "slug": "fiama-hand-wash-happy-350ml",
-    "price": 80.0,
+    "price": 80,
     "image": "/images/products/fiama-hand-wash-happy-350ml.jpg",
     "stock": 5,
     "description": "Fiama Hand Wash Happy 350Ml - High quality personal care product.",
@@ -5065,13 +5426,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1654
+    "rank": 1654,
+    "name": "Fiama Hand Wash Happy 350Ml"
   },
   {
     "id": 1655,
     "title": "Fiama Hand Wash Happy 400Ml",
     "slug": "fiama-hand-wash-happy-400ml",
-    "price": 160.0,
+    "price": 160,
     "image": "/images/products/fiama-hand-wash-happy-400ml.jpg",
     "stock": 4,
     "description": "Fiama Hand Wash Happy 400Ml - High quality personal care product.",
@@ -5079,13 +5441,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1655
+    "rank": 1655,
+    "name": "Fiama Hand Wash Happy 400Ml"
   },
   {
     "id": 1656,
     "title": "Fiama Hand Wash Relax 350Ml",
     "slug": "fiama-hand-wash-relax-350ml",
-    "price": 80.0,
+    "price": 80,
     "image": "/images/products/fiama-hand-wash-relax-350ml.jpg",
     "stock": 6,
     "description": "Fiama Hand Wash Relax 350Ml - High quality personal care product.",
@@ -5093,13 +5456,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1656
+    "rank": 1656,
+    "name": "Fiama Hand Wash Relax 350Ml"
   },
   {
     "id": 1657,
     "title": "Fiama Hand Wash Relax 400Ml",
     "slug": "fiama-hand-wash-relax-400ml",
-    "price": 160.0,
+    "price": 160,
     "image": "/images/products/fiama-hand-wash-relax-400ml.jpg",
     "stock": 2,
     "description": "Fiama Hand Wash Relax 400Ml - High quality personal care product.",
@@ -5107,13 +5471,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1657
+    "rank": 1657,
+    "name": "Fiama Hand Wash Relax 400Ml"
   },
   {
     "id": 1658,
     "title": "Fiama Men Dc Gel Bar",
     "slug": "fiama-men-dc-gel-bar",
-    "price": 40.0,
+    "price": 40,
     "image": "/images/products/fiama-men-dc-gel-bar.jpg",
     "stock": 3,
     "description": "Fiama Men Dc Gel Bar - High quality personal care product.",
@@ -5121,13 +5486,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1658
+    "rank": 1658,
+    "name": "Fiama Men Dc Gel Bar"
   },
   {
     "id": 1659,
     "title": "Fiama Men Gel Bar R&P 125Gm",
     "slug": "fiama-men-gel-bar-rp-125gm",
-    "price": 95.0,
+    "price": 95,
     "image": "/images/products/fiama-men-gel-bar-rp-125gm.jpg",
     "stock": 3,
     "description": "Fiama Men Gel Bar R&P 125Gm - High quality personal care product.",
@@ -5135,13 +5501,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1659
+    "rank": 1659,
+    "name": "Fiama Men Gel Bar R&P 125Gm"
   },
   {
     "id": 1660,
     "title": "Fiama Men Gel Bar Rp",
     "slug": "fiama-men-gel-bar-rp",
-    "price": 40.0,
+    "price": 40,
     "image": "/images/products/fiama-men-gel-bar-rp.jpg",
     "stock": 3,
     "description": "Fiama Men Gel Bar Rp - High quality personal care product.",
@@ -5149,13 +5516,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1660
+    "rank": 1660,
+    "name": "Fiama Men Gel Bar Rp"
   },
   {
     "id": 1661,
     "title": "Fiama Men R&P Gel Bar",
     "slug": "fiama-men-rp-gel-bar",
-    "price": 95.0,
+    "price": 95,
     "image": "/images/products/fiama-men-rp-gel-bar.jpg",
     "stock": 2,
     "description": "Fiama Men R&P Gel Bar - High quality personal care product.",
@@ -5163,13 +5531,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1661
+    "rank": 1661,
+    "name": "Fiama Men R&P Gel Bar"
   },
   {
     "id": 1662,
     "title": "Fiama Men Shower Gel Dc 250Ml",
     "slug": "fiama-men-shower-gel-dc-250ml",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/fiama-men-shower-gel-dc-250ml.jpg",
     "stock": 3,
     "description": "Fiama Men Shower Gel Dc 250Ml - High quality personal care product.",
@@ -5177,13 +5546,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1662
+    "rank": 1662,
+    "name": "Fiama Men Shower Gel Dc 250Ml"
   },
   {
     "id": 1664,
     "title": "Fiama Shower Gel B&B 250Ml",
     "slug": "fiama-shower-gel-bb-250ml",
-    "price": 149.0,
+    "price": 149,
     "image": "/images/products/fiama-shower-gel-bb-250ml.jpg",
     "stock": 1,
     "description": "Fiama Shower Gel B&B 250Ml - High quality personal care product.",
@@ -5191,13 +5561,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1664
+    "rank": 1664,
+    "name": "Fiama Shower Gel B&B 250Ml"
   },
   {
     "id": 1665,
     "title": "Fiama Shower Gel L&J 250Ml",
     "slug": "fiama-shower-gel-lj-250ml",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/fiama-shower-gel-lj-250ml.jpg",
     "stock": 3,
     "description": "Fiama Shower Gel L&J 250Ml - High quality personal care product.",
@@ -5205,13 +5576,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1665
+    "rank": 1665,
+    "name": "Fiama Shower Gel L&J 250Ml"
   },
   {
     "id": 1666,
     "title": "Fiama Shower Gel P&A 250Ml",
     "slug": "fiama-shower-gel-pa-250ml",
-    "price": 149.0,
+    "price": 149,
     "image": "/images/products/fiama-shower-gel-pa-250ml.jpg",
     "stock": 2,
     "description": "Fiama Shower Gel P&A 250Ml - High quality personal care product.",
@@ -5219,13 +5591,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1666
+    "rank": 1666,
+    "name": "Fiama Shower Gel P&A 250Ml"
   },
   {
     "id": 1667,
     "title": "Fiama Shower Gel P&M 250Ml",
     "slug": "fiama-shower-gel-pm-250ml",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/fiama-shower-gel-pm-250ml.jpg",
     "stock": 3,
     "description": "Fiama Shower Gel P&M 250Ml - High quality personal care product.",
@@ -5233,13 +5606,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1667
+    "rank": 1667,
+    "name": "Fiama Shower Gel P&M 250Ml"
   },
   {
     "id": 1668,
     "title": "Fiama Shower Gel Pb&Y 250Ml",
     "slug": "fiama-shower-gel-pby-250ml",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/fiama-shower-gel-pby-250ml.jpg",
     "stock": 2,
     "description": "Fiama Shower Gel Pb&Y 250Ml - High quality personal care product.",
@@ -5247,13 +5621,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1668
+    "rank": 1668,
+    "name": "Fiama Shower Gel Pb&Y 250Ml"
   },
   {
     "id": 1670,
     "title": "Figaro Olive Oil 100G",
     "slug": "figaro-olive-oil-100g",
-    "price": 220.0,
+    "price": 220,
     "image": "/images/products/figaro-olive-oil-100g.jpg",
     "stock": 2,
     "description": "Figaro Olive Oil 100G - High quality personal care product.",
@@ -5261,13 +5636,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1670
+    "rank": 1670,
+    "name": "Figaro Olive Oil 100G"
   },
   {
     "id": 1671,
     "title": "Figaro Olive Oil 200Ml",
     "slug": "figaro-olive-oil-200ml",
-    "price": 399.0,
+    "price": 399,
     "image": "/images/products/figaro-olive-oil-200ml.jpg",
     "stock": 2,
     "description": "Figaro Olive Oil 200Ml - High quality personal care product.",
@@ -5275,13 +5651,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1671
+    "rank": 1671,
+    "name": "Figaro Olive Oil 200Ml"
   },
   {
     "id": 1672,
     "title": "Figaro Olive Oil 500Ml",
     "slug": "figaro-olive-oil-500ml",
-    "price": 949.0,
+    "price": 949,
     "image": "/images/products/figaro-olive-oil-500ml.jpg",
     "stock": 3,
     "description": "Figaro Olive Oil 500Ml - High quality personal care product.",
@@ -5289,13 +5666,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1672
+    "rank": 1672,
+    "name": "Figaro Olive Oil 500Ml"
   },
   {
     "id": 1682,
     "title": "Fit&Flex Protin Puffs Cream&Onion",
     "slug": "fitflex-protin-puffs-creamonion",
-    "price": 50.0,
+    "price": 50,
     "image": "/images/products/fitflex-protin-puffs-creamonion.jpg",
     "stock": 4,
     "description": "Fit&Flex Protin Puffs Cream&Onion - High quality personal care product.",
@@ -5303,13 +5681,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1682
+    "rank": 1682,
+    "name": "Fit&Flex Protin Puffs Cream&Onion"
   },
   {
     "id": 1690,
     "title": "Fogg Body Spry 225",
     "slug": "fogg-body-spry-225",
-    "price": 225.0,
+    "price": 225,
     "image": "/images/products/fogg-body-spry-225.jpg",
     "stock": 12,
     "description": "Fogg Body Spry 225 - High quality personal care product.",
@@ -5317,13 +5696,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1690
+    "rank": 1690,
+    "name": "Fogg Body Spry 225"
   },
   {
     "id": 1691,
     "title": "Fogg Body Spry 250/-",
     "slug": "fogg-body-spry-250-",
-    "price": 250.0,
+    "price": 250,
     "image": "/images/products/fogg-body-spry-250-.jpg",
     "stock": 6,
     "description": "Fogg Body Spry 250/- - High quality personal care product.",
@@ -5331,13 +5711,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1691
+    "rank": 1691,
+    "name": "Fogg Body Spry 250/-"
   },
   {
     "id": 1697,
     "title": "Foil Fringe Curtain Gk",
     "slug": "foil-fringe-curtain-gk",
-    "price": 50.0,
+    "price": 50,
     "image": "/images/products/foil-fringe-curtain-gk.jpg",
     "stock": 13,
     "description": "Foil Fringe Curtain Gk - High quality personal care product.",
@@ -5345,13 +5726,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1697
+    "rank": 1697,
+    "name": "Foil Fringe Curtain Gk"
   },
   {
     "id": 1701,
     "title": "Fortune Kachi Ghani  Mustard Oil 1L",
     "slug": "fortune-kachi-ghani-mustard-oil-1l",
-    "price": 195.0,
+    "price": 195,
     "image": "/images/products/fortune-kachi-ghani-mustard-oil-1l.jpg",
     "stock": 10,
     "description": "Fortune Kachi Ghani  Mustard Oil 1L - High quality personal care product.",
@@ -5359,13 +5741,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1701
+    "rank": 1701,
+    "name": "Fortune Kachi Ghani  Mustard Oil 1L"
   },
   {
     "id": 1702,
     "title": "Fortune Kachi Ghani Mustard Oil 5L",
     "slug": "fortune-kachi-ghani-mustard-oil-5l",
-    "price": 1050.0,
+    "price": 1050,
     "image": "/images/products/fortune-kachi-ghani-mustard-oil-5l.jpg",
     "stock": 1,
     "description": "Fortune Kachi Ghani Mustard Oil 5L - High quality personal care product.",
@@ -5373,13 +5756,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1702
+    "rank": 1702,
+    "name": "Fortune Kachi Ghani Mustard Oil 5L"
   },
   {
     "id": 1719,
     "title": "Fragata Ev Olive Oil 500Ml",
     "slug": "fragata-ev-olive-oil-500ml",
-    "price": 1295.0,
+    "price": 1295,
     "image": "/images/products/fragata-ev-olive-oil-500ml.jpg",
     "stock": 2,
     "description": "Fragata Ev Olive Oil 500Ml - High quality personal care product.",
@@ -5387,13 +5771,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1719
+    "rank": 1719,
+    "name": "Fragata Ev Olive Oil 500Ml"
   },
   {
     "id": 1720,
     "title": "Fragata Ev Pomace Oil 500Ml",
     "slug": "fragata-ev-pomace-oil-500ml",
-    "price": 895.0,
+    "price": 895,
     "image": "/images/products/fragata-ev-pomace-oil-500ml.jpg",
     "stock": 2,
     "description": "Fragata Ev Pomace Oil 500Ml - High quality personal care product.",
@@ -5401,13 +5786,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1720
+    "rank": 1720,
+    "name": "Fragata Ev Pomace Oil 500Ml"
   },
   {
     "id": 1721,
     "title": "Fragata Pure Olive Oil",
     "slug": "fragata-pure-olive-oil",
-    "price": 1195.0,
+    "price": 1195,
     "image": "/images/products/fragata-pure-olive-oil.jpg",
     "stock": 2,
     "description": "Fragata Pure Olive Oil - High quality personal care product.",
@@ -5415,13 +5801,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1721
+    "rank": 1721,
+    "name": "Fragata Pure Olive Oil"
   },
   {
     "id": 1737,
     "title": "Freelance Miami Soap Dispenser",
     "slug": "freelance-miami-soap-dispenser",
-    "price": 469.0,
+    "price": 469,
     "image": "/images/products/freelance-miami-soap-dispenser.jpg",
     "stock": 6,
     "description": "Freelance Miami Soap Dispenser - High quality personal care product.",
@@ -5429,13 +5816,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1737
+    "rank": 1737,
+    "name": "Freelance Miami Soap Dispenser"
   },
   {
     "id": 1757,
     "title": "Gainda Toilate Cleaner 500Ml",
     "slug": "gainda-toilate-cleaner-500ml",
-    "price": 85.0,
+    "price": 85,
     "image": "/images/products/gainda-toilate-cleaner-500ml.jpg",
     "stock": 9,
     "description": "Gainda Toilate Cleaner 500Ml - High quality personal care product.",
@@ -5443,13 +5831,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1757
+    "rank": 1757,
+    "name": "Gainda Toilate Cleaner 500Ml"
   },
   {
     "id": 1766,
     "title": "Garnier Acno Fight Face Wash 100G",
     "slug": "garnier-acno-fight-face-wash-100g",
-    "price": 279.0,
+    "price": 279,
     "image": "/images/products/garnier-acno-fight-face-wash-100g.jpg",
     "stock": 4,
     "description": "Garnier Acno Fight Face Wash 100G - High quality personal care product.",
@@ -5457,13 +5846,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1766
+    "rank": 1766,
+    "name": "Garnier Acno Fight Face Wash 100G"
   },
   {
     "id": 1767,
     "title": "Garnier Acno Fight Face Wash 50G",
     "slug": "garnier-acno-fight-face-wash-50g",
-    "price": 119.0,
+    "price": 119,
     "image": "/images/products/garnier-acno-fight-face-wash-50g.jpg",
     "stock": 2,
     "description": "Garnier Acno Fight Face Wash 50G - High quality personal care product.",
@@ -5471,13 +5861,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1767
+    "rank": 1767,
+    "name": "Garnier Acno Fight Face Wash 50G"
   },
   {
     "id": 1781,
     "title": "Garnier Color Natural +Serum",
     "slug": "garnier-color-natural-serum",
-    "price": 219.0,
+    "price": 219,
     "image": "/images/products/garnier-color-natural-serum.jpg",
     "stock": 2,
     "description": "Garnier Color Natural +Serum - High quality personal care product.",
@@ -5485,13 +5876,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1781
+    "rank": 1781,
+    "name": "Garnier Color Natural +Serum"
   },
   {
     "id": 1787,
     "title": "Garnier Invisible Serum 30Ml",
     "slug": "garnier-invisible-serum-30ml",
-    "price": 299.0,
+    "price": 299,
     "image": "/images/products/garnier-invisible-serum-30ml.jpg",
     "stock": 4,
     "description": "Garnier Invisible Serum 30Ml - High quality personal care product.",
@@ -5499,13 +5891,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1787
+    "rank": 1787,
+    "name": "Garnier Invisible Serum 30Ml"
   },
   {
     "id": 1788,
     "title": "Garnier Men Face Wash 50G",
     "slug": "garnier-men-face-wash-50g",
-    "price": 110.0,
+    "price": 110,
     "image": "/images/products/garnier-men-face-wash-50g.jpg",
     "stock": 4,
     "description": "Garnier Men Face Wash 50G - High quality personal care product.",
@@ -5513,13 +5906,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1788
+    "rank": 1788,
+    "name": "Garnier Men Face Wash 50G"
   },
   {
     "id": 1793,
     "title": "Garnier Oil/Tubro Face Wash 100G",
     "slug": "garnier-oiltubro-face-wash-100g",
-    "price": 249.0,
+    "price": 249,
     "image": "/images/products/garnier-oiltubro-face-wash-100g.jpg",
     "stock": 7,
     "description": "Garnier Oil/Tubro Face Wash 100G - High quality personal care product.",
@@ -5527,13 +5921,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1793
+    "rank": 1793,
+    "name": "Garnier Oil/Tubro Face Wash 100G"
   },
   {
     "id": 1794,
     "title": "Garnier Over Night Serum",
     "slug": "garnier-over-night-serum",
-    "price": 329.0,
+    "price": 329,
     "image": "/images/products/garnier-over-night-serum.jpg",
     "stock": 3,
     "description": "Garnier Over Night Serum - High quality personal care product.",
@@ -5541,13 +5936,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1794
+    "rank": 1794,
+    "name": "Garnier Over Night Serum"
   },
   {
     "id": 1795,
     "title": "Garnier Serum Face Wash",
     "slug": "garnier-serum-face-wash",
-    "price": 129.0,
+    "price": 129,
     "image": "/images/products/garnier-serum-face-wash.jpg",
     "stock": 3,
     "description": "Garnier Serum Face Wash - High quality personal care product.",
@@ -5555,13 +5951,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1795
+    "rank": 1795,
+    "name": "Garnier Serum Face Wash"
   },
   {
     "id": 1796,
     "title": "Garnier Serum Mask 28G",
     "slug": "garnier-serum-mask-28g",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/garnier-serum-mask-28g.jpg",
     "stock": 16,
     "description": "Garnier Serum Mask 28G - High quality personal care product.",
@@ -5569,13 +5966,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1796
+    "rank": 1796,
+    "name": "Garnier Serum Mask 28G"
   },
   {
     "id": 1797,
     "title": "Garnier Shampoo Color -1.0",
     "slug": "garnier-shampoo-color--10",
-    "price": 35.0,
+    "price": 35,
     "image": "/images/products/garnier-shampoo-color--10.jpg",
     "stock": 8,
     "description": "Garnier Shampoo Color -1.0 - High quality personal care product.",
@@ -5583,13 +5981,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1797
+    "rank": 1797,
+    "name": "Garnier Shampoo Color -1.0"
   },
   {
     "id": 1798,
     "title": "Garnier Shampoocolor -3.0",
     "slug": "garnier-shampoocolor--30",
-    "price": 35.0,
+    "price": 35,
     "image": "/images/products/garnier-shampoocolor--30.jpg",
     "stock": 8,
     "description": "Garnier Shampoocolor -3.0 - High quality personal care product.",
@@ -5597,13 +5996,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1798
+    "rank": 1798,
+    "name": "Garnier Shampoocolor -3.0"
   },
   {
     "id": 1801,
     "title": "Garnier Vitamin C Sunscreen Spf50+",
     "slug": "garnier-vitamin-c-sunscreen-spf50",
-    "price": 399.0,
+    "price": 399,
     "image": "/images/products/garnier-vitamin-c-sunscreen-spf50.jpg",
     "stock": 2,
     "description": "Garnier Vitamin C Sunscreen Spf50+ - High quality personal care product.",
@@ -5611,13 +6011,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1801
+    "rank": 1801,
+    "name": "Garnier Vitamin C Sunscreen Spf50+"
   },
   {
     "id": 1802,
     "title": "Garnier Wrinkle Cream 40G",
     "slug": "garnier-wrinkle-cream-40g",
-    "price": 329.0,
+    "price": 329,
     "image": "/images/products/garnier-wrinkle-cream-40g.jpg",
     "stock": 3,
     "description": "Garnier Wrinkle Cream 40G - High quality personal care product.",
@@ -5625,13 +6026,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1802
+    "rank": 1802,
+    "name": "Garnier Wrinkle Cream 40G"
   },
   {
     "id": 1804,
     "title": "Gel Keychain Kb",
     "slug": "gel-keychain-kb",
-    "price": 299.0,
+    "price": 299,
     "image": "/images/products/gel-keychain-kb.jpg",
     "stock": 7,
     "description": "Gel Keychain Kb - High quality personal care product.",
@@ -5639,13 +6041,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1804
+    "rank": 1804,
+    "name": "Gel Keychain Kb"
   },
   {
     "id": 1823,
     "title": "Gianis Cookies & Cream 1L",
     "slug": "gianis-cookies-cream-1l",
-    "price": 460.0,
+    "price": 460,
     "image": "/images/products/gianis-cookies-cream-1l.jpg",
     "stock": 2,
     "description": "Gianis Cookies & Cream 1L - High quality personal care product.",
@@ -5653,13 +6056,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1823
+    "rank": 1823,
+    "name": "Gianis Cookies & Cream 1L"
   },
   {
     "id": 1830,
     "title": "Gillette 7 O'Clock Permasharp Razor",
     "slug": "gillette-7-oclock-permasharp-razor",
-    "price": 49.0,
+    "price": 49,
     "image": "/images/products/gillette-7-oclock-permasharp-razor.jpg",
     "stock": 2,
     "description": "Gillette 7 O'Clock Permasharp Razor - High quality personal care product.",
@@ -5667,13 +6071,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1830
+    "rank": 1830,
+    "name": "Gillette 7 O'Clock Permasharp Razor"
   },
   {
     "id": 1831,
     "title": "Gillette 7 O'Clock Pii Cart 5N",
     "slug": "gillette-7-oclock-pii-cart-5n",
-    "price": 240.0,
+    "price": 240,
     "image": "/images/products/gillette-7-oclock-pii-cart-5n.jpg",
     "stock": 3,
     "description": "Gillette 7 O'Clock Pii Cart 5N - High quality personal care product.",
@@ -5681,13 +6086,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1831
+    "rank": 1831,
+    "name": "Gillette 7 O'Clock Pii Cart 5N"
   },
   {
     "id": 1832,
     "title": "Gillette 7 O'Clock Pii Razor",
     "slug": "gillette-7-oclock-pii-razor",
-    "price": 130.0,
+    "price": 130,
     "image": "/images/products/gillette-7-oclock-pii-razor.jpg",
     "stock": 3,
     "description": "Gillette 7 O'Clock Pii Razor - High quality personal care product.",
@@ -5695,13 +6101,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1832
+    "rank": 1832,
+    "name": "Gillette 7 O'Clock Pii Razor"
   },
   {
     "id": 1833,
     "title": "Gillette 7 O'Clock Salon Box",
     "slug": "gillette-7-oclock-salon-box",
-    "price": 1200.0,
+    "price": 1200,
     "image": "/images/products/gillette-7-oclock-salon-box.jpg",
     "stock": 1,
     "description": "Gillette 7 O'Clock Salon Box - High quality personal care product.",
@@ -5709,13 +6116,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1833
+    "rank": 1833,
+    "name": "Gillette 7 O'Clock Salon Box"
   },
   {
     "id": 1834,
     "title": "Gillette 7 O'Clock St Razor",
     "slug": "gillette-7-oclock-st-razor",
-    "price": 125.0,
+    "price": 125,
     "image": "/images/products/gillette-7-oclock-st-razor.jpg",
     "stock": 3,
     "description": "Gillette 7 O'Clock St Razor - High quality personal care product.",
@@ -5723,13 +6131,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1834
+    "rank": 1834,
+    "name": "Gillette 7 O'Clock St Razor"
   },
   {
     "id": 1835,
     "title": "Gillette 7 O'Clock Super Platinum Razor",
     "slug": "gillette-7-oclock-super-platinum-razor",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/gillette-7-oclock-super-platinum-razor.jpg",
     "stock": 2,
     "description": "Gillette 7 O'Clock Super Platinum Razor - High quality personal care product.",
@@ -5737,13 +6146,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1835
+    "rank": 1835,
+    "name": "Gillette 7 O'Clock Super Platinum Razor"
   },
   {
     "id": 1836,
     "title": "Gillette Aqua Shave Gel",
     "slug": "gillette-aqua-shave-gel",
-    "price": 425.0,
+    "price": 425,
     "image": "/images/products/gillette-aqua-shave-gel.jpg",
     "stock": 1,
     "description": "Gillette Aqua Shave Gel - High quality personal care product.",
@@ -5751,13 +6161,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1836
+    "rank": 1836,
+    "name": "Gillette Aqua Shave Gel"
   },
   {
     "id": 1837,
     "title": "Gillette As Shave Splash Rb 100Ml",
     "slug": "gillette-as-shave-splash-rb-100ml",
-    "price": 499.0,
+    "price": 499,
     "image": "/images/products/gillette-as-shave-splash-rb-100ml.jpg",
     "stock": 2,
     "description": "Gillette As Shave Splash Rb 100Ml - High quality personal care product.",
@@ -5765,13 +6176,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1837
+    "rank": 1837,
+    "name": "Gillette As Shave Splash Rb 100Ml"
   },
   {
     "id": 1838,
     "title": "Gillette As Shave Splash Rb 50Ml",
     "slug": "gillette-as-shave-splash-rb-50ml",
-    "price": 325.0,
+    "price": 325,
     "image": "/images/products/gillette-as-shave-splash-rb-50ml.jpg",
     "stock": 3,
     "description": "Gillette As Shave Splash Rb 50Ml - High quality personal care product.",
@@ -5779,13 +6191,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1838
+    "rank": 1838,
+    "name": "Gillette As Shave Splash Rb 50Ml"
   },
   {
     "id": 1839,
     "title": "Gillette As Splash Icy Cool 100Ml",
     "slug": "gillette-as-splash-icy-cool-100ml",
-    "price": 499.0,
+    "price": 499,
     "image": "/images/products/gillette-as-splash-icy-cool-100ml.jpg",
     "stock": 3,
     "description": "Gillette As Splash Icy Cool 100Ml - High quality personal care product.",
@@ -5793,13 +6206,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1839
+    "rank": 1839,
+    "name": "Gillette As Splash Icy Cool 100Ml"
   },
   {
     "id": 1840,
     "title": "Gillette As Splash Icy Cool 50Ml",
     "slug": "gillette-as-splash-icy-cool-50ml",
-    "price": 325.0,
+    "price": 325,
     "image": "/images/products/gillette-as-splash-icy-cool-50ml.jpg",
     "stock": 2,
     "description": "Gillette As Splash Icy Cool 50Ml - High quality personal care product.",
@@ -5807,13 +6221,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1840
+    "rank": 1840,
+    "name": "Gillette As Splash Icy Cool 50Ml"
   },
   {
     "id": 1841,
     "title": "Gillette Bikni Rezar",
     "slug": "gillette-bikni-rezar",
-    "price": 299.0,
+    "price": 299,
     "image": "/images/products/gillette-bikni-rezar.jpg",
     "stock": 1,
     "description": "Gillette Bikni Rezar - High quality personal care product.",
@@ -5821,13 +6236,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1841
+    "rank": 1841,
+    "name": "Gillette Bikni Rezar"
   },
   {
     "id": 1842,
     "title": "Gillette Cofort Glide Shave Gel 195G",
     "slug": "gillette-cofort-glide-shave-gel-195g",
-    "price": 325.0,
+    "price": 325,
     "image": "/images/products/gillette-cofort-glide-shave-gel-195g.jpg",
     "stock": 1,
     "description": "Gillette Cofort Glide Shave Gel 195G - High quality personal care product.",
@@ -5835,13 +6251,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1842
+    "rank": 1842,
+    "name": "Gillette Cofort Glide Shave Gel 195G"
   },
   {
     "id": 1843,
     "title": "Gillette Comfortable Glide Shave Gel 70G",
     "slug": "gillette-comfortable-glide-shave-gel-70g",
-    "price": 175.0,
+    "price": 175,
     "image": "/images/products/gillette-comfortable-glide-shave-gel-70g.jpg",
     "stock": 1,
     "description": "Gillette Comfortable Glide Shave Gel 70G - High quality personal care product.",
@@ -5849,13 +6266,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1843
+    "rank": 1843,
+    "name": "Gillette Comfortable Glide Shave Gel 70G"
   },
   {
     "id": 1844,
     "title": "Gillette Cream Regular 30Gm",
     "slug": "gillette-cream-regular-30gm",
-    "price": 40.0,
+    "price": 40,
     "image": "/images/products/gillette-cream-regular-30gm.jpg",
     "stock": -1,
     "description": "Gillette Cream Regular 30Gm - High quality personal care product.",
@@ -5863,13 +6281,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1844
+    "rank": 1844,
+    "name": "Gillette Cream Regular 30Gm"
   },
   {
     "id": 1845,
     "title": "Gillette Dep Comfort Shave Gel 195",
     "slug": "gillette-dep-comfort-shave-gel-195",
-    "price": 375.0,
+    "price": 375,
     "image": "/images/products/gillette-dep-comfort-shave-gel-195.jpg",
     "stock": 1,
     "description": "Gillette Dep Comfort Shave Gel 195 - High quality personal care product.",
@@ -5877,13 +6296,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1845
+    "rank": 1845,
+    "name": "Gillette Dep Comfort Shave Gel 195"
   },
   {
     "id": 1846,
     "title": "Gillette Foam Charcoal 196Gm",
     "slug": "gillette-foam-charcoal-196gm",
-    "price": 249.0,
+    "price": 249,
     "image": "/images/products/gillette-foam-charcoal-196gm.jpg",
     "stock": 3,
     "description": "Gillette Foam Charcoal 196Gm - High quality personal care product.",
@@ -5891,13 +6311,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1846
+    "rank": 1846,
+    "name": "Gillette Foam Charcoal 196Gm"
   },
   {
     "id": 1847,
     "title": "Gillette Foam Lemon 196Gm",
     "slug": "gillette-foam-lemon-196gm",
-    "price": 249.0,
+    "price": 249,
     "image": "/images/products/gillette-foam-lemon-196gm.jpg",
     "stock": 3,
     "description": "Gillette Foam Lemon 196Gm - High quality personal care product.",
@@ -5905,13 +6326,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1847
+    "rank": 1847,
+    "name": "Gillette Foam Lemon 196Gm"
   },
   {
     "id": 1848,
     "title": "Gillette Foam Menthol 196Gm",
     "slug": "gillette-foam-menthol-196gm",
-    "price": 249.0,
+    "price": 249,
     "image": "/images/products/gillette-foam-menthol-196gm.jpg",
     "stock": 3,
     "description": "Gillette Foam Menthol 196Gm - High quality personal care product.",
@@ -5919,13 +6341,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1848
+    "rank": 1848,
+    "name": "Gillette Foam Menthol 196Gm"
   },
   {
     "id": 1849,
     "title": "Gillette Foam Neem 196Gm",
     "slug": "gillette-foam-neem-196gm",
-    "price": 249.0,
+    "price": 249,
     "image": "/images/products/gillette-foam-neem-196gm.jpg",
     "stock": 3,
     "description": "Gillette Foam Neem 196Gm - High quality personal care product.",
@@ -5933,13 +6356,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1849
+    "rank": 1849,
+    "name": "Gillette Foam Neem 196Gm"
   },
   {
     "id": 1850,
     "title": "Gillette Foam Regular 196Ml",
     "slug": "gillette-foam-regular-196ml",
-    "price": 225.0,
+    "price": 225,
     "image": "/images/products/gillette-foam-regular-196ml.jpg",
     "stock": 3,
     "description": "Gillette Foam Regular 196Ml - High quality personal care product.",
@@ -5947,13 +6371,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1850
+    "rank": 1850,
+    "name": "Gillette Foam Regular 196Ml"
   },
   {
     "id": 1851,
     "title": "Gillette Foam Regular 418G",
     "slug": "gillette-foam-regular-418g",
-    "price": 275.0,
+    "price": 275,
     "image": "/images/products/gillette-foam-regular-418g.jpg",
     "stock": 2,
     "description": "Gillette Foam Regular 418G - High quality personal care product.",
@@ -5961,13 +6386,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1851
+    "rank": 1851,
+    "name": "Gillette Foam Regular 418G"
   },
   {
     "id": 1852,
     "title": "Gillette Foam Regular 50Gm",
     "slug": "gillette-foam-regular-50gm",
-    "price": 90.0,
+    "price": 90,
     "image": "/images/products/gillette-foam-regular-50gm.jpg",
     "stock": 9,
     "description": "Gillette Foam Regular 50Gm - High quality personal care product.",
@@ -5975,13 +6401,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1852
+    "rank": 1852,
+    "name": "Gillette Foam Regular 50Gm"
   },
   {
     "id": 1853,
     "title": "Gillette Foam Sensitive 418G",
     "slug": "gillette-foam-sensitive-418g",
-    "price": 275.0,
+    "price": 275,
     "image": "/images/products/gillette-foam-sensitive-418g.jpg",
     "stock": 2,
     "description": "Gillette Foam Sensitive 418G - High quality personal care product.",
@@ -5989,13 +6416,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1853
+    "rank": 1853,
+    "name": "Gillette Foam Sensitive 418G"
   },
   {
     "id": 1854,
     "title": "Gillette Fusion5 4P",
     "slug": "gillette-fusion5-4p",
-    "price": 1149.0,
+    "price": 1149,
     "image": "/images/products/gillette-fusion5-4p.jpg",
     "stock": 3,
     "description": "Gillette Fusion5 4P - High quality personal care product.",
@@ -6003,13 +6431,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1854
+    "rank": 1854,
+    "name": "Gillette Fusion5 4P"
   },
   {
     "id": 1855,
     "title": "Gillette Fusion5 8P",
     "slug": "gillette-fusion5-8p",
-    "price": 2075.0,
+    "price": 2075,
     "image": "/images/products/gillette-fusion5-8p.jpg",
     "stock": 2,
     "description": "Gillette Fusion5 8P - High quality personal care product.",
@@ -6017,13 +6446,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1855
+    "rank": 1855,
+    "name": "Gillette Fusion5 8P"
   },
   {
     "id": 1856,
     "title": "Gillette Fusion5 Cart 2N",
     "slug": "gillette-fusion5-cart-2n",
-    "price": 625.0,
+    "price": 625,
     "image": "/images/products/gillette-fusion5-cart-2n.jpg",
     "stock": 3,
     "description": "Gillette Fusion5 Cart 2N - High quality personal care product.",
@@ -6031,13 +6461,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1856
+    "rank": 1856,
+    "name": "Gillette Fusion5 Cart 2N"
   },
   {
     "id": 1857,
     "title": "Gillette Fusion5 Razor",
     "slug": "gillette-fusion5-razor",
-    "price": 425.0,
+    "price": 425,
     "image": "/images/products/gillette-fusion5-razor.jpg",
     "stock": 2,
     "description": "Gillette Fusion5 Razor - High quality personal care product.",
@@ -6045,13 +6476,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1857
+    "rank": 1857,
+    "name": "Gillette Fusion5 Razor"
   },
   {
     "id": 1858,
     "title": "Gillette Fusion5 Venus Simply",
     "slug": "gillette-fusion5-venus-simply",
-    "price": 89.0,
+    "price": 89,
     "image": "/images/products/gillette-fusion5-venus-simply.jpg",
     "stock": 13,
     "description": "Gillette Fusion5 Venus Simply - High quality personal care product.",
@@ -6059,13 +6491,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1858
+    "rank": 1858,
+    "name": "Gillette Fusion5 Venus Simply"
   },
   {
     "id": 1859,
     "title": "Gillette Guard 1N",
     "slug": "gillette-guard-1n",
-    "price": 14.0,
+    "price": 14,
     "image": "/images/products/gillette-guard-1n.jpg",
     "stock": 8,
     "description": "Gillette Guard 1N - High quality personal care product.",
@@ -6073,13 +6506,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1859
+    "rank": 1859,
+    "name": "Gillette Guard 1N"
   },
   {
     "id": 1860,
     "title": "Gillette Guard 3 Razor",
     "slug": "gillette-guard-3-razor",
-    "price": 70.0,
+    "price": 70,
     "image": "/images/products/gillette-guard-3-razor.jpg",
     "stock": 3,
     "description": "Gillette Guard 3 Razor - High quality personal care product.",
@@ -6087,13 +6521,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1860
+    "rank": 1860,
+    "name": "Gillette Guard 3 Razor"
   },
   {
     "id": 1861,
     "title": "Gillette Guard 4N",
     "slug": "gillette-guard-4n",
-    "price": 40.0,
+    "price": 40,
     "image": "/images/products/gillette-guard-4n.jpg",
     "stock": 4,
     "description": "Gillette Guard 4N - High quality personal care product.",
@@ -6101,13 +6536,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1861
+    "rank": 1861,
+    "name": "Gillette Guard 4N"
   },
   {
     "id": 1862,
     "title": "Gillette Guard 4P",
     "slug": "gillette-guard-4p",
-    "price": 48.0,
+    "price": 48,
     "image": "/images/products/gillette-guard-4p.jpg",
     "stock": 4,
     "description": "Gillette Guard 4P - High quality personal care product.",
@@ -6115,13 +6551,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1862
+    "rank": 1862,
+    "name": "Gillette Guard 4P"
   },
   {
     "id": 1863,
     "title": "Gillette Guard 6",
     "slug": "gillette-guard-6",
-    "price": 200.0,
+    "price": 200,
     "image": "/images/products/gillette-guard-6.jpg",
     "stock": 4,
     "description": "Gillette Guard 6 - High quality personal care product.",
@@ -6129,13 +6566,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1863
+    "rank": 1863,
+    "name": "Gillette Guard 6"
   },
   {
     "id": 1864,
     "title": "Gillette Guard 8P",
     "slug": "gillette-guard-8p",
-    "price": 84.0,
+    "price": 84,
     "image": "/images/products/gillette-guard-8p.jpg",
     "stock": 4,
     "description": "Gillette Guard 8P - High quality personal care product.",
@@ -6143,13 +6581,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1864
+    "rank": 1864,
+    "name": "Gillette Guard 8P"
   },
   {
     "id": 1865,
     "title": "Gillette Guard Cream 125Gm",
     "slug": "gillette-guard-cream-125gm",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/gillette-guard-cream-125gm.jpg",
     "stock": 2,
     "description": "Gillette Guard Cream 125Gm - High quality personal care product.",
@@ -6157,13 +6596,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1865
+    "rank": 1865,
+    "name": "Gillette Guard Cream 125Gm"
   },
   {
     "id": 1866,
     "title": "Gillette Guard Cream 25Gm",
     "slug": "gillette-guard-cream-25gm",
-    "price": 29.0,
+    "price": 29,
     "image": "/images/products/gillette-guard-cream-25gm.jpg",
     "stock": 2,
     "description": "Gillette Guard Cream 25Gm - High quality personal care product.",
@@ -6171,13 +6611,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1866
+    "rank": 1866,
+    "name": "Gillette Guard Cream 25Gm"
   },
   {
     "id": 1867,
     "title": "Gillette Guard Sbd Razor",
     "slug": "gillette-guard-sbd-razor",
-    "price": 33.0,
+    "price": 33,
     "image": "/images/products/gillette-guard-sbd-razor.jpg",
     "stock": 2,
     "description": "Gillette Guard Sbd Razor - High quality personal care product.",
@@ -6185,13 +6626,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1867
+    "rank": 1867,
+    "name": "Gillette Guard Sbd Razor"
   },
   {
     "id": 1868,
     "title": "Gillette Guard Sbd Razor",
     "slug": "gillette-guard-sbd-razor",
-    "price": 125.0,
+    "price": 125,
     "image": "/images/products/gillette-guard-sbd-razor.jpg",
     "stock": 3,
     "description": "Gillette Guard Sbd Razor - High quality personal care product.",
@@ -6199,13 +6641,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1868
+    "rank": 1868,
+    "name": "Gillette Guard Sbd Razor"
   },
   {
     "id": 1869,
     "title": "Gillette Guard3 +2",
     "slug": "gillette-guard3-2",
-    "price": 120.0,
+    "price": 120,
     "image": "/images/products/gillette-guard3-2.jpg",
     "stock": 1,
     "description": "Gillette Guard3 +2 - High quality personal care product.",
@@ -6213,13 +6656,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1869
+    "rank": 1869,
+    "name": "Gillette Guard3 +2"
   },
   {
     "id": 1870,
     "title": "Gillette Guard3 1S",
     "slug": "gillette-guard3-1s",
-    "price": 35.0,
+    "price": 35,
     "image": "/images/products/gillette-guard3-1s.jpg",
     "stock": 3,
     "description": "Gillette Guard3 1S - High quality personal care product.",
@@ -6227,13 +6671,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1870
+    "rank": 1870,
+    "name": "Gillette Guard3 1S"
   },
   {
     "id": 1871,
     "title": "Gillette Guard3 3N",
     "slug": "gillette-guard3-3n",
-    "price": 110.0,
+    "price": 110,
     "image": "/images/products/gillette-guard3-3n.jpg",
     "stock": 2,
     "description": "Gillette Guard3 3N - High quality personal care product.",
@@ -6241,13 +6686,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1871
+    "rank": 1871,
+    "name": "Gillette Guard3 3N"
   },
   {
     "id": 1872,
     "title": "Gillette Icy Cool Shave Gel 195G",
     "slug": "gillette-icy-cool-shave-gel-195g",
-    "price": 425.0,
+    "price": 425,
     "image": "/images/products/gillette-icy-cool-shave-gel-195g.jpg",
     "stock": 1,
     "description": "Gillette Icy Cool Shave Gel 195G - High quality personal care product.",
@@ -6255,13 +6701,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1872
+    "rank": 1872,
+    "name": "Gillette Icy Cool Shave Gel 195G"
   },
   {
     "id": 1873,
     "title": "Gillette Lime Cream 30Gm",
     "slug": "gillette-lime-cream-30gm",
-    "price": 40.0,
+    "price": 40,
     "image": "/images/products/gillette-lime-cream-30gm.jpg",
     "stock": 4,
     "description": "Gillette Lime Cream 30Gm - High quality personal care product.",
@@ -6269,13 +6716,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1873
+    "rank": 1873,
+    "name": "Gillette Lime Cream 30Gm"
   },
   {
     "id": 1874,
     "title": "Gillette Lime Cream 70Gm",
     "slug": "gillette-lime-cream-70gm",
-    "price": 75.0,
+    "price": 75,
     "image": "/images/products/gillette-lime-cream-70gm.jpg",
     "stock": 3,
     "description": "Gillette Lime Cream 70Gm - High quality personal care product.",
@@ -6283,13 +6731,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1874
+    "rank": 1874,
+    "name": "Gillette Lime Cream 70Gm"
   },
   {
     "id": 1875,
     "title": "Gillette Mach3 4P",
     "slug": "gillette-mach3-4p",
-    "price": 599.0,
+    "price": 599,
     "image": "/images/products/gillette-mach3-4p.jpg",
     "stock": 3,
     "description": "Gillette Mach3 4P - High quality personal care product.",
@@ -6297,13 +6746,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1875
+    "rank": 1875,
+    "name": "Gillette Mach3 4P"
   },
   {
     "id": 1876,
     "title": "Gillette Mach3 Cart 2N",
     "slug": "gillette-mach3-cart-2n",
-    "price": 325.0,
+    "price": 325,
     "image": "/images/products/gillette-mach3-cart-2n.jpg",
     "stock": 3,
     "description": "Gillette Mach3 Cart 2N - High quality personal care product.",
@@ -6311,13 +6761,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1876
+    "rank": 1876,
+    "name": "Gillette Mach3 Cart 2N"
   },
   {
     "id": 1877,
     "title": "Gillette Mach3 Charcoal Cart 2N",
     "slug": "gillette-mach3-charcoal-cart-2n",
-    "price": 399.0,
+    "price": 399,
     "image": "/images/products/gillette-mach3-charcoal-cart-2n.jpg",
     "stock": 2,
     "description": "Gillette Mach3 Charcoal Cart 2N - High quality personal care product.",
@@ -6325,13 +6776,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1877
+    "rank": 1877,
+    "name": "Gillette Mach3 Charcoal Cart 2N"
   },
   {
     "id": 1878,
     "title": "Gillette Mach3 Charcoal Cart4N",
     "slug": "gillette-mach3-charcoal-cart4n",
-    "price": 725.0,
+    "price": 725,
     "image": "/images/products/gillette-mach3-charcoal-cart4n.jpg",
     "stock": 3,
     "description": "Gillette Mach3 Charcoal Cart4N - High quality personal care product.",
@@ -6339,13 +6791,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1878
+    "rank": 1878,
+    "name": "Gillette Mach3 Charcoal Cart4N"
   },
   {
     "id": 1879,
     "title": "Gillette Mach3 Turbo",
     "slug": "gillette-mach3-turbo",
-    "price": 399.0,
+    "price": 399,
     "image": "/images/products/gillette-mach3-turbo.jpg",
     "stock": 2,
     "description": "Gillette Mach3 Turbo - High quality personal care product.",
@@ -6353,13 +6806,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1879
+    "rank": 1879,
+    "name": "Gillette Mach3 Turbo"
   },
   {
     "id": 1880,
     "title": "Gillette Presto Razor B3G1",
     "slug": "gillette-presto-razor-b3g1",
-    "price": 75.0,
+    "price": 75,
     "image": "/images/products/gillette-presto-razor-b3g1.jpg",
     "stock": -4,
     "description": "Gillette Presto Razor B3G1 - High quality personal care product.",
@@ -6367,13 +6821,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1880
+    "rank": 1880,
+    "name": "Gillette Presto Razor B3G1"
   },
   {
     "id": 1881,
     "title": "Gillette Presto Razor B3G1",
     "slug": "gillette-presto-razor-b3g1",
-    "price": 25.0,
+    "price": 25,
     "image": "/images/products/gillette-presto-razor-b3g1.jpg",
     "stock": 43,
     "description": "Gillette Presto Razor B3G1 - High quality personal care product.",
@@ -6381,13 +6836,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1881
+    "rank": 1881,
+    "name": "Gillette Presto Razor B3G1"
   },
   {
     "id": 1882,
     "title": "Gillette Sgave Gel 25G",
     "slug": "gillette-sgave-gel-25g",
-    "price": 49.0,
+    "price": 49,
     "image": "/images/products/gillette-sgave-gel-25g.jpg",
     "stock": 2,
     "description": "Gillette Sgave Gel 25G - High quality personal care product.",
@@ -6395,13 +6851,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1882
+    "rank": 1882,
+    "name": "Gillette Sgave Gel 25G"
   },
   {
     "id": 1883,
     "title": "Gillette Shave Brush",
     "slug": "gillette-shave-brush",
-    "price": 80.0,
+    "price": 80,
     "image": "/images/products/gillette-shave-brush.jpg",
     "stock": 4,
     "description": "Gillette Shave Brush - High quality personal care product.",
@@ -6409,13 +6866,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1883
+    "rank": 1883,
+    "name": "Gillette Shave Brush"
   },
   {
     "id": 1884,
     "title": "Gillette Shaving Brush 7+1",
     "slug": "gillette-shaving-brush-71",
-    "price": 560.0,
+    "price": 560,
     "image": "/images/products/gillette-shaving-brush-71.jpg",
     "stock": 1,
     "description": "Gillette Shaving Brush 7+1 - High quality personal care product.",
@@ -6423,13 +6881,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1884
+    "rank": 1884,
+    "name": "Gillette Shaving Brush 7+1"
   },
   {
     "id": 1885,
     "title": "Gillette Shaving Cream 60G",
     "slug": "gillette-shaving-cream-60g",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/gillette-shaving-cream-60g.jpg",
     "stock": 2,
     "description": "Gillette Shaving Cream 60G - High quality personal care product.",
@@ -6437,13 +6896,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1885
+    "rank": 1885,
+    "name": "Gillette Shaving Cream 60G"
   },
   {
     "id": 1886,
     "title": "Gillette Vector+ 2N",
     "slug": "gillette-vector-2n",
-    "price": 95.0,
+    "price": 95,
     "image": "/images/products/gillette-vector-2n.jpg",
     "stock": 3,
     "description": "Gillette Vector+ 2N - High quality personal care product.",
@@ -6451,13 +6911,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1886
+    "rank": 1886,
+    "name": "Gillette Vector+ 2N"
   },
   {
     "id": 1887,
     "title": "Gillette Vector+ Cart 4N",
     "slug": "gillette-vector-cart-4n",
-    "price": 175.0,
+    "price": 175,
     "image": "/images/products/gillette-vector-cart-4n.jpg",
     "stock": 3,
     "description": "Gillette Vector+ Cart 4N - High quality personal care product.",
@@ -6465,13 +6926,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1887
+    "rank": 1887,
+    "name": "Gillette Vector+ Cart 4N"
   },
   {
     "id": 1888,
     "title": "Gillette Vector+ Razor",
     "slug": "gillette-vector-razor",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/gillette-vector-razor.jpg",
     "stock": 3,
     "description": "Gillette Vector+ Razor - High quality personal care product.",
@@ -6479,13 +6941,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1888
+    "rank": 1888,
+    "name": "Gillette Vector+ Razor"
   },
   {
     "id": 1889,
     "title": "Gillette Vector+6",
     "slug": "gillette-vector6",
-    "price": 235.0,
+    "price": 235,
     "image": "/images/products/gillette-vector6.jpg",
     "stock": 2,
     "description": "Gillette Vector+6 - High quality personal care product.",
@@ -6493,13 +6956,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1889
+    "rank": 1889,
+    "name": "Gillette Vector+6"
   },
   {
     "id": 1890,
     "title": "Gillette Venus  Rezar 449/-",
     "slug": "gillette-venus-rezar-449-",
-    "price": 449.0,
+    "price": 449,
     "image": "/images/products/gillette-venus-rezar-449-.jpg",
     "stock": 1,
     "description": "Gillette Venus  Rezar 449/- - High quality personal care product.",
@@ -6507,13 +6971,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1890
+    "rank": 1890,
+    "name": "Gillette Venus  Rezar 449/-"
   },
   {
     "id": 1891,
     "title": "Gillette Venus Comfortglide",
     "slug": "gillette-venus-comfortglide",
-    "price": 375.0,
+    "price": 375,
     "image": "/images/products/gillette-venus-comfortglide.jpg",
     "stock": 1,
     "description": "Gillette Venus Comfortglide - High quality personal care product.",
@@ -6521,13 +6986,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1891
+    "rank": 1891,
+    "name": "Gillette Venus Comfortglide"
   },
   {
     "id": 1892,
     "title": "Gillette Venus Comfortglide Cart 2N",
     "slug": "gillette-venus-comfortglide-cart-2n",
-    "price": 475.0,
+    "price": 475,
     "image": "/images/products/gillette-venus-comfortglide-cart-2n.jpg",
     "stock": 4,
     "description": "Gillette Venus Comfortglide Cart 2N - High quality personal care product.",
@@ -6535,13 +7001,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1892
+    "rank": 1892,
+    "name": "Gillette Venus Comfortglide Cart 2N"
   },
   {
     "id": 1893,
     "title": "Gillette Venus Razar",
     "slug": "gillette-venus-razar",
-    "price": 375.0,
+    "price": 375,
     "image": "/images/products/gillette-venus-razar.jpg",
     "stock": 1,
     "description": "Gillette Venus Razar - High quality personal care product.",
@@ -6549,13 +7016,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1893
+    "rank": 1893,
+    "name": "Gillette Venus Razar"
   },
   {
     "id": 1894,
     "title": "Gillette Venus Smooth Combo Pack",
     "slug": "gillette-venus-smooth-combo-pack",
-    "price": 674.0,
+    "price": 674,
     "image": "/images/products/gillette-venus-smooth-combo-pack.jpg",
     "stock": 1,
     "description": "Gillette Venus Smooth Combo Pack - High quality personal care product.",
@@ -6563,13 +7031,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1894
+    "rank": 1894,
+    "name": "Gillette Venus Smooth Combo Pack"
   },
   {
     "id": 1895,
     "title": "Gillette Venus Smooth Curve",
     "slug": "gillette-venus-smooth-curve",
-    "price": 549.0,
+    "price": 549,
     "image": "/images/products/gillette-venus-smooth-curve.jpg",
     "stock": 1,
     "description": "Gillette Venus Smooth Curve - High quality personal care product.",
@@ -6577,13 +7046,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1895
+    "rank": 1895,
+    "name": "Gillette Venus Smooth Curve"
   },
   {
     "id": 1896,
     "title": "Gillette Venus Smooth Curve Cart2N",
     "slug": "gillette-venus-smooth-curve-cart2n",
-    "price": 549.0,
+    "price": 549,
     "image": "/images/products/gillette-venus-smooth-curve-cart2n.jpg",
     "stock": 1,
     "description": "Gillette Venus Smooth Curve Cart2N - High quality personal care product.",
@@ -6591,13 +7061,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1896
+    "rank": 1896,
+    "name": "Gillette Venus Smooth Curve Cart2N"
   },
   {
     "id": 1897,
     "title": "Gillette Venus Smooth Razor",
     "slug": "gillette-venus-smooth-razor",
-    "price": 325.0,
+    "price": 325,
     "image": "/images/products/gillette-venus-smooth-razor.jpg",
     "stock": 1,
     "description": "Gillette Venus Smooth Razor - High quality personal care product.",
@@ -6605,13 +7076,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1897
+    "rank": 1897,
+    "name": "Gillette Venus Smooth Razor"
   },
   {
     "id": 1898,
     "title": "Gillette Venus Smooth Sensitive Cart 2N",
     "slug": "gillette-venus-smooth-sensitive-cart-2n",
-    "price": 375.0,
+    "price": 375,
     "image": "/images/products/gillette-venus-smooth-sensitive-cart-2n.jpg",
     "stock": 1,
     "description": "Gillette Venus Smooth Sensitive Cart 2N - High quality personal care product.",
@@ -6619,13 +7091,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1898
+    "rank": 1898,
+    "name": "Gillette Venus Smooth Sensitive Cart 2N"
   },
   {
     "id": 1899,
     "title": "Gillette Wilkinson Sword 5N",
     "slug": "gillette-wilkinson-sword-5n",
-    "price": 15.0,
+    "price": 15,
     "image": "/images/products/gillette-wilkinson-sword-5n.jpg",
     "stock": 10,
     "description": "Gillette Wilkinson Sword 5N - High quality personal care product.",
@@ -6633,13 +7106,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1899
+    "rank": 1899,
+    "name": "Gillette Wilkinson Sword 5N"
   },
   {
     "id": 1900,
     "title": "Gillette Wilkinson-5S De",
     "slug": "gillette-wilkinson-5s-de",
-    "price": 15.0,
+    "price": 15,
     "image": "/images/products/gillette-wilkinson-5s-de.jpg",
     "stock": 40,
     "description": "Gillette Wilkinson-5S De - High quality personal care product.",
@@ -6647,13 +7121,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1900
+    "rank": 1900,
+    "name": "Gillette Wilkinson-5S De"
   },
   {
     "id": 1902,
     "title": "Giolly Olive Pomace Oil 1L",
     "slug": "giolly-olive-pomace-oil-1l",
-    "price": 899.0,
+    "price": 899,
     "image": "/images/products/giolly-olive-pomace-oil-1l.jpg",
     "stock": -1,
     "description": "Giolly Olive Pomace Oil 1L - High quality personal care product.",
@@ -6661,13 +7136,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1902
+    "rank": 1902,
+    "name": "Giolly Olive Pomace Oil 1L"
   },
   {
     "id": 1905,
     "title": "Glass Oil Bollte 02",
     "slug": "glass-oil-bollte-02",
-    "price": 160.0,
+    "price": 160,
     "image": "/images/products/glass-oil-bollte-02.jpg",
     "stock": 1,
     "description": "Glass Oil Bollte 02 - High quality personal care product.",
@@ -6675,13 +7151,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1905
+    "rank": 1905,
+    "name": "Glass Oil Bollte 02"
   },
   {
     "id": 1906,
     "title": "Glass Oil Bottle",
     "slug": "glass-oil-bottle",
-    "price": 200.0,
+    "price": 200,
     "image": "/images/products/glass-oil-bottle.jpg",
     "stock": 1,
     "description": "Glass Oil Bottle - High quality personal care product.",
@@ -6689,13 +7166,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1906
+    "rank": 1906,
+    "name": "Glass Oil Bottle"
   },
   {
     "id": 1908,
     "title": "Glow&Lovely Ayurvedic Care Cream",
     "slug": "glowlovely-ayurvedic-care-cream",
-    "price": 88.0,
+    "price": 88,
     "image": "/images/products/glowlovely-ayurvedic-care-cream.jpg",
     "stock": 2,
     "description": "Glow&Lovely Ayurvedic Care Cream - High quality personal care product.",
@@ -6703,13 +7181,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1908
+    "rank": 1908,
+    "name": "Glow&Lovely Ayurvedic Care Cream"
   },
   {
     "id": 1909,
     "title": "Glow&Lovely Ayurvedic Cream 50G",
     "slug": "glowlovely-ayurvedic-cream-50g",
-    "price": 165.0,
+    "price": 165,
     "image": "/images/products/glowlovely-ayurvedic-cream-50g.jpg",
     "stock": 2,
     "description": "Glow&Lovely Ayurvedic Cream 50G - High quality personal care product.",
@@ -6717,13 +7196,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1909
+    "rank": 1909,
+    "name": "Glow&Lovely Ayurvedic Cream 50G"
   },
   {
     "id": 1910,
     "title": "Glow&Lovely Bb Cream",
     "slug": "glowlovely-bb-cream",
-    "price": 115.0,
+    "price": 115,
     "image": "/images/products/glowlovely-bb-cream.jpg",
     "stock": 4,
     "description": "Glow&Lovely Bb Cream - High quality personal care product.",
@@ -6731,13 +7211,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1910
+    "rank": 1910,
+    "name": "Glow&Lovely Bb Cream"
   },
   {
     "id": 1911,
     "title": "Glow&Lovely Bb Cream 01",
     "slug": "glowlovely-bb-cream-01",
-    "price": 220.0,
+    "price": 220,
     "image": "/images/products/glowlovely-bb-cream-01.jpg",
     "stock": 1,
     "description": "Glow&Lovely Bb Cream 01 - High quality personal care product.",
@@ -6745,13 +7226,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1911
+    "rank": 1911,
+    "name": "Glow&Lovely Bb Cream 01"
   },
   {
     "id": 1912,
     "title": "Glow&Lovely Bg Face Wash 100G",
     "slug": "glowlovely-bg-face-wash-100g",
-    "price": 175.0,
+    "price": 175,
     "image": "/images/products/glowlovely-bg-face-wash-100g.jpg",
     "stock": 1,
     "description": "Glow&Lovely Bg Face Wash 100G - High quality personal care product.",
@@ -6759,13 +7241,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1912
+    "rank": 1912,
+    "name": "Glow&Lovely Bg Face Wash 100G"
   },
   {
     "id": 1913,
     "title": "Glow&Lovely Bg Face Wash 50G",
     "slug": "glowlovely-bg-face-wash-50g",
-    "price": 85.0,
+    "price": 85,
     "image": "/images/products/glowlovely-bg-face-wash-50g.jpg",
     "stock": 2,
     "description": "Glow&Lovely Bg Face Wash 50G - High quality personal care product.",
@@ -6773,13 +7256,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1913
+    "rank": 1913,
+    "name": "Glow&Lovely Bg Face Wash 50G"
   },
   {
     "id": 1914,
     "title": "Glow&Lovely Cream Bb 01",
     "slug": "glowlovely-cream-bb-01",
-    "price": 54.0,
+    "price": 54,
     "image": "/images/products/glowlovely-cream-bb-01.jpg",
     "stock": 1,
     "description": "Glow&Lovely Cream Bb 01 - High quality personal care product.",
@@ -6787,13 +7271,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1914
+    "rank": 1914,
+    "name": "Glow&Lovely Cream Bb 01"
   },
   {
     "id": 1915,
     "title": "Glow&Lovely Face Serum 7Ml",
     "slug": "glowlovely-face-serum-7ml",
-    "price": 79.0,
+    "price": 79,
     "image": "/images/products/glowlovely-face-serum-7ml.jpg",
     "stock": 2,
     "description": "Glow&Lovely Face Serum 7Ml - High quality personal care product.",
@@ -6801,13 +7286,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1915
+    "rank": 1915,
+    "name": "Glow&Lovely Face Serum 7Ml"
   },
   {
     "id": 1918,
     "title": "Glow&Lovely Man Cream 25G",
     "slug": "glowlovely-man-cream-25g",
-    "price": 90.0,
+    "price": 90,
     "image": "/images/products/glowlovely-man-cream-25g.jpg",
     "stock": 3,
     "description": "Glow&Lovely Man Cream 25G - High quality personal care product.",
@@ -6815,13 +7301,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1918
+    "rank": 1918,
+    "name": "Glow&Lovely Man Cream 25G"
   },
   {
     "id": 1919,
     "title": "Glow&Lovely Man Cream 50G",
     "slug": "glowlovely-man-cream-50g",
-    "price": 175.0,
+    "price": 175,
     "image": "/images/products/glowlovely-man-cream-50g.jpg",
     "stock": 4,
     "description": "Glow&Lovely Man Cream 50G - High quality personal care product.",
@@ -6829,13 +7316,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1919
+    "rank": 1919,
+    "name": "Glow&Lovely Man Cream 50G"
   },
   {
     "id": 1920,
     "title": "Glow&Lovely Mv Cream 25G",
     "slug": "glowlovely-mv-cream-25g",
-    "price": 68.0,
+    "price": 68,
     "image": "/images/products/glowlovely-mv-cream-25g.jpg",
     "stock": 6,
     "description": "Glow&Lovely Mv Cream 25G - High quality personal care product.",
@@ -6843,13 +7331,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1920
+    "rank": 1920,
+    "name": "Glow&Lovely Mv Cream 25G"
   },
   {
     "id": 1921,
     "title": "Glow&Lovely Mv Cream 50G",
     "slug": "glowlovely-mv-cream-50g",
-    "price": 130.0,
+    "price": 130,
     "image": "/images/products/glowlovely-mv-cream-50g.jpg",
     "stock": 2,
     "description": "Glow&Lovely Mv Cream 50G - High quality personal care product.",
@@ -6857,13 +7346,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1921
+    "rank": 1921,
+    "name": "Glow&Lovely Mv Cream 50G"
   },
   {
     "id": 1922,
     "title": "Glow&Lovely Mv Cream 80G",
     "slug": "glowlovely-mv-cream-80g",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/glowlovely-mv-cream-80g.jpg",
     "stock": 3,
     "description": "Glow&Lovely Mv Cream 80G - High quality personal care product.",
@@ -6871,13 +7361,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1922
+    "rank": 1922,
+    "name": "Glow&Lovely Mv Cream 80G"
   },
   {
     "id": 1923,
     "title": "Glow&Lovely Mv Face Wash",
     "slug": "glowlovely-mv-face-wash",
-    "price": 85.0,
+    "price": 85,
     "image": "/images/products/glowlovely-mv-face-wash.jpg",
     "stock": 2,
     "description": "Glow&Lovely Mv Face Wash - High quality personal care product.",
@@ -6885,13 +7376,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1923
+    "rank": 1923,
+    "name": "Glow&Lovely Mv Face Wash"
   },
   {
     "id": 1924,
     "title": "Glow&Lovely Vita C Sunscreen Spf30++",
     "slug": "glowlovely-vita-c-sunscreen-spf30",
-    "price": 195.0,
+    "price": 195,
     "image": "/images/products/glowlovely-vita-c-sunscreen-spf30.jpg",
     "stock": 2,
     "description": "Glow&Lovely Vita C Sunscreen Spf30++ - High quality personal care product.",
@@ -6899,13 +7391,14 @@ const products = [
     "unit": "8909",
     "category": "personal-care",
     "popular": false,
-    "rank": 1924
+    "rank": 1924,
+    "name": "Glow&Lovely Vita C Sunscreen Spf30++"
   },
   {
     "id": 1925,
     "title": "Glow&Lovely Vita C Sunscreen Spf50++++",
     "slug": "glowlovely-vita-c-sunscreen-spf50",
-    "price": 275.0,
+    "price": 275,
     "image": "/images/products/glowlovely-vita-c-sunscreen-spf50.jpg",
     "stock": 2,
     "description": "Glow&Lovely Vita C Sunscreen Spf50++++ - High quality personal care product.",
@@ -6913,13 +7406,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1925
+    "rank": 1925,
+    "name": "Glow&Lovely Vita C Sunscreen Spf50++++"
   },
   {
     "id": 1926,
     "title": "Glow7Lovely Man Face Wash 100G",
     "slug": "glow7lovely-man-face-wash-100g",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/glow7lovely-man-face-wash-100g.jpg",
     "stock": 2,
     "description": "Glow7Lovely Man Face Wash 100G - High quality personal care product.",
@@ -6927,13 +7421,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1926
+    "rank": 1926,
+    "name": "Glow7Lovely Man Face Wash 100G"
   },
   {
     "id": 1934,
     "title": "Godraj Coconut Neem Soap",
     "slug": "godraj-coconut-neem-soap",
-    "price": 145.0,
+    "price": 145,
     "image": "/images/products/godraj-coconut-neem-soap.jpg",
     "stock": 1,
     "description": "Godraj Coconut Neem Soap - High quality personal care product.",
@@ -6941,13 +7436,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1934
+    "rank": 1934,
+    "name": "Godraj Coconut Neem Soap"
   },
   {
     "id": 1935,
     "title": "Godraj Hand Wash 10/-",
     "slug": "godraj-hand-wash-10-",
-    "price": 10.0,
+    "price": 10,
     "image": "/images/products/godraj-hand-wash-10-.jpg",
     "stock": 11,
     "description": "Godraj Hand Wash 10/- - High quality personal care product.",
@@ -6955,13 +7451,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1935
+    "rank": 1935,
+    "name": "Godraj Hand Wash 10/-"
   },
   {
     "id": 1936,
     "title": "Godraj Handwash Lime",
     "slug": "godraj-handwash-lime",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/godraj-handwash-lime.jpg",
     "stock": 11,
     "description": "Godraj Handwash Lime - High quality personal care product.",
@@ -6969,13 +7466,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1936
+    "rank": 1936,
+    "name": "Godraj Handwash Lime"
   },
   {
     "id": 1937,
     "title": "Godraj Neem Soap",
     "slug": "godraj-neem-soap",
-    "price": 140.0,
+    "price": 140,
     "image": "/images/products/godraj-neem-soap.jpg",
     "stock": 1,
     "description": "Godraj Neem Soap - High quality personal care product.",
@@ -6983,13 +7481,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1937
+    "rank": 1937,
+    "name": "Godraj Neem Soap"
   },
   {
     "id": 1943,
     "title": "Godrej Car Fragranc Gel",
     "slug": "godrej-car-fragranc-gel",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/godrej-car-fragranc-gel.jpg",
     "stock": 14,
     "description": "Godrej Car Fragranc Gel - High quality personal care product.",
@@ -6997,13 +7496,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1943
+    "rank": 1943,
+    "name": "Godrej Car Fragranc Gel"
   },
   {
     "id": 1946,
     "title": "Godrej Cinthol Soap Hs",
     "slug": "godrej-cinthol-soap-hs",
-    "price": 150.0,
+    "price": 150,
     "image": "/images/products/godrej-cinthol-soap-hs.jpg",
     "stock": 2,
     "description": "Godrej Cinthol Soap Hs - High quality personal care product.",
@@ -7011,13 +7511,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1946
+    "rank": 1946,
+    "name": "Godrej Cinthol Soap Hs"
   },
   {
     "id": 1947,
     "title": "Godrej Cinthol Soap O",
     "slug": "godrej-cinthol-soap-o",
-    "price": 195.0,
+    "price": 195,
     "image": "/images/products/godrej-cinthol-soap-o.jpg",
     "stock": 2,
     "description": "Godrej Cinthol Soap O - High quality personal care product.",
@@ -7025,13 +7526,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1947
+    "rank": 1947,
+    "name": "Godrej Cinthol Soap O"
   },
   {
     "id": 1951,
     "title": "Godrej Hand Wash Neem",
     "slug": "godrej-hand-wash-neem",
-    "price": 40.0,
+    "price": 40,
     "image": "/images/products/godrej-hand-wash-neem.jpg",
     "stock": 5,
     "description": "Godrej Hand Wash Neem - High quality personal care product.",
@@ -7039,13 +7541,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1951
+    "rank": 1951,
+    "name": "Godrej Hand Wash Neem"
   },
   {
     "id": 1952,
     "title": "Godrej Rich Creame 20G",
     "slug": "godrej-rich-creame-20g",
-    "price": 37.0,
+    "price": 37,
     "image": "/images/products/godrej-rich-creame-20g.jpg",
     "stock": 28,
     "description": "Godrej Rich Creame 20G - High quality personal care product.",
@@ -7053,13 +7556,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1952
+    "rank": 1952,
+    "name": "Godrej Rich Creame 20G"
   },
   {
     "id": 1962,
     "title": "Golden Prize Tuna Olive Oil",
     "slug": "golden-prize-tuna-olive-oil",
-    "price": 285.0,
+    "price": 285,
     "image": "/images/products/golden-prize-tuna-olive-oil.jpg",
     "stock": 3,
     "description": "Golden Prize Tuna Olive Oil - High quality personal care product.",
@@ -7067,13 +7571,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1962
+    "rank": 1962,
+    "name": "Golden Prize Tuna Olive Oil"
   },
   {
     "id": 1963,
     "title": "Golden Prize Tuna Soya Bean Oil",
     "slug": "golden-prize-tuna-soya-bean-oil",
-    "price": 240.0,
+    "price": 240,
     "image": "/images/products/golden-prize-tuna-soya-bean-oil.jpg",
     "stock": 3,
     "description": "Golden Prize Tuna Soya Bean Oil - High quality personal care product.",
@@ -7081,13 +7586,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1963
+    "rank": 1963,
+    "name": "Golden Prize Tuna Soya Bean Oil"
   },
   {
     "id": 1990,
     "title": "Gubb Bath Brush With Hand",
     "slug": "gubb-bath-brush-with-hand",
-    "price": 395.0,
+    "price": 395,
     "image": "/images/products/gubb-bath-brush-with-hand.jpg",
     "stock": 2,
     "description": "Gubb Bath Brush With Hand - High quality personal care product.",
@@ -7095,13 +7601,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1990
+    "rank": 1990,
+    "name": "Gubb Bath Brush With Hand"
   },
   {
     "id": 1991,
     "title": "Gubb Bath Brush With Handle",
     "slug": "gubb-bath-brush-with-handle",
-    "price": 345.0,
+    "price": 345,
     "image": "/images/products/gubb-bath-brush-with-handle.jpg",
     "stock": 1,
     "description": "Gubb Bath Brush With Handle - High quality personal care product.",
@@ -7109,13 +7616,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 1991
+    "rank": 1991,
+    "name": "Gubb Bath Brush With Handle"
   },
   {
     "id": 2017,
     "title": "Gubb Face Toweles",
     "slug": "gubb-face-toweles",
-    "price": 275.0,
+    "price": 275,
     "image": "/images/products/gubb-face-toweles.jpg",
     "stock": 1,
     "description": "Gubb Face Toweles - High quality personal care product.",
@@ -7123,13 +7631,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2017
+    "rank": 2017,
+    "name": "Gubb Face Toweles"
   },
   {
     "id": 2018,
     "title": "Gubb Foot Brush With Stone",
     "slug": "gubb-foot-brush-with-stone",
-    "price": 185.0,
+    "price": 185,
     "image": "/images/products/gubb-foot-brush-with-stone.jpg",
     "stock": 2,
     "description": "Gubb Foot Brush With Stone - High quality personal care product.",
@@ -7137,13 +7646,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2018
+    "rank": 2018,
+    "name": "Gubb Foot Brush With Stone"
   },
   {
     "id": 2021,
     "title": "Gubb Hair Brush Coloring",
     "slug": "gubb-hair-brush-coloring",
-    "price": 75.0,
+    "price": 75,
     "image": "/images/products/gubb-hair-brush-coloring.jpg",
     "stock": 9,
     "description": "Gubb Hair Brush Coloring - High quality personal care product.",
@@ -7151,13 +7661,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2021
+    "rank": 2021,
+    "name": "Gubb Hair Brush Coloring"
   },
   {
     "id": 2024,
     "title": "Gubb Nail Cum Foot Brush",
     "slug": "gubb-nail-cum-foot-brush",
-    "price": 110.0,
+    "price": 110,
     "image": "/images/products/gubb-nail-cum-foot-brush.jpg",
     "stock": 2,
     "description": "Gubb Nail Cum Foot Brush - High quality personal care product.",
@@ -7165,13 +7676,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2024
+    "rank": 2024,
+    "name": "Gubb Nail Cum Foot Brush"
   },
   {
     "id": 2028,
     "title": "Gubb Oval Brush",
     "slug": "gubb-oval-brush",
-    "price": 325.0,
+    "price": 325,
     "image": "/images/products/gubb-oval-brush.jpg",
     "stock": 2,
     "description": "Gubb Oval Brush - High quality personal care product.",
@@ -7179,13 +7691,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2028
+    "rank": 2028,
+    "name": "Gubb Oval Brush"
   },
   {
     "id": 2030,
     "title": "Gubb Ovel Wooden Hair Brush",
     "slug": "gubb-ovel-wooden-hair-brush",
-    "price": 520.0,
+    "price": 520,
     "image": "/images/products/gubb-ovel-wooden-hair-brush.jpg",
     "stock": 2,
     "description": "Gubb Ovel Wooden Hair Brush - High quality personal care product.",
@@ -7193,13 +7706,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2030
+    "rank": 2030,
+    "name": "Gubb Ovel Wooden Hair Brush"
   },
   {
     "id": 2031,
     "title": "Gubb Paddle  Brush L",
     "slug": "gubb-paddle-brush-l",
-    "price": 375.0,
+    "price": 375,
     "image": "/images/products/gubb-paddle-brush-l.jpg",
     "stock": 2,
     "description": "Gubb Paddle  Brush L - High quality personal care product.",
@@ -7207,13 +7721,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2031
+    "rank": 2031,
+    "name": "Gubb Paddle  Brush L"
   },
   {
     "id": 2032,
     "title": "Gubb Paddle Brush M",
     "slug": "gubb-paddle-brush-m",
-    "price": 345.0,
+    "price": 345,
     "image": "/images/products/gubb-paddle-brush-m.jpg",
     "stock": 2,
     "description": "Gubb Paddle Brush M - High quality personal care product.",
@@ -7221,13 +7736,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2032
+    "rank": 2032,
+    "name": "Gubb Paddle Brush M"
   },
   {
     "id": 2039,
     "title": "Gubb Round Brush",
     "slug": "gubb-round-brush",
-    "price": 265.0,
+    "price": 265,
     "image": "/images/products/gubb-round-brush.jpg",
     "stock": 1,
     "description": "Gubb Round Brush - High quality personal care product.",
@@ -7235,13 +7751,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2039
+    "rank": 2039,
+    "name": "Gubb Round Brush"
   },
   {
     "id": 2040,
     "title": "Gubb Round Brush Sheel",
     "slug": "gubb-round-brush-sheel",
-    "price": 395.0,
+    "price": 395,
     "image": "/images/products/gubb-round-brush-sheel.jpg",
     "stock": 2,
     "description": "Gubb Round Brush Sheel - High quality personal care product.",
@@ -7249,13 +7766,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2040
+    "rank": 2040,
+    "name": "Gubb Round Brush Sheel"
   },
   {
     "id": 2044,
     "title": "Gubb Santo Stal;Iong Brush",
     "slug": "gubb-santo-staliong-brush",
-    "price": 315.0,
+    "price": 315,
     "image": "/images/products/gubb-santo-staliong-brush.jpg",
     "stock": 2,
     "description": "Gubb Santo Stal;Iong Brush - High quality personal care product.",
@@ -7263,13 +7781,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2044
+    "rank": 2044,
+    "name": "Gubb Santo Stal;Iong Brush"
   },
   {
     "id": 2052,
     "title": "Gubb Sh Paddle Brush",
     "slug": "gubb-sh-paddle-brush",
-    "price": 415.0,
+    "price": 415,
     "image": "/images/products/gubb-sh-paddle-brush.jpg",
     "stock": 2,
     "description": "Gubb Sh Paddle Brush - High quality personal care product.",
@@ -7277,13 +7796,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2052
+    "rank": 2052,
+    "name": "Gubb Sh Paddle Brush"
   },
   {
     "id": 2054,
     "title": "Gubb Sty Styling Brush",
     "slug": "gubb-sty-styling-brush",
-    "price": 250.0,
+    "price": 250,
     "image": "/images/products/gubb-sty-styling-brush.jpg",
     "stock": 2,
     "description": "Gubb Sty Styling Brush - High quality personal care product.",
@@ -7291,13 +7811,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2054
+    "rank": 2054,
+    "name": "Gubb Sty Styling Brush"
   },
   {
     "id": 2055,
     "title": "Gubb Styler Round Brush",
     "slug": "gubb-styler-round-brush",
-    "price": 265.0,
+    "price": 265,
     "image": "/images/products/gubb-styler-round-brush.jpg",
     "stock": 2,
     "description": "Gubb Styler Round Brush - High quality personal care product.",
@@ -7305,13 +7826,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2055
+    "rank": 2055,
+    "name": "Gubb Styler Round Brush"
   },
   {
     "id": 2056,
     "title": "Gubb Styling Brush",
     "slug": "gubb-styling-brush",
-    "price": 315.0,
+    "price": 315,
     "image": "/images/products/gubb-styling-brush.jpg",
     "stock": 2,
     "description": "Gubb Styling Brush - High quality personal care product.",
@@ -7319,13 +7841,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2056
+    "rank": 2056,
+    "name": "Gubb Styling Brush"
   },
   {
     "id": 2057,
     "title": "Gubb Styling Brush Sheel",
     "slug": "gubb-styling-brush-sheel",
-    "price": 289.0,
+    "price": 289,
     "image": "/images/products/gubb-styling-brush-sheel.jpg",
     "stock": 2,
     "description": "Gubb Styling Brush Sheel - High quality personal care product.",
@@ -7333,13 +7856,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2057
+    "rank": 2057,
+    "name": "Gubb Styling Brush Sheel"
   },
   {
     "id": 2070,
     "title": "Gubb V Styling Brush",
     "slug": "gubb-v-styling-brush",
-    "price": 250.0,
+    "price": 250,
     "image": "/images/products/gubb-v-styling-brush.jpg",
     "stock": 2,
     "description": "Gubb V Styling Brush - High quality personal care product.",
@@ -7347,13 +7871,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2070
+    "rank": 2070,
+    "name": "Gubb V Styling Brush"
   },
   {
     "id": 2077,
     "title": "Gubb Wooden Oval Brush",
     "slug": "gubb-wooden-oval-brush",
-    "price": 415.0,
+    "price": 415,
     "image": "/images/products/gubb-wooden-oval-brush.jpg",
     "stock": 2,
     "description": "Gubb Wooden Oval Brush - High quality personal care product.",
@@ -7361,13 +7886,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2077
+    "rank": 2077,
+    "name": "Gubb Wooden Oval Brush"
   },
   {
     "id": 2080,
     "title": "H & S Anti Hairfall Shampoo 340Ml",
     "slug": "h-s-anti-hairfall-shampoo-340ml",
-    "price": 420.0,
+    "price": 420,
     "image": "/images/products/h-s-anti-hairfall-shampoo-340ml.jpg",
     "stock": 2,
     "description": "H & S Anti Hairfall Shampoo 340Ml - High quality personal care product.",
@@ -7375,13 +7901,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2080
+    "rank": 2080,
+    "name": "H & S Anti Hairfall Shampoo 340Ml"
   },
   {
     "id": 2083,
     "title": "H & S Shampoo 2In1 Active Protect 180Ml",
     "slug": "h-s-shampoo-2in1-active-protect-180ml",
-    "price": 265.0,
+    "price": 265,
     "image": "/images/products/h-s-shampoo-2in1-active-protect-180ml.jpg",
     "stock": 3,
     "description": "H & S Shampoo 2In1 Active Protect 180Ml - High quality personal care product.",
@@ -7389,13 +7916,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2083
+    "rank": 2083,
+    "name": "H & S Shampoo 2In1 Active Protect 180Ml"
   },
   {
     "id": 2084,
     "title": "H & S Shampoo 2In1 Active Protect 650Ml",
     "slug": "h-s-shampoo-2in1-active-protect-650ml",
-    "price": 1259.0,
+    "price": 1259,
     "image": "/images/products/h-s-shampoo-2in1-active-protect-650ml.jpg",
     "stock": 1,
     "description": "H & S Shampoo 2In1 Active Protect 650Ml - High quality personal care product.",
@@ -7403,13 +7931,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2084
+    "rank": 2084,
+    "name": "H & S Shampoo 2In1 Active Protect 650Ml"
   },
   {
     "id": 2085,
     "title": "H & S Shampoo 2In1 Anti Hairfall 180Ml",
     "slug": "h-s-shampoo-2in1-anti-hairfall-180ml",
-    "price": 280.0,
+    "price": 280,
     "image": "/images/products/h-s-shampoo-2in1-anti-hairfall-180ml.jpg",
     "stock": 1,
     "description": "H & S Shampoo 2In1 Anti Hairfall 180Ml - High quality personal care product.",
@@ -7417,13 +7946,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2085
+    "rank": 2085,
+    "name": "H & S Shampoo 2In1 Anti Hairfall 180Ml"
   },
   {
     "id": 2086,
     "title": "H & S Shampoo 2In1 Anti Hairfall 340Ml",
     "slug": "h-s-shampoo-2in1-anti-hairfall-340ml",
-    "price": 525.0,
+    "price": 525,
     "image": "/images/products/h-s-shampoo-2in1-anti-hairfall-340ml.jpg",
     "stock": 3,
     "description": "H & S Shampoo 2In1 Anti Hairfall 340Ml - High quality personal care product.",
@@ -7431,13 +7961,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2086
+    "rank": 2086,
+    "name": "H & S Shampoo 2In1 Anti Hairfall 340Ml"
   },
   {
     "id": 2087,
     "title": "H & S Shampoo 2In1 Anti Hairfall 650Ml",
     "slug": "h-s-shampoo-2in1-anti-hairfall-650ml",
-    "price": 1259.0,
+    "price": 1259,
     "image": "/images/products/h-s-shampoo-2in1-anti-hairfall-650ml.jpg",
     "stock": 2,
     "description": "H & S Shampoo 2In1 Anti Hairfall 650Ml - High quality personal care product.",
@@ -7445,13 +7976,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2087
+    "rank": 2087,
+    "name": "H & S Shampoo 2In1 Anti Hairfall 650Ml"
   },
   {
     "id": 2088,
     "title": "H & S Shampoo 2In1 Ap 650Ml",
     "slug": "h-s-shampoo-2in1-ap-650ml",
-    "price": 1169.0,
+    "price": 1169,
     "image": "/images/products/h-s-shampoo-2in1-ap-650ml.jpg",
     "stock": 1,
     "description": "H & S Shampoo 2In1 Ap 650Ml - High quality personal care product.",
@@ -7459,13 +7991,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2088
+    "rank": 2088,
+    "name": "H & S Shampoo 2In1 Ap 650Ml"
   },
   {
     "id": 2089,
     "title": "H & S Shampoo 2In1 Smooth & Silky 180Ml",
     "slug": "h-s-shampoo-2in1-smooth-silky-180ml",
-    "price": 265.0,
+    "price": 265,
     "image": "/images/products/h-s-shampoo-2in1-smooth-silky-180ml.jpg",
     "stock": 3,
     "description": "H & S Shampoo 2In1 Smooth & Silky 180Ml - High quality personal care product.",
@@ -7473,13 +8006,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2089
+    "rank": 2089,
+    "name": "H & S Shampoo 2In1 Smooth & Silky 180Ml"
   },
   {
     "id": 2090,
     "title": "H & S Shampoo 2In1 Smooth & Silky 180Ml",
     "slug": "h-s-shampoo-2in1-smooth-silky-180ml",
-    "price": 280.0,
+    "price": 280,
     "image": "/images/products/h-s-shampoo-2in1-smooth-silky-180ml.jpg",
     "stock": 3,
     "description": "H & S Shampoo 2In1 Smooth & Silky 180Ml - High quality personal care product.",
@@ -7487,13 +8021,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2090
+    "rank": 2090,
+    "name": "H & S Shampoo 2In1 Smooth & Silky 180Ml"
   },
   {
     "id": 2091,
     "title": "H & S Shampoo 2In1 Smooth & Silky 340Ml",
     "slug": "h-s-shampoo-2in1-smooth-silky-340ml",
-    "price": 525.0,
+    "price": 525,
     "image": "/images/products/h-s-shampoo-2in1-smooth-silky-340ml.jpg",
     "stock": 2,
     "description": "H & S Shampoo 2In1 Smooth & Silky 340Ml - High quality personal care product.",
@@ -7501,13 +8036,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2091
+    "rank": 2091,
+    "name": "H & S Shampoo 2In1 Smooth & Silky 340Ml"
   },
   {
     "id": 2092,
     "title": "H & S Shampoo 2In1 Smooth & Silky 650Ml",
     "slug": "h-s-shampoo-2in1-smooth-silky-650ml",
-    "price": 1259.0,
+    "price": 1259,
     "image": "/images/products/h-s-shampoo-2in1-smooth-silky-650ml.jpg",
     "stock": 2,
     "description": "H & S Shampoo 2In1 Smooth & Silky 650Ml - High quality personal care product.",
@@ -7515,13 +8051,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2092
+    "rank": 2092,
+    "name": "H & S Shampoo 2In1 Smooth & Silky 650Ml"
   },
   {
     "id": 2093,
     "title": "H & S Shampoo 7In1 180Ml",
     "slug": "h-s-shampoo-7in1-180ml",
-    "price": 265.0,
+    "price": 265,
     "image": "/images/products/h-s-shampoo-7in1-180ml.jpg",
     "stock": 2,
     "description": "H & S Shampoo 7In1 180Ml - High quality personal care product.",
@@ -7529,13 +8066,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2093
+    "rank": 2093,
+    "name": "H & S Shampoo 7In1 180Ml"
   },
   {
     "id": 2094,
     "title": "H & S Shampoo 7In1 340Ml",
     "slug": "h-s-shampoo-7in1-340ml",
-    "price": 525.0,
+    "price": 525,
     "image": "/images/products/h-s-shampoo-7in1-340ml.jpg",
     "stock": 1,
     "description": "H & S Shampoo 7In1 340Ml - High quality personal care product.",
@@ -7543,13 +8081,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2094
+    "rank": 2094,
+    "name": "H & S Shampoo 7In1 340Ml"
   },
   {
     "id": 2095,
     "title": "H & S Shampoo Cool Menthol 340 Ml",
     "slug": "h-s-shampoo-cool-menthol-340-ml",
-    "price": 525.0,
+    "price": 525,
     "image": "/images/products/h-s-shampoo-cool-menthol-340-ml.jpg",
     "stock": 2,
     "description": "H & S Shampoo Cool Menthol 340 Ml - High quality personal care product.",
@@ -7557,13 +8096,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2095
+    "rank": 2095,
+    "name": "H & S Shampoo Cool Menthol 340 Ml"
   },
   {
     "id": 2096,
     "title": "H & S Shampoo Cool Menthol 340Ml",
     "slug": "h-s-shampoo-cool-menthol-340ml",
-    "price": 420.0,
+    "price": 420,
     "image": "/images/products/h-s-shampoo-cool-menthol-340ml.jpg",
     "stock": 5,
     "description": "H & S Shampoo Cool Menthol 340Ml - High quality personal care product.",
@@ -7571,13 +8111,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2096
+    "rank": 2096,
+    "name": "H & S Shampoo Cool Menthol 340Ml"
   },
   {
     "id": 2097,
     "title": "H & S Shampoo Lemon Fresh 180Ml",
     "slug": "h-s-shampoo-lemon-fresh-180ml",
-    "price": 215.0,
+    "price": 215,
     "image": "/images/products/h-s-shampoo-lemon-fresh-180ml.jpg",
     "stock": 3,
     "description": "H & S Shampoo Lemon Fresh 180Ml - High quality personal care product.",
@@ -7585,13 +8126,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2097
+    "rank": 2097,
+    "name": "H & S Shampoo Lemon Fresh 180Ml"
   },
   {
     "id": 2098,
     "title": "H & S Shampoo Silky Black",
     "slug": "h-s-shampoo-silky-black",
-    "price": 215.0,
+    "price": 215,
     "image": "/images/products/h-s-shampoo-silky-black.jpg",
     "stock": 3,
     "description": "H & S Shampoo Silky Black - High quality personal care product.",
@@ -7599,13 +8141,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2098
+    "rank": 2098,
+    "name": "H & S Shampoo Silky Black"
   },
   {
     "id": 2099,
     "title": "H & S Shampoo Silky Black 340Ml",
     "slug": "h-s-shampoo-silky-black-340ml",
-    "price": 420.0,
+    "price": 420,
     "image": "/images/products/h-s-shampoo-silky-black-340ml.jpg",
     "stock": 3,
     "description": "H & S Shampoo Silky Black 340Ml - High quality personal care product.",
@@ -7613,13 +8156,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2099
+    "rank": 2099,
+    "name": "H & S Shampoo Silky Black 340Ml"
   },
   {
     "id": 2100,
     "title": "H&S Mentol Shampoo",
     "slug": "hs-mentol-shampoo",
-    "price": 205.0,
+    "price": 205,
     "image": "/images/products/hs-mentol-shampoo.jpg",
     "stock": -1,
     "description": "H&S Mentol Shampoo - High quality personal care product.",
@@ -7627,13 +8171,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2100
+    "rank": 2100,
+    "name": "H&S Mentol Shampoo"
   },
   {
     "id": 2108,
     "title": "Hair & Care Aloevera Oil 100Ml",
     "slug": "hair-care-aloevera-oil-100ml",
-    "price": 65.0,
+    "price": 65,
     "image": "/images/products/hair-care-aloevera-oil-100ml.jpg",
     "stock": 1,
     "description": "Hair & Care Aloevera Oil 100Ml - High quality personal care product.",
@@ -7641,13 +8186,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2108
+    "rank": 2108,
+    "name": "Hair & Care Aloevera Oil 100Ml"
   },
   {
     "id": 2159,
     "title": "Hamam Pure Neem Oil Soap 100Gm",
     "slug": "hamam-pure-neem-oil-soap-100gm",
-    "price": 43.0,
+    "price": 43,
     "image": "/images/products/hamam-pure-neem-oil-soap-100gm.jpg",
     "stock": 3,
     "description": "Hamam Pure Neem Oil Soap 100Gm - High quality personal care product.",
@@ -7655,13 +8201,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2159
+    "rank": 2159,
+    "name": "Hamam Pure Neem Oil Soap 100Gm"
   },
   {
     "id": 2160,
     "title": "Hamam Pure Neem Oil Soap 4X100Gm",
     "slug": "hamam-pure-neem-oil-soap-4x100gm",
-    "price": 168.0,
+    "price": 168,
     "image": "/images/products/hamam-pure-neem-oil-soap-4x100gm.jpg",
     "stock": 2,
     "description": "Hamam Pure Neem Oil Soap 4X100Gm - High quality personal care product.",
@@ -7669,13 +8216,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2160
+    "rank": 2160,
+    "name": "Hamam Pure Neem Oil Soap 4X100Gm"
   },
   {
     "id": 2200,
     "title": "Happy Birthday Foil Bt",
     "slug": "happy-birthday-foil-bt",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/happy-birthday-foil-bt.jpg",
     "stock": 4,
     "description": "Happy Birthday Foil Bt - High quality personal care product.",
@@ -7683,13 +8231,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2200
+    "rank": 2200,
+    "name": "Happy Birthday Foil Bt"
   },
   {
     "id": 2235,
     "title": "Hershey'S Coookies N Cream Chocolate",
     "slug": "hersheys-coookies-n-cream-chocolate",
-    "price": 150.0,
+    "price": 150,
     "image": "/images/products/hersheys-coookies-n-cream-chocolate.jpg",
     "stock": 4,
     "description": "Hershey'S Coookies N Cream Chocolate - High quality personal care product.",
@@ -7697,13 +8246,14 @@ const products = [
     "unit": "6942",
     "category": "personal-care",
     "popular": false,
-    "rank": 2235
+    "rank": 2235,
+    "name": "Hershey'S Coookies N Cream Chocolate"
   },
   {
     "id": 2236,
     "title": "Hershey'S Creamy Milk Chocolate",
     "slug": "hersheys-creamy-milk-chocolate",
-    "price": 140.0,
+    "price": 140,
     "image": "/images/products/hersheys-creamy-milk-chocolate.jpg",
     "stock": 7,
     "description": "Hershey'S Creamy Milk Chocolate - High quality personal care product.",
@@ -7711,13 +8261,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2236
+    "rank": 2236,
+    "name": "Hershey'S Creamy Milk Chocolate"
   },
   {
     "id": 2260,
     "title": "Himalaya Aloe Vera Gel",
     "slug": "himalaya-aloe-vera-gel",
-    "price": 90.0,
+    "price": 90,
     "image": "/images/products/himalaya-aloe-vera-gel.jpg",
     "stock": 3,
     "description": "Himalaya Aloe Vera Gel - High quality personal care product.",
@@ -7725,13 +8276,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2260
+    "rank": 2260,
+    "name": "Himalaya Aloe Vera Gel"
   },
   {
     "id": 2261,
     "title": "Himalaya Anti Dandruff Hair Cream",
     "slug": "himalaya-anti-dandruff-hair-cream",
-    "price": 100.0,
+    "price": 100,
     "image": "/images/products/himalaya-anti-dandruff-hair-cream.jpg",
     "stock": 3,
     "description": "Himalaya Anti Dandruff Hair Cream - High quality personal care product.",
@@ -7739,13 +8291,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2261
+    "rank": 2261,
+    "name": "Himalaya Anti Dandruff Hair Cream"
   },
   {
     "id": 2263,
     "title": "Himalaya Anti Hair Fall Cream",
     "slug": "himalaya-anti-hair-fall-cream",
-    "price": 100.0,
+    "price": 100,
     "image": "/images/products/himalaya-anti-hair-fall-cream.jpg",
     "stock": 3,
     "description": "Himalaya Anti Hair Fall Cream - High quality personal care product.",
@@ -7753,13 +8306,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2263
+    "rank": 2263,
+    "name": "Himalaya Anti Hair Fall Cream"
   },
   {
     "id": 2264,
     "title": "Himalaya Anti Hair Fall Shampoo",
     "slug": "himalaya-anti-hair-fall-shampoo",
-    "price": 69.0,
+    "price": 69,
     "image": "/images/products/himalaya-anti-hair-fall-shampoo.jpg",
     "stock": 3,
     "description": "Himalaya Anti Hair Fall Shampoo - High quality personal care product.",
@@ -7767,13 +8321,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2264
+    "rank": 2264,
+    "name": "Himalaya Anti Hair Fall Shampoo"
   },
   {
     "id": 2265,
     "title": "Himalaya Dark Spot Face Wash",
     "slug": "himalaya-dark-spot-face-wash",
-    "price": 95.0,
+    "price": 95,
     "image": "/images/products/himalaya-dark-spot-face-wash.jpg",
     "stock": 3,
     "description": "Himalaya Dark Spot Face Wash - High quality personal care product.",
@@ -7781,13 +8336,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2265
+    "rank": 2265,
+    "name": "Himalaya Dark Spot Face Wash"
   },
   {
     "id": 2266,
     "title": "Himalaya Footcare Cream",
     "slug": "himalaya-footcare-cream",
-    "price": 140.0,
+    "price": 140,
     "image": "/images/products/himalaya-footcare-cream.jpg",
     "stock": 3,
     "description": "Himalaya Footcare Cream - High quality personal care product.",
@@ -7795,13 +8351,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2266
+    "rank": 2266,
+    "name": "Himalaya Footcare Cream"
   },
   {
     "id": 2267,
     "title": "Himalaya Neem Face Pack",
     "slug": "himalaya-neem-face-pack",
-    "price": 85.0,
+    "price": 85,
     "image": "/images/products/himalaya-neem-face-pack.jpg",
     "stock": 3,
     "description": "Himalaya Neem Face Pack - High quality personal care product.",
@@ -7809,13 +8366,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2267
+    "rank": 2267,
+    "name": "Himalaya Neem Face Pack"
   },
   {
     "id": 2268,
     "title": "Himalaya Neem Face Scrub",
     "slug": "himalaya-neem-face-scrub",
-    "price": 95.0,
+    "price": 95,
     "image": "/images/products/himalaya-neem-face-scrub.jpg",
     "stock": 3,
     "description": "Himalaya Neem Face Scrub - High quality personal care product.",
@@ -7823,13 +8381,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2268
+    "rank": 2268,
+    "name": "Himalaya Neem Face Scrub"
   },
   {
     "id": 2269,
     "title": "Himalaya Neem Face Wash",
     "slug": "himalaya-neem-face-wash",
-    "price": 179.0,
+    "price": 179,
     "image": "/images/products/himalaya-neem-face-wash.jpg",
     "stock": 3,
     "description": "Himalaya Neem Face Wash - High quality personal care product.",
@@ -7837,13 +8396,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2269
+    "rank": 2269,
+    "name": "Himalaya Neem Face Wash"
   },
   {
     "id": 2271,
     "title": "Himalaya Neem Gel",
     "slug": "himalaya-neem-gel",
-    "price": 90.0,
+    "price": 90,
     "image": "/images/products/himalaya-neem-gel.jpg",
     "stock": 2,
     "description": "Himalaya Neem Gel - High quality personal care product.",
@@ -7851,13 +8411,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2271
+    "rank": 2271,
+    "name": "Himalaya Neem Gel"
   },
   {
     "id": 2272,
     "title": "Himalaya Protein Hari Cream",
     "slug": "himalaya-protein-hari-cream",
-    "price": 100.0,
+    "price": 100,
     "image": "/images/products/himalaya-protein-hari-cream.jpg",
     "stock": 3,
     "description": "Himalaya Protein Hari Cream - High quality personal care product.",
@@ -7865,13 +8426,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2272
+    "rank": 2272,
+    "name": "Himalaya Protein Hari Cream"
   },
   {
     "id": 2273,
     "title": "Himalaya Rose Gel",
     "slug": "himalaya-rose-gel",
-    "price": 90.0,
+    "price": 90,
     "image": "/images/products/himalaya-rose-gel.jpg",
     "stock": 3,
     "description": "Himalaya Rose Gel - High quality personal care product.",
@@ -7879,13 +8441,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2273
+    "rank": 2273,
+    "name": "Himalaya Rose Gel"
   },
   {
     "id": 2274,
     "title": "Himalaya Tan Removel Orange Face Wash",
     "slug": "himalaya-tan-removel-orange-face-wash",
-    "price": 180.0,
+    "price": 180,
     "image": "/images/products/himalaya-tan-removel-orange-face-wash.jpg",
     "stock": 3,
     "description": "Himalaya Tan Removel Orange Face Wash - High quality personal care product.",
@@ -7893,13 +8456,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2274
+    "rank": 2274,
+    "name": "Himalaya Tan Removel Orange Face Wash"
   },
   {
     "id": 2275,
     "title": "Himalaya Vit C Oragne Face Wash",
     "slug": "himalaya-vit-c-oragne-face-wash",
-    "price": 220.0,
+    "price": 220,
     "image": "/images/products/himalaya-vit-c-oragne-face-wash.jpg",
     "stock": 3,
     "description": "Himalaya Vit C Oragne Face Wash - High quality personal care product.",
@@ -7907,13 +8471,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2275
+    "rank": 2275,
+    "name": "Himalaya Vit C Oragne Face Wash"
   },
   {
     "id": 2313,
     "title": "Homefoil 1Kg",
     "slug": "homefoil-1kg",
-    "price": 1040.0,
+    "price": 1040,
     "image": "/images/products/homefoil-1kg.jpg",
     "stock": 5,
     "description": "Homefoil 1Kg - High quality personal care product.",
@@ -7921,13 +8486,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2313
+    "rank": 2313,
+    "name": "Homefoil 1Kg"
   },
   {
     "id": 2314,
     "title": "Homefoil 25 Mtr",
     "slug": "homefoil-25-mtr",
-    "price": 400.0,
+    "price": 400,
     "image": "/images/products/homefoil-25-mtr.jpg",
     "stock": 11,
     "description": "Homefoil 25 Mtr - High quality personal care product.",
@@ -7935,13 +8501,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2314
+    "rank": 2314,
+    "name": "Homefoil 25 Mtr"
   },
   {
     "id": 2315,
     "title": "Homefoil 2In1 200Gm",
     "slug": "homefoil-2in1-200gm",
-    "price": 280.0,
+    "price": 280,
     "image": "/images/products/homefoil-2in1-200gm.jpg",
     "stock": 12,
     "description": "Homefoil 2In1 200Gm - High quality personal care product.",
@@ -7949,13 +8516,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2315
+    "rank": 2315,
+    "name": "Homefoil 2In1 200Gm"
   },
   {
     "id": 2316,
     "title": "Homefoil 75Mtr",
     "slug": "homefoil-75mtr",
-    "price": 1020.0,
+    "price": 1020,
     "image": "/images/products/homefoil-75mtr.jpg",
     "stock": 6,
     "description": "Homefoil 75Mtr - High quality personal care product.",
@@ -7963,13 +8531,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2316
+    "rank": 2316,
+    "name": "Homefoil 75Mtr"
   },
   {
     "id": 2317,
     "title": "Homefoil 9Mtr",
     "slug": "homefoil-9mtr",
-    "price": 190.0,
+    "price": 190,
     "image": "/images/products/homefoil-9mtr.jpg",
     "stock": 11,
     "description": "Homefoil 9Mtr - High quality personal care product.",
@@ -7977,13 +8546,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2317
+    "rank": 2317,
+    "name": "Homefoil 9Mtr"
   },
   {
     "id": 2347,
     "title": "Ice Tree Hair Bow Clip  249/-",
     "slug": "ice-tree-hair-bow-clip-249-",
-    "price": 249.0,
+    "price": 249,
     "image": "/images/products/ice-tree-hair-bow-clip-249-.jpg",
     "stock": 2,
     "description": "Ice Tree Hair Bow Clip  249/- - High quality personal care product.",
@@ -7991,13 +8561,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2347
+    "rank": 2347,
+    "name": "Ice Tree Hair Bow Clip  249/-"
   },
   {
     "id": 2348,
     "title": "Ice Tree Hair Bow Clip 195/-",
     "slug": "ice-tree-hair-bow-clip-195-",
-    "price": 195.0,
+    "price": 195,
     "image": "/images/products/ice-tree-hair-bow-clip-195-.jpg",
     "stock": 6,
     "description": "Ice Tree Hair Bow Clip 195/- - High quality personal care product.",
@@ -8005,13 +8576,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2348
+    "rank": 2348,
+    "name": "Ice Tree Hair Bow Clip 195/-"
   },
   {
     "id": 2349,
     "title": "Ice Tree Hair Bow Clip 199/-",
     "slug": "ice-tree-hair-bow-clip-199-",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/ice-tree-hair-bow-clip-199-.jpg",
     "stock": 41,
     "description": "Ice Tree Hair Bow Clip 199/- - High quality personal care product.",
@@ -8019,13 +8591,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2349
+    "rank": 2349,
+    "name": "Ice Tree Hair Bow Clip 199/-"
   },
   {
     "id": 2350,
     "title": "Ice Tree Hair Clip 149/",
     "slug": "ice-tree-hair-clip-149",
-    "price": 149.0,
+    "price": 149,
     "image": "/images/products/ice-tree-hair-clip-149.jpg",
     "stock": 6,
     "description": "Ice Tree Hair Clip 149/ - High quality personal care product.",
@@ -8033,13 +8606,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2350
+    "rank": 2350,
+    "name": "Ice Tree Hair Clip 149/"
   },
   {
     "id": 2351,
     "title": "Ice Tree Hair Clip 149/-",
     "slug": "ice-tree-hair-clip-149-",
-    "price": 149.0,
+    "price": 149,
     "image": "/images/products/ice-tree-hair-clip-149-.jpg",
     "stock": 37,
     "description": "Ice Tree Hair Clip 149/- - High quality personal care product.",
@@ -8047,13 +8621,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2351
+    "rank": 2351,
+    "name": "Ice Tree Hair Clip 149/-"
   },
   {
     "id": 2352,
     "title": "Ice Tree Hair Clip 199/-",
     "slug": "ice-tree-hair-clip-199-",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/ice-tree-hair-clip-199-.jpg",
     "stock": 50,
     "description": "Ice Tree Hair Clip 199/- - High quality personal care product.",
@@ -8061,13 +8636,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2352
+    "rank": 2352,
+    "name": "Ice Tree Hair Clip 199/-"
   },
   {
     "id": 2353,
     "title": "Ice Tree Hair Clip 249/-",
     "slug": "ice-tree-hair-clip-249-",
-    "price": 249.0,
+    "price": 249,
     "image": "/images/products/ice-tree-hair-clip-249-.jpg",
     "stock": 6,
     "description": "Ice Tree Hair Clip 249/- - High quality personal care product.",
@@ -8075,13 +8651,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2353
+    "rank": 2353,
+    "name": "Ice Tree Hair Clip 249/-"
   },
   {
     "id": 2354,
     "title": "Ice Tree Hair Clip 99/-",
     "slug": "ice-tree-hair-clip-99-",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/ice-tree-hair-clip-99-.jpg",
     "stock": 6,
     "description": "Ice Tree Hair Clip 99/- - High quality personal care product.",
@@ -8089,13 +8666,14 @@ const products = [
     "unit": "1254",
     "category": "personal-care",
     "popular": false,
-    "rank": 2354
+    "rank": 2354,
+    "name": "Ice Tree Hair Clip 99/-"
   },
   {
     "id": 2355,
     "title": "Ice Tree Hair Clutcher 199",
     "slug": "ice-tree-hair-clutcher-199",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/ice-tree-hair-clutcher-199.jpg",
     "stock": 6,
     "description": "Ice Tree Hair Clutcher 199 - High quality personal care product.",
@@ -8103,13 +8681,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2355
+    "rank": 2355,
+    "name": "Ice Tree Hair Clutcher 199"
   },
   {
     "id": 2356,
     "title": "Ice Tree Hair Rubbar 249/-",
     "slug": "ice-tree-hair-rubbar-249-",
-    "price": 249.0,
+    "price": 249,
     "image": "/images/products/ice-tree-hair-rubbar-249-.jpg",
     "stock": 2,
     "description": "Ice Tree Hair Rubbar 249/- - High quality personal care product.",
@@ -8117,13 +8696,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2356
+    "rank": 2356,
+    "name": "Ice Tree Hair Rubbar 249/-"
   },
   {
     "id": 2357,
     "title": "Ice Tree Hair Rubbar Band 199",
     "slug": "ice-tree-hair-rubbar-band-199",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/ice-tree-hair-rubbar-band-199.jpg",
     "stock": 11,
     "description": "Ice Tree Hair Rubbar Band 199 - High quality personal care product.",
@@ -8131,13 +8711,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2357
+    "rank": 2357,
+    "name": "Ice Tree Hair Rubbar Band 199"
   },
   {
     "id": 2358,
     "title": "Ice Tree Hair Rubbar Band Box 199/-",
     "slug": "ice-tree-hair-rubbar-band-box-199-",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/ice-tree-hair-rubbar-band-box-199-.jpg",
     "stock": 6,
     "description": "Ice Tree Hair Rubbar Band Box 199/- - High quality personal care product.",
@@ -8145,13 +8726,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2358
+    "rank": 2358,
+    "name": "Ice Tree Hair Rubbar Band Box 199/-"
   },
   {
     "id": 2359,
     "title": "Ice Tree Hair Rubbar Box 249/-",
     "slug": "ice-tree-hair-rubbar-box-249-",
-    "price": 249.0,
+    "price": 249,
     "image": "/images/products/ice-tree-hair-rubbar-box-249-.jpg",
     "stock": 12,
     "description": "Ice Tree Hair Rubbar Box 249/- - High quality personal care product.",
@@ -8159,13 +8741,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2359
+    "rank": 2359,
+    "name": "Ice Tree Hair Rubbar Box 249/-"
   },
   {
     "id": 2360,
     "title": "Ice Tree Hair Rubbr Band 149/-",
     "slug": "ice-tree-hair-rubbr-band-149-",
-    "price": 149.0,
+    "price": 149,
     "image": "/images/products/ice-tree-hair-rubbr-band-149-.jpg",
     "stock": 11,
     "description": "Ice Tree Hair Rubbr Band 149/- - High quality personal care product.",
@@ -8173,13 +8756,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2360
+    "rank": 2360,
+    "name": "Ice Tree Hair Rubbr Band 149/-"
   },
   {
     "id": 2361,
     "title": "Ice Tree Hairband 149/-",
     "slug": "ice-tree-hairband-149-",
-    "price": 149.0,
+    "price": 149,
     "image": "/images/products/ice-tree-hairband-149-.jpg",
     "stock": 1,
     "description": "Ice Tree Hairband 149/- - High quality personal care product.",
@@ -8187,13 +8771,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2361
+    "rank": 2361,
+    "name": "Ice Tree Hairband 149/-"
   },
   {
     "id": 2405,
     "title": "Indulekha Brigha Oil 100Ml",
     "slug": "indulekha-brigha-oil-100ml",
-    "price": 432.0,
+    "price": 432,
     "image": "/images/products/indulekha-brigha-oil-100ml.jpg",
     "stock": 2,
     "description": "Indulekha Brigha Oil 100Ml - High quality personal care product.",
@@ -8201,13 +8786,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2405
+    "rank": 2405,
+    "name": "Indulekha Brigha Oil 100Ml"
   },
   {
     "id": 2406,
     "title": "Indulekha Brigha Oil 50Ml",
     "slug": "indulekha-brigha-oil-50ml",
-    "price": 234.0,
+    "price": 234,
     "image": "/images/products/indulekha-brigha-oil-50ml.jpg",
     "stock": 3,
     "description": "Indulekha Brigha Oil 50Ml - High quality personal care product.",
@@ -8215,13 +8801,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2406
+    "rank": 2406,
+    "name": "Indulekha Brigha Oil 50Ml"
   },
   {
     "id": 2407,
     "title": "Indulekha Brigha Shampoo 100Ml",
     "slug": "indulekha-brigha-shampoo-100ml",
-    "price": 135.0,
+    "price": 135,
     "image": "/images/products/indulekha-brigha-shampoo-100ml.jpg",
     "stock": 2,
     "description": "Indulekha Brigha Shampoo 100Ml - High quality personal care product.",
@@ -8229,13 +8816,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2407
+    "rank": 2407,
+    "name": "Indulekha Brigha Shampoo 100Ml"
   },
   {
     "id": 2408,
     "title": "Indulekha Brigha Shampoo 200Ml",
     "slug": "indulekha-brigha-shampoo-200ml",
-    "price": 261.0,
+    "price": 261,
     "image": "/images/products/indulekha-brigha-shampoo-200ml.jpg",
     "stock": 3,
     "description": "Indulekha Brigha Shampoo 200Ml - High quality personal care product.",
@@ -8243,13 +8831,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2408
+    "rank": 2408,
+    "name": "Indulekha Brigha Shampoo 200Ml"
   },
   {
     "id": 2409,
     "title": "Indulekha Brigha Shampoo 340Ml",
     "slug": "indulekha-brigha-shampoo-340ml",
-    "price": 486.0,
+    "price": 486,
     "image": "/images/products/indulekha-brigha-shampoo-340ml.jpg",
     "stock": 3,
     "description": "Indulekha Brigha Shampoo 340Ml - High quality personal care product.",
@@ -8257,13 +8846,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2409
+    "rank": 2409,
+    "name": "Indulekha Brigha Shampoo 340Ml"
   },
   {
     "id": 2410,
     "title": "Indulekha Dandruff Shampoo 100Ml",
     "slug": "indulekha-dandruff-shampoo-100ml",
-    "price": 117.0,
+    "price": 117,
     "image": "/images/products/indulekha-dandruff-shampoo-100ml.jpg",
     "stock": 3,
     "description": "Indulekha Dandruff Shampoo 100Ml - High quality personal care product.",
@@ -8271,13 +8861,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2410
+    "rank": 2410,
+    "name": "Indulekha Dandruff Shampoo 100Ml"
   },
   {
     "id": 2411,
     "title": "Indulekha Dandruff Shampoo 200Ml",
     "slug": "indulekha-dandruff-shampoo-200ml",
-    "price": 234.0,
+    "price": 234,
     "image": "/images/products/indulekha-dandruff-shampoo-200ml.jpg",
     "stock": 3,
     "description": "Indulekha Dandruff Shampoo 200Ml - High quality personal care product.",
@@ -8285,13 +8876,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2411
+    "rank": 2411,
+    "name": "Indulekha Dandruff Shampoo 200Ml"
   },
   {
     "id": 2412,
     "title": "Indulekha Svetakutaja Oil 100Ml",
     "slug": "indulekha-svetakutaja-oil-100ml",
-    "price": 360.0,
+    "price": 360,
     "image": "/images/products/indulekha-svetakutaja-oil-100ml.jpg",
     "stock": 3,
     "description": "Indulekha Svetakutaja Oil 100Ml - High quality personal care product.",
@@ -8299,13 +8891,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2412
+    "rank": 2412,
+    "name": "Indulekha Svetakutaja Oil 100Ml"
   },
   {
     "id": 2415,
     "title": "International Camay Soap",
     "slug": "international-camay-soap",
-    "price": 210.0,
+    "price": 210,
     "image": "/images/products/international-camay-soap.jpg",
     "stock": 5,
     "description": "International Camay Soap - High quality personal care product.",
@@ -8313,13 +8906,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2415
+    "rank": 2415,
+    "name": "International Camay Soap"
   },
   {
     "id": 2504,
     "title": "Jasmine Oil 190Ml",
     "slug": "jasmine-oil-190ml",
-    "price": 89.0,
+    "price": 89,
     "image": "/images/products/jasmine-oil-190ml.jpg",
     "stock": 3,
     "description": "Jasmine Oil 190Ml - High quality personal care product.",
@@ -8327,13 +8921,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2504
+    "rank": 2504,
+    "name": "Jasmine Oil 190Ml"
   },
   {
     "id": 2615,
     "title": "Jockey Body Care Bb 8008 M/L",
     "slug": "jockey-body-care-bb-8008-ml",
-    "price": 549.0,
+    "price": 549,
     "image": "/images/products/jockey-body-care-bb-8008-ml.jpg",
     "stock": 15,
     "description": "Jockey Body Care Bb 8008 M/L - High quality personal care product.",
@@ -8341,13 +8936,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2615
+    "rank": 2615,
+    "name": "Jockey Body Care Bb 8008 M/L"
   },
   {
     "id": 2616,
     "title": "Jockey Body Care Bb 8008 Xl",
     "slug": "jockey-body-care-bb-8008-xl",
-    "price": 561.0,
+    "price": 561,
     "image": "/images/products/jockey-body-care-bb-8008-xl.jpg",
     "stock": 10,
     "description": "Jockey Body Care Bb 8008 Xl - High quality personal care product.",
@@ -8355,13 +8951,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2616
+    "rank": 2616,
+    "name": "Jockey Body Care Bb 8008 Xl"
   },
   {
     "id": 2617,
     "title": "Jockey Body Care Bb 8009 M/L 569/-",
     "slug": "jockey-body-care-bb-8009-ml-569-",
-    "price": 569.0,
+    "price": 569,
     "image": "/images/products/jockey-body-care-bb-8009-ml-569-.jpg",
     "stock": 10,
     "description": "Jockey Body Care Bb 8009 M/L 569/- - High quality personal care product.",
@@ -8369,13 +8966,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2617
+    "rank": 2617,
+    "name": "Jockey Body Care Bb 8009 M/L 569/-"
   },
   {
     "id": 2618,
     "title": "Jockey Body Care Bb 8009 Xl 581/-",
     "slug": "jockey-body-care-bb-8009-xl-581-",
-    "price": 581.0,
+    "price": 581,
     "image": "/images/products/jockey-body-care-bb-8009-xl-581-.jpg",
     "stock": 5,
     "description": "Jockey Body Care Bb 8009 Xl 581/- - High quality personal care product.",
@@ -8383,13 +8981,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2618
+    "rank": 2618,
+    "name": "Jockey Body Care Bb 8009 Xl 581/-"
   },
   {
     "id": 2619,
     "title": "Jockey Body Care Bb 8015 L",
     "slug": "jockey-body-care-bb-8015-l",
-    "price": 539.0,
+    "price": 539,
     "image": "/images/products/jockey-body-care-bb-8015-l.jpg",
     "stock": 5,
     "description": "Jockey Body Care Bb 8015 L - High quality personal care product.",
@@ -8397,13 +8996,14 @@ const products = [
     "unit": "8901",
     "category": "personal-care",
     "popular": false,
-    "rank": 2619
+    "rank": 2619,
+    "name": "Jockey Body Care Bb 8015 L"
   },
   {
     "id": 2620,
     "title": "Jockey Body Care Bb 8015 Xl",
     "slug": "jockey-body-care-bb-8015-xl",
-    "price": 551.0,
+    "price": 551,
     "image": "/images/products/jockey-body-care-bb-8015-xl.jpg",
     "stock": 5,
     "description": "Jockey Body Care Bb 8015 Xl - High quality personal care product.",
@@ -8411,13 +9011,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2620
+    "rank": 2620,
+    "name": "Jockey Body Care Bb 8015 Xl"
   },
   {
     "id": 2621,
     "title": "Jockey Body Care Bb 8037 M/L",
     "slug": "jockey-body-care-bb-8037-ml",
-    "price": 399.0,
+    "price": 399,
     "image": "/images/products/jockey-body-care-bb-8037-ml.jpg",
     "stock": 9,
     "description": "Jockey Body Care Bb 8037 M/L - High quality personal care product.",
@@ -8425,13 +9026,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2621
+    "rank": 2621,
+    "name": "Jockey Body Care Bb 8037 M/L"
   },
   {
     "id": 2622,
     "title": "Jockey Body Care Bb 8037 Xl",
     "slug": "jockey-body-care-bb-8037-xl",
-    "price": 411.0,
+    "price": 411,
     "image": "/images/products/jockey-body-care-bb-8037-xl.jpg",
     "stock": 5,
     "description": "Jockey Body Care Bb 8037 Xl - High quality personal care product.",
@@ -8439,13 +9041,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2622
+    "rank": 2622,
+    "name": "Jockey Body Care Bb 8037 Xl"
   },
   {
     "id": 2623,
     "title": "Jockey Body Care Bb 8044 M/L",
     "slug": "jockey-body-care-bb-8044-ml",
-    "price": 439.0,
+    "price": 439,
     "image": "/images/products/jockey-body-care-bb-8044-ml.jpg",
     "stock": 8,
     "description": "Jockey Body Care Bb 8044 M/L - High quality personal care product.",
@@ -8453,13 +9056,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2623
+    "rank": 2623,
+    "name": "Jockey Body Care Bb 8044 M/L"
   },
   {
     "id": 2624,
     "title": "Jockey Body Care Bb 8044 Xl",
     "slug": "jockey-body-care-bb-8044-xl",
-    "price": 451.0,
+    "price": 451,
     "image": "/images/products/jockey-body-care-bb-8044-xl.jpg",
     "stock": 5,
     "description": "Jockey Body Care Bb 8044 Xl - High quality personal care product.",
@@ -8467,13 +9071,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2624
+    "rank": 2624,
+    "name": "Jockey Body Care Bb 8044 Xl"
   },
   {
     "id": 2625,
     "title": "Jockey Body Care Bref Mc09-M/L/S",
     "slug": "jockey-body-care-bref-mc09-mls",
-    "price": 479.0,
+    "price": 479,
     "image": "/images/products/jockey-body-care-bref-mc09-mls.jpg",
     "stock": 11,
     "description": "Jockey Body Care Bref Mc09-M/L/S - High quality personal care product.",
@@ -8481,13 +9086,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2625
+    "rank": 2625,
+    "name": "Jockey Body Care Bref Mc09-M/L/S"
   },
   {
     "id": 2626,
     "title": "Jockey Body Care Brief Ic27-L/M",
     "slug": "jockey-body-care-brief-ic27-lm",
-    "price": 569.0,
+    "price": 569,
     "image": "/images/products/jockey-body-care-brief-ic27-lm.jpg",
     "stock": 10,
     "description": "Jockey Body Care Brief Ic27-L/M - High quality personal care product.",
@@ -8495,13 +9101,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2626
+    "rank": 2626,
+    "name": "Jockey Body Care Brief Ic27-L/M"
   },
   {
     "id": 2627,
     "title": "Jockey Body Care Brief Ic28-M/L",
     "slug": "jockey-body-care-brief-ic28-ml",
-    "price": 629.0,
+    "price": 629,
     "image": "/images/products/jockey-body-care-brief-ic28-ml.jpg",
     "stock": 6,
     "description": "Jockey Body Care Brief Ic28-M/L - High quality personal care product.",
@@ -8509,13 +9116,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2627
+    "rank": 2627,
+    "name": "Jockey Body Care Brief Ic28-M/L"
   },
   {
     "id": 2628,
     "title": "Jockey Body Care Brief Mc09-Xl",
     "slug": "jockey-body-care-brief-mc09-xl",
-    "price": 491.0,
+    "price": 491,
     "image": "/images/products/jockey-body-care-brief-mc09-xl.jpg",
     "stock": 3,
     "description": "Jockey Body Care Brief Mc09-Xl - High quality personal care product.",
@@ -8523,13 +9131,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2628
+    "rank": 2628,
+    "name": "Jockey Body Care Brief Mc09-Xl"
   },
   {
     "id": 2629,
     "title": "Jockey Body Care Bs 1223-M/L",
     "slug": "jockey-body-care-bs-1223-ml",
-    "price": 999.0,
+    "price": 999,
     "image": "/images/products/jockey-body-care-bs-1223-ml.jpg",
     "stock": 10,
     "description": "Jockey Body Care Bs 1223-M/L - High quality personal care product.",
@@ -8537,13 +9146,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2629
+    "rank": 2629,
+    "name": "Jockey Body Care Bs 1223-M/L"
   },
   {
     "id": 2630,
     "title": "Jockey Body Care Bs 1223-Xl",
     "slug": "jockey-body-care-bs-1223-xl",
-    "price": 1019.0,
+    "price": 1019,
     "image": "/images/products/jockey-body-care-bs-1223-xl.jpg",
     "stock": 5,
     "description": "Jockey Body Care Bs 1223-Xl - High quality personal care product.",
@@ -8551,13 +9161,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2630
+    "rank": 2630,
+    "name": "Jockey Body Care Bs 1223-Xl"
   },
   {
     "id": 2631,
     "title": "Jockey Body Care Mc10-L",
     "slug": "jockey-body-care-mc10-l",
-    "price": 549.0,
+    "price": 549,
     "image": "/images/products/jockey-body-care-mc10-l.jpg",
     "stock": 5,
     "description": "Jockey Body Care Mc10-L - High quality personal care product.",
@@ -8565,13 +9176,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2631
+    "rank": 2631,
+    "name": "Jockey Body Care Mc10-L"
   },
   {
     "id": 2632,
     "title": "Jockey Body Care Mt 9930-L",
     "slug": "jockey-body-care-mt-9930-l",
-    "price": 399.0,
+    "price": 399,
     "image": "/images/products/jockey-body-care-mt-9930-l.jpg",
     "stock": 5,
     "description": "Jockey Body Care Mt 9930-L - High quality personal care product.",
@@ -8579,13 +9191,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2632
+    "rank": 2632,
+    "name": "Jockey Body Care Mt 9930-L"
   },
   {
     "id": 2633,
     "title": "Jockey Body Care Mt 9930-M",
     "slug": "jockey-body-care-mt-9930-m",
-    "price": 399.0,
+    "price": 399,
     "image": "/images/products/jockey-body-care-mt-9930-m.jpg",
     "stock": 5,
     "description": "Jockey Body Care Mt 9930-M - High quality personal care product.",
@@ -8593,13 +9206,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2633
+    "rank": 2633,
+    "name": "Jockey Body Care Mt 9930-M"
   },
   {
     "id": 2634,
     "title": "Jockey Body Care Mt 9930-S",
     "slug": "jockey-body-care-mt-9930-s",
-    "price": 399.0,
+    "price": 399,
     "image": "/images/products/jockey-body-care-mt-9930-s.jpg",
     "stock": 5,
     "description": "Jockey Body Care Mt 9930-S - High quality personal care product.",
@@ -8607,13 +9221,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2634
+    "rank": 2634,
+    "name": "Jockey Body Care Mt 9930-S"
   },
   {
     "id": 2635,
     "title": "Jockey Body Care Mt 9930-Xl",
     "slug": "jockey-body-care-mt-9930-xl",
-    "price": 409.0,
+    "price": 409,
     "image": "/images/products/jockey-body-care-mt-9930-xl.jpg",
     "stock": 5,
     "description": "Jockey Body Care Mt 9930-Xl - High quality personal care product.",
@@ -8621,13 +9236,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2635
+    "rank": 2635,
+    "name": "Jockey Body Care Mt 9930-Xl"
   },
   {
     "id": 2636,
     "title": "Jockey Body Care Vest 8816 M",
     "slug": "jockey-body-care-vest-8816-m",
-    "price": 469.0,
+    "price": 469,
     "image": "/images/products/jockey-body-care-vest-8816-m.jpg",
     "stock": 5,
     "description": "Jockey Body Care Vest 8816 M - High quality personal care product.",
@@ -8635,13 +9251,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2636
+    "rank": 2636,
+    "name": "Jockey Body Care Vest 8816 M"
   },
   {
     "id": 2637,
     "title": "Jockey Body Care Vest 8816 S100",
     "slug": "jockey-body-care-vest-8816-s100",
-    "price": 469.0,
+    "price": 469,
     "image": "/images/products/jockey-body-care-vest-8816-s100.jpg",
     "stock": 5,
     "description": "Jockey Body Care Vest 8816 S100 - High quality personal care product.",
@@ -8649,13 +9266,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2637
+    "rank": 2637,
+    "name": "Jockey Body Care Vest 8816 S100"
   },
   {
     "id": 2638,
     "title": "Jockey Body Care Vest 8816 S85",
     "slug": "jockey-body-care-vest-8816-s85",
-    "price": 469.0,
+    "price": 469,
     "image": "/images/products/jockey-body-care-vest-8816-s85.jpg",
     "stock": 5,
     "description": "Jockey Body Care Vest 8816 S85 - High quality personal care product.",
@@ -8663,13 +9281,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2638
+    "rank": 2638,
+    "name": "Jockey Body Care Vest 8816 S85"
   },
   {
     "id": 2639,
     "title": "Jockey Body Care Vest 8816 S90",
     "slug": "jockey-body-care-vest-8816-s90",
-    "price": 469.0,
+    "price": 469,
     "image": "/images/products/jockey-body-care-vest-8816-s90.jpg",
     "stock": 5,
     "description": "Jockey Body Care Vest 8816 S90 - High quality personal care product.",
@@ -8677,13 +9296,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2639
+    "rank": 2639,
+    "name": "Jockey Body Care Vest 8816 S90"
   },
   {
     "id": 2640,
     "title": "Jockey Body Care Vest 8816 S95",
     "slug": "jockey-body-care-vest-8816-s95",
-    "price": 469.0,
+    "price": 469,
     "image": "/images/products/jockey-body-care-vest-8816-s95.jpg",
     "stock": 5,
     "description": "Jockey Body Care Vest 8816 S95 - High quality personal care product.",
@@ -8691,13 +9311,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2640
+    "rank": 2640,
+    "name": "Jockey Body Care Vest 8816 S95"
   },
   {
     "id": 2641,
     "title": "Jockey Body Care Vest 8820 -L",
     "slug": "jockey-body-care-vest-8820--l",
-    "price": 469.0,
+    "price": 469,
     "image": "/images/products/jockey-body-care-vest-8820--l.jpg",
     "stock": 5,
     "description": "Jockey Body Care Vest 8820 -L - High quality personal care product.",
@@ -8705,13 +9326,14 @@ const products = [
     "unit": "2603",
     "category": "personal-care",
     "popular": false,
-    "rank": 2641
+    "rank": 2641,
+    "name": "Jockey Body Care Vest 8820 -L"
   },
   {
     "id": 2642,
     "title": "Jockey Body Care Vest 8820 -S",
     "slug": "jockey-body-care-vest-8820--s",
-    "price": 459.0,
+    "price": 459,
     "image": "/images/products/jockey-body-care-vest-8820--s.jpg",
     "stock": 5,
     "description": "Jockey Body Care Vest 8820 -S - High quality personal care product.",
@@ -8719,13 +9341,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2642
+    "rank": 2642,
+    "name": "Jockey Body Care Vest 8820 -S"
   },
   {
     "id": 2643,
     "title": "Jockey Body Care Vest 9922-S/M",
     "slug": "jockey-body-care-vest-9922-sm",
-    "price": 339.0,
+    "price": 339,
     "image": "/images/products/jockey-body-care-vest-9922-sm.jpg",
     "stock": 5,
     "description": "Jockey Body Care Vest 9922-S/M - High quality personal care product.",
@@ -8733,13 +9356,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2643
+    "rank": 2643,
+    "name": "Jockey Body Care Vest 9922-S/M"
   },
   {
     "id": 2644,
     "title": "Jockey Body Care Vest 9922-S/M/L",
     "slug": "jockey-body-care-vest-9922-sml",
-    "price": 349.0,
+    "price": 349,
     "image": "/images/products/jockey-body-care-vest-9922-sml.jpg",
     "stock": 24,
     "description": "Jockey Body Care Vest 9922-S/M/L - High quality personal care product.",
@@ -8747,13 +9371,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2644
+    "rank": 2644,
+    "name": "Jockey Body Care Vest 9922-S/M/L"
   },
   {
     "id": 2645,
     "title": "Jockey Body Care Vest Mc10-M",
     "slug": "jockey-body-care-vest-mc10-m",
-    "price": 549.0,
+    "price": 549,
     "image": "/images/products/jockey-body-care-vest-mc10-m.jpg",
     "stock": 5,
     "description": "Jockey Body Care Vest Mc10-M - High quality personal care product.",
@@ -8761,13 +9386,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2645
+    "rank": 2645,
+    "name": "Jockey Body Care Vest Mc10-M"
   },
   {
     "id": 2646,
     "title": "Jockey Body Care Vest Mc10-Xl",
     "slug": "jockey-body-care-vest-mc10-xl",
-    "price": 559.0,
+    "price": 559,
     "image": "/images/products/jockey-body-care-vest-mc10-xl.jpg",
     "stock": 5,
     "description": "Jockey Body Care Vest Mc10-Xl - High quality personal care product.",
@@ -8775,13 +9401,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2646
+    "rank": 2646,
+    "name": "Jockey Body Care Vest Mc10-Xl"
   },
   {
     "id": 2658,
     "title": "Johnson'S Active Kids Shampoo 200Ml",
     "slug": "johnsons-active-kids-shampoo-200ml",
-    "price": 285.0,
+    "price": 285,
     "image": "/images/products/johnsons-active-kids-shampoo-200ml.jpg",
     "stock": 6,
     "description": "Johnson'S Active Kids Shampoo 200Ml - High quality personal care product.",
@@ -8789,13 +9416,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2658
+    "rank": 2658,
+    "name": "Johnson'S Active Kids Shampoo 200Ml"
   },
   {
     "id": 2659,
     "title": "Johnson'S Baby  No Tears Shampoo 200Ml",
     "slug": "johnsons-baby-no-tears-shampoo-200ml",
-    "price": 240.0,
+    "price": 240,
     "image": "/images/products/johnsons-baby-no-tears-shampoo-200ml.jpg",
     "stock": 3,
     "description": "Johnson'S Baby  No Tears Shampoo 200Ml - High quality personal care product.",
@@ -8803,13 +9431,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2659
+    "rank": 2659,
+    "name": "Johnson'S Baby  No Tears Shampoo 200Ml"
   },
   {
     "id": 2660,
     "title": "Johnson'S Baby Avocado Hair Oil 100Ml",
     "slug": "johnsons-baby-avocado-hair-oil-100ml",
-    "price": 160.0,
+    "price": 160,
     "image": "/images/products/johnsons-baby-avocado-hair-oil-100ml.jpg",
     "stock": 5,
     "description": "Johnson'S Baby Avocado Hair Oil 100Ml - High quality personal care product.",
@@ -8817,13 +9446,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2660
+    "rank": 2660,
+    "name": "Johnson'S Baby Avocado Hair Oil 100Ml"
   },
   {
     "id": 2661,
     "title": "Johnson'S Baby Blossoms Soap 75G",
     "slug": "johnsons-baby-blossoms-soap-75g",
-    "price": 75.0,
+    "price": 75,
     "image": "/images/products/johnsons-baby-blossoms-soap-75g.jpg",
     "stock": 2,
     "description": "Johnson'S Baby Blossoms Soap 75G - High quality personal care product.",
@@ -8831,13 +9461,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2661
+    "rank": 2661,
+    "name": "Johnson'S Baby Blossoms Soap 75G"
   },
   {
     "id": 2662,
     "title": "Johnson'S Baby Cream 100G",
     "slug": "johnsons-baby-cream-100g",
-    "price": 190.0,
+    "price": 190,
     "image": "/images/products/johnsons-baby-cream-100g.jpg",
     "stock": 3,
     "description": "Johnson'S Baby Cream 100G - High quality personal care product.",
@@ -8845,13 +9476,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2662
+    "rank": 2662,
+    "name": "Johnson'S Baby Cream 100G"
   },
   {
     "id": 2663,
     "title": "Johnson'S Baby Cream 50G",
     "slug": "johnsons-baby-cream-50g",
-    "price": 100.0,
+    "price": 100,
     "image": "/images/products/johnsons-baby-cream-50g.jpg",
     "stock": 6,
     "description": "Johnson'S Baby Cream 50G - High quality personal care product.",
@@ -8859,13 +9491,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2663
+    "rank": 2663,
+    "name": "Johnson'S Baby Cream 50G"
   },
   {
     "id": 2664,
     "title": "Johnson'S Baby Lotion 200Ml.",
     "slug": "johnsons-baby-lotion-200ml",
-    "price": 210.0,
+    "price": 210,
     "image": "/images/products/johnsons-baby-lotion-200ml.jpg",
     "stock": 3,
     "description": "Johnson'S Baby Lotion 200Ml. - High quality personal care product.",
@@ -8873,13 +9506,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2664
+    "rank": 2664,
+    "name": "Johnson'S Baby Lotion 200Ml."
   },
   {
     "id": 2665,
     "title": "Johnson'S Baby Milk Soap 75G",
     "slug": "johnsons-baby-milk-soap-75g",
-    "price": 75.0,
+    "price": 75,
     "image": "/images/products/johnsons-baby-milk-soap-75g.jpg",
     "stock": 5,
     "description": "Johnson'S Baby Milk Soap 75G - High quality personal care product.",
@@ -8887,13 +9521,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2665
+    "rank": 2665,
+    "name": "Johnson'S Baby Milk Soap 75G"
   },
   {
     "id": 2666,
     "title": "Johnson'S Baby Milk+Rice Cream 100G",
     "slug": "johnsons-baby-milkrice-cream-100g",
-    "price": 200.0,
+    "price": 200,
     "image": "/images/products/johnsons-baby-milkrice-cream-100g.jpg",
     "stock": 4,
     "description": "Johnson'S Baby Milk+Rice Cream 100G - High quality personal care product.",
@@ -8901,13 +9536,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2666
+    "rank": 2666,
+    "name": "Johnson'S Baby Milk+Rice Cream 100G"
   },
   {
     "id": 2667,
     "title": "Johnson'S Baby No Tears Shampoo 100Ml.",
     "slug": "johnsons-baby-no-tears-shampoo-100ml",
-    "price": 120.0,
+    "price": 120,
     "image": "/images/products/johnsons-baby-no-tears-shampoo-100ml.jpg",
     "stock": 5,
     "description": "Johnson'S Baby No Tears Shampoo 100Ml. - High quality personal care product.",
@@ -8915,13 +9551,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2667
+    "rank": 2667,
+    "name": "Johnson'S Baby No Tears Shampoo 100Ml."
   },
   {
     "id": 2668,
     "title": "Johnson'S Baby Oil 100Ml",
     "slug": "johnsons-baby-oil-100ml",
-    "price": 150.0,
+    "price": 150,
     "image": "/images/products/johnsons-baby-oil-100ml.jpg",
     "stock": 6,
     "description": "Johnson'S Baby Oil 100Ml - High quality personal care product.",
@@ -8929,13 +9566,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2668
+    "rank": 2668,
+    "name": "Johnson'S Baby Oil 100Ml"
   },
   {
     "id": 2669,
     "title": "Johnson'S Baby Oil 200Ml",
     "slug": "johnsons-baby-oil-200ml",
-    "price": 260.0,
+    "price": 260,
     "image": "/images/products/johnsons-baby-oil-200ml.jpg",
     "stock": 1,
     "description": "Johnson'S Baby Oil 200Ml - High quality personal care product.",
@@ -8943,13 +9581,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2669
+    "rank": 2669,
+    "name": "Johnson'S Baby Oil 200Ml"
   },
   {
     "id": 2670,
     "title": "Johnson'S Baby Oil 500Ml",
     "slug": "johnsons-baby-oil-500ml",
-    "price": 550.0,
+    "price": 550,
     "image": "/images/products/johnsons-baby-oil-500ml.jpg",
     "stock": 2,
     "description": "Johnson'S Baby Oil 500Ml - High quality personal care product.",
@@ -8957,13 +9596,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2670
+    "rank": 2670,
+    "name": "Johnson'S Baby Oil 500Ml"
   },
   {
     "id": 2676,
     "title": "Johnson'S Baby Shampoo 100Ml",
     "slug": "johnsons-baby-shampoo-100ml",
-    "price": 160.0,
+    "price": 160,
     "image": "/images/products/johnsons-baby-shampoo-100ml.jpg",
     "stock": 6,
     "description": "Johnson'S Baby Shampoo 100Ml - High quality personal care product.",
@@ -8971,13 +9611,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2676
+    "rank": 2676,
+    "name": "Johnson'S Baby Shampoo 100Ml"
   },
   {
     "id": 2679,
     "title": "Johnson'S Baby Soap 100G",
     "slug": "johnsons-baby-soap-100g",
-    "price": 86.0,
+    "price": 86,
     "image": "/images/products/johnsons-baby-soap-100g.jpg",
     "stock": 4,
     "description": "Johnson'S Baby Soap 100G - High quality personal care product.",
@@ -8985,13 +9626,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2679
+    "rank": 2679,
+    "name": "Johnson'S Baby Soap 100G"
   },
   {
     "id": 2680,
     "title": "Johnson'S Baby Soap 150G",
     "slug": "johnsons-baby-soap-150g",
-    "price": 135.0,
+    "price": 135,
     "image": "/images/products/johnsons-baby-soap-150g.jpg",
     "stock": 2,
     "description": "Johnson'S Baby Soap 150G - High quality personal care product.",
@@ -8999,13 +9641,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2680
+    "rank": 2680,
+    "name": "Johnson'S Baby Soap 150G"
   },
   {
     "id": 2684,
     "title": "Johnson'S Milk+Rice Cream 50G",
     "slug": "johnsons-milkrice-cream-50g",
-    "price": 0.0,
+    "price": 0,
     "image": "/images/products/johnsons-milkrice-cream-50g.jpg",
     "stock": 5,
     "description": "Johnson'S Milk+Rice Cream 50G - High quality personal care product.",
@@ -9013,13 +9656,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2684
+    "rank": 2684,
+    "name": "Johnson'S Milk+Rice Cream 50G"
   },
   {
     "id": 2685,
     "title": "Johnson'S Milk+Rice Lotion 200Ml",
     "slug": "johnsons-milkrice-lotion-200ml",
-    "price": 225.0,
+    "price": 225,
     "image": "/images/products/johnsons-milkrice-lotion-200ml.jpg",
     "stock": 3,
     "description": "Johnson'S Milk+Rice Lotion 200Ml - High quality personal care product.",
@@ -9027,13 +9671,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2685
+    "rank": 2685,
+    "name": "Johnson'S Milk+Rice Lotion 200Ml"
   },
   {
     "id": 2689,
     "title": "Jovees Bridal Face Wash",
     "slug": "jovees-bridal-face-wash",
-    "price": 295.0,
+    "price": 295,
     "image": "/images/products/jovees-bridal-face-wash.jpg",
     "stock": 2,
     "description": "Jovees Bridal Face Wash - High quality personal care product.",
@@ -9041,13 +9686,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2689
+    "rank": 2689,
+    "name": "Jovees Bridal Face Wash"
   },
   {
     "id": 2690,
     "title": "Jovees Charcoal Face Wash",
     "slug": "jovees-charcoal-face-wash",
-    "price": 265.0,
+    "price": 265,
     "image": "/images/products/jovees-charcoal-face-wash.jpg",
     "stock": 3,
     "description": "Jovees Charcoal Face Wash - High quality personal care product.",
@@ -9055,13 +9701,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2690
+    "rank": 2690,
+    "name": "Jovees Charcoal Face Wash"
   },
   {
     "id": 2691,
     "title": "Jovees De Tan Face Scrub",
     "slug": "jovees-de-tan-face-scrub",
-    "price": 255.0,
+    "price": 255,
     "image": "/images/products/jovees-de-tan-face-scrub.jpg",
     "stock": 3,
     "description": "Jovees De Tan Face Scrub - High quality personal care product.",
@@ -9069,13 +9716,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2691
+    "rank": 2691,
+    "name": "Jovees De Tan Face Scrub"
   },
   {
     "id": 2692,
     "title": "Jovees De Tan Face Wash",
     "slug": "jovees-de-tan-face-wash",
-    "price": 275.0,
+    "price": 275,
     "image": "/images/products/jovees-de-tan-face-wash.jpg",
     "stock": 3,
     "description": "Jovees De Tan Face Wash - High quality personal care product.",
@@ -9083,13 +9731,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2692
+    "rank": 2692,
+    "name": "Jovees De Tan Face Wash"
   },
   {
     "id": 2693,
     "title": "Jovees De Tan Face Wash.",
     "slug": "jovees-de-tan-face-wash",
-    "price": 225.0,
+    "price": 225,
     "image": "/images/products/jovees-de-tan-face-wash.jpg",
     "stock": 3,
     "description": "Jovees De Tan Face Wash. - High quality personal care product.",
@@ -9097,13 +9746,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2693
+    "rank": 2693,
+    "name": "Jovees De Tan Face Wash."
   },
   {
     "id": 2694,
     "title": "Jovees Face Wash 215/-",
     "slug": "jovees-face-wash-215-",
-    "price": 215.0,
+    "price": 215,
     "image": "/images/products/jovees-face-wash-215-.jpg",
     "stock": 9,
     "description": "Jovees Face Wash 215/- - High quality personal care product.",
@@ -9111,13 +9761,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2694
+    "rank": 2694,
+    "name": "Jovees Face Wash 215/-"
   },
   {
     "id": 2695,
     "title": "Jovees Gold Face Wash",
     "slug": "jovees-gold-face-wash",
-    "price": 315.0,
+    "price": 315,
     "image": "/images/products/jovees-gold-face-wash.jpg",
     "stock": 2,
     "description": "Jovees Gold Face Wash - High quality personal care product.",
@@ -9125,13 +9776,14 @@ const products = [
     "unit": "pcs",
     "category": "personal-care",
     "popular": false,
-    "rank": 2695
+    "rank": 2695,
+    "name": "Jovees Gold Face Wash"
   },
   {
     "id": 2697,
     "title": "Jovees Men Face Wash",
     "slug": "jovees-men-face-wash",
-    "price": 225.0,
+    "price": 225,
     "image": "/images/products/jovees-men-face-wash.jpg",
     "stock": 3,
     "description": "Jovees Men Face Wash - High quality personal care product.",
@@ -9139,13 +9791,14 @@ const products = [
     "unit": "pcs",
     "category": "personal-care",
     "popular": false,
-    "rank": 2697
+    "rank": 2697,
+    "name": "Jovees Men Face Wash"
   },
   {
     "id": 2700,
     "title": "Jovees Sunscreen Spf 25",
     "slug": "jovees-sunscreen-spf-25",
-    "price": 265.0,
+    "price": 265,
     "image": "/images/products/jovees-sunscreen-spf-25.jpg",
     "stock": 3,
     "description": "Jovees Sunscreen Spf 25 - High quality personal care product.",
@@ -9153,13 +9806,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2700
+    "rank": 2700,
+    "name": "Jovees Sunscreen Spf 25"
   },
   {
     "id": 2701,
     "title": "Jovees Sunscreen Spf 30",
     "slug": "jovees-sunscreen-spf-30",
-    "price": 315.0,
+    "price": 315,
     "image": "/images/products/jovees-sunscreen-spf-30.jpg",
     "stock": 3,
     "description": "Jovees Sunscreen Spf 30 - High quality personal care product.",
@@ -9167,13 +9821,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2701
+    "rank": 2701,
+    "name": "Jovees Sunscreen Spf 30"
   },
   {
     "id": 2702,
     "title": "Jovees Sunscreen Spf 40",
     "slug": "jovees-sunscreen-spf-40",
-    "price": 415.0,
+    "price": 415,
     "image": "/images/products/jovees-sunscreen-spf-40.jpg",
     "stock": 3,
     "description": "Jovees Sunscreen Spf 40 - High quality personal care product.",
@@ -9181,13 +9836,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2702
+    "rank": 2702,
+    "name": "Jovees Sunscreen Spf 40"
   },
   {
     "id": 2703,
     "title": "Jovees Sunscreen Spf 45",
     "slug": "jovees-sunscreen-spf-45",
-    "price": 415.0,
+    "price": 415,
     "image": "/images/products/jovees-sunscreen-spf-45.jpg",
     "stock": 3,
     "description": "Jovees Sunscreen Spf 45 - High quality personal care product.",
@@ -9195,13 +9851,14 @@ const products = [
     "unit": "pcs",
     "category": "personal-care",
     "popular": false,
-    "rank": 2703
+    "rank": 2703,
+    "name": "Jovees Sunscreen Spf 45"
   },
   {
     "id": 2704,
     "title": "Jovees Sunscreen Spf 60+++",
     "slug": "jovees-sunscreen-spf-60",
-    "price": 465.0,
+    "price": 465,
     "image": "/images/products/jovees-sunscreen-spf-60.jpg",
     "stock": 3,
     "description": "Jovees Sunscreen Spf 60+++ - High quality personal care product.",
@@ -9209,13 +9866,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2704
+    "rank": 2704,
+    "name": "Jovees Sunscreen Spf 60+++"
   },
   {
     "id": 2705,
     "title": "Jovees Tea Tree Face Wash",
     "slug": "jovees-tea-tree-face-wash",
-    "price": 195.0,
+    "price": 195,
     "image": "/images/products/jovees-tea-tree-face-wash.jpg",
     "stock": 9,
     "description": "Jovees Tea Tree Face Wash - High quality personal care product.",
@@ -9223,13 +9881,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2705
+    "rank": 2705,
+    "name": "Jovees Tea Tree Face Wash"
   },
   {
     "id": 2730,
     "title": "Kapiva Aloe Rose Gel 200Gm",
     "slug": "kapiva-aloe-rose-gel-200gm",
-    "price": 349.0,
+    "price": 349,
     "image": "/images/products/kapiva-aloe-rose-gel-200gm.jpg",
     "stock": 2,
     "description": "Kapiva Aloe Rose Gel 200Gm - High quality personal care product.",
@@ -9237,13 +9896,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2730
+    "rank": 2730,
+    "name": "Kapiva Aloe Rose Gel 200Gm"
   },
   {
     "id": 2731,
     "title": "Kapiva Aloe Vera Gel 500Gm",
     "slug": "kapiva-aloe-vera-gel-500gm",
-    "price": 450.0,
+    "price": 450,
     "image": "/images/products/kapiva-aloe-vera-gel-500gm.jpg",
     "stock": 1,
     "description": "Kapiva Aloe Vera Gel 500Gm - High quality personal care product.",
@@ -9251,13 +9911,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2731
+    "rank": 2731,
+    "name": "Kapiva Aloe Vera Gel 500Gm"
   },
   {
     "id": 2732,
     "title": "Kapiva Aloevera Gel 150Gm",
     "slug": "kapiva-aloevera-gel-150gm",
-    "price": 135.0,
+    "price": 135,
     "image": "/images/products/kapiva-aloevera-gel-150gm.jpg",
     "stock": 3,
     "description": "Kapiva Aloevera Gel 150Gm - High quality personal care product.",
@@ -9265,13 +9926,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2732
+    "rank": 2732,
+    "name": "Kapiva Aloevera Gel 150Gm"
   },
   {
     "id": 2734,
     "title": "Kapiva Blue Lotus Face Wash",
     "slug": "kapiva-blue-lotus-face-wash",
-    "price": 299.0,
+    "price": 299,
     "image": "/images/products/kapiva-blue-lotus-face-wash.jpg",
     "stock": 3,
     "description": "Kapiva Blue Lotus Face Wash - High quality personal care product.",
@@ -9279,13 +9941,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2734
+    "rank": 2734,
+    "name": "Kapiva Blue Lotus Face Wash"
   },
   {
     "id": 2735,
     "title": "Kapiva Dal Ubtain Face Scrub",
     "slug": "kapiva-dal-ubtain-face-scrub",
-    "price": 299.0,
+    "price": 299,
     "image": "/images/products/kapiva-dal-ubtain-face-scrub.jpg",
     "stock": 3,
     "description": "Kapiva Dal Ubtain Face Scrub - High quality personal care product.",
@@ -9293,13 +9956,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2735
+    "rank": 2735,
+    "name": "Kapiva Dal Ubtain Face Scrub"
   },
   {
     "id": 2739,
     "title": "Kapiva Kumkumadi Face Wash",
     "slug": "kapiva-kumkumadi-face-wash",
-    "price": 299.0,
+    "price": 299,
     "image": "/images/products/kapiva-kumkumadi-face-wash.jpg",
     "stock": 3,
     "description": "Kapiva Kumkumadi Face Wash - High quality personal care product.",
@@ -9307,13 +9971,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2739
+    "rank": 2739,
+    "name": "Kapiva Kumkumadi Face Wash"
   },
   {
     "id": 2747,
     "title": "Kapiva Tulsi Face Wash",
     "slug": "kapiva-tulsi-face-wash",
-    "price": 299.0,
+    "price": 299,
     "image": "/images/products/kapiva-tulsi-face-wash.jpg",
     "stock": 15,
     "description": "Kapiva Tulsi Face Wash - High quality personal care product.",
@@ -9321,13 +9986,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2747
+    "rank": 2747,
+    "name": "Kapiva Tulsi Face Wash"
   },
   {
     "id": 2748,
     "title": "Kapiva Virgin Coco Oil 500Ml",
     "slug": "kapiva-virgin-coco-oil-500ml",
-    "price": 499.0,
+    "price": 499,
     "image": "/images/products/kapiva-virgin-coco-oil-500ml.jpg",
     "stock": 2,
     "description": "Kapiva Virgin Coco Oil 500Ml - High quality personal care product.",
@@ -9335,13 +10001,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2748
+    "rank": 2748,
+    "name": "Kapiva Virgin Coco Oil 500Ml"
   },
   {
     "id": 2781,
     "title": "Kesh King Oil 100Ml",
     "slug": "kesh-king-oil-100ml",
-    "price": 175.0,
+    "price": 175,
     "image": "/images/products/kesh-king-oil-100ml.jpg",
     "stock": 5,
     "description": "Kesh King Oil 100Ml - High quality personal care product.",
@@ -9349,13 +10016,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2781
+    "rank": 2781,
+    "name": "Kesh King Oil 100Ml"
   },
   {
     "id": 2782,
     "title": "Kesh King Oil 50Ml",
     "slug": "kesh-king-oil-50ml",
-    "price": 95.0,
+    "price": 95,
     "image": "/images/products/kesh-king-oil-50ml.jpg",
     "stock": 7,
     "description": "Kesh King Oil 50Ml - High quality personal care product.",
@@ -9363,13 +10031,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2782
+    "rank": 2782,
+    "name": "Kesh King Oil 50Ml"
   },
   {
     "id": 2783,
     "title": "Kesh King Shampoo 200Ml",
     "slug": "kesh-king-shampoo-200ml",
-    "price": 165.0,
+    "price": 165,
     "image": "/images/products/kesh-king-shampoo-200ml.jpg",
     "stock": 3,
     "description": "Kesh King Shampoo 200Ml - High quality personal care product.",
@@ -9377,13 +10046,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2783
+    "rank": 2783,
+    "name": "Kesh King Shampoo 200Ml"
   },
   {
     "id": 2829,
     "title": "Khadi Aloe Vera Shampoo",
     "slug": "khadi-aloe-vera-shampoo",
-    "price": 210.0,
+    "price": 210,
     "image": "/images/products/khadi-aloe-vera-shampoo.jpg",
     "stock": 2,
     "description": "Khadi Aloe Vera Shampoo - High quality personal care product.",
@@ -9391,13 +10061,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2829
+    "rank": 2829,
+    "name": "Khadi Aloe Vera Shampoo"
   },
   {
     "id": 2830,
     "title": "Khadi Amla&Bhringraj Shampoo",
     "slug": "khadi-amlabhringraj-shampoo",
-    "price": 210.0,
+    "price": 210,
     "image": "/images/products/khadi-amlabhringraj-shampoo.jpg",
     "stock": 2,
     "description": "Khadi Amla&Bhringraj Shampoo - High quality personal care product.",
@@ -9405,13 +10076,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2830
+    "rank": 2830,
+    "name": "Khadi Amla&Bhringraj Shampoo"
   },
   {
     "id": 2831,
     "title": "Khadi Amla&Reetha Shampoo",
     "slug": "khadi-amlareetha-shampoo",
-    "price": 210.0,
+    "price": 210,
     "image": "/images/products/khadi-amlareetha-shampoo.jpg",
     "stock": 2,
     "description": "Khadi Amla&Reetha Shampoo - High quality personal care product.",
@@ -9419,13 +10091,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2831
+    "rank": 2831,
+    "name": "Khadi Amla&Reetha Shampoo"
   },
   {
     "id": 2832,
     "title": "Khadi Jasmine&Mogra Body Wash",
     "slug": "khadi-jasminemogra-body-wash",
-    "price": 299.0,
+    "price": 299,
     "image": "/images/products/khadi-jasminemogra-body-wash.jpg",
     "stock": 2,
     "description": "Khadi Jasmine&Mogra Body Wash - High quality personal care product.",
@@ -9433,13 +10106,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2832
+    "rank": 2832,
+    "name": "Khadi Jasmine&Mogra Body Wash"
   },
   {
     "id": 2833,
     "title": "Khadi Lavender&Ylang Body Wash",
     "slug": "khadi-lavenderylang-body-wash",
-    "price": 299.0,
+    "price": 299,
     "image": "/images/products/khadi-lavenderylang-body-wash.jpg",
     "stock": 2,
     "description": "Khadi Lavender&Ylang Body Wash - High quality personal care product.",
@@ -9447,13 +10121,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2833
+    "rank": 2833,
+    "name": "Khadi Lavender&Ylang Body Wash"
   },
   {
     "id": 2834,
     "title": "Khadi Rose&Honey Body Wash",
     "slug": "khadi-rosehoney-body-wash",
-    "price": 210.0,
+    "price": 210,
     "image": "/images/products/khadi-rosehoney-body-wash.jpg",
     "stock": 2,
     "description": "Khadi Rose&Honey Body Wash - High quality personal care product.",
@@ -9461,13 +10136,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2834
+    "rank": 2834,
+    "name": "Khadi Rose&Honey Body Wash"
   },
   {
     "id": 2835,
     "title": "Khadi Sandalwood &Turmeric Body Wash",
     "slug": "khadi-sandalwood-turmeric-body-wash",
-    "price": 299.0,
+    "price": 299,
     "image": "/images/products/khadi-sandalwood-turmeric-body-wash.jpg",
     "stock": 1,
     "description": "Khadi Sandalwood &Turmeric Body Wash - High quality personal care product.",
@@ -9475,13 +10151,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2835
+    "rank": 2835,
+    "name": "Khadi Sandalwood &Turmeric Body Wash"
   },
   {
     "id": 2836,
     "title": "Khadi Satritha Shampoo",
     "slug": "khadi-satritha-shampoo",
-    "price": 210.0,
+    "price": 210,
     "image": "/images/products/khadi-satritha-shampoo.jpg",
     "stock": 2,
     "description": "Khadi Satritha Shampoo - High quality personal care product.",
@@ -9489,13 +10166,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2836
+    "rank": 2836,
+    "name": "Khadi Satritha Shampoo"
   },
   {
     "id": 2837,
     "title": "Khadi Soap Mix Fruit",
     "slug": "khadi-soap-mix-fruit",
-    "price": 107.0,
+    "price": 107,
     "image": "/images/products/khadi-soap-mix-fruit.jpg",
     "stock": 1,
     "description": "Khadi Soap Mix Fruit - High quality personal care product.",
@@ -9503,13 +10181,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2837
+    "rank": 2837,
+    "name": "Khadi Soap Mix Fruit"
   },
   {
     "id": 2838,
     "title": "Khadi Soaps",
     "slug": "khadi-soaps",
-    "price": 90.0,
+    "price": 90,
     "image": "/images/products/khadi-soaps.jpg",
     "stock": 5,
     "description": "Khadi Soaps - High quality personal care product.",
@@ -9517,13 +10196,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2838
+    "rank": 2838,
+    "name": "Khadi Soaps"
   },
   {
     "id": 2840,
     "title": "Kinder Creamy 19G",
     "slug": "kinder-creamy-19g",
-    "price": 30.0,
+    "price": 30,
     "image": "/images/products/kinder-creamy-19g.jpg",
     "stock": 14,
     "description": "Kinder Creamy 19G - High quality personal care product.",
@@ -9531,13 +10211,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2840
+    "rank": 2840,
+    "name": "Kinder Creamy 19G"
   },
   {
     "id": 2913,
     "title": "Krone Shampoo 1L",
     "slug": "krone-shampoo-1l",
-    "price": 1655.0,
+    "price": 1655,
     "image": "/images/products/krone-shampoo-1l.jpg",
     "stock": 1,
     "description": "Krone Shampoo 1L - High quality personal care product.",
@@ -9545,13 +10226,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2913
+    "rank": 2913,
+    "name": "Krone Shampoo 1L"
   },
   {
     "id": 2914,
     "title": "Krone Shampoo 200Ml",
     "slug": "krone-shampoo-200ml",
-    "price": 675.0,
+    "price": 675,
     "image": "/images/products/krone-shampoo-200ml.jpg",
     "stock": 3,
     "description": "Krone Shampoo 200Ml - High quality personal care product.",
@@ -9559,13 +10241,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2914
+    "rank": 2914,
+    "name": "Krone Shampoo 200Ml"
   },
   {
     "id": 2938,
     "title": "L'Orea Excellence Cream",
     "slug": "lorea-excellence-cream",
-    "price": 769.0,
+    "price": 769,
     "image": "/images/products/lorea-excellence-cream.jpg",
     "stock": 4,
     "description": "L'Orea Excellence Cream - High quality personal care product.",
@@ -9573,13 +10256,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2938
+    "rank": 2938,
+    "name": "L'Orea Excellence Cream"
   },
   {
     "id": 2942,
     "title": "L'Oreal Absolut Repair Shampoo",
     "slug": "loreal-absolut-repair-shampoo",
-    "price": 790.0,
+    "price": 790,
     "image": "/images/products/loreal-absolut-repair-shampoo.jpg",
     "stock": 4,
     "description": "L'Oreal Absolut Repair Shampoo - High quality personal care product.",
@@ -9587,13 +10271,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2942
+    "rank": 2942,
+    "name": "L'Oreal Absolut Repair Shampoo"
   },
   {
     "id": 2943,
     "title": "L'Oreal Ar Oil",
     "slug": "loreal-ar-oil",
-    "price": 1390.0,
+    "price": 1390,
     "image": "/images/products/loreal-ar-oil.jpg",
     "stock": 2,
     "description": "L'Oreal Ar Oil - High quality personal care product.",
@@ -9601,13 +10286,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2943
+    "rank": 2943,
+    "name": "L'Oreal Ar Oil"
   },
   {
     "id": 2946,
     "title": "L'Oreal Casting Cream 87.Gg+72Ml",
     "slug": "loreal-casting-cream-87gg72ml",
-    "price": 699.0,
+    "price": 699,
     "image": "/images/products/loreal-casting-cream-87gg72ml.jpg",
     "stock": 20,
     "description": "L'Oreal Casting Cream 87.Gg+72Ml - High quality personal care product.",
@@ -9615,13 +10301,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2946
+    "rank": 2946,
+    "name": "L'Oreal Casting Cream 87.Gg+72Ml"
   },
   {
     "id": 2947,
     "title": "L'Oreal Casting Cream 87.Gg+72Ml",
     "slug": "loreal-casting-cream-87gg72ml",
-    "price": 679.0,
+    "price": 679,
     "image": "/images/products/loreal-casting-cream-87gg72ml.jpg",
     "stock": 1,
     "description": "L'Oreal Casting Cream 87.Gg+72Ml - High quality personal care product.",
@@ -9629,13 +10316,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2947
+    "rank": 2947,
+    "name": "L'Oreal Casting Cream 87.Gg+72Ml"
   },
   {
     "id": 2948,
     "title": "L'Oreal Casting Cream Gloss 21G+24Ml",
     "slug": "loreal-casting-cream-gloss-21g24ml",
-    "price": 239.0,
+    "price": 239,
     "image": "/images/products/loreal-casting-cream-gloss-21g24ml.jpg",
     "stock": 10,
     "description": "L'Oreal Casting Cream Gloss 21G+24Ml - High quality personal care product.",
@@ -9643,13 +10331,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2948
+    "rank": 2948,
+    "name": "L'Oreal Casting Cream Gloss 21G+24Ml"
   },
   {
     "id": 2951,
     "title": "L'Oreal Excellence Cream 100G+72Ml",
     "slug": "loreal-excellence-cream-100g72ml",
-    "price": 769.0,
+    "price": 769,
     "image": "/images/products/loreal-excellence-cream-100g72ml.jpg",
     "stock": 11,
     "description": "L'Oreal Excellence Cream 100G+72Ml - High quality personal care product.",
@@ -9657,13 +10346,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2951
+    "rank": 2951,
+    "name": "L'Oreal Excellence Cream 100G+72Ml"
   },
   {
     "id": 2953,
     "title": "L'Oreal Hair Mask Vitamino 250G",
     "slug": "loreal-hair-mask-vitamino-250g",
-    "price": 990.0,
+    "price": 990,
     "image": "/images/products/loreal-hair-mask-vitamino-250g.jpg",
     "stock": 2,
     "description": "L'Oreal Hair Mask Vitamino 250G - High quality personal care product.",
@@ -9671,13 +10361,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2953
+    "rank": 2953,
+    "name": "L'Oreal Hair Mask Vitamino 250G"
   },
   {
     "id": 2954,
     "title": "L'Oreal Hair Spa Ampul 8Ml",
     "slug": "loreal-hair-spa-ampul-8ml",
-    "price": 800.0,
+    "price": 800,
     "image": "/images/products/loreal-hair-spa-ampul-8ml.jpg",
     "stock": 2,
     "description": "L'Oreal Hair Spa Ampul 8Ml - High quality personal care product.",
@@ -9685,13 +10376,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2954
+    "rank": 2954,
+    "name": "L'Oreal Hair Spa Ampul 8Ml"
   },
   {
     "id": 2955,
     "title": "L'Oreal Hair Spa Mask Smooth",
     "slug": "loreal-hair-spa-mask-smooth",
-    "price": 800.0,
+    "price": 800,
     "image": "/images/products/loreal-hair-spa-mask-smooth.jpg",
     "stock": 2,
     "description": "L'Oreal Hair Spa Mask Smooth - High quality personal care product.",
@@ -9699,13 +10391,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2955
+    "rank": 2955,
+    "name": "L'Oreal Hair Spa Mask Smooth"
   },
   {
     "id": 2959,
     "title": "L'Oreal Inforcer Hair Mask",
     "slug": "loreal-inforcer-hair-mask",
-    "price": 990.0,
+    "price": 990,
     "image": "/images/products/loreal-inforcer-hair-mask.jpg",
     "stock": 1,
     "description": "L'Oreal Inforcer Hair Mask - High quality personal care product.",
@@ -9713,13 +10406,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2959
+    "rank": 2959,
+    "name": "L'Oreal Inforcer Hair Mask"
   },
   {
     "id": 2961,
     "title": "L'Oreal Liss Hair Serum 100Ml",
     "slug": "loreal-liss-hair-serum-100ml",
-    "price": 820.0,
+    "price": 820,
     "image": "/images/products/loreal-liss-hair-serum-100ml.jpg",
     "stock": 2,
     "description": "L'Oreal Liss Hair Serum 100Ml - High quality personal care product.",
@@ -9727,13 +10421,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2961
+    "rank": 2961,
+    "name": "L'Oreal Liss Hair Serum 100Ml"
   },
   {
     "id": 2964,
     "title": "L'Oreal Men Expert Sh Gel 300Ml",
     "slug": "loreal-men-expert-sh-gel-300ml",
-    "price": 550.0,
+    "price": 550,
     "image": "/images/products/loreal-men-expert-sh-gel-300ml.jpg",
     "stock": 21,
     "description": "L'Oreal Men Expert Sh Gel 300Ml - High quality personal care product.",
@@ -9741,13 +10436,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2964
+    "rank": 2964,
+    "name": "L'Oreal Men Expert Sh Gel 300Ml"
   },
   {
     "id": 2967,
     "title": "L'Oreal Pro Shampoo 300Ml",
     "slug": "loreal-pro-shampoo-300ml",
-    "price": 790.0,
+    "price": 790,
     "image": "/images/products/loreal-pro-shampoo-300ml.jpg",
     "stock": 7,
     "description": "L'Oreal Pro Shampoo 300Ml - High quality personal care product.",
@@ -9755,13 +10451,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2967
+    "rank": 2967,
+    "name": "L'Oreal Pro Shampoo 300Ml"
   },
   {
     "id": 2968,
     "title": "L'Oreal Repairing Serum 40G",
     "slug": "loreal-repairing-serum-40g",
-    "price": 229.0,
+    "price": 229,
     "image": "/images/products/loreal-repairing-serum-40g.jpg",
     "stock": 1,
     "description": "L'Oreal Repairing Serum 40G - High quality personal care product.",
@@ -9769,13 +10466,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2968
+    "rank": 2968,
+    "name": "L'Oreal Repairing Serum 40G"
   },
   {
     "id": 2969,
     "title": "L'Oreal Repairing Shampoo 650Ml",
     "slug": "loreal-repairing-shampoo-650ml",
-    "price": 1069.0,
+    "price": 1069,
     "image": "/images/products/loreal-repairing-shampoo-650ml.jpg",
     "stock": 1,
     "description": "L'Oreal Repairing Shampoo 650Ml - High quality personal care product.",
@@ -9783,13 +10481,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2969
+    "rank": 2969,
+    "name": "L'Oreal Repairing Shampoo 650Ml"
   },
   {
     "id": 2970,
     "title": "L'Oreal Scalp Adv Shampoo 300Ml",
     "slug": "loreal-scalp-adv-shampoo-300ml",
-    "price": 950.0,
+    "price": 950,
     "image": "/images/products/loreal-scalp-adv-shampoo-300ml.jpg",
     "stock": 4,
     "description": "L'Oreal Scalp Adv Shampoo 300Ml - High quality personal care product.",
@@ -9797,13 +10496,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2970
+    "rank": 2970,
+    "name": "L'Oreal Scalp Adv Shampoo 300Ml"
   },
   {
     "id": 2971,
     "title": "L'Oreal Shampoo 180Ml",
     "slug": "loreal-shampoo-180ml",
-    "price": 219.0,
+    "price": 219,
     "image": "/images/products/loreal-shampoo-180ml.jpg",
     "stock": 9,
     "description": "L'Oreal Shampoo 180Ml - High quality personal care product.",
@@ -9811,13 +10511,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2971
+    "rank": 2971,
+    "name": "L'Oreal Shampoo 180Ml"
   },
   {
     "id": 2973,
     "title": "L'Oreal Xtenso Care Shampoo 250Ml",
     "slug": "loreal-xtenso-care-shampoo-250ml",
-    "price": 1175.0,
+    "price": 1175,
     "image": "/images/products/loreal-xtenso-care-shampoo-250ml.jpg",
     "stock": 2,
     "description": "L'Oreal Xtenso Care Shampoo 250Ml - High quality personal care product.",
@@ -9825,13 +10526,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2973
+    "rank": 2973,
+    "name": "L'Oreal Xtenso Care Shampoo 250Ml"
   },
   {
     "id": 2975,
     "title": "L'Oreal Xtenso Hair Masque 250Ml",
     "slug": "loreal-xtenso-hair-masque-250ml",
-    "price": 850.0,
+    "price": 850,
     "image": "/images/products/loreal-xtenso-hair-masque-250ml.jpg",
     "stock": 3,
     "description": "L'Oreal Xtenso Hair Masque 250Ml - High quality personal care product.",
@@ -9839,13 +10541,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2975
+    "rank": 2975,
+    "name": "L'Oreal Xtenso Hair Masque 250Ml"
   },
   {
     "id": 2976,
     "title": "L'Oreal Xtenso Serum 100Ml",
     "slug": "loreal-xtenso-serum-100ml",
-    "price": 750.0,
+    "price": 750,
     "image": "/images/products/loreal-xtenso-serum-100ml.jpg",
     "stock": 4,
     "description": "L'Oreal Xtenso Serum 100Ml - High quality personal care product.",
@@ -9853,13 +10556,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2976
+    "rank": 2976,
+    "name": "L'Oreal Xtenso Serum 100Ml"
   },
   {
     "id": 2977,
     "title": "L'Oreal Xtenso Shampoo 250Ml",
     "slug": "loreal-xtenso-shampoo-250ml",
-    "price": 690.0,
+    "price": 690,
     "image": "/images/products/loreal-xtenso-shampoo-250ml.jpg",
     "stock": 3,
     "description": "L'Oreal Xtenso Shampoo 250Ml - High quality personal care product.",
@@ -9867,13 +10571,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2977
+    "rank": 2977,
+    "name": "L'Oreal Xtenso Shampoo 250Ml"
   },
   {
     "id": 2986,
     "title": "Lakme 9To5 Cc Alm/Beige/Bronze Spf 30Pa++",
     "slug": "lakme-9to5-cc-almbeigebronze-spf-30pa",
-    "price": 399.0,
+    "price": 399,
     "image": "/images/products/lakme-9to5-cc-almbeigebronze-spf-30pa.jpg",
     "stock": 5,
     "description": "Lakme 9To5 Cc Alm/Beige/Bronze Spf 30Pa++ - High quality personal care product.",
@@ -9881,13 +10586,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2986
+    "rank": 2986,
+    "name": "Lakme 9To5 Cc Alm/Beige/Bronze Spf 30Pa++"
   },
   {
     "id": 2987,
     "title": "Lakme 9To5 Cc Honey/Bronze Spf 30 9G",
     "slug": "lakme-9to5-cc-honeybronze-spf-30-9g",
-    "price": 115.0,
+    "price": 115,
     "image": "/images/products/lakme-9to5-cc-honeybronze-spf-30-9g.jpg",
     "stock": 6,
     "description": "Lakme 9To5 Cc Honey/Bronze Spf 30 9G - High quality personal care product.",
@@ -9895,13 +10601,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2987
+    "rank": 2987,
+    "name": "Lakme 9To5 Cc Honey/Bronze Spf 30 9G"
   },
   {
     "id": 2988,
     "title": "Lakme 9To5 Eyeconic Kajal",
     "slug": "lakme-9to5-eyeconic-kajal",
-    "price": 210.0,
+    "price": 210,
     "image": "/images/products/lakme-9to5-eyeconic-kajal.jpg",
     "stock": 5,
     "description": "Lakme 9To5 Eyeconic Kajal - High quality personal care product.",
@@ -9909,13 +10616,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2988
+    "rank": 2988,
+    "name": "Lakme 9To5 Eyeconic Kajal"
   },
   {
     "id": 2989,
     "title": "Lakme 9To5 Lum Lit Crm 15G",
     "slug": "lakme-9to5-lum-lit-crm-15g",
-    "price": 149.0,
+    "price": 149,
     "image": "/images/products/lakme-9to5-lum-lit-crm-15g.jpg",
     "stock": 2,
     "description": "Lakme 9To5 Lum Lit Crm 15G - High quality personal care product.",
@@ -9923,13 +10631,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2989
+    "rank": 2989,
+    "name": "Lakme 9To5 Lum Lit Crm 15G"
   },
   {
     "id": 2990,
     "title": "Lakme 9To5 Lum Lit Crm 30G",
     "slug": "lakme-9to5-lum-lit-crm-30g",
-    "price": 349.0,
+    "price": 349,
     "image": "/images/products/lakme-9to5-lum-lit-crm-30g.jpg",
     "stock": 2,
     "description": "Lakme 9To5 Lum Lit Crm 30G - High quality personal care product.",
@@ -9937,13 +10646,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2990
+    "rank": 2990,
+    "name": "Lakme 9To5 Lum Lit Crm 30G"
   },
   {
     "id": 2991,
     "title": "Lakme 9To5 Lum Lit Lotion 100G",
     "slug": "lakme-9to5-lum-lit-lotion-100g",
-    "price": 549.0,
+    "price": 549,
     "image": "/images/products/lakme-9to5-lum-lit-lotion-100g.jpg",
     "stock": 4,
     "description": "Lakme 9To5 Lum Lit Lotion 100G - High quality personal care product.",
@@ -9951,13 +10661,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2991
+    "rank": 2991,
+    "name": "Lakme 9To5 Lum Lit Lotion 100G"
   },
   {
     "id": 2992,
     "title": "Lakme Cleansing Milk 120Ml",
     "slug": "lakme-cleansing-milk-120ml",
-    "price": 299.0,
+    "price": 299,
     "image": "/images/products/lakme-cleansing-milk-120ml.jpg",
     "stock": 2,
     "description": "Lakme Cleansing Milk 120Ml - High quality personal care product.",
@@ -9965,13 +10676,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2992
+    "rank": 2992,
+    "name": "Lakme Cleansing Milk 120Ml"
   },
   {
     "id": 2993,
     "title": "Lakme Cleansing Milk 60Ml",
     "slug": "lakme-cleansing-milk-60ml",
-    "price": 150.0,
+    "price": 150,
     "image": "/images/products/lakme-cleansing-milk-60ml.jpg",
     "stock": 2,
     "description": "Lakme Cleansing Milk 60Ml - High quality personal care product.",
@@ -9979,13 +10691,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2993
+    "rank": 2993,
+    "name": "Lakme Cleansing Milk 60Ml"
   },
   {
     "id": 2994,
     "title": "Lakme Eyebrow Pencil",
     "slug": "lakme-eyebrow-pencil",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/lakme-eyebrow-pencil.jpg",
     "stock": 4,
     "description": "Lakme Eyebrow Pencil - High quality personal care product.",
@@ -9993,13 +10706,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2994
+    "rank": 2994,
+    "name": "Lakme Eyebrow Pencil"
   },
   {
     "id": 2995,
     "title": "Lakme Eyeconic Eye Liner",
     "slug": "lakme-eyeconic-eye-liner",
-    "price": 299.0,
+    "price": 299,
     "image": "/images/products/lakme-eyeconic-eye-liner.jpg",
     "stock": 3,
     "description": "Lakme Eyeconic Eye Liner - High quality personal care product.",
@@ -10007,13 +10721,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2995
+    "rank": 2995,
+    "name": "Lakme Eyeconic Eye Liner"
   },
   {
     "id": 2996,
     "title": "Lakme Eyeliner",
     "slug": "lakme-eyeliner",
-    "price": 190.0,
+    "price": 190,
     "image": "/images/products/lakme-eyeliner.jpg",
     "stock": 3,
     "description": "Lakme Eyeliner - High quality personal care product.",
@@ -10021,13 +10736,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2996
+    "rank": 2996,
+    "name": "Lakme Eyeliner"
   },
   {
     "id": 2997,
     "title": "Lakme Fm Wm/Lemon/Sb Mask",
     "slug": "lakme-fm-wmlemonsb-mask",
-    "price": 100.0,
+    "price": 100,
     "image": "/images/products/lakme-fm-wmlemonsb-mask.jpg",
     "stock": 8,
     "description": "Lakme Fm Wm/Lemon/Sb Mask - High quality personal care product.",
@@ -10035,13 +10751,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2997
+    "rank": 2997,
+    "name": "Lakme Fm Wm/Lemon/Sb Mask"
   },
   {
     "id": 2998,
     "title": "Lakme Forever Matte Compact",
     "slug": "lakme-forever-matte-compact",
-    "price": 240.0,
+    "price": 240,
     "image": "/images/products/lakme-forever-matte-compact.jpg",
     "stock": 6,
     "description": "Lakme Forever Matte Compact - High quality personal care product.",
@@ -10049,13 +10766,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2998
+    "rank": 2998,
+    "name": "Lakme Forever Matte Compact"
   },
   {
     "id": 2999,
     "title": "Lakme Mousse Foundation",
     "slug": "lakme-mousse-foundation",
-    "price": 499.0,
+    "price": 499,
     "image": "/images/products/lakme-mousse-foundation.jpg",
     "stock": 2,
     "description": "Lakme Mousse Foundation - High quality personal care product.",
@@ -10063,13 +10781,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 2999
+    "rank": 2999,
+    "name": "Lakme Mousse Foundation"
   },
   {
     "id": 3000,
     "title": "Lakme Nail Remover",
     "slug": "lakme-nail-remover",
-    "price": 105.0,
+    "price": 105,
     "image": "/images/products/lakme-nail-remover.jpg",
     "stock": 5,
     "description": "Lakme Nail Remover - High quality personal care product.",
@@ -10077,13 +10796,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3000
+    "rank": 3000,
+    "name": "Lakme Nail Remover"
   },
   {
     "id": 3001,
     "title": "Lakme Peach Milk Mois 120Ml",
     "slug": "lakme-peach-milk-mois-120ml",
-    "price": 274.0,
+    "price": 274,
     "image": "/images/products/lakme-peach-milk-mois-120ml.jpg",
     "stock": 3,
     "description": "Lakme Peach Milk Mois 120Ml - High quality personal care product.",
@@ -10091,13 +10811,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3001
+    "rank": 3001,
+    "name": "Lakme Peach Milk Mois 120Ml"
   },
   {
     "id": 3002,
     "title": "Lakme Peach Milk Mois 200Ml",
     "slug": "lakme-peach-milk-mois-200ml",
-    "price": 435.0,
+    "price": 435,
     "image": "/images/products/lakme-peach-milk-mois-200ml.jpg",
     "stock": 3,
     "description": "Lakme Peach Milk Mois 200Ml - High quality personal care product.",
@@ -10105,13 +10826,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3002
+    "rank": 3002,
+    "name": "Lakme Peach Milk Mois 200Ml"
   },
   {
     "id": 3003,
     "title": "Lakme Peach Milk Mois 60Ml",
     "slug": "lakme-peach-milk-mois-60ml",
-    "price": 135.0,
+    "price": 135,
     "image": "/images/products/lakme-peach-milk-mois-60ml.jpg",
     "stock": 3,
     "description": "Lakme Peach Milk Mois 60Ml - High quality personal care product.",
@@ -10119,13 +10841,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3003
+    "rank": 3003,
+    "name": "Lakme Peach Milk Mois 60Ml"
   },
   {
     "id": 3004,
     "title": "Lakme Peach Milk Spf 24 120Ml",
     "slug": "lakme-peach-milk-spf-24-120ml",
-    "price": 299.0,
+    "price": 299,
     "image": "/images/products/lakme-peach-milk-spf-24-120ml.jpg",
     "stock": 2,
     "description": "Lakme Peach Milk Spf 24 120Ml - High quality personal care product.",
@@ -10133,13 +10856,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3004
+    "rank": 3004,
+    "name": "Lakme Peach Milk Spf 24 120Ml"
   },
   {
     "id": 3005,
     "title": "Lakme Peach Milk Spf 24 200Ml",
     "slug": "lakme-peach-milk-spf-24-200ml",
-    "price": 520.0,
+    "price": 520,
     "image": "/images/products/lakme-peach-milk-spf-24-200ml.jpg",
     "stock": 3,
     "description": "Lakme Peach Milk Spf 24 200Ml - High quality personal care product.",
@@ -10147,13 +10871,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3005
+    "rank": 3005,
+    "name": "Lakme Peach Milk Spf 24 200Ml"
   },
   {
     "id": 3006,
     "title": "Lakme Perfact Radiance Fw 100G",
     "slug": "lakme-perfact-radiance-fw-100g",
-    "price": 295.0,
+    "price": 295,
     "image": "/images/products/lakme-perfact-radiance-fw-100g.jpg",
     "stock": 3,
     "description": "Lakme Perfact Radiance Fw 100G - High quality personal care product.",
@@ -10161,13 +10886,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3006
+    "rank": 3006,
+    "name": "Lakme Perfact Radiance Fw 100G"
   },
   {
     "id": 3007,
     "title": "Lakme Perfact Radiance Fw 50G",
     "slug": "lakme-perfact-radiance-fw-50g",
-    "price": 175.0,
+    "price": 175,
     "image": "/images/products/lakme-perfact-radiance-fw-50g.jpg",
     "stock": 2,
     "description": "Lakme Perfact Radiance Fw 50G - High quality personal care product.",
@@ -10175,13 +10901,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3007
+    "rank": 3007,
+    "name": "Lakme Perfact Radiance Fw 50G"
   },
   {
     "id": 3008,
     "title": "Lakme Ph Milk Soft Cream 100G",
     "slug": "lakme-ph-milk-soft-cream-100g",
-    "price": 284.0,
+    "price": 284,
     "image": "/images/products/lakme-ph-milk-soft-cream-100g.jpg",
     "stock": 3,
     "description": "Lakme Ph Milk Soft Cream 100G - High quality personal care product.",
@@ -10189,13 +10916,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3008
+    "rank": 3008,
+    "name": "Lakme Ph Milk Soft Cream 100G"
   },
   {
     "id": 3009,
     "title": "Lakme Ph Milk Soft Cream 50G",
     "slug": "lakme-ph-milk-soft-cream-50g",
-    "price": 142.0,
+    "price": 142,
     "image": "/images/products/lakme-ph-milk-soft-cream-50g.jpg",
     "stock": 2,
     "description": "Lakme Ph Milk Soft Cream 50G - High quality personal care product.",
@@ -10203,13 +10931,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3009
+    "rank": 3009,
+    "name": "Lakme Ph Milk Soft Cream 50G"
   },
   {
     "id": 3010,
     "title": "Lakme Sandoor Maroon",
     "slug": "lakme-sandoor-maroon",
-    "price": 190.0,
+    "price": 190,
     "image": "/images/products/lakme-sandoor-maroon.jpg",
     "stock": 6,
     "description": "Lakme Sandoor Maroon - High quality personal care product.",
@@ -10217,13 +10946,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3010
+    "rank": 3010,
+    "name": "Lakme Sandoor Maroon"
   },
   {
     "id": 3011,
     "title": "Lakme Skin Sol Sheet Mask",
     "slug": "lakme-skin-sol-sheet-mask",
-    "price": 150.0,
+    "price": 150,
     "image": "/images/products/lakme-skin-sol-sheet-mask.jpg",
     "stock": 5,
     "description": "Lakme Skin Sol Sheet Mask - High quality personal care product.",
@@ -10231,13 +10961,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3011
+    "rank": 3011,
+    "name": "Lakme Skin Sol Sheet Mask"
   },
   {
     "id": 3012,
     "title": "Lakme Strawberry Fw 100G",
     "slug": "lakme-strawberry-fw-100g",
-    "price": 260.0,
+    "price": 260,
     "image": "/images/products/lakme-strawberry-fw-100g.jpg",
     "stock": 2,
     "description": "Lakme Strawberry Fw 100G - High quality personal care product.",
@@ -10245,13 +10976,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3012
+    "rank": 3012,
+    "name": "Lakme Strawberry Fw 100G"
   },
   {
     "id": 3013,
     "title": "Lakme Strawberry Fw 50G",
     "slug": "lakme-strawberry-fw-50g",
-    "price": 130.0,
+    "price": 130,
     "image": "/images/products/lakme-strawberry-fw-50g.jpg",
     "stock": 2,
     "description": "Lakme Strawberry Fw 50G - High quality personal care product.",
@@ -10259,13 +10991,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3013
+    "rank": 3013,
+    "name": "Lakme Strawberry Fw 50G"
   },
   {
     "id": 3014,
     "title": "Lakme Sunscreen Gel Spf50+++ 50G",
     "slug": "lakme-sunscreen-gel-spf50-50g",
-    "price": 369.0,
+    "price": 369,
     "image": "/images/products/lakme-sunscreen-gel-spf50-50g.jpg",
     "stock": 2,
     "description": "Lakme Sunscreen Gel Spf50+++ 50G - High quality personal care product.",
@@ -10273,13 +11006,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3014
+    "rank": 3014,
+    "name": "Lakme Sunscreen Gel Spf50+++ 50G"
   },
   {
     "id": 3015,
     "title": "Lakme Sunscreen Sm Spf25 50Ml",
     "slug": "lakme-sunscreen-sm-spf25-50ml",
-    "price": 269.0,
+    "price": 269,
     "image": "/images/products/lakme-sunscreen-sm-spf25-50ml.jpg",
     "stock": 3,
     "description": "Lakme Sunscreen Sm Spf25 50Ml - High quality personal care product.",
@@ -10287,13 +11021,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3015
+    "rank": 3015,
+    "name": "Lakme Sunscreen Sm Spf25 50Ml"
   },
   {
     "id": 3016,
     "title": "Lakme Sunscreen Sm Spf30 100Ml",
     "slug": "lakme-sunscreen-sm-spf30-100ml",
-    "price": 475.0,
+    "price": 475,
     "image": "/images/products/lakme-sunscreen-sm-spf30-100ml.jpg",
     "stock": 3,
     "description": "Lakme Sunscreen Sm Spf30 100Ml - High quality personal care product.",
@@ -10301,13 +11036,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3016
+    "rank": 3016,
+    "name": "Lakme Sunscreen Sm Spf30 100Ml"
   },
   {
     "id": 3017,
     "title": "Lakme Sunscreen Sm Spf30 50Ml",
     "slug": "lakme-sunscreen-sm-spf30-50ml",
-    "price": 299.0,
+    "price": 299,
     "image": "/images/products/lakme-sunscreen-sm-spf30-50ml.jpg",
     "stock": 2,
     "description": "Lakme Sunscreen Sm Spf30 50Ml - High quality personal care product.",
@@ -10315,13 +11051,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3017
+    "rank": 3017,
+    "name": "Lakme Sunscreen Sm Spf30 50Ml"
   },
   {
     "id": 3018,
     "title": "Lakme Sunscreen Sm Spf50 100Ml",
     "slug": "lakme-sunscreen-sm-spf50-100ml",
-    "price": 625.0,
+    "price": 625,
     "image": "/images/products/lakme-sunscreen-sm-spf50-100ml.jpg",
     "stock": 3,
     "description": "Lakme Sunscreen Sm Spf50 100Ml - High quality personal care product.",
@@ -10329,13 +11066,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3018
+    "rank": 3018,
+    "name": "Lakme Sunscreen Sm Spf50 100Ml"
   },
   {
     "id": 3019,
     "title": "Lakme Sunscreen Sm Spf50 50Ml",
     "slug": "lakme-sunscreen-sm-spf50-50ml",
-    "price": 369.0,
+    "price": 369,
     "image": "/images/products/lakme-sunscreen-sm-spf50-50ml.jpg",
     "stock": 3,
     "description": "Lakme Sunscreen Sm Spf50 50Ml - High quality personal care product.",
@@ -10343,13 +11081,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3019
+    "rank": 3019,
+    "name": "Lakme Sunscreen Sm Spf50 50Ml"
   },
   {
     "id": 3020,
     "title": "Lakme Sunscreen Sm Spf50+++",
     "slug": "lakme-sunscreen-sm-spf50",
-    "price": 110.0,
+    "price": 110,
     "image": "/images/products/lakme-sunscreen-sm-spf50.jpg",
     "stock": 3,
     "description": "Lakme Sunscreen Sm Spf50+++ - High quality personal care product.",
@@ -10357,13 +11096,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3020
+    "rank": 3020,
+    "name": "Lakme Sunscreen Sm Spf50+++"
   },
   {
     "id": 3021,
     "title": "Lakme Sunscreen Spf50+++",
     "slug": "lakme-sunscreen-spf50",
-    "price": 125.0,
+    "price": 125,
     "image": "/images/products/lakme-sunscreen-spf50.jpg",
     "stock": 3,
     "description": "Lakme Sunscreen Spf50+++ - High quality personal care product.",
@@ -10371,13 +11111,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3021
+    "rank": 3021,
+    "name": "Lakme Sunscreen Spf50+++"
   },
   {
     "id": 3022,
     "title": "Lakme Sunscreen Th Spf50 100Ml",
     "slug": "lakme-sunscreen-th-spf50-100ml",
-    "price": 625.0,
+    "price": 625,
     "image": "/images/products/lakme-sunscreen-th-spf50-100ml.jpg",
     "stock": 2,
     "description": "Lakme Sunscreen Th Spf50 100Ml - High quality personal care product.",
@@ -10385,13 +11126,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3022
+    "rank": 3022,
+    "name": "Lakme Sunscreen Th Spf50 100Ml"
   },
   {
     "id": 3023,
     "title": "Lakme Sunscreen Th Spf50 50Ml",
     "slug": "lakme-sunscreen-th-spf50-50ml",
-    "price": 369.0,
+    "price": 369,
     "image": "/images/products/lakme-sunscreen-th-spf50-50ml.jpg",
     "stock": 3,
     "description": "Lakme Sunscreen Th Spf50 50Ml - High quality personal care product.",
@@ -10399,13 +11141,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3023
+    "rank": 3023,
+    "name": "Lakme Sunscreen Th Spf50 50Ml"
   },
   {
     "id": 3024,
     "title": "Lakme Ug Volumizing Mascara",
     "slug": "lakme-ug-volumizing-mascara",
-    "price": 350.0,
+    "price": 350,
     "image": "/images/products/lakme-ug-volumizing-mascara.jpg",
     "stock": 3,
     "description": "Lakme Ug Volumizing Mascara - High quality personal care product.",
@@ -10413,13 +11156,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3024
+    "rank": 3024,
+    "name": "Lakme Ug Volumizing Mascara"
   },
   {
     "id": 3025,
     "title": "Lakme Ulimate Glam Eyeliner Colorful",
     "slug": "lakme-ulimate-glam-eyeliner-colorful",
-    "price": 180.0,
+    "price": 180,
     "image": "/images/products/lakme-ulimate-glam-eyeliner-colorful.jpg",
     "stock": 3,
     "description": "Lakme Ulimate Glam Eyeliner Colorful - High quality personal care product.",
@@ -10427,13 +11171,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3025
+    "rank": 3025,
+    "name": "Lakme Ulimate Glam Eyeliner Colorful"
   },
   {
     "id": 3026,
     "title": "Lakme Unreal Blurfect Primer",
     "slug": "lakme-unreal-blurfect-primer",
-    "price": 350.0,
+    "price": 350,
     "image": "/images/products/lakme-unreal-blurfect-primer.jpg",
     "stock": 2,
     "description": "Lakme Unreal Blurfect Primer - High quality personal care product.",
@@ -10441,13 +11186,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3026
+    "rank": 3026,
+    "name": "Lakme Unreal Blurfect Primer"
   },
   {
     "id": 3027,
     "title": "Lakme Vit C Brl Serum 15Ml",
     "slug": "lakme-vit-c-brl-serum-15ml",
-    "price": 325.0,
+    "price": 325,
     "image": "/images/products/lakme-vit-c-brl-serum-15ml.jpg",
     "stock": 1,
     "description": "Lakme Vit C Brl Serum 15Ml - High quality personal care product.",
@@ -10455,13 +11201,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3027
+    "rank": 3027,
+    "name": "Lakme Vit C Brl Serum 15Ml"
   },
   {
     "id": 3028,
     "title": "Lakme Vit C Sg Compact Powder",
     "slug": "lakme-vit-c-sg-compact-powder",
-    "price": 350.0,
+    "price": 350,
     "image": "/images/products/lakme-vit-c-sg-compact-powder.jpg",
     "stock": 5,
     "description": "Lakme Vit C Sg Compact Powder - High quality personal care product.",
@@ -10469,13 +11216,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3028
+    "rank": 3028,
+    "name": "Lakme Vit C Sg Compact Powder"
   },
   {
     "id": 3029,
     "title": "Lakme Vit C Sg Primer",
     "slug": "lakme-vit-c-sg-primer",
-    "price": 399.0,
+    "price": 399,
     "image": "/images/products/lakme-vit-c-sg-primer.jpg",
     "stock": 3,
     "description": "Lakme Vit C Sg Primer - High quality personal care product.",
@@ -10483,13 +11231,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3029
+    "rank": 3029,
+    "name": "Lakme Vit C Sg Primer"
   },
   {
     "id": 3030,
     "title": "Lakme Vit C Superglow Foundation",
     "slug": "lakme-vit-c-superglow-foundation",
-    "price": 399.0,
+    "price": 399,
     "image": "/images/products/lakme-vit-c-superglow-foundation.jpg",
     "stock": 4,
     "description": "Lakme Vit C Superglow Foundation - High quality personal care product.",
@@ -10497,13 +11246,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3030
+    "rank": 3030,
+    "name": "Lakme Vit C Superglow Foundation"
   },
   {
     "id": 3031,
     "title": "Lakme Vit C Superglow Foundation Tint",
     "slug": "lakme-vit-c-superglow-foundation-tint",
-    "price": 430.0,
+    "price": 430,
     "image": "/images/products/lakme-vit-c-superglow-foundation-tint.jpg",
     "stock": 1,
     "description": "Lakme Vit C Superglow Foundation Tint - High quality personal care product.",
@@ -10511,13 +11261,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3031
+    "rank": 3031,
+    "name": "Lakme Vit C Superglow Foundation Tint"
   },
   {
     "id": 3044,
     "title": "Laxmanrekha Gel 15Gm",
     "slug": "laxmanrekha-gel-15gm",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/laxmanrekha-gel-15gm.jpg",
     "stock": 10,
     "description": "Laxmanrekha Gel 15Gm - High quality personal care product.",
@@ -10525,13 +11276,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3044
+    "rank": 3044,
+    "name": "Laxmanrekha Gel 15Gm"
   },
   {
     "id": 3066,
     "title": "Ld Berry'S & Cream 100Ml",
     "slug": "ld-berrys-cream-100ml",
-    "price": 150.0,
+    "price": 150,
     "image": "/images/products/ld-berrys-cream-100ml.jpg",
     "stock": 8,
     "description": "Ld Berry'S & Cream 100Ml - High quality personal care product.",
@@ -10539,13 +11291,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3066
+    "rank": 3066,
+    "name": "Ld Berry'S & Cream 100Ml"
   },
   {
     "id": 3069,
     "title": "Ld Cookies &Cream 500Ml",
     "slug": "ld-cookies-cream-500ml",
-    "price": 500.0,
+    "price": 500,
     "image": "/images/products/ld-cookies-cream-500ml.jpg",
     "stock": 4,
     "description": "Ld Cookies &Cream 500Ml - High quality personal care product.",
@@ -10553,13 +11306,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3069
+    "rank": 3069,
+    "name": "Ld Cookies &Cream 500Ml"
   },
   {
     "id": 3073,
     "title": "Ld Praline & Cream Cup 125Ml",
     "slug": "ld-praline-cream-cup-125ml",
-    "price": 150.0,
+    "price": 150,
     "image": "/images/products/ld-praline-cream-cup-125ml.jpg",
     "stock": 10,
     "description": "Ld Praline & Cream Cup 125Ml - High quality personal care product.",
@@ -10567,13 +11321,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3073
+    "rank": 3073,
+    "name": "Ld Praline & Cream Cup 125Ml"
   },
   {
     "id": 3127,
     "title": "Liril Soap 125Gm",
     "slug": "liril-soap-125gm",
-    "price": 80.0,
+    "price": 80,
     "image": "/images/products/liril-soap-125gm.jpg",
     "stock": 6,
     "description": "Liril Soap 125Gm - High quality personal care product.",
@@ -10581,13 +11336,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3127
+    "rank": 3127,
+    "name": "Liril Soap 125Gm"
   },
   {
     "id": 3128,
     "title": "Liril Soap 75Gm",
     "slug": "liril-soap-75gm",
-    "price": 26.0,
+    "price": 26,
     "image": "/images/products/liril-soap-75gm.jpg",
     "stock": 7,
     "description": "Liril Soap 75Gm - High quality personal care product.",
@@ -10595,13 +11351,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3128
+    "rank": 3128,
+    "name": "Liril Soap 75Gm"
   },
   {
     "id": 3129,
     "title": "Listerine Mouth Wash Mild Taste 500Ml",
     "slug": "listerine-mouth-wash-mild-taste-500ml",
-    "price": 350.0,
+    "price": 350,
     "image": "/images/products/listerine-mouth-wash-mild-taste-500ml.jpg",
     "stock": 1,
     "description": "Listerine Mouth Wash Mild Taste 500Ml - High quality personal care product.",
@@ -10609,13 +11366,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3129
+    "rank": 3129,
+    "name": "Listerine Mouth Wash Mild Taste 500Ml"
   },
   {
     "id": 3130,
     "title": "Listerine Mouth Wash Original 500Ml",
     "slug": "listerine-mouth-wash-original-500ml",
-    "price": 350.0,
+    "price": 350,
     "image": "/images/products/listerine-mouth-wash-original-500ml.jpg",
     "stock": 2,
     "description": "Listerine Mouth Wash Original 500Ml - High quality personal care product.",
@@ -10623,13 +11381,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3130
+    "rank": 3130,
+    "name": "Listerine Mouth Wash Original 500Ml"
   },
   {
     "id": 3131,
     "title": "Listerine Mouthwash Cavity Fighter 250Ml",
     "slug": "listerine-mouthwash-cavity-fighter-250ml",
-    "price": 230.0,
+    "price": 230,
     "image": "/images/products/listerine-mouthwash-cavity-fighter-250ml.jpg",
     "stock": 1,
     "description": "Listerine Mouthwash Cavity Fighter 250Ml - High quality personal care product.",
@@ -10637,13 +11396,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3131
+    "rank": 3131,
+    "name": "Listerine Mouthwash Cavity Fighter 250Ml"
   },
   {
     "id": 3132,
     "title": "Listerine Mouthwash Cavity/Fresh 500Ml",
     "slug": "listerine-mouthwash-cavityfresh-500ml",
-    "price": 400.0,
+    "price": 400,
     "image": "/images/products/listerine-mouthwash-cavityfresh-500ml.jpg",
     "stock": 4,
     "description": "Listerine Mouthwash Cavity/Fresh 500Ml - High quality personal care product.",
@@ -10651,13 +11411,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3132
+    "rank": 3132,
+    "name": "Listerine Mouthwash Cavity/Fresh 500Ml"
   },
   {
     "id": 3133,
     "title": "Listerine Mouthwash Cool Mint 500Ml",
     "slug": "listerine-mouthwash-cool-mint-500ml",
-    "price": 360.0,
+    "price": 360,
     "image": "/images/products/listerine-mouthwash-cool-mint-500ml.jpg",
     "stock": 2,
     "description": "Listerine Mouthwash Cool Mint 500Ml - High quality personal care product.",
@@ -10665,13 +11426,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3133
+    "rank": 3133,
+    "name": "Listerine Mouthwash Cool Mint 500Ml"
   },
   {
     "id": 3134,
     "title": "Listerine Mouthwash Mild Taste 250Ml",
     "slug": "listerine-mouthwash-mild-taste-250ml",
-    "price": 185.0,
+    "price": 185,
     "image": "/images/products/listerine-mouthwash-mild-taste-250ml.jpg",
     "stock": 1,
     "description": "Listerine Mouthwash Mild Taste 250Ml - High quality personal care product.",
@@ -10679,13 +11441,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3134
+    "rank": 3134,
+    "name": "Listerine Mouthwash Mild Taste 250Ml"
   },
   {
     "id": 3135,
     "title": "Listerine Mouthwash Original/Cool 250Ml",
     "slug": "listerine-mouthwash-originalcool-250ml",
-    "price": 185.0,
+    "price": 185,
     "image": "/images/products/listerine-mouthwash-originalcool-250ml.jpg",
     "stock": 1,
     "description": "Listerine Mouthwash Original/Cool 250Ml - High quality personal care product.",
@@ -10693,13 +11456,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3135
+    "rank": 3135,
+    "name": "Listerine Mouthwash Original/Cool 250Ml"
   },
   {
     "id": 3136,
     "title": "Listerine Mouthwash Total Care 250Ml",
     "slug": "listerine-mouthwash-total-care-250ml",
-    "price": 210.0,
+    "price": 210,
     "image": "/images/products/listerine-mouthwash-total-care-250ml.jpg",
     "stock": 1,
     "description": "Listerine Mouthwash Total Care 250Ml - High quality personal care product.",
@@ -10707,13 +11471,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3136
+    "rank": 3136,
+    "name": "Listerine Mouthwash Total Care 250Ml"
   },
   {
     "id": 3137,
     "title": "Listerine Mouthwash Total Care 500Ml",
     "slug": "listerine-mouthwash-total-care-500ml",
-    "price": 400.0,
+    "price": 400,
     "image": "/images/products/listerine-mouthwash-total-care-500ml.jpg",
     "stock": 2,
     "description": "Listerine Mouthwash Total Care 500Ml - High quality personal care product.",
@@ -10721,13 +11486,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3137
+    "rank": 3137,
+    "name": "Listerine Mouthwash Total Care 500Ml"
   },
   {
     "id": 3138,
     "title": "Livon Hair Serum 20Ml",
     "slug": "livon-hair-serum-20ml",
-    "price": 70.0,
+    "price": 70,
     "image": "/images/products/livon-hair-serum-20ml.jpg",
     "stock": 3,
     "description": "Livon Hair Serum 20Ml - High quality personal care product.",
@@ -10735,13 +11501,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3138
+    "rank": 3138,
+    "name": "Livon Hair Serum 20Ml"
   },
   {
     "id": 3139,
     "title": "Livon Hair Serum 45Ml",
     "slug": "livon-hair-serum-45ml",
-    "price": 140.0,
+    "price": 140,
     "image": "/images/products/livon-hair-serum-45ml.jpg",
     "stock": 3,
     "description": "Livon Hair Serum 45Ml - High quality personal care product.",
@@ -10749,13 +11516,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3139
+    "rank": 3139,
+    "name": "Livon Hair Serum 45Ml"
   },
   {
     "id": 3150,
     "title": "Lizol Surface Cleaner 5L",
     "slug": "lizol-surface-cleaner-5l",
-    "price": 1029.0,
+    "price": 1029,
     "image": "/images/products/lizol-surface-cleaner-5l.jpg",
     "stock": 2,
     "description": "Lizol Surface Cleaner 5L - High quality personal care product.",
@@ -10763,13 +11531,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3150
+    "rank": 3150,
+    "name": "Lizol Surface Cleaner 5L"
   },
   {
     "id": 3151,
     "title": "Lizol Surface Cleaner 975Ml",
     "slug": "lizol-surface-cleaner-975ml",
-    "price": 235.0,
+    "price": 235,
     "image": "/images/products/lizol-surface-cleaner-975ml.jpg",
     "stock": 12,
     "description": "Lizol Surface Cleaner 975Ml - High quality personal care product.",
@@ -10777,13 +11546,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3151
+    "rank": 3151,
+    "name": "Lizol Surface Cleaner 975Ml"
   },
   {
     "id": 3157,
     "title": "Loreal Anti Hair Fall Shampoo340Ml",
     "slug": "loreal-anti-hair-fall-shampoo340ml",
-    "price": 459.0,
+    "price": 459,
     "image": "/images/products/loreal-anti-hair-fall-shampoo340ml.jpg",
     "stock": 1,
     "description": "Loreal Anti Hair Fall Shampoo340Ml - High quality personal care product.",
@@ -10791,13 +11561,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3157
+    "rank": 3157,
+    "name": "Loreal Anti Hair Fall Shampoo340Ml"
   },
   {
     "id": 3158,
     "title": "Loreal Anti Hairfall Conditioner",
     "slug": "loreal-anti-hairfall-conditioner",
-    "price": 279.0,
+    "price": 279,
     "image": "/images/products/loreal-anti-hairfall-conditioner.jpg",
     "stock": 3,
     "description": "Loreal Anti Hairfall Conditioner - High quality personal care product.",
@@ -10805,13 +11576,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3158
+    "rank": 3158,
+    "name": "Loreal Anti Hairfall Conditioner"
   },
   {
     "id": 3163,
     "title": "Loreal Dream Length Shampoo 180Ml",
     "slug": "loreal-dream-length-shampoo-180ml",
-    "price": 219.0,
+    "price": 219,
     "image": "/images/products/loreal-dream-length-shampoo-180ml.jpg",
     "stock": 3,
     "description": "Loreal Dream Length Shampoo 180Ml - High quality personal care product.",
@@ -10819,13 +11591,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3163
+    "rank": 3163,
+    "name": "Loreal Dream Length Shampoo 180Ml"
   },
   {
     "id": 3164,
     "title": "Loreal Eo Shampoo 340Ml",
     "slug": "loreal-eo-shampoo-340ml",
-    "price": 419.0,
+    "price": 419,
     "image": "/images/products/loreal-eo-shampoo-340ml.jpg",
     "stock": 1,
     "description": "Loreal Eo Shampoo 340Ml - High quality personal care product.",
@@ -10833,13 +11606,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3164
+    "rank": 3164,
+    "name": "Loreal Eo Shampoo 340Ml"
   },
   {
     "id": 3166,
     "title": "Loreal Ex Oil Shampoo",
     "slug": "loreal-ex-oil-shampoo",
-    "price": 169.0,
+    "price": 169,
     "image": "/images/products/loreal-ex-oil-shampoo.jpg",
     "stock": 2,
     "description": "Loreal Ex Oil Shampoo - High quality personal care product.",
@@ -10847,13 +11621,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3166
+    "rank": 3166,
+    "name": "Loreal Ex Oil Shampoo"
   },
   {
     "id": 3167,
     "title": "Loreal Hm Shampoo 180Ml",
     "slug": "loreal-hm-shampoo-180ml",
-    "price": 229.0,
+    "price": 229,
     "image": "/images/products/loreal-hm-shampoo-180ml.jpg",
     "stock": 1,
     "description": "Loreal Hm Shampoo 180Ml - High quality personal care product.",
@@ -10861,13 +11636,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3167
+    "rank": 3167,
+    "name": "Loreal Hm Shampoo 180Ml"
   },
   {
     "id": 3168,
     "title": "Loreal Hm Shampoo 180Ml",
     "slug": "loreal-hm-shampoo-180ml",
-    "price": 179.0,
+    "price": 179,
     "image": "/images/products/loreal-hm-shampoo-180ml.jpg",
     "stock": 1,
     "description": "Loreal Hm Shampoo 180Ml - High quality personal care product.",
@@ -10875,13 +11651,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3168
+    "rank": 3168,
+    "name": "Loreal Hm Shampoo 180Ml"
   },
   {
     "id": 3170,
     "title": "Loreal Mh Shampoo 340Ml",
     "slug": "loreal-mh-shampoo-340ml",
-    "price": 469.0,
+    "price": 469,
     "image": "/images/products/loreal-mh-shampoo-340ml.jpg",
     "stock": 1,
     "description": "Loreal Mh Shampoo 340Ml - High quality personal care product.",
@@ -10889,13 +11666,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3170
+    "rank": 3170,
+    "name": "Loreal Mh Shampoo 340Ml"
   },
   {
     "id": 3172,
     "title": "Loreal Tr Shampoo 180Ml",
     "slug": "loreal-tr-shampoo-180ml",
-    "price": 169.0,
+    "price": 169,
     "image": "/images/products/loreal-tr-shampoo-180ml.jpg",
     "stock": 3,
     "description": "Loreal Tr Shampoo 180Ml - High quality personal care product.",
@@ -10903,13 +11681,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3172
+    "rank": 3172,
+    "name": "Loreal Tr Shampoo 180Ml"
   },
   {
     "id": 3173,
     "title": "Loreal Tr5 Shampoo 340Ml",
     "slug": "loreal-tr5-shampoo-340ml",
-    "price": 399.0,
+    "price": 399,
     "image": "/images/products/loreal-tr5-shampoo-340ml.jpg",
     "stock": 1,
     "description": "Loreal Tr5 Shampoo 340Ml - High quality personal care product.",
@@ -10917,13 +11696,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3173
+    "rank": 3173,
+    "name": "Loreal Tr5 Shampoo 340Ml"
   },
   {
     "id": 3176,
     "title": "Lotus  Wg Night Cream 60G",
     "slug": "lotus-wg-night-cream-60g",
-    "price": 480.0,
+    "price": 480,
     "image": "/images/products/lotus-wg-night-cream-60g.jpg",
     "stock": 1,
     "description": "Lotus  Wg Night Cream 60G - High quality personal care product.",
@@ -10931,13 +11711,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3176
+    "rank": 3176,
+    "name": "Lotus  Wg Night Cream 60G"
   },
   {
     "id": 3177,
     "title": "Lotus Almond Cram",
     "slug": "lotus-almond-cram",
-    "price": 485.0,
+    "price": 485,
     "image": "/images/products/lotus-almond-cram.jpg",
     "stock": 3,
     "description": "Lotus Almond Cram - High quality personal care product.",
@@ -10945,13 +11726,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3177
+    "rank": 3177,
+    "name": "Lotus Almond Cram"
   },
   {
     "id": 3178,
     "title": "Lotus Apricot Scrub 100G",
     "slug": "lotus-apricot-scrub-100g",
-    "price": 235.0,
+    "price": 235,
     "image": "/images/products/lotus-apricot-scrub-100g.jpg",
     "stock": 3,
     "description": "Lotus Apricot Scrub 100G - High quality personal care product.",
@@ -10959,13 +11741,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3178
+    "rank": 3178,
+    "name": "Lotus Apricot Scrub 100G"
   },
   {
     "id": 3179,
     "title": "Lotus Apricot Scrub 60G",
     "slug": "lotus-apricot-scrub-60g",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/lotus-apricot-scrub-60g.jpg",
     "stock": 2,
     "description": "Lotus Apricot Scrub 60G - High quality personal care product.",
@@ -10973,13 +11756,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3179
+    "rank": 3179,
+    "name": "Lotus Apricot Scrub 60G"
   },
   {
     "id": 3180,
     "title": "Lotus Basil Toner",
     "slug": "lotus-basil-toner",
-    "price": 325.0,
+    "price": 325,
     "image": "/images/products/lotus-basil-toner.jpg",
     "stock": 3,
     "description": "Lotus Basil Toner - High quality personal care product.",
@@ -10987,13 +11771,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3180
+    "rank": 3180,
+    "name": "Lotus Basil Toner"
   },
   {
     "id": 3181,
     "title": "Lotus Berryscrub",
     "slug": "lotus-berryscrub",
-    "price": 175.0,
+    "price": 175,
     "image": "/images/products/lotus-berryscrub.jpg",
     "stock": 3,
     "description": "Lotus Berryscrub - High quality personal care product.",
@@ -11001,13 +11786,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3181
+    "rank": 3181,
+    "name": "Lotus Berryscrub"
   },
   {
     "id": 3182,
     "title": "Lotus Biscoff 110Gm",
     "slug": "lotus-biscoff-110gm",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/lotus-biscoff-110gm.jpg",
     "stock": 1,
     "description": "Lotus Biscoff 110Gm - High quality personal care product.",
@@ -11015,13 +11801,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3182
+    "rank": 3182,
+    "name": "Lotus Biscoff 110Gm"
   },
   {
     "id": 3183,
     "title": "Lotus Biscoff 124G",
     "slug": "lotus-biscoff-124g",
-    "price": 189.0,
+    "price": 189,
     "image": "/images/products/lotus-biscoff-124g.jpg",
     "stock": 3,
     "description": "Lotus Biscoff 124G - High quality personal care product.",
@@ -11029,13 +11816,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3183
+    "rank": 3183,
+    "name": "Lotus Biscoff 124G"
   },
   {
     "id": 3184,
     "title": "Lotus Biscoff 156G",
     "slug": "lotus-biscoff-156g",
-    "price": 279.0,
+    "price": 279,
     "image": "/images/products/lotus-biscoff-156g.jpg",
     "stock": 2,
     "description": "Lotus Biscoff 156G - High quality personal care product.",
@@ -11043,13 +11831,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3184
+    "rank": 3184,
+    "name": "Lotus Biscoff 156G"
   },
   {
     "id": 3185,
     "title": "Lotus Biscoff 250G",
     "slug": "lotus-biscoff-250g",
-    "price": 299.0,
+    "price": 299,
     "image": "/images/products/lotus-biscoff-250g.jpg",
     "stock": 3,
     "description": "Lotus Biscoff 250G - High quality personal care product.",
@@ -11057,13 +11846,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3185
+    "rank": 3185,
+    "name": "Lotus Biscoff 250G"
   },
   {
     "id": 3186,
     "title": "Lotus Biscoff Spread",
     "slug": "lotus-biscoff-spread",
-    "price": 649.0,
+    "price": 649,
     "image": "/images/products/lotus-biscoff-spread.jpg",
     "stock": 11,
     "description": "Lotus Biscoff Spread - High quality personal care product.",
@@ -11071,13 +11861,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3186
+    "rank": 3186,
+    "name": "Lotus Biscoff Spread"
   },
   {
     "id": 3187,
     "title": "Lotus Biscoff&Go",
     "slug": "lotus-biscoffgo",
-    "price": 280.0,
+    "price": 280,
     "image": "/images/products/lotus-biscoffgo.jpg",
     "stock": 5,
     "description": "Lotus Biscoff&Go - High quality personal care product.",
@@ -11085,13 +11876,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3187
+    "rank": 3187,
+    "name": "Lotus Biscoff&Go"
   },
   {
     "id": 3188,
     "title": "Lotus Face Wash",
     "slug": "lotus-face-wash",
-    "price": 255.0,
+    "price": 255,
     "image": "/images/products/lotus-face-wash.jpg",
     "stock": -1,
     "description": "Lotus Face Wash - High quality personal care product.",
@@ -11099,13 +11891,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3188
+    "rank": 3188,
+    "name": "Lotus Face Wash"
   },
   {
     "id": 3189,
     "title": "Lotus Facial Kit Anti Tan",
     "slug": "lotus-facial-kit-anti-tan",
-    "price": 270.0,
+    "price": 270,
     "image": "/images/products/lotus-facial-kit-anti-tan.jpg",
     "stock": 2,
     "description": "Lotus Facial Kit Anti Tan - High quality personal care product.",
@@ -11113,13 +11906,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3189
+    "rank": 3189,
+    "name": "Lotus Facial Kit Anti Tan"
   },
   {
     "id": 3190,
     "title": "Lotus Facial Kit Bridal Glow",
     "slug": "lotus-facial-kit-bridal-glow",
-    "price": 410.0,
+    "price": 410,
     "image": "/images/products/lotus-facial-kit-bridal-glow.jpg",
     "stock": 3,
     "description": "Lotus Facial Kit Bridal Glow - High quality personal care product.",
@@ -11127,13 +11921,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3190
+    "rank": 3190,
+    "name": "Lotus Facial Kit Bridal Glow"
   },
   {
     "id": 3191,
     "title": "Lotus Facial Kit Gold",
     "slug": "lotus-facial-kit-gold",
-    "price": 325.0,
+    "price": 325,
     "image": "/images/products/lotus-facial-kit-gold.jpg",
     "stock": 3,
     "description": "Lotus Facial Kit Gold - High quality personal care product.",
@@ -11141,13 +11936,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3191
+    "rank": 3191,
+    "name": "Lotus Facial Kit Gold"
   },
   {
     "id": 3192,
     "title": "Lotus Facial Kit Papayaglow",
     "slug": "lotus-facial-kit-papayaglow",
-    "price": 310.0,
+    "price": 310,
     "image": "/images/products/lotus-facial-kit-papayaglow.jpg",
     "stock": 3,
     "description": "Lotus Facial Kit Papayaglow - High quality personal care product.",
@@ -11155,13 +11951,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3192
+    "rank": 3192,
+    "name": "Lotus Facial Kit Papayaglow"
   },
   {
     "id": 3193,
     "title": "Lotus Facial Kit R Pearl",
     "slug": "lotus-facial-kit-r-pearl",
-    "price": 285.0,
+    "price": 285,
     "image": "/images/products/lotus-facial-kit-r-pearl.jpg",
     "stock": 3,
     "description": "Lotus Facial Kit R Pearl - High quality personal care product.",
@@ -11169,13 +11966,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3193
+    "rank": 3193,
+    "name": "Lotus Facial Kit R Pearl"
   },
   {
     "id": 3194,
     "title": "Lotus Facial Kit Ubtan",
     "slug": "lotus-facial-kit-ubtan",
-    "price": 265.0,
+    "price": 265,
     "image": "/images/products/lotus-facial-kit-ubtan.jpg",
     "stock": 3,
     "description": "Lotus Facial Kit Ubtan - High quality personal care product.",
@@ -11183,13 +11981,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3194
+    "rank": 3194,
+    "name": "Lotus Facial Kit Ubtan"
   },
   {
     "id": 3195,
     "title": "Lotus Facial Kit Vitamin C",
     "slug": "lotus-facial-kit-vitamin-c",
-    "price": 290.0,
+    "price": 290,
     "image": "/images/products/lotus-facial-kit-vitamin-c.jpg",
     "stock": 3,
     "description": "Lotus Facial Kit Vitamin C - High quality personal care product.",
@@ -11197,13 +11996,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3195
+    "rank": 3195,
+    "name": "Lotus Facial Kit Vitamin C"
   },
   {
     "id": 3196,
     "title": "Lotus Facial Kitr Diamond",
     "slug": "lotus-facial-kitr-diamond",
-    "price": 365.0,
+    "price": 365,
     "image": "/images/products/lotus-facial-kitr-diamond.jpg",
     "stock": 3,
     "description": "Lotus Facial Kitr Diamond - High quality personal care product.",
@@ -11211,13 +12011,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3196
+    "rank": 3196,
+    "name": "Lotus Facial Kitr Diamond"
   },
   {
     "id": 3197,
     "title": "Lotus Kids Spf25",
     "slug": "lotus-kids-spf25",
-    "price": 255.0,
+    "price": 255,
     "image": "/images/products/lotus-kids-spf25.jpg",
     "stock": 3,
     "description": "Lotus Kids Spf25 - High quality personal care product.",
@@ -11225,13 +12026,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3197
+    "rank": 3197,
+    "name": "Lotus Kids Spf25"
   },
   {
     "id": 3198,
     "title": "Lotus Papaya Cream",
     "slug": "lotus-papaya-cream",
-    "price": 485.0,
+    "price": 485,
     "image": "/images/products/lotus-papaya-cream.jpg",
     "stock": 3,
     "description": "Lotus Papaya Cream - High quality personal care product.",
@@ -11239,13 +12041,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3198
+    "rank": 3198,
+    "name": "Lotus Papaya Cream"
   },
   {
     "id": 3199,
     "title": "Lotus Pg Cream Spf25",
     "slug": "lotus-pg-cream-spf25",
-    "price": 325.0,
+    "price": 325,
     "image": "/images/products/lotus-pg-cream-spf25.jpg",
     "stock": 3,
     "description": "Lotus Pg Cream Spf25 - High quality personal care product.",
@@ -11253,13 +12056,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3199
+    "rank": 3199,
+    "name": "Lotus Pg Cream Spf25"
   },
   {
     "id": 3200,
     "title": "Lotus Pg Face Wash",
     "slug": "lotus-pg-face-wash",
-    "price": 165.0,
+    "price": 165,
     "image": "/images/products/lotus-pg-face-wash.jpg",
     "stock": 3,
     "description": "Lotus Pg Face Wash - High quality personal care product.",
@@ -11267,13 +12071,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3200
+    "rank": 3200,
+    "name": "Lotus Pg Face Wash"
   },
   {
     "id": 3201,
     "title": "Lotus Rb Ubtan Face Cream",
     "slug": "lotus-rb-ubtan-face-cream",
-    "price": 395.0,
+    "price": 395,
     "image": "/images/products/lotus-rb-ubtan-face-cream.jpg",
     "stock": 2,
     "description": "Lotus Rb Ubtan Face Cream - High quality personal care product.",
@@ -11281,13 +12086,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3201
+    "rank": 3201,
+    "name": "Lotus Rb Ubtan Face Cream"
   },
   {
     "id": 3202,
     "title": "Lotus Rb Ubtan Face Scrub",
     "slug": "lotus-rb-ubtan-face-scrub",
-    "price": 255.0,
+    "price": 255,
     "image": "/images/products/lotus-rb-ubtan-face-scrub.jpg",
     "stock": 2,
     "description": "Lotus Rb Ubtan Face Scrub - High quality personal care product.",
@@ -11295,13 +12101,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3202
+    "rank": 3202,
+    "name": "Lotus Rb Ubtan Face Scrub"
   },
   {
     "id": 3203,
     "title": "Lotus Rb Ubtan Face Wash",
     "slug": "lotus-rb-ubtan-face-wash",
-    "price": 255.0,
+    "price": 255,
     "image": "/images/products/lotus-rb-ubtan-face-wash.jpg",
     "stock": 1,
     "description": "Lotus Rb Ubtan Face Wash - High quality personal care product.",
@@ -11309,13 +12116,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3203
+    "rank": 3203,
+    "name": "Lotus Rb Ubtan Face Wash"
   },
   {
     "id": 3204,
     "title": "Lotus Rose Toner",
     "slug": "lotus-rose-toner",
-    "price": 325.0,
+    "price": 325,
     "image": "/images/products/lotus-rose-toner.jpg",
     "stock": 3,
     "description": "Lotus Rose Toner - High quality personal care product.",
@@ -11323,13 +12131,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3204
+    "rank": 3204,
+    "name": "Lotus Rose Toner"
   },
   {
     "id": 3205,
     "title": "Lotus Rx Day Cream 50G",
     "slug": "lotus-rx-day-cream-50g",
-    "price": 755.0,
+    "price": 755,
     "image": "/images/products/lotus-rx-day-cream-50g.jpg",
     "stock": 2,
     "description": "Lotus Rx Day Cream 50G - High quality personal care product.",
@@ -11337,13 +12146,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3205
+    "rank": 3205,
+    "name": "Lotus Rx Day Cream 50G"
   },
   {
     "id": 3206,
     "title": "Lotus Rx Night Cream 50G",
     "slug": "lotus-rx-night-cream-50g",
-    "price": 790.0,
+    "price": 790,
     "image": "/images/products/lotus-rx-night-cream-50g.jpg",
     "stock": 3,
     "description": "Lotus Rx Night Cream 50G - High quality personal care product.",
@@ -11351,13 +12161,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3206
+    "rank": 3206,
+    "name": "Lotus Rx Night Cream 50G"
   },
   {
     "id": 3207,
     "title": "Lotus Safesun Detan Face Pack",
     "slug": "lotus-safesun-detan-face-pack",
-    "price": 385.0,
+    "price": 385,
     "image": "/images/products/lotus-safesun-detan-face-pack.jpg",
     "stock": 2,
     "description": "Lotus Safesun Detan Face Pack - High quality personal care product.",
@@ -11365,13 +12176,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3207
+    "rank": 3207,
+    "name": "Lotus Safesun Detan Face Pack"
   },
   {
     "id": 3208,
     "title": "Lotus Safesun Detan Face Scrub",
     "slug": "lotus-safesun-detan-face-scrub",
-    "price": 370.0,
+    "price": 370,
     "image": "/images/products/lotus-safesun-detan-face-scrub.jpg",
     "stock": 3,
     "description": "Lotus Safesun Detan Face Scrub - High quality personal care product.",
@@ -11379,13 +12191,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3208
+    "rank": 3208,
+    "name": "Lotus Safesun Detan Face Scrub"
   },
   {
     "id": 3209,
     "title": "Lotus Safesun Detan Face Wash",
     "slug": "lotus-safesun-detan-face-wash",
-    "price": 230.0,
+    "price": 230,
     "image": "/images/products/lotus-safesun-detan-face-wash.jpg",
     "stock": 1,
     "description": "Lotus Safesun Detan Face Wash - High quality personal care product.",
@@ -11393,13 +12206,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3209
+    "rank": 3209,
+    "name": "Lotus Safesun Detan Face Wash"
   },
   {
     "id": 3210,
     "title": "Lotus Safesun Dmf Spf 70+++",
     "slug": "lotus-safesun-dmf-spf-70",
-    "price": 745.0,
+    "price": 745,
     "image": "/images/products/lotus-safesun-dmf-spf-70.jpg",
     "stock": 3,
     "description": "Lotus Safesun Dmf Spf 70+++ - High quality personal care product.",
@@ -11407,13 +12221,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3210
+    "rank": 3210,
+    "name": "Lotus Safesun Dmf Spf 70+++"
   },
   {
     "id": 3211,
     "title": "Lotus Safesun Mg Spf50 100G",
     "slug": "lotus-safesun-mg-spf50-100g",
-    "price": 565.0,
+    "price": 565,
     "image": "/images/products/lotus-safesun-mg-spf50-100g.jpg",
     "stock": 3,
     "description": "Lotus Safesun Mg Spf50 100G - High quality personal care product.",
@@ -11421,13 +12236,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3211
+    "rank": 3211,
+    "name": "Lotus Safesun Mg Spf50 100G"
   },
   {
     "id": 3212,
     "title": "Lotus Safesun Mg Spf50 50G",
     "slug": "lotus-safesun-mg-spf50-50g",
-    "price": 435.0,
+    "price": 435,
     "image": "/images/products/lotus-safesun-mg-spf50-50g.jpg",
     "stock": 2,
     "description": "Lotus Safesun Mg Spf50 50G - High quality personal care product.",
@@ -11435,13 +12251,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3212
+    "rank": 3212,
+    "name": "Lotus Safesun Mg Spf50 50G"
   },
   {
     "id": 3213,
     "title": "Lotus Safesun Ml Spf40 100G",
     "slug": "lotus-safesun-ml-spf40-100g",
-    "price": 535.0,
+    "price": 535,
     "image": "/images/products/lotus-safesun-ml-spf40-100g.jpg",
     "stock": 3,
     "description": "Lotus Safesun Ml Spf40 100G - High quality personal care product.",
@@ -11449,13 +12266,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3213
+    "rank": 3213,
+    "name": "Lotus Safesun Ml Spf40 100G"
   },
   {
     "id": 3214,
     "title": "Lotus Safesun Ml Spf40 50G",
     "slug": "lotus-safesun-ml-spf40-50g",
-    "price": 355.0,
+    "price": 355,
     "image": "/images/products/lotus-safesun-ml-spf40-50g.jpg",
     "stock": 2,
     "description": "Lotus Safesun Ml Spf40 50G - High quality personal care product.",
@@ -11463,13 +12281,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3214
+    "rank": 3214,
+    "name": "Lotus Safesun Ml Spf40 50G"
   },
   {
     "id": 3215,
     "title": "Lotus Safesun Vitamin C Spf50 100G",
     "slug": "lotus-safesun-vitamin-c-spf50-100g",
-    "price": 515.0,
+    "price": 515,
     "image": "/images/products/lotus-safesun-vitamin-c-spf50-100g.jpg",
     "stock": 3,
     "description": "Lotus Safesun Vitamin C Spf50 100G - High quality personal care product.",
@@ -11477,13 +12296,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3215
+    "rank": 3215,
+    "name": "Lotus Safesun Vitamin C Spf50 100G"
   },
   {
     "id": 3216,
     "title": "Lotus Safesun Vitamin C Spf50 50G",
     "slug": "lotus-safesun-vitamin-c-spf50-50g",
-    "price": 345.0,
+    "price": 345,
     "image": "/images/products/lotus-safesun-vitamin-c-spf50-50g.jpg",
     "stock": 2,
     "description": "Lotus Safesun Vitamin C Spf50 50G - High quality personal care product.",
@@ -11491,13 +12311,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3216
+    "rank": 3216,
+    "name": "Lotus Safesun Vitamin C Spf50 50G"
   },
   {
     "id": 3217,
     "title": "Lotus Spf 30 Safe Sun 100G",
     "slug": "lotus-spf-30-safe-sun-100g",
-    "price": 435.0,
+    "price": 435,
     "image": "/images/products/lotus-spf-30-safe-sun-100g.jpg",
     "stock": 2,
     "description": "Lotus Spf 30 Safe Sun 100G - High quality personal care product.",
@@ -11505,13 +12326,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3217
+    "rank": 3217,
+    "name": "Lotus Spf 30 Safe Sun 100G"
   },
   {
     "id": 3218,
     "title": "Lotus Spf 30 Safe Sun 50G",
     "slug": "lotus-spf-30-safe-sun-50g",
-    "price": 325.0,
+    "price": 325,
     "image": "/images/products/lotus-spf-30-safe-sun-50g.jpg",
     "stock": 3,
     "description": "Lotus Spf 30 Safe Sun 50G - High quality personal care product.",
@@ -11519,13 +12341,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3218
+    "rank": 3218,
+    "name": "Lotus Spf 30 Safe Sun 50G"
   },
   {
     "id": 3219,
     "title": "Lotus Tea Tree Fw",
     "slug": "lotus-tea-tree-fw",
-    "price": 175.0,
+    "price": 175,
     "image": "/images/products/lotus-tea-tree-fw.jpg",
     "stock": 2,
     "description": "Lotus Tea Tree Fw - High quality personal care product.",
@@ -11533,13 +12356,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3219
+    "rank": 3219,
+    "name": "Lotus Tea Tree Fw"
   },
   {
     "id": 3220,
     "title": "Lotus Urx Sunscreen Spf60+",
     "slug": "lotus-urx-sunscreen-spf60",
-    "price": 325.0,
+    "price": 325,
     "image": "/images/products/lotus-urx-sunscreen-spf60.jpg",
     "stock": 3,
     "description": "Lotus Urx Sunscreen Spf60+ - High quality personal care product.",
@@ -11547,13 +12371,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3220
+    "rank": 3220,
+    "name": "Lotus Urx Sunscreen Spf60+"
   },
   {
     "id": 3221,
     "title": "Lotus Urx Sunscreen Spf60+ 50Ml",
     "slug": "lotus-urx-sunscreen-spf60-50ml",
-    "price": 555.0,
+    "price": 555,
     "image": "/images/products/lotus-urx-sunscreen-spf60-50ml.jpg",
     "stock": 2,
     "description": "Lotus Urx Sunscreen Spf60+ 50Ml - High quality personal care product.",
@@ -11561,13 +12386,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3221
+    "rank": 3221,
+    "name": "Lotus Urx Sunscreen Spf60+ 50Ml"
   },
   {
     "id": 3222,
     "title": "Lotus Vitamin C Face Wash",
     "slug": "lotus-vitamin-c-face-wash",
-    "price": 165.0,
+    "price": 165,
     "image": "/images/products/lotus-vitamin-c-face-wash.jpg",
     "stock": 2,
     "description": "Lotus Vitamin C Face Wash - High quality personal care product.",
@@ -11575,13 +12401,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3222
+    "rank": 3222,
+    "name": "Lotus Vitamin C Face Wash"
   },
   {
     "id": 3223,
     "title": "Lotus Vitamine C Cream",
     "slug": "lotus-vitamine-c-cream",
-    "price": 475.0,
+    "price": 475,
     "image": "/images/products/lotus-vitamine-c-cream.jpg",
     "stock": 3,
     "description": "Lotus Vitamine C Cream - High quality personal care product.",
@@ -11589,13 +12416,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3223
+    "rank": 3223,
+    "name": "Lotus Vitamine C Cream"
   },
   {
     "id": 3224,
     "title": "Lotus Wg Charcoal Face Wash",
     "slug": "lotus-wg-charcoal-face-wash",
-    "price": 185.0,
+    "price": 185,
     "image": "/images/products/lotus-wg-charcoal-face-wash.jpg",
     "stock": 2,
     "description": "Lotus Wg Charcoal Face Wash - High quality personal care product.",
@@ -11603,13 +12431,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3224
+    "rank": 3224,
+    "name": "Lotus Wg Charcoal Face Wash"
   },
   {
     "id": 3225,
     "title": "Lotus Wg Cleansing Milk",
     "slug": "lotus-wg-cleansing-milk",
-    "price": 310.0,
+    "price": 310,
     "image": "/images/products/lotus-wg-cleansing-milk.jpg",
     "stock": 2,
     "description": "Lotus Wg Cleansing Milk - High quality personal care product.",
@@ -11617,13 +12446,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3225
+    "rank": 3225,
+    "name": "Lotus Wg Cleansing Milk"
   },
   {
     "id": 3226,
     "title": "Lotus Wg Facial Foam",
     "slug": "lotus-wg-facial-foam",
-    "price": 175.0,
+    "price": 175,
     "image": "/images/products/lotus-wg-facial-foam.jpg",
     "stock": 3,
     "description": "Lotus Wg Facial Foam - High quality personal care product.",
@@ -11631,13 +12461,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3226
+    "rank": 3226,
+    "name": "Lotus Wg Facial Foam"
   },
   {
     "id": 3227,
     "title": "Lotus Wg Gel Cream 60G",
     "slug": "lotus-wg-gel-cream-60g",
-    "price": 435.0,
+    "price": 435,
     "image": "/images/products/lotus-wg-gel-cream-60g.jpg",
     "stock": 3,
     "description": "Lotus Wg Gel Cream 60G - High quality personal care product.",
@@ -11645,13 +12476,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3227
+    "rank": 3227,
+    "name": "Lotus Wg Gel Cream 60G"
   },
   {
     "id": 3228,
     "title": "Lotus Wg Massage Cream",
     "slug": "lotus-wg-massage-cream",
-    "price": 445.0,
+    "price": 445,
     "image": "/images/products/lotus-wg-massage-cream.jpg",
     "stock": 3,
     "description": "Lotus Wg Massage Cream - High quality personal care product.",
@@ -11659,13 +12491,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3228
+    "rank": 3228,
+    "name": "Lotus Wg Massage Cream"
   },
   {
     "id": 3229,
     "title": "Lotus Wg Oil Control  Face Wash",
     "slug": "lotus-wg-oil-control-face-wash",
-    "price": 180.0,
+    "price": 180,
     "image": "/images/products/lotus-wg-oil-control-face-wash.jpg",
     "stock": 3,
     "description": "Lotus Wg Oil Control  Face Wash - High quality personal care product.",
@@ -11673,13 +12506,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3229
+    "rank": 3229,
+    "name": "Lotus Wg Oil Control  Face Wash"
   },
   {
     "id": 3230,
     "title": "Lotus Wg Vitamin C Oil",
     "slug": "lotus-wg-vitamin-c-oil",
-    "price": 445.0,
+    "price": 445,
     "image": "/images/products/lotus-wg-vitamin-c-oil.jpg",
     "stock": 3,
     "description": "Lotus Wg Vitamin C Oil - High quality personal care product.",
@@ -11687,13 +12521,14 @@ const products = [
     "unit": "pcs",
     "category": "personal-care",
     "popular": false,
-    "rank": 3230
+    "rank": 3230,
+    "name": "Lotus Wg Vitamin C Oil"
   },
   {
     "id": 3231,
     "title": "Lotus Wg Whitening Scrub",
     "slug": "lotus-wg-whitening-scrub",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/lotus-wg-whitening-scrub.jpg",
     "stock": 2,
     "description": "Lotus Wg Whitening Scrub - High quality personal care product.",
@@ -11701,13 +12536,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3231
+    "rank": 3231,
+    "name": "Lotus Wg Whitening Scrub"
   },
   {
     "id": 3235,
     "title": "Lux Creamy Perfection 125G",
     "slug": "lux-creamy-perfection-125g",
-    "price": 83.0,
+    "price": 83,
     "image": "/images/products/lux-creamy-perfection-125g.jpg",
     "stock": 6,
     "description": "Lux Creamy Perfection 125G - High quality personal care product.",
@@ -11715,13 +12551,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3235
+    "rank": 3235,
+    "name": "Lux Creamy Perfection 125G"
   },
   {
     "id": 3236,
     "title": "Lux Creamy Perfection 75G",
     "slug": "lux-creamy-perfection-75g",
-    "price": 40.0,
+    "price": 40,
     "image": "/images/products/lux-creamy-perfection-75g.jpg",
     "stock": 6,
     "description": "Lux Creamy Perfection 75G - High quality personal care product.",
@@ -11729,13 +12566,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3236
+    "rank": 3236,
+    "name": "Lux Creamy Perfection 75G"
   },
   {
     "id": 3287,
     "title": "Magnum Ice Cream Almond",
     "slug": "magnum-ice-cream-almond",
-    "price": 70.0,
+    "price": 70,
     "image": "/images/products/magnum-ice-cream-almond.jpg",
     "stock": 10,
     "description": "Magnum Ice Cream Almond - High quality personal care product.",
@@ -11743,13 +12581,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3287
+    "rank": 3287,
+    "name": "Magnum Ice Cream Almond"
   },
   {
     "id": 3292,
     "title": "Makhana Walas Cream&Oniin",
     "slug": "makhana-walas-creamoniin",
-    "price": 140.0,
+    "price": 140,
     "image": "/images/products/makhana-walas-creamoniin.jpg",
     "stock": 3,
     "description": "Makhana Walas Cream&Oniin - High quality personal care product.",
@@ -11757,13 +12596,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3292
+    "rank": 3292,
+    "name": "Makhana Walas Cream&Oniin"
   },
   {
     "id": 3322,
     "title": "Mamaearth Baby Body Wash 200Ml",
     "slug": "mamaearth-baby-body-wash-200ml",
-    "price": 249.0,
+    "price": 249,
     "image": "/images/products/mamaearth-baby-body-wash-200ml.jpg",
     "stock": 3,
     "description": "Mamaearth Baby Body Wash 200Ml - High quality personal care product.",
@@ -11771,13 +12611,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3322
+    "rank": 3322,
+    "name": "Mamaearth Baby Body Wash 200Ml"
   },
   {
     "id": 3327,
     "title": "Mamaearth Beetroot Sunscreen 50G",
     "slug": "mamaearth-beetroot-sunscreen-50g",
-    "price": 399.0,
+    "price": 399,
     "image": "/images/products/mamaearth-beetroot-sunscreen-50g.jpg",
     "stock": 3,
     "description": "Mamaearth Beetroot Sunscreen 50G - High quality personal care product.",
@@ -11785,13 +12626,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3327
+    "rank": 3327,
+    "name": "Mamaearth Beetroot Sunscreen 50G"
   },
   {
     "id": 3328,
     "title": "Mamaearth Hydra Gel Sunscreen 50Spf",
     "slug": "mamaearth-hydra-gel-sunscreen-50spf",
-    "price": 399.0,
+    "price": 399,
     "image": "/images/products/mamaearth-hydra-gel-sunscreen-50spf.jpg",
     "stock": 3,
     "description": "Mamaearth Hydra Gel Sunscreen 50Spf - High quality personal care product.",
@@ -11799,13 +12641,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3328
+    "rank": 3328,
+    "name": "Mamaearth Hydra Gel Sunscreen 50Spf"
   },
   {
     "id": 3330,
     "title": "Mamaearth Mosquito Repellent Gel",
     "slug": "mamaearth-mosquito-repellent-gel",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/mamaearth-mosquito-repellent-gel.jpg",
     "stock": 9,
     "description": "Mamaearth Mosquito Repellent Gel - High quality personal care product.",
@@ -11813,13 +12656,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3330
+    "rank": 3330,
+    "name": "Mamaearth Mosquito Repellent Gel"
   },
   {
     "id": 3350,
     "title": "Maraearth Aloe Vera Gel",
     "slug": "maraearth-aloe-vera-gel",
-    "price": 319.0,
+    "price": 319,
     "image": "/images/products/maraearth-aloe-vera-gel.jpg",
     "stock": 1,
     "description": "Maraearth Aloe Vera Gel - High quality personal care product.",
@@ -11827,13 +12671,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3350
+    "rank": 3350,
+    "name": "Maraearth Aloe Vera Gel"
   },
   {
     "id": 3351,
     "title": "Maraearth Aqua Glow Face Serum",
     "slug": "maraearth-aqua-glow-face-serum",
-    "price": 699.0,
+    "price": 699,
     "image": "/images/products/maraearth-aqua-glow-face-serum.jpg",
     "stock": 3,
     "description": "Maraearth Aqua Glow Face Serum - High quality personal care product.",
@@ -11841,13 +12686,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3351
+    "rank": 3351,
+    "name": "Maraearth Aqua Glow Face Serum"
   },
   {
     "id": 3353,
     "title": "Maraearth Bhrinamla Shampoo",
     "slug": "maraearth-bhrinamla-shampoo",
-    "price": 349.0,
+    "price": 349,
     "image": "/images/products/maraearth-bhrinamla-shampoo.jpg",
     "stock": 3,
     "description": "Maraearth Bhrinamla Shampoo - High quality personal care product.",
@@ -11855,13 +12701,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3353
+    "rank": 3353,
+    "name": "Maraearth Bhrinamla Shampoo"
   },
   {
     "id": 3356,
     "title": "Maraearth Mm Face Wash",
     "slug": "maraearth-mm-face-wash",
-    "price": 269.0,
+    "price": 269,
     "image": "/images/products/maraearth-mm-face-wash.jpg",
     "stock": 3,
     "description": "Maraearth Mm Face Wash - High quality personal care product.",
@@ -11869,13 +12716,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3356
+    "rank": 3356,
+    "name": "Maraearth Mm Face Wash"
   },
   {
     "id": 3358,
     "title": "Maraearth Onion Hair Oil",
     "slug": "maraearth-onion-hair-oil",
-    "price": 299.0,
+    "price": 299,
     "image": "/images/products/maraearth-onion-hair-oil.jpg",
     "stock": 3,
     "description": "Maraearth Onion Hair Oil - High quality personal care product.",
@@ -11883,13 +12731,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3358
+    "rank": 3358,
+    "name": "Maraearth Onion Hair Oil"
   },
   {
     "id": 3359,
     "title": "Maraearth Onion Shampoo",
     "slug": "maraearth-onion-shampoo",
-    "price": 349.0,
+    "price": 349,
     "image": "/images/products/maraearth-onion-shampoo.jpg",
     "stock": 3,
     "description": "Maraearth Onion Shampoo - High quality personal care product.",
@@ -11897,13 +12746,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3359
+    "rank": 3359,
+    "name": "Maraearth Onion Shampoo"
   },
   {
     "id": 3361,
     "title": "Maraearth Rice Water Shampoo",
     "slug": "maraearth-rice-water-shampoo",
-    "price": 349.0,
+    "price": 349,
     "image": "/images/products/maraearth-rice-water-shampoo.jpg",
     "stock": 3,
     "description": "Maraearth Rice Water Shampoo - High quality personal care product.",
@@ -11911,13 +12761,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3361
+    "rank": 3361,
+    "name": "Maraearth Rice Water Shampoo"
   },
   {
     "id": 3363,
     "title": "Maraearth Rosemary Hair Oil",
     "slug": "maraearth-rosemary-hair-oil",
-    "price": 279.0,
+    "price": 279,
     "image": "/images/products/maraearth-rosemary-hair-oil.jpg",
     "stock": 2,
     "description": "Maraearth Rosemary Hair Oil - High quality personal care product.",
@@ -11925,13 +12776,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3363
+    "rank": 3363,
+    "name": "Maraearth Rosemary Hair Oil"
   },
   {
     "id": 3364,
     "title": "Maraearth Rosemary Shampoo",
     "slug": "maraearth-rosemary-shampoo",
-    "price": 349.0,
+    "price": 349,
     "image": "/images/products/maraearth-rosemary-shampoo.jpg",
     "stock": 3,
     "description": "Maraearth Rosemary Shampoo - High quality personal care product.",
@@ -11939,13 +12791,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3364
+    "rank": 3364,
+    "name": "Maraearth Rosemary Shampoo"
   },
   {
     "id": 3367,
     "title": "Maraearth Tea Tree Shampoo",
     "slug": "maraearth-tea-tree-shampoo",
-    "price": 349.0,
+    "price": 349,
     "image": "/images/products/maraearth-tea-tree-shampoo.jpg",
     "stock": 3,
     "description": "Maraearth Tea Tree Shampoo - High quality personal care product.",
@@ -11953,13 +12806,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3367
+    "rank": 3367,
+    "name": "Maraearth Tea Tree Shampoo"
   },
   {
     "id": 3368,
     "title": "Maraearth Ubtan Face Scrub",
     "slug": "maraearth-ubtan-face-scrub",
-    "price": 349.0,
+    "price": 349,
     "image": "/images/products/maraearth-ubtan-face-scrub.jpg",
     "stock": 3,
     "description": "Maraearth Ubtan Face Scrub - High quality personal care product.",
@@ -11967,13 +12821,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3368
+    "rank": 3368,
+    "name": "Maraearth Ubtan Face Scrub"
   },
   {
     "id": 3370,
     "title": "Maraearth Ultra Light Sunscreen Spf 50",
     "slug": "maraearth-ultra-light-sunscreen-spf-50",
-    "price": 399.0,
+    "price": 399,
     "image": "/images/products/maraearth-ultra-light-sunscreen-spf-50.jpg",
     "stock": 5,
     "description": "Maraearth Ultra Light Sunscreen Spf 50 - High quality personal care product.",
@@ -11981,13 +12836,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3370
+    "rank": 3370,
+    "name": "Maraearth Ultra Light Sunscreen Spf 50"
   },
   {
     "id": 3371,
     "title": "Maraearth Vitamin C Serum",
     "slug": "maraearth-vitamin-c-serum",
-    "price": 699.0,
+    "price": 699,
     "image": "/images/products/maraearth-vitamin-c-serum.jpg",
     "stock": 3,
     "description": "Maraearth Vitamin C Serum - High quality personal care product.",
@@ -11995,13 +12851,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3371
+    "rank": 3371,
+    "name": "Maraearth Vitamin C Serum"
   },
   {
     "id": 3402,
     "title": "Matrix Hair Mask Protein",
     "slug": "matrix-hair-mask-protein",
-    "price": 875.0,
+    "price": 875,
     "image": "/images/products/matrix-hair-mask-protein.jpg",
     "stock": 1,
     "description": "Matrix Hair Mask Protein - High quality personal care product.",
@@ -12009,13 +12866,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3402
+    "rank": 3402,
+    "name": "Matrix Hair Mask Protein"
   },
   {
     "id": 3403,
     "title": "Matrix Oc Hair Serum 100Ml",
     "slug": "matrix-oc-hair-serum-100ml",
-    "price": 559.0,
+    "price": 559,
     "image": "/images/products/matrix-oc-hair-serum-100ml.jpg",
     "stock": 2,
     "description": "Matrix Oc Hair Serum 100Ml - High quality personal care product.",
@@ -12023,13 +12881,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3403
+    "rank": 3403,
+    "name": "Matrix Oc Hair Serum 100Ml"
   },
   {
     "id": 3404,
     "title": "Matrix Oc Hair Serum 100Ml",
     "slug": "matrix-oc-hair-serum-100ml",
-    "price": 590.0,
+    "price": 590,
     "image": "/images/products/matrix-oc-hair-serum-100ml.jpg",
     "stock": 3,
     "description": "Matrix Oc Hair Serum 100Ml - High quality personal care product.",
@@ -12037,13 +12896,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3404
+    "rank": 3404,
+    "name": "Matrix Oc Hair Serum 100Ml"
   },
   {
     "id": 3408,
     "title": "Matrix Opti Care Pink Shampoo 200Ml",
     "slug": "matrix-opti-care-pink-shampoo-200ml",
-    "price": 435.0,
+    "price": 435,
     "image": "/images/products/matrix-opti-care-pink-shampoo-200ml.jpg",
     "stock": 3,
     "description": "Matrix Opti Care Pink Shampoo 200Ml - High quality personal care product.",
@@ -12051,13 +12911,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3408
+    "rank": 3408,
+    "name": "Matrix Opti Care Pink Shampoo 200Ml"
   },
   {
     "id": 3409,
     "title": "Matrix Opti Care Shampoo 350Ml",
     "slug": "matrix-opti-care-shampoo-350ml",
-    "price": 680.0,
+    "price": 680,
     "image": "/images/products/matrix-opti-care-shampoo-350ml.jpg",
     "stock": 7,
     "description": "Matrix Opti Care Shampoo 350Ml - High quality personal care product.",
@@ -12065,13 +12926,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3409
+    "rank": 3409,
+    "name": "Matrix Opti Care Shampoo 350Ml"
   },
   {
     "id": 3459,
     "title": "Mcvities Vanillla Cream 100Gm",
     "slug": "mcvities-vanillla-cream-100gm",
-    "price": 30.0,
+    "price": 30,
     "image": "/images/products/mcvities-vanillla-cream-100gm.jpg",
     "stock": 5,
     "description": "Mcvities Vanillla Cream 100Gm - High quality personal care product.",
@@ -12079,13 +12941,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3459
+    "rank": 3459,
+    "name": "Mcvities Vanillla Cream 100Gm"
   },
   {
     "id": 3461,
     "title": "Md Full Cream Milk",
     "slug": "md-full-cream-milk",
-    "price": 35.0,
+    "price": 35,
     "image": "/images/products/md-full-cream-milk.jpg",
     "stock": 6,
     "description": "Md Full Cream Milk - High quality personal care product.",
@@ -12093,13 +12956,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3461
+    "rank": 3461,
+    "name": "Md Full Cream Milk"
   },
   {
     "id": 3503,
     "title": "Mediker Oil 50Ml",
     "slug": "mediker-oil-50ml",
-    "price": 36.0,
+    "price": 36,
     "image": "/images/products/mediker-oil-50ml.jpg",
     "stock": 3,
     "description": "Mediker Oil 50Ml - High quality personal care product.",
@@ -12107,13 +12971,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3503
+    "rank": 3503,
+    "name": "Mediker Oil 50Ml"
   },
   {
     "id": 3504,
     "title": "Mediker Shampoo 50Ml",
     "slug": "mediker-shampoo-50ml",
-    "price": 55.0,
+    "price": 55,
     "image": "/images/products/mediker-shampoo-50ml.jpg",
     "stock": 3,
     "description": "Mediker Shampoo 50Ml - High quality personal care product.",
@@ -12121,13 +12986,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3504
+    "rank": 3504,
+    "name": "Mediker Shampoo 50Ml"
   },
   {
     "id": 3543,
     "title": "Moov Cream Reg 30Gm",
     "slug": "moov-cream-reg-30gm",
-    "price": 159.0,
+    "price": 159,
     "image": "/images/products/moov-cream-reg-30gm.jpg",
     "stock": 2,
     "description": "Moov Cream Reg 30Gm - High quality personal care product.",
@@ -12135,13 +13001,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3543
+    "rank": 3543,
+    "name": "Moov Cream Reg 30Gm"
   },
   {
     "id": 3544,
     "title": "Moov Cream Reg 50Gm",
     "slug": "moov-cream-reg-50gm",
-    "price": 225.0,
+    "price": 225,
     "image": "/images/products/moov-cream-reg-50gm.jpg",
     "stock": 3,
     "description": "Moov Cream Reg 50Gm - High quality personal care product.",
@@ -12149,13 +13016,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3544
+    "rank": 3544,
+    "name": "Moov Cream Reg 50Gm"
   },
   {
     "id": 3545,
     "title": "Moov Cream Reg 75Gm",
     "slug": "moov-cream-reg-75gm",
-    "price": 269.0,
+    "price": 269,
     "image": "/images/products/moov-cream-reg-75gm.jpg",
     "stock": 3,
     "description": "Moov Cream Reg 75Gm - High quality personal care product.",
@@ -12163,13 +13031,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3545
+    "rank": 3545,
+    "name": "Moov Cream Reg 75Gm"
   },
   {
     "id": 3575,
     "title": "Mr Makhana Cream &Onion",
     "slug": "mr-makhana-cream-onion",
-    "price": 150.0,
+    "price": 150,
     "image": "/images/products/mr-makhana-cream-onion.jpg",
     "stock": 12,
     "description": "Mr Makhana Cream &Onion - High quality personal care product.",
@@ -12177,13 +13046,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3575
+    "rank": 3575,
+    "name": "Mr Makhana Cream &Onion"
   },
   {
     "id": 3632,
     "title": "Munchy'S Cream Crackers",
     "slug": "munchys-cream-crackers",
-    "price": 225.0,
+    "price": 225,
     "image": "/images/products/munchys-cream-crackers.jpg",
     "stock": 3,
     "description": "Munchy'S Cream Crackers - High quality personal care product.",
@@ -12191,13 +13061,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3632
+    "rank": 3632,
+    "name": "Munchy'S Cream Crackers"
   },
   {
     "id": 3846,
     "title": "Neu Hydro Boost Water Gel 50G",
     "slug": "neu-hydro-boost-water-gel-50g",
-    "price": 1150.0,
+    "price": 1150,
     "image": "/images/products/neu-hydro-boost-water-gel-50g.jpg",
     "stock": 2,
     "description": "Neu Hydro Boost Water Gel 50G - High quality personal care product.",
@@ -12205,13 +13076,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3846
+    "rank": 3846,
+    "name": "Neu Hydro Boost Water Gel 50G"
   },
   {
     "id": 3847,
     "title": "Neu Oil Free Acne Wash 175Ml",
     "slug": "neu-oil-free-acne-wash-175ml",
-    "price": 795.0,
+    "price": 795,
     "image": "/images/products/neu-oil-free-acne-wash-175ml.jpg",
     "stock": 2,
     "description": "Neu Oil Free Acne Wash 175Ml - High quality personal care product.",
@@ -12219,13 +13091,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3847
+    "rank": 3847,
+    "name": "Neu Oil Free Acne Wash 175Ml"
   },
   {
     "id": 3849,
     "title": "Neu Ultra Sheer Sunscreen 80G",
     "slug": "neu-ultra-sheer-sunscreen-80g",
-    "price": 780.0,
+    "price": 780,
     "image": "/images/products/neu-ultra-sheer-sunscreen-80g.jpg",
     "stock": 1,
     "description": "Neu Ultra Sheer Sunscreen 80G - High quality personal care product.",
@@ -12233,13 +13106,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3849
+    "rank": 3849,
+    "name": "Neu Ultra Sheer Sunscreen 80G"
   },
   {
     "id": 3853,
     "title": "Nihar Shanti Badam Hair Oil 400Ml",
     "slug": "nihar-shanti-badam-hair-oil-400ml",
-    "price": 135.0,
+    "price": 135,
     "image": "/images/products/nihar-shanti-badam-hair-oil-400ml.jpg",
     "stock": 3,
     "description": "Nihar Shanti Badam Hair Oil 400Ml - High quality personal care product.",
@@ -12247,13 +13121,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3853
+    "rank": 3853,
+    "name": "Nihar Shanti Badam Hair Oil 400Ml"
   },
   {
     "id": 3856,
     "title": "Nivea Acne Face Wash 100G",
     "slug": "nivea-acne-face-wash-100g",
-    "price": 249.0,
+    "price": 249,
     "image": "/images/products/nivea-acne-face-wash-100g.jpg",
     "stock": 3,
     "description": "Nivea Acne Face Wash 100G - High quality personal care product.",
@@ -12261,13 +13136,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3856
+    "rank": 3856,
+    "name": "Nivea Acne Face Wash 100G"
   },
   {
     "id": 3857,
     "title": "Nivea Acne Face Wash 50G",
     "slug": "nivea-acne-face-wash-50g",
-    "price": 115.0,
+    "price": 115,
     "image": "/images/products/nivea-acne-face-wash-50g.jpg",
     "stock": 2,
     "description": "Nivea Acne Face Wash 50G - High quality personal care product.",
@@ -12275,13 +13151,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3857
+    "rank": 3857,
+    "name": "Nivea Acne Face Wash 50G"
   },
   {
     "id": 3858,
     "title": "Nivea All In 1 Charcoal 100G",
     "slug": "nivea-all-in-1-charcoal-100g",
-    "price": 279.0,
+    "price": 279,
     "image": "/images/products/nivea-all-in-1-charcoal-100g.jpg",
     "stock": 3,
     "description": "Nivea All In 1 Charcoal 100G - High quality personal care product.",
@@ -12289,13 +13166,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3858
+    "rank": 3858,
+    "name": "Nivea All In 1 Charcoal 100G"
   },
   {
     "id": 3859,
     "title": "Nivea All In 1 Charcoal 50G",
     "slug": "nivea-all-in-1-charcoal-50g",
-    "price": 135.0,
+    "price": 135,
     "image": "/images/products/nivea-all-in-1-charcoal-50g.jpg",
     "stock": 3,
     "description": "Nivea All In 1 Charcoal 50G - High quality personal care product.",
@@ -12303,13 +13181,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3859
+    "rank": 3859,
+    "name": "Nivea All In 1 Charcoal 50G"
   },
   {
     "id": 3860,
     "title": "Nivea Bl Aloe 200Ml",
     "slug": "nivea-bl-aloe-200ml",
-    "price": 330.0,
+    "price": 330,
     "image": "/images/products/nivea-bl-aloe-200ml.jpg",
     "stock": 2,
     "description": "Nivea Bl Aloe 200Ml - High quality personal care product.",
@@ -12317,13 +13196,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3860
+    "rank": 3860,
+    "name": "Nivea Bl Aloe 200Ml"
   },
   {
     "id": 3861,
     "title": "Nivea Bl Aloe Hyd 200Ml",
     "slug": "nivea-bl-aloe-hyd-200ml",
-    "price": 275.0,
+    "price": 275,
     "image": "/images/products/nivea-bl-aloe-hyd-200ml.jpg",
     "stock": 3,
     "description": "Nivea Bl Aloe Hyd 200Ml - High quality personal care product.",
@@ -12331,13 +13211,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3861
+    "rank": 3861,
+    "name": "Nivea Bl Aloe Hyd 200Ml"
   },
   {
     "id": 3862,
     "title": "Nivea Bl Exp Hydr 200Ml",
     "slug": "nivea-bl-exp-hydr-200ml",
-    "price": 310.0,
+    "price": 310,
     "image": "/images/products/nivea-bl-exp-hydr-200ml.jpg",
     "stock": 2,
     "description": "Nivea Bl Exp Hydr 200Ml - High quality personal care product.",
@@ -12345,13 +13226,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3862
+    "rank": 3862,
+    "name": "Nivea Bl Exp Hydr 200Ml"
   },
   {
     "id": 3863,
     "title": "Nivea Bl Natural 200Ml",
     "slug": "nivea-bl-natural-200ml",
-    "price": 330.0,
+    "price": 330,
     "image": "/images/products/nivea-bl-natural-200ml.jpg",
     "stock": 2,
     "description": "Nivea Bl Natural 200Ml - High quality personal care product.",
@@ -12359,13 +13241,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3863
+    "rank": 3863,
+    "name": "Nivea Bl Natural 200Ml"
   },
   {
     "id": 3864,
     "title": "Nivea Blue Cream 60Ml",
     "slug": "nivea-blue-cream-60ml",
-    "price": 140.0,
+    "price": 140,
     "image": "/images/products/nivea-blue-cream-60ml.jpg",
     "stock": 3,
     "description": "Nivea Blue Cream 60Ml - High quality personal care product.",
@@ -12373,13 +13256,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3864
+    "rank": 3864,
+    "name": "Nivea Blue Cream 60Ml"
   },
   {
     "id": 3865,
     "title": "Nivea Body Milk 200Ml",
     "slug": "nivea-body-milk-200ml",
-    "price": 249.0,
+    "price": 249,
     "image": "/images/products/nivea-body-milk-200ml.jpg",
     "stock": 4,
     "description": "Nivea Body Milk 200Ml - High quality personal care product.",
@@ -12387,13 +13271,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3865
+    "rank": 3865,
+    "name": "Nivea Body Milk 200Ml"
   },
   {
     "id": 3866,
     "title": "Nivea Body Milk 400Ml",
     "slug": "nivea-body-milk-400ml",
-    "price": 495.0,
+    "price": 495,
     "image": "/images/products/nivea-body-milk-400ml.jpg",
     "stock": 3,
     "description": "Nivea Body Milk 400Ml - High quality personal care product.",
@@ -12401,13 +13286,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3866
+    "rank": 3866,
+    "name": "Nivea Body Milk 400Ml"
   },
   {
     "id": 3867,
     "title": "Nivea Cocoa Body Lotion 400Ml",
     "slug": "nivea-cocoa-body-lotion-400ml",
-    "price": 550.0,
+    "price": 550,
     "image": "/images/products/nivea-cocoa-body-lotion-400ml.jpg",
     "stock": 3,
     "description": "Nivea Cocoa Body Lotion 400Ml - High quality personal care product.",
@@ -12415,13 +13301,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3867
+    "rank": 3867,
+    "name": "Nivea Cocoa Body Lotion 400Ml"
   },
   {
     "id": 3868,
     "title": "Nivea Cocoa Nourish 200Ml",
     "slug": "nivea-cocoa-nourish-200ml",
-    "price": 330.0,
+    "price": 330,
     "image": "/images/products/nivea-cocoa-nourish-200ml.jpg",
     "stock": 3,
     "description": "Nivea Cocoa Nourish 200Ml - High quality personal care product.",
@@ -12429,13 +13316,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3868
+    "rank": 3868,
+    "name": "Nivea Cocoa Nourish 200Ml"
   },
   {
     "id": 3869,
     "title": "Nivea Cream 30Ml",
     "slug": "nivea-cream-30ml",
-    "price": 70.0,
+    "price": 70,
     "image": "/images/products/nivea-cream-30ml.jpg",
     "stock": 2,
     "description": "Nivea Cream 30Ml - High quality personal care product.",
@@ -12443,13 +13331,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3869
+    "rank": 3869,
+    "name": "Nivea Cream 30Ml"
   },
   {
     "id": 3870,
     "title": "Nivea Dark Spot Fw 100G",
     "slug": "nivea-dark-spot-fw-100g",
-    "price": 249.0,
+    "price": 249,
     "image": "/images/products/nivea-dark-spot-fw-100g.jpg",
     "stock": 3,
     "description": "Nivea Dark Spot Fw 100G - High quality personal care product.",
@@ -12457,13 +13346,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3870
+    "rank": 3870,
+    "name": "Nivea Dark Spot Fw 100G"
   },
   {
     "id": 3871,
     "title": "Nivea Dark Spot Fw 50G",
     "slug": "nivea-dark-spot-fw-50g",
-    "price": 115.0,
+    "price": 115,
     "image": "/images/products/nivea-dark-spot-fw-50g.jpg",
     "stock": 3,
     "description": "Nivea Dark Spot Fw 50G - High quality personal care product.",
@@ -12471,13 +13361,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3871
+    "rank": 3871,
+    "name": "Nivea Dark Spot Fw 50G"
   },
   {
     "id": 3872,
     "title": "Nivea Deep Impact Fw 50G",
     "slug": "nivea-deep-impact-fw-50g",
-    "price": 275.0,
+    "price": 275,
     "image": "/images/products/nivea-deep-impact-fw-50g.jpg",
     "stock": 3,
     "description": "Nivea Deep Impact Fw 50G - High quality personal care product.",
@@ -12485,13 +13376,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3872
+    "rank": 3872,
+    "name": "Nivea Deep Impact Fw 50G"
   },
   {
     "id": 3873,
     "title": "Nivea Deo 50Ml",
     "slug": "nivea-deo-50ml",
-    "price": 249.0,
+    "price": 249,
     "image": "/images/products/nivea-deo-50ml.jpg",
     "stock": 20,
     "description": "Nivea Deo 50Ml - High quality personal care product.",
@@ -12499,13 +13391,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3873
+    "rank": 3873,
+    "name": "Nivea Deo 50Ml"
   },
   {
     "id": 3874,
     "title": "Nivea Deo Cool/D Impact 150Ml",
     "slug": "nivea-deo-coold-impact-150ml",
-    "price": 299.0,
+    "price": 299,
     "image": "/images/products/nivea-deo-coold-impact-150ml.jpg",
     "stock": 4,
     "description": "Nivea Deo Cool/D Impact 150Ml - High quality personal care product.",
@@ -12513,13 +13406,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3874
+    "rank": 3874,
+    "name": "Nivea Deo Cool/D Impact 150Ml"
   },
   {
     "id": 3875,
     "title": "Nivea Deo F Active/Ocean",
     "slug": "nivea-deo-f-activeocean",
-    "price": 285.0,
+    "price": 285,
     "image": "/images/products/nivea-deo-f-activeocean.jpg",
     "stock": 5,
     "description": "Nivea Deo F Active/Ocean - High quality personal care product.",
@@ -12527,13 +13421,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3875
+    "rank": 3875,
+    "name": "Nivea Deo F Active/Ocean"
   },
   {
     "id": 3876,
     "title": "Nivea Dry Comfort 50Ml",
     "slug": "nivea-dry-comfort-50ml",
-    "price": 180.0,
+    "price": 180,
     "image": "/images/products/nivea-dry-comfort-50ml.jpg",
     "stock": -1,
     "description": "Nivea Dry Comfort 50Ml - High quality personal care product.",
@@ -12541,13 +13436,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3876
+    "rank": 3876,
+    "name": "Nivea Dry Comfort 50Ml"
   },
   {
     "id": 3877,
     "title": "Nivea Face Wash 100Ml",
     "slug": "nivea-face-wash-100ml",
-    "price": 250.0,
+    "price": 250,
     "image": "/images/products/nivea-face-wash-100ml.jpg",
     "stock": 2,
     "description": "Nivea Face Wash 100Ml - High quality personal care product.",
@@ -12555,13 +13451,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3877
+    "rank": 3877,
+    "name": "Nivea Face Wash 100Ml"
   },
   {
     "id": 3878,
     "title": "Nivea Face Wash 50Ml",
     "slug": "nivea-face-wash-50ml",
-    "price": 150.0,
+    "price": 150,
     "image": "/images/products/nivea-face-wash-50ml.jpg",
     "stock": 2,
     "description": "Nivea Face Wash 50Ml - High quality personal care product.",
@@ -12569,13 +13466,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3878
+    "rank": 3878,
+    "name": "Nivea Face Wash 50Ml"
   },
   {
     "id": 3879,
     "title": "Nivea Lip Black/Straw/Rose/Peach",
     "slug": "nivea-lip-blackstrawrosepeach",
-    "price": 260.0,
+    "price": 260,
     "image": "/images/products/nivea-lip-blackstrawrosepeach.jpg",
     "stock": 8,
     "description": "Nivea Lip Black/Straw/Rose/Peach - High quality personal care product.",
@@ -12583,13 +13481,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3879
+    "rank": 3879,
+    "name": "Nivea Lip Black/Straw/Rose/Peach"
   },
   {
     "id": 3880,
     "title": "Nivea Lip Original 4.8G",
     "slug": "nivea-lip-original-48g",
-    "price": 175.0,
+    "price": 175,
     "image": "/images/products/nivea-lip-original-48g.jpg",
     "stock": 1,
     "description": "Nivea Lip Original 4.8G - High quality personal care product.",
@@ -12597,13 +13496,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3880
+    "rank": 3880,
+    "name": "Nivea Lip Original 4.8G"
   },
   {
     "id": 3881,
     "title": "Nivea Men Active Clean",
     "slug": "nivea-men-active-clean",
-    "price": 330.0,
+    "price": 330,
     "image": "/images/products/nivea-men-active-clean.jpg",
     "stock": 2,
     "description": "Nivea Men Active Clean - High quality personal care product.",
@@ -12611,13 +13511,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3881
+    "rank": 3881,
+    "name": "Nivea Men Active Clean"
   },
   {
     "id": 3882,
     "title": "Nivea Men Cream 30Ml",
     "slug": "nivea-men-cream-30ml",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/nivea-men-cream-30ml.jpg",
     "stock": 3,
     "description": "Nivea Men Cream 30Ml - High quality personal care product.",
@@ -12625,13 +13526,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3882
+    "rank": 3882,
+    "name": "Nivea Men Cream 30Ml"
   },
   {
     "id": 3883,
     "title": "Nivea Men Cream 75Ml",
     "slug": "nivea-men-cream-75ml",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/nivea-men-cream-75ml.jpg",
     "stock": 3,
     "description": "Nivea Men Cream 75Ml - High quality personal care product.",
@@ -12639,13 +13541,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3883
+    "rank": 3883,
+    "name": "Nivea Men Cream 75Ml"
   },
   {
     "id": 3884,
     "title": "Nivea Men Dark 30Ml",
     "slug": "nivea-men-dark-30ml",
-    "price": 110.0,
+    "price": 110,
     "image": "/images/products/nivea-men-dark-30ml.jpg",
     "stock": 4,
     "description": "Nivea Men Dark 30Ml - High quality personal care product.",
@@ -12653,13 +13556,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3884
+    "rank": 3884,
+    "name": "Nivea Men Dark 30Ml"
   },
   {
     "id": 3885,
     "title": "Nivea Men Dark 75Ml",
     "slug": "nivea-men-dark-75ml",
-    "price": 255.0,
+    "price": 255,
     "image": "/images/products/nivea-men-dark-75ml.jpg",
     "stock": 3,
     "description": "Nivea Men Dark 75Ml - High quality personal care product.",
@@ -12667,13 +13571,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3885
+    "rank": 3885,
+    "name": "Nivea Men Dark 75Ml"
   },
   {
     "id": 3886,
     "title": "Nivea Mositure Spf30",
     "slug": "nivea-mositure-spf30",
-    "price": 360.0,
+    "price": 360,
     "image": "/images/products/nivea-mositure-spf30.jpg",
     "stock": 3,
     "description": "Nivea Mositure Spf30 - High quality personal care product.",
@@ -12681,13 +13586,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3886
+    "rank": 3886,
+    "name": "Nivea Mositure Spf30"
   },
   {
     "id": 3887,
     "title": "Nivea Mositure Spf50",
     "slug": "nivea-mositure-spf50",
-    "price": 499.0,
+    "price": 499,
     "image": "/images/products/nivea-mositure-spf50.jpg",
     "stock": 3,
     "description": "Nivea Mositure Spf50 - High quality personal care product.",
@@ -12695,13 +13601,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3887
+    "rank": 3887,
+    "name": "Nivea Mositure Spf50"
   },
   {
     "id": 3888,
     "title": "Nivea Oil Control Fw 50G",
     "slug": "nivea-oil-control-fw-50g",
-    "price": 115.0,
+    "price": 115,
     "image": "/images/products/nivea-oil-control-fw-50g.jpg",
     "stock": 3,
     "description": "Nivea Oil Control Fw 50G - High quality personal care product.",
@@ -12709,13 +13616,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3888
+    "rank": 3888,
+    "name": "Nivea Oil Control Fw 50G"
   },
   {
     "id": 3889,
     "title": "Nivea Roll On 50Ml",
     "slug": "nivea-roll-on-50ml",
-    "price": 299.0,
+    "price": 299,
     "image": "/images/products/nivea-roll-on-50ml.jpg",
     "stock": 5,
     "description": "Nivea Roll On 50Ml - High quality personal care product.",
@@ -12723,13 +13631,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3889
+    "rank": 3889,
+    "name": "Nivea Roll On 50Ml"
   },
   {
     "id": 3890,
     "title": "Nivea Roll On Black",
     "slug": "nivea-roll-on-black",
-    "price": 249.0,
+    "price": 249,
     "image": "/images/products/nivea-roll-on-black.jpg",
     "stock": 3,
     "description": "Nivea Roll On Black - High quality personal care product.",
@@ -12737,13 +13646,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3890
+    "rank": 3890,
+    "name": "Nivea Roll On Black"
   },
   {
     "id": 3891,
     "title": "Nivea Sg Cool Kick 250Ml",
     "slug": "nivea-sg-cool-kick-250ml",
-    "price": 250.0,
+    "price": 250,
     "image": "/images/products/nivea-sg-cool-kick-250ml.jpg",
     "stock": 3,
     "description": "Nivea Sg Cool Kick 250Ml - High quality personal care product.",
@@ -12751,13 +13661,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3891
+    "rank": 3891,
+    "name": "Nivea Sg Cool Kick 250Ml"
   },
   {
     "id": 3892,
     "title": "Nivea Sg Creme Care 250Ml",
     "slug": "nivea-sg-creme-care-250ml",
-    "price": 250.0,
+    "price": 250,
     "image": "/images/products/nivea-sg-creme-care-250ml.jpg",
     "stock": 2,
     "description": "Nivea Sg Creme Care 250Ml - High quality personal care product.",
@@ -12765,13 +13676,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3892
+    "rank": 3892,
+    "name": "Nivea Sg Creme Care 250Ml"
   },
   {
     "id": 3893,
     "title": "Nivea Sg Creme Soft 250Ml",
     "slug": "nivea-sg-creme-soft-250ml",
-    "price": 250.0,
+    "price": 250,
     "image": "/images/products/nivea-sg-creme-soft-250ml.jpg",
     "stock": 3,
     "description": "Nivea Sg Creme Soft 250Ml - High quality personal care product.",
@@ -12779,13 +13691,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3893
+    "rank": 3893,
+    "name": "Nivea Sg Creme Soft 250Ml"
   },
   {
     "id": 3894,
     "title": "Nivea Sg Deep Impact 250Ml",
     "slug": "nivea-sg-deep-impact-250ml",
-    "price": 275.0,
+    "price": 275,
     "image": "/images/products/nivea-sg-deep-impact-250ml.jpg",
     "stock": 3,
     "description": "Nivea Sg Deep Impact 250Ml - High quality personal care product.",
@@ -12793,13 +13706,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3894
+    "rank": 3894,
+    "name": "Nivea Sg Deep Impact 250Ml"
   },
   {
     "id": 3895,
     "title": "Nivea Sg Energy 250Ml",
     "slug": "nivea-sg-energy-250ml",
-    "price": 250.0,
+    "price": 250,
     "image": "/images/products/nivea-sg-energy-250ml.jpg",
     "stock": 3,
     "description": "Nivea Sg Energy 250Ml - High quality personal care product.",
@@ -12807,13 +13721,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3895
+    "rank": 3895,
+    "name": "Nivea Sg Energy 250Ml"
   },
   {
     "id": 3896,
     "title": "Nivea Sg Frangipani 250Ml",
     "slug": "nivea-sg-frangipani-250ml",
-    "price": 275.0,
+    "price": 275,
     "image": "/images/products/nivea-sg-frangipani-250ml.jpg",
     "stock": 3,
     "description": "Nivea Sg Frangipani 250Ml - High quality personal care product.",
@@ -12821,13 +13736,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3896
+    "rank": 3896,
+    "name": "Nivea Sg Frangipani 250Ml"
   },
   {
     "id": 3897,
     "title": "Nivea Sg Fresh Pure 250Ml",
     "slug": "nivea-sg-fresh-pure-250ml",
-    "price": 250.0,
+    "price": 250,
     "image": "/images/products/nivea-sg-fresh-pure-250ml.jpg",
     "stock": 1,
     "description": "Nivea Sg Fresh Pure 250Ml - High quality personal care product.",
@@ -12835,13 +13751,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3897
+    "rank": 3897,
+    "name": "Nivea Sg Fresh Pure 250Ml"
   },
   {
     "id": 3898,
     "title": "Nivea Sg Limon&Oil 250Ml",
     "slug": "nivea-sg-limonoil-250ml",
-    "price": 275.0,
+    "price": 275,
     "image": "/images/products/nivea-sg-limonoil-250ml.jpg",
     "stock": 3,
     "description": "Nivea Sg Limon&Oil 250Ml - High quality personal care product.",
@@ -12849,13 +13766,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3898
+    "rank": 3898,
+    "name": "Nivea Sg Limon&Oil 250Ml"
   },
   {
     "id": 3899,
     "title": "Nivea Sg Powerfruit 250Ml",
     "slug": "nivea-sg-powerfruit-250ml",
-    "price": 250.0,
+    "price": 250,
     "image": "/images/products/nivea-sg-powerfruit-250ml.jpg",
     "stock": 3,
     "description": "Nivea Sg Powerfruit 250Ml - High quality personal care product.",
@@ -12863,13 +13781,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3899
+    "rank": 3899,
+    "name": "Nivea Sg Powerfruit 250Ml"
   },
   {
     "id": 3900,
     "title": "Nivea Sg Pure Impact 250Ml",
     "slug": "nivea-sg-pure-impact-250ml",
-    "price": 275.0,
+    "price": 275,
     "image": "/images/products/nivea-sg-pure-impact-250ml.jpg",
     "stock": 2,
     "description": "Nivea Sg Pure Impact 250Ml - High quality personal care product.",
@@ -12877,13 +13796,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3900
+    "rank": 3900,
+    "name": "Nivea Sg Pure Impact 250Ml"
   },
   {
     "id": 3901,
     "title": "Nivea Sg Vitality Fresh 250Ml",
     "slug": "nivea-sg-vitality-fresh-250ml",
-    "price": 250.0,
+    "price": 250,
     "image": "/images/products/nivea-sg-vitality-fresh-250ml.jpg",
     "stock": 3,
     "description": "Nivea Sg Vitality Fresh 250Ml - High quality personal care product.",
@@ -12891,13 +13811,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3901
+    "rank": 3901,
+    "name": "Nivea Sg Vitality Fresh 250Ml"
   },
   {
     "id": 3902,
     "title": "Nivea Sg Waterlily 250Ml",
     "slug": "nivea-sg-waterlily-250ml",
-    "price": 275.0,
+    "price": 275,
     "image": "/images/products/nivea-sg-waterlily-250ml.jpg",
     "stock": 2,
     "description": "Nivea Sg Waterlily 250Ml - High quality personal care product.",
@@ -12905,13 +13826,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3902
+    "rank": 3902,
+    "name": "Nivea Sg Waterlily 250Ml"
   },
   {
     "id": 3903,
     "title": "Nivea Soft 100Ml",
     "slug": "nivea-soft-100ml",
-    "price": 250.0,
+    "price": 250,
     "image": "/images/products/nivea-soft-100ml.jpg",
     "stock": 3,
     "description": "Nivea Soft 100Ml - High quality personal care product.",
@@ -12919,13 +13841,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3903
+    "rank": 3903,
+    "name": "Nivea Soft 100Ml"
   },
   {
     "id": 3904,
     "title": "Nivea Soft 200Ml",
     "slug": "nivea-soft-200ml",
-    "price": 400.0,
+    "price": 400,
     "image": "/images/products/nivea-soft-200ml.jpg",
     "stock": 3,
     "description": "Nivea Soft 200Ml - High quality personal care product.",
@@ -12933,13 +13856,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3904
+    "rank": 3904,
+    "name": "Nivea Soft 200Ml"
   },
   {
     "id": 3905,
     "title": "Nivea Soft 50Ml",
     "slug": "nivea-soft-50ml",
-    "price": 125.0,
+    "price": 125,
     "image": "/images/products/nivea-soft-50ml.jpg",
     "stock": 5,
     "description": "Nivea Soft 50Ml - High quality personal care product.",
@@ -12947,13 +13871,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3905
+    "rank": 3905,
+    "name": "Nivea Soft 50Ml"
   },
   {
     "id": 3906,
     "title": "Nivea Soft Peach/Pom/Berry",
     "slug": "nivea-soft-peachpomberry",
-    "price": 245.0,
+    "price": 245,
     "image": "/images/products/nivea-soft-peachpomberry.jpg",
     "stock": 8,
     "description": "Nivea Soft Peach/Pom/Berry - High quality personal care product.",
@@ -12961,13 +13886,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3906
+    "rank": 3906,
+    "name": "Nivea Soft Peach/Pom/Berry"
   },
   {
     "id": 3907,
     "title": "Nivea Soft Spf15 Cream",
     "slug": "nivea-soft-spf15-cream",
-    "price": 165.0,
+    "price": 165,
     "image": "/images/products/nivea-soft-spf15-cream.jpg",
     "stock": 3,
     "description": "Nivea Soft Spf15 Cream - High quality personal care product.",
@@ -12975,13 +13901,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3907
+    "rank": 3907,
+    "name": "Nivea Soft Spf15 Cream"
   },
   {
     "id": 3908,
     "title": "Nivea Wom Deo Nat/Pb/Pc/Fc",
     "slug": "nivea-wom-deo-natpbpcfc",
-    "price": 285.0,
+    "price": 285,
     "image": "/images/products/nivea-wom-deo-natpbpcfc.jpg",
     "stock": 9,
     "description": "Nivea Wom Deo Nat/Pb/Pc/Fc - High quality personal care product.",
@@ -12989,13 +13916,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3908
+    "rank": 3908,
+    "name": "Nivea Wom Deo Nat/Pb/Pc/Fc"
   },
   {
     "id": 3909,
     "title": "Nivea Wom Deo Smooth/Pearl",
     "slug": "nivea-wom-deo-smoothpearl",
-    "price": 299.0,
+    "price": 299,
     "image": "/images/products/nivea-wom-deo-smoothpearl.jpg",
     "stock": 6,
     "description": "Nivea Wom Deo Smooth/Pearl - High quality personal care product.",
@@ -13003,13 +13931,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3909
+    "rank": 3909,
+    "name": "Nivea Wom Deo Smooth/Pearl"
   },
   {
     "id": 3912,
     "title": "Nl Oraganic Sesame (Til) Oil 1Ltr",
     "slug": "nl-oraganic-sesame-til-oil-1ltr",
-    "price": 675.0,
+    "price": 675,
     "image": "/images/products/nl-oraganic-sesame-til-oil-1ltr.jpg",
     "stock": 2,
     "description": "Nl Oraganic Sesame (Til) Oil 1Ltr - High quality personal care product.",
@@ -13017,13 +13946,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3912
+    "rank": 3912,
+    "name": "Nl Oraganic Sesame (Til) Oil 1Ltr"
   },
   {
     "id": 3923,
     "title": "Nl Organic Coconut Oil 400Ml",
     "slug": "nl-organic-coconut-oil-400ml",
-    "price": 425.0,
+    "price": 425,
     "image": "/images/products/nl-organic-coconut-oil-400ml.jpg",
     "stock": 2,
     "description": "Nl Organic Coconut Oil 400Ml - High quality personal care product.",
@@ -13031,13 +13961,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3923
+    "rank": 3923,
+    "name": "Nl Organic Coconut Oil 400Ml"
   },
   {
     "id": 3926,
     "title": "Nl Organic Groundnut Oil 1Ltr",
     "slug": "nl-organic-groundnut-oil-1ltr",
-    "price": 495.0,
+    "price": 495,
     "image": "/images/products/nl-organic-groundnut-oil-1ltr.jpg",
     "stock": 2,
     "description": "Nl Organic Groundnut Oil 1Ltr - High quality personal care product.",
@@ -13045,13 +13976,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3926
+    "rank": 3926,
+    "name": "Nl Organic Groundnut Oil 1Ltr"
   },
   {
     "id": 3935,
     "title": "Nl Organic Nl Organic Mustard Oil 1Ltr",
     "slug": "nl-organic-nl-organic-mustard-oil-1ltr",
-    "price": 375.0,
+    "price": 375,
     "image": "/images/products/nl-organic-nl-organic-mustard-oil-1ltr.jpg",
     "stock": 2,
     "description": "Nl Organic Nl Organic Mustard Oil 1Ltr - High quality personal care product.",
@@ -13059,13 +13991,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3935
+    "rank": 3935,
+    "name": "Nl Organic Nl Organic Mustard Oil 1Ltr"
   },
   {
     "id": 3950,
     "title": "Nl Organic Sunflower Oil 1Ltr",
     "slug": "nl-organic-sunflower-oil-1ltr",
-    "price": 425.0,
+    "price": 425,
     "image": "/images/products/nl-organic-sunflower-oil-1ltr.jpg",
     "stock": 2,
     "description": "Nl Organic Sunflower Oil 1Ltr - High quality personal care product.",
@@ -13073,13 +14006,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3950
+    "rank": 3950,
+    "name": "Nl Organic Sunflower Oil 1Ltr"
   },
   {
     "id": 3952,
     "title": "Nl Organic Urad Split Wash 500Gm",
     "slug": "nl-organic-urad-split-wash-500gm",
-    "price": 170.0,
+    "price": 170,
     "image": "/images/products/nl-organic-urad-split-wash-500gm.jpg",
     "stock": 3,
     "description": "Nl Organic Urad Split Wash 500Gm - High quality personal care product.",
@@ -13087,13 +14021,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3952
+    "rank": 3952,
+    "name": "Nl Organic Urad Split Wash 500Gm"
   },
   {
     "id": 3956,
     "title": "Nl Organic White Sesame Oil 1Ltr",
     "slug": "nl-organic-white-sesame-oil-1ltr",
-    "price": 699.0,
+    "price": 699,
     "image": "/images/products/nl-organic-white-sesame-oil-1ltr.jpg",
     "stock": 2,
     "description": "Nl Organic White Sesame Oil 1Ltr - High quality personal care product.",
@@ -13101,13 +14036,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3956
+    "rank": 3956,
+    "name": "Nl Organic White Sesame Oil 1Ltr"
   },
   {
     "id": 3978,
     "title": "Novax Aluminium Foil 21Mtr",
     "slug": "novax-aluminium-foil-21mtr",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/novax-aluminium-foil-21mtr.jpg",
     "stock": 4,
     "description": "Novax Aluminium Foil 21Mtr - High quality personal care product.",
@@ -13115,13 +14051,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3978
+    "rank": 3978,
+    "name": "Novax Aluminium Foil 21Mtr"
   },
   {
     "id": 3979,
     "title": "Novax Aluminium Foil 9Mtr",
     "slug": "novax-aluminium-foil-9mtr",
-    "price": 139.0,
+    "price": 139,
     "image": "/images/products/novax-aluminium-foil-9mtr.jpg",
     "stock": 5,
     "description": "Novax Aluminium Foil 9Mtr - High quality personal care product.",
@@ -13129,13 +14066,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 3979
+    "rank": 3979,
+    "name": "Novax Aluminium Foil 9Mtr"
   },
   {
     "id": 4006,
     "title": "Novax Toilet Paper",
     "slug": "novax-toilet-paper",
-    "price": 90.0,
+    "price": 90,
     "image": "/images/products/novax-toilet-paper.jpg",
     "stock": 5,
     "description": "Novax Toilet Paper - High quality personal care product.",
@@ -13143,13 +14081,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4006
+    "rank": 4006,
+    "name": "Novax Toilet Paper"
   },
   {
     "id": 4056,
     "title": "Nykaa Glow All Day Strobe Cream 575/",
     "slug": "nykaa-glow-all-day-strobe-cream-575",
-    "price": 575.0,
+    "price": 575,
     "image": "/images/products/nykaa-glow-all-day-strobe-cream-575.jpg",
     "stock": 6,
     "description": "Nykaa Glow All Day Strobe Cream 575/ - High quality personal care product.",
@@ -13157,13 +14096,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4056
+    "rank": 4056,
+    "name": "Nykaa Glow All Day Strobe Cream 575/"
   },
   {
     "id": 4059,
     "title": "Nykaa Lip Oil 599/",
     "slug": "nykaa-lip-oil-599",
-    "price": 599.0,
+    "price": 599,
     "image": "/images/products/nykaa-lip-oil-599.jpg",
     "stock": 14,
     "description": "Nykaa Lip Oil 599/ - High quality personal care product.",
@@ -13171,13 +14111,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4059
+    "rank": 4059,
+    "name": "Nykaa Lip Oil 599/"
   },
   {
     "id": 4069,
     "title": "Nykaa Pre Face Primer 619/",
     "slug": "nykaa-pre-face-primer-619",
-    "price": 619.0,
+    "price": 619,
     "image": "/images/products/nykaa-pre-face-primer-619.jpg",
     "stock": 3,
     "description": "Nykaa Pre Face Primer 619/ - High quality personal care product.",
@@ -13185,13 +14126,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4069
+    "rank": 4069,
+    "name": "Nykaa Pre Face Primer 619/"
   },
   {
     "id": 4073,
     "title": "Nykaa So Creamy Matte Lipstick 329/",
     "slug": "nykaa-so-creamy-matte-lipstick-329",
-    "price": 329.0,
+    "price": 329,
     "image": "/images/products/nykaa-so-creamy-matte-lipstick-329.jpg",
     "stock": 65,
     "description": "Nykaa So Creamy Matte Lipstick 329/ - High quality personal care product.",
@@ -13199,13 +14141,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4073
+    "rank": 4073,
+    "name": "Nykaa So Creamy Matte Lipstick 329/"
   },
   {
     "id": 4074,
     "title": "Nykaa Sp Serum Founetion899/",
     "slug": "nykaa-sp-serum-founetion899",
-    "price": 899.0,
+    "price": 899,
     "image": "/images/products/nykaa-sp-serum-founetion899.jpg",
     "stock": 15,
     "description": "Nykaa Sp Serum Founetion899/ - High quality personal care product.",
@@ -13213,13 +14156,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4074
+    "rank": 4074,
+    "name": "Nykaa Sp Serum Founetion899/"
   },
   {
     "id": 4080,
     "title": "Olay Anti-Ageing Cream",
     "slug": "olay-anti-ageing-cream",
-    "price": 399.0,
+    "price": 399,
     "image": "/images/products/olay-anti-ageing-cream.jpg",
     "stock": 2,
     "description": "Olay Anti-Ageing Cream - High quality personal care product.",
@@ -13227,13 +14171,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4080
+    "rank": 4080,
+    "name": "Olay Anti-Ageing Cream"
   },
   {
     "id": 4081,
     "title": "Olay Anti-Ageing Cream 18G",
     "slug": "olay-anti-ageing-cream-18g",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/olay-anti-ageing-cream-18g.jpg",
     "stock": 3,
     "description": "Olay Anti-Ageing Cream 18G - High quality personal care product.",
@@ -13241,13 +14186,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4081
+    "rank": 4081,
+    "name": "Olay Anti-Ageing Cream 18G"
   },
   {
     "id": 4082,
     "title": "Olay Day Cream 50G",
     "slug": "olay-day-cream-50g",
-    "price": 449.0,
+    "price": 449,
     "image": "/images/products/olay-day-cream-50g.jpg",
     "stock": 2,
     "description": "Olay Day Cream 50G - High quality personal care product.",
@@ -13255,13 +14201,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4082
+    "rank": 4082,
+    "name": "Olay Day Cream 50G"
   },
   {
     "id": 4083,
     "title": "Olay Day Cream Normal 20Gm",
     "slug": "olay-day-cream-normal-20gm",
-    "price": 429.0,
+    "price": 429,
     "image": "/images/products/olay-day-cream-normal-20gm.jpg",
     "stock": 4,
     "description": "Olay Day Cream Normal 20Gm - High quality personal care product.",
@@ -13269,13 +14216,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4083
+    "rank": 4083,
+    "name": "Olay Day Cream Normal 20Gm"
   },
   {
     "id": 4084,
     "title": "Olay Day Cream Normal 50Gm",
     "slug": "olay-day-cream-normal-50gm",
-    "price": 949.0,
+    "price": 949,
     "image": "/images/products/olay-day-cream-normal-50gm.jpg",
     "stock": 1,
     "description": "Olay Day Cream Normal 50Gm - High quality personal care product.",
@@ -13283,13 +14231,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4084
+    "rank": 4084,
+    "name": "Olay Day Cream Normal 50Gm"
   },
   {
     "id": 4085,
     "title": "Olay Day Cream Spf15 Normal 50Gm",
     "slug": "olay-day-cream-spf15-normal-50gm",
-    "price": 949.0,
+    "price": 949,
     "image": "/images/products/olay-day-cream-spf15-normal-50gm.jpg",
     "stock": 1,
     "description": "Olay Day Cream Spf15 Normal 50Gm - High quality personal care product.",
@@ -13297,13 +14246,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4085
+    "rank": 4085,
+    "name": "Olay Day Cream Spf15 Normal 50Gm"
   },
   {
     "id": 4091,
     "title": "Olay Night Cream 20Gm",
     "slug": "olay-night-cream-20gm",
-    "price": 429.0,
+    "price": 429,
     "image": "/images/products/olay-night-cream-20gm.jpg",
     "stock": 2,
     "description": "Olay Night Cream 20Gm - High quality personal care product.",
@@ -13311,13 +14261,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4091
+    "rank": 4091,
+    "name": "Olay Night Cream 20Gm"
   },
   {
     "id": 4092,
     "title": "Olay Night Cream 50G",
     "slug": "olay-night-cream-50g",
-    "price": 449.0,
+    "price": 449,
     "image": "/images/products/olay-night-cream-50g.jpg",
     "stock": 2,
     "description": "Olay Night Cream 50G - High quality personal care product.",
@@ -13325,13 +14276,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4092
+    "rank": 4092,
+    "name": "Olay Night Cream 50G"
   },
   {
     "id": 4093,
     "title": "Olay Regenerist Night Cream",
     "slug": "olay-regenerist-night-cream",
-    "price": 1799.0,
+    "price": 1799,
     "image": "/images/products/olay-regenerist-night-cream.jpg",
     "stock": 1,
     "description": "Olay Regenerist Night Cream - High quality personal care product.",
@@ -13339,13 +14291,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4093
+    "rank": 4093,
+    "name": "Olay Regenerist Night Cream"
   },
   {
     "id": 4100,
     "title": "Ong'S Pure Sesame Oil",
     "slug": "ongs-pure-sesame-oil",
-    "price": 475.0,
+    "price": 475,
     "image": "/images/products/ongs-pure-sesame-oil.jpg",
     "stock": 5,
     "description": "Ong'S Pure Sesame Oil - High quality personal care product.",
@@ -13353,13 +14306,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4100
+    "rank": 4100,
+    "name": "Ong'S Pure Sesame Oil"
   },
   {
     "id": 4145,
     "title": "Oral-B White Charcoal Toothbrush",
     "slug": "oral-b-white-charcoal-toothbrush",
-    "price": 250.0,
+    "price": 250,
     "image": "/images/products/oral-b-white-charcoal-toothbrush.jpg",
     "stock": 2,
     "description": "Oral-B White Charcoal Toothbrush - High quality personal care product.",
@@ -13367,13 +14321,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4145
+    "rank": 4145,
+    "name": "Oral-B White Charcoal Toothbrush"
   },
   {
     "id": 4163,
     "title": "Orgainc India Virgin Coconut Oil",
     "slug": "orgainc-india-virgin-coconut-oil",
-    "price": 725.0,
+    "price": 725,
     "image": "/images/products/orgainc-india-virgin-coconut-oil.jpg",
     "stock": 3,
     "description": "Orgainc India Virgin Coconut Oil - High quality personal care product.",
@@ -13381,13 +14336,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4163
+    "rank": 4163,
+    "name": "Orgainc India Virgin Coconut Oil"
   },
   {
     "id": 4205,
     "title": "Origami Face Tissue",
     "slug": "origami-face-tissue",
-    "price": 150.0,
+    "price": 150,
     "image": "/images/products/origami-face-tissue.jpg",
     "stock": 6,
     "description": "Origami Face Tissue - High quality personal care product.",
@@ -13395,13 +14351,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4205
+    "rank": 4205,
+    "name": "Origami Face Tissue"
   },
   {
     "id": 4206,
     "title": "Origami Face Tissue (4X100)",
     "slug": "origami-face-tissue-4x100",
-    "price": 390.0,
+    "price": 390,
     "image": "/images/products/origami-face-tissue-4x100.jpg",
     "stock": 2,
     "description": "Origami Face Tissue (4X100) - High quality personal care product.",
@@ -13409,13 +14366,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4206
+    "rank": 4206,
+    "name": "Origami Face Tissue (4X100)"
   },
   {
     "id": 4215,
     "title": "Origami Toilet Roll 12In1",
     "slug": "origami-toilet-roll-12in1",
-    "price": 570.0,
+    "price": 570,
     "image": "/images/products/origami-toilet-roll-12in1.jpg",
     "stock": 3,
     "description": "Origami Toilet Roll 12In1 - High quality personal care product.",
@@ -13423,13 +14381,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4215
+    "rank": 4215,
+    "name": "Origami Toilet Roll 12In1"
   },
   {
     "id": 4216,
     "title": "Origami Toilet Roll 4In1",
     "slug": "origami-toilet-roll-4in1",
-    "price": 375.0,
+    "price": 375,
     "image": "/images/products/origami-toilet-roll-4in1.jpg",
     "stock": 3,
     "description": "Origami Toilet Roll 4In1 - High quality personal care product.",
@@ -13437,13 +14396,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4216
+    "rank": 4216,
+    "name": "Origami Toilet Roll 4In1"
   },
   {
     "id": 4217,
     "title": "Origami Toilet Roll 6In1",
     "slug": "origami-toilet-roll-6in1",
-    "price": 290.0,
+    "price": 290,
     "image": "/images/products/origami-toilet-roll-6in1.jpg",
     "stock": 2,
     "description": "Origami Toilet Roll 6In1 - High quality personal care product.",
@@ -13451,13 +14411,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4217
+    "rank": 4217,
+    "name": "Origami Toilet Roll 6In1"
   },
   {
     "id": 4218,
     "title": "Origami Toilet Seat Cover",
     "slug": "origami-toilet-seat-cover",
-    "price": 90.0,
+    "price": 90,
     "image": "/images/products/origami-toilet-seat-cover.jpg",
     "stock": 6,
     "description": "Origami Toilet Seat Cover - High quality personal care product.",
@@ -13465,13 +14426,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4218
+    "rank": 4218,
+    "name": "Origami Toilet Seat Cover"
   },
   {
     "id": 4220,
     "title": "Original Source Shower Gel 500Ml",
     "slug": "original-source-shower-gel-500ml",
-    "price": 550.0,
+    "price": 550,
     "image": "/images/products/original-source-shower-gel-500ml.jpg",
     "stock": 10,
     "description": "Original Source Shower Gel 500Ml - High quality personal care product.",
@@ -13479,13 +14441,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4220
+    "rank": 4220,
+    "name": "Original Source Shower Gel 500Ml"
   },
   {
     "id": 4234,
     "title": "Ornimas Whip Cream",
     "slug": "ornimas-whip-cream",
-    "price": 220.0,
+    "price": 220,
     "image": "/images/products/ornimas-whip-cream.jpg",
     "stock": 1,
     "description": "Ornimas Whip Cream - High quality personal care product.",
@@ -13493,13 +14456,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4234
+    "rank": 4234,
+    "name": "Ornimas Whip Cream"
   },
   {
     "id": 4235,
     "title": "Ornimas Whip Cream Gold",
     "slug": "ornimas-whip-cream-gold",
-    "price": 200.0,
+    "price": 200,
     "image": "/images/products/ornimas-whip-cream-gold.jpg",
     "stock": 1,
     "description": "Ornimas Whip Cream Gold - High quality personal care product.",
@@ -13507,13 +14471,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4235
+    "rank": 4235,
+    "name": "Ornimas Whip Cream Gold"
   },
   {
     "id": 4236,
     "title": "Ossum Body Mist",
     "slug": "ossum-body-mist",
-    "price": 275.0,
+    "price": 275,
     "image": "/images/products/ossum-body-mist.jpg",
     "stock": 5,
     "description": "Ossum Body Mist - High quality personal care product.",
@@ -13521,13 +14486,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4236
+    "rank": 4236,
+    "name": "Ossum Body Mist"
   },
   {
     "id": 4248,
     "title": "P Mark Kachii Ghani Mustard Oil 5L",
     "slug": "p-mark-kachii-ghani-mustard-oil-5l",
-    "price": 1100.0,
+    "price": 1100,
     "image": "/images/products/p-mark-kachii-ghani-mustard-oil-5l.jpg",
     "stock": 3,
     "description": "P Mark Kachii Ghani Mustard Oil 5L - High quality personal care product.",
@@ -13535,13 +14501,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4248
+    "rank": 4248,
+    "name": "P Mark Kachii Ghani Mustard Oil 5L"
   },
   {
     "id": 4249,
     "title": "P Mark Mustard Oil 1L",
     "slug": "p-mark-mustard-oil-1l",
-    "price": 220.0,
+    "price": 220,
     "image": "/images/products/p-mark-mustard-oil-1l.jpg",
     "stock": 16,
     "description": "P Mark Mustard Oil 1L - High quality personal care product.",
@@ -13549,13 +14516,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4249
+    "rank": 4249,
+    "name": "P Mark Mustard Oil 1L"
   },
   {
     "id": 4250,
     "title": "Palmolive Aroma Body Wash 250Ml",
     "slug": "palmolive-aroma-body-wash-250ml",
-    "price": 169.0,
+    "price": 169,
     "image": "/images/products/palmolive-aroma-body-wash-250ml.jpg",
     "stock": 4,
     "description": "Palmolive Aroma Body Wash 250Ml - High quality personal care product.",
@@ -13563,13 +14531,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4250
+    "rank": 4250,
+    "name": "Palmolive Aroma Body Wash 250Ml"
   },
   {
     "id": 4251,
     "title": "Palmolive Fm Shower Gel 250Ml",
     "slug": "palmolive-fm-shower-gel-250ml",
-    "price": 279.0,
+    "price": 279,
     "image": "/images/products/palmolive-fm-shower-gel-250ml.jpg",
     "stock": 2,
     "description": "Palmolive Fm Shower Gel 250Ml - High quality personal care product.",
@@ -13577,13 +14546,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4251
+    "rank": 4251,
+    "name": "Palmolive Fm Shower Gel 250Ml"
   },
   {
     "id": 4252,
     "title": "Palmolive Hand Wash 250Ml",
     "slug": "palmolive-hand-wash-250ml",
-    "price": 169.0,
+    "price": 169,
     "image": "/images/products/palmolive-hand-wash-250ml.jpg",
     "stock": -3,
     "description": "Palmolive Hand Wash 250Ml - High quality personal care product.",
@@ -13591,13 +14561,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4252
+    "rank": 4252,
+    "name": "Palmolive Hand Wash 250Ml"
   },
   {
     "id": 4253,
     "title": "Palmolive Hand Wash 250Ml",
     "slug": "palmolive-hand-wash-250ml",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/palmolive-hand-wash-250ml.jpg",
     "stock": 3,
     "description": "Palmolive Hand Wash 250Ml - High quality personal care product.",
@@ -13605,13 +14576,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4253
+    "rank": 4253,
+    "name": "Palmolive Hand Wash 250Ml"
   },
   {
     "id": 4291,
     "title": "Pantanjali Body Cleanser 4*125Ml",
     "slug": "pantanjali-body-cleanser-4125ml",
-    "price": 240.0,
+    "price": 240,
     "image": "/images/products/pantanjali-body-cleanser-4125ml.jpg",
     "stock": 7,
     "description": "Pantanjali Body Cleanser 4*125Ml - High quality personal care product.",
@@ -13619,13 +14591,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4291
+    "rank": 4291,
+    "name": "Pantanjali Body Cleanser 4*125Ml"
   },
   {
     "id": 4295,
     "title": "Pantanjali Dishwasher Gel 250Ml",
     "slug": "pantanjali-dishwasher-gel-250ml",
-    "price": 50.0,
+    "price": 50,
     "image": "/images/products/pantanjali-dishwasher-gel-250ml.jpg",
     "stock": 12,
     "description": "Pantanjali Dishwasher Gel 250Ml - High quality personal care product.",
@@ -13633,13 +14606,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4295
+    "rank": 4295,
+    "name": "Pantanjali Dishwasher Gel 250Ml"
   },
   {
     "id": 4297,
     "title": "Pantanjali Junior Toothpaste 80G",
     "slug": "pantanjali-junior-toothpaste-80g",
-    "price": 100.0,
+    "price": 100,
     "image": "/images/products/pantanjali-junior-toothpaste-80g.jpg",
     "stock": 3,
     "description": "Pantanjali Junior Toothpaste 80G - High quality personal care product.",
@@ -13647,13 +14621,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4297
+    "rank": 4297,
+    "name": "Pantanjali Junior Toothpaste 80G"
   },
   {
     "id": 4298,
     "title": "Pantanjali Lemon Body Cleanser 3+1",
     "slug": "pantanjali-lemon-body-cleanser-31",
-    "price": 180.0,
+    "price": 180,
     "image": "/images/products/pantanjali-lemon-body-cleanser-31.jpg",
     "stock": 3,
     "description": "Pantanjali Lemon Body Cleanser 3+1 - High quality personal care product.",
@@ -13661,13 +14636,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4298
+    "rank": 4298,
+    "name": "Pantanjali Lemon Body Cleanser 3+1"
   },
   {
     "id": 4300,
     "title": "Pantanjali Rose Body Cleanser 3+1",
     "slug": "pantanjali-rose-body-cleanser-31",
-    "price": 180.0,
+    "price": 180,
     "image": "/images/products/pantanjali-rose-body-cleanser-31.jpg",
     "stock": 3,
     "description": "Pantanjali Rose Body Cleanser 3+1 - High quality personal care product.",
@@ -13675,13 +14651,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4300
+    "rank": 4300,
+    "name": "Pantanjali Rose Body Cleanser 3+1"
   },
   {
     "id": 4301,
     "title": "Pantanjali Sesitive Toothpaste 50G",
     "slug": "pantanjali-sesitive-toothpaste-50g",
-    "price": 80.0,
+    "price": 80,
     "image": "/images/products/pantanjali-sesitive-toothpaste-50g.jpg",
     "stock": 5,
     "description": "Pantanjali Sesitive Toothpaste 50G - High quality personal care product.",
@@ -13689,13 +14666,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4301
+    "rank": 4301,
+    "name": "Pantanjali Sesitive Toothpaste 50G"
   },
   {
     "id": 4302,
     "title": "Pantanjali Super Dishwash Bar 600G",
     "slug": "pantanjali-super-dishwash-bar-600g",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/pantanjali-super-dishwash-bar-600g.jpg",
     "stock": 3,
     "description": "Pantanjali Super Dishwash Bar 600G - High quality personal care product.",
@@ -13703,13 +14681,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4302
+    "rank": 4302,
+    "name": "Pantanjali Super Dishwash Bar 600G"
   },
   {
     "id": 4303,
     "title": "Pantanjali Super Dishwasher 3+1",
     "slug": "pantanjali-super-dishwasher-31",
-    "price": 72.0,
+    "price": 72,
     "image": "/images/products/pantanjali-super-dishwasher-31.jpg",
     "stock": 10,
     "description": "Pantanjali Super Dishwasher 3+1 - High quality personal care product.",
@@ -13717,13 +14696,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4303
+    "rank": 4303,
+    "name": "Pantanjali Super Dishwasher 3+1"
   },
   {
     "id": 4304,
     "title": "Pantene 2In1 Shampoo Deep Repair 180Ml",
     "slug": "pantene-2in1-shampoo-deep-repair-180ml",
-    "price": 229.0,
+    "price": 229,
     "image": "/images/products/pantene-2in1-shampoo-deep-repair-180ml.jpg",
     "stock": 2,
     "description": "Pantene 2In1 Shampoo Deep Repair 180Ml - High quality personal care product.",
@@ -13731,13 +14711,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4304
+    "rank": 4304,
+    "name": "Pantene 2In1 Shampoo Deep Repair 180Ml"
   },
   {
     "id": 4305,
     "title": "Pantene 2In1 Shampoo Deep Repair 340Ml",
     "slug": "pantene-2in1-shampoo-deep-repair-340ml",
-    "price": 459.0,
+    "price": 459,
     "image": "/images/products/pantene-2in1-shampoo-deep-repair-340ml.jpg",
     "stock": 2,
     "description": "Pantene 2In1 Shampoo Deep Repair 340Ml - High quality personal care product.",
@@ -13745,13 +14726,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4305
+    "rank": 4305,
+    "name": "Pantene 2In1 Shampoo Deep Repair 340Ml"
   },
   {
     "id": 4306,
     "title": "Pantene 2In1 Shampoo Hairfall Control 180Ml",
     "slug": "pantene-2in1-shampoo-hairfall-control-180ml",
-    "price": 229.0,
+    "price": 229,
     "image": "/images/products/pantene-2in1-shampoo-hairfall-control-180ml.jpg",
     "stock": 2,
     "description": "Pantene 2In1 Shampoo Hairfall Control 180Ml - High quality personal care product.",
@@ -13759,13 +14741,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4306
+    "rank": 4306,
+    "name": "Pantene 2In1 Shampoo Hairfall Control 180Ml"
   },
   {
     "id": 4307,
     "title": "Pantene 2In1 Shampoo Hairfall Control 340Ml",
     "slug": "pantene-2in1-shampoo-hairfall-control-340ml",
-    "price": 469.0,
+    "price": 469,
     "image": "/images/products/pantene-2in1-shampoo-hairfall-control-340ml.jpg",
     "stock": 2,
     "description": "Pantene 2In1 Shampoo Hairfall Control 340Ml - High quality personal care product.",
@@ -13773,13 +14756,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4307
+    "rank": 4307,
+    "name": "Pantene 2In1 Shampoo Hairfall Control 340Ml"
   },
   {
     "id": 4308,
     "title": "Pantene 2In1 Shampoo Silky Smooth 180Ml",
     "slug": "pantene-2in1-shampoo-silky-smooth-180ml",
-    "price": 229.0,
+    "price": 229,
     "image": "/images/products/pantene-2in1-shampoo-silky-smooth-180ml.jpg",
     "stock": 2,
     "description": "Pantene 2In1 Shampoo Silky Smooth 180Ml - High quality personal care product.",
@@ -13787,13 +14771,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4308
+    "rank": 4308,
+    "name": "Pantene 2In1 Shampoo Silky Smooth 180Ml"
   },
   {
     "id": 4309,
     "title": "Pantene 2In1 Shampoo Silky Smooth 340Ml",
     "slug": "pantene-2in1-shampoo-silky-smooth-340ml",
-    "price": 469.0,
+    "price": 469,
     "image": "/images/products/pantene-2in1-shampoo-silky-smooth-340ml.jpg",
     "stock": 2,
     "description": "Pantene 2In1 Shampoo Silky Smooth 340Ml - High quality personal care product.",
@@ -13801,13 +14786,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4309
+    "rank": 4309,
+    "name": "Pantene 2In1 Shampoo Silky Smooth 340Ml"
   },
   {
     "id": 4312,
     "title": "Pantene Conditioner Hairfall Control 100Ml",
     "slug": "pantene-conditioner-hairfall-control-100ml",
-    "price": 98.0,
+    "price": 98,
     "image": "/images/products/pantene-conditioner-hairfall-control-100ml.jpg",
     "stock": 1,
     "description": "Pantene Conditioner Hairfall Control 100Ml - High quality personal care product.",
@@ -13815,13 +14801,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4312
+    "rank": 4312,
+    "name": "Pantene Conditioner Hairfall Control 100Ml"
   },
   {
     "id": 4313,
     "title": "Pantene Conditioner Hairfall Control 200Ml",
     "slug": "pantene-conditioner-hairfall-control-200ml",
-    "price": 229.0,
+    "price": 229,
     "image": "/images/products/pantene-conditioner-hairfall-control-200ml.jpg",
     "stock": 2,
     "description": "Pantene Conditioner Hairfall Control 200Ml - High quality personal care product.",
@@ -13829,13 +14816,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4313
+    "rank": 4313,
+    "name": "Pantene Conditioner Hairfall Control 200Ml"
   },
   {
     "id": 4316,
     "title": "Pantene Shampoo Deep Repair 180Ml",
     "slug": "pantene-shampoo-deep-repair-180ml",
-    "price": 189.0,
+    "price": 189,
     "image": "/images/products/pantene-shampoo-deep-repair-180ml.jpg",
     "stock": 2,
     "description": "Pantene Shampoo Deep Repair 180Ml - High quality personal care product.",
@@ -13843,13 +14831,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4316
+    "rank": 4316,
+    "name": "Pantene Shampoo Deep Repair 180Ml"
   },
   {
     "id": 4317,
     "title": "Pantene Shampoo Deep Repair 340Ml",
     "slug": "pantene-shampoo-deep-repair-340ml",
-    "price": 375.0,
+    "price": 375,
     "image": "/images/products/pantene-shampoo-deep-repair-340ml.jpg",
     "stock": 2,
     "description": "Pantene Shampoo Deep Repair 340Ml - High quality personal care product.",
@@ -13857,13 +14846,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4317
+    "rank": 4317,
+    "name": "Pantene Shampoo Deep Repair 340Ml"
   },
   {
     "id": 4318,
     "title": "Pantene Shampoo Hairfall Control 180Ml",
     "slug": "pantene-shampoo-hairfall-control-180ml",
-    "price": 189.0,
+    "price": 189,
     "image": "/images/products/pantene-shampoo-hairfall-control-180ml.jpg",
     "stock": 2,
     "description": "Pantene Shampoo Hairfall Control 180Ml - High quality personal care product.",
@@ -13871,13 +14861,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4318
+    "rank": 4318,
+    "name": "Pantene Shampoo Hairfall Control 180Ml"
   },
   {
     "id": 4319,
     "title": "Pantene Shampoo Hairfall Control 340Ml",
     "slug": "pantene-shampoo-hairfall-control-340ml",
-    "price": 375.0,
+    "price": 375,
     "image": "/images/products/pantene-shampoo-hairfall-control-340ml.jpg",
     "stock": 2,
     "description": "Pantene Shampoo Hairfall Control 340Ml - High quality personal care product.",
@@ -13885,13 +14876,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4319
+    "rank": 4319,
+    "name": "Pantene Shampoo Hairfall Control 340Ml"
   },
   {
     "id": 4320,
     "title": "Pantene Shampoo Healthy Shine 340Ml",
     "slug": "pantene-shampoo-healthy-shine-340ml",
-    "price": 375.0,
+    "price": 375,
     "image": "/images/products/pantene-shampoo-healthy-shine-340ml.jpg",
     "stock": 2,
     "description": "Pantene Shampoo Healthy Shine 340Ml - High quality personal care product.",
@@ -13899,13 +14891,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4320
+    "rank": 4320,
+    "name": "Pantene Shampoo Healthy Shine 340Ml"
   },
   {
     "id": 4321,
     "title": "Pantene Shampoo Helathy Shine 180Ml",
     "slug": "pantene-shampoo-helathy-shine-180ml",
-    "price": 189.0,
+    "price": 189,
     "image": "/images/products/pantene-shampoo-helathy-shine-180ml.jpg",
     "stock": 2,
     "description": "Pantene Shampoo Helathy Shine 180Ml - High quality personal care product.",
@@ -13913,13 +14906,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4321
+    "rank": 4321,
+    "name": "Pantene Shampoo Helathy Shine 180Ml"
   },
   {
     "id": 4322,
     "title": "Pantene Shampoo Lively Clean 200Ml",
     "slug": "pantene-shampoo-lively-clean-200ml",
-    "price": 189.0,
+    "price": 189,
     "image": "/images/products/pantene-shampoo-lively-clean-200ml.jpg",
     "stock": 2,
     "description": "Pantene Shampoo Lively Clean 200Ml - High quality personal care product.",
@@ -13927,13 +14921,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4322
+    "rank": 4322,
+    "name": "Pantene Shampoo Lively Clean 200Ml"
   },
   {
     "id": 4323,
     "title": "Pantene Shampoo Silky Smooth 340 Ml",
     "slug": "pantene-shampoo-silky-smooth-340-ml",
-    "price": 375.0,
+    "price": 375,
     "image": "/images/products/pantene-shampoo-silky-smooth-340-ml.jpg",
     "stock": 2,
     "description": "Pantene Shampoo Silky Smooth 340 Ml - High quality personal care product.",
@@ -13941,13 +14936,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4323
+    "rank": 4323,
+    "name": "Pantene Shampoo Silky Smooth 340 Ml"
   },
   {
     "id": 4324,
     "title": "Pantene Shampoo Sliky Smooth 180",
     "slug": "pantene-shampoo-sliky-smooth-180",
-    "price": 189.0,
+    "price": 189,
     "image": "/images/products/pantene-shampoo-sliky-smooth-180.jpg",
     "stock": 1,
     "description": "Pantene Shampoo Sliky Smooth 180 - High quality personal care product.",
@@ -13955,13 +14951,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4324
+    "rank": 4324,
+    "name": "Pantene Shampoo Sliky Smooth 180"
   },
   {
     "id": 4325,
     "title": "Paper Soap Ob",
     "slug": "paper-soap-ob",
-    "price": 50.0,
+    "price": 50,
     "image": "/images/products/paper-soap-ob.jpg",
     "stock": 14,
     "description": "Paper Soap Ob - High quality personal care product.",
@@ -13969,13 +14966,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4325
+    "rank": 4325,
+    "name": "Paper Soap Ob"
   },
   {
     "id": 4326,
     "title": "Parachute Aloe Vera Hair Oil 150Ml",
     "slug": "parachute-aloe-vera-hair-oil-150ml",
-    "price": 87.0,
+    "price": 87,
     "image": "/images/products/parachute-aloe-vera-hair-oil-150ml.jpg",
     "stock": 3,
     "description": "Parachute Aloe Vera Hair Oil 150Ml - High quality personal care product.",
@@ -13983,13 +14981,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4326
+    "rank": 4326,
+    "name": "Parachute Aloe Vera Hair Oil 150Ml"
   },
   {
     "id": 4327,
     "title": "Parachute Coconut Oil 250Ml",
     "slug": "parachute-coconut-oil-250ml",
-    "price": 133.0,
+    "price": 133,
     "image": "/images/products/parachute-coconut-oil-250ml.jpg",
     "stock": 3,
     "description": "Parachute Coconut Oil 250Ml - High quality personal care product.",
@@ -13997,13 +14996,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4327
+    "rank": 4327,
+    "name": "Parachute Coconut Oil 250Ml"
   },
   {
     "id": 4328,
     "title": "Parachute Coconut Oil 500Ml",
     "slug": "parachute-coconut-oil-500ml",
-    "price": 241.0,
+    "price": 241,
     "image": "/images/products/parachute-coconut-oil-500ml.jpg",
     "stock": 3,
     "description": "Parachute Coconut Oil 500Ml - High quality personal care product.",
@@ -14011,13 +15011,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4328
+    "rank": 4328,
+    "name": "Parachute Coconut Oil 500Ml"
   },
   {
     "id": 4329,
     "title": "Parachute Coconut Oil Btl 500Ml",
     "slug": "parachute-coconut-oil-btl-500ml",
-    "price": 214.0,
+    "price": 214,
     "image": "/images/products/parachute-coconut-oil-btl-500ml.jpg",
     "stock": 1,
     "description": "Parachute Coconut Oil Btl 500Ml - High quality personal care product.",
@@ -14025,13 +15026,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4329
+    "rank": 4329,
+    "name": "Parachute Coconut Oil Btl 500Ml"
   },
   {
     "id": 4330,
     "title": "Parachute Coconut Oil Btl 500Ml",
     "slug": "parachute-coconut-oil-btl-500ml",
-    "price": 236.0,
+    "price": 236,
     "image": "/images/products/parachute-coconut-oil-btl-500ml.jpg",
     "stock": 1,
     "description": "Parachute Coconut Oil Btl 500Ml - High quality personal care product.",
@@ -14039,13 +15041,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4330
+    "rank": 4330,
+    "name": "Parachute Coconut Oil Btl 500Ml"
   },
   {
     "id": 4331,
     "title": "Parachute Mens Cream 100Gm",
     "slug": "parachute-mens-cream-100gm",
-    "price": 100.0,
+    "price": 100,
     "image": "/images/products/parachute-mens-cream-100gm.jpg",
     "stock": 4,
     "description": "Parachute Mens Cream 100Gm - High quality personal care product.",
@@ -14053,13 +15056,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4331
+    "rank": 4331,
+    "name": "Parachute Mens Cream 100Gm"
   },
   {
     "id": 4338,
     "title": "Parcahute Coconut Oil 100Ml",
     "slug": "parcahute-coconut-oil-100ml",
-    "price": 51.0,
+    "price": 51,
     "image": "/images/products/parcahute-coconut-oil-100ml.jpg",
     "stock": 2,
     "description": "Parcahute Coconut Oil 100Ml - High quality personal care product.",
@@ -14067,13 +15071,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4338
+    "rank": 4338,
+    "name": "Parcahute Coconut Oil 100Ml"
   },
   {
     "id": 4339,
     "title": "Parcahute Coconut Oil 175Ml",
     "slug": "parcahute-coconut-oil-175ml",
-    "price": 88.0,
+    "price": 88,
     "image": "/images/products/parcahute-coconut-oil-175ml.jpg",
     "stock": 2,
     "description": "Parcahute Coconut Oil 175Ml - High quality personal care product.",
@@ -14081,13 +15086,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4339
+    "rank": 4339,
+    "name": "Parcahute Coconut Oil 175Ml"
   },
   {
     "id": 4340,
     "title": "Park Avenue After Save Lotion 50G",
     "slug": "park-avenue-after-save-lotion-50g",
-    "price": 150.0,
+    "price": 150,
     "image": "/images/products/park-avenue-after-save-lotion-50g.jpg",
     "stock": 6,
     "description": "Park Avenue After Save Lotion 50G - High quality personal care product.",
@@ -14095,13 +15101,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4340
+    "rank": 4340,
+    "name": "Park Avenue After Save Lotion 50G"
   },
   {
     "id": 4342,
     "title": "Park Avenue Beer Shampoo Damage Free 180M",
     "slug": "park-avenue-beer-shampoo-damage-free-180m",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/park-avenue-beer-shampoo-damage-free-180m.jpg",
     "stock": 3,
     "description": "Park Avenue Beer Shampoo Damage Free 180M - High quality personal care product.",
@@ -14109,13 +15116,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4342
+    "rank": 4342,
+    "name": "Park Avenue Beer Shampoo Damage Free 180M"
   },
   {
     "id": 4343,
     "title": "Park Avenue Beer Shampoo Shiny & Bounce 180M",
     "slug": "park-avenue-beer-shampoo-shiny-bounce-180m",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/park-avenue-beer-shampoo-shiny-bounce-180m.jpg",
     "stock": 3,
     "description": "Park Avenue Beer Shampoo Shiny & Bounce 180M - High quality personal care product.",
@@ -14123,13 +15131,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4343
+    "rank": 4343,
+    "name": "Park Avenue Beer Shampoo Shiny & Bounce 180M"
   },
   {
     "id": 4345,
     "title": "Park Avenue Men'S Soap 3+1 500G",
     "slug": "park-avenue-mens-soap-31-500g",
-    "price": 240.0,
+    "price": 240,
     "image": "/images/products/park-avenue-mens-soap-31-500g.jpg",
     "stock": 8,
     "description": "Park Avenue Men'S Soap 3+1 500G - High quality personal care product.",
@@ -14137,13 +15146,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4345
+    "rank": 4345,
+    "name": "Park Avenue Men'S Soap 3+1 500G"
   },
   {
     "id": 4346,
     "title": "Park Avenue Shaving Cream 84Gm",
     "slug": "park-avenue-shaving-cream-84gm",
-    "price": 75.0,
+    "price": 75,
     "image": "/images/products/park-avenue-shaving-cream-84gm.jpg",
     "stock": 7,
     "description": "Park Avenue Shaving Cream 84Gm - High quality personal care product.",
@@ -14151,13 +15161,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4346
+    "rank": 4346,
+    "name": "Park Avenue Shaving Cream 84Gm"
   },
   {
     "id": 4396,
     "title": "Patanjali Aloe Vera Gel 150Ml",
     "slug": "patanjali-aloe-vera-gel-150ml",
-    "price": 100.0,
+    "price": 100,
     "image": "/images/products/patanjali-aloe-vera-gel-150ml.jpg",
     "stock": 5,
     "description": "Patanjali Aloe Vera Gel 150Ml - High quality personal care product.",
@@ -14165,13 +15176,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4396
+    "rank": 4396,
+    "name": "Patanjali Aloe Vera Gel 150Ml"
   },
   {
     "id": 4397,
     "title": "Patanjali Aloe Vera Gel 60Ml",
     "slug": "patanjali-aloe-vera-gel-60ml",
-    "price": 50.0,
+    "price": 50,
     "image": "/images/products/patanjali-aloe-vera-gel-60ml.jpg",
     "stock": 5,
     "description": "Patanjali Aloe Vera Gel 60Ml - High quality personal care product.",
@@ -14179,13 +15191,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4397
+    "rank": 4397,
+    "name": "Patanjali Aloe Vera Gel 60Ml"
   },
   {
     "id": 4398,
     "title": "Patanjali Aloe Vera Kesar Gel 150Ml",
     "slug": "patanjali-aloe-vera-kesar-gel-150ml",
-    "price": 120.0,
+    "price": 120,
     "image": "/images/products/patanjali-aloe-vera-kesar-gel-150ml.jpg",
     "stock": 1,
     "description": "Patanjali Aloe Vera Kesar Gel 150Ml - High quality personal care product.",
@@ -14193,13 +15206,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4398
+    "rank": 4398,
+    "name": "Patanjali Aloe Vera Kesar Gel 150Ml"
   },
   {
     "id": 4399,
     "title": "Patanjali Aloe Vera Kesar Gel 60Ml",
     "slug": "patanjali-aloe-vera-kesar-gel-60ml",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/patanjali-aloe-vera-kesar-gel-60ml.jpg",
     "stock": 3,
     "description": "Patanjali Aloe Vera Kesar Gel 60Ml - High quality personal care product.",
@@ -14207,13 +15221,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4399
+    "rank": 4399,
+    "name": "Patanjali Aloe Vera Kesar Gel 60Ml"
   },
   {
     "id": 4411,
     "title": "Patanjali Milk Protion Shampoo",
     "slug": "patanjali-milk-protion-shampoo",
-    "price": 120.0,
+    "price": 120,
     "image": "/images/products/patanjali-milk-protion-shampoo.jpg",
     "stock": 2,
     "description": "Patanjali Milk Protion Shampoo - High quality personal care product.",
@@ -14221,13 +15236,14 @@ const products = [
     "unit": "7088",
     "category": "personal-care",
     "popular": false,
-    "rank": 4411
+    "rank": 4411,
+    "name": "Patanjali Milk Protion Shampoo"
   },
   {
     "id": 4412,
     "title": "Patanjali Multani Body Cleanser 3+1",
     "slug": "patanjali-multani-body-cleanser-31",
-    "price": 225.0,
+    "price": 225,
     "image": "/images/products/patanjali-multani-body-cleanser-31.jpg",
     "stock": 3,
     "description": "Patanjali Multani Body Cleanser 3+1 - High quality personal care product.",
@@ -14235,13 +15251,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4412
+    "rank": 4412,
+    "name": "Patanjali Multani Body Cleanser 3+1"
   },
   {
     "id": 4413,
     "title": "Patanjali Super Dishwasher Pack4",
     "slug": "patanjali-super-dishwasher-pack4",
-    "price": 30.0,
+    "price": 30,
     "image": "/images/products/patanjali-super-dishwasher-pack4.jpg",
     "stock": 15,
     "description": "Patanjali Super Dishwasher Pack4 - High quality personal care product.",
@@ -14249,13 +15266,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4413
+    "rank": 4413,
+    "name": "Patanjali Super Dishwasher Pack4"
   },
   {
     "id": 4418,
     "title": "Pears Body Wash 750Ml",
     "slug": "pears-body-wash-750ml",
-    "price": 625.0,
+    "price": 625,
     "image": "/images/products/pears-body-wash-750ml.jpg",
     "stock": 5,
     "description": "Pears Body Wash 750Ml - High quality personal care product.",
@@ -14263,13 +15281,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4418
+    "rank": 4418,
+    "name": "Pears Body Wash 750Ml"
   },
   {
     "id": 4419,
     "title": "Pears Hand Wash",
     "slug": "pears-hand-wash",
-    "price": 350.0,
+    "price": 350,
     "image": "/images/products/pears-hand-wash.jpg",
     "stock": 1,
     "description": "Pears Hand Wash - High quality personal care product.",
@@ -14277,13 +15296,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4419
+    "rank": 4419,
+    "name": "Pears Hand Wash"
   },
   {
     "id": 4420,
     "title": "Pears Oil Clear Glow 75Gm",
     "slug": "pears-oil-clear-glow-75gm",
-    "price": 63.0,
+    "price": 63,
     "image": "/images/products/pears-oil-clear-glow-75gm.jpg",
     "stock": 5,
     "description": "Pears Oil Clear Glow 75Gm - High quality personal care product.",
@@ -14291,13 +15311,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4420
+    "rank": 4420,
+    "name": "Pears Oil Clear Glow 75Gm"
   },
   {
     "id": 4421,
     "title": "Pears P&G Face Wash",
     "slug": "pears-pg-face-wash",
-    "price": 160.0,
+    "price": 160,
     "image": "/images/products/pears-pg-face-wash.jpg",
     "stock": 8,
     "description": "Pears P&G Face Wash - High quality personal care product.",
@@ -14305,13 +15326,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4421
+    "rank": 4421,
+    "name": "Pears P&G Face Wash"
   },
   {
     "id": 4473,
     "title": "Phabulous Cookies&Cream Bar",
     "slug": "phabulous-cookiescream-bar",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/phabulous-cookiescream-bar.jpg",
     "stock": 10,
     "description": "Phabulous Cookies&Cream Bar - High quality personal care product.",
@@ -14319,13 +15341,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4473
+    "rank": 4473,
+    "name": "Phabulous Cookies&Cream Bar"
   },
   {
     "id": 4476,
     "title": "Pigeon Bottle Brush",
     "slug": "pigeon-bottle-brush",
-    "price": 295.0,
+    "price": 295,
     "image": "/images/products/pigeon-bottle-brush.jpg",
     "stock": 3,
     "description": "Pigeon Bottle Brush - High quality personal care product.",
@@ -14333,13 +15356,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4476
+    "rank": 4476,
+    "name": "Pigeon Bottle Brush"
   },
   {
     "id": 4479,
     "title": "Pigeon Spunge Btl Brush",
     "slug": "pigeon-spunge-btl-brush",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/pigeon-spunge-btl-brush.jpg",
     "stock": 3,
     "description": "Pigeon Spunge Btl Brush - High quality personal care product.",
@@ -14347,13 +15371,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4479
+    "rank": 4479,
+    "name": "Pigeon Spunge Btl Brush"
   },
   {
     "id": 4480,
     "title": "Pilgrim 24K Gold Face Wash",
     "slug": "pilgrim-24k-gold-face-wash",
-    "price": 395.0,
+    "price": 395,
     "image": "/images/products/pilgrim-24k-gold-face-wash.jpg",
     "stock": 2,
     "description": "Pilgrim 24K Gold Face Wash - High quality personal care product.",
@@ -14361,13 +15386,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4480
+    "rank": 4480,
+    "name": "Pilgrim 24K Gold Face Wash"
   },
   {
     "id": 4481,
     "title": "Pilgrim 24K Gold Serum",
     "slug": "pilgrim-24k-gold-serum",
-    "price": 695.0,
+    "price": 695,
     "image": "/images/products/pilgrim-24k-gold-serum.jpg",
     "stock": 2,
     "description": "Pilgrim 24K Gold Serum - High quality personal care product.",
@@ -14375,13 +15401,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4481
+    "rank": 4481,
+    "name": "Pilgrim 24K Gold Serum"
   },
   {
     "id": 4482,
     "title": "Pilgrim Aloe Vera Gel",
     "slug": "pilgrim-aloe-vera-gel",
-    "price": 275.0,
+    "price": 275,
     "image": "/images/products/pilgrim-aloe-vera-gel.jpg",
     "stock": 2,
     "description": "Pilgrim Aloe Vera Gel - High quality personal care product.",
@@ -14389,13 +15416,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4482
+    "rank": 4482,
+    "name": "Pilgrim Aloe Vera Gel"
   },
   {
     "id": 4483,
     "title": "Pilgrim Anti -Dandruff Shampoo",
     "slug": "pilgrim-anti--dandruff-shampoo",
-    "price": 395.0,
+    "price": 395,
     "image": "/images/products/pilgrim-anti--dandruff-shampoo.jpg",
     "stock": 1,
     "description": "Pilgrim Anti -Dandruff Shampoo - High quality personal care product.",
@@ -14403,13 +15431,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4483
+    "rank": 4483,
+    "name": "Pilgrim Anti -Dandruff Shampoo"
   },
   {
     "id": 4484,
     "title": "Pilgrim Anti-Acne Face Wash",
     "slug": "pilgrim-anti-acne-face-wash",
-    "price": 125.0,
+    "price": 125,
     "image": "/images/products/pilgrim-anti-acne-face-wash.jpg",
     "stock": 4,
     "description": "Pilgrim Anti-Acne Face Wash - High quality personal care product.",
@@ -14417,13 +15446,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4484
+    "rank": 4484,
+    "name": "Pilgrim Anti-Acne Face Wash"
   },
   {
     "id": 4485,
     "title": "Pilgrim Brighting Face Serum",
     "slug": "pilgrim-brighting-face-serum",
-    "price": 695.0,
+    "price": 695,
     "image": "/images/products/pilgrim-brighting-face-serum.jpg",
     "stock": 3,
     "description": "Pilgrim Brighting Face Serum - High quality personal care product.",
@@ -14431,13 +15461,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4485
+    "rank": 4485,
+    "name": "Pilgrim Brighting Face Serum"
   },
   {
     "id": 4486,
     "title": "Pilgrim Brihtening Gel Fw",
     "slug": "pilgrim-brihtening-gel-fw",
-    "price": 125.0,
+    "price": 125,
     "image": "/images/products/pilgrim-brihtening-gel-fw.jpg",
     "stock": 2,
     "description": "Pilgrim Brihtening Gel Fw - High quality personal care product.",
@@ -14445,13 +15476,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4486
+    "rank": 4486,
+    "name": "Pilgrim Brihtening Gel Fw"
   },
   {
     "id": 4487,
     "title": "Pilgrim Cooling Sunscreen Spf501",
     "slug": "pilgrim-cooling-sunscreen-spf501",
-    "price": 495.0,
+    "price": 495,
     "image": "/images/products/pilgrim-cooling-sunscreen-spf501.jpg",
     "stock": 3,
     "description": "Pilgrim Cooling Sunscreen Spf501 - High quality personal care product.",
@@ -14459,13 +15491,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4487
+    "rank": 4487,
+    "name": "Pilgrim Cooling Sunscreen Spf501"
   },
   {
     "id": 4489,
     "title": "Pilgrim Glow Sunscreen",
     "slug": "pilgrim-glow-sunscreen",
-    "price": 395.0,
+    "price": 395,
     "image": "/images/products/pilgrim-glow-sunscreen.jpg",
     "stock": 2,
     "description": "Pilgrim Glow Sunscreen - High quality personal care product.",
@@ -14473,13 +15506,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4489
+    "rank": 4489,
+    "name": "Pilgrim Glow Sunscreen"
   },
   {
     "id": 4490,
     "title": "Pilgrim Hair Growth Serum",
     "slug": "pilgrim-hair-growth-serum",
-    "price": 545.0,
+    "price": 545,
     "image": "/images/products/pilgrim-hair-growth-serum.jpg",
     "stock": 3,
     "description": "Pilgrim Hair Growth Serum - High quality personal care product.",
@@ -14487,13 +15521,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4490
+    "rank": 4490,
+    "name": "Pilgrim Hair Growth Serum"
   },
   {
     "id": 4491,
     "title": "Pilgrim Hyaluronic Sunscreen Spf50",
     "slug": "pilgrim-hyaluronic-sunscreen-spf50",
-    "price": 395.0,
+    "price": 395,
     "image": "/images/products/pilgrim-hyaluronic-sunscreen-spf50.jpg",
     "stock": 2,
     "description": "Pilgrim Hyaluronic Sunscreen Spf50 - High quality personal care product.",
@@ -14501,13 +15536,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4491
+    "rank": 4491,
+    "name": "Pilgrim Hyaluronic Sunscreen Spf50"
   },
   {
     "id": 4494,
     "title": "Pilgrim Niacinamide Face Serum",
     "slug": "pilgrim-niacinamide-face-serum",
-    "price": 595.0,
+    "price": 595,
     "image": "/images/products/pilgrim-niacinamide-face-serum.jpg",
     "stock": 2,
     "description": "Pilgrim Niacinamide Face Serum - High quality personal care product.",
@@ -14515,13 +15551,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4494
+    "rank": 4494,
+    "name": "Pilgrim Niacinamide Face Serum"
   },
   {
     "id": 4495,
     "title": "Pilgrim Red Vine Face Wash",
     "slug": "pilgrim-red-vine-face-wash",
-    "price": 125.0,
+    "price": 125,
     "image": "/images/products/pilgrim-red-vine-face-wash.jpg",
     "stock": 2,
     "description": "Pilgrim Red Vine Face Wash - High quality personal care product.",
@@ -14529,13 +15566,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4495
+    "rank": 4495,
+    "name": "Pilgrim Red Vine Face Wash"
   },
   {
     "id": 4496,
     "title": "Pilgrim Red Vine Serum",
     "slug": "pilgrim-red-vine-serum",
-    "price": 600.0,
+    "price": 600,
     "image": "/images/products/pilgrim-red-vine-serum.jpg",
     "stock": 2,
     "description": "Pilgrim Red Vine Serum - High quality personal care product.",
@@ -14543,13 +15581,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4496
+    "rank": 4496,
+    "name": "Pilgrim Red Vine Serum"
   },
   {
     "id": 4497,
     "title": "Pilgrim Rosemary Anti-Hairfall Shampoo",
     "slug": "pilgrim-rosemary-anti-hairfall-shampoo",
-    "price": 345.0,
+    "price": 345,
     "image": "/images/products/pilgrim-rosemary-anti-hairfall-shampoo.jpg",
     "stock": 2,
     "description": "Pilgrim Rosemary Anti-Hairfall Shampoo - High quality personal care product.",
@@ -14557,13 +15596,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4497
+    "rank": 4497,
+    "name": "Pilgrim Rosemary Anti-Hairfall Shampoo"
   },
   {
     "id": 4500,
     "title": "Pilgrim Smoothening Shampoo",
     "slug": "pilgrim-smoothening-shampoo",
-    "price": 395.0,
+    "price": 395,
     "image": "/images/products/pilgrim-smoothening-shampoo.jpg",
     "stock": 2,
     "description": "Pilgrim Smoothening Shampoo - High quality personal care product.",
@@ -14571,13 +15611,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4500
+    "rank": 4500,
+    "name": "Pilgrim Smoothening Shampoo"
   },
   {
     "id": 4501,
     "title": "Pilgrim Tinted Sunscreen Spf50",
     "slug": "pilgrim-tinted-sunscreen-spf50",
-    "price": 495.0,
+    "price": 495,
     "image": "/images/products/pilgrim-tinted-sunscreen-spf50.jpg",
     "stock": 3,
     "description": "Pilgrim Tinted Sunscreen Spf50 - High quality personal care product.",
@@ -14585,13 +15626,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4501
+    "rank": 4501,
+    "name": "Pilgrim Tinted Sunscreen Spf50"
   },
   {
     "id": 4502,
     "title": "Pilgrim Vit-C Face Serum",
     "slug": "pilgrim-vit-c-face-serum",
-    "price": 545.0,
+    "price": 545,
     "image": "/images/products/pilgrim-vit-c-face-serum.jpg",
     "stock": 2,
     "description": "Pilgrim Vit-C Face Serum - High quality personal care product.",
@@ -14599,13 +15641,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4502
+    "rank": 4502,
+    "name": "Pilgrim Vit-C Face Serum"
   },
   {
     "id": 4514,
     "title": "Plum Body Oil V",
     "slug": "plum-body-oil-v",
-    "price": 550.0,
+    "price": 550,
     "image": "/images/products/plum-body-oil-v.jpg",
     "stock": 3,
     "description": "Plum Body Oil V - High quality personal care product.",
@@ -14613,13 +15656,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4514
+    "rank": 4514,
+    "name": "Plum Body Oil V"
   },
   {
     "id": 4516,
     "title": "Plum Chamomile Sunscreen Spf50",
     "slug": "plum-chamomile-sunscreen-spf50",
-    "price": 520.0,
+    "price": 520,
     "image": "/images/products/plum-chamomile-sunscreen-spf50.jpg",
     "stock": 2,
     "description": "Plum Chamomile Sunscreen Spf50 - High quality personal care product.",
@@ -14627,13 +15671,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4516
+    "rank": 4516,
+    "name": "Plum Chamomile Sunscreen Spf50"
   },
   {
     "id": 4519,
     "title": "Plum Green Tea Night Gel",
     "slug": "plum-green-tea-night-gel",
-    "price": 575.0,
+    "price": 575,
     "image": "/images/products/plum-green-tea-night-gel.jpg",
     "stock": 1,
     "description": "Plum Green Tea Night Gel - High quality personal care product.",
@@ -14641,13 +15686,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4519
+    "rank": 4519,
+    "name": "Plum Green Tea Night Gel"
   },
   {
     "id": 4520,
     "title": "Plum Green Tea Oil Free Moist",
     "slug": "plum-green-tea-oil-free-moist",
-    "price": 470.0,
+    "price": 470,
     "image": "/images/products/plum-green-tea-oil-free-moist.jpg",
     "stock": 2,
     "description": "Plum Green Tea Oil Free Moist - High quality personal care product.",
@@ -14655,13 +15701,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4520
+    "rank": 4520,
+    "name": "Plum Green Tea Oil Free Moist"
   },
   {
     "id": 4521,
     "title": "Plum Hawaiian Rumba Body Wash 240Ml",
     "slug": "plum-hawaiian-rumba-body-wash-240ml",
-    "price": 380.0,
+    "price": 380,
     "image": "/images/products/plum-hawaiian-rumba-body-wash-240ml.jpg",
     "stock": 1,
     "description": "Plum Hawaiian Rumba Body Wash 240Ml - High quality personal care product.",
@@ -14669,13 +15716,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4521
+    "rank": 4521,
+    "name": "Plum Hawaiian Rumba Body Wash 240Ml"
   },
   {
     "id": 4522,
     "title": "Plum Niacinamide Face Serum",
     "slug": "plum-niacinamide-face-serum",
-    "price": 599.0,
+    "price": 599,
     "image": "/images/products/plum-niacinamide-face-serum.jpg",
     "stock": 2,
     "description": "Plum Niacinamide Face Serum - High quality personal care product.",
@@ -14683,13 +15731,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4522
+    "rank": 4522,
+    "name": "Plum Niacinamide Face Serum"
   },
   {
     "id": 4523,
     "title": "Plum Niacinamide Serum",
     "slug": "plum-niacinamide-serum",
-    "price": 649.0,
+    "price": 649,
     "image": "/images/products/plum-niacinamide-serum.jpg",
     "stock": 1,
     "description": "Plum Niacinamide Serum - High quality personal care product.",
@@ -14697,13 +15746,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4523
+    "rank": 4523,
+    "name": "Plum Niacinamide Serum"
   },
   {
     "id": 4524,
     "title": "Plum Oats Face Wash",
     "slug": "plum-oats-face-wash",
-    "price": 249.0,
+    "price": 249,
     "image": "/images/products/plum-oats-face-wash.jpg",
     "stock": 2,
     "description": "Plum Oats Face Wash - High quality personal care product.",
@@ -14711,13 +15761,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4524
+    "rank": 4524,
+    "name": "Plum Oats Face Wash"
   },
   {
     "id": 4526,
     "title": "Plum Rice Water Sunscreen Spf50",
     "slug": "plum-rice-water-sunscreen-spf50",
-    "price": 399.0,
+    "price": 399,
     "image": "/images/products/plum-rice-water-sunscreen-spf50.jpg",
     "stock": 1,
     "description": "Plum Rice Water Sunscreen Spf50 - High quality personal care product.",
@@ -14725,13 +15776,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4526
+    "rank": 4526,
+    "name": "Plum Rice Water Sunscreen Spf50"
   },
   {
     "id": 4528,
     "title": "Plum Saffron &Papaya Face Wash",
     "slug": "plum-saffron-papaya-face-wash",
-    "price": 249.0,
+    "price": 249,
     "image": "/images/products/plum-saffron-papaya-face-wash.jpg",
     "stock": 3,
     "description": "Plum Saffron &Papaya Face Wash - High quality personal care product.",
@@ -14739,13 +15791,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4528
+    "rank": 4528,
+    "name": "Plum Saffron &Papaya Face Wash"
   },
   {
     "id": 4529,
     "title": "Plum Salicylic Acid Face Wash",
     "slug": "plum-salicylic-acid-face-wash",
-    "price": 325.0,
+    "price": 325,
     "image": "/images/products/plum-salicylic-acid-face-wash.jpg",
     "stock": 2,
     "description": "Plum Salicylic Acid Face Wash - High quality personal care product.",
@@ -14753,13 +15806,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4529
+    "rank": 4529,
+    "name": "Plum Salicylic Acid Face Wash"
   },
   {
     "id": 4532,
     "title": "Plum Vanilla Cacamello Body Wash 240Ml",
     "slug": "plum-vanilla-cacamello-body-wash-240ml",
-    "price": 380.0,
+    "price": 380,
     "image": "/images/products/plum-vanilla-cacamello-body-wash-240ml.jpg",
     "stock": 1,
     "description": "Plum Vanilla Cacamello Body Wash 240Ml - High quality personal care product.",
@@ -14767,13 +15821,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4532
+    "rank": 4532,
+    "name": "Plum Vanilla Cacamello Body Wash 240Ml"
   },
   {
     "id": 4533,
     "title": "Plum Vitamin C Serum",
     "slug": "plum-vitamin-c-serum",
-    "price": 790.0,
+    "price": 790,
     "image": "/images/products/plum-vitamin-c-serum.jpg",
     "stock": 2,
     "description": "Plum Vitamin C Serum - High quality personal care product.",
@@ -14781,13 +15836,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4533
+    "rank": 4533,
+    "name": "Plum Vitamin C Serum"
   },
   {
     "id": 4548,
     "title": "Ponds Bb Cream 23G",
     "slug": "ponds-bb-cream-23g",
-    "price": 90.0,
+    "price": 90,
     "image": "/images/products/ponds-bb-cream-23g.jpg",
     "stock": 6,
     "description": "Ponds Bb Cream 23G - High quality personal care product.",
@@ -14795,13 +15851,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4548
+    "rank": 4548,
+    "name": "Ponds Bb Cream 23G"
   },
   {
     "id": 4549,
     "title": "Ponds Bb Cream 34G",
     "slug": "ponds-bb-cream-34g",
-    "price": 139.0,
+    "price": 139,
     "image": "/images/products/ponds-bb-cream-34g.jpg",
     "stock": 3,
     "description": "Ponds Bb Cream 34G - High quality personal care product.",
@@ -14809,13 +15866,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4549
+    "rank": 4549,
+    "name": "Ponds Bb Cream 34G"
   },
   {
     "id": 4550,
     "title": "Ponds Bb Face Wash",
     "slug": "ponds-bb-face-wash",
-    "price": 209.0,
+    "price": 209,
     "image": "/images/products/ponds-bb-face-wash.jpg",
     "stock": 6,
     "description": "Ponds Bb Face Wash - High quality personal care product.",
@@ -14823,13 +15881,14 @@ const products = [
     "unit": "pcs",
     "category": "personal-care",
     "popular": false,
-    "rank": 4550
+    "rank": 4550,
+    "name": "Ponds Bb Face Wash"
   },
   {
     "id": 4551,
     "title": "Ponds Bb Face Wash 50G",
     "slug": "ponds-bb-face-wash-50g",
-    "price": 98.0,
+    "price": 98,
     "image": "/images/products/ponds-bb-face-wash-50g.jpg",
     "stock": 6,
     "description": "Ponds Bb Face Wash 50G - High quality personal care product.",
@@ -14837,13 +15896,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4551
+    "rank": 4551,
+    "name": "Ponds Bb Face Wash 50G"
   },
   {
     "id": 4552,
     "title": "Ponds Bb+ Cream Spf 30 18G",
     "slug": "ponds-bb-cream-spf-30-18g",
-    "price": 189.0,
+    "price": 189,
     "image": "/images/products/ponds-bb-cream-spf-30-18g.jpg",
     "stock": 2,
     "description": "Ponds Bb+ Cream Spf 30 18G - High quality personal care product.",
@@ -14851,13 +15911,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4552
+    "rank": 4552,
+    "name": "Ponds Bb+ Cream Spf 30 18G"
   },
   {
     "id": 4553,
     "title": "Ponds Bb+ Cream Spf 30 9G",
     "slug": "ponds-bb-cream-spf-30-9g",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/ponds-bb-cream-spf-30-9g.jpg",
     "stock": 3,
     "description": "Ponds Bb+ Cream Spf 30 9G - High quality personal care product.",
@@ -14865,13 +15926,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4553
+    "rank": 4553,
+    "name": "Ponds Bb+ Cream Spf 30 9G"
   },
   {
     "id": 4555,
     "title": "Ponds Body Lotion 275Ml",
     "slug": "ponds-body-lotion-275ml",
-    "price": 379.0,
+    "price": 379,
     "image": "/images/products/ponds-body-lotion-275ml.jpg",
     "stock": 4,
     "description": "Ponds Body Lotion 275Ml - High quality personal care product.",
@@ -14879,13 +15941,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4555
+    "rank": 4555,
+    "name": "Ponds Body Lotion 275Ml"
   },
   {
     "id": 4556,
     "title": "Ponds Body Lotion 90Ml",
     "slug": "ponds-body-lotion-90ml",
-    "price": 110.0,
+    "price": 110,
     "image": "/images/products/ponds-body-lotion-90ml.jpg",
     "stock": 3,
     "description": "Ponds Body Lotion 90Ml - High quality personal care product.",
@@ -14893,13 +15956,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4556
+    "rank": 4556,
+    "name": "Ponds Body Lotion 90Ml"
   },
   {
     "id": 4558,
     "title": "Ponds Cream 15G",
     "slug": "ponds-cream-15g",
-    "price": 59.0,
+    "price": 59,
     "image": "/images/products/ponds-cream-15g.jpg",
     "stock": 3,
     "description": "Ponds Cream 15G - High quality personal care product.",
@@ -14907,13 +15971,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4558
+    "rank": 4558,
+    "name": "Ponds Cream 15G"
   },
   {
     "id": 4559,
     "title": "Ponds Day Cream 50Gm",
     "slug": "ponds-day-cream-50gm",
-    "price": 899.0,
+    "price": 899,
     "image": "/images/products/ponds-day-cream-50gm.jpg",
     "stock": 2,
     "description": "Ponds Day Cream 50Gm - High quality personal care product.",
@@ -14921,13 +15986,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4559
+    "rank": 4559,
+    "name": "Ponds Day Cream 50Gm"
   },
   {
     "id": 4573,
     "title": "Ponds Night Cream 20G",
     "slug": "ponds-night-cream-20g",
-    "price": 305.0,
+    "price": 305,
     "image": "/images/products/ponds-night-cream-20g.jpg",
     "stock": 2,
     "description": "Ponds Night Cream 20G - High quality personal care product.",
@@ -14935,13 +16001,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4573
+    "rank": 4573,
+    "name": "Ponds Night Cream 20G"
   },
   {
     "id": 4574,
     "title": "Ponds Rr Cream 50G",
     "slug": "ponds-rr-cream-50g",
-    "price": 330.0,
+    "price": 330,
     "image": "/images/products/ponds-rr-cream-50g.jpg",
     "stock": 1,
     "description": "Ponds Rr Cream 50G - High quality personal care product.",
@@ -14949,13 +16016,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4574
+    "rank": 4574,
+    "name": "Ponds Rr Cream 50G"
   },
   {
     "id": 4575,
     "title": "Ponds Super Gel Cream 50Ml",
     "slug": "ponds-super-gel-cream-50ml",
-    "price": 130.0,
+    "price": 130,
     "image": "/images/products/ponds-super-gel-cream-50ml.jpg",
     "stock": 6,
     "description": "Ponds Super Gel Cream 50Ml - High quality personal care product.",
@@ -14963,13 +16031,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4575
+    "rank": 4575,
+    "name": "Ponds Super Gel Cream 50Ml"
   },
   {
     "id": 4642,
     "title": "Raaga Hair Color 3 Db",
     "slug": "raaga-hair-color-3-db",
-    "price": 285.0,
+    "price": 285,
     "image": "/images/products/raaga-hair-color-3-db.jpg",
     "stock": 3,
     "description": "Raaga Hair Color 3 Db - High quality personal care product.",
@@ -14977,13 +16046,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4642
+    "rank": 4642,
+    "name": "Raaga Hair Color 3 Db"
   },
   {
     "id": 4643,
     "title": "Raaga Hair Color 4Nb",
     "slug": "raaga-hair-color-4nb",
-    "price": 285.0,
+    "price": 285,
     "image": "/images/products/raaga-hair-color-4nb.jpg",
     "stock": 3,
     "description": "Raaga Hair Color 4Nb - High quality personal care product.",
@@ -14991,13 +16061,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4643
+    "rank": 4643,
+    "name": "Raaga Hair Color 4Nb"
   },
   {
     "id": 4644,
     "title": "Raaga Hair Color 5Lb",
     "slug": "raaga-hair-color-5lb",
-    "price": 285.0,
+    "price": 285,
     "image": "/images/products/raaga-hair-color-5lb.jpg",
     "stock": 3,
     "description": "Raaga Hair Color 5Lb - High quality personal care product.",
@@ -15005,13 +16076,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4644
+    "rank": 4644,
+    "name": "Raaga Hair Color 5Lb"
   },
   {
     "id": 4655,
     "title": "Raj Bath Soap Lime 100Gm",
     "slug": "raj-bath-soap-lime-100gm",
-    "price": 120.0,
+    "price": 120,
     "image": "/images/products/raj-bath-soap-lime-100gm.jpg",
     "stock": 12,
     "description": "Raj Bath Soap Lime 100Gm - High quality personal care product.",
@@ -15019,13 +16091,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4655
+    "rank": 4655,
+    "name": "Raj Bath Soap Lime 100Gm"
   },
   {
     "id": 4656,
     "title": "Raj Bath Soap Rose 150Gm",
     "slug": "raj-bath-soap-rose-150gm",
-    "price": 120.0,
+    "price": 120,
     "image": "/images/products/raj-bath-soap-rose-150gm.jpg",
     "stock": 12,
     "description": "Raj Bath Soap Rose 150Gm - High quality personal care product.",
@@ -15033,13 +16106,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4656
+    "rank": 4656,
+    "name": "Raj Bath Soap Rose 150Gm"
   },
   {
     "id": 4657,
     "title": "Raj Multipurpose Laundary Soap 150Gm",
     "slug": "raj-multipurpose-laundary-soap-150gm",
-    "price": 25.0,
+    "price": 25,
     "image": "/images/products/raj-multipurpose-laundary-soap-150gm.jpg",
     "stock": 57,
     "description": "Raj Multipurpose Laundary Soap 150Gm - High quality personal care product.",
@@ -15047,13 +16121,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4657
+    "rank": 4657,
+    "name": "Raj Multipurpose Laundary Soap 150Gm"
   },
   {
     "id": 4738,
     "title": "Rexona Coco & Olive Soap 100Gm",
     "slug": "rexona-coco-olive-soap-100gm",
-    "price": 40.0,
+    "price": 40,
     "image": "/images/products/rexona-coco-olive-soap-100gm.jpg",
     "stock": 6,
     "description": "Rexona Coco & Olive Soap 100Gm - High quality personal care product.",
@@ -15061,13 +16136,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4738
+    "rank": 4738,
+    "name": "Rexona Coco & Olive Soap 100Gm"
   },
   {
     "id": 4749,
     "title": "Rolla'S Platinum Face Tissu",
     "slug": "rollas-platinum-face-tissu",
-    "price": 130.0,
+    "price": 130,
     "image": "/images/products/rollas-platinum-face-tissu.jpg",
     "stock": 8,
     "description": "Rolla'S Platinum Face Tissu - High quality personal care product.",
@@ -15075,13 +16151,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4749
+    "rank": 4749,
+    "name": "Rolla'S Platinum Face Tissu"
   },
   {
     "id": 4755,
     "title": "Rolla'S Platinum Toilate Roll",
     "slug": "rollas-platinum-toilate-roll",
-    "price": 98.0,
+    "price": 98,
     "image": "/images/products/rollas-platinum-toilate-roll.jpg",
     "stock": 4,
     "description": "Rolla'S Platinum Toilate Roll - High quality personal care product.",
@@ -15089,13 +16166,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4755
+    "rank": 4755,
+    "name": "Rolla'S Platinum Toilate Roll"
   },
   {
     "id": 4756,
     "title": "Rolla'S Platinum Toilate Roll 10N",
     "slug": "rollas-platinum-toilate-roll-10n",
-    "price": 440.0,
+    "price": 440,
     "image": "/images/products/rollas-platinum-toilate-roll-10n.jpg",
     "stock": 2,
     "description": "Rolla'S Platinum Toilate Roll 10N - High quality personal care product.",
@@ -15103,13 +16181,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4756
+    "rank": 4756,
+    "name": "Rolla'S Platinum Toilate Roll 10N"
   },
   {
     "id": 4757,
     "title": "Rolla'S Platinum Toilate Roll 4R",
     "slug": "rollas-platinum-toilate-roll-4r",
-    "price": 350.0,
+    "price": 350,
     "image": "/images/products/rollas-platinum-toilate-roll-4r.jpg",
     "stock": 1,
     "description": "Rolla'S Platinum Toilate Roll 4R - High quality personal care product.",
@@ -15117,13 +16196,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4757
+    "rank": 4757,
+    "name": "Rolla'S Platinum Toilate Roll 4R"
   },
   {
     "id": 4758,
     "title": "Rolla'S Platinum Toilate Rolls 6N",
     "slug": "rollas-platinum-toilate-rolls-6n",
-    "price": 350.0,
+    "price": 350,
     "image": "/images/products/rollas-platinum-toilate-rolls-6n.jpg",
     "stock": 2,
     "description": "Rolla'S Platinum Toilate Rolls 6N - High quality personal care product.",
@@ -15131,13 +16211,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4758
+    "rank": 4758,
+    "name": "Rolla'S Platinum Toilate Rolls 6N"
   },
   {
     "id": 4760,
     "title": "Roots Hair Brush 2013",
     "slug": "roots-hair-brush-2013",
-    "price": 395.0,
+    "price": 395,
     "image": "/images/products/roots-hair-brush-2013.jpg",
     "stock": 6,
     "description": "Roots Hair Brush 2013 - High quality personal care product.",
@@ -15145,13 +16226,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4760
+    "rank": 4760,
+    "name": "Roots Hair Brush 2013"
   },
   {
     "id": 4761,
     "title": "Roots Hair Brush 2013Bs",
     "slug": "roots-hair-brush-2013bs",
-    "price": 325.0,
+    "price": 325,
     "image": "/images/products/roots-hair-brush-2013bs.jpg",
     "stock": 3,
     "description": "Roots Hair Brush 2013Bs - High quality personal care product.",
@@ -15159,13 +16241,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4761
+    "rank": 4761,
+    "name": "Roots Hair Brush 2013Bs"
   },
   {
     "id": 4762,
     "title": "Roots Hair Brush 245/-",
     "slug": "roots-hair-brush-245-",
-    "price": 245.0,
+    "price": 245,
     "image": "/images/products/roots-hair-brush-245-.jpg",
     "stock": 11,
     "description": "Roots Hair Brush 245/- - High quality personal care product.",
@@ -15173,13 +16256,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4762
+    "rank": 4762,
+    "name": "Roots Hair Brush 245/-"
   },
   {
     "id": 4763,
     "title": "Roots Hair Brush 295/-",
     "slug": "roots-hair-brush-295-",
-    "price": 295.0,
+    "price": 295,
     "image": "/images/products/roots-hair-brush-295-.jpg",
     "stock": 9,
     "description": "Roots Hair Brush 295/- - High quality personal care product.",
@@ -15187,13 +16271,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4763
+    "rank": 4763,
+    "name": "Roots Hair Brush 295/-"
   },
   {
     "id": 4764,
     "title": "Roots Hair Brush 325/-",
     "slug": "roots-hair-brush-325-",
-    "price": 325.0,
+    "price": 325,
     "image": "/images/products/roots-hair-brush-325-.jpg",
     "stock": 3,
     "description": "Roots Hair Brush 325/- - High quality personal care product.",
@@ -15201,13 +16286,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4764
+    "rank": 4764,
+    "name": "Roots Hair Brush 325/-"
   },
   {
     "id": 4765,
     "title": "Roots Hair Brush 345/-",
     "slug": "roots-hair-brush-345-",
-    "price": 345.0,
+    "price": 345,
     "image": "/images/products/roots-hair-brush-345-.jpg",
     "stock": 11,
     "description": "Roots Hair Brush 345/- - High quality personal care product.",
@@ -15215,13 +16301,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4765
+    "rank": 4765,
+    "name": "Roots Hair Brush 345/-"
   },
   {
     "id": 4766,
     "title": "Roots Hair Brush 375/-",
     "slug": "roots-hair-brush-375-",
-    "price": 375.0,
+    "price": 375,
     "image": "/images/products/roots-hair-brush-375-.jpg",
     "stock": 9,
     "description": "Roots Hair Brush 375/- - High quality personal care product.",
@@ -15229,13 +16316,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4766
+    "rank": 4766,
+    "name": "Roots Hair Brush 375/-"
   },
   {
     "id": 4767,
     "title": "Roots Hair Brush 395/-",
     "slug": "roots-hair-brush-395-",
-    "price": 395.0,
+    "price": 395,
     "image": "/images/products/roots-hair-brush-395-.jpg",
     "stock": 7,
     "description": "Roots Hair Brush 395/- - High quality personal care product.",
@@ -15243,13 +16331,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4767
+    "rank": 4767,
+    "name": "Roots Hair Brush 395/-"
   },
   {
     "id": 4768,
     "title": "Roots Hair Brush 425/-",
     "slug": "roots-hair-brush-425-",
-    "price": 425.0,
+    "price": 425,
     "image": "/images/products/roots-hair-brush-425-.jpg",
     "stock": 3,
     "description": "Roots Hair Brush 425/- - High quality personal care product.",
@@ -15257,13 +16346,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4768
+    "rank": 4768,
+    "name": "Roots Hair Brush 425/-"
   },
   {
     "id": 4769,
     "title": "Roots Hair Brush Bwr88",
     "slug": "roots-hair-brush-bwr88",
-    "price": 445.0,
+    "price": 445,
     "image": "/images/products/roots-hair-brush-bwr88.jpg",
     "stock": 2,
     "description": "Roots Hair Brush Bwr88 - High quality personal care product.",
@@ -15271,13 +16361,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4769
+    "rank": 4769,
+    "name": "Roots Hair Brush Bwr88"
   },
   {
     "id": 4770,
     "title": "Roots Hair Brush Cgf88",
     "slug": "roots-hair-brush-cgf88",
-    "price": 495.0,
+    "price": 495,
     "image": "/images/products/roots-hair-brush-cgf88.jpg",
     "stock": 3,
     "description": "Roots Hair Brush Cgf88 - High quality personal care product.",
@@ -15285,13 +16376,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4770
+    "rank": 4770,
+    "name": "Roots Hair Brush Cgf88"
   },
   {
     "id": 4771,
     "title": "Roots Hair Brush Gbg88",
     "slug": "roots-hair-brush-gbg88",
-    "price": 475.0,
+    "price": 475,
     "image": "/images/products/roots-hair-brush-gbg88.jpg",
     "stock": 3,
     "description": "Roots Hair Brush Gbg88 - High quality personal care product.",
@@ -15299,13 +16391,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4771
+    "rank": 4771,
+    "name": "Roots Hair Brush Gbg88"
   },
   {
     "id": 4772,
     "title": "Roots Hair Brush Mini 295",
     "slug": "roots-hair-brush-mini-295",
-    "price": 295.0,
+    "price": 295,
     "image": "/images/products/roots-hair-brush-mini-295.jpg",
     "stock": 3,
     "description": "Roots Hair Brush Mini 295 - High quality personal care product.",
@@ -15313,13 +16406,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4772
+    "rank": 4772,
+    "name": "Roots Hair Brush Mini 295"
   },
   {
     "id": 4773,
     "title": "Roots Hair Brush Mini 325/-",
     "slug": "roots-hair-brush-mini-325-",
-    "price": 325.0,
+    "price": 325,
     "image": "/images/products/roots-hair-brush-mini-325-.jpg",
     "stock": 3,
     "description": "Roots Hair Brush Mini 325/- - High quality personal care product.",
@@ -15327,13 +16421,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4773
+    "rank": 4773,
+    "name": "Roots Hair Brush Mini 325/-"
   },
   {
     "id": 4774,
     "title": "Roots Hair Brush Mini 345",
     "slug": "roots-hair-brush-mini-345",
-    "price": 345.0,
+    "price": 345,
     "image": "/images/products/roots-hair-brush-mini-345.jpg",
     "stock": 3,
     "description": "Roots Hair Brush Mini 345 - High quality personal care product.",
@@ -15341,13 +16436,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4774
+    "rank": 4774,
+    "name": "Roots Hair Brush Mini 345"
   },
   {
     "id": 4775,
     "title": "Roots Hair Brush Rlv44",
     "slug": "roots-hair-brush-rlv44",
-    "price": 425.0,
+    "price": 425,
     "image": "/images/products/roots-hair-brush-rlv44.jpg",
     "stock": 3,
     "description": "Roots Hair Brush Rlv44 - High quality personal care product.",
@@ -15355,13 +16451,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4775
+    "rank": 4775,
+    "name": "Roots Hair Brush Rlv44"
   },
   {
     "id": 4776,
     "title": "Roots Hair Brush Thc33",
     "slug": "roots-hair-brush-thc33",
-    "price": 495.0,
+    "price": 495,
     "image": "/images/products/roots-hair-brush-thc33.jpg",
     "stock": 3,
     "description": "Roots Hair Brush Thc33 - High quality personal care product.",
@@ -15369,13 +16466,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4776
+    "rank": 4776,
+    "name": "Roots Hair Brush Thc33"
   },
   {
     "id": 4777,
     "title": "Roots Hair Brush Thc43",
     "slug": "roots-hair-brush-thc43",
-    "price": 575.0,
+    "price": 575,
     "image": "/images/products/roots-hair-brush-thc43.jpg",
     "stock": 3,
     "description": "Roots Hair Brush Thc43 - High quality personal care product.",
@@ -15383,13 +16481,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4777
+    "rank": 4777,
+    "name": "Roots Hair Brush Thc43"
   },
   {
     "id": 4778,
     "title": "Roots Hair Brush Thc53",
     "slug": "roots-hair-brush-thc53",
-    "price": 675.0,
+    "price": 675,
     "image": "/images/products/roots-hair-brush-thc53.jpg",
     "stock": 3,
     "description": "Roots Hair Brush Thc53 - High quality personal care product.",
@@ -15397,13 +16496,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4778
+    "rank": 4778,
+    "name": "Roots Hair Brush Thc53"
   },
   {
     "id": 4779,
     "title": "Roots Hair Comb 101",
     "slug": "roots-hair-comb-101",
-    "price": 160.0,
+    "price": 160,
     "image": "/images/products/roots-hair-comb-101.jpg",
     "stock": 3,
     "description": "Roots Hair Comb 101 - High quality personal care product.",
@@ -15411,13 +16511,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4779
+    "rank": 4779,
+    "name": "Roots Hair Comb 101"
   },
   {
     "id": 4780,
     "title": "Roots Hair Comb 160/-",
     "slug": "roots-hair-comb-160-",
-    "price": 160.0,
+    "price": 160,
     "image": "/images/products/roots-hair-comb-160-.jpg",
     "stock": 3,
     "description": "Roots Hair Comb 160/- - High quality personal care product.",
@@ -15425,13 +16526,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4780
+    "rank": 4780,
+    "name": "Roots Hair Comb 160/-"
   },
   {
     "id": 4781,
     "title": "Roots Hair Comb 202",
     "slug": "roots-hair-comb-202",
-    "price": 160.0,
+    "price": 160,
     "image": "/images/products/roots-hair-comb-202.jpg",
     "stock": 3,
     "description": "Roots Hair Comb 202 - High quality personal care product.",
@@ -15439,13 +16541,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4781
+    "rank": 4781,
+    "name": "Roots Hair Comb 202"
   },
   {
     "id": 4782,
     "title": "Roots Hair Comb 302",
     "slug": "roots-hair-comb-302",
-    "price": 100.0,
+    "price": 100,
     "image": "/images/products/roots-hair-comb-302.jpg",
     "stock": 5,
     "description": "Roots Hair Comb 302 - High quality personal care product.",
@@ -15453,13 +16556,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4782
+    "rank": 4782,
+    "name": "Roots Hair Comb 302"
   },
   {
     "id": 4783,
     "title": "Roots Hair Comb 404",
     "slug": "roots-hair-comb-404",
-    "price": 90.0,
+    "price": 90,
     "image": "/images/products/roots-hair-comb-404.jpg",
     "stock": 3,
     "description": "Roots Hair Comb 404 - High quality personal care product.",
@@ -15467,13 +16571,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4783
+    "rank": 4783,
+    "name": "Roots Hair Comb 404"
   },
   {
     "id": 4784,
     "title": "Roots Hair Comb 407",
     "slug": "roots-hair-comb-407",
-    "price": 110.0,
+    "price": 110,
     "image": "/images/products/roots-hair-comb-407.jpg",
     "stock": 1,
     "description": "Roots Hair Comb 407 - High quality personal care product.",
@@ -15481,13 +16586,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4784
+    "rank": 4784,
+    "name": "Roots Hair Comb 407"
   },
   {
     "id": 4785,
     "title": "Roots Hair Comb 90/- Black",
     "slug": "roots-hair-comb-90--black",
-    "price": 90.0,
+    "price": 90,
     "image": "/images/products/roots-hair-comb-90--black.jpg",
     "stock": 6,
     "description": "Roots Hair Comb 90/- Black - High quality personal care product.",
@@ -15495,13 +16601,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4785
+    "rank": 4785,
+    "name": "Roots Hair Comb 90/- Black"
   },
   {
     "id": 4786,
     "title": "Roots Hair Comb Black 304",
     "slug": "roots-hair-comb-black-304",
-    "price": 100.0,
+    "price": 100,
     "image": "/images/products/roots-hair-comb-black-304.jpg",
     "stock": 19,
     "description": "Roots Hair Comb Black 304 - High quality personal care product.",
@@ -15509,13 +16616,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4786
+    "rank": 4786,
+    "name": "Roots Hair Comb Black 304"
   },
   {
     "id": 4787,
     "title": "Roots Hair Comb Black 306",
     "slug": "roots-hair-comb-black-306",
-    "price": 80.0,
+    "price": 80,
     "image": "/images/products/roots-hair-comb-black-306.jpg",
     "stock": 3,
     "description": "Roots Hair Comb Black 306 - High quality personal care product.",
@@ -15523,13 +16631,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4787
+    "rank": 4787,
+    "name": "Roots Hair Comb Black 306"
   },
   {
     "id": 4788,
     "title": "Roots Hair Comb Brown 10",
     "slug": "roots-hair-comb-brown-10",
-    "price": 160.0,
+    "price": 160,
     "image": "/images/products/roots-hair-comb-brown-10.jpg",
     "stock": 3,
     "description": "Roots Hair Comb Brown 10 - High quality personal care product.",
@@ -15537,13 +16646,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4788
+    "rank": 4788,
+    "name": "Roots Hair Comb Brown 10"
   },
   {
     "id": 4789,
     "title": "Roots Hair Comb Brown 14",
     "slug": "roots-hair-comb-brown-14",
-    "price": 130.0,
+    "price": 130,
     "image": "/images/products/roots-hair-comb-brown-14.jpg",
     "stock": 3,
     "description": "Roots Hair Comb Brown 14 - High quality personal care product.",
@@ -15551,13 +16661,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4789
+    "rank": 4789,
+    "name": "Roots Hair Comb Brown 14"
   },
   {
     "id": 4790,
     "title": "Roots Hair Comb Brown 19",
     "slug": "roots-hair-comb-brown-19",
-    "price": 100.0,
+    "price": 100,
     "image": "/images/products/roots-hair-comb-brown-19.jpg",
     "stock": 3,
     "description": "Roots Hair Comb Brown 19 - High quality personal care product.",
@@ -15565,13 +16676,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4790
+    "rank": 4790,
+    "name": "Roots Hair Comb Brown 19"
   },
   {
     "id": 4791,
     "title": "Roots Hair Comb Brown 27",
     "slug": "roots-hair-comb-brown-27",
-    "price": 160.0,
+    "price": 160,
     "image": "/images/products/roots-hair-comb-brown-27.jpg",
     "stock": 3,
     "description": "Roots Hair Comb Brown 27 - High quality personal care product.",
@@ -15579,13 +16691,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4791
+    "rank": 4791,
+    "name": "Roots Hair Comb Brown 27"
   },
   {
     "id": 4792,
     "title": "Roots Hair Comb Brown 28",
     "slug": "roots-hair-comb-brown-28",
-    "price": 210.0,
+    "price": 210,
     "image": "/images/products/roots-hair-comb-brown-28.jpg",
     "stock": 3,
     "description": "Roots Hair Comb Brown 28 - High quality personal care product.",
@@ -15593,13 +16706,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4792
+    "rank": 4792,
+    "name": "Roots Hair Comb Brown 28"
   },
   {
     "id": 4793,
     "title": "Roots Hair Comb Brown 3",
     "slug": "roots-hair-comb-brown-3",
-    "price": 190.0,
+    "price": 190,
     "image": "/images/products/roots-hair-comb-brown-3.jpg",
     "stock": 2,
     "description": "Roots Hair Comb Brown 3 - High quality personal care product.",
@@ -15607,13 +16721,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4793
+    "rank": 4793,
+    "name": "Roots Hair Comb Brown 3"
   },
   {
     "id": 4794,
     "title": "Roots Hair Comb Brown 30A",
     "slug": "roots-hair-comb-brown-30a",
-    "price": 130.0,
+    "price": 130,
     "image": "/images/products/roots-hair-comb-brown-30a.jpg",
     "stock": 3,
     "description": "Roots Hair Comb Brown 30A - High quality personal care product.",
@@ -15621,13 +16736,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4794
+    "rank": 4794,
+    "name": "Roots Hair Comb Brown 30A"
   },
   {
     "id": 4795,
     "title": "Roots Hair Comb Brown 6",
     "slug": "roots-hair-comb-brown-6",
-    "price": 190.0,
+    "price": 190,
     "image": "/images/products/roots-hair-comb-brown-6.jpg",
     "stock": 1,
     "description": "Roots Hair Comb Brown 6 - High quality personal care product.",
@@ -15635,13 +16751,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4795
+    "rank": 4795,
+    "name": "Roots Hair Comb Brown 6"
   },
   {
     "id": 4796,
     "title": "Roots Hair Comb Brown 74",
     "slug": "roots-hair-comb-brown-74",
-    "price": 250.0,
+    "price": 250,
     "image": "/images/products/roots-hair-comb-brown-74.jpg",
     "stock": 2,
     "description": "Roots Hair Comb Brown 74 - High quality personal care product.",
@@ -15649,13 +16766,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4796
+    "rank": 4796,
+    "name": "Roots Hair Comb Brown 74"
   },
   {
     "id": 4797,
     "title": "Roots Hair Comb Brown16",
     "slug": "roots-hair-comb-brown16",
-    "price": 145.0,
+    "price": 145,
     "image": "/images/products/roots-hair-comb-brown16.jpg",
     "stock": 3,
     "description": "Roots Hair Comb Brown16 - High quality personal care product.",
@@ -15663,13 +16781,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4797
+    "rank": 4797,
+    "name": "Roots Hair Comb Brown16"
   },
   {
     "id": 4798,
     "title": "Roots Hair Comb R116",
     "slug": "roots-hair-comb-r116",
-    "price": 125.0,
+    "price": 125,
     "image": "/images/products/roots-hair-comb-r116.jpg",
     "stock": 5,
     "description": "Roots Hair Comb R116 - High quality personal care product.",
@@ -15677,13 +16796,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4798
+    "rank": 4798,
+    "name": "Roots Hair Comb R116"
   },
   {
     "id": 4799,
     "title": "Roots Hair Comb R403",
     "slug": "roots-hair-comb-r403",
-    "price": 85.0,
+    "price": 85,
     "image": "/images/products/roots-hair-comb-r403.jpg",
     "stock": 5,
     "description": "Roots Hair Comb R403 - High quality personal care product.",
@@ -15691,13 +16811,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4799
+    "rank": 4799,
+    "name": "Roots Hair Comb R403"
   },
   {
     "id": 4800,
     "title": "Roots Hair Comb Wd 10",
     "slug": "roots-hair-comb-wd-10",
-    "price": 225.0,
+    "price": 225,
     "image": "/images/products/roots-hair-comb-wd-10.jpg",
     "stock": 2,
     "description": "Roots Hair Comb Wd 10 - High quality personal care product.",
@@ -15705,13 +16826,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4800
+    "rank": 4800,
+    "name": "Roots Hair Comb Wd 10"
   },
   {
     "id": 4801,
     "title": "Roots Hair Comb Wd20",
     "slug": "roots-hair-comb-wd20",
-    "price": 200.0,
+    "price": 200,
     "image": "/images/products/roots-hair-comb-wd20.jpg",
     "stock": 2,
     "description": "Roots Hair Comb Wd20 - High quality personal care product.",
@@ -15719,13 +16841,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4801
+    "rank": 4801,
+    "name": "Roots Hair Comb Wd20"
   },
   {
     "id": 4802,
     "title": "Roots Hair Comb Wd27",
     "slug": "roots-hair-comb-wd27",
-    "price": 175.0,
+    "price": 175,
     "image": "/images/products/roots-hair-comb-wd27.jpg",
     "stock": 3,
     "description": "Roots Hair Comb Wd27 - High quality personal care product.",
@@ -15733,13 +16856,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4802
+    "rank": 4802,
+    "name": "Roots Hair Comb Wd27"
   },
   {
     "id": 4803,
     "title": "Roots Hair Comb Wd70",
     "slug": "roots-hair-comb-wd70",
-    "price": 200.0,
+    "price": 200,
     "image": "/images/products/roots-hair-comb-wd70.jpg",
     "stock": 3,
     "description": "Roots Hair Comb Wd70 - High quality personal care product.",
@@ -15747,13 +16871,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4803
+    "rank": 4803,
+    "name": "Roots Hair Comb Wd70"
   },
   {
     "id": 4804,
     "title": "Roots Hair Comb Yc8",
     "slug": "roots-hair-comb-yc8",
-    "price": 180.0,
+    "price": 180,
     "image": "/images/products/roots-hair-comb-yc8.jpg",
     "stock": 3,
     "description": "Roots Hair Comb Yc8 - High quality personal care product.",
@@ -15761,13 +16886,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4804
+    "rank": 4804,
+    "name": "Roots Hair Comb Yc8"
   },
   {
     "id": 4818,
     "title": "Safe Wash 1Kg+675Ml Handwash",
     "slug": "safe-wash-1kg675ml-handwash",
-    "price": 450.0,
+    "price": 450,
     "image": "/images/products/safe-wash-1kg675ml-handwash.jpg",
     "stock": 6,
     "description": "Safe Wash 1Kg+675Ml Handwash - High quality personal care product.",
@@ -15775,13 +16901,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4818
+    "rank": 4818,
+    "name": "Safe Wash 1Kg+675Ml Handwash"
   },
   {
     "id": 4819,
     "title": "Safe Wash 500+500Ml",
     "slug": "safe-wash-500500ml",
-    "price": 210.0,
+    "price": 210,
     "image": "/images/products/safe-wash-500500ml.jpg",
     "stock": 3,
     "description": "Safe Wash 500+500Ml - High quality personal care product.",
@@ -15789,13 +16916,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4819
+    "rank": 4819,
+    "name": "Safe Wash 500+500Ml"
   },
   {
     "id": 4820,
     "title": "Safe Wash Fl 2L",
     "slug": "safe-wash-fl-2l",
-    "price": 490.0,
+    "price": 490,
     "image": "/images/products/safe-wash-fl-2l.jpg",
     "stock": 6,
     "description": "Safe Wash Fl 2L - High quality personal care product.",
@@ -15803,13 +16931,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4820
+    "rank": 4820,
+    "name": "Safe Wash Fl 2L"
   },
   {
     "id": 4821,
     "title": "Safe Wash Tl 2L",
     "slug": "safe-wash-tl-2l",
-    "price": 430.0,
+    "price": 430,
     "image": "/images/products/safe-wash-tl-2l.jpg",
     "stock": 4,
     "description": "Safe Wash Tl 2L - High quality personal care product.",
@@ -15817,13 +16946,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4821
+    "rank": 4821,
+    "name": "Safe Wash Tl 2L"
   },
   {
     "id": 4835,
     "title": "Santoor Aloe Vera Soap",
     "slug": "santoor-aloe-vera-soap",
-    "price": 148.0,
+    "price": 148,
     "image": "/images/products/santoor-aloe-vera-soap.jpg",
     "stock": 6,
     "description": "Santoor Aloe Vera Soap - High quality personal care product.",
@@ -15831,13 +16961,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4835
+    "rank": 4835,
+    "name": "Santoor Aloe Vera Soap"
   },
   {
     "id": 4836,
     "title": "Santoor Body Wash Saffron&Marigold",
     "slug": "santoor-body-wash-saffronmarigold",
-    "price": 350.0,
+    "price": 350,
     "image": "/images/products/santoor-body-wash-saffronmarigold.jpg",
     "stock": 12,
     "description": "Santoor Body Wash Saffron&Marigold - High quality personal care product.",
@@ -15845,13 +16976,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4836
+    "rank": 4836,
+    "name": "Santoor Body Wash Saffron&Marigold"
   },
   {
     "id": 4837,
     "title": "Santoor Hand Wash 200+200",
     "slug": "santoor-hand-wash-200200",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/santoor-hand-wash-200200.jpg",
     "stock": 8,
     "description": "Santoor Hand Wash 200+200 - High quality personal care product.",
@@ -15859,13 +16991,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4837
+    "rank": 4837,
+    "name": "Santoor Hand Wash 200+200"
   },
   {
     "id": 4838,
     "title": "Santoor Hand Wash 675Ml",
     "slug": "santoor-hand-wash-675ml",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/santoor-hand-wash-675ml.jpg",
     "stock": 18,
     "description": "Santoor Hand Wash 675Ml - High quality personal care product.",
@@ -15873,13 +17006,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4838
+    "rank": 4838,
+    "name": "Santoor Hand Wash 675Ml"
   },
   {
     "id": 4839,
     "title": "Santoor Sandal Soap",
     "slug": "santoor-sandal-soap",
-    "price": 156.0,
+    "price": 156,
     "image": "/images/products/santoor-sandal-soap.jpg",
     "stock": 5,
     "description": "Santoor Sandal Soap - High quality personal care product.",
@@ -15887,13 +17021,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4839
+    "rank": 4839,
+    "name": "Santoor Sandal Soap"
   },
   {
     "id": 4851,
     "title": "Savlon Dc Handwash 200+175Ml",
     "slug": "savlon-dc-handwash-200175ml",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/savlon-dc-handwash-200175ml.jpg",
     "stock": 3,
     "description": "Savlon Dc Handwash 200+175Ml - High quality personal care product.",
@@ -15901,13 +17036,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4851
+    "rank": 4851,
+    "name": "Savlon Dc Handwash 200+175Ml"
   },
   {
     "id": 4852,
     "title": "Savlon Dc Handwash Pouch 1+1 175Ml",
     "slug": "savlon-dc-handwash-pouch-11-175ml",
-    "price": 70.0,
+    "price": 70,
     "image": "/images/products/savlon-dc-handwash-pouch-11-175ml.jpg",
     "stock": 3,
     "description": "Savlon Dc Handwash Pouch 1+1 175Ml - High quality personal care product.",
@@ -15915,13 +17051,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4852
+    "rank": 4852,
+    "name": "Savlon Dc Handwash Pouch 1+1 175Ml"
   },
   {
     "id": 4853,
     "title": "Savlon Dc Handwash Pouch 650Ml",
     "slug": "savlon-dc-handwash-pouch-650ml",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/savlon-dc-handwash-pouch-650ml.jpg",
     "stock": 1,
     "description": "Savlon Dc Handwash Pouch 650Ml - High quality personal care product.",
@@ -15929,13 +17066,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4853
+    "rank": 4853,
+    "name": "Savlon Dc Handwash Pouch 650Ml"
   },
   {
     "id": 4859,
     "title": "Savlon Glycerin In Soap 3+1 120Gm",
     "slug": "savlon-glycerin-in-soap-31-120gm",
-    "price": 186.0,
+    "price": 186,
     "image": "/images/products/savlon-glycerin-in-soap-31-120gm.jpg",
     "stock": 3,
     "description": "Savlon Glycerin In Soap 3+1 120Gm - High quality personal care product.",
@@ -15943,13 +17081,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4859
+    "rank": 4859,
+    "name": "Savlon Glycerin In Soap 3+1 120Gm"
   },
   {
     "id": 4860,
     "title": "Savlon Glycerin In Soap 3+1 45G",
     "slug": "savlon-glycerin-in-soap-31-45g",
-    "price": 40.0,
+    "price": 40,
     "image": "/images/products/savlon-glycerin-in-soap-31-45g.jpg",
     "stock": 4,
     "description": "Savlon Glycerin In Soap 3+1 45G - High quality personal care product.",
@@ -15957,13 +17096,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4860
+    "rank": 4860,
+    "name": "Savlon Glycerin In Soap 3+1 45G"
   },
   {
     "id": 4861,
     "title": "Savlon Glycerin In Soap 3+1 75G",
     "slug": "savlon-glycerin-in-soap-31-75g",
-    "price": 111.0,
+    "price": 111,
     "image": "/images/products/savlon-glycerin-in-soap-31-75g.jpg",
     "stock": 3,
     "description": "Savlon Glycerin In Soap 3+1 75G - High quality personal care product.",
@@ -15971,13 +17111,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4861
+    "rank": 4861,
+    "name": "Savlon Glycerin In Soap 3+1 75G"
   },
   {
     "id": 4862,
     "title": "Savlon Hadwash Ms 80Ml",
     "slug": "savlon-hadwash-ms-80ml",
-    "price": 25.0,
+    "price": 25,
     "image": "/images/products/savlon-hadwash-ms-80ml.jpg",
     "stock": 1,
     "description": "Savlon Hadwash Ms 80Ml - High quality personal care product.",
@@ -15985,13 +17126,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4862
+    "rank": 4862,
+    "name": "Savlon Hadwash Ms 80Ml"
   },
   {
     "id": 4863,
     "title": "Savlon Hand Sanitizer Gel 50Ml",
     "slug": "savlon-hand-sanitizer-gel-50ml",
-    "price": 25.0,
+    "price": 25,
     "image": "/images/products/savlon-hand-sanitizer-gel-50ml.jpg",
     "stock": 7,
     "description": "Savlon Hand Sanitizer Gel 50Ml - High quality personal care product.",
@@ -15999,13 +17141,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4863
+    "rank": 4863,
+    "name": "Savlon Hand Sanitizer Gel 50Ml"
   },
   {
     "id": 4864,
     "title": "Savlon Hs Handwash 200+175Ml",
     "slug": "savlon-hs-handwash-200175ml",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/savlon-hs-handwash-200175ml.jpg",
     "stock": 4,
     "description": "Savlon Hs Handwash 200+175Ml - High quality personal care product.",
@@ -16013,13 +17156,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4864
+    "rank": 4864,
+    "name": "Savlon Hs Handwash 200+175Ml"
   },
   {
     "id": 4865,
     "title": "Savlon Hs Handwash Pouch 1+1 175Ml",
     "slug": "savlon-hs-handwash-pouch-11-175ml",
-    "price": 70.0,
+    "price": 70,
     "image": "/images/products/savlon-hs-handwash-pouch-11-175ml.jpg",
     "stock": 4,
     "description": "Savlon Hs Handwash Pouch 1+1 175Ml - High quality personal care product.",
@@ -16027,13 +17171,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4865
+    "rank": 4865,
+    "name": "Savlon Hs Handwash Pouch 1+1 175Ml"
   },
   {
     "id": 4866,
     "title": "Savlon Hs Handwash Pouch 1+1 650Ml",
     "slug": "savlon-hs-handwash-pouch-11-650ml",
-    "price": 189.0,
+    "price": 189,
     "image": "/images/products/savlon-hs-handwash-pouch-11-650ml.jpg",
     "stock": 2,
     "description": "Savlon Hs Handwash Pouch 1+1 650Ml - High quality personal care product.",
@@ -16041,13 +17186,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4866
+    "rank": 4866,
+    "name": "Savlon Hs Handwash Pouch 1+1 650Ml"
   },
   {
     "id": 4867,
     "title": "Savlon Hs Handwash Pouch 650Ml",
     "slug": "savlon-hs-handwash-pouch-650ml",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/savlon-hs-handwash-pouch-650ml.jpg",
     "stock": 4,
     "description": "Savlon Hs Handwash Pouch 650Ml - High quality personal care product.",
@@ -16055,13 +17201,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4867
+    "rank": 4867,
+    "name": "Savlon Hs Handwash Pouch 650Ml"
   },
   {
     "id": 4868,
     "title": "Savlon Ms Handwash 200+175Ml",
     "slug": "savlon-ms-handwash-200175ml",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/savlon-ms-handwash-200175ml.jpg",
     "stock": 4,
     "description": "Savlon Ms Handwash 200+175Ml - High quality personal care product.",
@@ -16069,13 +17216,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4868
+    "rank": 4868,
+    "name": "Savlon Ms Handwash 200+175Ml"
   },
   {
     "id": 4869,
     "title": "Savlon Ms Handwash Pouch 1+1 175Ml",
     "slug": "savlon-ms-handwash-pouch-11-175ml",
-    "price": 70.0,
+    "price": 70,
     "image": "/images/products/savlon-ms-handwash-pouch-11-175ml.jpg",
     "stock": 2,
     "description": "Savlon Ms Handwash Pouch 1+1 175Ml - High quality personal care product.",
@@ -16083,13 +17231,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4869
+    "rank": 4869,
+    "name": "Savlon Ms Handwash Pouch 1+1 175Ml"
   },
   {
     "id": 4870,
     "title": "Savlon Ms Handwash Pouch 650Ml",
     "slug": "savlon-ms-handwash-pouch-650ml",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/savlon-ms-handwash-pouch-650ml.jpg",
     "stock": 6,
     "description": "Savlon Ms Handwash Pouch 650Ml - High quality personal care product.",
@@ -16097,13 +17246,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4870
+    "rank": 4870,
+    "name": "Savlon Ms Handwash Pouch 650Ml"
   },
   {
     "id": 4871,
     "title": "Savlon Powder Handwash 8.2Gm",
     "slug": "savlon-powder-handwash-82gm",
-    "price": 45.0,
+    "price": 45,
     "image": "/images/products/savlon-powder-handwash-82gm.jpg",
     "stock": 6,
     "description": "Savlon Powder Handwash 8.2Gm - High quality personal care product.",
@@ -16111,13 +17261,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4871
+    "rank": 4871,
+    "name": "Savlon Powder Handwash 8.2Gm"
   },
   {
     "id": 4872,
     "title": "Savlon Powder Handwash Small 8.2Gm",
     "slug": "savlon-powder-handwash-small-82gm",
-    "price": 10.0,
+    "price": 10,
     "image": "/images/products/savlon-powder-handwash-small-82gm.jpg",
     "stock": 45,
     "description": "Savlon Powder Handwash Small 8.2Gm - High quality personal care product.",
@@ -16125,13 +17276,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4872
+    "rank": 4872,
+    "name": "Savlon Powder Handwash Small 8.2Gm"
   },
   {
     "id": 4873,
     "title": "Savlon Surface Dis Spray 230Ml",
     "slug": "savlon-surface-dis-spray-230ml",
-    "price": 185.0,
+    "price": 185,
     "image": "/images/products/savlon-surface-dis-spray-230ml.jpg",
     "stock": 6,
     "description": "Savlon Surface Dis Spray 230Ml - High quality personal care product.",
@@ -16139,13 +17291,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4873
+    "rank": 4873,
+    "name": "Savlon Surface Dis Spray 230Ml"
   },
   {
     "id": 4889,
     "title": "Scotch Brite Sink Brush",
     "slug": "scotch-brite-sink-brush",
-    "price": 160.0,
+    "price": 160,
     "image": "/images/products/scotch-brite-sink-brush.jpg",
     "stock": 8,
     "description": "Scotch Brite Sink Brush - High quality personal care product.",
@@ -16153,13 +17306,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4889
+    "rank": 4889,
+    "name": "Scotch Brite Sink Brush"
   },
   {
     "id": 4894,
     "title": "Scotch Brite Toilate Brush",
     "slug": "scotch-brite-toilate-brush",
-    "price": 300.0,
+    "price": 300,
     "image": "/images/products/scotch-brite-toilate-brush.jpg",
     "stock": 2,
     "description": "Scotch Brite Toilate Brush - High quality personal care product.",
@@ -16167,13 +17321,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4894
+    "rank": 4894,
+    "name": "Scotch Brite Toilate Brush"
   },
   {
     "id": 4895,
     "title": "Scotch Brite Toilate Brush 190/-",
     "slug": "scotch-brite-toilate-brush-190-",
-    "price": 190.0,
+    "price": 190,
     "image": "/images/products/scotch-brite-toilate-brush-190-.jpg",
     "stock": 2,
     "description": "Scotch Brite Toilate Brush 190/- - High quality personal care product.",
@@ -16181,13 +17336,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4895
+    "rank": 4895,
+    "name": "Scotch Brite Toilate Brush 190/-"
   },
   {
     "id": 4896,
     "title": "Scotch Brite Toilate Brush Ds",
     "slug": "scotch-brite-toilate-brush-ds",
-    "price": 250.0,
+    "price": 250,
     "image": "/images/products/scotch-brite-toilate-brush-ds.jpg",
     "stock": 1,
     "description": "Scotch Brite Toilate Brush Ds - High quality personal care product.",
@@ -16195,13 +17351,14 @@ const products = [
     "unit": "pcs",
     "category": "personal-care",
     "popular": false,
-    "rank": 4896
+    "rank": 4896,
+    "name": "Scotch Brite Toilate Brush Ds"
   },
   {
     "id": 4928,
     "title": "Seba Med 50+ Multi Protect Sun Lotion",
     "slug": "seba-med-50-multi-protect-sun-lotion",
-    "price": 1475.0,
+    "price": 1475,
     "image": "/images/products/seba-med-50-multi-protect-sun-lotion.jpg",
     "stock": 2,
     "description": "Seba Med 50+ Multi Protect Sun Lotion - High quality personal care product.",
@@ -16209,13 +17366,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4928
+    "rank": 4928,
+    "name": "Seba Med 50+ Multi Protect Sun Lotion"
   },
   {
     "id": 4929,
     "title": "Seba Med Anti Dandruff Shampoo",
     "slug": "seba-med-anti-dandruff-shampoo",
-    "price": 680.0,
+    "price": 680,
     "image": "/images/products/seba-med-anti-dandruff-shampoo.jpg",
     "stock": 3,
     "description": "Seba Med Anti Dandruff Shampoo - High quality personal care product.",
@@ -16223,13 +17381,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4929
+    "rank": 4929,
+    "name": "Seba Med Anti Dandruff Shampoo"
   },
   {
     "id": 4930,
     "title": "Seba Med Baby Lotion",
     "slug": "seba-med-baby-lotion",
-    "price": 590.0,
+    "price": 590,
     "image": "/images/products/seba-med-baby-lotion.jpg",
     "stock": 2,
     "description": "Seba Med Baby Lotion - High quality personal care product.",
@@ -16237,13 +17396,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4930
+    "rank": 4930,
+    "name": "Seba Med Baby Lotion"
   },
   {
     "id": 4933,
     "title": "Seba Med Everyday Shampoo",
     "slug": "seba-med-everyday-shampoo",
-    "price": 680.0,
+    "price": 680,
     "image": "/images/products/seba-med-everyday-shampoo.jpg",
     "stock": 3,
     "description": "Seba Med Everyday Shampoo - High quality personal care product.",
@@ -16251,13 +17411,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4933
+    "rank": 4933,
+    "name": "Seba Med Everyday Shampoo"
   },
   {
     "id": 4935,
     "title": "Seba Med Gentle Wash",
     "slug": "seba-med-gentle-wash",
-    "price": 590.0,
+    "price": 590,
     "image": "/images/products/seba-med-gentle-wash.jpg",
     "stock": 2,
     "description": "Seba Med Gentle Wash - High quality personal care product.",
@@ -16265,13 +17426,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4935
+    "rank": 4935,
+    "name": "Seba Med Gentle Wash"
   },
   {
     "id": 4938,
     "title": "Seba Med Massage Oil 150Ml",
     "slug": "seba-med-massage-oil-150ml",
-    "price": 630.0,
+    "price": 630,
     "image": "/images/products/seba-med-massage-oil-150ml.jpg",
     "stock": 2,
     "description": "Seba Med Massage Oil 150Ml - High quality personal care product.",
@@ -16279,13 +17441,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4938
+    "rank": 4938,
+    "name": "Seba Med Massage Oil 150Ml"
   },
   {
     "id": 4939,
     "title": "Seba Med Multi Protect Sun Lotion",
     "slug": "seba-med-multi-protect-sun-lotion",
-    "price": 1390.0,
+    "price": 1390,
     "image": "/images/products/seba-med-multi-protect-sun-lotion.jpg",
     "stock": 3,
     "description": "Seba Med Multi Protect Sun Lotion - High quality personal care product.",
@@ -16293,13 +17456,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4939
+    "rank": 4939,
+    "name": "Seba Med Multi Protect Sun Lotion"
   },
   {
     "id": 4942,
     "title": "Seba Med Protective Cream",
     "slug": "seba-med-protective-cream",
-    "price": 890.0,
+    "price": 890,
     "image": "/images/products/seba-med-protective-cream.jpg",
     "stock": 1,
     "description": "Seba Med Protective Cream - High quality personal care product.",
@@ -16307,13 +17471,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4942
+    "rank": 4942,
+    "name": "Seba Med Protective Cream"
   },
   {
     "id": 4943,
     "title": "Seba Med Shampoo 150Ml",
     "slug": "seba-med-shampoo-150ml",
-    "price": 530.0,
+    "price": 530,
     "image": "/images/products/seba-med-shampoo-150ml.jpg",
     "stock": 3,
     "description": "Seba Med Shampoo 150Ml - High quality personal care product.",
@@ -16321,13 +17486,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4943
+    "rank": 4943,
+    "name": "Seba Med Shampoo 150Ml"
   },
   {
     "id": 4944,
     "title": "Set Wet Gel 100Ml",
     "slug": "set-wet-gel-100ml",
-    "price": 100.0,
+    "price": 100,
     "image": "/images/products/set-wet-gel-100ml.jpg",
     "stock": 2,
     "description": "Set Wet Gel 100Ml - High quality personal care product.",
@@ -16335,13 +17501,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4944
+    "rank": 4944,
+    "name": "Set Wet Gel 100Ml"
   },
   {
     "id": 4945,
     "title": "Set Wet Gel 50Ml",
     "slug": "set-wet-gel-50ml",
-    "price": 50.0,
+    "price": 50,
     "image": "/images/products/set-wet-gel-50ml.jpg",
     "stock": 2,
     "description": "Set Wet Gel 50Ml - High quality personal care product.",
@@ -16349,13 +17516,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4945
+    "rank": 4945,
+    "name": "Set Wet Gel 50Ml"
   },
   {
     "id": 4994,
     "title": "Simple Vit C Face Wash 100Ml",
     "slug": "simple-vit-c-face-wash-100ml",
-    "price": 275.0,
+    "price": 275,
     "image": "/images/products/simple-vit-c-face-wash-100ml.jpg",
     "stock": 3,
     "description": "Simple Vit C Face Wash 100Ml - High quality personal care product.",
@@ -16363,13 +17531,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4994
+    "rank": 4994,
+    "name": "Simple Vit C Face Wash 100Ml"
   },
   {
     "id": 4998,
     "title": "Skin Cottage Hand Wash H&M",
     "slug": "skin-cottage-hand-wash-hm",
-    "price": 249.0,
+    "price": 249,
     "image": "/images/products/skin-cottage-hand-wash-hm.jpg",
     "stock": 2,
     "description": "Skin Cottage Hand Wash H&M - High quality personal care product.",
@@ -16377,13 +17546,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4998
+    "rank": 4998,
+    "name": "Skin Cottage Hand Wash H&M"
   },
   {
     "id": 4999,
     "title": "Skin Cottage Hand Wash Laverder",
     "slug": "skin-cottage-hand-wash-laverder",
-    "price": 249.0,
+    "price": 249,
     "image": "/images/products/skin-cottage-hand-wash-laverder.jpg",
     "stock": 1,
     "description": "Skin Cottage Hand Wash Laverder - High quality personal care product.",
@@ -16391,13 +17561,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 4999
+    "rank": 4999,
+    "name": "Skin Cottage Hand Wash Laverder"
   },
   {
     "id": 5000,
     "title": "Skin Cottage Hand Wash Laverder",
     "slug": "skin-cottage-hand-wash-laverder",
-    "price": 225.0,
+    "price": 225,
     "image": "/images/products/skin-cottage-hand-wash-laverder.jpg",
     "stock": 2,
     "description": "Skin Cottage Hand Wash Laverder - High quality personal care product.",
@@ -16405,13 +17576,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5000
+    "rank": 5000,
+    "name": "Skin Cottage Hand Wash Laverder"
   },
   {
     "id": 5001,
     "title": "Skin Cottage Hand Wash Pro",
     "slug": "skin-cottage-hand-wash-pro",
-    "price": 249.0,
+    "price": 249,
     "image": "/images/products/skin-cottage-hand-wash-pro.jpg",
     "stock": 1,
     "description": "Skin Cottage Hand Wash Pro - High quality personal care product.",
@@ -16419,13 +17591,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5001
+    "rank": 5001,
+    "name": "Skin Cottage Hand Wash Pro"
   },
   {
     "id": 5003,
     "title": "Skin Cottage Shower Gel 1000Ml",
     "slug": "skin-cottage-shower-gel-1000ml",
-    "price": 619.0,
+    "price": 619,
     "image": "/images/products/skin-cottage-shower-gel-1000ml.jpg",
     "stock": 1,
     "description": "Skin Cottage Shower Gel 1000Ml - High quality personal care product.",
@@ -16433,13 +17606,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5003
+    "rank": 5003,
+    "name": "Skin Cottage Shower Gel 1000Ml"
   },
   {
     "id": 5004,
     "title": "Skin Cottage Shower Gel Aromathy",
     "slug": "skin-cottage-shower-gel-aromathy",
-    "price": 299.0,
+    "price": 299,
     "image": "/images/products/skin-cottage-shower-gel-aromathy.jpg",
     "stock": 7,
     "description": "Skin Cottage Shower Gel Aromathy - High quality personal care product.",
@@ -16447,13 +17621,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5004
+    "rank": 5004,
+    "name": "Skin Cottage Shower Gel Aromathy"
   },
   {
     "id": 5005,
     "title": "Skin Cottage Shower Gel Fe",
     "slug": "skin-cottage-shower-gel-fe",
-    "price": 569.0,
+    "price": 569,
     "image": "/images/products/skin-cottage-shower-gel-fe.jpg",
     "stock": 1,
     "description": "Skin Cottage Shower Gel Fe - High quality personal care product.",
@@ -16461,13 +17636,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5005
+    "rank": 5005,
+    "name": "Skin Cottage Shower Gel Fe"
   },
   {
     "id": 5006,
     "title": "Skin Cottage Shower Gel Green Tea",
     "slug": "skin-cottage-shower-gel-green-tea",
-    "price": 569.0,
+    "price": 569,
     "image": "/images/products/skin-cottage-shower-gel-green-tea.jpg",
     "stock": 1,
     "description": "Skin Cottage Shower Gel Green Tea - High quality personal care product.",
@@ -16475,13 +17651,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5006
+    "rank": 5006,
+    "name": "Skin Cottage Shower Gel Green Tea"
   },
   {
     "id": 5007,
     "title": "Skin Cottage Shower Gel Himalaya",
     "slug": "skin-cottage-shower-gel-himalaya",
-    "price": 299.0,
+    "price": 299,
     "image": "/images/products/skin-cottage-shower-gel-himalaya.jpg",
     "stock": 2,
     "description": "Skin Cottage Shower Gel Himalaya - High quality personal care product.",
@@ -16489,13 +17666,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5007
+    "rank": 5007,
+    "name": "Skin Cottage Shower Gel Himalaya"
   },
   {
     "id": 5008,
     "title": "Skin Cottage Shower Gel Lb",
     "slug": "skin-cottage-shower-gel-lb",
-    "price": 569.0,
+    "price": 569,
     "image": "/images/products/skin-cottage-shower-gel-lb.jpg",
     "stock": 1,
     "description": "Skin Cottage Shower Gel Lb - High quality personal care product.",
@@ -16503,13 +17681,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5008
+    "rank": 5008,
+    "name": "Skin Cottage Shower Gel Lb"
   },
   {
     "id": 5009,
     "title": "Skin Cottage Shower Gel Lp",
     "slug": "skin-cottage-shower-gel-lp",
-    "price": 799.0,
+    "price": 799,
     "image": "/images/products/skin-cottage-shower-gel-lp.jpg",
     "stock": 1,
     "description": "Skin Cottage Shower Gel Lp - High quality personal care product.",
@@ -16517,13 +17696,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5009
+    "rank": 5009,
+    "name": "Skin Cottage Shower Gel Lp"
   },
   {
     "id": 5010,
     "title": "Skin Cottage Shower Gel Mediter",
     "slug": "skin-cottage-shower-gel-mediter",
-    "price": 299.0,
+    "price": 299,
     "image": "/images/products/skin-cottage-shower-gel-mediter.jpg",
     "stock": 1,
     "description": "Skin Cottage Shower Gel Mediter - High quality personal care product.",
@@ -16531,13 +17711,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5010
+    "rank": 5010,
+    "name": "Skin Cottage Shower Gel Mediter"
   },
   {
     "id": 5011,
     "title": "Skin Cottage Shower Gel Peach",
     "slug": "skin-cottage-shower-gel-peach",
-    "price": 569.0,
+    "price": 569,
     "image": "/images/products/skin-cottage-shower-gel-peach.jpg",
     "stock": 1,
     "description": "Skin Cottage Shower Gel Peach - High quality personal care product.",
@@ -16545,13 +17726,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5011
+    "rank": 5011,
+    "name": "Skin Cottage Shower Gel Peach"
   },
   {
     "id": 5012,
     "title": "Skin Cottage Shower Gel Peach B",
     "slug": "skin-cottage-shower-gel-peach-b",
-    "price": 799.0,
+    "price": 799,
     "image": "/images/products/skin-cottage-shower-gel-peach-b.jpg",
     "stock": 1,
     "description": "Skin Cottage Shower Gel Peach B - High quality personal care product.",
@@ -16559,13 +17741,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5012
+    "rank": 5012,
+    "name": "Skin Cottage Shower Gel Peach B"
   },
   {
     "id": 5013,
     "title": "Skin Cottage Shower Gel Scrab Sm",
     "slug": "skin-cottage-shower-gel-scrab-sm",
-    "price": 799.0,
+    "price": 799,
     "image": "/images/products/skin-cottage-shower-gel-scrab-sm.jpg",
     "stock": 1,
     "description": "Skin Cottage Shower Gel Scrab Sm - High quality personal care product.",
@@ -16573,13 +17756,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5013
+    "rank": 5013,
+    "name": "Skin Cottage Shower Gel Scrab Sm"
   },
   {
     "id": 5014,
     "title": "Skin Cottage Shower Gel Se",
     "slug": "skin-cottage-shower-gel-se",
-    "price": 299.0,
+    "price": 299,
     "image": "/images/products/skin-cottage-shower-gel-se.jpg",
     "stock": 2,
     "description": "Skin Cottage Shower Gel Se - High quality personal care product.",
@@ -16587,13 +17771,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5014
+    "rank": 5014,
+    "name": "Skin Cottage Shower Gel Se"
   },
   {
     "id": 5015,
     "title": "Skin Cottage Shower Gel Stw Y",
     "slug": "skin-cottage-shower-gel-stw-y",
-    "price": 799.0,
+    "price": 799,
     "image": "/images/products/skin-cottage-shower-gel-stw-y.jpg",
     "stock": 1,
     "description": "Skin Cottage Shower Gel Stw Y - High quality personal care product.",
@@ -16601,13 +17786,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5015
+    "rank": 5015,
+    "name": "Skin Cottage Shower Gel Stw Y"
   },
   {
     "id": 5077,
     "title": "Softsens Bab Y Shampoo",
     "slug": "softsens-bab-y-shampoo",
-    "price": 195.0,
+    "price": 195,
     "image": "/images/products/softsens-bab-y-shampoo.jpg",
     "stock": 6,
     "description": "Softsens Bab Y Shampoo - High quality personal care product.",
@@ -16615,13 +17801,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5077
+    "rank": 5077,
+    "name": "Softsens Bab Y Shampoo"
   },
   {
     "id": 5078,
     "title": "Softsens Baby Body Lotion 200Ml",
     "slug": "softsens-baby-body-lotion-200ml",
-    "price": 195.0,
+    "price": 195,
     "image": "/images/products/softsens-baby-body-lotion-200ml.jpg",
     "stock": 3,
     "description": "Softsens Baby Body Lotion 200Ml - High quality personal care product.",
@@ -16629,13 +17816,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5078
+    "rank": 5078,
+    "name": "Softsens Baby Body Lotion 200Ml"
   },
   {
     "id": 5079,
     "title": "Softsens Baby Body Wash",
     "slug": "softsens-baby-body-wash",
-    "price": 180.0,
+    "price": 180,
     "image": "/images/products/softsens-baby-body-wash.jpg",
     "stock": 2,
     "description": "Softsens Baby Body Wash - High quality personal care product.",
@@ -16643,13 +17831,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5079
+    "rank": 5079,
+    "name": "Softsens Baby Body Wash"
   },
   {
     "id": 5080,
     "title": "Softsens Baby Cream",
     "slug": "softsens-baby-cream",
-    "price": 175.0,
+    "price": 175,
     "image": "/images/products/softsens-baby-cream.jpg",
     "stock": 6,
     "description": "Softsens Baby Cream - High quality personal care product.",
@@ -16657,13 +17846,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5080
+    "rank": 5080,
+    "name": "Softsens Baby Cream"
   },
   {
     "id": 5081,
     "title": "Softsens Baby Lotion 400Ml",
     "slug": "softsens-baby-lotion-400ml",
-    "price": 325.0,
+    "price": 325,
     "image": "/images/products/softsens-baby-lotion-400ml.jpg",
     "stock": 12,
     "description": "Softsens Baby Lotion 400Ml - High quality personal care product.",
@@ -16671,13 +17861,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5081
+    "rank": 5081,
+    "name": "Softsens Baby Lotion 400Ml"
   },
   {
     "id": 5084,
     "title": "Softsens Baby Shampoo 500Ml",
     "slug": "softsens-baby-shampoo-500ml",
-    "price": 370.0,
+    "price": 370,
     "image": "/images/products/softsens-baby-shampoo-500ml.jpg",
     "stock": 10,
     "description": "Softsens Baby Shampoo 500Ml - High quality personal care product.",
@@ -16685,13 +17876,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5084
+    "rank": 5084,
+    "name": "Softsens Baby Shampoo 500Ml"
   },
   {
     "id": 5085,
     "title": "Softsens Baby Soaps",
     "slug": "softsens-baby-soaps",
-    "price": 70.0,
+    "price": 70,
     "image": "/images/products/softsens-baby-soaps.jpg",
     "stock": 26,
     "description": "Softsens Baby Soaps - High quality personal care product.",
@@ -16699,13 +17891,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5085
+    "rank": 5085,
+    "name": "Softsens Baby Soaps"
   },
   {
     "id": 5088,
     "title": "Softsens Bath Soap Rase",
     "slug": "softsens-bath-soap-rase",
-    "price": 180.0,
+    "price": 180,
     "image": "/images/products/softsens-bath-soap-rase.jpg",
     "stock": 12,
     "description": "Softsens Bath Soap Rase - High quality personal care product.",
@@ -16713,13 +17906,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5088
+    "rank": 5088,
+    "name": "Softsens Bath Soap Rase"
   },
   {
     "id": 5089,
     "title": "Softsens Body Lotion 200Ml",
     "slug": "softsens-body-lotion-200ml",
-    "price": 170.0,
+    "price": 170,
     "image": "/images/products/softsens-body-lotion-200ml.jpg",
     "stock": 6,
     "description": "Softsens Body Lotion 200Ml - High quality personal care product.",
@@ -16727,13 +17921,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5089
+    "rank": 5089,
+    "name": "Softsens Body Lotion 200Ml"
   },
   {
     "id": 5090,
     "title": "Softsens Body Lotion 400Ml",
     "slug": "softsens-body-lotion-400ml",
-    "price": 375.0,
+    "price": 375,
     "image": "/images/products/softsens-body-lotion-400ml.jpg",
     "stock": 6,
     "description": "Softsens Body Lotion 400Ml - High quality personal care product.",
@@ -16741,13 +17936,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5090
+    "rank": 5090,
+    "name": "Softsens Body Lotion 400Ml"
   },
   {
     "id": 5091,
     "title": "Softsens Body Sorbet Moist",
     "slug": "softsens-body-sorbet-moist",
-    "price": 250.0,
+    "price": 250,
     "image": "/images/products/softsens-body-sorbet-moist.jpg",
     "stock": 6,
     "description": "Softsens Body Sorbet Moist - High quality personal care product.",
@@ -16755,13 +17951,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5091
+    "rank": 5091,
+    "name": "Softsens Body Sorbet Moist"
   },
   {
     "id": 5092,
     "title": "Softsens Cream Bar",
     "slug": "softsens-cream-bar",
-    "price": 210.0,
+    "price": 210,
     "image": "/images/products/softsens-cream-bar.jpg",
     "stock": 12,
     "description": "Softsens Cream Bar - High quality personal care product.",
@@ -16769,13 +17966,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5092
+    "rank": 5092,
+    "name": "Softsens Cream Bar"
   },
   {
     "id": 5094,
     "title": "Softsens Soap Creamy",
     "slug": "softsens-soap-creamy",
-    "price": 180.0,
+    "price": 180,
     "image": "/images/products/softsens-soap-creamy.jpg",
     "stock": 12,
     "description": "Softsens Soap Creamy - High quality personal care product.",
@@ -16783,13 +17981,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5094
+    "rank": 5094,
+    "name": "Softsens Soap Creamy"
   },
   {
     "id": 5095,
     "title": "Softsens Soap Lime",
     "slug": "softsens-soap-lime",
-    "price": 120.0,
+    "price": 120,
     "image": "/images/products/softsens-soap-lime.jpg",
     "stock": 24,
     "description": "Softsens Soap Lime - High quality personal care product.",
@@ -16797,13 +17996,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5095
+    "rank": 5095,
+    "name": "Softsens Soap Lime"
   },
   {
     "id": 5096,
     "title": "Softsens Sunblock Cream",
     "slug": "softsens-sunblock-cream",
-    "price": 235.0,
+    "price": 235,
     "image": "/images/products/softsens-sunblock-cream.jpg",
     "stock": 6,
     "description": "Softsens Sunblock Cream - High quality personal care product.",
@@ -16811,13 +18011,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5096
+    "rank": 5096,
+    "name": "Softsens Sunblock Cream"
   },
   {
     "id": 5108,
     "title": "Sonic+ Toilate Brush",
     "slug": "sonic-toilate-brush",
-    "price": 70.0,
+    "price": 70,
     "image": "/images/products/sonic-toilate-brush.jpg",
     "stock": 11,
     "description": "Sonic+ Toilate Brush - High quality personal care product.",
@@ -16825,13 +18026,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5108
+    "rank": 5108,
+    "name": "Sonic+ Toilate Brush"
   },
   {
     "id": 5130,
     "title": "Spotzero Brush Ds",
     "slug": "spotzero-brush-ds",
-    "price": 130.0,
+    "price": 130,
     "image": "/images/products/spotzero-brush-ds.jpg",
     "stock": 5,
     "description": "Spotzero Brush Ds - High quality personal care product.",
@@ -16839,13 +18041,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5130
+    "rank": 5130,
+    "name": "Spotzero Brush Ds"
   },
   {
     "id": 5134,
     "title": "Spotzero Caddy Round Brush",
     "slug": "spotzero-caddy-round-brush",
-    "price": 250.0,
+    "price": 250,
     "image": "/images/products/spotzero-caddy-round-brush.jpg",
     "stock": 4,
     "description": "Spotzero Caddy Round Brush - High quality personal care product.",
@@ -16853,13 +18056,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5134
+    "rank": 5134,
+    "name": "Spotzero Caddy Round Brush"
   },
   {
     "id": 5140,
     "title": "Spotzero F&T Brush",
     "slug": "spotzero-ft-brush",
-    "price": 280.0,
+    "price": 280,
     "image": "/images/products/spotzero-ft-brush.jpg",
     "stock": 2,
     "description": "Spotzero F&T Brush - High quality personal care product.",
@@ -16867,13 +18071,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5140
+    "rank": 5140,
+    "name": "Spotzero F&T Brush"
   },
   {
     "id": 5170,
     "title": "Spring Rosted Chilli Oil",
     "slug": "spring-rosted-chilli-oil",
-    "price": 399.0,
+    "price": 399,
     "image": "/images/products/spring-rosted-chilli-oil.jpg",
     "stock": 2,
     "description": "Spring Rosted Chilli Oil - High quality personal care product.",
@@ -16881,13 +18086,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5170
+    "rank": 5170,
+    "name": "Spring Rosted Chilli Oil"
   },
   {
     "id": 5181,
     "title": "Stan Fresh Dish Wash 500+500Ml",
     "slug": "stan-fresh-dish-wash-500500ml",
-    "price": 169.0,
+    "price": 169,
     "image": "/images/products/stan-fresh-dish-wash-500500ml.jpg",
     "stock": 3,
     "description": "Stan Fresh Dish Wash 500+500Ml - High quality personal care product.",
@@ -16895,13 +18101,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5181
+    "rank": 5181,
+    "name": "Stan Fresh Dish Wash 500+500Ml"
   },
   {
     "id": 5184,
     "title": "Stan Fresh Dw Gel 2L",
     "slug": "stan-fresh-dw-gel-2l",
-    "price": 249.0,
+    "price": 249,
     "image": "/images/products/stan-fresh-dw-gel-2l.jpg",
     "stock": 3,
     "description": "Stan Fresh Dw Gel 2L - High quality personal care product.",
@@ -16909,13 +18116,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5184
+    "rank": 5184,
+    "name": "Stan Fresh Dw Gel 2L"
   },
   {
     "id": 5188,
     "title": "Stan Fresh Gel Refill 500Ml",
     "slug": "stan-fresh-gel-refill-500ml",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/stan-fresh-gel-refill-500ml.jpg",
     "stock": 8,
     "description": "Stan Fresh Gel Refill 500Ml - High quality personal care product.",
@@ -16923,13 +18131,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5188
+    "rank": 5188,
+    "name": "Stan Fresh Gel Refill 500Ml"
   },
   {
     "id": 5190,
     "title": "Stan Fresh Hand Wash 500Ml",
     "slug": "stan-fresh-hand-wash-500ml",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/stan-fresh-hand-wash-500ml.jpg",
     "stock": 9,
     "description": "Stan Fresh Hand Wash 500Ml - High quality personal care product.",
@@ -16937,13 +18146,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5190
+    "rank": 5190,
+    "name": "Stan Fresh Hand Wash 500Ml"
   },
   {
     "id": 5224,
     "title": "Steax Hair Serum Canvo",
     "slug": "steax-hair-serum-canvo",
-    "price": 435.0,
+    "price": 435,
     "image": "/images/products/steax-hair-serum-canvo.jpg",
     "stock": 12,
     "description": "Steax Hair Serum Canvo - High quality personal care product.",
@@ -16951,13 +18161,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5224
+    "rank": 5224,
+    "name": "Steax Hair Serum Canvo"
   },
   {
     "id": 5225,
     "title": "Streax Hair Serum 115Ml",
     "slug": "streax-hair-serum-115ml",
-    "price": 320.0,
+    "price": 320,
     "image": "/images/products/streax-hair-serum-115ml.jpg",
     "stock": 23,
     "description": "Streax Hair Serum 115Ml - High quality personal care product.",
@@ -16965,13 +18176,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5225
+    "rank": 5225,
+    "name": "Streax Hair Serum 115Ml"
   },
   {
     "id": 5226,
     "title": "Streax Hair Serum 200Ml",
     "slug": "streax-hair-serum-200ml",
-    "price": 475.0,
+    "price": 475,
     "image": "/images/products/streax-hair-serum-200ml.jpg",
     "stock": 11,
     "description": "Streax Hair Serum 200Ml - High quality personal care product.",
@@ -16979,13 +18191,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5226
+    "rank": 5226,
+    "name": "Streax Hair Serum 200Ml"
   },
   {
     "id": 5227,
     "title": "Streax Hair Serum 45Ml",
     "slug": "streax-hair-serum-45ml",
-    "price": 140.0,
+    "price": 140,
     "image": "/images/products/streax-hair-serum-45ml.jpg",
     "stock": 22,
     "description": "Streax Hair Serum 45Ml - High quality personal care product.",
@@ -16993,13 +18206,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5227
+    "rank": 5227,
+    "name": "Streax Hair Serum 45Ml"
   },
   {
     "id": 5248,
     "title": "Sugar Pop Vitamin C Face Wash",
     "slug": "sugar-pop-vitamin-c-face-wash",
-    "price": 159.0,
+    "price": 159,
     "image": "/images/products/sugar-pop-vitamin-c-face-wash.jpg",
     "stock": 6,
     "description": "Sugar Pop Vitamin C Face Wash - High quality personal care product.",
@@ -17007,13 +18221,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5248
+    "rank": 5248,
+    "name": "Sugar Pop Vitamin C Face Wash"
   },
   {
     "id": 5253,
     "title": "Sundrop Peanut Butter Creamy",
     "slug": "sundrop-peanut-butter-creamy",
-    "price": 150.0,
+    "price": 150,
     "image": "/images/products/sundrop-peanut-butter-creamy.jpg",
     "stock": 2,
     "description": "Sundrop Peanut Butter Creamy - High quality personal care product.",
@@ -17021,13 +18236,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5253
+    "rank": 5253,
+    "name": "Sundrop Peanut Butter Creamy"
   },
   {
     "id": 5254,
     "title": "Sundrop Peanut Butter Creamy 200G",
     "slug": "sundrop-peanut-butter-creamy-200g",
-    "price": 75.0,
+    "price": 75,
     "image": "/images/products/sundrop-peanut-butter-creamy-200g.jpg",
     "stock": 1,
     "description": "Sundrop Peanut Butter Creamy 200G - High quality personal care product.",
@@ -17035,13 +18251,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5254
+    "rank": 5254,
+    "name": "Sundrop Peanut Butter Creamy 200G"
   },
   {
     "id": 5257,
     "title": "Sundrop Sunflower Oil 2L",
     "slug": "sundrop-sunflower-oil-2l",
-    "price": 420.0,
+    "price": 420,
     "image": "/images/products/sundrop-sunflower-oil-2l.jpg",
     "stock": 4,
     "description": "Sundrop Sunflower Oil 2L - High quality personal care product.",
@@ -17049,13 +18266,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5257
+    "rank": 5257,
+    "name": "Sundrop Sunflower Oil 2L"
   },
   {
     "id": 5258,
     "title": "Sundrop Superlite Oil 1Lp",
     "slug": "sundrop-superlite-oil-1lp",
-    "price": 240.0,
+    "price": 240,
     "image": "/images/products/sundrop-superlite-oil-1lp.jpg",
     "stock": 16,
     "description": "Sundrop Superlite Oil 1Lp - High quality personal care product.",
@@ -17063,13 +18281,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5258
+    "rank": 5258,
+    "name": "Sundrop Superlite Oil 1Lp"
   },
   {
     "id": 5259,
     "title": "Sundrop Superlite Oil 3L",
     "slug": "sundrop-superlite-oil-3l",
-    "price": 639.0,
+    "price": 639,
     "image": "/images/products/sundrop-superlite-oil-3l.jpg",
     "stock": 2,
     "description": "Sundrop Superlite Oil 3L - High quality personal care product.",
@@ -17077,13 +18296,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5259
+    "rank": 5259,
+    "name": "Sundrop Superlite Oil 3L"
   },
   {
     "id": 5260,
     "title": "Sundrop Superlite Oil 5L",
     "slug": "sundrop-superlite-oil-5l",
-    "price": 1340.0,
+    "price": 1340,
     "image": "/images/products/sundrop-superlite-oil-5l.jpg",
     "stock": 2,
     "description": "Sundrop Superlite Oil 5L - High quality personal care product.",
@@ -17091,13 +18311,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5260
+    "rank": 5260,
+    "name": "Sundrop Superlite Oil 5L"
   },
   {
     "id": 5261,
     "title": "Sunsilk Argan Oil Shampoo 195Ml",
     "slug": "sunsilk-argan-oil-shampoo-195ml",
-    "price": 170.0,
+    "price": 170,
     "image": "/images/products/sunsilk-argan-oil-shampoo-195ml.jpg",
     "stock": 2,
     "description": "Sunsilk Argan Oil Shampoo 195Ml - High quality personal care product.",
@@ -17105,13 +18326,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5261
+    "rank": 5261,
+    "name": "Sunsilk Argan Oil Shampoo 195Ml"
   },
   {
     "id": 5279,
     "title": "Surf Excel Easy Wash 1Kg",
     "slug": "surf-excel-easy-wash-1kg",
-    "price": 144.0,
+    "price": 144,
     "image": "/images/products/surf-excel-easy-wash-1kg.jpg",
     "stock": 16,
     "description": "Surf Excel Easy Wash 1Kg - High quality personal care product.",
@@ -17119,13 +18341,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5279
+    "rank": 5279,
+    "name": "Surf Excel Easy Wash 1Kg"
   },
   {
     "id": 5280,
     "title": "Surf Excel Easy Wash 3Kg",
     "slug": "surf-excel-easy-wash-3kg",
-    "price": 390.0,
+    "price": 390,
     "image": "/images/products/surf-excel-easy-wash-3kg.jpg",
     "stock": 4,
     "description": "Surf Excel Easy Wash 3Kg - High quality personal care product.",
@@ -17133,13 +18356,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5280
+    "rank": 5280,
+    "name": "Surf Excel Easy Wash 3Kg"
   },
   {
     "id": 5281,
     "title": "Surf Excel Easy Wash 500G",
     "slug": "surf-excel-easy-wash-500g",
-    "price": 72.0,
+    "price": 72,
     "image": "/images/products/surf-excel-easy-wash-500g.jpg",
     "stock": 11,
     "description": "Surf Excel Easy Wash 500G - High quality personal care product.",
@@ -17147,13 +18371,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5281
+    "rank": 5281,
+    "name": "Surf Excel Easy Wash 500G"
   },
   {
     "id": 5287,
     "title": "Surf Excel Quick Wash 1Kg",
     "slug": "surf-excel-quick-wash-1kg",
-    "price": 230.0,
+    "price": 230,
     "image": "/images/products/surf-excel-quick-wash-1kg.jpg",
     "stock": 2,
     "description": "Surf Excel Quick Wash 1Kg - High quality personal care product.",
@@ -17161,13 +18386,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5287
+    "rank": 5287,
+    "name": "Surf Excel Quick Wash 1Kg"
   },
   {
     "id": 5288,
     "title": "Surf Excel Quick Wash 500G",
     "slug": "surf-excel-quick-wash-500g",
-    "price": 115.0,
+    "price": 115,
     "image": "/images/products/surf-excel-quick-wash-500g.jpg",
     "stock": 5,
     "description": "Surf Excel Quick Wash 500G - High quality personal care product.",
@@ -17175,13 +18401,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5288
+    "rank": 5288,
+    "name": "Surf Excel Quick Wash 500G"
   },
   {
     "id": 5320,
     "title": "Tdc Beginner Face Peeling Solution",
     "slug": "tdc-beginner-face-peeling-solution",
-    "price": 499.0,
+    "price": 499,
     "image": "/images/products/tdc-beginner-face-peeling-solution.jpg",
     "stock": 3,
     "description": "Tdc Beginner Face Peeling Solution - High quality personal care product.",
@@ -17189,13 +18416,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5320
+    "rank": 5320,
+    "name": "Tdc Beginner Face Peeling Solution"
   },
   {
     "id": 5321,
     "title": "Tdc Hyaluronc Ag Sunscreen 30G",
     "slug": "tdc-hyaluronc-ag-sunscreen-30g",
-    "price": 299.0,
+    "price": 299,
     "image": "/images/products/tdc-hyaluronc-ag-sunscreen-30g.jpg",
     "stock": 2,
     "description": "Tdc Hyaluronc Ag Sunscreen 30G - High quality personal care product.",
@@ -17203,13 +18431,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5321
+    "rank": 5321,
+    "name": "Tdc Hyaluronc Ag Sunscreen 30G"
   },
   {
     "id": 5322,
     "title": "Tdc Hyaluronc Aqua Gel Sunscreen",
     "slug": "tdc-hyaluronc-aqua-gel-sunscreen",
-    "price": 649.0,
+    "price": 649,
     "image": "/images/products/tdc-hyaluronc-aqua-gel-sunscreen.jpg",
     "stock": 2,
     "description": "Tdc Hyaluronc Aqua Gel Sunscreen - High quality personal care product.",
@@ -17217,13 +18446,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5322
+    "rank": 5322,
+    "name": "Tdc Hyaluronc Aqua Gel Sunscreen"
   },
   {
     "id": 5323,
     "title": "Tdc Hyaluronic Sunscreen Spf50",
     "slug": "tdc-hyaluronic-sunscreen-spf50",
-    "price": 499.0,
+    "price": 499,
     "image": "/images/products/tdc-hyaluronic-sunscreen-spf50.jpg",
     "stock": 6,
     "description": "Tdc Hyaluronic Sunscreen Spf50 - High quality personal care product.",
@@ -17231,13 +18461,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5323
+    "rank": 5323,
+    "name": "Tdc Hyaluronic Sunscreen Spf50"
   },
   {
     "id": 5324,
     "title": "Tdc Hyaluronic Sunscreen Spf60",
     "slug": "tdc-hyaluronic-sunscreen-spf60",
-    "price": 699.0,
+    "price": 699,
     "image": "/images/products/tdc-hyaluronic-sunscreen-spf60.jpg",
     "stock": 1,
     "description": "Tdc Hyaluronic Sunscreen Spf60 - High quality personal care product.",
@@ -17245,13 +18476,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5324
+    "rank": 5324,
+    "name": "Tdc Hyaluronic Sunscreen Spf60"
   },
   {
     "id": 5325,
     "title": "Tdc Hyaluronic Tint Sunscreen Spf60",
     "slug": "tdc-hyaluronic-tint-sunscreen-spf60",
-    "price": 499.0,
+    "price": 499,
     "image": "/images/products/tdc-hyaluronic-tint-sunscreen-spf60.jpg",
     "stock": 2,
     "description": "Tdc Hyaluronic Tint Sunscreen Spf60 - High quality personal care product.",
@@ -17259,13 +18491,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5325
+    "rank": 5325,
+    "name": "Tdc Hyaluronic Tint Sunscreen Spf60"
   },
   {
     "id": 5326,
     "title": "Tdc Kojic Acid Face Cream",
     "slug": "tdc-kojic-acid-face-cream",
-    "price": 499.0,
+    "price": 499,
     "image": "/images/products/tdc-kojic-acid-face-cream.jpg",
     "stock": 3,
     "description": "Tdc Kojic Acid Face Cream - High quality personal care product.",
@@ -17273,13 +18506,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5326
+    "rank": 5326,
+    "name": "Tdc Kojic Acid Face Cream"
   },
   {
     "id": 5327,
     "title": "Tdc Kojic Acid Face Serum",
     "slug": "tdc-kojic-acid-face-serum",
-    "price": 499.0,
+    "price": 499,
     "image": "/images/products/tdc-kojic-acid-face-serum.jpg",
     "stock": 5,
     "description": "Tdc Kojic Acid Face Serum - High quality personal care product.",
@@ -17287,13 +18521,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5327
+    "rank": 5327,
+    "name": "Tdc Kojic Acid Face Serum"
   },
   {
     "id": 5328,
     "title": "Tdc Kojic Acid Face Wash",
     "slug": "tdc-kojic-acid-face-wash",
-    "price": 299.0,
+    "price": 299,
     "image": "/images/products/tdc-kojic-acid-face-wash.jpg",
     "stock": 1,
     "description": "Tdc Kojic Acid Face Wash - High quality personal care product.",
@@ -17301,13 +18536,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5328
+    "rank": 5328,
+    "name": "Tdc Kojic Acid Face Wash"
   },
   {
     "id": 5329,
     "title": "Tdc Niacinamide Face Serum",
     "slug": "tdc-niacinamide-face-serum",
-    "price": 499.0,
+    "price": 499,
     "image": "/images/products/tdc-niacinamide-face-serum.jpg",
     "stock": 3,
     "description": "Tdc Niacinamide Face Serum - High quality personal care product.",
@@ -17315,13 +18551,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5329
+    "rank": 5329,
+    "name": "Tdc Niacinamide Face Serum"
   },
   {
     "id": 5331,
     "title": "Tdc Niacinamide Oily Skin Cleanser",
     "slug": "tdc-niacinamide-oily-skin-cleanser",
-    "price": 299.0,
+    "price": 299,
     "image": "/images/products/tdc-niacinamide-oily-skin-cleanser.jpg",
     "stock": 3,
     "description": "Tdc Niacinamide Oily Skin Cleanser - High quality personal care product.",
@@ -17329,13 +18566,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5331
+    "rank": 5331,
+    "name": "Tdc Niacinamide Oily Skin Cleanser"
   },
   {
     "id": 5332,
     "title": "Tdc Niacinamide Serum",
     "slug": "tdc-niacinamide-serum",
-    "price": 599.0,
+    "price": 599,
     "image": "/images/products/tdc-niacinamide-serum.jpg",
     "stock": 2,
     "description": "Tdc Niacinamide Serum - High quality personal care product.",
@@ -17343,13 +18581,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5332
+    "rank": 5332,
+    "name": "Tdc Niacinamide Serum"
   },
   {
     "id": 5333,
     "title": "Tdc Por Minimizing Face Serum",
     "slug": "tdc-por-minimizing-face-serum",
-    "price": 599.0,
+    "price": 599,
     "image": "/images/products/tdc-por-minimizing-face-serum.jpg",
     "stock": 3,
     "description": "Tdc Por Minimizing Face Serum - High quality personal care product.",
@@ -17357,13 +18596,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5333
+    "rank": 5333,
+    "name": "Tdc Por Minimizing Face Serum"
   },
   {
     "id": 5334,
     "title": "Tdc Pore Minimizing Sunscreen",
     "slug": "tdc-pore-minimizing-sunscreen",
-    "price": 449.0,
+    "price": 449,
     "image": "/images/products/tdc-pore-minimizing-sunscreen.jpg",
     "stock": 2,
     "description": "Tdc Pore Minimizing Sunscreen - High quality personal care product.",
@@ -17371,13 +18611,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5334
+    "rank": 5334,
+    "name": "Tdc Pore Minimizing Sunscreen"
   },
   {
     "id": 5335,
     "title": "Tdc Sali-Cinamide Face Serum",
     "slug": "tdc-sali-cinamide-face-serum",
-    "price": 599.0,
+    "price": 599,
     "image": "/images/products/tdc-sali-cinamide-face-serum.jpg",
     "stock": 5,
     "description": "Tdc Sali-Cinamide Face Serum - High quality personal care product.",
@@ -17385,13 +18626,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5335
+    "rank": 5335,
+    "name": "Tdc Sali-Cinamide Face Serum"
   },
   {
     "id": 5337,
     "title": "Tdc Salicylic Acid Face Serum",
     "slug": "tdc-salicylic-acid-face-serum",
-    "price": 499.0,
+    "price": 499,
     "image": "/images/products/tdc-salicylic-acid-face-serum.jpg",
     "stock": 5,
     "description": "Tdc Salicylic Acid Face Serum - High quality personal care product.",
@@ -17399,13 +18641,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5337
+    "rank": 5337,
+    "name": "Tdc Salicylic Acid Face Serum"
   },
   {
     "id": 5339,
     "title": "Tdc Ultra Matte Sunscreen Gel Spf60",
     "slug": "tdc-ultra-matte-sunscreen-gel-spf60",
-    "price": 699.0,
+    "price": 699,
     "image": "/images/products/tdc-ultra-matte-sunscreen-gel-spf60.jpg",
     "stock": 3,
     "description": "Tdc Ultra Matte Sunscreen Gel Spf60 - High quality personal care product.",
@@ -17413,13 +18656,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5339
+    "rank": 5339,
+    "name": "Tdc Ultra Matte Sunscreen Gel Spf60"
   },
   {
     "id": 5340,
     "title": "Tdc Vitamin C Face Serum",
     "slug": "tdc-vitamin-c-face-serum",
-    "price": 649.0,
+    "price": 649,
     "image": "/images/products/tdc-vitamin-c-face-serum.jpg",
     "stock": 3,
     "description": "Tdc Vitamin C Face Serum - High quality personal care product.",
@@ -17427,13 +18671,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5340
+    "rank": 5340,
+    "name": "Tdc Vitamin C Face Serum"
   },
   {
     "id": 5369,
     "title": "The Body Shop Tea Tree Body Wash",
     "slug": "the-body-shop-tea-tree-body-wash",
-    "price": 795.0,
+    "price": 795,
     "image": "/images/products/the-body-shop-tea-tree-body-wash.jpg",
     "stock": 1,
     "description": "The Body Shop Tea Tree Body Wash - High quality personal care product.",
@@ -17441,13 +18686,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5369
+    "rank": 5369,
+    "name": "The Body Shop Tea Tree Body Wash"
   },
   {
     "id": 5411,
     "title": "Tiffy Crunch & Cream",
     "slug": "tiffy-crunch-cream",
-    "price": 100.0,
+    "price": 100,
     "image": "/images/products/tiffy-crunch-cream.jpg",
     "stock": 1,
     "description": "Tiffy Crunch & Cream - High quality personal care product.",
@@ -17455,13 +18701,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5411
+    "rank": 5411,
+    "name": "Tiffy Crunch & Cream"
   },
   {
     "id": 5412,
     "title": "Tilraj Til Oil 1Ltr",
     "slug": "tilraj-til-oil-1ltr",
-    "price": 430.0,
+    "price": 430,
     "image": "/images/products/tilraj-til-oil-1ltr.jpg",
     "stock": 3,
     "description": "Tilraj Til Oil 1Ltr - High quality personal care product.",
@@ -17469,13 +18716,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5412
+    "rank": 5412,
+    "name": "Tilraj Til Oil 1Ltr"
   },
   {
     "id": 5472,
     "title": "Trishul Dish Wash Bar",
     "slug": "trishul-dish-wash-bar",
-    "price": 30.0,
+    "price": 30,
     "image": "/images/products/trishul-dish-wash-bar.jpg",
     "stock": 11,
     "description": "Trishul Dish Wash Bar - High quality personal care product.",
@@ -17483,13 +18731,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5472
+    "rank": 5472,
+    "name": "Trishul Dish Wash Bar"
   },
   {
     "id": 5473,
     "title": "Trishul Dish Wash Tub",
     "slug": "trishul-dish-wash-tub",
-    "price": 65.0,
+    "price": 65,
     "image": "/images/products/trishul-dish-wash-tub.jpg",
     "stock": 12,
     "description": "Trishul Dish Wash Tub - High quality personal care product.",
@@ -17497,13 +18746,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5473
+    "rank": 5473,
+    "name": "Trishul Dish Wash Tub"
   },
   {
     "id": 5480,
     "title": "Trishul Ultra Wash Powder",
     "slug": "trishul-ultra-wash-powder",
-    "price": 75.0,
+    "price": 75,
     "image": "/images/products/trishul-ultra-wash-powder.jpg",
     "stock": 12,
     "description": "Trishul Ultra Wash Powder - High quality personal care product.",
@@ -17511,13 +18761,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5480
+    "rank": 5480,
+    "name": "Trishul Ultra Wash Powder"
   },
   {
     "id": 5553,
     "title": "V Wash 100Ml",
     "slug": "v-wash-100ml",
-    "price": 185.0,
+    "price": 185,
     "image": "/images/products/v-wash-100ml.jpg",
     "stock": 2,
     "description": "V Wash 100Ml - High quality personal care product.",
@@ -17525,13 +18776,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5553
+    "rank": 5553,
+    "name": "V Wash 100Ml"
   },
   {
     "id": 5554,
     "title": "V Wash 20Ml",
     "slug": "v-wash-20ml",
-    "price": 47.0,
+    "price": 47,
     "image": "/images/products/v-wash-20ml.jpg",
     "stock": 4,
     "description": "V Wash 20Ml - High quality personal care product.",
@@ -17539,13 +18791,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5554
+    "rank": 5554,
+    "name": "V Wash 20Ml"
   },
   {
     "id": 5566,
     "title": "Vanesa Body Deo 150Ml",
     "slug": "vanesa-body-deo-150ml",
-    "price": 200.0,
+    "price": 200,
     "image": "/images/products/vanesa-body-deo-150ml.jpg",
     "stock": 14,
     "description": "Vanesa Body Deo 150Ml - High quality personal care product.",
@@ -17553,13 +18806,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5566
+    "rank": 5566,
+    "name": "Vanesa Body Deo 150Ml"
   },
   {
     "id": 5569,
     "title": "Vanesa Temptation Body Deo 150Ml",
     "slug": "vanesa-temptation-body-deo-150ml",
-    "price": 175.0,
+    "price": 175,
     "image": "/images/products/vanesa-temptation-body-deo-150ml.jpg",
     "stock": 9,
     "description": "Vanesa Temptation Body Deo 150Ml - High quality personal care product.",
@@ -17567,13 +18821,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5569
+    "rank": 5569,
+    "name": "Vanesa Temptation Body Deo 150Ml"
   },
   {
     "id": 5580,
     "title": "Vaseline Aloe Fresh Lotion",
     "slug": "vaseline-aloe-fresh-lotion",
-    "price": 250.0,
+    "price": 250,
     "image": "/images/products/vaseline-aloe-fresh-lotion.jpg",
     "stock": 3,
     "description": "Vaseline Aloe Fresh Lotion - High quality personal care product.",
@@ -17581,13 +18836,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5580
+    "rank": 5580,
+    "name": "Vaseline Aloe Fresh Lotion"
   },
   {
     "id": 5581,
     "title": "Vaseline Aloe Fresh Lotion 400Ml",
     "slug": "vaseline-aloe-fresh-lotion-400ml",
-    "price": 540.0,
+    "price": 540,
     "image": "/images/products/vaseline-aloe-fresh-lotion-400ml.jpg",
     "stock": 3,
     "description": "Vaseline Aloe Fresh Lotion 400Ml - High quality personal care product.",
@@ -17595,13 +18851,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5581
+    "rank": 5581,
+    "name": "Vaseline Aloe Fresh Lotion 400Ml"
   },
   {
     "id": 5582,
     "title": "Vaseline Cocoa Gelly",
     "slug": "vaseline-cocoa-gelly",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/vaseline-cocoa-gelly.jpg",
     "stock": 3,
     "description": "Vaseline Cocoa Gelly - High quality personal care product.",
@@ -17609,13 +18866,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5582
+    "rank": 5582,
+    "name": "Vaseline Cocoa Gelly"
   },
   {
     "id": 5583,
     "title": "Vaseline Cocoa Glow Lotion",
     "slug": "vaseline-cocoa-glow-lotion",
-    "price": 230.0,
+    "price": 230,
     "image": "/images/products/vaseline-cocoa-glow-lotion.jpg",
     "stock": 2,
     "description": "Vaseline Cocoa Glow Lotion - High quality personal care product.",
@@ -17623,13 +18881,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5583
+    "rank": 5583,
+    "name": "Vaseline Cocoa Glow Lotion"
   },
   {
     "id": 5584,
     "title": "Vaseline Cocoa Glow Lotion 400Ml",
     "slug": "vaseline-cocoa-glow-lotion-400ml",
-    "price": 515.0,
+    "price": 515,
     "image": "/images/products/vaseline-cocoa-glow-lotion-400ml.jpg",
     "stock": 2,
     "description": "Vaseline Cocoa Glow Lotion 400Ml - High quality personal care product.",
@@ -17637,13 +18896,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5584
+    "rank": 5584,
+    "name": "Vaseline Cocoa Glow Lotion 400Ml"
   },
   {
     "id": 5585,
     "title": "Vaseline Cocoa Lotion 90Ml",
     "slug": "vaseline-cocoa-lotion-90ml",
-    "price": 105.0,
+    "price": 105,
     "image": "/images/products/vaseline-cocoa-lotion-90ml.jpg",
     "stock": 2,
     "description": "Vaseline Cocoa Lotion 90Ml - High quality personal care product.",
@@ -17651,13 +18911,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5585
+    "rank": 5585,
+    "name": "Vaseline Cocoa Lotion 90Ml"
   },
   {
     "id": 5586,
     "title": "Vaseline Daily Brightening Lotion 200Ml",
     "slug": "vaseline-daily-brightening-lotion-200ml",
-    "price": 260.0,
+    "price": 260,
     "image": "/images/products/vaseline-daily-brightening-lotion-200ml.jpg",
     "stock": 1,
     "description": "Vaseline Daily Brightening Lotion 200Ml - High quality personal care product.",
@@ -17665,13 +18926,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5586
+    "rank": 5586,
+    "name": "Vaseline Daily Brightening Lotion 200Ml"
   },
   {
     "id": 5587,
     "title": "Vaseline Daily Brightening Lotion 90Ml",
     "slug": "vaseline-daily-brightening-lotion-90ml",
-    "price": 125.0,
+    "price": 125,
     "image": "/images/products/vaseline-daily-brightening-lotion-90ml.jpg",
     "stock": 3,
     "description": "Vaseline Daily Brightening Lotion 90Ml - High quality personal care product.",
@@ -17679,13 +18941,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5587
+    "rank": 5587,
+    "name": "Vaseline Daily Brightening Lotion 90Ml"
   },
   {
     "id": 5588,
     "title": "Vaseline Daily Brightening Lotion Spf 3090Ml",
     "slug": "vaseline-daily-brightening-lotion-spf-3090ml",
-    "price": 149.0,
+    "price": 149,
     "image": "/images/products/vaseline-daily-brightening-lotion-spf-3090ml.jpg",
     "stock": 2,
     "description": "Vaseline Daily Brightening Lotion Spf 3090Ml - High quality personal care product.",
@@ -17693,13 +18956,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5588
+    "rank": 5588,
+    "name": "Vaseline Daily Brightening Lotion Spf 3090Ml"
   },
   {
     "id": 5634,
     "title": "Veeba Olive Oil Mayo",
     "slug": "veeba-olive-oil-mayo",
-    "price": 219.0,
+    "price": 219,
     "image": "/images/products/veeba-olive-oil-mayo.jpg",
     "stock": 3,
     "description": "Veeba Olive Oil Mayo - High quality personal care product.",
@@ -17707,13 +18971,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5634
+    "rank": 5634,
+    "name": "Veeba Olive Oil Mayo"
   },
   {
     "id": 5637,
     "title": "Veeba Peanut Butter Creamy 340G",
     "slug": "veeba-peanut-butter-creamy-340g",
-    "price": 219.0,
+    "price": 219,
     "image": "/images/products/veeba-peanut-butter-creamy-340g.jpg",
     "stock": 3,
     "description": "Veeba Peanut Butter Creamy 340G - High quality personal care product.",
@@ -17721,13 +18986,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5637
+    "rank": 5637,
+    "name": "Veeba Peanut Butter Creamy 340G"
   },
   {
     "id": 5638,
     "title": "Veeba Peanut Butter Creamy 925G",
     "slug": "veeba-peanut-butter-creamy-925g",
-    "price": 399.0,
+    "price": 399,
     "image": "/images/products/veeba-peanut-butter-creamy-925g.jpg",
     "stock": 2,
     "description": "Veeba Peanut Butter Creamy 925G - High quality personal care product.",
@@ -17735,13 +19001,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5638
+    "rank": 5638,
+    "name": "Veeba Peanut Butter Creamy 925G"
   },
   {
     "id": 5652,
     "title": "Veeba Select Creamy Caesr Dressing",
     "slug": "veeba-select-creamy-caesr-dressing",
-    "price": 189.0,
+    "price": 189,
     "image": "/images/products/veeba-select-creamy-caesr-dressing.jpg",
     "stock": 2,
     "description": "Veeba Select Creamy Caesr Dressing - High quality personal care product.",
@@ -17749,13 +19016,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5652
+    "rank": 5652,
+    "name": "Veeba Select Creamy Caesr Dressing"
   },
   {
     "id": 5666,
     "title": "Veet Cream 30G",
     "slug": "veet-cream-30g",
-    "price": 109.0,
+    "price": 109,
     "image": "/images/products/veet-cream-30g.jpg",
     "stock": 9,
     "description": "Veet Cream 30G - High quality personal care product.",
@@ -17763,13 +19031,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5666
+    "rank": 5666,
+    "name": "Veet Cream 30G"
   },
   {
     "id": 5667,
     "title": "Veet Cream 50Gm",
     "slug": "veet-cream-50gm",
-    "price": 159.0,
+    "price": 159,
     "image": "/images/products/veet-cream-50gm.jpg",
     "stock": 9,
     "description": "Veet Cream 50Gm - High quality personal care product.",
@@ -17777,13 +19046,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5667
+    "rank": 5667,
+    "name": "Veet Cream 50Gm"
   },
   {
     "id": 5674,
     "title": "Vega Bath Brush Ba-12",
     "slug": "vega-bath-brush-ba-12",
-    "price": 375.0,
+    "price": 375,
     "image": "/images/products/vega-bath-brush-ba-12.jpg",
     "stock": 1,
     "description": "Vega Bath Brush Ba-12 - High quality personal care product.",
@@ -17791,13 +19061,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5674
+    "rank": 5674,
+    "name": "Vega Bath Brush Ba-12"
   },
   {
     "id": 5676,
     "title": "Vega Hair Brush 8586",
     "slug": "vega-hair-brush-8586",
-    "price": 475.0,
+    "price": 475,
     "image": "/images/products/vega-hair-brush-8586.jpg",
     "stock": 1,
     "description": "Vega Hair Brush 8586 - High quality personal care product.",
@@ -17805,13 +19076,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5676
+    "rank": 5676,
+    "name": "Vega Hair Brush 8586"
   },
   {
     "id": 5677,
     "title": "Vega Hair Brush E10-Fb",
     "slug": "vega-hair-brush-e10-fb",
-    "price": 360.0,
+    "price": 360,
     "image": "/images/products/vega-hair-brush-e10-fb.jpg",
     "stock": 1,
     "description": "Vega Hair Brush E10-Fb - High quality personal care product.",
@@ -17819,13 +19091,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5677
+    "rank": 5677,
+    "name": "Vega Hair Brush E10-Fb"
   },
   {
     "id": 5678,
     "title": "Vega Hair Brush E18-Cb",
     "slug": "vega-hair-brush-e18-cb",
-    "price": 425.0,
+    "price": 425,
     "image": "/images/products/vega-hair-brush-e18-cb.jpg",
     "stock": 1,
     "description": "Vega Hair Brush E18-Cb - High quality personal care product.",
@@ -17833,13 +19106,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5678
+    "rank": 5678,
+    "name": "Vega Hair Brush E18-Cb"
   },
   {
     "id": 5679,
     "title": "Vega Hair Brush E18-Fb",
     "slug": "vega-hair-brush-e18-fb",
-    "price": 399.0,
+    "price": 399,
     "image": "/images/products/vega-hair-brush-e18-fb.jpg",
     "stock": 3,
     "description": "Vega Hair Brush E18-Fb - High quality personal care product.",
@@ -17847,13 +19121,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5679
+    "rank": 5679,
+    "name": "Vega Hair Brush E18-Fb"
   },
   {
     "id": 5680,
     "title": "Vega Hair Brush E18-Pb",
     "slug": "vega-hair-brush-e18-pb",
-    "price": 450.0,
+    "price": 450,
     "image": "/images/products/vega-hair-brush-e18-pb.jpg",
     "stock": 2,
     "description": "Vega Hair Brush E18-Pb - High quality personal care product.",
@@ -17861,13 +19136,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5680
+    "rank": 5680,
+    "name": "Vega Hair Brush E18-Pb"
   },
   {
     "id": 5681,
     "title": "Vega Hair Brush E5-Cb",
     "slug": "vega-hair-brush-e5-cb",
-    "price": 375.0,
+    "price": 375,
     "image": "/images/products/vega-hair-brush-e5-cb.jpg",
     "stock": 1,
     "description": "Vega Hair Brush E5-Cb - High quality personal care product.",
@@ -17875,13 +19151,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5681
+    "rank": 5681,
+    "name": "Vega Hair Brush E5-Cb"
   },
   {
     "id": 5682,
     "title": "Vega Hair Brush Fb-10R",
     "slug": "vega-hair-brush-fb-10r",
-    "price": 260.0,
+    "price": 260,
     "image": "/images/products/vega-hair-brush-fb-10r.jpg",
     "stock": 1,
     "description": "Vega Hair Brush Fb-10R - High quality personal care product.",
@@ -17889,13 +19166,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5682
+    "rank": 5682,
+    "name": "Vega Hair Brush Fb-10R"
   },
   {
     "id": 5683,
     "title": "Vega Hair Brush R1-Fb",
     "slug": "vega-hair-brush-r1-fb",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/vega-hair-brush-r1-fb.jpg",
     "stock": 1,
     "description": "Vega Hair Brush R1-Fb - High quality personal care product.",
@@ -17903,13 +19181,14 @@ const products = [
     "unit": "mlPC",
     "category": "personal-care",
     "popular": false,
-    "rank": 5683
+    "rank": 5683,
+    "name": "Vega Hair Brush R1-Fb"
   },
   {
     "id": 5684,
     "title": "Vega Hair Brush R11-Fb",
     "slug": "vega-hair-brush-r11-fb",
-    "price": 275.0,
+    "price": 275,
     "image": "/images/products/vega-hair-brush-r11-fb.jpg",
     "stock": 1,
     "description": "Vega Hair Brush R11-Fb - High quality personal care product.",
@@ -17917,13 +19196,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5684
+    "rank": 5684,
+    "name": "Vega Hair Brush R11-Fb"
   },
   {
     "id": 5685,
     "title": "Vega Hair Brush R3-Cb",
     "slug": "vega-hair-brush-r3-cb",
-    "price": 190.0,
+    "price": 190,
     "image": "/images/products/vega-hair-brush-r3-cb.jpg",
     "stock": 1,
     "description": "Vega Hair Brush R3-Cb - High quality personal care product.",
@@ -17931,13 +19211,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5685
+    "rank": 5685,
+    "name": "Vega Hair Brush R3-Cb"
   },
   {
     "id": 5686,
     "title": "Vega Hair Brush R5-Fb",
     "slug": "vega-hair-brush-r5-fb",
-    "price": 225.0,
+    "price": 225,
     "image": "/images/products/vega-hair-brush-r5-fb.jpg",
     "stock": 1,
     "description": "Vega Hair Brush R5-Fb - High quality personal care product.",
@@ -17945,13 +19226,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5686
+    "rank": 5686,
+    "name": "Vega Hair Brush R5-Fb"
   },
   {
     "id": 5687,
     "title": "Vega Hair Comb 1279",
     "slug": "vega-hair-comb-1279",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/vega-hair-comb-1279.jpg",
     "stock": 2,
     "description": "Vega Hair Comb 1279 - High quality personal care product.",
@@ -17959,13 +19241,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5687
+    "rank": 5687,
+    "name": "Vega Hair Comb 1279"
   },
   {
     "id": 5688,
     "title": "Vega Hair Comb Dc-1268H",
     "slug": "vega-hair-comb-dc-1268h",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/vega-hair-comb-dc-1268h.jpg",
     "stock": 2,
     "description": "Vega Hair Comb Dc-1268H - High quality personal care product.",
@@ -17973,13 +19256,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5688
+    "rank": 5688,
+    "name": "Vega Hair Comb Dc-1268H"
   },
   {
     "id": 5689,
     "title": "Vega Hair Comb Dc1299",
     "slug": "vega-hair-comb-dc1299",
-    "price": 160.0,
+    "price": 160,
     "image": "/images/products/vega-hair-comb-dc1299.jpg",
     "stock": 4,
     "description": "Vega Hair Comb Dc1299 - High quality personal care product.",
@@ -17987,13 +19271,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5689
+    "rank": 5689,
+    "name": "Vega Hair Comb Dc1299"
   },
   {
     "id": 5690,
     "title": "Vega Hair Comb Dzyne",
     "slug": "vega-hair-comb-dzyne",
-    "price": 150.0,
+    "price": 150,
     "image": "/images/products/vega-hair-comb-dzyne.jpg",
     "stock": 2,
     "description": "Vega Hair Comb Dzyne - High quality personal care product.",
@@ -18001,13 +19286,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5690
+    "rank": 5690,
+    "name": "Vega Hair Comb Dzyne"
   },
   {
     "id": 5691,
     "title": "Vega Hair Comb Han Dcrafted",
     "slug": "vega-hair-comb-han-dcrafted",
-    "price": 225.0,
+    "price": 225,
     "image": "/images/products/vega-hair-comb-han-dcrafted.jpg",
     "stock": 4,
     "description": "Vega Hair Comb Han Dcrafted - High quality personal care product.",
@@ -18015,13 +19301,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5691
+    "rank": 5691,
+    "name": "Vega Hair Comb Han Dcrafted"
   },
   {
     "id": 5692,
     "title": "Vega Hair Comb Regular",
     "slug": "vega-hair-comb-regular",
-    "price": 110.0,
+    "price": 110,
     "image": "/images/products/vega-hair-comb-regular.jpg",
     "stock": 6,
     "description": "Vega Hair Comb Regular - High quality personal care product.",
@@ -18029,13 +19316,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5692
+    "rank": 5692,
+    "name": "Vega Hair Comb Regular"
   },
   {
     "id": 5693,
     "title": "Vega Hair Comb Wooden",
     "slug": "vega-hair-comb-wooden",
-    "price": 190.0,
+    "price": 190,
     "image": "/images/products/vega-hair-comb-wooden.jpg",
     "stock": 11,
     "description": "Vega Hair Comb Wooden - High quality personal care product.",
@@ -18043,13 +19331,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5693
+    "rank": 5693,
+    "name": "Vega Hair Comb Wooden"
   },
   {
     "id": 5695,
     "title": "Vega Make-Up Brushes",
     "slug": "vega-make-up-brushes",
-    "price": 399.0,
+    "price": 399,
     "image": "/images/products/vega-make-up-brushes.jpg",
     "stock": 2,
     "description": "Vega Make-Up Brushes - High quality personal care product.",
@@ -18057,13 +19346,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5695
+    "rank": 5695,
+    "name": "Vega Make-Up Brushes"
   },
   {
     "id": 5696,
     "title": "Vega Mehndi Brush",
     "slug": "vega-mehndi-brush",
-    "price": 65.0,
+    "price": 65,
     "image": "/images/products/vega-mehndi-brush.jpg",
     "stock": 5,
     "description": "Vega Mehndi Brush - High quality personal care product.",
@@ -18071,13 +19361,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5696
+    "rank": 5696,
+    "name": "Vega Mehndi Brush"
   },
   {
     "id": 5733,
     "title": "Vicco Turmeric Skin Cream 15G",
     "slug": "vicco-turmeric-skin-cream-15g",
-    "price": 80.0,
+    "price": 80,
     "image": "/images/products/vicco-turmeric-skin-cream-15g.jpg",
     "stock": 2,
     "description": "Vicco Turmeric Skin Cream 15G - High quality personal care product.",
@@ -18085,13 +19376,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5733
+    "rank": 5733,
+    "name": "Vicco Turmeric Skin Cream 15G"
   },
   {
     "id": 5734,
     "title": "Vicco Turmeric Skin Cream 30G",
     "slug": "vicco-turmeric-skin-cream-30g",
-    "price": 145.0,
+    "price": 145,
     "image": "/images/products/vicco-turmeric-skin-cream-30g.jpg",
     "stock": 2,
     "description": "Vicco Turmeric Skin Cream 30G - High quality personal care product.",
@@ -18099,13 +19391,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5734
+    "rank": 5734,
+    "name": "Vicco Turmeric Skin Cream 30G"
   },
   {
     "id": 5762,
     "title": "Vim Liquid Gel 130Ml",
     "slug": "vim-liquid-gel-130ml",
-    "price": 20.0,
+    "price": 20,
     "image": "/images/products/vim-liquid-gel-130ml.jpg",
     "stock": 10,
     "description": "Vim Liquid Gel 130Ml - High quality personal care product.",
@@ -18113,13 +19406,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5762
+    "rank": 5762,
+    "name": "Vim Liquid Gel 130Ml"
   },
   {
     "id": 5790,
     "title": "Volini Gel 12G",
     "slug": "volini-gel-12g",
-    "price": 50.0,
+    "price": 50,
     "image": "/images/products/volini-gel-12g.jpg",
     "stock": 6,
     "description": "Volini Gel 12G - High quality personal care product.",
@@ -18127,13 +19421,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5790
+    "rank": 5790,
+    "name": "Volini Gel 12G"
   },
   {
     "id": 5791,
     "title": "Volini Gel 20G",
     "slug": "volini-gel-20g",
-    "price": 110.0,
+    "price": 110,
     "image": "/images/products/volini-gel-20g.jpg",
     "stock": 2,
     "description": "Volini Gel 20G - High quality personal care product.",
@@ -18141,13 +19436,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5791
+    "rank": 5791,
+    "name": "Volini Gel 20G"
   },
   {
     "id": 5792,
     "title": "Volini Gel 30G",
     "slug": "volini-gel-30g",
-    "price": 156.0,
+    "price": 156,
     "image": "/images/products/volini-gel-30g.jpg",
     "stock": 3,
     "description": "Volini Gel 30G - High quality personal care product.",
@@ -18155,13 +19451,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5792
+    "rank": 5792,
+    "name": "Volini Gel 30G"
   },
   {
     "id": 5793,
     "title": "Volini Gel 60G",
     "slug": "volini-gel-60g",
-    "price": 225.0,
+    "price": 225,
     "image": "/images/products/volini-gel-60g.jpg",
     "stock": 3,
     "description": "Volini Gel 60G - High quality personal care product.",
@@ -18169,13 +19466,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5793
+    "rank": 5793,
+    "name": "Volini Gel 60G"
   },
   {
     "id": 5794,
     "title": "Volini Gel 75G",
     "slug": "volini-gel-75g",
-    "price": 265.0,
+    "price": 265,
     "image": "/images/products/volini-gel-75g.jpg",
     "stock": 3,
     "description": "Volini Gel 75G - High quality personal care product.",
@@ -18183,13 +19481,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5794
+    "rank": 5794,
+    "name": "Volini Gel 75G"
   },
   {
     "id": 5824,
     "title": "Whimsy Face Gems",
     "slug": "whimsy-face-gems",
-    "price": 249.0,
+    "price": 249,
     "image": "/images/products/whimsy-face-gems.jpg",
     "stock": 2,
     "description": "Whimsy Face Gems - High quality personal care product.",
@@ -18197,13 +19496,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5824
+    "rank": 5824,
+    "name": "Whimsy Face Gems"
   },
   {
     "id": 5836,
     "title": "Whimsy Ray Sunscreen Spf50++",
     "slug": "whimsy-ray-sunscreen-spf50",
-    "price": 299.0,
+    "price": 299,
     "image": "/images/products/whimsy-ray-sunscreen-spf50.jpg",
     "stock": 2,
     "description": "Whimsy Ray Sunscreen Spf50++ - High quality personal care product.",
@@ -18211,13 +19511,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5836
+    "rank": 5836,
+    "name": "Whimsy Ray Sunscreen Spf50++"
   },
   {
     "id": 5903,
     "title": "Whitetone Cream 25G",
     "slug": "whitetone-cream-25g",
-    "price": 75.0,
+    "price": 75,
     "image": "/images/products/whitetone-cream-25g.jpg",
     "stock": 2,
     "description": "Whitetone Cream 25G - High quality personal care product.",
@@ -18225,13 +19526,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5903
+    "rank": 5903,
+    "name": "Whitetone Cream 25G"
   },
   {
     "id": 5904,
     "title": "Whitetone Cream 35G",
     "slug": "whitetone-cream-35g",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/whitetone-cream-35g.jpg",
     "stock": 6,
     "description": "Whitetone Cream 35G - High quality personal care product.",
@@ -18239,13 +19541,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5904
+    "rank": 5904,
+    "name": "Whitetone Cream 35G"
   },
   {
     "id": 5905,
     "title": "Whitetone Cream 50G",
     "slug": "whitetone-cream-50g",
-    "price": 140.0,
+    "price": 140,
     "image": "/images/products/whitetone-cream-50g.jpg",
     "stock": 6,
     "description": "Whitetone Cream 50G - High quality personal care product.",
@@ -18253,13 +19556,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5905
+    "rank": 5905,
+    "name": "Whitetone Cream 50G"
   },
   {
     "id": 5937,
     "title": "Wow Aloe Vera Body Lotion",
     "slug": "wow-aloe-vera-body-lotion",
-    "price": 249.0,
+    "price": 249,
     "image": "/images/products/wow-aloe-vera-body-lotion.jpg",
     "stock": 3,
     "description": "Wow Aloe Vera Body Lotion - High quality personal care product.",
@@ -18267,13 +19571,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5937
+    "rank": 5937,
+    "name": "Wow Aloe Vera Body Lotion"
   },
   {
     "id": 5938,
     "title": "Wow Anti Acne Face Serum 30Ml",
     "slug": "wow-anti-acne-face-serum-30ml",
-    "price": 599.0,
+    "price": 599,
     "image": "/images/products/wow-anti-acne-face-serum-30ml.jpg",
     "stock": 3,
     "description": "Wow Anti Acne Face Serum 30Ml - High quality personal care product.",
@@ -18281,13 +19586,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5938
+    "rank": 5938,
+    "name": "Wow Anti Acne Face Serum 30Ml"
   },
   {
     "id": 5939,
     "title": "Wow Anti Hairfall Hair Oil 100Ml",
     "slug": "wow-anti-hairfall-hair-oil-100ml",
-    "price": 299.0,
+    "price": 299,
     "image": "/images/products/wow-anti-hairfall-hair-oil-100ml.jpg",
     "stock": 3,
     "description": "Wow Anti Hairfall Hair Oil 100Ml - High quality personal care product.",
@@ -18295,13 +19601,14 @@ const products = [
     "unit": "PC",
     "category": "personal-care",
     "popular": false,
-    "rank": 5939
+    "rank": 5939,
+    "name": "Wow Anti Hairfall Hair Oil 100Ml"
   },
   {
     "id": 5940,
     "title": "Wow Anti-Hairfall Shampoo 250Ml",
     "slug": "wow-anti-hairfall-shampoo-250ml",
-    "price": 324.0,
+    "price": 324,
     "image": "/images/products/wow-anti-hairfall-shampoo-250ml.jpg",
     "stock": 3,
     "description": "Wow Anti-Hairfall Shampoo 250Ml - High quality personal care product.",
@@ -18309,13 +19616,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5940
+    "rank": 5940,
+    "name": "Wow Anti-Hairfall Shampoo 250Ml"
   },
   {
     "id": 5941,
     "title": "Wow Anti-Hairfall Shampoo 500Ml",
     "slug": "wow-anti-hairfall-shampoo-500ml",
-    "price": 605.0,
+    "price": 605,
     "image": "/images/products/wow-anti-hairfall-shampoo-500ml.jpg",
     "stock": 3,
     "description": "Wow Anti-Hairfall Shampoo 500Ml - High quality personal care product.",
@@ -18323,13 +19631,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5941
+    "rank": 5941,
+    "name": "Wow Anti-Hairfall Shampoo 500Ml"
   },
   {
     "id": 5943,
     "title": "Wow Argan Oil Shampoo 250Ml",
     "slug": "wow-argan-oil-shampoo-250ml",
-    "price": 299.0,
+    "price": 299,
     "image": "/images/products/wow-argan-oil-shampoo-250ml.jpg",
     "stock": 3,
     "description": "Wow Argan Oil Shampoo 250Ml - High quality personal care product.",
@@ -18337,13 +19646,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5943
+    "rank": 5943,
+    "name": "Wow Argan Oil Shampoo 250Ml"
   },
   {
     "id": 5944,
     "title": "Wow Brightening Face Wash",
     "slug": "wow-brightening-face-wash",
-    "price": 325.0,
+    "price": 325,
     "image": "/images/products/wow-brightening-face-wash.jpg",
     "stock": 6,
     "description": "Wow Brightening Face Wash - High quality personal care product.",
@@ -18351,13 +19661,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5944
+    "rank": 5944,
+    "name": "Wow Brightening Face Wash"
   },
   {
     "id": 5945,
     "title": "Wow Detan Face Wash",
     "slug": "wow-detan-face-wash",
-    "price": 269.0,
+    "price": 269,
     "image": "/images/products/wow-detan-face-wash.jpg",
     "stock": 3,
     "description": "Wow Detan Face Wash - High quality personal care product.",
@@ -18365,13 +19676,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5945
+    "rank": 5945,
+    "name": "Wow Detan Face Wash"
   },
   {
     "id": 5946,
     "title": "Wow Foaming Face Wash 150Ml",
     "slug": "wow-foaming-face-wash-150ml",
-    "price": 399.0,
+    "price": 399,
     "image": "/images/products/wow-foaming-face-wash-150ml.jpg",
     "stock": 3,
     "description": "Wow Foaming Face Wash 150Ml - High quality personal care product.",
@@ -18379,13 +19691,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5946
+    "rank": 5946,
+    "name": "Wow Foaming Face Wash 150Ml"
   },
   {
     "id": 5947,
     "title": "Wow Oil Control Man Face Wash",
     "slug": "wow-oil-control-man-face-wash",
-    "price": 269.0,
+    "price": 269,
     "image": "/images/products/wow-oil-control-man-face-wash.jpg",
     "stock": 3,
     "description": "Wow Oil Control Man Face Wash - High quality personal care product.",
@@ -18393,13 +19706,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5947
+    "rank": 5947,
+    "name": "Wow Oil Control Man Face Wash"
   },
   {
     "id": 5948,
     "title": "Wow Organic Coconut Oil 455G",
     "slug": "wow-organic-coconut-oil-455g",
-    "price": 449.0,
+    "price": 449,
     "image": "/images/products/wow-organic-coconut-oil-455g.jpg",
     "stock": 3,
     "description": "Wow Organic Coconut Oil 455G - High quality personal care product.",
@@ -18407,13 +19721,14 @@ const products = [
     "unit": "0000",
     "category": "personal-care",
     "popular": false,
-    "rank": 5948
+    "rank": 5948,
+    "name": "Wow Organic Coconut Oil 455G"
   },
   {
     "id": 5951,
     "title": "Wow Pro Hair Growth Shampoo 250Ml",
     "slug": "wow-pro-hair-growth-shampoo-250ml",
-    "price": 374.0,
+    "price": 374,
     "image": "/images/products/wow-pro-hair-growth-shampoo-250ml.jpg",
     "stock": 3,
     "description": "Wow Pro Hair Growth Shampoo 250Ml - High quality personal care product.",
@@ -18421,13 +19736,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5951
+    "rank": 5951,
+    "name": "Wow Pro Hair Growth Shampoo 250Ml"
   },
   {
     "id": 5952,
     "title": "Wow Rose Body Lotion",
     "slug": "wow-rose-body-lotion",
-    "price": 249.0,
+    "price": 249,
     "image": "/images/products/wow-rose-body-lotion.jpg",
     "stock": 3,
     "description": "Wow Rose Body Lotion - High quality personal care product.",
@@ -18435,13 +19751,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5952
+    "rank": 5952,
+    "name": "Wow Rose Body Lotion"
   },
   {
     "id": 5954,
     "title": "Wow Rosemary Biotin Hair Oil 100Ml",
     "slug": "wow-rosemary-biotin-hair-oil-100ml",
-    "price": 299.0,
+    "price": 299,
     "image": "/images/products/wow-rosemary-biotin-hair-oil-100ml.jpg",
     "stock": 3,
     "description": "Wow Rosemary Biotin Hair Oil 100Ml - High quality personal care product.",
@@ -18449,13 +19766,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5954
+    "rank": 5954,
+    "name": "Wow Rosemary Biotin Hair Oil 100Ml"
   },
   {
     "id": 5955,
     "title": "Wow Skin Science Face Scrub 1+1 100G",
     "slug": "wow-skin-science-face-scrub-11-100g",
-    "price": 259.0,
+    "price": 259,
     "image": "/images/products/wow-skin-science-face-scrub-11-100g.jpg",
     "stock": 26,
     "description": "Wow Skin Science Face Scrub 1+1 100G - High quality personal care product.",
@@ -18463,13 +19781,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5955
+    "rank": 5955,
+    "name": "Wow Skin Science Face Scrub 1+1 100G"
   },
   {
     "id": 5956,
     "title": "Wow Skin Science Face Wash 1+1 100G",
     "slug": "wow-skin-science-face-wash-11-100g",
-    "price": 259.0,
+    "price": 259,
     "image": "/images/products/wow-skin-science-face-wash-11-100g.jpg",
     "stock": 6,
     "description": "Wow Skin Science Face Wash 1+1 100G - High quality personal care product.",
@@ -18477,13 +19796,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5956
+    "rank": 5956,
+    "name": "Wow Skin Science Face Wash 1+1 100G"
   },
   {
     "id": 5957,
     "title": "Wow Skin Science Face Wash 1+1 100Ml",
     "slug": "wow-skin-science-face-wash-11-100ml",
-    "price": 269.0,
+    "price": 269,
     "image": "/images/products/wow-skin-science-face-wash-11-100ml.jpg",
     "stock": 33,
     "description": "Wow Skin Science Face Wash 1+1 100Ml - High quality personal care product.",
@@ -18491,13 +19811,14 @@ const products = [
     "unit": ".PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5957
+    "rank": 5957,
+    "name": "Wow Skin Science Face Wash 1+1 100Ml"
   },
   {
     "id": 5958,
     "title": "Wow Skin Science Sunscreen Gel 1+1 50Ml",
     "slug": "wow-skin-science-sunscreen-gel-11-50ml",
-    "price": 279.0,
+    "price": 279,
     "image": "/images/products/wow-skin-science-sunscreen-gel-11-50ml.jpg",
     "stock": 6,
     "description": "Wow Skin Science Sunscreen Gel 1+1 50Ml - High quality personal care product.",
@@ -18505,13 +19826,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5958
+    "rank": 5958,
+    "name": "Wow Skin Science Sunscreen Gel 1+1 50Ml"
   },
   {
     "id": 5959,
     "title": "Wow Skin Science Sunscreen Spf35 1+1",
     "slug": "wow-skin-science-sunscreen-spf35-11",
-    "price": 399.0,
+    "price": 399,
     "image": "/images/products/wow-skin-science-sunscreen-spf35-11.jpg",
     "stock": 3,
     "description": "Wow Skin Science Sunscreen Spf35 1+1 - High quality personal care product.",
@@ -18519,13 +19841,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5959
+    "rank": 5959,
+    "name": "Wow Skin Science Sunscreen Spf35 1+1"
   },
   {
     "id": 5960,
     "title": "Wow Skin Science Sunscreen Spf55 1+1",
     "slug": "wow-skin-science-sunscreen-spf55-11",
-    "price": 349.0,
+    "price": 349,
     "image": "/images/products/wow-skin-science-sunscreen-spf55-11.jpg",
     "stock": 5,
     "description": "Wow Skin Science Sunscreen Spf55 1+1 - High quality personal care product.",
@@ -18533,13 +19856,14 @@ const products = [
     "unit": "0000",
     "category": "personal-care",
     "popular": false,
-    "rank": 5960
+    "rank": 5960,
+    "name": "Wow Skin Science Sunscreen Spf55 1+1"
   },
   {
     "id": 5961,
     "title": "Wow Skin Science Sunscreen Spf55 1+1 80Ml",
     "slug": "wow-skin-science-sunscreen-spf55-11-80ml",
-    "price": 499.0,
+    "price": 499,
     "image": "/images/products/wow-skin-science-sunscreen-spf55-11-80ml.jpg",
     "stock": 4,
     "description": "Wow Skin Science Sunscreen Spf55 1+1 80Ml - High quality personal care product.",
@@ -18547,13 +19871,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5961
+    "rank": 5961,
+    "name": "Wow Skin Science Sunscreen Spf55 1+1 80Ml"
   },
   {
     "id": 5962,
     "title": "Wow Sunscreen Sfp50+++",
     "slug": "wow-sunscreen-sfp50",
-    "price": 274.0,
+    "price": 274,
     "image": "/images/products/wow-sunscreen-sfp50.jpg",
     "stock": 3,
     "description": "Wow Sunscreen Sfp50+++ - High quality personal care product.",
@@ -18561,13 +19886,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5962
+    "rank": 5962,
+    "name": "Wow Sunscreen Sfp50+++"
   },
   {
     "id": 5963,
     "title": "Wow Vitamin Face Serum 30Ml",
     "slug": "wow-vitamin-face-serum-30ml",
-    "price": 549.0,
+    "price": 549,
     "image": "/images/products/wow-vitamin-face-serum-30ml.jpg",
     "stock": 3,
     "description": "Wow Vitamin Face Serum 30Ml - High quality personal care product.",
@@ -18575,13 +19901,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5963
+    "rank": 5963,
+    "name": "Wow Vitamin Face Serum 30Ml"
   },
   {
     "id": 5970,
     "title": "Yardley Londan Hand Wash 1+1 200Ml",
     "slug": "yardley-londan-hand-wash-11-200ml",
-    "price": 105.0,
+    "price": 105,
     "image": "/images/products/yardley-londan-hand-wash-11-200ml.jpg",
     "stock": 15,
     "description": "Yardley Londan Hand Wash 1+1 200Ml - High quality personal care product.",
@@ -18589,13 +19916,14 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5970
+    "rank": 5970,
+    "name": "Yardley Londan Hand Wash 1+1 200Ml"
   },
   {
     "id": 5971,
     "title": "Yardley Londan Hand Wash 1+1 650Ml",
     "slug": "yardley-londan-hand-wash-11-650ml",
-    "price": 198.0,
+    "price": 198,
     "image": "/images/products/yardley-londan-hand-wash-11-650ml.jpg",
     "stock": 10,
     "description": "Yardley Londan Hand Wash 1+1 650Ml - High quality personal care product.",
@@ -18603,7 +19931,8 @@ const products = [
     "unit": "PCS",
     "category": "personal-care",
     "popular": false,
-    "rank": 5971
+    "rank": 5971,
+    "name": "Yardley Londan Hand Wash 1+1 650Ml"
   }
 ];
 

@@ -3,7 +3,7 @@ const products = [
     "id": 347,
     "title": "Baby Rub 50Ml",
     "slug": "baby-rub-50ml",
-    "price": 215.0,
+    "price": 215,
     "image": "/images/products/baby-rub-50ml.jpg",
     "stock": 6,
     "description": "Baby Rub 50Ml - High quality baby care product.",
@@ -11,13 +11,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 347
+    "rank": 347,
+    "name": "Baby Rub 50Ml"
   },
   {
     "id": 348,
     "title": "Babyrub 25Ml",
     "slug": "babyrub-25ml",
-    "price": 125.0,
+    "price": 125,
     "image": "/images/products/babyrub-25ml.jpg",
     "stock": 6,
     "description": "Babyrub 25Ml - High quality baby care product.",
@@ -25,13 +26,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 348
+    "rank": 348,
+    "name": "Babyrub 25Ml"
   },
   {
     "id": 592,
     "title": "Bright Baby Fork",
     "slug": "bright-baby-fork",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/bright-baby-fork.jpg",
     "stock": 6,
     "description": "Bright Baby Fork - High quality baby care product.",
@@ -39,13 +41,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 592
+    "rank": 592,
+    "name": "Bright Baby Fork"
   },
   {
     "id": 593,
     "title": "Bright Baby Spoon",
     "slug": "bright-baby-spoon",
-    "price": 179.0,
+    "price": 179,
     "image": "/images/products/bright-baby-spoon.jpg",
     "stock": 6,
     "description": "Bright Baby Spoon - High quality baby care product.",
@@ -53,13 +56,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 593
+    "rank": 593,
+    "name": "Bright Baby Spoon"
   },
   {
     "id": 885,
     "title": "Cetaphil Baby Calendula Lotion",
     "slug": "cetaphil-baby-calendula-lotion",
-    "price": 1599.0,
+    "price": 1599,
     "image": "/images/products/cetaphil-baby-calendula-lotion.jpg",
     "stock": 1,
     "description": "Cetaphil Baby Calendula Lotion - High quality baby care product.",
@@ -67,13 +71,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 885
+    "rank": 885,
+    "name": "Cetaphil Baby Calendula Lotion"
   },
   {
     "id": 886,
     "title": "Cetaphil Baby Daily Lotion 400Ml",
     "slug": "cetaphil-baby-daily-lotion-400ml",
-    "price": 950.0,
+    "price": 950,
     "image": "/images/products/cetaphil-baby-daily-lotion-400ml.jpg",
     "stock": 2,
     "description": "Cetaphil Baby Daily Lotion 400Ml - High quality baby care product.",
@@ -81,13 +86,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 886
+    "rank": 886,
+    "name": "Cetaphil Baby Daily Lotion 400Ml"
   },
   {
     "id": 887,
     "title": "Cetaphil Baby Diaper Cream 70G",
     "slug": "cetaphil-baby-diaper-cream-70g",
-    "price": 449.0,
+    "price": 449,
     "image": "/images/products/cetaphil-baby-diaper-cream-70g.jpg",
     "stock": 2,
     "description": "Cetaphil Baby Diaper Cream 70G - High quality baby care product.",
@@ -95,13 +101,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 887
+    "rank": 887,
+    "name": "Cetaphil Baby Diaper Cream 70G"
   },
   {
     "id": 888,
     "title": "Cetaphil Baby Moisturising Bath",
     "slug": "cetaphil-baby-moisturising-bath",
-    "price": 819.0,
+    "price": 819,
     "image": "/images/products/cetaphil-baby-moisturising-bath.jpg",
     "stock": 2,
     "description": "Cetaphil Baby Moisturising Bath - High quality baby care product.",
@@ -109,13 +116,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 888
+    "rank": 888,
+    "name": "Cetaphil Baby Moisturising Bath"
   },
   {
     "id": 889,
     "title": "Cetaphil Baby Wash&Shampoo Calendula",
     "slug": "cetaphil-baby-washshampoo-calendula",
-    "price": 849.0,
+    "price": 849,
     "image": "/images/products/cetaphil-baby-washshampoo-calendula.jpg",
     "stock": 1,
     "description": "Cetaphil Baby Wash&Shampoo Calendula - High quality baby care product.",
@@ -123,13 +131,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 889
+    "rank": 889,
+    "name": "Cetaphil Baby Wash&Shampoo Calendula"
   },
   {
     "id": 947,
     "title": "Chicco Almond Soap",
     "slug": "chicco-almond-soap",
-    "price": 65.0,
+    "price": 65,
     "image": "/images/products/chicco-almond-soap.jpg",
     "stock": 12,
     "description": "Chicco Almond Soap - High quality baby care product.",
@@ -137,13 +146,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 947
+    "rank": 947,
+    "name": "Chicco Almond Soap"
   },
   {
     "id": 948,
     "title": "Chicco Baby Anti Mosquto Gel 100G",
     "slug": "chicco-baby-anti-mosquto-gel-100g",
-    "price": 195.0,
+    "price": 195,
     "image": "/images/products/chicco-baby-anti-mosquto-gel-100g.jpg",
     "stock": 6,
     "description": "Chicco Baby Anti Mosquto Gel 100G - High quality baby care product.",
@@ -151,13 +161,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 948
+    "rank": 948,
+    "name": "Chicco Baby Anti Mosquto Gel 100G"
   },
   {
     "id": 949,
     "title": "Chicco Baby Anti Mosquto Gel 10Ml",
     "slug": "chicco-baby-anti-mosquto-gel-10ml",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/chicco-baby-anti-mosquto-gel-10ml.jpg",
     "stock": 8,
     "description": "Chicco Baby Anti Mosquto Gel 10Ml - High quality baby care product.",
@@ -165,13 +176,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 949
+    "rank": 949,
+    "name": "Chicco Baby Anti Mosquto Gel 10Ml"
   },
   {
     "id": 950,
     "title": "Chicco Baby Anti Mosquto Gel 50G",
     "slug": "chicco-baby-anti-mosquto-gel-50g",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/chicco-baby-anti-mosquto-gel-50g.jpg",
     "stock": 6,
     "description": "Chicco Baby Anti Mosquto Gel 50G - High quality baby care product.",
@@ -179,13 +191,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 950
+    "rank": 950,
+    "name": "Chicco Baby Anti Mosquto Gel 50G"
   },
   {
     "id": 951,
     "title": "Chicco Baby Anti Mosquto Patches",
     "slug": "chicco-baby-anti-mosquto-patches",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/chicco-baby-anti-mosquto-patches.jpg",
     "stock": 5,
     "description": "Chicco Baby Anti Mosquto Patches - High quality baby care product.",
@@ -193,13 +206,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 951
+    "rank": 951,
+    "name": "Chicco Baby Anti Mosquto Patches"
   },
   {
     "id": 952,
     "title": "Chicco Baby Body Lotion",
     "slug": "chicco-baby-body-lotion",
-    "price": 319.0,
+    "price": 319,
     "image": "/images/products/chicco-baby-body-lotion.jpg",
     "stock": 12,
     "description": "Chicco Baby Body Lotion - High quality baby care product.",
@@ -207,13 +221,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 952
+    "rank": 952,
+    "name": "Chicco Baby Body Lotion"
   },
   {
     "id": 953,
     "title": "Chicco Baby Body Lotion 500Ml.",
     "slug": "chicco-baby-body-lotion-500ml",
-    "price": 599.0,
+    "price": 599,
     "image": "/images/products/chicco-baby-body-lotion-500ml.jpg",
     "stock": 5,
     "description": "Chicco Baby Body Lotion 500Ml. - High quality baby care product.",
@@ -221,13 +236,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 953
+    "rank": 953,
+    "name": "Chicco Baby Body Lotion 500Ml."
   },
   {
     "id": 954,
     "title": "Chicco Baby Bollte Cleanser",
     "slug": "chicco-baby-bollte-cleanser",
-    "price": 649.0,
+    "price": 649,
     "image": "/images/products/chicco-baby-bollte-cleanser.jpg",
     "stock": 6,
     "description": "Chicco Baby Bollte Cleanser - High quality baby care product.",
@@ -235,13 +251,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 954
+    "rank": 954,
+    "name": "Chicco Baby Bollte Cleanser"
   },
   {
     "id": 955,
     "title": "Chicco Baby Brush 3-8",
     "slug": "chicco-baby-brush-3-8",
-    "price": 119.0,
+    "price": 119,
     "image": "/images/products/chicco-baby-brush-3-8.jpg",
     "stock": 4,
     "description": "Chicco Baby Brush 3-8 - High quality baby care product.",
@@ -249,13 +266,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 955
+    "rank": 955,
+    "name": "Chicco Baby Brush 3-8"
   },
   {
     "id": 956,
     "title": "Chicco Baby Brush 6-36 Month",
     "slug": "chicco-baby-brush-6-36-month",
-    "price": 149.0,
+    "price": 149,
     "image": "/images/products/chicco-baby-brush-6-36-month.jpg",
     "stock": 12,
     "description": "Chicco Baby Brush 6-36 Month - High quality baby care product.",
@@ -263,13 +281,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 956
+    "rank": 956,
+    "name": "Chicco Baby Brush 6-36 Month"
   },
   {
     "id": 957,
     "title": "Chicco Baby Cream 100G",
     "slug": "chicco-baby-cream-100g",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/chicco-baby-cream-100g.jpg",
     "stock": 5,
     "description": "Chicco Baby Cream 100G - High quality baby care product.",
@@ -277,13 +296,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 957
+    "rank": 957,
+    "name": "Chicco Baby Cream 100G"
   },
   {
     "id": 958,
     "title": "Chicco Baby Cream 200G",
     "slug": "chicco-baby-cream-200g",
-    "price": 379.0,
+    "price": 379,
     "image": "/images/products/chicco-baby-cream-200g.jpg",
     "stock": 6,
     "description": "Chicco Baby Cream 200G - High quality baby care product.",
@@ -291,13 +311,14 @@ const products = [
     "unit": "pcs",
     "category": "baby-care",
     "popular": false,
-    "rank": 958
+    "rank": 958,
+    "name": "Chicco Baby Cream 200G"
   },
   {
     "id": 959,
     "title": "Chicco Baby Cream 50G",
     "slug": "chicco-baby-cream-50g",
-    "price": 109.0,
+    "price": 109,
     "image": "/images/products/chicco-baby-cream-50g.jpg",
     "stock": 5,
     "description": "Chicco Baby Cream 50G - High quality baby care product.",
@@ -305,13 +326,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 959
+    "rank": 959,
+    "name": "Chicco Baby Cream 50G"
   },
   {
     "id": 960,
     "title": "Chicco Baby Easy Feed 2+M",
     "slug": "chicco-baby-easy-feed-2m",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/chicco-baby-easy-feed-2m.jpg",
     "stock": 4,
     "description": "Chicco Baby Easy Feed 2+M - High quality baby care product.",
@@ -319,13 +341,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 960
+    "rank": 960,
+    "name": "Chicco Baby Easy Feed 2+M"
   },
   {
     "id": 961,
     "title": "Chicco Baby Feeding Bottle  0+M",
     "slug": "chicco-baby-feeding-bottle-0m",
-    "price": 169.0,
+    "price": 169,
     "image": "/images/products/chicco-baby-feeding-bottle-0m.jpg",
     "stock": 6,
     "description": "Chicco Baby Feeding Bottle  0+M - High quality baby care product.",
@@ -333,13 +356,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 961
+    "rank": 961,
+    "name": "Chicco Baby Feeding Bottle  0+M"
   },
   {
     "id": 962,
     "title": "Chicco Baby Feeding Bottle 150Ml",
     "slug": "chicco-baby-feeding-bottle-150ml",
-    "price": 319.0,
+    "price": 319,
     "image": "/images/products/chicco-baby-feeding-bottle-150ml.jpg",
     "stock": 6,
     "description": "Chicco Baby Feeding Bottle 150Ml - High quality baby care product.",
@@ -347,13 +371,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 962
+    "rank": 962,
+    "name": "Chicco Baby Feeding Bottle 150Ml"
   },
   {
     "id": 963,
     "title": "Chicco Baby Feeding Bottle 2+M",
     "slug": "chicco-baby-feeding-bottle-2m",
-    "price": 179.0,
+    "price": 179,
     "image": "/images/products/chicco-baby-feeding-bottle-2m.jpg",
     "stock": 6,
     "description": "Chicco Baby Feeding Bottle 2+M - High quality baby care product.",
@@ -361,13 +386,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 963
+    "rank": 963,
+    "name": "Chicco Baby Feeding Bottle 2+M"
   },
   {
     "id": 964,
     "title": "Chicco Baby Feeding Bottle 250Ml",
     "slug": "chicco-baby-feeding-bottle-250ml",
-    "price": 349.0,
+    "price": 349,
     "image": "/images/products/chicco-baby-feeding-bottle-250ml.jpg",
     "stock": 6,
     "description": "Chicco Baby Feeding Bottle 250Ml - High quality baby care product.",
@@ -375,13 +401,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 964
+    "rank": 964,
+    "name": "Chicco Baby Feeding Bottle 250Ml"
   },
   {
     "id": 965,
     "title": "Chicco Baby Feeding Bottle Glass",
     "slug": "chicco-baby-feeding-bottle-glass",
-    "price": 579.0,
+    "price": 579,
     "image": "/images/products/chicco-baby-feeding-bottle-glass.jpg",
     "stock": 6,
     "description": "Chicco Baby Feeding Bottle Glass - High quality baby care product.",
@@ -389,13 +416,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 965
+    "rank": 965,
+    "name": "Chicco Baby Feeding Bottle Glass"
   },
   {
     "id": 966,
     "title": "Chicco Baby Feeding Bottle Glass 240Ml",
     "slug": "chicco-baby-feeding-bottle-glass-240ml",
-    "price": 599.0,
+    "price": 599,
     "image": "/images/products/chicco-baby-feeding-bottle-glass-240ml.jpg",
     "stock": 6,
     "description": "Chicco Baby Feeding Bottle Glass 240Ml - High quality baby care product.",
@@ -403,13 +431,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 966
+    "rank": 966,
+    "name": "Chicco Baby Feeding Bottle Glass 240Ml"
   },
   {
     "id": 967,
     "title": "Chicco Baby Feeding Nipple",
     "slug": "chicco-baby-feeding-nipple",
-    "price": 169.0,
+    "price": 169,
     "image": "/images/products/chicco-baby-feeding-nipple.jpg",
     "stock": 12,
     "description": "Chicco Baby Feeding Nipple - High quality baby care product.",
@@ -417,13 +446,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 967
+    "rank": 967,
+    "name": "Chicco Baby Feeding Nipple"
   },
   {
     "id": 968,
     "title": "Chicco Baby Gift Pack 0+",
     "slug": "chicco-baby-gift-pack-0",
-    "price": 395.0,
+    "price": 395,
     "image": "/images/products/chicco-baby-gift-pack-0.jpg",
     "stock": 3,
     "description": "Chicco Baby Gift Pack 0+ - High quality baby care product.",
@@ -431,13 +461,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 968
+    "rank": 968,
+    "name": "Chicco Baby Gift Pack 0+"
   },
   {
     "id": 969,
     "title": "Chicco Baby Gift Pack Big",
     "slug": "chicco-baby-gift-pack-big",
-    "price": 590.0,
+    "price": 590,
     "image": "/images/products/chicco-baby-gift-pack-big.jpg",
     "stock": 4,
     "description": "Chicco Baby Gift Pack Big - High quality baby care product.",
@@ -445,13 +476,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 969
+    "rank": 969,
+    "name": "Chicco Baby Gift Pack Big"
   },
   {
     "id": 970,
     "title": "Chicco Baby Laundry Detergent",
     "slug": "chicco-baby-laundry-detergent",
-    "price": 349.0,
+    "price": 349,
     "image": "/images/products/chicco-baby-laundry-detergent.jpg",
     "stock": 12,
     "description": "Chicco Baby Laundry Detergent - High quality baby care product.",
@@ -459,13 +491,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 970
+    "rank": 970,
+    "name": "Chicco Baby Laundry Detergent"
   },
   {
     "id": 971,
     "title": "Chicco Baby Mkassge Oil 100Ml",
     "slug": "chicco-baby-mkassge-oil-100ml",
-    "price": 139.0,
+    "price": 139,
     "image": "/images/products/chicco-baby-mkassge-oil-100ml.jpg",
     "stock": 6,
     "description": "Chicco Baby Mkassge Oil 100Ml - High quality baby care product.",
@@ -473,13 +506,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 971
+    "rank": 971,
+    "name": "Chicco Baby Mkassge Oil 100Ml"
   },
   {
     "id": 972,
     "title": "Chicco Baby Mkassge Oil 100Ml 200Ml",
     "slug": "chicco-baby-mkassge-oil-100ml-200ml",
-    "price": 249.0,
+    "price": 249,
     "image": "/images/products/chicco-baby-mkassge-oil-100ml-200ml.jpg",
     "stock": 6,
     "description": "Chicco Baby Mkassge Oil 100Ml 200Ml - High quality baby care product.",
@@ -487,13 +521,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 972
+    "rank": 972,
+    "name": "Chicco Baby Mkassge Oil 100Ml 200Ml"
   },
   {
     "id": 973,
     "title": "Chicco Baby Mkassge Oil 100Ml 300Ml",
     "slug": "chicco-baby-mkassge-oil-100ml-300ml",
-    "price": 349.0,
+    "price": 349,
     "image": "/images/products/chicco-baby-mkassge-oil-100ml-300ml.jpg",
     "stock": 3,
     "description": "Chicco Baby Mkassge Oil 100Ml 300Ml - High quality baby care product.",
@@ -501,13 +536,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 973
+    "rank": 973,
+    "name": "Chicco Baby Mkassge Oil 100Ml 300Ml"
   },
   {
     "id": 974,
     "title": "Chicco Baby Rich Cream",
     "slug": "chicco-baby-rich-cream",
-    "price": 379.0,
+    "price": 379,
     "image": "/images/products/chicco-baby-rich-cream.jpg",
     "stock": 3,
     "description": "Chicco Baby Rich Cream - High quality baby care product.",
@@ -515,13 +551,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 974
+    "rank": 974,
+    "name": "Chicco Baby Rich Cream"
   },
   {
     "id": 975,
     "title": "Chicco Baby Soap",
     "slug": "chicco-baby-soap",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/chicco-baby-soap.jpg",
     "stock": 10,
     "description": "Chicco Baby Soap - High quality baby care product.",
@@ -529,13 +566,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 975
+    "rank": 975,
+    "name": "Chicco Baby Soap"
   },
   {
     "id": 976,
     "title": "Chicco Baby Soap 199",
     "slug": "chicco-baby-soap-199",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/chicco-baby-soap-199.jpg",
     "stock": 11,
     "description": "Chicco Baby Soap 199 - High quality baby care product.",
@@ -543,13 +581,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 976
+    "rank": 976,
+    "name": "Chicco Baby Soap 199"
   },
   {
     "id": 977,
     "title": "Chicco Baby Soap Pack Of 4",
     "slug": "chicco-baby-soap-pack-of-4",
-    "price": 279.0,
+    "price": 279,
     "image": "/images/products/chicco-baby-soap-pack-of-4.jpg",
     "stock": 2,
     "description": "Chicco Baby Soap Pack Of 4 - High quality baby care product.",
@@ -557,13 +596,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 977
+    "rank": 977,
+    "name": "Chicco Baby Soap Pack Of 4"
   },
   {
     "id": 978,
     "title": "Chicco Baby Sunscreen",
     "slug": "chicco-baby-sunscreen",
-    "price": 999.0,
+    "price": 999,
     "image": "/images/products/chicco-baby-sunscreen.jpg",
     "stock": 5,
     "description": "Chicco Baby Sunscreen - High quality baby care product.",
@@ -571,13 +611,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 978
+    "rank": 978,
+    "name": "Chicco Baby Sunscreen"
   },
   {
     "id": 979,
     "title": "Chicco Baby Talcum Powder 150G",
     "slug": "chicco-baby-talcum-powder-150g",
-    "price": 189.0,
+    "price": 189,
     "image": "/images/products/chicco-baby-talcum-powder-150g.jpg",
     "stock": 11,
     "description": "Chicco Baby Talcum Powder 150G - High quality baby care product.",
@@ -585,13 +626,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 979
+    "rank": 979,
+    "name": "Chicco Baby Talcum Powder 150G"
   },
   {
     "id": 980,
     "title": "Chicco Baby Talcum Powder 300G",
     "slug": "chicco-baby-talcum-powder-300g",
-    "price": 299.0,
+    "price": 299,
     "image": "/images/products/chicco-baby-talcum-powder-300g.jpg",
     "stock": 6,
     "description": "Chicco Baby Talcum Powder 300G - High quality baby care product.",
@@ -599,13 +641,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 980
+    "rank": 980,
+    "name": "Chicco Baby Talcum Powder 300G"
   },
   {
     "id": 981,
     "title": "Chicco Baby Talcum Powder 75G",
     "slug": "chicco-baby-talcum-powder-75g",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/chicco-baby-talcum-powder-75g.jpg",
     "stock": 11,
     "description": "Chicco Baby Talcum Powder 75G - High quality baby care product.",
@@ -613,13 +656,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 981
+    "rank": 981,
+    "name": "Chicco Baby Talcum Powder 75G"
   },
   {
     "id": 982,
     "title": "Chicco Baby Wet Wipes",
     "slug": "chicco-baby-wet-wipes",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/chicco-baby-wet-wipes.jpg",
     "stock": 22,
     "description": "Chicco Baby Wet Wipes - High quality baby care product.",
@@ -627,13 +671,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 982
+    "rank": 982,
+    "name": "Chicco Baby Wet Wipes"
   },
   {
     "id": 983,
     "title": "Chicco Baby Wet Wipes 330Ml",
     "slug": "chicco-baby-wet-wipes-330ml",
-    "price": 379.0,
+    "price": 379,
     "image": "/images/products/chicco-baby-wet-wipes-330ml.jpg",
     "stock": 6,
     "description": "Chicco Baby Wet Wipes 330Ml - High quality baby care product.",
@@ -641,13 +686,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 983
+    "rank": 983,
+    "name": "Chicco Baby Wet Wipes 330Ml"
   },
   {
     "id": 984,
     "title": "Chicco Baby Wet Wipes 72P",
     "slug": "chicco-baby-wet-wipes-72p",
-    "price": 129.0,
+    "price": 129,
     "image": "/images/products/chicco-baby-wet-wipes-72p.jpg",
     "stock": 24,
     "description": "Chicco Baby Wet Wipes 72P - High quality baby care product.",
@@ -655,13 +701,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 984
+    "rank": 984,
+    "name": "Chicco Baby Wet Wipes 72P"
   },
   {
     "id": 985,
     "title": "Chicco Baby Wipes 20P",
     "slug": "chicco-baby-wipes-20p",
-    "price": 75.0,
+    "price": 75,
     "image": "/images/products/chicco-baby-wipes-20p.jpg",
     "stock": 9,
     "description": "Chicco Baby Wipes 20P - High quality baby care product.",
@@ -669,13 +716,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 985
+    "rank": 985,
+    "name": "Chicco Baby Wipes 20P"
   },
   {
     "id": 986,
     "title": "Chicco Baby Wipes 72Pcs",
     "slug": "chicco-baby-wipes-72pcs",
-    "price": 249.0,
+    "price": 249,
     "image": "/images/products/chicco-baby-wipes-72pcs.jpg",
     "stock": 5,
     "description": "Chicco Baby Wipes 72Pcs - High quality baby care product.",
@@ -683,13 +731,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 986
+    "rank": 986,
+    "name": "Chicco Baby Wipes 72Pcs"
   },
   {
     "id": 987,
     "title": "Chicco Baby Wipes Pack Of 2",
     "slug": "chicco-baby-wipes-pack-of-2",
-    "price": 430.0,
+    "price": 430,
     "image": "/images/products/chicco-baby-wipes-pack-of-2.jpg",
     "stock": 6,
     "description": "Chicco Baby Wipes Pack Of 2 - High quality baby care product.",
@@ -697,13 +746,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 987
+    "rank": 987,
+    "name": "Chicco Baby Wipes Pack Of 2"
   },
   {
     "id": 988,
     "title": "Chicco Gentle Bw & Shampoo 200Ml",
     "slug": "chicco-gentle-bw-shampoo-200ml",
-    "price": 279.0,
+    "price": 279,
     "image": "/images/products/chicco-gentle-bw-shampoo-200ml.jpg",
     "stock": 10,
     "description": "Chicco Gentle Bw & Shampoo 200Ml - High quality baby care product.",
@@ -711,13 +761,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 988
+    "rank": 988,
+    "name": "Chicco Gentle Bw & Shampoo 200Ml"
   },
   {
     "id": 989,
     "title": "Chicco Gentle Bw & Shampoo Apricot",
     "slug": "chicco-gentle-bw-shampoo-apricot",
-    "price": 599.0,
+    "price": 599,
     "image": "/images/products/chicco-gentle-bw-shampoo-apricot.jpg",
     "stock": 5,
     "description": "Chicco Gentle Bw & Shampoo Apricot - High quality baby care product.",
@@ -725,13 +776,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 989
+    "rank": 989,
+    "name": "Chicco Gentle Bw & Shampoo Apricot"
   },
   {
     "id": 990,
     "title": "Chicco Gentle Bw & Shampoo Ga",
     "slug": "chicco-gentle-bw-shampoo-ga",
-    "price": 319.0,
+    "price": 319,
     "image": "/images/products/chicco-gentle-bw-shampoo-ga.jpg",
     "stock": 9,
     "description": "Chicco Gentle Bw & Shampoo Ga - High quality baby care product.",
@@ -739,13 +791,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 990
+    "rank": 990,
+    "name": "Chicco Gentle Bw & Shampoo Ga"
   },
   {
     "id": 991,
     "title": "Chicco Gentle Bw & Shampoo Green Apple",
     "slug": "chicco-gentle-bw-shampoo-green-apple",
-    "price": 679.0,
+    "price": 679,
     "image": "/images/products/chicco-gentle-bw-shampoo-green-apple.jpg",
     "stock": 6,
     "description": "Chicco Gentle Bw & Shampoo Green Apple - High quality baby care product.",
@@ -753,13 +806,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 991
+    "rank": 991,
+    "name": "Chicco Gentle Bw & Shampoo Green Apple"
   },
   {
     "id": 992,
     "title": "Chicco Shampoo No Tears",
     "slug": "chicco-shampoo-no-tears",
-    "price": 279.0,
+    "price": 279,
     "image": "/images/products/chicco-shampoo-no-tears.jpg",
     "stock": 10,
     "description": "Chicco Shampoo No Tears - High quality baby care product.",
@@ -767,13 +821,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 992
+    "rank": 992,
+    "name": "Chicco Shampoo No Tears"
   },
   {
     "id": 993,
     "title": "Chicco Shampoo No Tears 500Ml",
     "slug": "chicco-shampoo-no-tears-500ml",
-    "price": 599.0,
+    "price": 599,
     "image": "/images/products/chicco-shampoo-no-tears-500ml.jpg",
     "stock": 6,
     "description": "Chicco Shampoo No Tears 500Ml - High quality baby care product.",
@@ -781,13 +836,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 993
+    "rank": 993,
+    "name": "Chicco Shampoo No Tears 500Ml"
   },
   {
     "id": 1120,
     "title": "Colorbar Makeup Remover Wipes",
     "slug": "colorbar-makeup-remover-wipes",
-    "price": 95.0,
+    "price": 95,
     "image": "/images/products/colorbar-makeup-remover-wipes.jpg",
     "stock": 12,
     "description": "Colorbar Makeup Remover Wipes - High quality baby care product.",
@@ -795,13 +851,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 1120
+    "rank": 1120,
+    "name": "Colorbar Makeup Remover Wipes"
   },
   {
     "id": 1125,
     "title": "Colorbar Mr Wipes",
     "slug": "colorbar-mr-wipes",
-    "price": 250.0,
+    "price": 250,
     "image": "/images/products/colorbar-mr-wipes.jpg",
     "stock": 10,
     "description": "Colorbar Mr Wipes - High quality baby care product.",
@@ -809,13 +866,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 1125
+    "rank": 1125,
+    "name": "Colorbar Mr Wipes"
   },
   {
     "id": 1341,
     "title": "Dettol Wipes Original 40S",
     "slug": "dettol-wipes-original-40s",
-    "price": 139.0,
+    "price": 139,
     "image": "/images/products/dettol-wipes-original-40s.jpg",
     "stock": 4,
     "description": "Dettol Wipes Original 40S - High quality baby care product.",
@@ -823,13 +881,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 1341
+    "rank": 1341,
+    "name": "Dettol Wipes Original 40S"
   },
   {
     "id": 1342,
     "title": "Dettol Wipes Original 80S",
     "slug": "dettol-wipes-original-80s",
-    "price": 219.0,
+    "price": 219,
     "image": "/images/products/dettol-wipes-original-80s.jpg",
     "stock": 5,
     "description": "Dettol Wipes Original 80S - High quality baby care product.",
@@ -837,13 +896,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 1342
+    "rank": 1342,
+    "name": "Dettol Wipes Original 80S"
   },
   {
     "id": 1989,
     "title": "Gubb Baby Nail Clipper",
     "slug": "gubb-baby-nail-clipper",
-    "price": 225.0,
+    "price": 225,
     "image": "/images/products/gubb-baby-nail-clipper.jpg",
     "stock": 3,
     "description": "Gubb Baby Nail Clipper - High quality baby care product.",
@@ -851,13 +911,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 1989
+    "rank": 1989,
+    "name": "Gubb Baby Nail Clipper"
   },
   {
     "id": 2270,
     "title": "Himalaya Neem Facial Wipes",
     "slug": "himalaya-neem-facial-wipes",
-    "price": 120.0,
+    "price": 120,
     "image": "/images/products/himalaya-neem-facial-wipes.jpg",
     "stock": 4,
     "description": "Himalaya Neem Facial Wipes - High quality baby care product.",
@@ -865,13 +926,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 2270
+    "rank": 2270,
+    "name": "Himalaya Neem Facial Wipes"
   },
   {
     "id": 2342,
     "title": "Ice Tree Baby Bags 1199/-",
     "slug": "ice-tree-baby-bags-1199-",
-    "price": 1199.0,
+    "price": 1199,
     "image": "/images/products/ice-tree-baby-bags-1199-.jpg",
     "stock": 8,
     "description": "Ice Tree Baby Bags 1199/- - High quality baby care product.",
@@ -879,13 +941,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 2342
+    "rank": 2342,
+    "name": "Ice Tree Baby Bags 1199/-"
   },
   {
     "id": 2343,
     "title": "Ice Tree Baby Bags 1299/-",
     "slug": "ice-tree-baby-bags-1299-",
-    "price": 1299.0,
+    "price": 1299,
     "image": "/images/products/ice-tree-baby-bags-1299-.jpg",
     "stock": 6,
     "description": "Ice Tree Baby Bags 1299/- - High quality baby care product.",
@@ -893,13 +956,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 2343
+    "rank": 2343,
+    "name": "Ice Tree Baby Bags 1299/-"
   },
   {
     "id": 2344,
     "title": "Ice Tree Baby Bags 799/-",
     "slug": "ice-tree-baby-bags-799-",
-    "price": 799.0,
+    "price": 799,
     "image": "/images/products/ice-tree-baby-bags-799-.jpg",
     "stock": 4,
     "description": "Ice Tree Baby Bags 799/- - High quality baby care product.",
@@ -907,13 +971,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 2344
+    "rank": 2344,
+    "name": "Ice Tree Baby Bags 799/-"
   },
   {
     "id": 2345,
     "title": "Ice Tree Baby Bags 899/-",
     "slug": "ice-tree-baby-bags-899-",
-    "price": 899.0,
+    "price": 899,
     "image": "/images/products/ice-tree-baby-bags-899-.jpg",
     "stock": 11,
     "description": "Ice Tree Baby Bags 899/- - High quality baby care product.",
@@ -921,13 +986,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 2345
+    "rank": 2345,
+    "name": "Ice Tree Baby Bags 899/-"
   },
   {
     "id": 2346,
     "title": "Ice Tree Baby Bags 999/-",
     "slug": "ice-tree-baby-bags-999-",
-    "price": 999.0,
+    "price": 999,
     "image": "/images/products/ice-tree-baby-bags-999-.jpg",
     "stock": 10,
     "description": "Ice Tree Baby Bags 999/- - High quality baby care product.",
@@ -935,13 +1001,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 2346
+    "rank": 2346,
+    "name": "Ice Tree Baby Bags 999/-"
   },
   {
     "id": 2658,
     "title": "Johnson'S Active Kids Shampoo 200Ml",
     "slug": "johnsons-active-kids-shampoo-200ml",
-    "price": 285.0,
+    "price": 285,
     "image": "/images/products/johnsons-active-kids-shampoo-200ml.jpg",
     "stock": 6,
     "description": "Johnson'S Active Kids Shampoo 200Ml - High quality baby care product.",
@@ -949,13 +1016,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 2658
+    "rank": 2658,
+    "name": "Johnson'S Active Kids Shampoo 200Ml"
   },
   {
     "id": 2659,
     "title": "Johnson'S Baby  No Tears Shampoo 200Ml",
     "slug": "johnsons-baby-no-tears-shampoo-200ml",
-    "price": 240.0,
+    "price": 240,
     "image": "/images/products/johnsons-baby-no-tears-shampoo-200ml.jpg",
     "stock": 3,
     "description": "Johnson'S Baby  No Tears Shampoo 200Ml - High quality baby care product.",
@@ -963,13 +1031,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 2659
+    "rank": 2659,
+    "name": "Johnson'S Baby  No Tears Shampoo 200Ml"
   },
   {
     "id": 2660,
     "title": "Johnson'S Baby Avocado Hair Oil 100Ml",
     "slug": "johnsons-baby-avocado-hair-oil-100ml",
-    "price": 160.0,
+    "price": 160,
     "image": "/images/products/johnsons-baby-avocado-hair-oil-100ml.jpg",
     "stock": 5,
     "description": "Johnson'S Baby Avocado Hair Oil 100Ml - High quality baby care product.",
@@ -977,13 +1046,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 2660
+    "rank": 2660,
+    "name": "Johnson'S Baby Avocado Hair Oil 100Ml"
   },
   {
     "id": 2661,
     "title": "Johnson'S Baby Blossoms Soap 75G",
     "slug": "johnsons-baby-blossoms-soap-75g",
-    "price": 75.0,
+    "price": 75,
     "image": "/images/products/johnsons-baby-blossoms-soap-75g.jpg",
     "stock": 2,
     "description": "Johnson'S Baby Blossoms Soap 75G - High quality baby care product.",
@@ -991,13 +1061,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 2661
+    "rank": 2661,
+    "name": "Johnson'S Baby Blossoms Soap 75G"
   },
   {
     "id": 2662,
     "title": "Johnson'S Baby Cream 100G",
     "slug": "johnsons-baby-cream-100g",
-    "price": 190.0,
+    "price": 190,
     "image": "/images/products/johnsons-baby-cream-100g.jpg",
     "stock": 3,
     "description": "Johnson'S Baby Cream 100G - High quality baby care product.",
@@ -1005,13 +1076,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 2662
+    "rank": 2662,
+    "name": "Johnson'S Baby Cream 100G"
   },
   {
     "id": 2663,
     "title": "Johnson'S Baby Cream 50G",
     "slug": "johnsons-baby-cream-50g",
-    "price": 100.0,
+    "price": 100,
     "image": "/images/products/johnsons-baby-cream-50g.jpg",
     "stock": 6,
     "description": "Johnson'S Baby Cream 50G - High quality baby care product.",
@@ -1019,13 +1091,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 2663
+    "rank": 2663,
+    "name": "Johnson'S Baby Cream 50G"
   },
   {
     "id": 2664,
     "title": "Johnson'S Baby Lotion 200Ml.",
     "slug": "johnsons-baby-lotion-200ml",
-    "price": 210.0,
+    "price": 210,
     "image": "/images/products/johnsons-baby-lotion-200ml.jpg",
     "stock": 3,
     "description": "Johnson'S Baby Lotion 200Ml. - High quality baby care product.",
@@ -1033,13 +1106,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 2664
+    "rank": 2664,
+    "name": "Johnson'S Baby Lotion 200Ml."
   },
   {
     "id": 2665,
     "title": "Johnson'S Baby Milk Soap 75G",
     "slug": "johnsons-baby-milk-soap-75g",
-    "price": 75.0,
+    "price": 75,
     "image": "/images/products/johnsons-baby-milk-soap-75g.jpg",
     "stock": 5,
     "description": "Johnson'S Baby Milk Soap 75G - High quality baby care product.",
@@ -1047,13 +1121,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 2665
+    "rank": 2665,
+    "name": "Johnson'S Baby Milk Soap 75G"
   },
   {
     "id": 2666,
     "title": "Johnson'S Baby Milk+Rice Cream 100G",
     "slug": "johnsons-baby-milkrice-cream-100g",
-    "price": 200.0,
+    "price": 200,
     "image": "/images/products/johnsons-baby-milkrice-cream-100g.jpg",
     "stock": 4,
     "description": "Johnson'S Baby Milk+Rice Cream 100G - High quality baby care product.",
@@ -1061,13 +1136,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 2666
+    "rank": 2666,
+    "name": "Johnson'S Baby Milk+Rice Cream 100G"
   },
   {
     "id": 2667,
     "title": "Johnson'S Baby No Tears Shampoo 100Ml.",
     "slug": "johnsons-baby-no-tears-shampoo-100ml",
-    "price": 120.0,
+    "price": 120,
     "image": "/images/products/johnsons-baby-no-tears-shampoo-100ml.jpg",
     "stock": 5,
     "description": "Johnson'S Baby No Tears Shampoo 100Ml. - High quality baby care product.",
@@ -1075,13 +1151,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 2667
+    "rank": 2667,
+    "name": "Johnson'S Baby No Tears Shampoo 100Ml."
   },
   {
     "id": 2668,
     "title": "Johnson'S Baby Oil 100Ml",
     "slug": "johnsons-baby-oil-100ml",
-    "price": 150.0,
+    "price": 150,
     "image": "/images/products/johnsons-baby-oil-100ml.jpg",
     "stock": 6,
     "description": "Johnson'S Baby Oil 100Ml - High quality baby care product.",
@@ -1089,13 +1166,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 2668
+    "rank": 2668,
+    "name": "Johnson'S Baby Oil 100Ml"
   },
   {
     "id": 2669,
     "title": "Johnson'S Baby Oil 200Ml",
     "slug": "johnsons-baby-oil-200ml",
-    "price": 260.0,
+    "price": 260,
     "image": "/images/products/johnsons-baby-oil-200ml.jpg",
     "stock": 1,
     "description": "Johnson'S Baby Oil 200Ml - High quality baby care product.",
@@ -1103,13 +1181,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 2669
+    "rank": 2669,
+    "name": "Johnson'S Baby Oil 200Ml"
   },
   {
     "id": 2670,
     "title": "Johnson'S Baby Oil 500Ml",
     "slug": "johnsons-baby-oil-500ml",
-    "price": 550.0,
+    "price": 550,
     "image": "/images/products/johnsons-baby-oil-500ml.jpg",
     "stock": 2,
     "description": "Johnson'S Baby Oil 500Ml - High quality baby care product.",
@@ -1117,13 +1196,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 2670
+    "rank": 2670,
+    "name": "Johnson'S Baby Oil 500Ml"
   },
   {
     "id": 2671,
     "title": "Johnson'S Baby Powder 100G",
     "slug": "johnsons-baby-powder-100g",
-    "price": 125.0,
+    "price": 125,
     "image": "/images/products/johnsons-baby-powder-100g.jpg",
     "stock": 6,
     "description": "Johnson'S Baby Powder 100G - High quality baby care product.",
@@ -1131,13 +1211,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 2671
+    "rank": 2671,
+    "name": "Johnson'S Baby Powder 100G"
   },
   {
     "id": 2672,
     "title": "Johnson'S Baby Powder 200G.",
     "slug": "johnsons-baby-powder-200g",
-    "price": 230.0,
+    "price": 230,
     "image": "/images/products/johnsons-baby-powder-200g.jpg",
     "stock": 3,
     "description": "Johnson'S Baby Powder 200G. - High quality baby care product.",
@@ -1145,13 +1226,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 2672
+    "rank": 2672,
+    "name": "Johnson'S Baby Powder 200G."
   },
   {
     "id": 2673,
     "title": "Johnson'S Baby Powder 400G",
     "slug": "johnsons-baby-powder-400g",
-    "price": 340.0,
+    "price": 340,
     "image": "/images/products/johnsons-baby-powder-400g.jpg",
     "stock": 2,
     "description": "Johnson'S Baby Powder 400G - High quality baby care product.",
@@ -1159,13 +1241,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 2673
+    "rank": 2673,
+    "name": "Johnson'S Baby Powder 400G"
   },
   {
     "id": 2674,
     "title": "Johnson'S Baby Powder Blossoms 100G.",
     "slug": "johnsons-baby-powder-blossoms-100g",
-    "price": 130.0,
+    "price": 130,
     "image": "/images/products/johnsons-baby-powder-blossoms-100g.jpg",
     "stock": 3,
     "description": "Johnson'S Baby Powder Blossoms 100G. - High quality baby care product.",
@@ -1173,13 +1256,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 2674
+    "rank": 2674,
+    "name": "Johnson'S Baby Powder Blossoms 100G."
   },
   {
     "id": 2675,
     "title": "Johnson'S Baby Powder Blossoms 200G.",
     "slug": "johnsons-baby-powder-blossoms-200g",
-    "price": 240.0,
+    "price": 240,
     "image": "/images/products/johnsons-baby-powder-blossoms-200g.jpg",
     "stock": 2,
     "description": "Johnson'S Baby Powder Blossoms 200G. - High quality baby care product.",
@@ -1187,13 +1271,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 2675
+    "rank": 2675,
+    "name": "Johnson'S Baby Powder Blossoms 200G."
   },
   {
     "id": 2676,
     "title": "Johnson'S Baby Shampoo 100Ml",
     "slug": "johnsons-baby-shampoo-100ml",
-    "price": 160.0,
+    "price": 160,
     "image": "/images/products/johnsons-baby-shampoo-100ml.jpg",
     "stock": 6,
     "description": "Johnson'S Baby Shampoo 100Ml - High quality baby care product.",
@@ -1201,13 +1286,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 2676
+    "rank": 2676,
+    "name": "Johnson'S Baby Shampoo 100Ml"
   },
   {
     "id": 2677,
     "title": "Johnson'S Baby Skin Care Wipes 72N",
     "slug": "johnsons-baby-skin-care-wipes-72n",
-    "price": 280.0,
+    "price": 280,
     "image": "/images/products/johnsons-baby-skin-care-wipes-72n.jpg",
     "stock": 9,
     "description": "Johnson'S Baby Skin Care Wipes 72N - High quality baby care product.",
@@ -1215,13 +1301,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 2677
+    "rank": 2677,
+    "name": "Johnson'S Baby Skin Care Wipes 72N"
   },
   {
     "id": 2678,
     "title": "Johnson'S Baby Skincare Wipes 20N",
     "slug": "johnsons-baby-skincare-wipes-20n",
-    "price": 85.0,
+    "price": 85,
     "image": "/images/products/johnsons-baby-skincare-wipes-20n.jpg",
     "stock": 7,
     "description": "Johnson'S Baby Skincare Wipes 20N - High quality baby care product.",
@@ -1229,13 +1316,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 2678
+    "rank": 2678,
+    "name": "Johnson'S Baby Skincare Wipes 20N"
   },
   {
     "id": 2679,
     "title": "Johnson'S Baby Soap 100G",
     "slug": "johnsons-baby-soap-100g",
-    "price": 86.0,
+    "price": 86,
     "image": "/images/products/johnsons-baby-soap-100g.jpg",
     "stock": 4,
     "description": "Johnson'S Baby Soap 100G - High quality baby care product.",
@@ -1243,13 +1331,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 2679
+    "rank": 2679,
+    "name": "Johnson'S Baby Soap 100G"
   },
   {
     "id": 2680,
     "title": "Johnson'S Baby Soap 150G",
     "slug": "johnsons-baby-soap-150g",
-    "price": 135.0,
+    "price": 135,
     "image": "/images/products/johnsons-baby-soap-150g.jpg",
     "stock": 2,
     "description": "Johnson'S Baby Soap 150G - High quality baby care product.",
@@ -1257,13 +1346,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 2680
+    "rank": 2680,
+    "name": "Johnson'S Baby Soap 150G"
   },
   {
     "id": 2681,
     "title": "Johnson'S Baby Top-To-Toe Bath 100Ml",
     "slug": "johnsons-baby-top-to-toe-bath-100ml",
-    "price": 125.0,
+    "price": 125,
     "image": "/images/products/johnsons-baby-top-to-toe-bath-100ml.jpg",
     "stock": 3,
     "description": "Johnson'S Baby Top-To-Toe Bath 100Ml - High quality baby care product.",
@@ -1271,13 +1361,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 2681
+    "rank": 2681,
+    "name": "Johnson'S Baby Top-To-Toe Bath 100Ml"
   },
   {
     "id": 2682,
     "title": "Johnson'S Buds 30N",
     "slug": "johnsons-buds-30n",
-    "price": 75.0,
+    "price": 75,
     "image": "/images/products/johnsons-buds-30n.jpg",
     "stock": 5,
     "description": "Johnson'S Buds 30N - High quality baby care product.",
@@ -1285,13 +1376,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 2682
+    "rank": 2682,
+    "name": "Johnson'S Buds 30N"
   },
   {
     "id": 2683,
     "title": "Johnson'S Ear Buds 150N",
     "slug": "johnsons-ear-buds-150n",
-    "price": 165.0,
+    "price": 165,
     "image": "/images/products/johnsons-ear-buds-150n.jpg",
     "stock": 4,
     "description": "Johnson'S Ear Buds 150N - High quality baby care product.",
@@ -1299,13 +1391,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 2683
+    "rank": 2683,
+    "name": "Johnson'S Ear Buds 150N"
   },
   {
     "id": 2684,
     "title": "Johnson'S Milk+Rice Cream 50G",
     "slug": "johnsons-milkrice-cream-50g",
-    "price": 0.0,
+    "price": 0,
     "image": "/images/products/johnsons-milkrice-cream-50g.jpg",
     "stock": 5,
     "description": "Johnson'S Milk+Rice Cream 50G - High quality baby care product.",
@@ -1313,13 +1406,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 2684
+    "rank": 2684,
+    "name": "Johnson'S Milk+Rice Cream 50G"
   },
   {
     "id": 2685,
     "title": "Johnson'S Milk+Rice Lotion 200Ml",
     "slug": "johnsons-milkrice-lotion-200ml",
-    "price": 225.0,
+    "price": 225,
     "image": "/images/products/johnsons-milkrice-lotion-200ml.jpg",
     "stock": 3,
     "description": "Johnson'S Milk+Rice Lotion 200Ml - High quality baby care product.",
@@ -1327,13 +1421,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 2685
+    "rank": 2685,
+    "name": "Johnson'S Milk+Rice Lotion 200Ml"
   },
   {
     "id": 3321,
     "title": "Mamaearth Baby  Mily Soft 200Ml",
     "slug": "mamaearth-baby-mily-soft-200ml",
-    "price": 249.0,
+    "price": 249,
     "image": "/images/products/mamaearth-baby-mily-soft-200ml.jpg",
     "stock": 2,
     "description": "Mamaearth Baby  Mily Soft 200Ml - High quality baby care product.",
@@ -1341,13 +1436,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 3321
+    "rank": 3321,
+    "name": "Mamaearth Baby  Mily Soft 200Ml"
   },
   {
     "id": 3322,
     "title": "Mamaearth Baby Body Wash 200Ml",
     "slug": "mamaearth-baby-body-wash-200ml",
-    "price": 249.0,
+    "price": 249,
     "image": "/images/products/mamaearth-baby-body-wash-200ml.jpg",
     "stock": 3,
     "description": "Mamaearth Baby Body Wash 200Ml - High quality baby care product.",
@@ -1355,13 +1451,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 3322
+    "rank": 3322,
+    "name": "Mamaearth Baby Body Wash 200Ml"
   },
   {
     "id": 3323,
     "title": "Mamaearth Baby Coco Soft",
     "slug": "mamaearth-baby-coco-soft",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/mamaearth-baby-coco-soft.jpg",
     "stock": 3,
     "description": "Mamaearth Baby Coco Soft - High quality baby care product.",
@@ -1369,13 +1466,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 3323
+    "rank": 3323,
+    "name": "Mamaearth Baby Coco Soft"
   },
   {
     "id": 3324,
     "title": "Mamaearth Baby Powder 150G",
     "slug": "mamaearth-baby-powder-150g",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/mamaearth-baby-powder-150g.jpg",
     "stock": 3,
     "description": "Mamaearth Baby Powder 150G - High quality baby care product.",
@@ -1383,13 +1481,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 3324
+    "rank": 3324,
+    "name": "Mamaearth Baby Powder 150G"
   },
   {
     "id": 3325,
     "title": "Mamaearth Baby Rm Sun 50G",
     "slug": "mamaearth-baby-rm-sun-50g",
-    "price": 399.0,
+    "price": 399,
     "image": "/images/products/mamaearth-baby-rm-sun-50g.jpg",
     "stock": 3,
     "description": "Mamaearth Baby Rm Sun 50G - High quality baby care product.",
@@ -1397,13 +1496,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 3325
+    "rank": 3325,
+    "name": "Mamaearth Baby Rm Sun 50G"
   },
   {
     "id": 3326,
     "title": "Mamaearth Baby Wipes 72No",
     "slug": "mamaearth-baby-wipes-72no",
-    "price": 299.0,
+    "price": 299,
     "image": "/images/products/mamaearth-baby-wipes-72no.jpg",
     "stock": 3,
     "description": "Mamaearth Baby Wipes 72No - High quality baby care product.",
@@ -1411,13 +1511,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 3326
+    "rank": 3326,
+    "name": "Mamaearth Baby Wipes 72No"
   },
   {
     "id": 4219,
     "title": "Origami Wet Wipes 25",
     "slug": "origami-wet-wipes-25",
-    "price": 95.0,
+    "price": 95,
     "image": "/images/products/origami-wet-wipes-25.jpg",
     "stock": 6,
     "description": "Origami Wet Wipes 25 - High quality baby care product.",
@@ -1425,13 +1526,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 4219
+    "rank": 4219,
+    "name": "Origami Wet Wipes 25"
   },
   {
     "id": 4254,
     "title": "Pamper Active Baby New Baby 24X18",
     "slug": "pamper-active-baby-new-baby-24x18",
-    "price": 399.0,
+    "price": 399,
     "image": "/images/products/pamper-active-baby-new-baby-24x18.jpg",
     "stock": 3,
     "description": "Pamper Active Baby New Baby 24X18 - High quality baby care product.",
@@ -1439,13 +1541,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 4254
+    "rank": 4254,
+    "name": "Pamper Active Baby New Baby 24X18"
   },
   {
     "id": 4257,
     "title": "Pamper Blue Pants Jumbo New Baby 64X6",
     "slug": "pamper-blue-pants-jumbo-new-baby-64x6",
-    "price": 699.0,
+    "price": 699,
     "image": "/images/products/pamper-blue-pants-jumbo-new-baby-64x6.jpg",
     "stock": 1,
     "description": "Pamper Blue Pants Jumbo New Baby 64X6 - High quality baby care product.",
@@ -1453,13 +1556,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 4257
+    "rank": 4257,
+    "name": "Pamper Blue Pants Jumbo New Baby 64X6"
   },
   {
     "id": 4265,
     "title": "Pamper Blue Pants New Baby 17X24",
     "slug": "pamper-blue-pants-new-baby-17x24",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/pamper-blue-pants-new-baby-17x24.jpg",
     "stock": 3,
     "description": "Pamper Blue Pants New Baby 17X24 - High quality baby care product.",
@@ -1467,13 +1571,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 4265
+    "rank": 4265,
+    "name": "Pamper Blue Pants New Baby 17X24"
   },
   {
     "id": 4266,
     "title": "Pamper Blue Pants New Baby 34X12",
     "slug": "pamper-blue-pants-new-baby-34x12",
-    "price": 399.0,
+    "price": 399,
     "image": "/images/products/pamper-blue-pants-new-baby-34x12.jpg",
     "stock": 3,
     "description": "Pamper Blue Pants New Baby 34X12 - High quality baby care product.",
@@ -1481,13 +1586,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 4266
+    "rank": 4266,
+    "name": "Pamper Blue Pants New Baby 34X12"
   },
   {
     "id": 4267,
     "title": "Pamper Blue Pants New Baby 8X40",
     "slug": "pamper-blue-pants-new-baby-8x40",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/pamper-blue-pants-new-baby-8x40.jpg",
     "stock": 3,
     "description": "Pamper Blue Pants New Baby 8X40 - High quality baby care product.",
@@ -1495,13 +1601,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 4267
+    "rank": 4267,
+    "name": "Pamper Blue Pants New Baby 8X40"
   },
   {
     "id": 4857,
     "title": "Savlon Germ Protection Wipes",
     "slug": "savlon-germ-protection-wipes",
-    "price": 49.0,
+    "price": 49,
     "image": "/images/products/savlon-germ-protection-wipes.jpg",
     "stock": 3,
     "description": "Savlon Germ Protection Wipes - High quality baby care product.",
@@ -1509,13 +1616,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 4857
+    "rank": 4857,
+    "name": "Savlon Germ Protection Wipes"
   },
   {
     "id": 4858,
     "title": "Savlon Germ Protection Wipes 72Pc",
     "slug": "savlon-germ-protection-wipes-72pc",
-    "price": 210.0,
+    "price": 210,
     "image": "/images/products/savlon-germ-protection-wipes-72pc.jpg",
     "stock": 3,
     "description": "Savlon Germ Protection Wipes 72Pc - High quality baby care product.",
@@ -1523,13 +1631,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 4858
+    "rank": 4858,
+    "name": "Savlon Germ Protection Wipes 72Pc"
   },
   {
     "id": 4886,
     "title": "Scotch Brite Polishing Wipes",
     "slug": "scotch-brite-polishing-wipes",
-    "price": 179.0,
+    "price": 179,
     "image": "/images/products/scotch-brite-polishing-wipes.jpg",
     "stock": 5,
     "description": "Scotch Brite Polishing Wipes - High quality baby care product.",
@@ -1537,13 +1646,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 4886
+    "rank": 4886,
+    "name": "Scotch Brite Polishing Wipes"
   },
   {
     "id": 4897,
     "title": "Scotch Brite Wipes 1P",
     "slug": "scotch-brite-wipes-1p",
-    "price": 80.0,
+    "price": 80,
     "image": "/images/products/scotch-brite-wipes-1p.jpg",
     "stock": 3,
     "description": "Scotch Brite Wipes 1P - High quality baby care product.",
@@ -1551,13 +1661,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 4897
+    "rank": 4897,
+    "name": "Scotch Brite Wipes 1P"
   },
   {
     "id": 4898,
     "title": "Scotch Brite Wipes 3P",
     "slug": "scotch-brite-wipes-3p",
-    "price": 230.0,
+    "price": 230,
     "image": "/images/products/scotch-brite-wipes-3p.jpg",
     "stock": 4,
     "description": "Scotch Brite Wipes 3P - High quality baby care product.",
@@ -1565,13 +1676,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 4898
+    "rank": 4898,
+    "name": "Scotch Brite Wipes 3P"
   },
   {
     "id": 4930,
     "title": "Seba Med Baby Lotion",
     "slug": "seba-med-baby-lotion",
-    "price": 590.0,
+    "price": 590,
     "image": "/images/products/seba-med-baby-lotion.jpg",
     "stock": 2,
     "description": "Seba Med Baby Lotion - High quality baby care product.",
@@ -1579,13 +1691,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 4930
+    "rank": 4930,
+    "name": "Seba Med Baby Lotion"
   },
   {
     "id": 5078,
     "title": "Softsens Baby Body Lotion 200Ml",
     "slug": "softsens-baby-body-lotion-200ml",
-    "price": 195.0,
+    "price": 195,
     "image": "/images/products/softsens-baby-body-lotion-200ml.jpg",
     "stock": 3,
     "description": "Softsens Baby Body Lotion 200Ml - High quality baby care product.",
@@ -1593,13 +1706,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 5078
+    "rank": 5078,
+    "name": "Softsens Baby Body Lotion 200Ml"
   },
   {
     "id": 5079,
     "title": "Softsens Baby Body Wash",
     "slug": "softsens-baby-body-wash",
-    "price": 180.0,
+    "price": 180,
     "image": "/images/products/softsens-baby-body-wash.jpg",
     "stock": 2,
     "description": "Softsens Baby Body Wash - High quality baby care product.",
@@ -1607,13 +1721,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 5079
+    "rank": 5079,
+    "name": "Softsens Baby Body Wash"
   },
   {
     "id": 5080,
     "title": "Softsens Baby Cream",
     "slug": "softsens-baby-cream",
-    "price": 175.0,
+    "price": 175,
     "image": "/images/products/softsens-baby-cream.jpg",
     "stock": 6,
     "description": "Softsens Baby Cream - High quality baby care product.",
@@ -1621,13 +1736,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 5080
+    "rank": 5080,
+    "name": "Softsens Baby Cream"
   },
   {
     "id": 5081,
     "title": "Softsens Baby Lotion 400Ml",
     "slug": "softsens-baby-lotion-400ml",
-    "price": 325.0,
+    "price": 325,
     "image": "/images/products/softsens-baby-lotion-400ml.jpg",
     "stock": 12,
     "description": "Softsens Baby Lotion 400Ml - High quality baby care product.",
@@ -1635,13 +1751,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 5081
+    "rank": 5081,
+    "name": "Softsens Baby Lotion 400Ml"
   },
   {
     "id": 5082,
     "title": "Softsens Baby Milk Bar",
     "slug": "softsens-baby-milk-bar",
-    "price": 210.0,
+    "price": 210,
     "image": "/images/products/softsens-baby-milk-bar.jpg",
     "stock": 12,
     "description": "Softsens Baby Milk Bar - High quality baby care product.",
@@ -1649,13 +1766,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 5082
+    "rank": 5082,
+    "name": "Softsens Baby Milk Bar"
   },
   {
     "id": 5083,
     "title": "Softsens Baby Powder",
     "slug": "softsens-baby-powder",
-    "price": 165.0,
+    "price": 165,
     "image": "/images/products/softsens-baby-powder.jpg",
     "stock": 6,
     "description": "Softsens Baby Powder - High quality baby care product.",
@@ -1663,13 +1781,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 5083
+    "rank": 5083,
+    "name": "Softsens Baby Powder"
   },
   {
     "id": 5084,
     "title": "Softsens Baby Shampoo 500Ml",
     "slug": "softsens-baby-shampoo-500ml",
-    "price": 370.0,
+    "price": 370,
     "image": "/images/products/softsens-baby-shampoo-500ml.jpg",
     "stock": 10,
     "description": "Softsens Baby Shampoo 500Ml - High quality baby care product.",
@@ -1677,13 +1796,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 5084
+    "rank": 5084,
+    "name": "Softsens Baby Shampoo 500Ml"
   },
   {
     "id": 5085,
     "title": "Softsens Baby Soaps",
     "slug": "softsens-baby-soaps",
-    "price": 70.0,
+    "price": 70,
     "image": "/images/products/softsens-baby-soaps.jpg",
     "stock": 26,
     "description": "Softsens Baby Soaps - High quality baby care product.",
@@ -1691,13 +1811,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 5085
+    "rank": 5085,
+    "name": "Softsens Baby Soaps"
   },
   {
     "id": 5086,
     "title": "Softsens Baby Wips 20",
     "slug": "softsens-baby-wips-20",
-    "price": 80.0,
+    "price": 80,
     "image": "/images/products/softsens-baby-wips-20.jpg",
     "stock": 11,
     "description": "Softsens Baby Wips 20 - High quality baby care product.",
@@ -1705,13 +1826,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 5086
+    "rank": 5086,
+    "name": "Softsens Baby Wips 20"
   },
   {
     "id": 5087,
     "title": "Softsens Baby Wips 72",
     "slug": "softsens-baby-wips-72",
-    "price": 250.0,
+    "price": 250,
     "image": "/images/products/softsens-baby-wips-72.jpg",
     "stock": 12,
     "description": "Softsens Baby Wips 72 - High quality baby care product.",
@@ -1719,13 +1841,14 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 5087
+    "rank": 5087,
+    "name": "Softsens Baby Wips 72"
   },
   {
     "id": 5599,
     "title": "Vbott Love Baby 380Ml",
     "slug": "vbott-love-baby-380ml",
-    "price": 999.0,
+    "price": 999,
     "image": "/images/products/vbott-love-baby-380ml.jpg",
     "stock": 3,
     "description": "Vbott Love Baby 380Ml - High quality baby care product.",
@@ -1733,7 +1856,8 @@ const products = [
     "unit": "PCS",
     "category": "baby-care",
     "popular": false,
-    "rank": 5599
+    "rank": 5599,
+    "name": "Vbott Love Baby 380Ml"
   }
 ];
 

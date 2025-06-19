@@ -1,5 +1,7 @@
 'use client';
 
+// Route: /components/Header.jsx – Main site header, navigation, search, cart
+
 import { useState, useEffect, useLayoutEffect } from 'react';
 import { FiMenu, FiSearch, FiShoppingCart, FiX } from 'react-icons/fi';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -10,19 +12,18 @@ import { useDebounce } from 'use-debounce';
 import { useRouter } from 'next/navigation';
 import categories from '@/data/categories';
 
+// --- Header component ---
 export default function Header() {
   const router = useRouter();
   const cartCount = useCartStore((state) => state.count);
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
-  // Fix for "padding on right" when sidebar is open
+  // Prevent scroll/jump when sidebar is open
   useLayoutEffect(() => {
     if (sidebarOpen) {
       const scrollBarWidth = window.innerWidth - document.documentElement.clientWidth;
       document.body.style.overflow = 'hidden';
-      if (scrollBarWidth > 0) {
-        document.body.style.paddingRight = `${scrollBarWidth}px`;
-      }
+      if (scrollBarWidth > 0) document.body.style.paddingRight = `${scrollBarWidth}px`;
     } else {
       document.body.style.overflow = '';
       document.body.style.paddingRight = '';
@@ -43,6 +44,7 @@ export default function Header() {
             className="p-2 rounded-lg bg-white border border-gray-200 shadow md:hidden focus:outline-none focus:ring-2 focus:ring-red-400"
             aria-label="Open categories menu"
             onClick={() => setSidebarOpen(true)}
+            type="button"
           >
             <FiMenu className="h-6 w-6 text-gray-700" />
           </button>
@@ -57,23 +59,25 @@ export default function Header() {
               priority
             />
           </Link>
-
-
         </div>
         {/* Categories for desktop */}
-        <div className="hidden md:flex gap-2">
+        <nav className="hidden md:flex gap-2">
           {categories.slice(0, 5).map((category) => (
             <Link
               key={category.slug}
               href={`/category/${category.slug}`}
-              className="text-gray-700 hover:text-red-600 px-3 py-2 rounded-lg transition-colors font-medium"
+              className="text-gray-700 hover:text-red-600 px-3 py-2 rounded-lg transition-colors font-medium focus:outline-none focus:ring-2 focus:ring-red-300"
             >
               {category.name}
             </Link>
           ))}
           <div className="relative group">
             <button
-              className="text-gray-700 hover:text-red-600 px-3 py-2 rounded-lg font-medium transition-colors"
+              className="text-gray-700 hover:text-red-600 px-3 py-2 rounded-lg font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-red-300"
+              type="button"
+              tabIndex={0}
+              aria-haspopup="menu"
+              aria-expanded="false"
             >
               More
             </button>
@@ -82,18 +86,18 @@ export default function Header() {
                 <Link
                   key={category.slug}
                   href={`/category/${category.slug}`}
-                  className="block px-4 py-2 text-gray-700 hover:bg-red-50 hover:text-red-600 rounded transition-colors"
+                  className="block px-4 py-2 text-gray-700 hover:bg-red-50 hover:text-red-600 rounded transition-colors focus:outline-none"
                 >
                   {category.name}
                 </Link>
               ))}
             </div>
           </div>
-        </div>
+        </nav>
         {/* Cart */}
         <Link
           href="/cart"
-          className="p-2 text-gray-700 hover:text-red-600 relative transition-colors"
+          className="p-2 text-gray-700 hover:text-red-600 relative transition-colors focus:outline-none"
           aria-label="View cart"
         >
           <FiShoppingCart className="h-6 w-6" />
@@ -138,6 +142,7 @@ export default function Header() {
                   className="p-2 rounded-full hover:bg-gray-100"
                   aria-label="Close categories menu"
                   onClick={() => setSidebarOpen(false)}
+                  type="button"
                 >
                   <FiX className="h-6 w-6" />
                 </button>
@@ -147,7 +152,7 @@ export default function Header() {
                   <Link
                     key={category.slug}
                     href={`/category/${category.slug}`}
-                    className="flex items-center gap-3 px-5 py-3 text-base rounded-lg text-gray-800 hover:bg-red-50 transition-colors"
+                    className="flex items-center gap-3 px-5 py-3 text-base rounded-lg text-gray-800 hover:bg-red-50 transition-colors focus:outline-none"
                     aria-label={`Shop ${category.name}`}
                     onClick={() => setSidebarOpen(false)}
                   >
@@ -196,16 +201,15 @@ function SearchBar() {
   const handleSearch = (e) => {
     e.preventDefault();
     if (searchQuery.trim()) {
-      router.push(`/search?q=${encodeURIComponent(searchQuery)}`); // <<<< updated!
+      router.push(`/search?q=${encodeURIComponent(searchQuery)}`);
       setSearchQuery('');
       setSearchSuggestions([]);
       setShowSuggestions(false);
     }
   };
 
-  const handleBlur = () => {
-    setTimeout(() => setShowSuggestions(false), 120);
-  };
+  // Keep suggestions open briefly after blur (for click)
+  const handleBlur = () => setTimeout(() => setShowSuggestions(false), 120);
 
   return (
     <form onSubmit={handleSearch} className="w-full" autoComplete="off">
@@ -233,7 +237,7 @@ function SearchBar() {
                 <li key={suggestion._id} className="border-b last:border-none">
                   <Link
                     href={`/products/${suggestion.slug || suggestion._id}`}
-                    className="flex items-center gap-2 px-4 py-2 text-sm text-gray-700 hover:bg-red-100 hover:text-red-600 transition-colors"
+                    className="flex items-center gap-2 px-4 py-2 text-sm text-gray-700 hover:bg-red-100 hover:text-red-600 transition-colors focus:outline-none"
                   >
                     <Image
                       src={suggestion.image || '/images/logo.svg'}
@@ -263,4 +267,3 @@ function SearchBar() {
     </form>
   );
 }
-

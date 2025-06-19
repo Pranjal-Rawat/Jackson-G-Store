@@ -3,7 +3,7 @@ const products = [
     "id": 27,
     "title": "24Mantra Mustard Oil 1L",
     "slug": "24mantra-mustard-oil-1l",
-    "price": 350.0,
+    "price": 350,
     "image": "/images/products/24mantra-mustard-oil-1l.jpg",
     "stock": 5,
     "description": "24Mantra Mustard Oil 1L - Premium quality spice or masala product.",
@@ -11,13 +11,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 27
+    "rank": 27,
+    "name": "24Mantra Mustard Oil 1L"
   },
   {
     "id": 48,
     "title": "Aashirvaad Garlic &Coriander Naan",
     "slug": "aashirvaad-garlic-coriander-naan",
-    "price": 180.0,
+    "price": 180,
     "image": "/images/products/aashirvaad-garlic-coriander-naan.jpg",
     "stock": 3,
     "description": "Aashirvaad Garlic &Coriander Naan - Premium quality spice or masala product.",
@@ -25,13 +26,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 48
+    "rank": 48,
+    "name": "Aashirvaad Garlic &Coriander Naan"
   },
   {
     "id": 58,
     "title": "Abbie'S Dijon Mustard",
     "slug": "abbies-dijon-mustard",
-    "price": 325.0,
+    "price": 325,
     "image": "/images/products/abbies-dijon-mustard.jpg",
     "stock": 3,
     "description": "Abbie'S Dijon Mustard - Premium quality spice or masala product.",
@@ -39,13 +41,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 58
+    "rank": 58,
+    "name": "Abbie'S Dijon Mustard"
   },
   {
     "id": 68,
     "title": "Act2 Popcorn Butter Pepper",
     "slug": "act2-popcorn-butter-pepper",
-    "price": 35.0,
+    "price": 35,
     "image": "/images/products/act2-popcorn-butter-pepper.jpg",
     "stock": 30,
     "description": "Act2 Popcorn Butter Pepper - Premium quality spice or masala product.",
@@ -53,13 +56,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 68
+    "rank": 68,
+    "name": "Act2 Popcorn Butter Pepper"
   },
   {
     "id": 69,
     "title": "Act2 Popcorn Chillis",
     "slug": "act2-popcorn-chillis",
-    "price": 10.0,
+    "price": 10,
     "image": "/images/products/act2-popcorn-chillis.jpg",
     "stock": 52,
     "description": "Act2 Popcorn Chillis - Premium quality spice or masala product.",
@@ -67,13 +71,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 69
+    "rank": 69,
+    "name": "Act2 Popcorn Chillis"
   },
   {
     "id": 75,
     "title": "Act2 Popcorn Southern Spice",
     "slug": "act2-popcorn-southern-spice",
-    "price": 35.0,
+    "price": 35,
     "image": "/images/products/act2-popcorn-southern-spice.jpg",
     "stock": 29,
     "description": "Act2 Popcorn Southern Spice - Premium quality spice or masala product.",
@@ -81,13 +86,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 75
+    "rank": 75,
+    "name": "Act2 Popcorn Southern Spice"
   },
   {
     "id": 92,
     "title": "Ag U.S Mustard Sauce",
     "slug": "ag-us-mustard-sauce",
-    "price": 250.0,
+    "price": 250,
     "image": "/images/products/ag-us-mustard-sauce.jpg",
     "stock": 6,
     "description": "Ag U.S Mustard Sauce - Premium quality spice or masala product.",
@@ -95,13 +101,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 92
+    "rank": 92,
+    "name": "Ag U.S Mustard Sauce"
   },
   {
     "id": 151,
     "title": "Amul Cheese Spread Pepper 200Gm",
     "slug": "amul-cheese-spread-pepper-200gm",
-    "price": 110.0,
+    "price": 110,
     "image": "/images/products/amul-cheese-spread-pepper-200gm.jpg",
     "stock": 2,
     "description": "Amul Cheese Spread Pepper 200Gm - Premium quality spice or masala product.",
@@ -109,13 +116,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 151
+    "rank": 151,
+    "name": "Amul Cheese Spread Pepper 200Gm"
   },
   {
     "id": 214,
     "title": "Anand Punjabi Masala Papad",
     "slug": "anand-punjabi-masala-papad",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/anand-punjabi-masala-papad.jpg",
     "stock": 1,
     "description": "Anand Punjabi Masala Papad - Premium quality spice or masala product.",
@@ -123,13 +131,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 214
+    "rank": 214,
+    "name": "Anand Punjabi Masala Papad"
   },
   {
     "id": 278,
     "title": "Aristo Lock&Fresh Masala Box -1000",
     "slug": "aristo-lockfresh-masala-box--1000",
-    "price": 248.0,
+    "price": 248,
     "image": "/images/products/aristo-lockfresh-masala-box--1000.jpg",
     "stock": 4,
     "description": "Aristo Lock&Fresh Masala Box -1000 - Premium quality spice or masala product.",
@@ -137,13 +146,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 278
+    "rank": 278,
+    "name": "Aristo Lock&Fresh Masala Box -1000"
   },
   {
     "id": 355,
     "title": "Bagh Bakri Instant Tea Elaichi Sf",
     "slug": "bagh-bakri-instant-tea-elaichi-sf",
-    "price": 140.0,
+    "price": 140,
     "image": "/images/products/bagh-bakri-instant-tea-elaichi-sf.jpg",
     "stock": 2,
     "description": "Bagh Bakri Instant Tea Elaichi Sf - Premium quality spice or masala product.",
@@ -151,13 +161,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 355
+    "rank": 355,
+    "name": "Bagh Bakri Instant Tea Elaichi Sf"
   },
   {
     "id": 357,
     "title": "Bagh Bakri Instant Tea Masala Sf",
     "slug": "bagh-bakri-instant-tea-masala-sf",
-    "price": 140.0,
+    "price": 140,
     "image": "/images/products/bagh-bakri-instant-tea-masala-sf.jpg",
     "stock": 2,
     "description": "Bagh Bakri Instant Tea Masala Sf - Premium quality spice or masala product.",
@@ -165,13 +176,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 357
+    "rank": 357,
+    "name": "Bagh Bakri Instant Tea Masala Sf"
   },
   {
     "id": 360,
     "title": "Bagh Bakri Masala Tea 500G",
     "slug": "bagh-bakri-masala-tea-500g",
-    "price": 330.0,
+    "price": 330,
     "image": "/images/products/bagh-bakri-masala-tea-500g.jpg",
     "stock": 6,
     "description": "Bagh Bakri Masala Tea 500G - Premium quality spice or masala product.",
@@ -179,13 +191,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 360
+    "rank": 360,
+    "name": "Bagh Bakri Masala Tea 500G"
   },
   {
     "id": 456,
     "title": "Bicano Boondi Masala",
     "slug": "bicano-boondi-masala",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/bicano-boondi-masala.jpg",
     "stock": 1,
     "description": "Bicano Boondi Masala - Premium quality spice or masala product.",
@@ -193,13 +206,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 456
+    "rank": 456,
+    "name": "Bicano Boondi Masala"
   },
   {
     "id": 468,
     "title": "Bicano Nimbu Masala",
     "slug": "bicano-nimbu-masala",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/bicano-nimbu-masala.jpg",
     "stock": 6,
     "description": "Bicano Nimbu Masala - Premium quality spice or masala product.",
@@ -207,13 +221,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 468
+    "rank": 468,
+    "name": "Bicano Nimbu Masala"
   },
   {
     "id": 630,
     "title": "Britannia Good Day Butter Jeera",
     "slug": "britannia-good-day-butter-jeera",
-    "price": 20.0,
+    "price": 20,
     "image": "/images/products/britannia-good-day-butter-jeera.jpg",
     "stock": 13,
     "description": "Britannia Good Day Butter Jeera - Premium quality spice or masala product.",
@@ -221,13 +236,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 630
+    "rank": 630,
+    "name": "Britannia Good Day Butter Jeera"
   },
   {
     "id": 635,
     "title": "Britannia Jeera",
     "slug": "britannia-jeera",
-    "price": 10.0,
+    "price": 10,
     "image": "/images/products/britannia-jeera.jpg",
     "stock": 17,
     "description": "Britannia Jeera - Premium quality spice or masala product.",
@@ -235,13 +251,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 635
+    "rank": 635,
+    "name": "Britannia Jeera"
   },
   {
     "id": 779,
     "title": "Carnivore Chic Saus Black Pepper",
     "slug": "carnivore-chic-saus-black-pepper",
-    "price": 190.0,
+    "price": 190,
     "image": "/images/products/carnivore-chic-saus-black-pepper.jpg",
     "stock": 1,
     "description": "Carnivore Chic Saus Black Pepper - Premium quality spice or masala product.",
@@ -249,13 +266,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 779
+    "rank": 779,
+    "name": "Carnivore Chic Saus Black Pepper"
   },
   {
     "id": 780,
     "title": "Carnivore Chic Saus Masala",
     "slug": "carnivore-chic-saus-masala",
-    "price": 345.0,
+    "price": 345,
     "image": "/images/products/carnivore-chic-saus-masala.jpg",
     "stock": 3,
     "description": "Carnivore Chic Saus Masala - Premium quality spice or masala product.",
@@ -263,13 +281,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 780
+    "rank": 780,
+    "name": "Carnivore Chic Saus Masala"
   },
   {
     "id": 791,
     "title": "Catch Amchur Powder 10G",
     "slug": "catch-amchur-powder-10g",
-    "price": 90.0,
+    "price": 90,
     "image": "/images/products/catch-amchur-powder-10g.jpg",
     "stock": 5,
     "description": "Catch Amchur Powder 10G - Premium quality spice or masala product.",
@@ -277,13 +296,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 791
+    "rank": 791,
+    "name": "Catch Amchur Powder 10G"
   },
   {
     "id": 792,
     "title": "Catch Black Papper 50G",
     "slug": "catch-black-papper-50g",
-    "price": 100.0,
+    "price": 100,
     "image": "/images/products/catch-black-papper-50g.jpg",
     "stock": 1,
     "description": "Catch Black Papper 50G - Premium quality spice or masala product.",
@@ -291,13 +311,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 792
+    "rank": 792,
+    "name": "Catch Black Papper 50G"
   },
   {
     "id": 793,
     "title": "Catch Black Salt",
     "slug": "catch-black-salt",
-    "price": 40.0,
+    "price": 40,
     "image": "/images/products/catch-black-salt.jpg",
     "stock": 4,
     "description": "Catch Black Salt - Premium quality spice or masala product.",
@@ -305,13 +326,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 793
+    "rank": 793,
+    "name": "Catch Black Salt"
   },
   {
     "id": 794,
     "title": "Catch Black Salt 200G",
     "slug": "catch-black-salt-200g",
-    "price": 47.0,
+    "price": 47,
     "image": "/images/products/catch-black-salt-200g.jpg",
     "stock": 5,
     "description": "Catch Black Salt 200G - Premium quality spice or masala product.",
@@ -319,13 +341,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 794
+    "rank": 794,
+    "name": "Catch Black Salt 200G"
   },
   {
     "id": 795,
     "title": "Catch Briyani Masala",
     "slug": "catch-briyani-masala",
-    "price": 90.0,
+    "price": 90,
     "image": "/images/products/catch-briyani-masala.jpg",
     "stock": 2,
     "description": "Catch Briyani Masala - Premium quality spice or masala product.",
@@ -333,13 +356,14 @@ const products = [
     "unit": "1192",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 795
+    "rank": 795,
+    "name": "Catch Briyani Masala"
   },
   {
     "id": 796,
     "title": "Catch Chana Masala",
     "slug": "catch-chana-masala",
-    "price": 89.0,
+    "price": 89,
     "image": "/images/products/catch-chana-masala.jpg",
     "stock": 5,
     "description": "Catch Chana Masala - Premium quality spice or masala product.",
@@ -347,13 +371,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 796
+    "rank": 796,
+    "name": "Catch Chana Masala"
   },
   {
     "id": 797,
     "title": "Catch Chat Masala",
     "slug": "catch-chat-masala",
-    "price": 85.0,
+    "price": 85,
     "image": "/images/products/catch-chat-masala.jpg",
     "stock": 5,
     "description": "Catch Chat Masala - Premium quality spice or masala product.",
@@ -361,13 +386,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 797
+    "rank": 797,
+    "name": "Catch Chat Masala"
   },
   {
     "id": 798,
     "title": "Catch Chat Masala 100G",
     "slug": "catch-chat-masala-100g",
-    "price": 90.0,
+    "price": 90,
     "image": "/images/products/catch-chat-masala-100g.jpg",
     "stock": 5,
     "description": "Catch Chat Masala 100G - Premium quality spice or masala product.",
@@ -375,13 +401,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 798
+    "rank": 798,
+    "name": "Catch Chat Masala 100G"
   },
   {
     "id": 799,
     "title": "Catch Chhole Masala 100G",
     "slug": "catch-chhole-masala-100g",
-    "price": 87.0,
+    "price": 87,
     "image": "/images/products/catch-chhole-masala-100g.jpg",
     "stock": 4,
     "description": "Catch Chhole Masala 100G - Premium quality spice or masala product.",
@@ -389,13 +416,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 799
+    "rank": 799,
+    "name": "Catch Chhole Masala 100G"
   },
   {
     "id": 800,
     "title": "Catch Chicken Masala 100G",
     "slug": "catch-chicken-masala-100g",
-    "price": 90.0,
+    "price": 90,
     "image": "/images/products/catch-chicken-masala-100g.jpg",
     "stock": 5,
     "description": "Catch Chicken Masala 100G - Premium quality spice or masala product.",
@@ -403,13 +431,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 800
+    "rank": 800,
+    "name": "Catch Chicken Masala 100G"
   },
   {
     "id": 801,
     "title": "Catch Dal Makhni Masala 100Gm",
     "slug": "catch-dal-makhni-masala-100gm",
-    "price": 80.0,
+    "price": 80,
     "image": "/images/products/catch-dal-makhni-masala-100gm.jpg",
     "stock": 3,
     "description": "Catch Dal Makhni Masala 100Gm - Premium quality spice or masala product.",
@@ -417,13 +446,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 801
+    "rank": 801,
+    "name": "Catch Dal Makhni Masala 100Gm"
   },
   {
     "id": 802,
     "title": "Catch Dhania Powder 200G",
     "slug": "catch-dhania-powder-200g",
-    "price": 80.0,
+    "price": 80,
     "image": "/images/products/catch-dhania-powder-200g.jpg",
     "stock": 12,
     "description": "Catch Dhania Powder 200G - Premium quality spice or masala product.",
@@ -431,13 +461,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 802
+    "rank": 802,
+    "name": "Catch Dhania Powder 200G"
   },
   {
     "id": 803,
     "title": "Catch Dhania Powder 500G",
     "slug": "catch-dhania-powder-500g",
-    "price": 195.0,
+    "price": 195,
     "image": "/images/products/catch-dhania-powder-500g.jpg",
     "stock": 3,
     "description": "Catch Dhania Powder 500G - Premium quality spice or masala product.",
@@ -445,13 +476,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 803
+    "rank": 803,
+    "name": "Catch Dhania Powder 500G"
   },
   {
     "id": 804,
     "title": "Catch Garam Masala",
     "slug": "catch-garam-masala",
-    "price": 107.0,
+    "price": 107,
     "image": "/images/products/catch-garam-masala.jpg",
     "stock": 5,
     "description": "Catch Garam Masala - Premium quality spice or masala product.",
@@ -459,13 +491,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 804
+    "rank": 804,
+    "name": "Catch Garam Masala"
   },
   {
     "id": 805,
     "title": "Catch Garam Masala 100G",
     "slug": "catch-garam-masala-100g",
-    "price": 55.0,
+    "price": 55,
     "image": "/images/products/catch-garam-masala-100g.jpg",
     "stock": 7,
     "description": "Catch Garam Masala 100G - Premium quality spice or masala product.",
@@ -473,13 +506,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 805
+    "rank": 805,
+    "name": "Catch Garam Masala 100G"
   },
   {
     "id": 806,
     "title": "Catch Ginger Garlic Paste",
     "slug": "catch-ginger-garlic-paste",
-    "price": 50.0,
+    "price": 50,
     "image": "/images/products/catch-ginger-garlic-paste.jpg",
     "stock": 5,
     "description": "Catch Ginger Garlic Paste - Premium quality spice or masala product.",
@@ -487,13 +521,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 806
+    "rank": 806,
+    "name": "Catch Ginger Garlic Paste"
   },
   {
     "id": 807,
     "title": "Catch Ginger Powder 100G",
     "slug": "catch-ginger-powder-100g",
-    "price": 80.0,
+    "price": 80,
     "image": "/images/products/catch-ginger-powder-100g.jpg",
     "stock": 2,
     "description": "Catch Ginger Powder 100G - Premium quality spice or masala product.",
@@ -501,13 +536,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 807
+    "rank": 807,
+    "name": "Catch Ginger Powder 100G"
   },
   {
     "id": 808,
     "title": "Catch Haldi Powder 200G",
     "slug": "catch-haldi-powder-200g",
-    "price": 92.0,
+    "price": 92,
     "image": "/images/products/catch-haldi-powder-200g.jpg",
     "stock": 3,
     "description": "Catch Haldi Powder 200G - Premium quality spice or masala product.",
@@ -515,13 +551,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 808
+    "rank": 808,
+    "name": "Catch Haldi Powder 200G"
   },
   {
     "id": 809,
     "title": "Catch Haldi Powder 200G",
     "slug": "catch-haldi-powder-200g",
-    "price": 90.0,
+    "price": 90,
     "image": "/images/products/catch-haldi-powder-200g.jpg",
     "stock": 10,
     "description": "Catch Haldi Powder 200G - Premium quality spice or masala product.",
@@ -529,13 +566,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 809
+    "rank": 809,
+    "name": "Catch Haldi Powder 200G"
   },
   {
     "id": 810,
     "title": "Catch Haldi Powder 500G",
     "slug": "catch-haldi-powder-500g",
-    "price": 220.0,
+    "price": 220,
     "image": "/images/products/catch-haldi-powder-500g.jpg",
     "stock": 2,
     "description": "Catch Haldi Powder 500G - Premium quality spice or masala product.",
@@ -543,13 +581,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 810
+    "rank": 810,
+    "name": "Catch Haldi Powder 500G"
   },
   {
     "id": 811,
     "title": "Catch Hing 25G",
     "slug": "catch-hing-25g",
-    "price": 74.0,
+    "price": 74,
     "image": "/images/products/catch-hing-25g.jpg",
     "stock": 6,
     "description": "Catch Hing 25G - Premium quality spice or masala product.",
@@ -557,13 +596,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 811
+    "rank": 811,
+    "name": "Catch Hing 25G"
   },
   {
     "id": 812,
     "title": "Catch Hing 50G",
     "slug": "catch-hing-50g",
-    "price": 143.0,
+    "price": 143,
     "image": "/images/products/catch-hing-50g.jpg",
     "stock": 2,
     "description": "Catch Hing 50G - Premium quality spice or masala product.",
@@ -571,13 +611,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 812
+    "rank": 812,
+    "name": "Catch Hing 50G"
   },
   {
     "id": 813,
     "title": "Catch Jaljeera 100G",
     "slug": "catch-jaljeera-100g",
-    "price": 70.0,
+    "price": 70,
     "image": "/images/products/catch-jaljeera-100g.jpg",
     "stock": 3,
     "description": "Catch Jaljeera 100G - Premium quality spice or masala product.",
@@ -585,13 +626,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 813
+    "rank": 813,
+    "name": "Catch Jaljeera 100G"
   },
   {
     "id": 814,
     "title": "Catch Jeera Powder 100G",
     "slug": "catch-jeera-powder-100g",
-    "price": 92.0,
+    "price": 92,
     "image": "/images/products/catch-jeera-powder-100g.jpg",
     "stock": 1,
     "description": "Catch Jeera Powder 100G - Premium quality spice or masala product.",
@@ -599,13 +641,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 814
+    "rank": 814,
+    "name": "Catch Jeera Powder 100G"
   },
   {
     "id": 815,
     "title": "Catch Jeera Powder 100G",
     "slug": "catch-jeera-powder-100g",
-    "price": 90.0,
+    "price": 90,
     "image": "/images/products/catch-jeera-powder-100g.jpg",
     "stock": 2,
     "description": "Catch Jeera Powder 100G - Premium quality spice or masala product.",
@@ -613,13 +656,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 815
+    "rank": 815,
+    "name": "Catch Jeera Powder 100G"
   },
   {
     "id": 816,
     "title": "Catch Kashmeri Merich Poiwder",
     "slug": "catch-kashmeri-merich-poiwder",
-    "price": 110.0,
+    "price": 110,
     "image": "/images/products/catch-kashmeri-merich-poiwder.jpg",
     "stock": 4,
     "description": "Catch Kashmeri Merich Poiwder - Premium quality spice or masala product.",
@@ -627,13 +671,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 816
+    "rank": 816,
+    "name": "Catch Kashmeri Merich Poiwder"
   },
   {
     "id": 817,
     "title": "Catch Kasuri Methi",
     "slug": "catch-kasuri-methi",
-    "price": 30.0,
+    "price": 30,
     "image": "/images/products/catch-kasuri-methi.jpg",
     "stock": 4,
     "description": "Catch Kasuri Methi - Premium quality spice or masala product.",
@@ -641,13 +686,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 817
+    "rank": 817,
+    "name": "Catch Kasuri Methi"
   },
   {
     "id": 818,
     "title": "Catch Kitchen King",
     "slug": "catch-kitchen-king",
-    "price": 95.0,
+    "price": 95,
     "image": "/images/products/catch-kitchen-king.jpg",
     "stock": 4,
     "description": "Catch Kitchen King - Premium quality spice or masala product.",
@@ -655,13 +701,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 818
+    "rank": 818,
+    "name": "Catch Kitchen King"
   },
   {
     "id": 819,
     "title": "Catch Meat Masala",
     "slug": "catch-meat-masala",
-    "price": 95.0,
+    "price": 95,
     "image": "/images/products/catch-meat-masala.jpg",
     "stock": 3,
     "description": "Catch Meat Masala - Premium quality spice or masala product.",
@@ -669,13 +716,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 819
+    "rank": 819,
+    "name": "Catch Meat Masala"
   },
   {
     "id": 820,
     "title": "Catch Mirch Powder 200G",
     "slug": "catch-mirch-powder-200g",
-    "price": 120.0,
+    "price": 120,
     "image": "/images/products/catch-mirch-powder-200g.jpg",
     "stock": 8,
     "description": "Catch Mirch Powder 200G - Premium quality spice or masala product.",
@@ -683,13 +731,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 820
+    "rank": 820,
+    "name": "Catch Mirch Powder 200G"
   },
   {
     "id": 821,
     "title": "Catch Mirch Powder 500G",
     "slug": "catch-mirch-powder-500g",
-    "price": 285.0,
+    "price": 285,
     "image": "/images/products/catch-mirch-powder-500g.jpg",
     "stock": 3,
     "description": "Catch Mirch Powder 500G - Premium quality spice or masala product.",
@@ -697,13 +746,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 821
+    "rank": 821,
+    "name": "Catch Mirch Powder 500G"
   },
   {
     "id": 822,
     "title": "Catch Pav Bhaji Masala",
     "slug": "catch-pav-bhaji-masala",
-    "price": 90.0,
+    "price": 90,
     "image": "/images/products/catch-pav-bhaji-masala.jpg",
     "stock": 4,
     "description": "Catch Pav Bhaji Masala - Premium quality spice or masala product.",
@@ -711,13 +761,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 822
+    "rank": 822,
+    "name": "Catch Pav Bhaji Masala"
   },
   {
     "id": 823,
     "title": "Catch Pepi Peri 90G",
     "slug": "catch-pepi-peri-90g",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/catch-pepi-peri-90g.jpg",
     "stock": 3,
     "description": "Catch Pepi Peri 90G - Premium quality spice or masala product.",
@@ -725,13 +776,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 823
+    "rank": 823,
+    "name": "Catch Pepi Peri 90G"
   },
   {
     "id": 824,
     "title": "Catch Rajma Masala 100G",
     "slug": "catch-rajma-masala-100g",
-    "price": 90.0,
+    "price": 90,
     "image": "/images/products/catch-rajma-masala-100g.jpg",
     "stock": 5,
     "description": "Catch Rajma Masala 100G - Premium quality spice or masala product.",
@@ -739,13 +791,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 824
+    "rank": 824,
+    "name": "Catch Rajma Masala 100G"
   },
   {
     "id": 825,
     "title": "Catch Sabzi Masala",
     "slug": "catch-sabzi-masala",
-    "price": 72.0,
+    "price": 72,
     "image": "/images/products/catch-sabzi-masala.jpg",
     "stock": 5,
     "description": "Catch Sabzi Masala - Premium quality spice or masala product.",
@@ -753,13 +806,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 825
+    "rank": 825,
+    "name": "Catch Sabzi Masala"
   },
   {
     "id": 826,
     "title": "Catch Sambhar Masala 100G",
     "slug": "catch-sambhar-masala-100g",
-    "price": 82.0,
+    "price": 82,
     "image": "/images/products/catch-sambhar-masala-100g.jpg",
     "stock": 4,
     "description": "Catch Sambhar Masala 100G - Premium quality spice or masala product.",
@@ -767,13 +821,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 826
+    "rank": 826,
+    "name": "Catch Sambhar Masala 100G"
   },
   {
     "id": 827,
     "title": "Catch Shahi Paneer Masala",
     "slug": "catch-shahi-paneer-masala",
-    "price": 100.0,
+    "price": 100,
     "image": "/images/products/catch-shahi-paneer-masala.jpg",
     "stock": 6,
     "description": "Catch Shahi Paneer Masala - Premium quality spice or masala product.",
@@ -781,13 +836,14 @@ const products = [
     "unit": "1192",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 827
+    "rank": 827,
+    "name": "Catch Shahi Paneer Masala"
   },
   {
     "id": 828,
     "title": "Catch Table Salt 200G",
     "slug": "catch-table-salt-200g",
-    "price": 50.0,
+    "price": 50,
     "image": "/images/products/catch-table-salt-200g.jpg",
     "stock": 3,
     "description": "Catch Table Salt 200G - Premium quality spice or masala product.",
@@ -795,13 +851,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 828
+    "rank": 828,
+    "name": "Catch Table Salt 200G"
   },
   {
     "id": 829,
     "title": "Catch Tea Masala 50G",
     "slug": "catch-tea-masala-50g",
-    "price": 70.0,
+    "price": 70,
     "image": "/images/products/catch-tea-masala-50g.jpg",
     "stock": 2,
     "description": "Catch Tea Masala 50G - Premium quality spice or masala product.",
@@ -809,13 +866,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 829
+    "rank": 829,
+    "name": "Catch Tea Masala 50G"
   },
   {
     "id": 830,
     "title": "Cath Hing 100Gm",
     "slug": "cath-hing-100gm",
-    "price": 275.0,
+    "price": 275,
     "image": "/images/products/cath-hing-100gm.jpg",
     "stock": 1,
     "description": "Cath Hing 100Gm - Premium quality spice or masala product.",
@@ -823,13 +881,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 830
+    "rank": 830,
+    "name": "Cath Hing 100Gm"
   },
   {
     "id": 833,
     "title": "Cavins Masala Chaasa",
     "slug": "cavins-masala-chaasa",
-    "price": 20.0,
+    "price": 20,
     "image": "/images/products/cavins-masala-chaasa.jpg",
     "stock": 30,
     "description": "Cavins Masala Chaasa - Premium quality spice or masala product.",
@@ -837,13 +896,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 833
+    "rank": 833,
+    "name": "Cavins Masala Chaasa"
   },
   {
     "id": 920,
     "title": "Charmis Deep Nourshing Cold Cream 100Ml",
     "slug": "charmis-deep-nourshing-cold-cream-100ml",
-    "price": 155.0,
+    "price": 155,
     "image": "/images/products/charmis-deep-nourshing-cold-cream-100ml.jpg",
     "stock": 3,
     "description": "Charmis Deep Nourshing Cold Cream 100Ml - Premium quality spice or masala product.",
@@ -851,13 +911,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 920
+    "rank": 920,
+    "name": "Charmis Deep Nourshing Cold Cream 100Ml"
   },
   {
     "id": 921,
     "title": "Charmis Deep Nourshing Cold Cream 175Ml",
     "slug": "charmis-deep-nourshing-cold-cream-175ml",
-    "price": 215.0,
+    "price": 215,
     "image": "/images/products/charmis-deep-nourshing-cold-cream-175ml.jpg",
     "stock": 2,
     "description": "Charmis Deep Nourshing Cold Cream 175Ml - Premium quality spice or masala product.",
@@ -865,13 +926,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 921
+    "rank": 921,
+    "name": "Charmis Deep Nourshing Cold Cream 175Ml"
   },
   {
     "id": 922,
     "title": "Cheetos Masala Balls",
     "slug": "cheetos-masala-balls",
-    "price": 50.0,
+    "price": 50,
     "image": "/images/products/cheetos-masala-balls.jpg",
     "stock": 19,
     "description": "Cheetos Masala Balls - Premium quality spice or masala product.",
@@ -879,13 +941,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 922
+    "rank": 922,
+    "name": "Cheetos Masala Balls"
   },
   {
     "id": 994,
     "title": "Chings Chilli Vinegar",
     "slug": "chings-chilli-vinegar",
-    "price": 50.0,
+    "price": 50,
     "image": "/images/products/chings-chilli-vinegar.jpg",
     "stock": 4,
     "description": "Chings Chilli Vinegar - Premium quality spice or masala product.",
@@ -893,13 +956,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 994
+    "rank": 994,
+    "name": "Chings Chilli Vinegar"
   },
   {
     "id": 995,
     "title": "Chings Dark Soy Sauce",
     "slug": "chings-dark-soy-sauce",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/chings-dark-soy-sauce.jpg",
     "stock": 1,
     "description": "Chings Dark Soy Sauce - Premium quality spice or masala product.",
@@ -907,13 +971,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 995
+    "rank": 995,
+    "name": "Chings Dark Soy Sauce"
   },
   {
     "id": 996,
     "title": "Chings Fried Rice Masala",
     "slug": "chings-fried-rice-masala",
-    "price": 10.0,
+    "price": 10,
     "image": "/images/products/chings-fried-rice-masala.jpg",
     "stock": 11,
     "description": "Chings Fried Rice Masala - Premium quality spice or masala product.",
@@ -921,13 +986,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 996
+    "rank": 996,
+    "name": "Chings Fried Rice Masala"
   },
   {
     "id": 997,
     "title": "Chings Green Chilli Sauce",
     "slug": "chings-green-chilli-sauce",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/chings-green-chilli-sauce.jpg",
     "stock": 3,
     "description": "Chings Green Chilli Sauce - Premium quality spice or masala product.",
@@ -935,13 +1001,14 @@ const products = [
     "unit": "pcs",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 997
+    "rank": 997,
+    "name": "Chings Green Chilli Sauce"
   },
   {
     "id": 998,
     "title": "Chings Red Chilli Sauce",
     "slug": "chings-red-chilli-sauce",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/chings-red-chilli-sauce.jpg",
     "stock": 3,
     "description": "Chings Red Chilli Sauce - Premium quality spice or masala product.",
@@ -949,13 +1016,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 998
+    "rank": 998,
+    "name": "Chings Red Chilli Sauce"
   },
   {
     "id": 999,
     "title": "Chings Schezwan Ketchup",
     "slug": "chings-schezwan-ketchup",
-    "price": 120.0,
+    "price": 120,
     "image": "/images/products/chings-schezwan-ketchup.jpg",
     "stock": 3,
     "description": "Chings Schezwan Ketchup - Premium quality spice or masala product.",
@@ -963,13 +1031,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 999
+    "rank": 999,
+    "name": "Chings Schezwan Ketchup"
   },
   {
     "id": 1055,
     "title": "Colavita Pepperrolid Olive Oil",
     "slug": "colavita-pepperrolid-olive-oil",
-    "price": 995.0,
+    "price": 995,
     "image": "/images/products/colavita-pepperrolid-olive-oil.jpg",
     "stock": 2,
     "description": "Colavita Pepperrolid Olive Oil - Premium quality spice or masala product.",
@@ -977,13 +1046,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 1055
+    "rank": 1055,
+    "name": "Colavita Pepperrolid Olive Oil"
   },
   {
     "id": 1072,
     "title": "Colgate Mf Peppermint",
     "slug": "colgate-mf-peppermint",
-    "price": 185.0,
+    "price": 185,
     "image": "/images/products/colgate-mf-peppermint.jpg",
     "stock": 3,
     "description": "Colgate Mf Peppermint - Premium quality spice or masala product.",
@@ -991,13 +1061,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 1072
+    "rank": 1072,
+    "name": "Colgate Mf Peppermint"
   },
   {
     "id": 1279,
     "title": "Delmonte Green Chilli Sauce 190G",
     "slug": "delmonte-green-chilli-sauce-190g",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/delmonte-green-chilli-sauce-190g.jpg",
     "stock": 3,
     "description": "Delmonte Green Chilli Sauce 190G - Premium quality spice or masala product.",
@@ -1005,13 +1076,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 1279
+    "rank": 1279,
+    "name": "Delmonte Green Chilli Sauce 190G"
   },
   {
     "id": 1425,
     "title": "Doublemint Pepper 13G",
     "slug": "doublemint-pepper-13g",
-    "price": 10.0,
+    "price": 10,
     "image": "/images/products/doublemint-pepper-13g.jpg",
     "stock": 13,
     "description": "Doublemint Pepper 13G - Premium quality spice or masala product.",
@@ -1019,13 +1091,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 1425
+    "rank": 1425,
+    "name": "Doublemint Pepper 13G"
   },
   {
     "id": 1450,
     "title": "Dr.Oetker English Mustard 250Gm",
     "slug": "droetker-english-mustard-250gm",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/droetker-english-mustard-250gm.jpg",
     "stock": 1,
     "description": "Dr.Oetker English Mustard 250Gm - Premium quality spice or masala product.",
@@ -1033,13 +1106,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 1450
+    "rank": 1450,
+    "name": "Dr.Oetker English Mustard 250Gm"
   },
   {
     "id": 1456,
     "title": "Dr.Oetker Sandwich Sp Cheese & Chillies 250Gm",
     "slug": "droetker-sandwich-sp-cheese-chillies-250gm",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/droetker-sandwich-sp-cheese-chillies-250gm.jpg",
     "stock": 3,
     "description": "Dr.Oetker Sandwich Sp Cheese & Chillies 250Gm - Premium quality spice or masala product.",
@@ -1047,13 +1121,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 1456
+    "rank": 1456,
+    "name": "Dr.Oetker Sandwich Sp Cheese & Chillies 250Gm"
   },
   {
     "id": 1480,
     "title": "Druk Mustard Kasundi",
     "slug": "druk-mustard-kasundi",
-    "price": 58.0,
+    "price": 58,
     "image": "/images/products/druk-mustard-kasundi.jpg",
     "stock": 2,
     "description": "Druk Mustard Kasundi - Premium quality spice or masala product.",
@@ -1061,13 +1136,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 1480
+    "rank": 1480,
+    "name": "Druk Mustard Kasundi"
   },
   {
     "id": 1481,
     "title": "Druk Mustard Kasundi 700G",
     "slug": "druk-mustard-kasundi-700g",
-    "price": 90.0,
+    "price": 90,
     "image": "/images/products/druk-mustard-kasundi-700g.jpg",
     "stock": 3,
     "description": "Druk Mustard Kasundi 700G - Premium quality spice or masala product.",
@@ -1075,13 +1151,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 1481
+    "rank": 1481,
+    "name": "Druk Mustard Kasundi 700G"
   },
   {
     "id": 1542,
     "title": "Elaichi Dana 400G",
     "slug": "elaichi-dana-400g",
-    "price": 80.0,
+    "price": 80,
     "image": "/images/products/elaichi-dana-400g.jpg",
     "stock": 4,
     "description": "Elaichi Dana 400G - Premium quality spice or masala product.",
@@ -1089,13 +1166,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 1542
+    "rank": 1542,
+    "name": "Elaichi Dana 400G"
   },
   {
     "id": 1684,
     "title": "Fit&Flex Protin Puffs Masala",
     "slug": "fitflex-protin-puffs-masala",
-    "price": 50.0,
+    "price": 50,
     "image": "/images/products/fitflex-protin-puffs-masala.jpg",
     "stock": 5,
     "description": "Fit&Flex Protin Puffs Masala - Premium quality spice or masala product.",
@@ -1103,13 +1181,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 1684
+    "rank": 1684,
+    "name": "Fit&Flex Protin Puffs Masala"
   },
   {
     "id": 1689,
     "title": "Flashing Top Eb",
     "slug": "flashing-top-eb",
-    "price": 180.0,
+    "price": 180,
     "image": "/images/products/flashing-top-eb.jpg",
     "stock": 9,
     "description": "Flashing Top Eb - Premium quality spice or masala product.",
@@ -1117,13 +1196,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 1689
+    "rank": 1689,
+    "name": "Flashing Top Eb"
   },
   {
     "id": 1701,
     "title": "Fortune Kachi Ghani  Mustard Oil 1L",
     "slug": "fortune-kachi-ghani-mustard-oil-1l",
-    "price": 195.0,
+    "price": 195,
     "image": "/images/products/fortune-kachi-ghani-mustard-oil-1l.jpg",
     "stock": 10,
     "description": "Fortune Kachi Ghani  Mustard Oil 1L - Premium quality spice or masala product.",
@@ -1131,13 +1211,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 1701
+    "rank": 1701,
+    "name": "Fortune Kachi Ghani  Mustard Oil 1L"
   },
   {
     "id": 1702,
     "title": "Fortune Kachi Ghani Mustard Oil 5L",
     "slug": "fortune-kachi-ghani-mustard-oil-5l",
-    "price": 1050.0,
+    "price": 1050,
     "image": "/images/products/fortune-kachi-ghani-mustard-oil-5l.jpg",
     "stock": 1,
     "description": "Fortune Kachi Ghani Mustard Oil 5L - Premium quality spice or masala product.",
@@ -1145,13 +1226,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 1702
+    "rank": 1702,
+    "name": "Fortune Kachi Ghani Mustard Oil 5L"
   },
   {
     "id": 1927,
     "title": "Gm Foods Bedmi Masala Puri",
     "slug": "gm-foods-bedmi-masala-puri",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/gm-foods-bedmi-masala-puri.jpg",
     "stock": 3,
     "description": "Gm Foods Bedmi Masala Puri - Premium quality spice or masala product.",
@@ -1159,13 +1241,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 1927
+    "rank": 1927,
+    "name": "Gm Foods Bedmi Masala Puri"
   },
   {
     "id": 1972,
     "title": "Gp Tuna Red Chilli",
     "slug": "gp-tuna-red-chilli",
-    "price": 175.0,
+    "price": 175,
     "image": "/images/products/gp-tuna-red-chilli.jpg",
     "stock": 2,
     "description": "Gp Tuna Red Chilli - Premium quality spice or masala product.",
@@ -1173,13 +1256,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 1972
+    "rank": 1972,
+    "name": "Gp Tuna Red Chilli"
   },
   {
     "id": 2109,
     "title": "Haldiram All In One 200Gm",
     "slug": "haldiram-all-in-one-200gm",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/haldiram-all-in-one-200gm.jpg",
     "stock": 5,
     "description": "Haldiram All In One 200Gm - Premium quality spice or masala product.",
@@ -1187,13 +1271,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2109
+    "rank": 2109,
+    "name": "Haldiram All In One 200Gm"
   },
   {
     "id": 2110,
     "title": "Haldiram Aloo Bhujia 200Gm",
     "slug": "haldiram-aloo-bhujia-200gm",
-    "price": 55.0,
+    "price": 55,
     "image": "/images/products/haldiram-aloo-bhujia-200gm.jpg",
     "stock": 5,
     "description": "Haldiram Aloo Bhujia 200Gm - Premium quality spice or masala product.",
@@ -1201,13 +1286,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2110
+    "rank": 2110,
+    "name": "Haldiram Aloo Bhujia 200Gm"
   },
   {
     "id": 2111,
     "title": "Haldiram Aloo Chips Masala",
     "slug": "haldiram-aloo-chips-masala",
-    "price": 65.0,
+    "price": 65,
     "image": "/images/products/haldiram-aloo-chips-masala.jpg",
     "stock": 6,
     "description": "Haldiram Aloo Chips Masala - Premium quality spice or masala product.",
@@ -1215,13 +1301,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2111
+    "rank": 2111,
+    "name": "Haldiram Aloo Chips Masala"
   },
   {
     "id": 2112,
     "title": "Haldiram Aloo Mixture",
     "slug": "haldiram-aloo-mixture",
-    "price": 40.0,
+    "price": 40,
     "image": "/images/products/haldiram-aloo-mixture.jpg",
     "stock": 4,
     "description": "Haldiram Aloo Mixture - Premium quality spice or masala product.",
@@ -1229,13 +1316,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2112
+    "rank": 2112,
+    "name": "Haldiram Aloo Mixture"
   },
   {
     "id": 2113,
     "title": "Haldiram Bhelpuri 200Gm",
     "slug": "haldiram-bhelpuri-200gm",
-    "price": 55.0,
+    "price": 55,
     "image": "/images/products/haldiram-bhelpuri-200gm.jpg",
     "stock": 5,
     "description": "Haldiram Bhelpuri 200Gm - Premium quality spice or masala product.",
@@ -1243,13 +1331,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2113
+    "rank": 2113,
+    "name": "Haldiram Bhelpuri 200Gm"
   },
   {
     "id": 2114,
     "title": "Haldiram Bhujia 200Gm",
     "slug": "haldiram-bhujia-200gm",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/haldiram-bhujia-200gm.jpg",
     "stock": 2,
     "description": "Haldiram Bhujia 200Gm - Premium quality spice or masala product.",
@@ -1257,13 +1346,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2114
+    "rank": 2114,
+    "name": "Haldiram Bhujia 200Gm"
   },
   {
     "id": 2115,
     "title": "Haldiram Bombay Mix",
     "slug": "haldiram-bombay-mix",
-    "price": 55.0,
+    "price": 55,
     "image": "/images/products/haldiram-bombay-mix.jpg",
     "stock": 6,
     "description": "Haldiram Bombay Mix - Premium quality spice or masala product.",
@@ -1271,13 +1361,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2115
+    "rank": 2115,
+    "name": "Haldiram Bombay Mix"
   },
   {
     "id": 2116,
     "title": "Haldiram Boondi Plain 200Gm",
     "slug": "haldiram-boondi-plain-200gm",
-    "price": 55.0,
+    "price": 55,
     "image": "/images/products/haldiram-boondi-plain-200gm.jpg",
     "stock": 6,
     "description": "Haldiram Boondi Plain 200Gm - Premium quality spice or masala product.",
@@ -1285,13 +1376,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2116
+    "rank": 2116,
+    "name": "Haldiram Boondi Plain 200Gm"
   },
   {
     "id": 2117,
     "title": "Haldiram Chakoli",
     "slug": "haldiram-chakoli",
-    "price": 65.0,
+    "price": 65,
     "image": "/images/products/haldiram-chakoli.jpg",
     "stock": 4,
     "description": "Haldiram Chakoli - Premium quality spice or masala product.",
@@ -1299,13 +1391,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2117
+    "rank": 2117,
+    "name": "Haldiram Chakoli"
   },
   {
     "id": 2118,
     "title": "Haldiram Chana Jor Garam 150Gm",
     "slug": "haldiram-chana-jor-garam-150gm",
-    "price": 35.0,
+    "price": 35,
     "image": "/images/products/haldiram-chana-jor-garam-150gm.jpg",
     "stock": 4,
     "description": "Haldiram Chana Jor Garam 150Gm - Premium quality spice or masala product.",
@@ -1313,13 +1406,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2118
+    "rank": 2118,
+    "name": "Haldiram Chana Jor Garam 150Gm"
   },
   {
     "id": 2119,
     "title": "Haldiram Chatpata Dal 200Gm",
     "slug": "haldiram-chatpata-dal-200gm",
-    "price": 55.0,
+    "price": 55,
     "image": "/images/products/haldiram-chatpata-dal-200gm.jpg",
     "stock": 5,
     "description": "Haldiram Chatpata Dal 200Gm - Premium quality spice or masala product.",
@@ -1327,13 +1421,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2119
+    "rank": 2119,
+    "name": "Haldiram Chatpata Dal 200Gm"
   },
   {
     "id": 2120,
     "title": "Haldiram Cornflakes Mix 200Gm",
     "slug": "haldiram-cornflakes-mix-200gm",
-    "price": 80.0,
+    "price": 80,
     "image": "/images/products/haldiram-cornflakes-mix-200gm.jpg",
     "stock": 2,
     "description": "Haldiram Cornflakes Mix 200Gm - Premium quality spice or masala product.",
@@ -1341,13 +1436,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2120
+    "rank": 2120,
+    "name": "Haldiram Cornflakes Mix 200Gm"
   },
   {
     "id": 2121,
     "title": "Haldiram Gathiya 200Gm",
     "slug": "haldiram-gathiya-200gm",
-    "price": 55.0,
+    "price": 55,
     "image": "/images/products/haldiram-gathiya-200gm.jpg",
     "stock": 5,
     "description": "Haldiram Gathiya 200Gm - Premium quality spice or masala product.",
@@ -1355,13 +1451,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2121
+    "rank": 2121,
+    "name": "Haldiram Gathiya 200Gm"
   },
   {
     "id": 2122,
     "title": "Haldiram Gujrati Mix 200Gm",
     "slug": "haldiram-gujrati-mix-200gm",
-    "price": 55.0,
+    "price": 55,
     "image": "/images/products/haldiram-gujrati-mix-200gm.jpg",
     "stock": 3,
     "description": "Haldiram Gujrati Mix 200Gm - Premium quality spice or masala product.",
@@ -1369,13 +1466,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2122
+    "rank": 2122,
+    "name": "Haldiram Gujrati Mix 200Gm"
   },
   {
     "id": 2123,
     "title": "Haldiram Gup Shup Peanuts",
     "slug": "haldiram-gup-shup-peanuts",
-    "price": 56.0,
+    "price": 56,
     "image": "/images/products/haldiram-gup-shup-peanuts.jpg",
     "stock": 8,
     "description": "Haldiram Gup Shup Peanuts - Premium quality spice or masala product.",
@@ -1383,13 +1481,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2123
+    "rank": 2123,
+    "name": "Haldiram Gup Shup Peanuts"
   },
   {
     "id": 2124,
     "title": "Haldiram Kaju Mixture 200Gm",
     "slug": "haldiram-kaju-mixture-200gm",
-    "price": 95.0,
+    "price": 95,
     "image": "/images/products/haldiram-kaju-mixture-200gm.jpg",
     "stock": 3,
     "description": "Haldiram Kaju Mixture 200Gm - Premium quality spice or masala product.",
@@ -1397,13 +1496,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2124
+    "rank": 2124,
+    "name": "Haldiram Kaju Mixture 200Gm"
   },
   {
     "id": 2125,
     "title": "Haldiram Kashmiri Mix 200Gm",
     "slug": "haldiram-kashmiri-mix-200gm",
-    "price": 90.0,
+    "price": 90,
     "image": "/images/products/haldiram-kashmiri-mix-200gm.jpg",
     "stock": 4,
     "description": "Haldiram Kashmiri Mix 200Gm - Premium quality spice or masala product.",
@@ -1411,13 +1511,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2125
+    "rank": 2125,
+    "name": "Haldiram Kashmiri Mix 200Gm"
   },
   {
     "id": 2126,
     "title": "Haldiram Khatta Meetha 200Gm",
     "slug": "haldiram-khatta-meetha-200gm",
-    "price": 50.0,
+    "price": 50,
     "image": "/images/products/haldiram-khatta-meetha-200gm.jpg",
     "stock": 7,
     "description": "Haldiram Khatta Meetha 200Gm - Premium quality spice or masala product.",
@@ -1425,13 +1526,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2126
+    "rank": 2126,
+    "name": "Haldiram Khatta Meetha 200Gm"
   },
   {
     "id": 2127,
     "title": "Haldiram Lite Chidwa 150Gm",
     "slug": "haldiram-lite-chidwa-150gm",
-    "price": 40.0,
+    "price": 40,
     "image": "/images/products/haldiram-lite-chidwa-150gm.jpg",
     "stock": 3,
     "description": "Haldiram Lite Chidwa 150Gm - Premium quality spice or masala product.",
@@ -1439,13 +1541,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2127
+    "rank": 2127,
+    "name": "Haldiram Lite Chidwa 150Gm"
   },
   {
     "id": 2128,
     "title": "Haldiram Lite Mixture 150Gm",
     "slug": "haldiram-lite-mixture-150gm",
-    "price": 40.0,
+    "price": 40,
     "image": "/images/products/haldiram-lite-mixture-150gm.jpg",
     "stock": 4,
     "description": "Haldiram Lite Mixture 150Gm - Premium quality spice or masala product.",
@@ -1453,13 +1556,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2128
+    "rank": 2128,
+    "name": "Haldiram Lite Mixture 150Gm"
   },
   {
     "id": 2129,
     "title": "Haldiram Lite Murmura 150Gm",
     "slug": "haldiram-lite-murmura-150gm",
-    "price": 40.0,
+    "price": 40,
     "image": "/images/products/haldiram-lite-murmura-150gm.jpg",
     "stock": 12,
     "description": "Haldiram Lite Murmura 150Gm - Premium quality spice or masala product.",
@@ -1467,13 +1571,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2129
+    "rank": 2129,
+    "name": "Haldiram Lite Murmura 150Gm"
   },
   {
     "id": 2130,
     "title": "Haldiram Mathri 200Gm",
     "slug": "haldiram-mathri-200gm",
-    "price": 65.0,
+    "price": 65,
     "image": "/images/products/haldiram-mathri-200gm.jpg",
     "stock": 5,
     "description": "Haldiram Mathri 200Gm - Premium quality spice or masala product.",
@@ -1481,13 +1586,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2130
+    "rank": 2130,
+    "name": "Haldiram Mathri 200Gm"
   },
   {
     "id": 2131,
     "title": "Haldiram Mint Lachha",
     "slug": "haldiram-mint-lachha",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/haldiram-mint-lachha.jpg",
     "stock": 3,
     "description": "Haldiram Mint Lachha - Premium quality spice or masala product.",
@@ -1495,13 +1601,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2131
+    "rank": 2131,
+    "name": "Haldiram Mint Lachha"
   },
   {
     "id": 2132,
     "title": "Haldiram Moomg Dal 200Gm",
     "slug": "haldiram-moomg-dal-200gm",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/haldiram-moomg-dal-200gm.jpg",
     "stock": 3,
     "description": "Haldiram Moomg Dal 200Gm - Premium quality spice or masala product.",
@@ -1509,13 +1616,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2132
+    "rank": 2132,
+    "name": "Haldiram Moomg Dal 200Gm"
   },
   {
     "id": 2133,
     "title": "Haldiram Navrattan 200Gm",
     "slug": "haldiram-navrattan-200gm",
-    "price": 50.0,
+    "price": 50,
     "image": "/images/products/haldiram-navrattan-200gm.jpg",
     "stock": 2,
     "description": "Haldiram Navrattan 200Gm - Premium quality spice or masala product.",
@@ -1523,13 +1631,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2133
+    "rank": 2133,
+    "name": "Haldiram Navrattan 200Gm"
   },
   {
     "id": 2134,
     "title": "Haldiram Nimbu Masala 200Gm",
     "slug": "haldiram-nimbu-masala-200gm",
-    "price": 55.0,
+    "price": 55,
     "image": "/images/products/haldiram-nimbu-masala-200gm.jpg",
     "stock": 5,
     "description": "Haldiram Nimbu Masala 200Gm - Premium quality spice or masala product.",
@@ -1537,13 +1646,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2134
+    "rank": 2134,
+    "name": "Haldiram Nimbu Masala 200Gm"
   },
   {
     "id": 2135,
     "title": "Haldiram Nr Hing Jeera",
     "slug": "haldiram-nr-hing-jeera",
-    "price": 70.0,
+    "price": 70,
     "image": "/images/products/haldiram-nr-hing-jeera.jpg",
     "stock": 6,
     "description": "Haldiram Nr Hing Jeera - Premium quality spice or masala product.",
@@ -1551,13 +1661,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2135
+    "rank": 2135,
+    "name": "Haldiram Nr Hing Jeera"
   },
   {
     "id": 2136,
     "title": "Haldiram Nr Nimboo Pudina",
     "slug": "haldiram-nr-nimboo-pudina",
-    "price": 70.0,
+    "price": 70,
     "image": "/images/products/haldiram-nr-nimboo-pudina.jpg",
     "stock": 3,
     "description": "Haldiram Nr Nimboo Pudina - Premium quality spice or masala product.",
@@ -1565,13 +1676,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2136
+    "rank": 2136,
+    "name": "Haldiram Nr Nimboo Pudina"
   },
   {
     "id": 2137,
     "title": "Haldiram Nr Salt&Pepper",
     "slug": "haldiram-nr-saltpepper",
-    "price": 70.0,
+    "price": 70,
     "image": "/images/products/haldiram-nr-saltpepper.jpg",
     "stock": 5,
     "description": "Haldiram Nr Salt&Pepper - Premium quality spice or masala product.",
@@ -1579,13 +1691,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2137
+    "rank": 2137,
+    "name": "Haldiram Nr Salt&Pepper"
   },
   {
     "id": 2138,
     "title": "Haldiram Nr Salted",
     "slug": "haldiram-nr-salted",
-    "price": 70.0,
+    "price": 70,
     "image": "/images/products/haldiram-nr-salted.jpg",
     "stock": 4,
     "description": "Haldiram Nr Salted - Premium quality spice or masala product.",
@@ -1593,13 +1706,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2138
+    "rank": 2138,
+    "name": "Haldiram Nr Salted"
   },
   {
     "id": 2139,
     "title": "Haldiram Nut Roast L&C",
     "slug": "haldiram-nut-roast-lc",
-    "price": 70.0,
+    "price": 70,
     "image": "/images/products/haldiram-nut-roast-lc.jpg",
     "stock": 5,
     "description": "Haldiram Nut Roast L&C - Premium quality spice or masala product.",
@@ -1607,13 +1721,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2139
+    "rank": 2139,
+    "name": "Haldiram Nut Roast L&C"
   },
   {
     "id": 2140,
     "title": "Haldiram Panchrattan 200Gm",
     "slug": "haldiram-panchrattan-200gm",
-    "price": 100.0,
+    "price": 100,
     "image": "/images/products/haldiram-panchrattan-200gm.jpg",
     "stock": 2,
     "description": "Haldiram Panchrattan 200Gm - Premium quality spice or masala product.",
@@ -1621,13 +1736,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2140
+    "rank": 2140,
+    "name": "Haldiram Panchrattan 200Gm"
   },
   {
     "id": 2141,
     "title": "Haldiram Plain Bhujia 200Gm",
     "slug": "haldiram-plain-bhujia-200gm",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/haldiram-plain-bhujia-200gm.jpg",
     "stock": 2,
     "description": "Haldiram Plain Bhujia 200Gm - Premium quality spice or masala product.",
@@ -1635,13 +1751,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2141
+    "rank": 2141,
+    "name": "Haldiram Plain Bhujia 200Gm"
   },
   {
     "id": 2142,
     "title": "Haldiram Punjabi Tadka 200Gm",
     "slug": "haldiram-punjabi-tadka-200gm",
-    "price": 55.0,
+    "price": 55,
     "image": "/images/products/haldiram-punjabi-tadka-200gm.jpg",
     "stock": 4,
     "description": "Haldiram Punjabi Tadka 200Gm - Premium quality spice or masala product.",
@@ -1649,13 +1766,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2142
+    "rank": 2142,
+    "name": "Haldiram Punjabi Tadka 200Gm"
   },
   {
     "id": 2143,
     "title": "Haldiram Ratlami Mix 200Gm",
     "slug": "haldiram-ratlami-mix-200gm",
-    "price": 55.0,
+    "price": 55,
     "image": "/images/products/haldiram-ratlami-mix-200gm.jpg",
     "stock": 5,
     "description": "Haldiram Ratlami Mix 200Gm - Premium quality spice or masala product.",
@@ -1663,13 +1781,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2143
+    "rank": 2143,
+    "name": "Haldiram Ratlami Mix 200Gm"
   },
   {
     "id": 2144,
     "title": "Haldiram Ratlami Sev 200Gm",
     "slug": "haldiram-ratlami-sev-200gm",
-    "price": 40.0,
+    "price": 40,
     "image": "/images/products/haldiram-ratlami-sev-200gm.jpg",
     "stock": 1,
     "description": "Haldiram Ratlami Sev 200Gm - Premium quality spice or masala product.",
@@ -1677,13 +1796,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2144
+    "rank": 2144,
+    "name": "Haldiram Ratlami Sev 200Gm"
   },
   {
     "id": 2145,
     "title": "Haldiram Roasted Chana Cracker 200Gm",
     "slug": "haldiram-roasted-chana-cracker-200gm",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/haldiram-roasted-chana-cracker-200gm.jpg",
     "stock": 5,
     "description": "Haldiram Roasted Chana Cracker 200Gm - Premium quality spice or masala product.",
@@ -1691,13 +1811,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2145
+    "rank": 2145,
+    "name": "Haldiram Roasted Chana Cracker 200Gm"
   },
   {
     "id": 2146,
     "title": "Haldiram Roasted Penuts 200Gm",
     "slug": "haldiram-roasted-penuts-200gm",
-    "price": 65.0,
+    "price": 65,
     "image": "/images/products/haldiram-roasted-penuts-200gm.jpg",
     "stock": 3,
     "description": "Haldiram Roasted Penuts 200Gm - Premium quality spice or masala product.",
@@ -1705,13 +1826,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2146
+    "rank": 2146,
+    "name": "Haldiram Roasted Penuts 200Gm"
   },
   {
     "id": 2147,
     "title": "Haldiram Rp Chilli Achari",
     "slug": "haldiram-rp-chilli-achari",
-    "price": 70.0,
+    "price": 70,
     "image": "/images/products/haldiram-rp-chilli-achari.jpg",
     "stock": 5,
     "description": "Haldiram Rp Chilli Achari - Premium quality spice or masala product.",
@@ -1719,13 +1841,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2147
+    "rank": 2147,
+    "name": "Haldiram Rp Chilli Achari"
   },
   {
     "id": 2148,
     "title": "Haldiram Salted Penut 200Gm",
     "slug": "haldiram-salted-penut-200gm",
-    "price": 55.0,
+    "price": 55,
     "image": "/images/products/haldiram-salted-penut-200gm.jpg",
     "stock": 6,
     "description": "Haldiram Salted Penut 200Gm - Premium quality spice or masala product.",
@@ -1733,13 +1856,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2148
+    "rank": 2148,
+    "name": "Haldiram Salted Penut 200Gm"
   },
   {
     "id": 2149,
     "title": "Haldiram Samosa 200Gm",
     "slug": "haldiram-samosa-200gm",
-    "price": 65.0,
+    "price": 65,
     "image": "/images/products/haldiram-samosa-200gm.jpg",
     "stock": 3,
     "description": "Haldiram Samosa 200Gm - Premium quality spice or masala product.",
@@ -1747,13 +1871,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2149
+    "rank": 2149,
+    "name": "Haldiram Samosa 200Gm"
   },
   {
     "id": 2150,
     "title": "Haldiram Shahi Dal Biji 200Gm",
     "slug": "haldiram-shahi-dal-biji-200gm",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/haldiram-shahi-dal-biji-200gm.jpg",
     "stock": 2,
     "description": "Haldiram Shahi Dal Biji 200Gm - Premium quality spice or masala product.",
@@ -1761,13 +1886,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2150
+    "rank": 2150,
+    "name": "Haldiram Shahi Dal Biji 200Gm"
   },
   {
     "id": 2151,
     "title": "Haldiram Shahi Mixture 200Gm",
     "slug": "haldiram-shahi-mixture-200gm",
-    "price": 125.0,
+    "price": 125,
     "image": "/images/products/haldiram-shahi-mixture-200gm.jpg",
     "stock": 2,
     "description": "Haldiram Shahi Mixture 200Gm - Premium quality spice or masala product.",
@@ -1775,13 +1901,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2151
+    "rank": 2151,
+    "name": "Haldiram Shahi Mixture 200Gm"
   },
   {
     "id": 2152,
     "title": "Haldiram Spicy Banana Chips 200Gm",
     "slug": "haldiram-spicy-banana-chips-200gm",
-    "price": 80.0,
+    "price": 80,
     "image": "/images/products/haldiram-spicy-banana-chips-200gm.jpg",
     "stock": 6,
     "description": "Haldiram Spicy Banana Chips 200Gm - Premium quality spice or masala product.",
@@ -1789,13 +1916,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2152
+    "rank": 2152,
+    "name": "Haldiram Spicy Banana Chips 200Gm"
   },
   {
     "id": 2153,
     "title": "Haldiram Yello Banana Chips",
     "slug": "haldiram-yello-banana-chips",
-    "price": 75.0,
+    "price": 75,
     "image": "/images/products/haldiram-yello-banana-chips.jpg",
     "stock": 5,
     "description": "Haldiram Yello Banana Chips - Premium quality spice or masala product.",
@@ -1803,13 +1931,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2153
+    "rank": 2153,
+    "name": "Haldiram Yello Banana Chips"
   },
   {
     "id": 2154,
     "title": "Haldiram'S Aloo Bhujia 400G",
     "slug": "haldirams-aloo-bhujia-400g",
-    "price": 110.0,
+    "price": 110,
     "image": "/images/products/haldirams-aloo-bhujia-400g.jpg",
     "stock": 5,
     "description": "Haldiram'S Aloo Bhujia 400G - Premium quality spice or masala product.",
@@ -1817,13 +1946,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2154
+    "rank": 2154,
+    "name": "Haldiram'S Aloo Bhujia 400G"
   },
   {
     "id": 2155,
     "title": "Haldiram'S Bhujia 400G",
     "slug": "haldirams-bhujia-400g",
-    "price": 120.0,
+    "price": 120,
     "image": "/images/products/haldirams-bhujia-400g.jpg",
     "stock": 1,
     "description": "Haldiram'S Bhujia 400G - Premium quality spice or masala product.",
@@ -1831,13 +1961,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2155
+    "rank": 2155,
+    "name": "Haldiram'S Bhujia 400G"
   },
   {
     "id": 2156,
     "title": "Haldiram'S Bhujia Plain 400G",
     "slug": "haldirams-bhujia-plain-400g",
-    "price": 120.0,
+    "price": 120,
     "image": "/images/products/haldirams-bhujia-plain-400g.jpg",
     "stock": 3,
     "description": "Haldiram'S Bhujia Plain 400G - Premium quality spice or masala product.",
@@ -1845,13 +1976,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2156
+    "rank": 2156,
+    "name": "Haldiram'S Bhujia Plain 400G"
   },
   {
     "id": 2157,
     "title": "Haldiram'S Chatpata Mixture",
     "slug": "haldirams-chatpata-mixture",
-    "price": 40.0,
+    "price": 40,
     "image": "/images/products/haldirams-chatpata-mixture.jpg",
     "stock": 4,
     "description": "Haldiram'S Chatpata Mixture - Premium quality spice or masala product.",
@@ -1859,13 +1991,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2157
+    "rank": 2157,
+    "name": "Haldiram'S Chatpata Mixture"
   },
   {
     "id": 2158,
     "title": "Haldiram'S Moong Dal 400G",
     "slug": "haldirams-moong-dal-400g",
-    "price": 120.0,
+    "price": 120,
     "image": "/images/products/haldirams-moong-dal-400g.jpg",
     "stock": 1,
     "description": "Haldiram'S Moong Dal 400G - Premium quality spice or masala product.",
@@ -1873,13 +2006,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2158
+    "rank": 2158,
+    "name": "Haldiram'S Moong Dal 400G"
   },
   {
     "id": 2278,
     "title": "Hing Powder 25Gm",
     "slug": "hing-powder-25gm",
-    "price": 178.0,
+    "price": 178,
     "image": "/images/products/hing-powder-25gm.jpg",
     "stock": 2,
     "description": "Hing Powder 25Gm - Premium quality spice or masala product.",
@@ -1887,13 +2021,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2278
+    "rank": 2278,
+    "name": "Hing Powder 25Gm"
   },
   {
     "id": 2298,
     "title": "Hitkari Jeera Treat 700Ml",
     "slug": "hitkari-jeera-treat-700ml",
-    "price": 210.0,
+    "price": 210,
     "image": "/images/products/hitkari-jeera-treat-700ml.jpg",
     "stock": 2,
     "description": "Hitkari Jeera Treat 700Ml - Premium quality spice or masala product.",
@@ -1901,13 +2036,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2298
+    "rank": 2298,
+    "name": "Hitkari Jeera Treat 700Ml"
   },
   {
     "id": 2301,
     "title": "Hitkari Masala Limon 700Ml",
     "slug": "hitkari-masala-limon-700ml",
-    "price": 210.0,
+    "price": 210,
     "image": "/images/products/hitkari-masala-limon-700ml.jpg",
     "stock": 2,
     "description": "Hitkari Masala Limon 700Ml - Premium quality spice or masala product.",
@@ -1915,13 +2051,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2301
+    "rank": 2301,
+    "name": "Hitkari Masala Limon 700Ml"
   },
   {
     "id": 2422,
     "title": "Itc Chicken Chilli Garlic Fingers",
     "slug": "itc-chicken-chilli-garlic-fingers",
-    "price": 295.0,
+    "price": 295,
     "image": "/images/products/itc-chicken-chilli-garlic-fingers.jpg",
     "stock": 5,
     "description": "Itc Chicken Chilli Garlic Fingers - Premium quality spice or masala product.",
@@ -1929,13 +2066,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2422
+    "rank": 2422,
+    "name": "Itc Chicken Chilli Garlic Fingers"
   },
   {
     "id": 2428,
     "title": "Itc Chilli Garlic Potato Shots 1Kg",
     "slug": "itc-chilli-garlic-potato-shots-1kg",
-    "price": 315.0,
+    "price": 315,
     "image": "/images/products/itc-chilli-garlic-potato-shots-1kg.jpg",
     "stock": 2,
     "description": "Itc Chilli Garlic Potato Shots 1Kg - Premium quality spice or masala product.",
@@ -1943,13 +2081,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2428
+    "rank": 2428,
+    "name": "Itc Chilli Garlic Potato Shots 1Kg"
   },
   {
     "id": 2429,
     "title": "Itc Chilli Garlic Potato Shots 420G",
     "slug": "itc-chilli-garlic-potato-shots-420g",
-    "price": 135.0,
+    "price": 135,
     "image": "/images/products/itc-chilli-garlic-potato-shots-420g.jpg",
     "stock": 5,
     "description": "Itc Chilli Garlic Potato Shots 420G - Premium quality spice or masala product.",
@@ -1957,13 +2096,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2429
+    "rank": 2429,
+    "name": "Itc Chilli Garlic Potato Shots 420G"
   },
   {
     "id": 2449,
     "title": "Jabsons Black Pepper Banana Chips 150G",
     "slug": "jabsons-black-pepper-banana-chips-150g",
-    "price": 80.0,
+    "price": 80,
     "image": "/images/products/jabsons-black-pepper-banana-chips-150g.jpg",
     "stock": 1,
     "description": "Jabsons Black Pepper Banana Chips 150G - Premium quality spice or masala product.",
@@ -1971,13 +2111,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2449
+    "rank": 2449,
+    "name": "Jabsons Black Pepper Banana Chips 150G"
   },
   {
     "id": 2450,
     "title": "Jabsons Black Pepper Peanuts 140G",
     "slug": "jabsons-black-pepper-peanuts-140g",
-    "price": 70.0,
+    "price": 70,
     "image": "/images/products/jabsons-black-pepper-peanuts-140g.jpg",
     "stock": 3,
     "description": "Jabsons Black Pepper Peanuts 140G - Premium quality spice or masala product.",
@@ -1985,13 +2126,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2450
+    "rank": 2450,
+    "name": "Jabsons Black Pepper Peanuts 140G"
   },
   {
     "id": 2451,
     "title": "Jabsons Black Pepper Peanuts 140G",
     "slug": "jabsons-black-pepper-peanuts-140g",
-    "price": 75.0,
+    "price": 75,
     "image": "/images/products/jabsons-black-pepper-peanuts-140g.jpg",
     "stock": 2,
     "description": "Jabsons Black Pepper Peanuts 140G - Premium quality spice or masala product.",
@@ -1999,13 +2141,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2451
+    "rank": 2451,
+    "name": "Jabsons Black Pepper Peanuts 140G"
   },
   {
     "id": 2452,
     "title": "Jabsons Chilli N Garlic Chana 140G",
     "slug": "jabsons-chilli-n-garlic-chana-140g",
-    "price": 80.0,
+    "price": 80,
     "image": "/images/products/jabsons-chilli-n-garlic-chana-140g.jpg",
     "stock": 2,
     "description": "Jabsons Chilli N Garlic Chana 140G - Premium quality spice or masala product.",
@@ -2013,13 +2156,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2452
+    "rank": 2452,
+    "name": "Jabsons Chilli N Garlic Chana 140G"
   },
   {
     "id": 2457,
     "title": "Jabsons Fried Masala Peanuts 160G",
     "slug": "jabsons-fried-masala-peanuts-160g",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/jabsons-fried-masala-peanuts-160g.jpg",
     "stock": 3,
     "description": "Jabsons Fried Masala Peanuts 160G - Premium quality spice or masala product.",
@@ -2027,13 +2171,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2457
+    "rank": 2457,
+    "name": "Jabsons Fried Masala Peanuts 160G"
   },
   {
     "id": 2461,
     "title": "Jabsons Hing Jeera Chana 150G",
     "slug": "jabsons-hing-jeera-chana-150g",
-    "price": 70.0,
+    "price": 70,
     "image": "/images/products/jabsons-hing-jeera-chana-150g.jpg",
     "stock": 4,
     "description": "Jabsons Hing Jeera Chana 150G - Premium quality spice or masala product.",
@@ -2041,13 +2186,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2461
+    "rank": 2461,
+    "name": "Jabsons Hing Jeera Chana 150G"
   },
   {
     "id": 2462,
     "title": "Jabsons Hing Jeera Peanuts 140G",
     "slug": "jabsons-hing-jeera-peanuts-140g",
-    "price": 70.0,
+    "price": 70,
     "image": "/images/products/jabsons-hing-jeera-peanuts-140g.jpg",
     "stock": 3,
     "description": "Jabsons Hing Jeera Peanuts 140G - Premium quality spice or masala product.",
@@ -2055,13 +2201,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2462
+    "rank": 2462,
+    "name": "Jabsons Hing Jeera Peanuts 140G"
   },
   {
     "id": 2487,
     "title": "Jabsons Spicy Masala Chana 150G",
     "slug": "jabsons-spicy-masala-chana-150g",
-    "price": 70.0,
+    "price": 70,
     "image": "/images/products/jabsons-spicy-masala-chana-150g.jpg",
     "stock": 3,
     "description": "Jabsons Spicy Masala Chana 150G - Premium quality spice or masala product.",
@@ -2069,13 +2216,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2487
+    "rank": 2487,
+    "name": "Jabsons Spicy Masala Chana 150G"
   },
   {
     "id": 2488,
     "title": "Jabsons Spicy Masala Peanuts 140G",
     "slug": "jabsons-spicy-masala-peanuts-140g",
-    "price": 70.0,
+    "price": 70,
     "image": "/images/products/jabsons-spicy-masala-peanuts-140g.jpg",
     "stock": 2,
     "description": "Jabsons Spicy Masala Peanuts 140G - Premium quality spice or masala product.",
@@ -2083,13 +2231,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2488
+    "rank": 2488,
+    "name": "Jabsons Spicy Masala Peanuts 140G"
   },
   {
     "id": 2545,
     "title": "Jimmy'S Cocktails Mango Chilli Mojio",
     "slug": "jimmys-cocktails-mango-chilli-mojio",
-    "price": 120.0,
+    "price": 120,
     "image": "/images/products/jimmys-cocktails-mango-chilli-mojio.jpg",
     "stock": 6,
     "description": "Jimmy'S Cocktails Mango Chilli Mojio - Premium quality spice or masala product.",
@@ -2097,13 +2246,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2545
+    "rank": 2545,
+    "name": "Jimmy'S Cocktails Mango Chilli Mojio"
   },
   {
     "id": 2707,
     "title": "Joyable Khakhra Jeera/Methi",
     "slug": "joyable-khakhra-jeeramethi",
-    "price": 85.0,
+    "price": 85,
     "image": "/images/products/joyable-khakhra-jeeramethi.jpg",
     "stock": 2,
     "description": "Joyable Khakhra Jeera/Methi - Premium quality spice or masala product.",
@@ -2111,13 +2261,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2707
+    "rank": 2707,
+    "name": "Joyable Khakhra Jeera/Methi"
   },
   {
     "id": 2788,
     "title": "Keya Cardamom Seed Powder",
     "slug": "keya-cardamom-seed-powder",
-    "price": 399.0,
+    "price": 399,
     "image": "/images/products/keya-cardamom-seed-powder.jpg",
     "stock": 3,
     "description": "Keya Cardamom Seed Powder - Premium quality spice or masala product.",
@@ -2125,13 +2276,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2788
+    "rank": 2788,
+    "name": "Keya Cardamom Seed Powder"
   },
   {
     "id": 2789,
     "title": "Keya Chaat Masala 80G",
     "slug": "keya-chaat-masala-80g",
-    "price": 75.0,
+    "price": 75,
     "image": "/images/products/keya-chaat-masala-80g.jpg",
     "stock": 6,
     "description": "Keya Chaat Masala 80G - Premium quality spice or masala product.",
@@ -2139,13 +2291,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2789
+    "rank": 2789,
+    "name": "Keya Chaat Masala 80G"
   },
   {
     "id": 2790,
     "title": "Keya Chilli Vingar",
     "slug": "keya-chilli-vingar",
-    "price": 55.0,
+    "price": 55,
     "image": "/images/products/keya-chilli-vingar.jpg",
     "stock": 6,
     "description": "Keya Chilli Vingar - Premium quality spice or masala product.",
@@ -2153,13 +2306,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2790
+    "rank": 2790,
+    "name": "Keya Chilli Vingar"
   },
   {
     "id": 2801,
     "title": "Keya Green Chilli Sauce 190G",
     "slug": "keya-green-chilli-sauce-190g",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/keya-green-chilli-sauce-190g.jpg",
     "stock": 6,
     "description": "Keya Green Chilli Sauce 190G - Premium quality spice or masala product.",
@@ -2167,13 +2321,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2801
+    "rank": 2801,
+    "name": "Keya Green Chilli Sauce 190G"
   },
   {
     "id": 2817,
     "title": "Keya Pizza Chilli 70G",
     "slug": "keya-pizza-chilli-70g",
-    "price": 119.0,
+    "price": 119,
     "image": "/images/products/keya-pizza-chilli-70g.jpg",
     "stock": 6,
     "description": "Keya Pizza Chilli 70G - Premium quality spice or masala product.",
@@ -2181,13 +2336,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2817
+    "rank": 2817,
+    "name": "Keya Pizza Chilli 70G"
   },
   {
     "id": 2819,
     "title": "Keya Red Chilli Flakes 40G",
     "slug": "keya-red-chilli-flakes-40g",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/keya-red-chilli-flakes-40g.jpg",
     "stock": 4,
     "description": "Keya Red Chilli Flakes 40G - Premium quality spice or masala product.",
@@ -2195,13 +2351,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2819
+    "rank": 2819,
+    "name": "Keya Red Chilli Flakes 40G"
   },
   {
     "id": 2820,
     "title": "Keya Red Chilli Sauce",
     "slug": "keya-red-chilli-sauce",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/keya-red-chilli-sauce.jpg",
     "stock": 3,
     "description": "Keya Red Chilli Sauce - Premium quality spice or masala product.",
@@ -2209,13 +2366,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2820
+    "rank": 2820,
+    "name": "Keya Red Chilli Sauce"
   },
   {
     "id": 2823,
     "title": "Keya Schezwan Chilli Garlic 250G",
     "slug": "keya-schezwan-chilli-garlic-250g",
-    "price": 90.0,
+    "price": 90,
     "image": "/images/products/keya-schezwan-chilli-garlic-250g.jpg",
     "stock": 6,
     "description": "Keya Schezwan Chilli Garlic 250G - Premium quality spice or masala product.",
@@ -2223,13 +2381,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2823
+    "rank": 2823,
+    "name": "Keya Schezwan Chilli Garlic 250G"
   },
   {
     "id": 2835,
     "title": "Khadi Sandalwood &Turmeric Body Wash",
     "slug": "khadi-sandalwood-turmeric-body-wash",
-    "price": 299.0,
+    "price": 299,
     "image": "/images/products/khadi-sandalwood-turmeric-body-wash.jpg",
     "stock": 1,
     "description": "Khadi Sandalwood &Turmeric Body Wash - Premium quality spice or masala product.",
@@ -2237,13 +2396,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 2835
+    "rank": 2835,
+    "name": "Khadi Sandalwood &Turmeric Body Wash"
   },
   {
     "id": 3033,
     "title": "Langha Valley Bharwa Hari Mirch",
     "slug": "langha-valley-bharwa-hari-mirch",
-    "price": 230.0,
+    "price": 230,
     "image": "/images/products/langha-valley-bharwa-hari-mirch.jpg",
     "stock": 2,
     "description": "Langha Valley Bharwa Hari Mirch - Premium quality spice or masala product.",
@@ -2251,13 +2411,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3033
+    "rank": 3033,
+    "name": "Langha Valley Bharwa Hari Mirch"
   },
   {
     "id": 3034,
     "title": "Langha Valley Bharwa Lal Mirch",
     "slug": "langha-valley-bharwa-lal-mirch",
-    "price": 350.0,
+    "price": 350,
     "image": "/images/products/langha-valley-bharwa-lal-mirch.jpg",
     "stock": 4,
     "description": "Langha Valley Bharwa Lal Mirch - Premium quality spice or masala product.",
@@ -2265,13 +2426,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3034
+    "rank": 3034,
+    "name": "Langha Valley Bharwa Lal Mirch"
   },
   {
     "id": 3112,
     "title": "Lint Chilli Dc",
     "slug": "lint-chilli-dc",
-    "price": 599.0,
+    "price": 599,
     "image": "/images/products/lint-chilli-dc.jpg",
     "stock": 2,
     "description": "Lint Chilli Dc - Premium quality spice or masala product.",
@@ -2279,13 +2441,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3112
+    "rank": 3112,
+    "name": "Lint Chilli Dc"
   },
   {
     "id": 3252,
     "title": "Maggi 2-Min Masala Ndl 70G",
     "slug": "maggi-2-min-masala-ndl-70g",
-    "price": 90.0,
+    "price": 90,
     "image": "/images/products/maggi-2-min-masala-ndl-70g.jpg",
     "stock": 5,
     "description": "Maggi 2-Min Masala Ndl 70G - Premium quality spice or masala product.",
@@ -2293,13 +2456,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3252
+    "rank": 3252,
+    "name": "Maggi 2-Min Masala Ndl 70G"
   },
   {
     "id": 3254,
     "title": "Maggi 2-Min Noodles Masala 52G",
     "slug": "maggi-2-min-noodles-masala-52g",
-    "price": 10.0,
+    "price": 10,
     "image": "/images/products/maggi-2-min-noodles-masala-52g.jpg",
     "stock": 83,
     "description": "Maggi 2-Min Noodles Masala 52G - Premium quality spice or masala product.",
@@ -2307,13 +2471,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3254
+    "rank": 3254,
+    "name": "Maggi 2-Min Noodles Masala 52G"
   },
   {
     "id": 3255,
     "title": "Maggi 2-Min Special Masala 70G",
     "slug": "maggi-2-min-special-masala-70g",
-    "price": 20.0,
+    "price": 20,
     "image": "/images/products/maggi-2-min-special-masala-70g.jpg",
     "stock": 11,
     "description": "Maggi 2-Min Special Masala 70G - Premium quality spice or masala product.",
@@ -2321,13 +2486,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3255
+    "rank": 3255,
+    "name": "Maggi 2-Min Special Masala 70G"
   },
   {
     "id": 3257,
     "title": "Maggi 2-Minn Masala 280G",
     "slug": "maggi-2-minn-masala-280g",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/maggi-2-minn-masala-280g.jpg",
     "stock": 8,
     "description": "Maggi 2-Minn Masala 280G - Premium quality spice or masala product.",
@@ -2335,13 +2501,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3257
+    "rank": 3257,
+    "name": "Maggi 2-Minn Masala 280G"
   },
   {
     "id": 3258,
     "title": "Maggi 2-Minn Masala 560Gm",
     "slug": "maggi-2-minn-masala-560gm",
-    "price": 120.0,
+    "price": 120,
     "image": "/images/products/maggi-2-minn-masala-560gm.jpg",
     "stock": 6,
     "description": "Maggi 2-Minn Masala 560Gm - Premium quality spice or masala product.",
@@ -2349,13 +2516,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3258
+    "rank": 3258,
+    "name": "Maggi 2-Minn Masala 560Gm"
   },
   {
     "id": 3262,
     "title": "Maggi Cuppa Masala Ndls 70Gm",
     "slug": "maggi-cuppa-masala-ndls-70gm",
-    "price": 50.0,
+    "price": 50,
     "image": "/images/products/maggi-cuppa-masala-ndls-70gm.jpg",
     "stock": 4,
     "description": "Maggi Cuppa Masala Ndls 70Gm - Premium quality spice or masala product.",
@@ -2363,13 +2531,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3262
+    "rank": 3262,
+    "name": "Maggi Cuppa Masala Ndls 70Gm"
   },
   {
     "id": 3267,
     "title": "Maggi Masala Magic 6G",
     "slug": "maggi-masala-magic-6g",
-    "price": 5.0,
+    "price": 5,
     "image": "/images/products/maggi-masala-magic-6g.jpg",
     "stock": 124,
     "description": "Maggi Masala Magic 6G - Premium quality spice or masala product.",
@@ -2377,13 +2546,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3267
+    "rank": 3267,
+    "name": "Maggi Masala Magic 6G"
   },
   {
     "id": 3268,
     "title": "Maggi Masala Veg Atta 290G",
     "slug": "maggi-masala-veg-atta-290g",
-    "price": 116.0,
+    "price": 116,
     "image": "/images/products/maggi-masala-veg-atta-290g.jpg",
     "stock": 14,
     "description": "Maggi Masala Veg Atta 290G - Premium quality spice or masala product.",
@@ -2391,13 +2561,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3268
+    "rank": 3268,
+    "name": "Maggi Masala Veg Atta 290G"
   },
   {
     "id": 3273,
     "title": "Maggi Pazzta Masala Penne 69.5G",
     "slug": "maggi-pazzta-masala-penne-695g",
-    "price": 35.0,
+    "price": 35,
     "image": "/images/products/maggi-pazzta-masala-penne-695g.jpg",
     "stock": 1,
     "description": "Maggi Pazzta Masala Penne 69.5G - Premium quality spice or masala product.",
@@ -2405,13 +2576,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3273
+    "rank": 3273,
+    "name": "Maggi Pazzta Masala Penne 69.5G"
   },
   {
     "id": 3274,
     "title": "Maggi Pazzta Masala Penne 69.5G",
     "slug": "maggi-pazzta-masala-penne-695g",
-    "price": 30.0,
+    "price": 30,
     "image": "/images/products/maggi-pazzta-masala-penne-695g.jpg",
     "stock": 2,
     "description": "Maggi Pazzta Masala Penne 69.5G - Premium quality spice or masala product.",
@@ -2419,13 +2591,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3274
+    "rank": 3274,
+    "name": "Maggi Pazzta Masala Penne 69.5G"
   },
   {
     "id": 3295,
     "title": "Makhana Walas Jowar Puffs Spicy Masala",
     "slug": "makhana-walas-jowar-puffs-spicy-masala",
-    "price": 70.0,
+    "price": 70,
     "image": "/images/products/makhana-walas-jowar-puffs-spicy-masala.jpg",
     "stock": 3,
     "description": "Makhana Walas Jowar Puffs Spicy Masala - Premium quality spice or masala product.",
@@ -2433,13 +2606,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3295
+    "rank": 3295,
+    "name": "Makhana Walas Jowar Puffs Spicy Masala"
   },
   {
     "id": 3301,
     "title": "Makhana Walas Salt N Pepper",
     "slug": "makhana-walas-salt-n-pepper",
-    "price": 150.0,
+    "price": 150,
     "image": "/images/products/makhana-walas-salt-n-pepper.jpg",
     "stock": 1,
     "description": "Makhana Walas Salt N Pepper - Premium quality spice or masala product.",
@@ -2447,13 +2621,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3301
+    "rank": 3301,
+    "name": "Makhana Walas Salt N Pepper"
   },
   {
     "id": 3305,
     "title": "Mala'S Jeera Shikanji 750Ml",
     "slug": "malas-jeera-shikanji-750ml",
-    "price": 160.0,
+    "price": 160,
     "image": "/images/products/malas-jeera-shikanji-750ml.jpg",
     "stock": 2,
     "description": "Mala'S Jeera Shikanji 750Ml - Premium quality spice or masala product.",
@@ -2461,13 +2636,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3305
+    "rank": 3305,
+    "name": "Mala'S Jeera Shikanji 750Ml"
   },
   {
     "id": 3374,
     "title": "Marlboro Clovet Mix 10S",
     "slug": "marlboro-clovet-mix-10s",
-    "price": 170.0,
+    "price": 170,
     "image": "/images/products/marlboro-clovet-mix-10s.jpg",
     "stock": 14,
     "description": "Marlboro Clovet Mix 10S - Premium quality spice or masala product.",
@@ -2475,13 +2651,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3374
+    "rank": 3374,
+    "name": "Marlboro Clovet Mix 10S"
   },
   {
     "id": 3414,
     "title": "Mb Sweet Chilli Sauce",
     "slug": "mb-sweet-chilli-sauce",
-    "price": 249.0,
+    "price": 249,
     "image": "/images/products/mb-sweet-chilli-sauce.jpg",
     "stock": 2,
     "description": "Mb Sweet Chilli Sauce - Premium quality spice or masala product.",
@@ -2489,13 +2666,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3414
+    "rank": 3414,
+    "name": "Mb Sweet Chilli Sauce"
   },
   {
     "id": 3415,
     "title": "Mb Sweet Chilli Sauce 980G",
     "slug": "mb-sweet-chilli-sauce-980g",
-    "price": 396.0,
+    "price": 396,
     "image": "/images/products/mb-sweet-chilli-sauce-980g.jpg",
     "stock": 3,
     "description": "Mb Sweet Chilli Sauce 980G - Premium quality spice or masala product.",
@@ -2503,13 +2681,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3415
+    "rank": 3415,
+    "name": "Mb Sweet Chilli Sauce 980G"
   },
   {
     "id": 3420,
     "title": "Mccain Cf Hot N Tangy Masala 400G",
     "slug": "mccain-cf-hot-n-tangy-masala-400g",
-    "price": 170.0,
+    "price": 170,
     "image": "/images/products/mccain-cf-hot-n-tangy-masala-400g.jpg",
     "stock": 3,
     "description": "Mccain Cf Hot N Tangy Masala 400G - Premium quality spice or masala product.",
@@ -2517,13 +2696,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3420
+    "rank": 3420,
+    "name": "Mccain Cf Hot N Tangy Masala 400G"
   },
   {
     "id": 3422,
     "title": "Mccain Chilli Cheese Nuggets 250Gm",
     "slug": "mccain-chilli-cheese-nuggets-250gm",
-    "price": 170.0,
+    "price": 170,
     "image": "/images/products/mccain-chilli-cheese-nuggets-250gm.jpg",
     "stock": 5,
     "description": "Mccain Chilli Cheese Nuggets 250Gm - Premium quality spice or masala product.",
@@ -2531,13 +2711,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3422
+    "rank": 3422,
+    "name": "Mccain Chilli Cheese Nuggets 250Gm"
   },
   {
     "id": 3423,
     "title": "Mccain Chilli Garlic Potato Bites 420G",
     "slug": "mccain-chilli-garlic-potato-bites-420g",
-    "price": 165.0,
+    "price": 165,
     "image": "/images/products/mccain-chilli-garlic-potato-bites-420g.jpg",
     "stock": 3,
     "description": "Mccain Chilli Garlic Potato Bites 420G - Premium quality spice or masala product.",
@@ -2545,13 +2726,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3423
+    "rank": 3423,
+    "name": "Mccain Chilli Garlic Potato Bites 420G"
   },
   {
     "id": 3424,
     "title": "Mccain Chilli Garlic Potato Bites 504G",
     "slug": "mccain-chilli-garlic-potato-bites-504g",
-    "price": 165.0,
+    "price": 165,
     "image": "/images/products/mccain-chilli-garlic-potato-bites-504g.jpg",
     "stock": 2,
     "description": "Mccain Chilli Garlic Potato Bites 504G - Premium quality spice or masala product.",
@@ -2559,13 +2741,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3424
+    "rank": 3424,
+    "name": "Mccain Chilli Garlic Potato Bites 504G"
   },
   {
     "id": 3425,
     "title": "Mccain Ff Pepper Crunch 420Gm",
     "slug": "mccain-ff-pepper-crunch-420gm",
-    "price": 175.0,
+    "price": 175,
     "image": "/images/products/mccain-ff-pepper-crunch-420gm.jpg",
     "stock": 5,
     "description": "Mccain Ff Pepper Crunch 420Gm - Premium quality spice or masala product.",
@@ -2573,13 +2756,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3425
+    "rank": 3425,
+    "name": "Mccain Ff Pepper Crunch 420Gm"
   },
   {
     "id": 3436,
     "title": "Mcvities Butter Jeera Buscuits",
     "slug": "mcvities-butter-jeera-buscuits",
-    "price": 10.0,
+    "price": 10,
     "image": "/images/products/mcvities-butter-jeera-buscuits.jpg",
     "stock": 16,
     "description": "Mcvities Butter Jeera Buscuits - Premium quality spice or masala product.",
@@ -2587,13 +2771,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3436
+    "rank": 3436,
+    "name": "Mcvities Butter Jeera Buscuits"
   },
   {
     "id": 3463,
     "title": "Mdh Amchur Powder 100Gm",
     "slug": "mdh-amchur-powder-100gm",
-    "price": 89.0,
+    "price": 89,
     "image": "/images/products/mdh-amchur-powder-100gm.jpg",
     "stock": 2,
     "description": "Mdh Amchur Powder 100Gm - Premium quality spice or masala product.",
@@ -2601,13 +2786,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3463
+    "rank": 3463,
+    "name": "Mdh Amchur Powder 100Gm"
   },
   {
     "id": 3464,
     "title": "Mdh Chana Masala",
     "slug": "mdh-chana-masala",
-    "price": 90.0,
+    "price": 90,
     "image": "/images/products/mdh-chana-masala.jpg",
     "stock": 4,
     "description": "Mdh Chana Masala - Premium quality spice or masala product.",
@@ -2615,13 +2801,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3464
+    "rank": 3464,
+    "name": "Mdh Chana Masala"
   },
   {
     "id": 3465,
     "title": "Mdh Chat Masala",
     "slug": "mdh-chat-masala",
-    "price": 90.0,
+    "price": 90,
     "image": "/images/products/mdh-chat-masala.jpg",
     "stock": 2,
     "description": "Mdh Chat Masala - Premium quality spice or masala product.",
@@ -2629,13 +2816,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3465
+    "rank": 3465,
+    "name": "Mdh Chat Masala"
   },
   {
     "id": 3466,
     "title": "Mdh Chicken Masala",
     "slug": "mdh-chicken-masala",
-    "price": 90.0,
+    "price": 90,
     "image": "/images/products/mdh-chicken-masala.jpg",
     "stock": 1,
     "description": "Mdh Chicken Masala - Premium quality spice or masala product.",
@@ -2643,13 +2831,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3466
+    "rank": 3466,
+    "name": "Mdh Chicken Masala"
   },
   {
     "id": 3467,
     "title": "Mdh Dal Makhni Masala 100Gm",
     "slug": "mdh-dal-makhni-masala-100gm",
-    "price": 75.0,
+    "price": 75,
     "image": "/images/products/mdh-dal-makhni-masala-100gm.jpg",
     "stock": 3,
     "description": "Mdh Dal Makhni Masala 100Gm - Premium quality spice or masala product.",
@@ -2657,13 +2846,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3467
+    "rank": 3467,
+    "name": "Mdh Dal Makhni Masala 100Gm"
   },
   {
     "id": 3468,
     "title": "Mdh Deggi Mirch",
     "slug": "mdh-deggi-mirch",
-    "price": 110.0,
+    "price": 110,
     "image": "/images/products/mdh-deggi-mirch.jpg",
     "stock": 4,
     "description": "Mdh Deggi Mirch - Premium quality spice or masala product.",
@@ -2671,13 +2861,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3468
+    "rank": 3468,
+    "name": "Mdh Deggi Mirch"
   },
   {
     "id": 3469,
     "title": "Mdh Garam Masala",
     "slug": "mdh-garam-masala",
-    "price": 112.0,
+    "price": 112,
     "image": "/images/products/mdh-garam-masala.jpg",
     "stock": 6,
     "description": "Mdh Garam Masala - Premium quality spice or masala product.",
@@ -2685,13 +2876,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3469
+    "rank": 3469,
+    "name": "Mdh Garam Masala"
   },
   {
     "id": 3470,
     "title": "Mdh Hing 10Gm",
     "slug": "mdh-hing-10gm",
-    "price": 112.0,
+    "price": 112,
     "image": "/images/products/mdh-hing-10gm.jpg",
     "stock": 9,
     "description": "Mdh Hing 10Gm - Premium quality spice or masala product.",
@@ -2699,13 +2891,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3470
+    "rank": 3470,
+    "name": "Mdh Hing 10Gm"
   },
   {
     "id": 3471,
     "title": "Mdh Jeera Powder 100Gm",
     "slug": "mdh-jeera-powder-100gm",
-    "price": 95.0,
+    "price": 95,
     "image": "/images/products/mdh-jeera-powder-100gm.jpg",
     "stock": 3,
     "description": "Mdh Jeera Powder 100Gm - Premium quality spice or masala product.",
@@ -2713,13 +2906,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3471
+    "rank": 3471,
+    "name": "Mdh Jeera Powder 100Gm"
   },
   {
     "id": 3472,
     "title": "Mdh Kaasoori Methi",
     "slug": "mdh-kaasoori-methi",
-    "price": 56.0,
+    "price": 56,
     "image": "/images/products/mdh-kaasoori-methi.jpg",
     "stock": 3,
     "description": "Mdh Kaasoori Methi - Premium quality spice or masala product.",
@@ -2727,13 +2921,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3472
+    "rank": 3472,
+    "name": "Mdh Kaasoori Methi"
   },
   {
     "id": 3473,
     "title": "Mdh Kashmiri Mirch",
     "slug": "mdh-kashmiri-mirch",
-    "price": 113.0,
+    "price": 113,
     "image": "/images/products/mdh-kashmiri-mirch.jpg",
     "stock": 2,
     "description": "Mdh Kashmiri Mirch - Premium quality spice or masala product.",
@@ -2741,13 +2936,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3473
+    "rank": 3473,
+    "name": "Mdh Kashmiri Mirch"
   },
   {
     "id": 3474,
     "title": "Mdh Kitchen King",
     "slug": "mdh-kitchen-king",
-    "price": 96.0,
+    "price": 96,
     "image": "/images/products/mdh-kitchen-king.jpg",
     "stock": 2,
     "description": "Mdh Kitchen King - Premium quality spice or masala product.",
@@ -2755,13 +2951,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3474
+    "rank": 3474,
+    "name": "Mdh Kitchen King"
   },
   {
     "id": 3475,
     "title": "Mdh Meat Masala",
     "slug": "mdh-meat-masala",
-    "price": 97.0,
+    "price": 97,
     "image": "/images/products/mdh-meat-masala.jpg",
     "stock": 2,
     "description": "Mdh Meat Masala - Premium quality spice or masala product.",
@@ -2769,13 +2966,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3475
+    "rank": 3475,
+    "name": "Mdh Meat Masala"
   },
   {
     "id": 3476,
     "title": "Mdh Meat Masala",
     "slug": "mdh-meat-masala",
-    "price": 98.0,
+    "price": 98,
     "image": "/images/products/mdh-meat-masala.jpg",
     "stock": 2,
     "description": "Mdh Meat Masala - Premium quality spice or masala product.",
@@ -2783,13 +2981,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3476
+    "rank": 3476,
+    "name": "Mdh Meat Masala"
   },
   {
     "id": 3477,
     "title": "Mdh Pav Bhaji Masala 100Gm",
     "slug": "mdh-pav-bhaji-masala-100gm",
-    "price": 92.0,
+    "price": 92,
     "image": "/images/products/mdh-pav-bhaji-masala-100gm.jpg",
     "stock": 3,
     "description": "Mdh Pav Bhaji Masala 100Gm - Premium quality spice or masala product.",
@@ -2797,13 +2996,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3477
+    "rank": 3477,
+    "name": "Mdh Pav Bhaji Masala 100Gm"
   },
   {
     "id": 3478,
     "title": "Mdh Rajma Masala 100Gm",
     "slug": "mdh-rajma-masala-100gm",
-    "price": 88.0,
+    "price": 88,
     "image": "/images/products/mdh-rajma-masala-100gm.jpg",
     "stock": 3,
     "description": "Mdh Rajma Masala 100Gm - Premium quality spice or masala product.",
@@ -2811,13 +3011,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3478
+    "rank": 3478,
+    "name": "Mdh Rajma Masala 100Gm"
   },
   {
     "id": 3479,
     "title": "Mdh Sabji Masala",
     "slug": "mdh-sabji-masala",
-    "price": 78.0,
+    "price": 78,
     "image": "/images/products/mdh-sabji-masala.jpg",
     "stock": 5,
     "description": "Mdh Sabji Masala - Premium quality spice or masala product.",
@@ -2825,13 +3026,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3479
+    "rank": 3479,
+    "name": "Mdh Sabji Masala"
   },
   {
     "id": 3480,
     "title": "Mdh Sambhar Masala 100G",
     "slug": "mdh-sambhar-masala-100g",
-    "price": 84.0,
+    "price": 84,
     "image": "/images/products/mdh-sambhar-masala-100g.jpg",
     "stock": 2,
     "description": "Mdh Sambhar Masala 100G - Premium quality spice or masala product.",
@@ -2839,13 +3041,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3480
+    "rank": 3480,
+    "name": "Mdh Sambhar Masala 100G"
   },
   {
     "id": 3481,
     "title": "Mdh Sambhar Masala 100G",
     "slug": "mdh-sambhar-masala-100g",
-    "price": 85.0,
+    "price": 85,
     "image": "/images/products/mdh-sambhar-masala-100g.jpg",
     "stock": 3,
     "description": "Mdh Sambhar Masala 100G - Premium quality spice or masala product.",
@@ -2853,13 +3056,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3481
+    "rank": 3481,
+    "name": "Mdh Sambhar Masala 100G"
   },
   {
     "id": 3493,
     "title": "Meatzza Chicken Salami Masala",
     "slug": "meatzza-chicken-salami-masala",
-    "price": 345.0,
+    "price": 345,
     "image": "/images/products/meatzza-chicken-salami-masala.jpg",
     "stock": 4,
     "description": "Meatzza Chicken Salami Masala - Premium quality spice or masala product.",
@@ -2867,13 +3071,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3493
+    "rank": 3493,
+    "name": "Meatzza Chicken Salami Masala"
   },
   {
     "id": 3560,
     "title": "Mr Chilli Vinegar",
     "slug": "mr-chilli-vinegar",
-    "price": 57.0,
+    "price": 57,
     "image": "/images/products/mr-chilli-vinegar.jpg",
     "stock": 3,
     "description": "Mr Chilli Vinegar - Premium quality spice or masala product.",
@@ -2881,13 +3086,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3560
+    "rank": 3560,
+    "name": "Mr Chilli Vinegar"
   },
   {
     "id": 3561,
     "title": "Mr Garlic Green Chilli Papad",
     "slug": "mr-garlic-green-chilli-papad",
-    "price": 75.0,
+    "price": 75,
     "image": "/images/products/mr-garlic-green-chilli-papad.jpg",
     "stock": 3,
     "description": "Mr Garlic Green Chilli Papad - Premium quality spice or masala product.",
@@ -2895,13 +3101,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3561
+    "rank": 3561,
+    "name": "Mr Garlic Green Chilli Papad"
   },
   {
     "id": 3568,
     "title": "Mr Green Chilli Pickle",
     "slug": "mr-green-chilli-pickle",
-    "price": 140.0,
+    "price": 140,
     "image": "/images/products/mr-green-chilli-pickle.jpg",
     "stock": 2,
     "description": "Mr Green Chilli Pickle - Premium quality spice or masala product.",
@@ -2909,13 +3116,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3568
+    "rank": 3568,
+    "name": "Mr Green Chilli Pickle"
   },
   {
     "id": 3569,
     "title": "Mr Green Chilli Sauce",
     "slug": "mr-green-chilli-sauce",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/mr-green-chilli-sauce.jpg",
     "stock": 3,
     "description": "Mr Green Chilli Sauce - Premium quality spice or masala product.",
@@ -2923,13 +3131,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3569
+    "rank": 3569,
+    "name": "Mr Green Chilli Sauce"
   },
   {
     "id": 3576,
     "title": "Mr Makhana Lime&Chilli",
     "slug": "mr-makhana-limechilli",
-    "price": 150.0,
+    "price": 150,
     "image": "/images/products/mr-makhana-limechilli.jpg",
     "stock": 11,
     "description": "Mr Makhana Lime&Chilli - Premium quality spice or masala product.",
@@ -2937,13 +3146,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3576
+    "rank": 3576,
+    "name": "Mr Makhana Lime&Chilli"
   },
   {
     "id": 3586,
     "title": "Mr Red Chilli Sauce",
     "slug": "mr-red-chilli-sauce",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/mr-red-chilli-sauce.jpg",
     "stock": 3,
     "description": "Mr Red Chilli Sauce - Premium quality spice or masala product.",
@@ -2951,13 +3161,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3586
+    "rank": 3586,
+    "name": "Mr Red Chilli Sauce"
   },
   {
     "id": 3587,
     "title": "Mr Red Stuffed Chilli",
     "slug": "mr-red-stuffed-chilli",
-    "price": 190.0,
+    "price": 190,
     "image": "/images/products/mr-red-stuffed-chilli.jpg",
     "stock": 3,
     "description": "Mr Red Stuffed Chilli - Premium quality spice or masala product.",
@@ -2965,13 +3176,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3587
+    "rank": 3587,
+    "name": "Mr Red Stuffed Chilli"
   },
   {
     "id": 3589,
     "title": "Mr Rice Papad Jeera",
     "slug": "mr-rice-papad-jeera",
-    "price": 25.0,
+    "price": 25,
     "image": "/images/products/mr-rice-papad-jeera.jpg",
     "stock": 5,
     "description": "Mr Rice Papad Jeera - Premium quality spice or masala product.",
@@ -2979,13 +3191,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3589
+    "rank": 3589,
+    "name": "Mr Rice Papad Jeera"
   },
   {
     "id": 3604,
     "title": "Mtr Jeera Rice 250Gm",
     "slug": "mtr-jeera-rice-250gm",
-    "price": 115.0,
+    "price": 115,
     "image": "/images/products/mtr-jeera-rice-250gm.jpg",
     "stock": 3,
     "description": "Mtr Jeera Rice 250Gm - Premium quality spice or masala product.",
@@ -2993,13 +3206,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3604
+    "rank": 3604,
+    "name": "Mtr Jeera Rice 250Gm"
   },
   {
     "id": 3607,
     "title": "Mtr Masala Rava Idli 500Gm",
     "slug": "mtr-masala-rava-idli-500gm",
-    "price": 150.0,
+    "price": 150,
     "image": "/images/products/mtr-masala-rava-idli-500gm.jpg",
     "stock": 2,
     "description": "Mtr Masala Rava Idli 500Gm - Premium quality spice or masala product.",
@@ -3007,13 +3221,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3607
+    "rank": 3607,
+    "name": "Mtr Masala Rava Idli 500Gm"
   },
   {
     "id": 3611,
     "title": "Mtr Paneer Butter Masala 300Gm",
     "slug": "mtr-paneer-butter-masala-300gm",
-    "price": 155.0,
+    "price": 155,
     "image": "/images/products/mtr-paneer-butter-masala-300gm.jpg",
     "stock": 1,
     "description": "Mtr Paneer Butter Masala 300Gm - Premium quality spice or masala product.",
@@ -3021,13 +3236,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3611
+    "rank": 3611,
+    "name": "Mtr Paneer Butter Masala 300Gm"
   },
   {
     "id": 3615,
     "title": "Mtr Rajma Masala 300Gm",
     "slug": "mtr-rajma-masala-300gm",
-    "price": 125.0,
+    "price": 125,
     "image": "/images/products/mtr-rajma-masala-300gm.jpg",
     "stock": 2,
     "description": "Mtr Rajma Masala 300Gm - Premium quality spice or masala product.",
@@ -3035,13 +3251,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3615
+    "rank": 3615,
+    "name": "Mtr Rajma Masala 300Gm"
   },
   {
     "id": 3627,
     "title": "Mtr(Rte)Chana Masala 300Gm",
     "slug": "mtrrtechana-masala-300gm",
-    "price": 125.0,
+    "price": 125,
     "image": "/images/products/mtrrtechana-masala-300gm.jpg",
     "stock": 3,
     "description": "Mtr(Rte)Chana Masala 300Gm - Premium quality spice or masala product.",
@@ -3049,13 +3266,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3627
+    "rank": 3627,
+    "name": "Mtr(Rte)Chana Masala 300Gm"
   },
   {
     "id": 3671,
     "title": "Nb Badi Elaichi",
     "slug": "nb-badi-elaichi",
-    "price": 78.0,
+    "price": 78,
     "image": "/images/products/nb-badi-elaichi.jpg",
     "stock": 15,
     "description": "Nb Badi Elaichi - Premium quality spice or masala product.",
@@ -3063,13 +3281,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3671
+    "rank": 3671,
+    "name": "Nb Badi Elaichi"
   },
   {
     "id": 3680,
     "title": "Nb Choti Elaichi",
     "slug": "nb-choti-elaichi",
-    "price": 256.0,
+    "price": 256,
     "image": "/images/products/nb-choti-elaichi.jpg",
     "stock": 4,
     "description": "Nb Choti Elaichi - Premium quality spice or masala product.",
@@ -3077,13 +3296,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3680
+    "rank": 3680,
+    "name": "Nb Choti Elaichi"
   },
   {
     "id": 3681,
     "title": "Nb Choti Elaichi 50Gm",
     "slug": "nb-choti-elaichi-50gm",
-    "price": 124.0,
+    "price": 124,
     "image": "/images/products/nb-choti-elaichi-50gm.jpg",
     "stock": 10,
     "description": "Nb Choti Elaichi 50Gm - Premium quality spice or masala product.",
@@ -3091,13 +3311,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3681
+    "rank": 3681,
+    "name": "Nb Choti Elaichi 50Gm"
   },
   {
     "id": 3700,
     "title": "Nb Jeera 100Gm",
     "slug": "nb-jeera-100gm",
-    "price": 52.0,
+    "price": 52,
     "image": "/images/products/nb-jeera-100gm.jpg",
     "stock": 11,
     "description": "Nb Jeera 100Gm - Premium quality spice or masala product.",
@@ -3105,13 +3326,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3700
+    "rank": 3700,
+    "name": "Nb Jeera 100Gm"
   },
   {
     "id": 3701,
     "title": "Nb Jeera 200G",
     "slug": "nb-jeera-200g",
-    "price": 102.0,
+    "price": 102,
     "image": "/images/products/nb-jeera-200g.jpg",
     "stock": 9,
     "description": "Nb Jeera 200G - Premium quality spice or masala product.",
@@ -3119,13 +3341,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3701
+    "rank": 3701,
+    "name": "Nb Jeera 200G"
   },
   {
     "id": 3702,
     "title": "Nb Jeera 500G",
     "slug": "nb-jeera-500g",
-    "price": 258.0,
+    "price": 258,
     "image": "/images/products/nb-jeera-500g.jpg",
     "stock": 3,
     "description": "Nb Jeera 500G - Premium quality spice or masala product.",
@@ -3133,13 +3356,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3702
+    "rank": 3702,
+    "name": "Nb Jeera 500G"
   },
   {
     "id": 3703,
     "title": "Nb Jeera Powder 100Gm",
     "slug": "nb-jeera-powder-100gm",
-    "price": 56.0,
+    "price": 56,
     "image": "/images/products/nb-jeera-powder-100gm.jpg",
     "stock": 16,
     "description": "Nb Jeera Powder 100Gm - Premium quality spice or masala product.",
@@ -3147,13 +3371,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3703
+    "rank": 3703,
+    "name": "Nb Jeera Powder 100Gm"
   },
   {
     "id": 3704,
     "title": "Nb Kaali Mirch Sabut 100Gm",
     "slug": "nb-kaali-mirch-sabut-100gm",
-    "price": 128.0,
+    "price": 128,
     "image": "/images/products/nb-kaali-mirch-sabut-100gm.jpg",
     "stock": 2,
     "description": "Nb Kaali Mirch Sabut 100Gm - Premium quality spice or masala product.",
@@ -3161,13 +3386,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3704
+    "rank": 3704,
+    "name": "Nb Kaali Mirch Sabut 100Gm"
   },
   {
     "id": 3705,
     "title": "Nb Kaali Mirch Sabut 100Gm",
     "slug": "nb-kaali-mirch-sabut-100gm",
-    "price": 132.0,
+    "price": 132,
     "image": "/images/products/nb-kaali-mirch-sabut-100gm.jpg",
     "stock": 9,
     "description": "Nb Kaali Mirch Sabut 100Gm - Premium quality spice or masala product.",
@@ -3175,13 +3401,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3705
+    "rank": 3705,
+    "name": "Nb Kaali Mirch Sabut 100Gm"
   },
   {
     "id": 3715,
     "title": "Nb Kali Mirch Powder 50Gm",
     "slug": "nb-kali-mirch-powder-50gm",
-    "price": 67.0,
+    "price": 67,
     "image": "/images/products/nb-kali-mirch-powder-50gm.jpg",
     "stock": 9,
     "description": "Nb Kali Mirch Powder 50Gm - Premium quality spice or masala product.",
@@ -3189,13 +3416,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3715
+    "rank": 3715,
+    "name": "Nb Kali Mirch Powder 50Gm"
   },
   {
     "id": 3724,
     "title": "Nb Lal Mirch Sabut 100Gm",
     "slug": "nb-lal-mirch-sabut-100gm",
-    "price": 46.0,
+    "price": 46,
     "image": "/images/products/nb-lal-mirch-sabut-100gm.jpg",
     "stock": 1,
     "description": "Nb Lal Mirch Sabut 100Gm - Premium quality spice or masala product.",
@@ -3203,13 +3431,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3724
+    "rank": 3724,
+    "name": "Nb Lal Mirch Sabut 100Gm"
   },
   {
     "id": 3779,
     "title": "Nb Shah Jeera 50Gm",
     "slug": "nb-shah-jeera-50gm",
-    "price": 69.0,
+    "price": 69,
     "image": "/images/products/nb-shah-jeera-50gm.jpg",
     "stock": 9,
     "description": "Nb Shah Jeera 50Gm - Premium quality spice or masala product.",
@@ -3217,13 +3446,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3779
+    "rank": 3779,
+    "name": "Nb Shah Jeera 50Gm"
   },
   {
     "id": 3784,
     "title": "Nb Special Khada Masala Sabut 250Gm",
     "slug": "nb-special-khada-masala-sabut-250gm",
-    "price": 194.0,
+    "price": 194,
     "image": "/images/products/nb-special-khada-masala-sabut-250gm.jpg",
     "stock": 9,
     "description": "Nb Special Khada Masala Sabut 250Gm - Premium quality spice or masala product.",
@@ -3231,13 +3461,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3784
+    "rank": 3784,
+    "name": "Nb Special Khada Masala Sabut 250Gm"
   },
   {
     "id": 3787,
     "title": "Nb Tejpatta 40Gm",
     "slug": "nb-tejpatta-40gm",
-    "price": 26.0,
+    "price": 26,
     "image": "/images/products/nb-tejpatta-40gm.jpg",
     "stock": 12,
     "description": "Nb Tejpatta 40Gm - Premium quality spice or masala product.",
@@ -3245,13 +3476,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3787
+    "rank": 3787,
+    "name": "Nb Tejpatta 40Gm"
   },
   {
     "id": 3935,
     "title": "Nl Organic Nl Organic Mustard Oil 1Ltr",
     "slug": "nl-organic-nl-organic-mustard-oil-1ltr",
-    "price": 375.0,
+    "price": 375,
     "image": "/images/products/nl-organic-nl-organic-mustard-oil-1ltr.jpg",
     "stock": 2,
     "description": "Nl Organic Nl Organic Mustard Oil 1Ltr - Premium quality spice or masala product.",
@@ -3259,13 +3491,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 3935
+    "rank": 3935,
+    "name": "Nl Organic Nl Organic Mustard Oil 1Ltr"
   },
   {
     "id": 4033,
     "title": "Nutty Gritties Pepper Cashew Nuts",
     "slug": "nutty-gritties-pepper-cashew-nuts",
-    "price": 450.0,
+    "price": 450,
     "image": "/images/products/nutty-gritties-pepper-cashew-nuts.jpg",
     "stock": 4,
     "description": "Nutty Gritties Pepper Cashew Nuts - Premium quality spice or masala product.",
@@ -3273,13 +3506,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4033
+    "rank": 4033,
+    "name": "Nutty Gritties Pepper Cashew Nuts"
   },
   {
     "id": 4103,
     "title": "Only Black Paper/Cinnamon Powder",
     "slug": "only-black-papercinnamon-powder",
-    "price": 139.0,
+    "price": 139,
     "image": "/images/products/only-black-papercinnamon-powder.jpg",
     "stock": 8,
     "description": "Only Black Paper/Cinnamon Powder - Premium quality spice or masala product.",
@@ -3287,13 +3521,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4103
+    "rank": 4103,
+    "name": "Only Black Paper/Cinnamon Powder"
   },
   {
     "id": 4104,
     "title": "Only Black Pepper 75Gm",
     "slug": "only-black-pepper-75gm",
-    "price": 149.0,
+    "price": 149,
     "image": "/images/products/only-black-pepper-75gm.jpg",
     "stock": 4,
     "description": "Only Black Pepper 75Gm - Premium quality spice or masala product.",
@@ -3301,13 +3536,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4104
+    "rank": 4104,
+    "name": "Only Black Pepper 75Gm"
   },
   {
     "id": 4105,
     "title": "Only Cardamom",
     "slug": "only-cardamom",
-    "price": 299.0,
+    "price": 299,
     "image": "/images/products/only-cardamom.jpg",
     "stock": 5,
     "description": "Only Cardamom - Premium quality spice or masala product.",
@@ -3315,13 +3551,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4105
+    "rank": 4105,
+    "name": "Only Cardamom"
   },
   {
     "id": 4106,
     "title": "Only Chilli Powder 200Gm",
     "slug": "only-chilli-powder-200gm",
-    "price": 159.0,
+    "price": 159,
     "image": "/images/products/only-chilli-powder-200gm.jpg",
     "stock": 6,
     "description": "Only Chilli Powder 200Gm - Premium quality spice or masala product.",
@@ -3329,13 +3566,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4106
+    "rank": 4106,
+    "name": "Only Chilli Powder 200Gm"
   },
   {
     "id": 4107,
     "title": "Only Cinnamon Stick 40Gm",
     "slug": "only-cinnamon-stick-40gm",
-    "price": 69.0,
+    "price": 69,
     "image": "/images/products/only-cinnamon-stick-40gm.jpg",
     "stock": 3,
     "description": "Only Cinnamon Stick 40Gm - Premium quality spice or masala product.",
@@ -3343,13 +3581,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4107
+    "rank": 4107,
+    "name": "Only Cinnamon Stick 40Gm"
   },
   {
     "id": 4108,
     "title": "Only Clove 50Gm",
     "slug": "only-clove-50gm",
-    "price": 139.0,
+    "price": 139,
     "image": "/images/products/only-clove-50gm.jpg",
     "stock": 4,
     "description": "Only Clove 50Gm - Premium quality spice or masala product.",
@@ -3357,13 +3596,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4108
+    "rank": 4108,
+    "name": "Only Clove 50Gm"
   },
   {
     "id": 4109,
     "title": "Only Coriander Powder 200Gm",
     "slug": "only-coriander-powder-200gm",
-    "price": 129.0,
+    "price": 129,
     "image": "/images/products/only-coriander-powder-200gm.jpg",
     "stock": 5,
     "description": "Only Coriander Powder 200Gm - Premium quality spice or masala product.",
@@ -3371,13 +3611,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4109
+    "rank": 4109,
+    "name": "Only Coriander Powder 200Gm"
   },
   {
     "id": 4110,
     "title": "Only Coriander Seeds 100Gm",
     "slug": "only-coriander-seeds-100gm",
-    "price": 59.0,
+    "price": 59,
     "image": "/images/products/only-coriander-seeds-100gm.jpg",
     "stock": 3,
     "description": "Only Coriander Seeds 100Gm - Premium quality spice or masala product.",
@@ -3385,13 +3626,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4110
+    "rank": 4110,
+    "name": "Only Coriander Seeds 100Gm"
   },
   {
     "id": 4112,
     "title": "Only Fennel Seeds 100Gm",
     "slug": "only-fennel-seeds-100gm",
-    "price": 129.0,
+    "price": 129,
     "image": "/images/products/only-fennel-seeds-100gm.jpg",
     "stock": 3,
     "description": "Only Fennel Seeds 100Gm - Premium quality spice or masala product.",
@@ -3399,13 +3641,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4112
+    "rank": 4112,
+    "name": "Only Fennel Seeds 100Gm"
   },
   {
     "id": 4116,
     "title": "Only Jeera 100Gm",
     "slug": "only-jeera-100gm",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/only-jeera-100gm.jpg",
     "stock": 2,
     "description": "Only Jeera 100Gm - Premium quality spice or masala product.",
@@ -3413,13 +3656,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4116
+    "rank": 4116,
+    "name": "Only Jeera 100Gm"
   },
   {
     "id": 4117,
     "title": "Only Jeera Goli",
     "slug": "only-jeera-goli",
-    "price": 149.0,
+    "price": 149,
     "image": "/images/products/only-jeera-goli.jpg",
     "stock": 2,
     "description": "Only Jeera Goli - Premium quality spice or masala product.",
@@ -3427,13 +3671,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4117
+    "rank": 4117,
+    "name": "Only Jeera Goli"
   },
   {
     "id": 4118,
     "title": "Only Kasuri Methi 50Gm",
     "slug": "only-kasuri-methi-50gm",
-    "price": 70.0,
+    "price": 70,
     "image": "/images/products/only-kasuri-methi-50gm.jpg",
     "stock": 3,
     "description": "Only Kasuri Methi 50Gm - Premium quality spice or masala product.",
@@ -3441,13 +3686,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4118
+    "rank": 4118,
+    "name": "Only Kasuri Methi 50Gm"
   },
   {
     "id": 4128,
     "title": "Only Turmeric Powder 200Gm",
     "slug": "only-turmeric-powder-200gm",
-    "price": 139.0,
+    "price": 139,
     "image": "/images/products/only-turmeric-powder-200gm.jpg",
     "stock": 6,
     "description": "Only Turmeric Powder 200Gm - Premium quality spice or masala product.",
@@ -3455,13 +3701,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4128
+    "rank": 4128,
+    "name": "Only Turmeric Powder 200Gm"
   },
   {
     "id": 4156,
     "title": "Orgainc India Masala Chai",
     "slug": "orgainc-india-masala-chai",
-    "price": 215.0,
+    "price": 215,
     "image": "/images/products/orgainc-india-masala-chai.jpg",
     "stock": 1,
     "description": "Orgainc India Masala Chai - Premium quality spice or masala product.",
@@ -3469,13 +3716,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4156
+    "rank": 4156,
+    "name": "Orgainc India Masala Chai"
   },
   {
     "id": 4180,
     "title": "Organic Nation Chilli Flakes",
     "slug": "organic-nation-chilli-flakes",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/organic-nation-chilli-flakes.jpg",
     "stock": 2,
     "description": "Organic Nation Chilli Flakes - Premium quality spice or masala product.",
@@ -3483,13 +3731,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4180
+    "rank": 4180,
+    "name": "Organic Nation Chilli Flakes"
   },
   {
     "id": 4193,
     "title": "Organic Nation Nimbu Mirch 250G",
     "slug": "organic-nation-nimbu-mirch-250g",
-    "price": 175.0,
+    "price": 175,
     "image": "/images/products/organic-nation-nimbu-mirch-250g.jpg",
     "stock": 1,
     "description": "Organic Nation Nimbu Mirch 250G - Premium quality spice or masala product.",
@@ -3497,13 +3746,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4193
+    "rank": 4193,
+    "name": "Organic Nation Nimbu Mirch 250G"
   },
   {
     "id": 4194,
     "title": "Organic Nation Nimbu Mirch 250G",
     "slug": "organic-nation-nimbu-mirch-250g",
-    "price": 249.0,
+    "price": 249,
     "image": "/images/products/organic-nation-nimbu-mirch-250g.jpg",
     "stock": 2,
     "description": "Organic Nation Nimbu Mirch 250G - Premium quality spice or masala product.",
@@ -3511,13 +3761,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4194
+    "rank": 4194,
+    "name": "Organic Nation Nimbu Mirch 250G"
   },
   {
     "id": 4197,
     "title": "Organic Nation Red Chilli 250G",
     "slug": "organic-nation-red-chilli-250g",
-    "price": 210.0,
+    "price": 210,
     "image": "/images/products/organic-nation-red-chilli-250g.jpg",
     "stock": 1,
     "description": "Organic Nation Red Chilli 250G - Premium quality spice or masala product.",
@@ -3525,13 +3776,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4197
+    "rank": 4197,
+    "name": "Organic Nation Red Chilli 250G"
   },
   {
     "id": 4198,
     "title": "Organic Nation Red Chilli 250G",
     "slug": "organic-nation-red-chilli-250g",
-    "price": 249.0,
+    "price": 249,
     "image": "/images/products/organic-nation-red-chilli-250g.jpg",
     "stock": 2,
     "description": "Organic Nation Red Chilli 250G - Premium quality spice or masala product.",
@@ -3539,13 +3791,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4198
+    "rank": 4198,
+    "name": "Organic Nation Red Chilli 250G"
   },
   {
     "id": 4223,
     "title": "Orika Jaljeera Lemonade 10N",
     "slug": "orika-jaljeera-lemonade-10n",
-    "price": 145.0,
+    "price": 145,
     "image": "/images/products/orika-jaljeera-lemonade-10n.jpg",
     "stock": 5,
     "description": "Orika Jaljeera Lemonade 10N - Premium quality spice or masala product.",
@@ -3553,13 +3806,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4223
+    "rank": 4223,
+    "name": "Orika Jaljeera Lemonade 10N"
   },
   {
     "id": 4227,
     "title": "Orika Red Chilli Flakes 50G",
     "slug": "orika-red-chilli-flakes-50g",
-    "price": 88.0,
+    "price": 88,
     "image": "/images/products/orika-red-chilli-flakes-50g.jpg",
     "stock": 6,
     "description": "Orika Red Chilli Flakes 50G - Premium quality spice or masala product.",
@@ -3567,13 +3821,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4227
+    "rank": 4227,
+    "name": "Orika Red Chilli Flakes 50G"
   },
   {
     "id": 4237,
     "title": "Outreach Blackpepper Powder 50G",
     "slug": "outreach-blackpepper-powder-50g",
-    "price": 94.0,
+    "price": 94,
     "image": "/images/products/outreach-blackpepper-powder-50g.jpg",
     "stock": 10,
     "description": "Outreach Blackpepper Powder 50G - Premium quality spice or masala product.",
@@ -3581,13 +3836,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4237
+    "rank": 4237,
+    "name": "Outreach Blackpepper Powder 50G"
   },
   {
     "id": 4240,
     "title": "Outreach Elaichi Powder 25Gm",
     "slug": "outreach-elaichi-powder-25gm",
-    "price": 215.0,
+    "price": 215,
     "image": "/images/products/outreach-elaichi-powder-25gm.jpg",
     "stock": 4,
     "description": "Outreach Elaichi Powder 25Gm - Premium quality spice or masala product.",
@@ -3595,13 +3851,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4240
+    "rank": 4240,
+    "name": "Outreach Elaichi Powder 25Gm"
   },
   {
     "id": 4241,
     "title": "Outreach Elaichi Powder 50Gm",
     "slug": "outreach-elaichi-powder-50gm",
-    "price": 429.0,
+    "price": 429,
     "image": "/images/products/outreach-elaichi-powder-50gm.jpg",
     "stock": 6,
     "description": "Outreach Elaichi Powder 50Gm - Premium quality spice or masala product.",
@@ -3609,13 +3866,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4241
+    "rank": 4241,
+    "name": "Outreach Elaichi Powder 50Gm"
   },
   {
     "id": 4242,
     "title": "Outreach Jeera Crushed Powder 50G",
     "slug": "outreach-jeera-crushed-powder-50g",
-    "price": 72.0,
+    "price": 72,
     "image": "/images/products/outreach-jeera-crushed-powder-50g.jpg",
     "stock": 6,
     "description": "Outreach Jeera Crushed Powder 50G - Premium quality spice or masala product.",
@@ -3623,13 +3881,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4242
+    "rank": 4242,
+    "name": "Outreach Jeera Crushed Powder 50G"
   },
   {
     "id": 4243,
     "title": "Outreach Jeera Powder 50G",
     "slug": "outreach-jeera-powder-50g",
-    "price": 68.0,
+    "price": 68,
     "image": "/images/products/outreach-jeera-powder-50g.jpg",
     "stock": 6,
     "description": "Outreach Jeera Powder 50G - Premium quality spice or masala product.",
@@ -3637,13 +3896,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4243
+    "rank": 4243,
+    "name": "Outreach Jeera Powder 50G"
   },
   {
     "id": 4248,
     "title": "P Mark Kachii Ghani Mustard Oil 5L",
     "slug": "p-mark-kachii-ghani-mustard-oil-5l",
-    "price": 1100.0,
+    "price": 1100,
     "image": "/images/products/p-mark-kachii-ghani-mustard-oil-5l.jpg",
     "stock": 3,
     "description": "P Mark Kachii Ghani Mustard Oil 5L - Premium quality spice or masala product.",
@@ -3651,13 +3911,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4248
+    "rank": 4248,
+    "name": "P Mark Kachii Ghani Mustard Oil 5L"
   },
   {
     "id": 4249,
     "title": "P Mark Mustard Oil 1L",
     "slug": "p-mark-mustard-oil-1l",
-    "price": 220.0,
+    "price": 220,
     "image": "/images/products/p-mark-mustard-oil-1l.jpg",
     "stock": 16,
     "description": "P Mark Mustard Oil 1L - Premium quality spice or masala product.",
@@ -3665,13 +3926,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4249
+    "rank": 4249,
+    "name": "P Mark Mustard Oil 1L"
   },
   {
     "id": 4296,
     "title": "Pantanjali Haldi Chandan Bar Pack",
     "slug": "pantanjali-haldi-chandan-bar-pack",
-    "price": 130.0,
+    "price": 130,
     "image": "/images/products/pantanjali-haldi-chandan-bar-pack.jpg",
     "stock": 2,
     "description": "Pantanjali Haldi Chandan Bar Pack - Premium quality spice or masala product.",
@@ -3679,13 +3941,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4296
+    "rank": 4296,
+    "name": "Pantanjali Haldi Chandan Bar Pack"
   },
   {
     "id": 4370,
     "title": "Parle Magix Elaichi",
     "slug": "parle-magix-elaichi",
-    "price": 10.0,
+    "price": 10,
     "image": "/images/products/parle-magix-elaichi.jpg",
     "stock": 10,
     "description": "Parle Magix Elaichi - Premium quality spice or masala product.",
@@ -3693,13 +3956,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4370
+    "rank": 4370,
+    "name": "Parle Magix Elaichi"
   },
   {
     "id": 4386,
     "title": "Parly Krackjack Masala",
     "slug": "parly-krackjack-masala",
-    "price": 150.0,
+    "price": 150,
     "image": "/images/products/parly-krackjack-masala.jpg",
     "stock": 2,
     "description": "Parly Krackjack Masala - Premium quality spice or masala product.",
@@ -3707,13 +3971,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4386
+    "rank": 4386,
+    "name": "Parly Krackjack Masala"
   },
   {
     "id": 4439,
     "title": "Peppy  Tomato Chilli",
     "slug": "peppy-tomato-chilli",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/peppy-tomato-chilli.jpg",
     "stock": 3,
     "description": "Peppy  Tomato Chilli - Premium quality spice or masala product.",
@@ -3721,13 +3986,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4439
+    "rank": 4439,
+    "name": "Peppy  Tomato Chilli"
   },
   {
     "id": 4441,
     "title": "Peppy Pops Chesse &Chilli",
     "slug": "peppy-pops-chesse-chilli",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/peppy-pops-chesse-chilli.jpg",
     "stock": 9,
     "description": "Peppy Pops Chesse &Chilli - Premium quality spice or masala product.",
@@ -3735,13 +4001,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4441
+    "rank": 4441,
+    "name": "Peppy Pops Chesse &Chilli"
   },
   {
     "id": 4444,
     "title": "Peppy Pops Masala",
     "slug": "peppy-pops-masala",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/peppy-pops-masala.jpg",
     "stock": 4,
     "description": "Peppy Pops Masala - Premium quality spice or masala product.",
@@ -3749,13 +4016,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4444
+    "rank": 4444,
+    "name": "Peppy Pops Masala"
   },
   {
     "id": 4589,
     "title": "Prigles Desi Masala Tadka",
     "slug": "prigles-desi-masala-tadka",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/prigles-desi-masala-tadka.jpg",
     "stock": 9,
     "description": "Prigles Desi Masala Tadka - Premium quality spice or masala product.",
@@ -3763,13 +4031,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4589
+    "rank": 4589,
+    "name": "Prigles Desi Masala Tadka"
   },
   {
     "id": 4617,
     "title": "Puro Coriander Powder 100G",
     "slug": "puro-coriander-powder-100g",
-    "price": 42.0,
+    "price": 42,
     "image": "/images/products/puro-coriander-powder-100g.jpg",
     "stock": 10,
     "description": "Puro Coriander Powder 100G - Premium quality spice or masala product.",
@@ -3777,13 +4046,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4617
+    "rank": 4617,
+    "name": "Puro Coriander Powder 100G"
   },
   {
     "id": 4619,
     "title": "Puro Turmeric Powder 100G",
     "slug": "puro-turmeric-powder-100g",
-    "price": 46.0,
+    "price": 46,
     "image": "/images/products/puro-turmeric-powder-100g.jpg",
     "stock": 10,
     "description": "Puro Turmeric Powder 100G - Premium quality spice or masala product.",
@@ -3791,13 +4061,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4619
+    "rank": 4619,
+    "name": "Puro Turmeric Powder 100G"
   },
   {
     "id": 4710,
     "title": "Real Thai Extra Hot Chilli Sauce 235Ml",
     "slug": "real-thai-extra-hot-chilli-sauce-235ml",
-    "price": 210.0,
+    "price": 210,
     "image": "/images/products/real-thai-extra-hot-chilli-sauce-235ml.jpg",
     "stock": 3,
     "description": "Real Thai Extra Hot Chilli Sauce 235Ml - Premium quality spice or masala product.",
@@ -3805,13 +4076,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4710
+    "rank": 4710,
+    "name": "Real Thai Extra Hot Chilli Sauce 235Ml"
   },
   {
     "id": 4719,
     "title": "Real Thai Sriracha Chilli Sauce",
     "slug": "real-thai-sriracha-chilli-sauce",
-    "price": 225.0,
+    "price": 225,
     "image": "/images/products/real-thai-sriracha-chilli-sauce.jpg",
     "stock": 2,
     "description": "Real Thai Sriracha Chilli Sauce - Premium quality spice or masala product.",
@@ -3819,13 +4091,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4719
+    "rank": 4719,
+    "name": "Real Thai Sriracha Chilli Sauce"
   },
   {
     "id": 4720,
     "title": "Real Thai Sriracha Extra Hot Chilli Sauce",
     "slug": "real-thai-sriracha-extra-hot-chilli-sauce",
-    "price": 320.0,
+    "price": 320,
     "image": "/images/products/real-thai-sriracha-extra-hot-chilli-sauce.jpg",
     "stock": 3,
     "description": "Real Thai Sriracha Extra Hot Chilli Sauce - Premium quality spice or masala product.",
@@ -3833,13 +4106,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4720
+    "rank": 4720,
+    "name": "Real Thai Sriracha Extra Hot Chilli Sauce"
   },
   {
     "id": 4721,
     "title": "Real Thai Sriracha Hot Chilli Sauce",
     "slug": "real-thai-sriracha-hot-chilli-sauce",
-    "price": 290.0,
+    "price": 290,
     "image": "/images/products/real-thai-sriracha-hot-chilli-sauce.jpg",
     "stock": 2,
     "description": "Real Thai Sriracha Hot Chilli Sauce - Premium quality spice or masala product.",
@@ -3847,13 +4121,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4721
+    "rank": 4721,
+    "name": "Real Thai Sriracha Hot Chilli Sauce"
   },
   {
     "id": 4722,
     "title": "Real Thai Sweet Chilli Sauce",
     "slug": "real-thai-sweet-chilli-sauce",
-    "price": 310.0,
+    "price": 310,
     "image": "/images/products/real-thai-sweet-chilli-sauce.jpg",
     "stock": 3,
     "description": "Real Thai Sweet Chilli Sauce - Premium quality spice or masala product.",
@@ -3861,13 +4136,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4722
+    "rank": 4722,
+    "name": "Real Thai Sweet Chilli Sauce"
   },
   {
     "id": 4723,
     "title": "Real Thai Sweet Chilli Sauce 235Ml",
     "slug": "real-thai-sweet-chilli-sauce-235ml",
-    "price": 199.0,
+    "price": 199,
     "image": "/images/products/real-thai-sweet-chilli-sauce-235ml.jpg",
     "stock": 1,
     "description": "Real Thai Sweet Chilli Sauce 235Ml - Premium quality spice or masala product.",
@@ -3875,13 +4151,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4723
+    "rank": 4723,
+    "name": "Real Thai Sweet Chilli Sauce 235Ml"
   },
   {
     "id": 4812,
     "title": "S&J Peri Peri Masala",
     "slug": "sj-peri-peri-masala",
-    "price": 5.0,
+    "price": 5,
     "image": "/images/products/sj-peri-peri-masala.jpg",
     "stock": 41,
     "description": "S&J Peri Peri Masala - Premium quality spice or masala product.",
@@ -3889,13 +4166,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4812
+    "rank": 4812,
+    "name": "S&J Peri Peri Masala"
   },
   {
     "id": 4824,
     "title": "Saffola Masala Oats 38Gm",
     "slug": "saffola-masala-oats-38gm",
-    "price": 18.0,
+    "price": 18,
     "image": "/images/products/saffola-masala-oats-38gm.jpg",
     "stock": -18,
     "description": "Saffola Masala Oats 38Gm - Premium quality spice or masala product.",
@@ -3903,13 +4181,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4824
+    "rank": 4824,
+    "name": "Saffola Masala Oats 38Gm"
   },
   {
     "id": 4825,
     "title": "Saffola Masala Oats 38Gm",
     "slug": "saffola-masala-oats-38gm",
-    "price": 18.0,
+    "price": 18,
     "image": "/images/products/saffola-masala-oats-38gm.jpg",
     "stock": 42,
     "description": "Saffola Masala Oats 38Gm - Premium quality spice or masala product.",
@@ -3917,13 +4196,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4825
+    "rank": 4825,
+    "name": "Saffola Masala Oats 38Gm"
   },
   {
     "id": 4826,
     "title": "Saffola Masala Oats 500Gm",
     "slug": "saffola-masala-oats-500gm",
-    "price": 220.0,
+    "price": 220,
     "image": "/images/products/saffola-masala-oats-500gm.jpg",
     "stock": 11,
     "description": "Saffola Masala Oats 500Gm - Premium quality spice or masala product.",
@@ -3931,13 +4211,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4826
+    "rank": 4826,
+    "name": "Saffola Masala Oats 500Gm"
   },
   {
     "id": 4886,
     "title": "Scotch Brite Polishing Wipes",
     "slug": "scotch-brite-polishing-wipes",
-    "price": 179.0,
+    "price": 179,
     "image": "/images/products/scotch-brite-polishing-wipes.jpg",
     "stock": 5,
     "description": "Scotch Brite Polishing Wipes - Premium quality spice or masala product.",
@@ -3945,13 +4226,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4886
+    "rank": 4886,
+    "name": "Scotch Brite Polishing Wipes"
   },
   {
     "id": 4899,
     "title": "Sds All In One Masala",
     "slug": "sds-all-in-one-masala",
-    "price": 40.0,
+    "price": 40,
     "image": "/images/products/sds-all-in-one-masala.jpg",
     "stock": 3,
     "description": "Sds All In One Masala - Premium quality spice or masala product.",
@@ -3959,13 +4241,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4899
+    "rank": 4899,
+    "name": "Sds All In One Masala"
   },
   {
     "id": 4900,
     "title": "Sds Aloo Sabji Masala",
     "slug": "sds-aloo-sabji-masala",
-    "price": 40.0,
+    "price": 40,
     "image": "/images/products/sds-aloo-sabji-masala.jpg",
     "stock": 3,
     "description": "Sds Aloo Sabji Masala - Premium quality spice or masala product.",
@@ -3973,13 +4256,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4900
+    "rank": 4900,
+    "name": "Sds Aloo Sabji Masala"
   },
   {
     "id": 4903,
     "title": "Sds Bhindi Karela Masala",
     "slug": "sds-bhindi-karela-masala",
-    "price": 35.0,
+    "price": 35,
     "image": "/images/products/sds-bhindi-karela-masala.jpg",
     "stock": 3,
     "description": "Sds Bhindi Karela Masala - Premium quality spice or masala product.",
@@ -3987,13 +4271,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4903
+    "rank": 4903,
+    "name": "Sds Bhindi Karela Masala"
   },
   {
     "id": 4904,
     "title": "Sds Chai Masala",
     "slug": "sds-chai-masala",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/sds-chai-masala.jpg",
     "stock": 5,
     "description": "Sds Chai Masala - Premium quality spice or masala product.",
@@ -4001,13 +4286,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4904
+    "rank": 4904,
+    "name": "Sds Chai Masala"
   },
   {
     "id": 4905,
     "title": "Sds Chana Masala",
     "slug": "sds-chana-masala",
-    "price": 45.0,
+    "price": 45,
     "image": "/images/products/sds-chana-masala.jpg",
     "stock": 2,
     "description": "Sds Chana Masala - Premium quality spice or masala product.",
@@ -4015,13 +4301,14 @@ const products = [
     "unit": "8908",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4905
+    "rank": 4905,
+    "name": "Sds Chana Masala"
   },
   {
     "id": 4906,
     "title": "Sds Chat Masala",
     "slug": "sds-chat-masala",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/sds-chat-masala.jpg",
     "stock": 1,
     "description": "Sds Chat Masala - Premium quality spice or masala product.",
@@ -4029,13 +4316,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4906
+    "rank": 4906,
+    "name": "Sds Chat Masala"
   },
   {
     "id": 4907,
     "title": "Sds Chicken Masala",
     "slug": "sds-chicken-masala",
-    "price": 40.0,
+    "price": 40,
     "image": "/images/products/sds-chicken-masala.jpg",
     "stock": 1,
     "description": "Sds Chicken Masala - Premium quality spice or masala product.",
@@ -4043,13 +4331,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4907
+    "rank": 4907,
+    "name": "Sds Chicken Masala"
   },
   {
     "id": 4908,
     "title": "Sds Dal Makhni Masala",
     "slug": "sds-dal-makhni-masala",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/sds-dal-makhni-masala.jpg",
     "stock": 3,
     "description": "Sds Dal Makhni Masala - Premium quality spice or masala product.",
@@ -4057,13 +4346,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4908
+    "rank": 4908,
+    "name": "Sds Dal Makhni Masala"
   },
   {
     "id": 4909,
     "title": "Sds Dal Masala",
     "slug": "sds-dal-masala",
-    "price": 25.0,
+    "price": 25,
     "image": "/images/products/sds-dal-masala.jpg",
     "stock": 3,
     "description": "Sds Dal Masala - Premium quality spice or masala product.",
@@ -4071,13 +4361,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4909
+    "rank": 4909,
+    "name": "Sds Dal Masala"
   },
   {
     "id": 4910,
     "title": "Sds Dam Aloo Masala",
     "slug": "sds-dam-aloo-masala",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/sds-dam-aloo-masala.jpg",
     "stock": 2,
     "description": "Sds Dam Aloo Masala - Premium quality spice or masala product.",
@@ -4085,13 +4376,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4910
+    "rank": 4910,
+    "name": "Sds Dam Aloo Masala"
   },
   {
     "id": 4911,
     "title": "Sds Kadai Paneer Masala",
     "slug": "sds-kadai-paneer-masala",
-    "price": 50.0,
+    "price": 50,
     "image": "/images/products/sds-kadai-paneer-masala.jpg",
     "stock": 3,
     "description": "Sds Kadai Paneer Masala - Premium quality spice or masala product.",
@@ -4099,13 +4391,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4911
+    "rank": 4911,
+    "name": "Sds Kadai Paneer Masala"
   },
   {
     "id": 4913,
     "title": "Sds Matar Paneer Masala",
     "slug": "sds-matar-paneer-masala",
-    "price": 35.0,
+    "price": 35,
     "image": "/images/products/sds-matar-paneer-masala.jpg",
     "stock": 3,
     "description": "Sds Matar Paneer Masala - Premium quality spice or masala product.",
@@ -4113,13 +4406,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4913
+    "rank": 4913,
+    "name": "Sds Matar Paneer Masala"
   },
   {
     "id": 4915,
     "title": "Sds Multi Purpose Masala",
     "slug": "sds-multi-purpose-masala",
-    "price": 45.0,
+    "price": 45,
     "image": "/images/products/sds-multi-purpose-masala.jpg",
     "stock": 3,
     "description": "Sds Multi Purpose Masala - Premium quality spice or masala product.",
@@ -4127,13 +4421,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4915
+    "rank": 4915,
+    "name": "Sds Multi Purpose Masala"
   },
   {
     "id": 4916,
     "title": "Sds Mutton Masala",
     "slug": "sds-mutton-masala",
-    "price": 45.0,
+    "price": 45,
     "image": "/images/products/sds-mutton-masala.jpg",
     "stock": 3,
     "description": "Sds Mutton Masala - Premium quality spice or masala product.",
@@ -4141,13 +4436,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4916
+    "rank": 4916,
+    "name": "Sds Mutton Masala"
   },
   {
     "id": 4918,
     "title": "Sds Pao Bhaji Masala",
     "slug": "sds-pao-bhaji-masala",
-    "price": 50.0,
+    "price": 50,
     "image": "/images/products/sds-pao-bhaji-masala.jpg",
     "stock": 3,
     "description": "Sds Pao Bhaji Masala - Premium quality spice or masala product.",
@@ -4155,13 +4451,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4918
+    "rank": 4918,
+    "name": "Sds Pao Bhaji Masala"
   },
   {
     "id": 4919,
     "title": "Sds Ragooni Mirch",
     "slug": "sds-ragooni-mirch",
-    "price": 35.0,
+    "price": 35,
     "image": "/images/products/sds-ragooni-mirch.jpg",
     "stock": 3,
     "description": "Sds Ragooni Mirch - Premium quality spice or masala product.",
@@ -4169,13 +4466,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4919
+    "rank": 4919,
+    "name": "Sds Ragooni Mirch"
   },
   {
     "id": 4920,
     "title": "Sds Ragooni Mirch",
     "slug": "sds-ragooni-mirch",
-    "price": 120.0,
+    "price": 120,
     "image": "/images/products/sds-ragooni-mirch.jpg",
     "stock": 3,
     "description": "Sds Ragooni Mirch - Premium quality spice or masala product.",
@@ -4183,13 +4481,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4920
+    "rank": 4920,
+    "name": "Sds Ragooni Mirch"
   },
   {
     "id": 4921,
     "title": "Sds Rajma Masala",
     "slug": "sds-rajma-masala",
-    "price": 45.0,
+    "price": 45,
     "image": "/images/products/sds-rajma-masala.jpg",
     "stock": 3,
     "description": "Sds Rajma Masala - Premium quality spice or masala product.",
@@ -4197,13 +4496,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4921
+    "rank": 4921,
+    "name": "Sds Rajma Masala"
   },
   {
     "id": 4923,
     "title": "Sds Sambar Masala",
     "slug": "sds-sambar-masala",
-    "price": 35.0,
+    "price": 35,
     "image": "/images/products/sds-sambar-masala.jpg",
     "stock": 3,
     "description": "Sds Sambar Masala - Premium quality spice or masala product.",
@@ -4211,13 +4511,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4923
+    "rank": 4923,
+    "name": "Sds Sambar Masala"
   },
   {
     "id": 4925,
     "title": "Sds Shai Paneer Masala",
     "slug": "sds-shai-paneer-masala",
-    "price": 50.0,
+    "price": 50,
     "image": "/images/products/sds-shai-paneer-masala.jpg",
     "stock": 3,
     "description": "Sds Shai Paneer Masala - Premium quality spice or masala product.",
@@ -4225,13 +4526,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4925
+    "rank": 4925,
+    "name": "Sds Shai Paneer Masala"
   },
   {
     "id": 4926,
     "title": "Sds Soya Chap Masala",
     "slug": "sds-soya-chap-masala",
-    "price": 50.0,
+    "price": 50,
     "image": "/images/products/sds-soya-chap-masala.jpg",
     "stock": 3,
     "description": "Sds Soya Chap Masala - Premium quality spice or masala product.",
@@ -4239,13 +4541,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4926
+    "rank": 4926,
+    "name": "Sds Soya Chap Masala"
   },
   {
     "id": 4958,
     "title": "Shadani Hing Peda 200Gm",
     "slug": "shadani-hing-peda-200gm",
-    "price": 145.0,
+    "price": 145,
     "image": "/images/products/shadani-hing-peda-200gm.jpg",
     "stock": 1,
     "description": "Shadani Hing Peda 200Gm - Premium quality spice or masala product.",
@@ -4253,13 +4556,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4958
+    "rank": 4958,
+    "name": "Shadani Hing Peda 200Gm"
   },
   {
     "id": 4982,
     "title": "Shan Butter Chicken Masala",
     "slug": "shan-butter-chicken-masala",
-    "price": 110.0,
+    "price": 110,
     "image": "/images/products/shan-butter-chicken-masala.jpg",
     "stock": 4,
     "description": "Shan Butter Chicken Masala - Premium quality spice or masala product.",
@@ -4267,13 +4571,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4982
+    "rank": 4982,
+    "name": "Shan Butter Chicken Masala"
   },
   {
     "id": 4984,
     "title": "Shan Korma Masala",
     "slug": "shan-korma-masala",
-    "price": 110.0,
+    "price": 110,
     "image": "/images/products/shan-korma-masala.jpg",
     "stock": 1,
     "description": "Shan Korma Masala - Premium quality spice or masala product.",
@@ -4281,13 +4586,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4984
+    "rank": 4984,
+    "name": "Shan Korma Masala"
   },
   {
     "id": 4985,
     "title": "Shan Meat Masala",
     "slug": "shan-meat-masala",
-    "price": 110.0,
+    "price": 110,
     "image": "/images/products/shan-meat-masala.jpg",
     "stock": 3,
     "description": "Shan Meat Masala - Premium quality spice or masala product.",
@@ -4295,13 +4601,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4985
+    "rank": 4985,
+    "name": "Shan Meat Masala"
   },
   {
     "id": 4986,
     "title": "Shan Mix Tikka Masala 50G",
     "slug": "shan-mix-tikka-masala-50g",
-    "price": 90.0,
+    "price": 90,
     "image": "/images/products/shan-mix-tikka-masala-50g.jpg",
     "stock": 6,
     "description": "Shan Mix Tikka Masala 50G - Premium quality spice or masala product.",
@@ -4309,13 +4616,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4986
+    "rank": 4986,
+    "name": "Shan Mix Tikka Masala 50G"
   },
   {
     "id": 4987,
     "title": "Shan Paya Masala",
     "slug": "shan-paya-masala",
-    "price": 80.0,
+    "price": 80,
     "image": "/images/products/shan-paya-masala.jpg",
     "stock": 5,
     "description": "Shan Paya Masala - Premium quality spice or masala product.",
@@ -4323,13 +4631,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4987
+    "rank": 4987,
+    "name": "Shan Paya Masala"
   },
   {
     "id": 4995,
     "title": "Sj Pasta Masala 5/-",
     "slug": "sj-pasta-masala-5-",
-    "price": 5.0,
+    "price": 5,
     "image": "/images/products/sj-pasta-masala-5-.jpg",
     "stock": 85,
     "description": "Sj Pasta Masala 5/- - Premium quality spice or masala product.",
@@ -4337,13 +4646,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 4995
+    "rank": 4995,
+    "name": "Sj Pasta Masala 5/-"
   },
   {
     "id": 5162,
     "title": "Spring Black Pepper",
     "slug": "spring-black-pepper",
-    "price": 499.0,
+    "price": 499,
     "image": "/images/products/spring-black-pepper.jpg",
     "stock": 2,
     "description": "Spring Black Pepper - Premium quality spice or masala product.",
@@ -4351,13 +4661,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 5162
+    "rank": 5162,
+    "name": "Spring Black Pepper"
   },
   {
     "id": 5170,
     "title": "Spring Rosted Chilli Oil",
     "slug": "spring-rosted-chilli-oil",
-    "price": 399.0,
+    "price": 399,
     "image": "/images/products/spring-rosted-chilli-oil.jpg",
     "stock": 2,
     "description": "Spring Rosted Chilli Oil - Premium quality spice or masala product.",
@@ -4365,13 +4676,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 5170
+    "rank": 5170,
+    "name": "Spring Rosted Chilli Oil"
   },
   {
     "id": 5171,
     "title": "Spring Sichuan Pepper Sea Salt",
     "slug": "spring-sichuan-pepper-sea-salt",
-    "price": 519.0,
+    "price": 519,
     "image": "/images/products/spring-sichuan-pepper-sea-salt.jpg",
     "stock": 1,
     "description": "Spring Sichuan Pepper Sea Salt - Premium quality spice or masala product.",
@@ -4379,13 +4691,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 5171
+    "rank": 5171,
+    "name": "Spring Sichuan Pepper Sea Salt"
   },
   {
     "id": 5172,
     "title": "Spring Six Pepper Medley",
     "slug": "spring-six-pepper-medley",
-    "price": 599.0,
+    "price": 599,
     "image": "/images/products/spring-six-pepper-medley.jpg",
     "stock": 2,
     "description": "Spring Six Pepper Medley - Premium quality spice or masala product.",
@@ -4393,13 +4706,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 5172
+    "rank": 5172,
+    "name": "Spring Six Pepper Medley"
   },
   {
     "id": 5294,
     "title": "Tabasco Pepper Sauce",
     "slug": "tabasco-pepper-sauce",
-    "price": 269.0,
+    "price": 269,
     "image": "/images/products/tabasco-pepper-sauce.jpg",
     "stock": 2,
     "description": "Tabasco Pepper Sauce - Premium quality spice or masala product.",
@@ -4407,13 +4721,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 5294
+    "rank": 5294,
+    "name": "Tabasco Pepper Sauce"
   },
   {
     "id": 5295,
     "title": "Tabasco Pepper Sauce 150M",
     "slug": "tabasco-pepper-sauce-150m",
-    "price": 749.0,
+    "price": 749,
     "image": "/images/products/tabasco-pepper-sauce-150m.jpg",
     "stock": 1,
     "description": "Tabasco Pepper Sauce 150M - Premium quality spice or masala product.",
@@ -4421,13 +4736,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 5295
+    "rank": 5295,
+    "name": "Tabasco Pepper Sauce 150M"
   },
   {
     "id": 5312,
     "title": "Tata Tea Agni Elaichi 250G",
     "slug": "tata-tea-agni-elaichi-250g",
-    "price": 90.0,
+    "price": 90,
     "image": "/images/products/tata-tea-agni-elaichi-250g.jpg",
     "stock": 10,
     "description": "Tata Tea Agni Elaichi 250G - Premium quality spice or masala product.",
@@ -4435,13 +4751,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 5312
+    "rank": 5312,
+    "name": "Tata Tea Agni Elaichi 250G"
   },
   {
     "id": 5552,
     "title": "V Jeera",
     "slug": "v-jeera",
-    "price": 75.0,
+    "price": 75,
     "image": "/images/products/v-jeera.jpg",
     "stock": 12,
     "description": "V Jeera - Premium quality spice or masala product.",
@@ -4449,13 +4766,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 5552
+    "rank": 5552,
+    "name": "V Jeera"
   },
   {
     "id": 5605,
     "title": "Veeba American Mustard 320G",
     "slug": "veeba-american-mustard-320g",
-    "price": 169.0,
+    "price": 169,
     "image": "/images/products/veeba-american-mustard-320g.jpg",
     "stock": 3,
     "description": "Veeba American Mustard 320G - Premium quality spice or masala product.",
@@ -4463,13 +4781,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 5605
+    "rank": 5605,
+    "name": "Veeba American Mustard 320G"
   },
   {
     "id": 5613,
     "title": "Veeba Chilli Oregano Sauce",
     "slug": "veeba-chilli-oregano-sauce",
-    "price": 169.0,
+    "price": 169,
     "image": "/images/products/veeba-chilli-oregano-sauce.jpg",
     "stock": 3,
     "description": "Veeba Chilli Oregano Sauce - Premium quality spice or masala product.",
@@ -4477,13 +4796,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 5613
+    "rank": 5613,
+    "name": "Veeba Chilli Oregano Sauce"
   },
   {
     "id": 5614,
     "title": "Veeba Chilli Vinegar",
     "slug": "veeba-chilli-vinegar",
-    "price": 50.0,
+    "price": 50,
     "image": "/images/products/veeba-chilli-vinegar.jpg",
     "stock": 3,
     "description": "Veeba Chilli Vinegar - Premium quality spice or masala product.",
@@ -4491,13 +4811,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 5614
+    "rank": 5614,
+    "name": "Veeba Chilli Vinegar"
   },
   {
     "id": 5620,
     "title": "Veeba Garlic Chilli Chutney",
     "slug": "veeba-garlic-chilli-chutney",
-    "price": 99.0,
+    "price": 99,
     "image": "/images/products/veeba-garlic-chilli-chutney.jpg",
     "stock": 2,
     "description": "Veeba Garlic Chilli Chutney - Premium quality spice or masala product.",
@@ -4505,13 +4826,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 5620
+    "rank": 5620,
+    "name": "Veeba Garlic Chilli Chutney"
   },
   {
     "id": 5621,
     "title": "Veeba Green Chilli Sauce",
     "slug": "veeba-green-chilli-sauce",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/veeba-green-chilli-sauce.jpg",
     "stock": 7,
     "description": "Veeba Green Chilli Sauce - Premium quality spice or masala product.",
@@ -4519,13 +4841,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 5621
+    "rank": 5621,
+    "name": "Veeba Green Chilli Sauce"
   },
   {
     "id": 5622,
     "title": "Veeba Green Chilli Sauce 90G",
     "slug": "veeba-green-chilli-sauce-90g",
-    "price": 25.0,
+    "price": 25,
     "image": "/images/products/veeba-green-chilli-sauce-90g.jpg",
     "stock": 11,
     "description": "Veeba Green Chilli Sauce 90G - Premium quality spice or masala product.",
@@ -4533,13 +4856,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 5622
+    "rank": 5622,
+    "name": "Veeba Green Chilli Sauce 90G"
   },
   {
     "id": 5623,
     "title": "Veeba Harissa Chilli Cumin Dressing",
     "slug": "veeba-harissa-chilli-cumin-dressing",
-    "price": 209.0,
+    "price": 209,
     "image": "/images/products/veeba-harissa-chilli-cumin-dressing.jpg",
     "stock": 3,
     "description": "Veeba Harissa Chilli Cumin Dressing - Premium quality spice or masala product.",
@@ -4547,13 +4871,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 5623
+    "rank": 5623,
+    "name": "Veeba Harissa Chilli Cumin Dressing"
   },
   {
     "id": 5624,
     "title": "Veeba Honey Mustard Dressing",
     "slug": "veeba-honey-mustard-dressing",
-    "price": 219.0,
+    "price": 219,
     "image": "/images/products/veeba-honey-mustard-dressing.jpg",
     "stock": 3,
     "description": "Veeba Honey Mustard Dressing - Premium quality spice or masala product.",
@@ -4561,13 +4886,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 5624
+    "rank": 5624,
+    "name": "Veeba Honey Mustard Dressing"
   },
   {
     "id": 5629,
     "title": "Veeba Instant Noodles Masala",
     "slug": "veeba-instant-noodles-masala",
-    "price": 59.0,
+    "price": 59,
     "image": "/images/products/veeba-instant-noodles-masala.jpg",
     "stock": 3,
     "description": "Veeba Instant Noodles Masala - Premium quality spice or masala product.",
@@ -4575,13 +4901,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 5629
+    "rank": 5629,
+    "name": "Veeba Instant Noodles Masala"
   },
   {
     "id": 5644,
     "title": "Veeba Red Chilli Sauce",
     "slug": "veeba-red-chilli-sauce",
-    "price": 25.0,
+    "price": 25,
     "image": "/images/products/veeba-red-chilli-sauce.jpg",
     "stock": 9,
     "description": "Veeba Red Chilli Sauce - Premium quality spice or masala product.",
@@ -4589,13 +4916,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 5644
+    "rank": 5644,
+    "name": "Veeba Red Chilli Sauce"
   },
   {
     "id": 5645,
     "title": "Veeba Red Chilli Sauce 200G",
     "slug": "veeba-red-chilli-sauce-200g",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/veeba-red-chilli-sauce-200g.jpg",
     "stock": 2,
     "description": "Veeba Red Chilli Sauce 200G - Premium quality spice or masala product.",
@@ -4603,13 +4931,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 5645
+    "rank": 5645,
+    "name": "Veeba Red Chilli Sauce 200G"
   },
   {
     "id": 5657,
     "title": "Veeba Sweet Chilli Hot Sauce",
     "slug": "veeba-sweet-chilli-hot-sauce",
-    "price": 169.0,
+    "price": 169,
     "image": "/images/products/veeba-sweet-chilli-hot-sauce.jpg",
     "stock": 1,
     "description": "Veeba Sweet Chilli Hot Sauce - Premium quality spice or masala product.",
@@ -4617,13 +4946,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 5657
+    "rank": 5657,
+    "name": "Veeba Sweet Chilli Hot Sauce"
   },
   {
     "id": 5733,
     "title": "Vicco Turmeric Skin Cream 15G",
     "slug": "vicco-turmeric-skin-cream-15g",
-    "price": 80.0,
+    "price": 80,
     "image": "/images/products/vicco-turmeric-skin-cream-15g.jpg",
     "stock": 2,
     "description": "Vicco Turmeric Skin Cream 15G - Premium quality spice or masala product.",
@@ -4631,13 +4961,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 5733
+    "rank": 5733,
+    "name": "Vicco Turmeric Skin Cream 15G"
   },
   {
     "id": 5734,
     "title": "Vicco Turmeric Skin Cream 30G",
     "slug": "vicco-turmeric-skin-cream-30g",
-    "price": 145.0,
+    "price": 145,
     "image": "/images/products/vicco-turmeric-skin-cream-30g.jpg",
     "stock": 2,
     "description": "Vicco Turmeric Skin Cream 30G - Premium quality spice or masala product.",
@@ -4645,13 +4976,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 5734
+    "rank": 5734,
+    "name": "Vicco Turmeric Skin Cream 30G"
   },
   {
     "id": 5740,
     "title": "Victory Black Pepper Whole 100Gm",
     "slug": "victory-black-pepper-whole-100gm",
-    "price": 165.0,
+    "price": 165,
     "image": "/images/products/victory-black-pepper-whole-100gm.jpg",
     "stock": 8,
     "description": "Victory Black Pepper Whole 100Gm - Premium quality spice or masala product.",
@@ -4659,13 +4991,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 5740
+    "rank": 5740,
+    "name": "Victory Black Pepper Whole 100Gm"
   },
   {
     "id": 5741,
     "title": "Victory Chilli Powder 500G",
     "slug": "victory-chilli-powder-500g",
-    "price": 245.0,
+    "price": 245,
     "image": "/images/products/victory-chilli-powder-500g.jpg",
     "stock": 5,
     "description": "Victory Chilli Powder 500G - Premium quality spice or masala product.",
@@ -4673,13 +5006,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 5741
+    "rank": 5741,
+    "name": "Victory Chilli Powder 500G"
   },
   {
     "id": 5742,
     "title": "Victory Coriander Powder 200Gm",
     "slug": "victory-coriander-powder-200gm",
-    "price": 68.0,
+    "price": 68,
     "image": "/images/products/victory-coriander-powder-200gm.jpg",
     "stock": 9,
     "description": "Victory Coriander Powder 200Gm - Premium quality spice or masala product.",
@@ -4687,13 +5021,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 5742
+    "rank": 5742,
+    "name": "Victory Coriander Powder 200Gm"
   },
   {
     "id": 5743,
     "title": "Victory Coriander Powder 500Gm",
     "slug": "victory-coriander-powder-500gm",
-    "price": 170.0,
+    "price": 170,
     "image": "/images/products/victory-coriander-powder-500gm.jpg",
     "stock": 2,
     "description": "Victory Coriander Powder 500Gm - Premium quality spice or masala product.",
@@ -4701,13 +5036,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 5743
+    "rank": 5743,
+    "name": "Victory Coriander Powder 500Gm"
   },
   {
     "id": 5744,
     "title": "Victory Coriander Powder 500Gm",
     "slug": "victory-coriander-powder-500gm",
-    "price": 190.0,
+    "price": 190,
     "image": "/images/products/victory-coriander-powder-500gm.jpg",
     "stock": 2,
     "description": "Victory Coriander Powder 500Gm - Premium quality spice or masala product.",
@@ -4715,13 +5051,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 5744
+    "rank": 5744,
+    "name": "Victory Coriander Powder 500Gm"
   },
   {
     "id": 5745,
     "title": "Victory Ex Hot Chilli Pdr 100G",
     "slug": "victory-ex-hot-chilli-pdr-100g",
-    "price": 50.0,
+    "price": 50,
     "image": "/images/products/victory-ex-hot-chilli-pdr-100g.jpg",
     "stock": 18,
     "description": "Victory Ex Hot Chilli Pdr 100G - Premium quality spice or masala product.",
@@ -4729,13 +5066,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 5745
+    "rank": 5745,
+    "name": "Victory Ex Hot Chilli Pdr 100G"
   },
   {
     "id": 5750,
     "title": "Victory Sabut Garam Masala 100Gm",
     "slug": "victory-sabut-garam-masala-100gm",
-    "price": 148.0,
+    "price": 148,
     "image": "/images/products/victory-sabut-garam-masala-100gm.jpg",
     "stock": 7,
     "description": "Victory Sabut Garam Masala 100Gm - Premium quality spice or masala product.",
@@ -4743,13 +5081,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 5750
+    "rank": 5750,
+    "name": "Victory Sabut Garam Masala 100Gm"
   },
   {
     "id": 5752,
     "title": "Victory Turmeric Powder 200Gm",
     "slug": "victory-turmeric-powder-200gm",
-    "price": 100.0,
+    "price": 100,
     "image": "/images/products/victory-turmeric-powder-200gm.jpg",
     "stock": 10,
     "description": "Victory Turmeric Powder 200Gm - Premium quality spice or masala product.",
@@ -4757,13 +5096,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 5752
+    "rank": 5752,
+    "name": "Victory Turmeric Powder 200Gm"
   },
   {
     "id": 5753,
     "title": "Victory Turmeric Powder 500Gm",
     "slug": "victory-turmeric-powder-500gm",
-    "price": 245.0,
+    "price": 245,
     "image": "/images/products/victory-turmeric-powder-500gm.jpg",
     "stock": 3,
     "description": "Victory Turmeric Powder 500Gm - Premium quality spice or masala product.",
@@ -4771,13 +5111,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 5753
+    "rank": 5753,
+    "name": "Victory Turmeric Powder 500Gm"
   },
   {
     "id": 5802,
     "title": "Wagh Bakri Spiced Tea",
     "slug": "wagh-bakri-spiced-tea",
-    "price": 165.0,
+    "price": 165,
     "image": "/images/products/wagh-bakri-spiced-tea.jpg",
     "stock": 7,
     "description": "Wagh Bakri Spiced Tea - Premium quality spice or masala product.",
@@ -4785,13 +5126,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 5802
+    "rank": 5802,
+    "name": "Wagh Bakri Spiced Tea"
   },
   {
     "id": 5909,
     "title": "Wingreeen Chilli Cheese Dip 180G",
     "slug": "wingreeen-chilli-cheese-dip-180g",
-    "price": 250.0,
+    "price": 250,
     "image": "/images/products/wingreeen-chilli-cheese-dip-180g.jpg",
     "stock": 4,
     "description": "Wingreeen Chilli Cheese Dip 180G - Premium quality spice or masala product.",
@@ -4799,13 +5141,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 5909
+    "rank": 5909,
+    "name": "Wingreeen Chilli Cheese Dip 180G"
   },
   {
     "id": 5981,
     "title": "Yippee Magic Masala Noodles 200Gm",
     "slug": "yippee-magic-masala-noodles-200gm",
-    "price": 60.0,
+    "price": 60,
     "image": "/images/products/yippee-magic-masala-noodles-200gm.jpg",
     "stock": 11,
     "description": "Yippee Magic Masala Noodles 200Gm - Premium quality spice or masala product.",
@@ -4813,13 +5156,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 5981
+    "rank": 5981,
+    "name": "Yippee Magic Masala Noodles 200Gm"
   },
   {
     "id": 5982,
     "title": "Yippee Magic Masala Noodles 50G",
     "slug": "yippee-magic-masala-noodles-50g",
-    "price": 10.0,
+    "price": 10,
     "image": "/images/products/yippee-magic-masala-noodles-50g.jpg",
     "stock": 10,
     "description": "Yippee Magic Masala Noodles 50G - Premium quality spice or masala product.",
@@ -4827,13 +5171,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 5982
+    "rank": 5982,
+    "name": "Yippee Magic Masala Noodles 50G"
   },
   {
     "id": 5984,
     "title": "Yu Chilli Chicken Noodle Cup",
     "slug": "yu-chilli-chicken-noodle-cup",
-    "price": 69.0,
+    "price": 69,
     "image": "/images/products/yu-chilli-chicken-noodle-cup.jpg",
     "stock": -7,
     "description": "Yu Chilli Chicken Noodle Cup - Premium quality spice or masala product.",
@@ -4841,13 +5186,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 5984
+    "rank": 5984,
+    "name": "Yu Chilli Chicken Noodle Cup"
   },
   {
     "id": 5990,
     "title": "Yu Food Korean Chilli Cheese",
     "slug": "yu-food-korean-chilli-cheese",
-    "price": 45.0,
+    "price": 45,
     "image": "/images/products/yu-food-korean-chilli-cheese.jpg",
     "stock": 33,
     "description": "Yu Food Korean Chilli Cheese - Premium quality spice or masala product.",
@@ -4855,13 +5201,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 5990
+    "rank": 5990,
+    "name": "Yu Food Korean Chilli Cheese"
   },
   {
     "id": 5993,
     "title": "Yu Food Red Hot Chilli Cup Chilli Noodle",
     "slug": "yu-food-red-hot-chilli-cup-chilli-noodle",
-    "price": 75.0,
+    "price": 75,
     "image": "/images/products/yu-food-red-hot-chilli-cup-chilli-noodle.jpg",
     "stock": 50,
     "description": "Yu Food Red Hot Chilli Cup Chilli Noodle - Premium quality spice or masala product.",
@@ -4869,13 +5216,14 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 5993
+    "rank": 5993,
+    "name": "Yu Food Red Hot Chilli Cup Chilli Noodle"
   },
   {
     "id": 5997,
     "title": "Yu Hyd Masala Biryani",
     "slug": "yu-hyd-masala-biryani",
-    "price": 69.0,
+    "price": 69,
     "image": "/images/products/yu-hyd-masala-biryani.jpg",
     "stock": -4,
     "description": "Yu Hyd Masala Biryani - Premium quality spice or masala product.",
@@ -4883,7 +5231,8 @@ const products = [
     "unit": "PCS",
     "category": "spices-masalas",
     "popular": false,
-    "rank": 5997
+    "rank": 5997,
+    "name": "Yu Hyd Masala Biryani"
   }
 ];
 
