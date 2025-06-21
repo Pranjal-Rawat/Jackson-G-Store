@@ -1,21 +1,23 @@
-// Route: /app/category/[slug]/page.jsx – Category product listing (SSR & SEO)
-// SEO: Dynamic meta, OG, Twitter, JSON-LD schema
+// /app/category/[slug]/page.jsx – SEO-optimized Category product listing
 
 import clientPromise from '../../lib/mongodb';
 import ProductsPageClient from '../../products/ProductsPageClient';
+import { getCategoryJsonLD } from '../../lib/seo/jsonld';
+import BusinessInfo from '../../../components/BusinessInfo';
+// LocalBusinessLDJson REMOVED (JSON-LD now in metadata)
 
 export async function generateMetadata({ params }) {
   const categorySlug = params.slug;
-  // Human-readable name (capitalize, replace dashes)
   const categoryTitle = categorySlug.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
-  const title = `${categoryTitle} – Buy Online | Jackson Grocery`;
-  const description = `Shop for ${categoryTitle} and other groceries online at Jackson Grocery. Best prices, fast delivery, and fresh products.`;
-  const url = `https://yourdomain.com/category/${categorySlug}`;
-  const ogImage = 'https://yourdomain.com/og-image.jpg'; // Change to category-specific if you have
+  const title = `${categoryTitle} – Buy Online | Jackson Grocery Store | Grocery Store Dehradun`;
+  const description = `Shop for ${categoryTitle} and other groceries online at Jackson Grocery Store, Dehradun. Best prices, fast delivery, and fresh products.`;
+  const url = `https://jackson-grocery.com/category/${categorySlug}`;
+  const ogImage = 'https://res.cloudinary.com/dy1uhnjnq/image/upload/v1749755125/Jackson_Logo_page-0001-removebg-preview_yqeopv.png';
 
   return {
     title,
     description,
+    keywords: `${categoryTitle}, ${categoryTitle} online, Jackson Grocery Store, Grocery Store Dehradun, Best Grocery Store, Fresh groceries Dehradun, Buy groceries online Dehradun, Jackson groceries`,
     openGraph: {
       title,
       description,
@@ -31,7 +33,14 @@ export async function generateMetadata({ params }) {
     },
     alternates: {
       canonical: url,
-    }
+    },
+    other: {
+      // BreadcrumbList for SEO (Home > Category)
+      'ld+json': JSON.stringify(getCategoryJsonLD({
+        categorySlug,
+        categoryName: categoryTitle,
+      })),
+    },
   };
 }
 
@@ -51,38 +60,9 @@ export default async function CategoryPage({ params }) {
   }));
 
   const categoryName = slug.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
-  const canonicalUrl = `https://yourdomain.com/category/${slug}`;
-
-  // --- JSON-LD Structured Data (Category/Breadcrumb) ---
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "CollectionPage",
-    "name": categoryName,
-    "description": `All products in ${categoryName}`,
-    "url": canonicalUrl,
-    "breadcrumb": {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://yourdomain.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": categoryName,
-          "item": canonicalUrl
-        }
-      ]
-    }
-  };
 
   return (
     <main className="pt-[5.5rem] min-h-screen bg-white">
-      {/* --- SEO Structured Data (inject in <head>) --- */}
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <h1 className="text-2xl font-bold text-gray-800 mb-6 text-center">
         {categoryName}
       </h1>
@@ -90,9 +70,11 @@ export default async function CategoryPage({ params }) {
       {/* SEO Text for the category */}
       <section className="max-w-2xl mx-auto my-10 px-4 text-center text-gray-600">
         <p>
-          Discover the best deals in {categoryName}. Shop fresh, high-quality products online and enjoy quick delivery with Jackson Grocery.
+          Discover the best deals in {categoryName}. Shop fresh, high-quality products online and enjoy quick delivery with Jackson Grocery Store in Dehradun.
         </p>
       </section>
+      {/* Local business info card (UI only) */}
+      <BusinessInfo />
     </main>
   );
 }

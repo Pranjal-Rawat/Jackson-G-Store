@@ -1,8 +1,10 @@
-// Route: Internal – Product Mongoose Model
+// Route: Internal – Product Mongoose Model (SEO-friendly slugs)
+// Ensures all product/category slugs are optimized for SEO and local search performance.
 
 import mongoose from 'mongoose';
 
 // Helper: Convert "Milk & Juice" → "milk-and-juice"
+// Always use lowercase, hyphen-separated slugs for best SEO.
 function toSlug(str) {
   return str
     .toLowerCase()
@@ -15,18 +17,18 @@ function toSlug(str) {
 
 // Product schema
 const ProductSchema = new mongoose.Schema({
-  title:      { type: String, required: true },
-  slug:       { type: String, required: true },
-  description:{ type: String },
-  category:   { type: String, required: true }, // Always slug format
+  title:      { type: String, required: true },    // Visible SEO keyword
+  slug:       { type: String, required: true },    // Used for SEO URLs
+  description:{ type: String },                    // SEO meta description
+  category:   { type: String, required: true },    // Always slug format for URLs/SEO
   price:      { type: Number, required: true },
   stock:      { type: Number, default: 0 },
-  image:      { type: String },
-  isPopular:  { type: Boolean, default: false }, // Add this if you filter by isPopular
-  rank:       { type: Number },                  // Optional: for ordering popular products
+  image:      { type: String },                    // Used in OG tags & structured data
+  isPopular:  { type: Boolean, default: false },
+  rank:       { type: Number },
 }, { timestamps: true });
 
-// Auto-slugify slug and category before saving (as fallback)
+// Auto-slugify slug and category before saving (SEO consistency)
 ProductSchema.pre('save', function (next) {
   if (this.title && (!this.slug || this.isModified('title'))) {
     this.slug = toSlug(this.title);
@@ -39,3 +41,11 @@ ProductSchema.pre('save', function (next) {
 
 // For Next.js hot reload support
 export default mongoose.models?.Product || mongoose.model('Product', ProductSchema);
+
+/*
+  SEO NOTE:
+  - All product/category URLs will use optimized, hyphen-case slugs.
+  - Consistent slugs across app/SSR/API for maximum search engine clarity.
+  - Description and title fields are used for meta tags, structured data, and OpenGraph.
+  - Update product titles and categories in the DB for local keyword relevance (e.g., "Dehradun grocery", "Fresh Fruits Dehradun").
+*/

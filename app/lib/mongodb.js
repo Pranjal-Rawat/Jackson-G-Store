@@ -1,10 +1,22 @@
 // Route: Internal – MongoDB connection helper for serverless Next.js
+// (SEO-neutral: Backend only, but crucial for performance and site reliability.)
+// Ensures secure, persistent connection for API and SSR logic.
+
+/*
+  NOTES:
+  - Never leak secrets (like MONGODB_URI) to the client.
+  - Google rewards site health, reliability, and clean code.
+  - For best SEO, ensure all API/SSR routes are fast and reliable.
+*/
 
 import { MongoClient } from 'mongodb';
-import dotenv from 'dotenv';
 
-// Load .env.local manually (useful for scripts, non-Vercel env)
-dotenv.config({ path: '.env.local' });
+// Load .env.local ONLY if not on Vercel (prevents double-loading or security risk)
+if (process.env.NODE_ENV !== 'production') {
+  // Only load dotenv in dev/local environments
+  // eslint-disable-next-line @typescript-eslint/no-var-requires
+  require('dotenv').config({ path: '.env.local' });
+}
 
 const uri = process.env.MONGODB_URI;
 const options = {};
@@ -24,5 +36,11 @@ if (!globalForMongo._mongoClientPromise) {
 }
 clientPromise = globalForMongo._mongoClientPromise;
 
-// Export a promise for use in API routes
+// Export a promise for use in API routes (never exposed to client!)
 export default clientPromise;
+
+/*
+  SEO NOTE:
+  - Fast, reliable API/database connections improve SEO via better Core Web Vitals.
+  - This file should never import/export anything frontend or leak env vars to the client bundle.
+*/

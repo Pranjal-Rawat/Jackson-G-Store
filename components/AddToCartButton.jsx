@@ -14,7 +14,6 @@ export default function AddToCartButton({
 }) {
   const addToCart = useCartStore((state) => state.addItem);
 
-  // Use React.useCallback for stable reference (optimization if in large lists)
   const handleAddToCart = React.useCallback(
     (e) => {
       if (disabled) return;
@@ -28,26 +27,21 @@ export default function AddToCartButton({
     <button
       onClick={handleAddToCart}
       disabled={disabled}
-      className={`
-        relative inline-flex items-center justify-center gap-1
-        px-3 py-2 sm:px-4 sm:py-2.5
-        bg-gradient-to-tr from-[#ed3237] via-[#ff5d38] to-[#ffcc29]
-        hover:from-[#ffcc29] hover:via-[#ed3237] hover:to-[#ffcc29]
-        text-white font-bold rounded-full shadow-md
-        shadow-[#ed323760]/20 hover:shadow-[#ffcc2940]/40
-        transition-all duration-200
-        group overflow-hidden text-sm sm:text-base
-        focus:outline-none focus-visible:ring-2 focus-visible:ring-[#ffcc29]/70
-        active:scale-97 hover:scale-102
-        select-none
-        backdrop-blur-sm
-        ${disabled ? 'opacity-50 cursor-not-allowed' : ''}
-        ${className}
-      `}
-      style={{
-        WebkitTapHighlightColor: 'transparent',
-      }}
-      aria-label={`Add ${product?.title || 'product'} to cart`}
+      className={[
+        'relative inline-flex items-center justify-center gap-1',
+        'px-3 py-2 sm:px-4 sm:py-2.5',
+        'bg-gradient-to-tr from-[#ed3237] via-[#ff5d38] to-[#ffcc29]',
+        'hover:from-[#ffcc29] hover:via-[#ed3237] hover:to-[#ffcc29]',
+        'text-white font-bold rounded-full shadow-md',
+        'shadow-[#ed323760]/20 hover:shadow-[#ffcc2940]/40',
+        'transition-all duration-200 group overflow-hidden text-sm sm:text-base',
+        'focus:outline-none focus-visible:ring-2 focus-visible:ring-[#ffcc29]/70',
+        'active:scale-97 hover:scale-102 select-none backdrop-blur-sm',
+        disabled ? 'opacity-50 cursor-not-allowed' : '',
+        className,
+      ].join(' ')}
+      style={{ WebkitTapHighlightColor: 'transparent' }}
+      aria-label={disabled ? 'Out of Stock' : `Add ${product?.title || 'product'} to cart`}
       tabIndex={disabled ? -1 : 0}
       type="button"
     >
@@ -68,7 +62,7 @@ export default function AddToCartButton({
 // SVG Cart Icon – Jackson Theme Color
 function CartIcon({ className = "" }) {
   return (
-    <svg className={className} viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth={1.5}>
+    <svg className={className} viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth={1.5} aria-hidden="true">
       <circle cx="7" cy="16" r="1.5" fill="#ed3237" />
       <circle cx="15" cy="16" r="1.5" fill="#ed3237" />
       <path

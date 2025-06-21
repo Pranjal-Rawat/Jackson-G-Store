@@ -56,7 +56,7 @@ export default function ProductModal({ isOpen, product, onClose, onAddToCart }) 
   const isOutOfStock = stock <= 0;
   const total = (p.price || 0) * quantity;
 
-  // Memoize handlers for performance in React
+  // Memoize handlers for performance
   const handleAdd = useCallback(() => {
     if (!isOutOfStock && onAddToCart) {
       onAddToCart(p, quantity, selectedOption);
@@ -75,6 +75,7 @@ export default function ProductModal({ isOpen, product, onClose, onAddToCart }) 
         exit={{ opacity: 0 }}
         role="dialog"
         aria-modal="true"
+        aria-label={`Product Details – ${p.title}`}
       >
         <motion.div
           className="bg-white w-full max-w-2xl rounded-2xl shadow-lg relative p-6"
@@ -86,7 +87,7 @@ export default function ProductModal({ isOpen, product, onClose, onAddToCart }) 
           <button
             onClick={onClose}
             className="absolute top-3 right-3 text-gray-400 hover:text-gray-700 text-2xl"
-            aria-label="Close modal"
+            aria-label="Close product details modal"
             type="button"
           >
             &times;
@@ -100,24 +101,41 @@ export default function ProductModal({ isOpen, product, onClose, onAddToCart }) 
           )}
 
           {/* Image */}
-          <div className={`relative w-full h-56 rounded-lg overflow-hidden mb-4 ${isOutOfStock ? 'opacity-70 grayscale' : ''}`}>
+          <div
+            className={`relative w-full h-56 rounded-lg overflow-hidden mb-4 ${isOutOfStock ? 'opacity-70 grayscale' : ''}`}
+            itemScope
+            itemType="https://schema.org/Product"
+          >
             <Image
               src={p.image || '/images/logo.svg'}
-              alt={p.title}
+              alt={`${p.title} – Buy online in Dehradun at Jackson Grocery Store`}
               fill
               className="object-contain bg-white"
               sizes="(max-width: 768px) 100vw, 500px"
               priority
             />
+            <meta itemProp="name" content={p.title} />
+            <meta itemProp="description" content={p.description || 'Delicious and fresh.'} />
+            <meta itemProp="sku" content={p.slug} />
+            <meta itemProp="image" content={p.image || '/images/logo.svg'} />
           </div>
 
           {/* Title and Description */}
-          <h2 className="text-xl font-bold text-gray-800 mb-2">{p.title}</h2>
-          <p className="text-gray-600 mb-3">{p.description || 'Delicious and fresh.'}</p>
+          <h2 className="text-xl font-bold text-gray-800 mb-2" itemProp="name">
+            {p.title}
+          </h2>
+          <p className="text-gray-600 mb-3" itemProp="description">
+            {p.description || 'Delicious and fresh.'}
+          </p>
 
           {/* Price */}
           <div className="flex items-center gap-3 mb-4">
-            <span className="text-lg font-bold text-red-600">₹{(p.price || 0).toFixed(2)}</span>
+            <span className="text-lg font-bold text-red-600" itemProp="offers" itemScope itemType="https://schema.org/Offer">
+              ₹{(p.price || 0).toFixed(2)}
+              <meta itemProp="priceCurrency" content="INR" />
+              <meta itemProp="price" content={(p.price || 0).toFixed(2)} />
+              <link itemProp="availability" href={isOutOfStock ? "https://schema.org/OutOfStock" : "https://schema.org/InStock"} />
+            </span>
             {p.originalPrice && (
               <span className="text-sm line-through text-gray-400">
                 ₹{p.originalPrice.toFixed(2)}
@@ -208,21 +226,25 @@ export default function ProductModal({ isOpen, product, onClose, onAddToCart }) 
             <>
               <div className="font-semibold mb-2 mt-4 text-lg">Related Products</div>
               <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
-                {related.map((rp) => {
+                {related.map((rp, i) => {
                   const rpStock = rp.stock ?? 0;
                   const rpOut = rpStock <= 0;
                   return (
                     <div
                       key={rp._id}
                       className="bg-gray-50 p-3 rounded-xl shadow flex flex-col items-center"
+                      itemScope
+                      itemType="https://schema.org/Product"
                     >
                       <div className="relative w-16 h-16 mb-2">
                         <Image
                           src={rp.image || '/images/logo.svg'}
-                          alt={rp.title}
+                          alt={`${rp.title} – Buy online in Dehradun`}
                           fill
                           className={`object-contain rounded ${rpOut ? 'opacity-60 grayscale' : ''}`}
                           sizes="64px"
+                          // First related: eager load, others lazy for performance
+                          {...(i === 0 ? { priority: true } : { loading: "lazy" })}
                         />
                         {rpOut && (
                           <span className="absolute top-1 left-1 bg-red-600 text-white px-1 py-0.5 rounded-full text-[10px] font-bold shadow">

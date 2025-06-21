@@ -1,38 +1,77 @@
-// Route: /app/products/[slug]/page.jsx – Single Product Detail (SSR + SEO)
+// /app/products/[slug]/page.jsx
+
 import clientPromise from '../../lib/mongodb';
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import AddToCartButton from '@/components/AddToCartButton';
 import Link from 'next/link';
+import { getProductJsonLD } from '../../lib/seo/jsonld';
+import BusinessInfo from '../../../components/BusinessInfo';
+
+// LocalBusinessLDJson REMOVED, as JSON-LD is now in metadata
 
 export const dynamic = 'force-dynamic'; // Always SSR, latest data
 
-// --- SEO Metadata ---
+// --- SEO Metadata for Next.js App Router ---
 export async function generateMetadata({ params }) {
   const { slug } = params;
   const client = await clientPromise;
   const db = client.db('jackson-grocery-store');
   const product = await db.collection('products').findOne({ slug });
   if (!product) return {};
-  const title = `${product.title || product['Product Name'] || 'Product'} - Jackson Grocery`;
+
+  const title = `${product.title || product['Product Name'] || 'Product'} - Jackson Grocery Store | Grocery Store Dehradun`;
   const description =
     product.description ||
     product.Description ||
-    'View product details on Jackson Grocery.';
+    'View product details on Jackson Grocery Store. Buy fresh groceries online in Dehradun.';
+  const image = product.image || '/images/logo.svg';
+  const price = Number(product.price || product.Price || 0);
+  const stock = product.stock ?? 0;
+
   return {
     title,
     description,
+    keywords:
+      'Jackson Grocery Store, Grocery Store Dehradun, Best Grocery Store, Fresh groceries Dehradun, Buy groceries online Dehradun, Jackson groceries, ' +
+      (product.title || product['Product Name'] || '') +
+      ', ' +
+      (product.category || ''),
+    alternates: {
+      canonical: `https://jackson-grocery.com/products/${slug}`,
+    },
     openGraph: {
       title,
       description,
+      url: `https://jackson-grocery.com/products/${slug}`,
+      type: 'website',
       images: [
         {
-          url: product.image || '/images/logo.svg',
+          url: image,
           width: 800,
           height: 600,
           alt: product.title || product['Product Name'] || 'Product image',
         },
       ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: [image],
+    },
+    other: {
+      'ld+json': JSON.stringify(
+        getProductJsonLD({
+          ...product,
+          slug,
+          price,
+          stock,
+          image,
+          description,
+          title: product.title || product['Product Name'] || 'Product',
+        })
+      ),
     },
   };
 }
@@ -62,13 +101,14 @@ export default async function ProductPage({ params }) {
     _id: p._id?.toString?.() || p._id || '',
   }));
 
-  // --- Safe fields ---
+  // --- SEO/LD fields ---
   const title = mainProduct.title || mainProduct['Product Name'] || 'Product';
   const description = mainProduct.description || mainProduct.Description || '';
   const price = Number(mainProduct.price || mainProduct.Price || 0);
   const stock = mainProduct.stock ?? 0;
   const isOutOfStock = stock <= 0;
   const category = mainProduct.category || 'General';
+  const image = mainProduct.image || '/images/logo.svg';
 
   return (
     <main className="max-w-3xl mx-auto pt-28 pb-16 px-2 sm:px-4 bg-gray-50 min-h-[80vh]">
@@ -83,7 +123,7 @@ export default async function ProductPage({ params }) {
         <div className="flex-shrink-0 w-full md:w-1/2 flex justify-center items-center">
           <div className="relative w-full h-56 sm:h-72 md:h-96 bg-white rounded-xl overflow-hidden shadow">
             <Image
-              src={mainProduct.image || '/images/logo.svg'}
+              src={image}
               alt={title}
               fill
               className="object-contain bg-white"
@@ -144,7 +184,7 @@ export default async function ProductPage({ params }) {
                     <div className="relative w-20 h-20 sm:w-24 sm:h-24 mb-2 flex items-center justify-center">
                       <Image
                         src={p.image || '/images/logo.svg'}
-                        alt={p.title}
+                        alt={p.title || 'Related product'}
                         fill
                         className="object-contain rounded-xl bg-white"
                         sizes="96px"
@@ -167,6 +207,9 @@ export default async function ProductPage({ params }) {
           </div>
         </>
       )}
+
+      {/* --- Business Info card only (UI, not <script> tags) --- */}
+      <BusinessInfo />
     </main>
   );
 }

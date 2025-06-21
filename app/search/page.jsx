@@ -1,4 +1,41 @@
-// Route: /app/search/page.jsx – Product search results (SSR)
+// /app/search/page.jsx
+
+export const metadata = {
+  title: 'Search Products | Jackson Grocery Store | Grocery Store Dehradun',
+  description:
+    'Find fresh groceries, fruits, vegetables, snacks, and essentials at Jackson Grocery Store. Search for products and shop online with fast home delivery in Dehradun.',
+  keywords:
+    'Search groceries, Grocery Store Dehradun, Buy groceries online, Jackson Grocery Store search, Fresh fruits, Online grocery, World of groceries',
+  alternates: {
+    canonical: 'https://jackson-grocery.com/search',
+  },
+  openGraph: {
+    title: 'Search Products | Jackson Grocery Store',
+    description:
+      'Find and shop for the best groceries in Dehradun with Jackson Grocery Store. Search results for all your daily essentials.',
+    url: 'https://jackson-grocery.com/search',
+    siteName: 'Jackson Grocery Store',
+    images: [
+      {
+        url: 'https://res.cloudinary.com/dy1uhnjnq/image/upload/v1749755125/Jackson_Logo_page-0001-removebg-preview_yqeopv.png',
+        width: 1200,
+        height: 630,
+        alt: 'Jackson Grocery Store Search',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Search Products | Jackson Grocery Store',
+    description:
+      'Find the best groceries in Dehradun with Jackson Grocery Store. Fast delivery and fresh products.',
+    images: [
+      'https://res.cloudinary.com/dy1uhnjnq/image/upload/v1749755125/Jackson_Logo_page-0001-removebg-preview_yqeopv.png',
+    ],
+  },
+};
 
 import clientPromise from '../lib/mongodb';
 import Image from 'next/image';

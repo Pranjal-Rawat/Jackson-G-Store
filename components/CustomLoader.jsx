@@ -2,9 +2,14 @@
 
 export default function CustomLoader() {
   return (
-    <div className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-white/95 backdrop-blur-sm">
+    <div
+      className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-white/95 backdrop-blur-sm"
+      role="alert"
+      aria-live="polite"
+      aria-label="Loading – Jackson Grocery Store"
+    >
       {/* Animated Shopping Bag */}
-      <div className="relative mb-6 w-28 h-28 flex items-center justify-center">
+      <div className="relative mb-6 w-28 h-28 flex items-center justify-center drop-shadow-lg">
         {/* Bag SVG */}
         <svg
           className="w-20 h-20 drop-shadow"
@@ -76,12 +81,14 @@ export default function CustomLoader() {
       </div>
       {/* Branding and spinner */}
       <div className="text-center space-y-2">
-        <span className="block text-2xl font-extrabold">
+        <span className="block text-2xl font-extrabold tracking-tight">
           <span className="text-primary-500">Jackson</span>{' '}
           <span className="text-secondary-500">Grocery</span>
         </span>
-        <span className="block text-base text-gray-600">Packing your fresh groceries…</span>
-        <div className="mt-2 flex justify-center">
+        <span className="block text-base text-gray-600" aria-live="polite">
+          Packing your fresh groceries…
+        </span>
+        <div className="mt-2 flex justify-center" aria-hidden="true">
           <span
             className="w-7 h-7 border-4 border-secondary-500 border-t-transparent rounded-full animate-spin"
             aria-label="Loading"
@@ -89,6 +96,9 @@ export default function CustomLoader() {
           ></span>
         </div>
       </div>
+      <span className="sr-only">
+        Please wait while we load Jackson Grocery Store products and deals.
+      </span>
     </div>
   );
 }

@@ -2,7 +2,7 @@
 
 export default function LoadMoreButton({ onClick, disabled }) {
   return (
-    <div className="text-center mt-6">
+    <div className="text-center mt-8">
       <button
         onClick={onClick}
         disabled={disabled}

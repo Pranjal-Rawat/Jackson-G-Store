@@ -1,18 +1,15 @@
 // eslint.config.js
-import { dirname } from 'path';
-import { fileURLToPath } from 'url';
 import { FlatCompat } from '@eslint/eslintrc';
 
-// Get current directory (ESM equivalent of __dirname)
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
+// Set up FlatCompat for legacy 'extends'
+const compat = new FlatCompat();
 
-// Setup FlatCompat to bridge legacy config
-const compat = new FlatCompat({
-  baseDirectory: __dirname,
-});
-
-// Export ESLint config array
 export default [
   ...compat.extends('next/core-web-vitals'),
+  // You can add more custom rules or plugins here, for example:
+  // {
+  //   rules: {
+  //     'no-console': 'warn',
+  //   },
+  // },
 ];

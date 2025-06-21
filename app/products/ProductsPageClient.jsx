@@ -1,5 +1,7 @@
 'use client';
 
+// Route: /app/products/ProductsPageClient.jsx
+
 import { useState, useRef } from 'react';
 import Header from '@/components/Header';
 import CustomLoader from '@/components/CustomLoader';
@@ -10,23 +12,24 @@ import { Search } from 'lucide-react';
 import Link from 'next/link';
 import AdBanner from '@/components/Ad-Promotions';
 
-// --- Product image with error fallback ---
+// Product image with error fallback
 function ProductImage({ src, alt }) {
   const [imgSrc, setImgSrc] = useState(src || '/images/logo.svg');
   return (
     <Image
       src={imgSrc}
-      alt={alt}
+      alt={alt || 'Product image from Jackson Grocery Store in Dehradun'}
       fill
       className="object-contain p-2 transition-transform duration-300 group-hover:scale-105"
       sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 25vw"
       loading="lazy"
       onError={() => setImgSrc('/images/logo.svg')}
+      priority={false}
     />
   );
 }
 
-// --- Add to cart button, disables if out of stock ---
+// Local Add to cart button (or import if using shared component)
 function AddToCartButton({ product, quantity = 1, option = null, className = '', disabled = false }) {
   const addToCart = useCartStore((state) => state.addItem);
 
@@ -46,6 +49,7 @@ function AddToCartButton({ product, quantity = 1, option = null, className = '',
       `}
       aria-label={disabled ? 'Out of Stock' : `Add ${product?.title || 'product'} to cart`}
       style={{ WebkitTapHighlightColor: 'transparent' }}
+      tabIndex={0}
     >
       <span className="z-10 flex items-center">
         <CartIcon className="w-4 h-4 mr-1 text-[#ffcc29]" />
@@ -57,7 +61,7 @@ function AddToCartButton({ product, quantity = 1, option = null, className = '',
   );
 }
 
-// --- Cart SVG Icon ---
+// Cart SVG Icon
 function CartIcon({ className = "" }) {
   return (
     <svg className={className} viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth={1.5}>
@@ -73,7 +77,7 @@ function CartIcon({ className = "" }) {
   );
 }
 
-// --- Main ProductsPageClient ---
+// Main ProductsPageClient
 export default function ProductsPageClient({ initialProducts }) {
   const initialRef = useRef(initialProducts);
   const [products, setProducts] = useState(initialRef.current);
@@ -81,7 +85,7 @@ export default function ProductsPageClient({ initialProducts }) {
   const [hasMore, setHasMore] = useState(true);
   const [query, setQuery] = useState('');
 
-  // --- Handle search ---
+  // Handle search
   async function handleSearch(value) {
     setQuery(value);
     if (value.length < 2) {
@@ -95,14 +99,14 @@ export default function ProductsPageClient({ initialProducts }) {
       const res = await fetch(searchUrl);
       const data = await res.json();
       setProducts(data);
-      setHasMore(false); // Disable "Load More" during search
+      setHasMore(false);
     } catch {
       setProducts([]);
     }
     setLoading(false);
   }
 
-  // --- Load more products handler ---
+  // Load more products
   async function loadMore() {
     if (loading || !hasMore) return;
     setLoading(true);
@@ -126,7 +130,7 @@ export default function ProductsPageClient({ initialProducts }) {
       <Header />
 
       <section className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-12 py-4 pt-24">
-        {/* --- Search bar --- */}
+        {/* Search bar */}
         <div className="max-w-2xl mx-auto mb-8 relative">
           <span className="absolute left-4 top-1/2 -translate-y-1/2 text-[#ed3237]">
             <Search className="w-5 h-5" />
@@ -138,10 +142,11 @@ export default function ProductsPageClient({ initialProducts }) {
             onChange={e => handleSearch(e.target.value)}
             className="w-full pl-12 pr-4 py-3 bg-white/90 border border-[#ed3237]/20 rounded-xl shadow focus:ring-2 focus:ring-[#ed3237] focus:border-[#ed3237] transition outline-none placeholder:text-gray-400 text-base"
             aria-label="Search products"
+            autoComplete="off"
           />
         </div>
 
-        {/* --- Promotional Banner --- */}
+        {/* Promotional Banner */}
         <AdBanner
           title="Monsoon Sale: Up to 40% OFF!"
           description="Fresh veggies and fruits delivered at your doorstep. Hurry, ends soon!"
@@ -151,7 +156,7 @@ export default function ProductsPageClient({ initialProducts }) {
           bg="bg-green-100"
         />
 
-        {/* --- Products Grid or Loader/Error --- */}
+        {/* Products Grid or Loader/Error */}
         {loading && products.length === 0 ? (
           <CustomLoader />
         ) : products.length > 0 ? (
@@ -162,11 +167,12 @@ export default function ProductsPageClient({ initialProducts }) {
               return (
                 <Link
                   href={`/products/${product.slug}`}
-                  key={product._id}
+                  key={product._id || product.id}
                   className={`relative bg-white rounded-2xl shadow group border border-[#ffcc29]/20 overflow-hidden flex flex-col transition-all duration-200 hover:shadow-lg
                     ${isOutOfStock ? 'opacity-80 pointer-events-auto' : ''}
                   `}
                   style={isOutOfStock ? { cursor: 'not-allowed' } : {}}
+                  aria-label={`View details for ${product.title} from Jackson Grocery Store`}
                 >
                   {/* Out of Stock Badge */}
                   {isOutOfStock && (
@@ -176,7 +182,10 @@ export default function ProductsPageClient({ initialProducts }) {
                   )}
                   {/* Image and Title */}
                   <div className="relative w-full h-36 sm:h-44 bg-gradient-to-br from-[#fffdfa] to-[#fff7dc] flex items-center justify-center">
-                    <ProductImage src={product.image} alt={product.title} />
+                    <ProductImage
+                      src={product.image}
+                      alt={`Buy ${product.title} in Dehradun | Jackson Grocery Store`}
+                    />
                     <div className="absolute bottom-2 left-2 max-w-[90%]">
                       <span className="inline-block bg-black/60 backdrop-blur text-white text-xs sm:text-sm font-medium px-3 py-1 rounded-lg shadow truncate">
                         {product.title}

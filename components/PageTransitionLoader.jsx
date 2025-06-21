@@ -11,16 +11,20 @@ export default function PageTransitionLoader() {
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
+    // Start loader immediately on path change
     setLoading(true);
-    const timeout = setTimeout(() => setLoading(false), 500); // Adjust duration as needed
+    // Hide loader after a short delay (adjust as needed)
+    const timeout = setTimeout(() => setLoading(false), 420); // 400–600ms feels snappy
 
     return () => clearTimeout(timeout);
   }, [pathname]);
 
   // Only render if loading
-  return loading ? (
+  if (!loading) return null;
+
+  return (
     <div className="fixed inset-0 z-[100] flex items-center justify-center bg-white/80 backdrop-blur-sm">
       <CustomLoader />
     </div>
-  ) : null;
+  );
 }

@@ -1,6 +1,6 @@
 'use client';
 
-// Route: /components/Cart.jsx – Main Cart Page
+// Route: /components/Cart.jsx – Modern Polished Version
 
 import { useState, useCallback } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
@@ -77,7 +77,7 @@ export default function Cart() {
       if (response.ok && data.whatsappUrl) {
         window.open(data.whatsappUrl, '_blank');
 
-        // 2. Reduce stock after WhatsApp confirmation (can be optimized server-side)
+        // 2. Reduce stock after WhatsApp confirmation
         await fetch('/api/reduce-stock', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
@@ -105,19 +105,20 @@ export default function Cart() {
   }, [items, customer, clearCart]);
 
   return (
-    <main className="min-h-screen bg-gradient-to-b from-gray-50 via-white to-gray-100 text-gray-800">
-      <div className="max-w-7xl mx-auto p-4 sm:p-6 lg:p-10">
-        <div className="flex items-center mb-8">
+    <main className="min-h-screen bg-gradient-to-b from-[#fff9f0] via-white to-[#fffbe7] text-gray-900 pt-[5.5rem] pb-8">
+      <div className="max-w-7xl mx-auto px-3 sm:px-8">
+        <div className="flex items-center gap-2 mb-10">
           <button
             onClick={() => router.back()}
-            className="flex items-center text-gray-500 hover:text-primary-600 font-medium transition-colors"
+            className="flex items-center text-[#ed3237] hover:text-[#ffcc29] font-semibold transition"
             aria-label="Go back"
+            type="button"
           >
-            <FiArrowLeft className="h-5 w-5 mr-2" />
+            <FiArrowLeft className="h-5 w-5 mr-1" />
             Continue Shopping
           </button>
-          <h1 className="text-2xl sm:text-3xl font-extrabold ml-4 tracking-tight">
-            My Cart <span className="text-primary-600">({count})</span>
+          <h1 className="text-2xl sm:text-3xl font-extrabold ml-3 tracking-tight">
+            My Cart <span className="text-[#ffcc29]">({count})</span>
           </h1>
         </div>
 
@@ -126,23 +127,23 @@ export default function Cart() {
             // Empty Cart Animation
             <motion.div
               key="empty-cart"
-              initial={{ opacity: 0, scale: 0.9 }}
+              initial={{ opacity: 0, scale: 0.92 }}
               animate={{ opacity: 1, scale: 1 }}
-              exit={{ opacity: 0, scale: 0.9 }}
-              className="text-center py-14"
+              exit={{ opacity: 0, scale: 0.92 }}
+              className="text-center py-20"
             >
               <div className="max-w-md mx-auto">
                 <motion.div
                   animate={{ rotate: [0, -10, 10, 0] }}
                   transition={{ repeat: Infinity, duration: 2 }}
-                  className="text-7xl mb-4"
+                  className="text-7xl mb-5"
                 >
                   🛒
                 </motion.div>
                 <h2 className="text-2xl font-bold mb-3 text-gray-800">Your cart is empty</h2>
                 <Link
                   href="/products"
-                  className="inline-flex items-center bg-gradient-to-tr from-primary-500 to-red-500 hover:from-red-600 hover:to-primary-600 text-white px-7 py-3 rounded-2xl font-semibold shadow-lg transition"
+                  className="inline-flex items-center bg-gradient-to-tr from-[#ed3237] to-[#ffcc29] hover:from-[#ffcc29] hover:to-[#ed3237] text-white px-7 py-3 rounded-2xl font-semibold shadow-lg transition"
                 >
                   <FiShoppingBag className="mr-2" />
                   Start Shopping
@@ -154,76 +155,79 @@ export default function Cart() {
               key="cart-content"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              className="grid grid-cols-1 lg:grid-cols-3 gap-8"
+              className="grid grid-cols-1 lg:grid-cols-3 gap-10"
             >
               {/* Cart Items */}
-              <section className="lg:col-span-2 space-y-5">
+              <section className="lg:col-span-2 space-y-6">
                 {items.map((item) => (
                   <motion.div
                     key={item.id}
                     initial={{ opacity: 0, x: 40 }}
                     animate={{ opacity: 1, x: 0 }}
                     exit={{ opacity: 0, x: 40 }}
-                    className="flex items-center bg-white rounded-2xl shadow-md p-4 border border-gray-100 hover:shadow-xl transition-shadow"
+                    className="flex items-center bg-white rounded-2xl shadow-md p-5 border border-[#ffcc29]/10 hover:shadow-xl transition-shadow"
                   >
-                    <div className="relative h-20 w-20 rounded-xl overflow-hidden flex-shrink-0 border border-gray-100 bg-gradient-to-tr from-gray-100 via-white to-gray-50">
+                    <div className="relative h-20 w-20 rounded-xl overflow-hidden flex-shrink-0 border border-[#ffcc29]/30 bg-gradient-to-tr from-[#fffbe7] via-white to-[#fff6e3]">
                       <Image
                         src={item.image}
                         alt={item.title || 'Cart item'}
                         fill
-                        className="object-cover"
+                        className="object-contain"
                         sizes="80px"
                         priority
                       />
                     </div>
-                    <div className="ml-5 flex-1">
-                      <h3 className="text-lg font-bold text-gray-800">{item.title}</h3>
+                    <div className="ml-6 flex-1">
+                      <h3 className="text-lg font-bold text-gray-900">{item.title}</h3>
                       <p className="text-sm text-gray-500 mb-1">₹{item.price.toFixed(2)}</p>
                       <div className="flex items-center mt-1 space-x-4">
-                        <div className="flex items-center border border-gray-200 rounded-xl bg-gray-50">
+                        <div className="flex items-center border border-[#ffcc29]/30 rounded-xl bg-[#fffde9]">
                           <button
                             onClick={() => updateQuantity(item.id, item.quantity - 1)}
-                            className="px-3 py-1.5 text-lg font-bold text-gray-700 hover:bg-gray-200 transition rounded-l-xl"
+                            className="px-3 py-1.5 text-lg font-bold text-gray-700 hover:bg-[#fff9f0] transition rounded-l-xl"
                             aria-label="Decrease quantity"
                             disabled={item.quantity <= 1}
+                            type="button"
                           >
                             −
                           </button>
                           <span className="px-4 font-semibold">{item.quantity}</span>
                           <button
                             onClick={() => updateQuantity(item.id, item.quantity + 1)}
-                            className="px-3 py-1.5 text-lg font-bold text-gray-700 hover:bg-gray-200 transition rounded-r-xl"
+                            className="px-3 py-1.5 text-lg font-bold text-gray-700 hover:bg-[#fff9f0] transition rounded-r-xl"
                             aria-label="Increase quantity"
+                            type="button"
                           >
                             +
                           </button>
                         </div>
                         <button
                           onClick={() => removeItem(item.id)}
-                          className="text-red-500 text-xs font-medium hover:underline ml-2"
+                          className="text-[#ed3237] text-xs font-semibold hover:underline ml-2"
                           aria-label="Remove item"
+                          type="button"
                         >
                           Remove
                         </button>
                       </div>
                     </div>
-                    <div className="font-bold text-xl text-primary-600 ml-5 text-right min-w-[90px]">
+                    <div className="font-bold text-xl text-[#ed3237] ml-6 text-right min-w-[90px]">
                       ₹{(item.price * item.quantity).toFixed(2)}
                     </div>
                   </motion.div>
                 ))}
 
                 {/* Customer Details */}
-                <section className="bg-white p-6 rounded-2xl shadow-md border border-gray-100 mt-5">
-                  <h2 className="text-lg font-bold mb-4 text-gray-800">Customer Details</h2>
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <section className="bg-white p-7 rounded-2xl shadow-md border border-[#ffcc29]/20 mt-8">
+                  <h2 className="text-lg font-bold mb-5 text-[#ed3237]">Customer Details</h2>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
                     <input
                       type="text"
                       name="name"
                       placeholder="Full Name *"
                       value={customer.name}
                       onChange={handleInputChange}
-                      className="border border-gray-200 rounded-xl p-3 focus:ring-2 focus:ring-primary-400 transition text-gray-700"
+                      className="border border-[#ffcc29]/30 rounded-xl p-3 focus:ring-2 focus:ring-[#ed3237] transition text-gray-900"
                       autoComplete="name"
                       required
                     />
@@ -233,7 +237,7 @@ export default function Cart() {
                       placeholder="Phone Number *"
                       value={customer.phone}
                       onChange={handleInputChange}
-                      className="border border-gray-200 rounded-xl p-3 focus:ring-2 focus:ring-primary-400 transition text-gray-700"
+                      className="border border-[#ffcc29]/30 rounded-xl p-3 focus:ring-2 focus:ring-[#ed3237] transition text-gray-900"
                       autoComplete="tel"
                       required
                     />
@@ -242,7 +246,7 @@ export default function Cart() {
                       placeholder="Delivery Address *"
                       value={customer.address}
                       onChange={handleInputChange}
-                      className="md:col-span-2 border border-gray-200 rounded-xl p-3 focus:ring-2 focus:ring-primary-400 transition text-gray-700"
+                      className="md:col-span-2 border border-[#ffcc29]/30 rounded-xl p-3 focus:ring-2 focus:ring-[#ed3237] transition text-gray-900"
                       rows="3"
                       autoComplete="street-address"
                       required
@@ -251,7 +255,7 @@ export default function Cart() {
                       name="paymentMethod"
                       value={customer.paymentMethod}
                       onChange={handleInputChange}
-                      className="md:col-span-2 border border-gray-200 rounded-xl p-3 focus:ring-2 focus:ring-primary-400 transition text-gray-700"
+                      className="md:col-span-2 border border-[#ffcc29]/30 rounded-xl p-3 focus:ring-2 focus:ring-[#ed3237] transition text-gray-900"
                     >
                       <option value="cash">Cash on Delivery</option>
                       <option value="online">Online Payment</option>
@@ -261,24 +265,26 @@ export default function Cart() {
               </section>
 
               {/* Order Summary */}
-              <aside className="bg-white p-6 rounded-2xl shadow-md border border-gray-100 sticky top-8">
-                <h2 className="text-lg font-bold mb-4 text-gray-800">Order Summary</h2>
-                <div className="flex justify-between mb-3">
-                  <span className="text-gray-600">Subtotal ({count} items)</span>
-                  <span className="font-bold text-primary-600">₹{total.toFixed(2)}</span>
+              <aside className="bg-white p-7 rounded-2xl shadow-lg border border-[#ffcc29]/40 sticky top-24 self-start">
+                <h2 className="text-lg font-bold mb-5 text-[#ed3237]">Order Summary</h2>
+                <div className="flex justify-between mb-4">
+                  <span className="text-gray-700">Subtotal ({count} items)</span>
+                  <span className="font-bold text-[#ed3237]">₹{total.toFixed(2)}</span>
                 </div>
 
                 <button
                   onClick={handleCheckout}
-                  className="w-full bg-gradient-to-tr from-primary-500 to-red-500 hover:from-red-600 hover:to-primary-600 text-white py-3 mt-3 rounded-xl font-bold shadow-md transition-transform active:scale-95"
+                  className="w-full bg-gradient-to-tr from-[#ed3237] to-[#ffcc29] hover:from-[#ffcc29] hover:to-[#ed3237] text-white py-3 mt-3 rounded-xl font-bold shadow-md transition-transform active:scale-95"
                   disabled={isRedirecting}
+                  type="button"
                 >
                   {isRedirecting ? 'Redirecting...' : 'Proceed to Checkout'}
                 </button>
 
                 <button
                   onClick={clearCart}
-                  className="w-full mt-4 border border-red-500 text-red-500 hover:bg-red-50 py-3 rounded-xl font-bold transition-colors"
+                  className="w-full mt-4 border border-[#ed3237] text-[#ed3237] hover:bg-[#fff6e3] py-3 rounded-xl font-bold transition-colors"
+                  type="button"
                 >
                   Clear Cart
                 </button>
@@ -297,25 +303,27 @@ export default function Cart() {
               exit={{ opacity: 0 }}
             >
               <motion.div
-                className="bg-white rounded-2xl shadow-2xl p-8 w-full max-w-sm border border-gray-100"
+                className="bg-white rounded-2xl shadow-2xl p-8 w-full max-w-sm border border-[#ffcc29]/40"
                 initial={{ scale: 0.9 }}
                 animate={{ scale: 1 }}
                 exit={{ scale: 0.9 }}
               >
-                <h2 className="text-lg font-bold mb-4 text-gray-800">Confirm Order</h2>
+                <h2 className="text-lg font-bold mb-4 text-[#ed3237]">Confirm Order</h2>
                 <p className="text-sm text-gray-600 mb-6">
                   Proceed to place your order on WhatsApp with the above details?
                 </p>
                 <div className="flex gap-4">
                   <button
                     onClick={confirmRedirect}
-                    className="flex-1 bg-gradient-to-tr from-primary-500 to-red-500 hover:from-red-600 hover:to-primary-600 text-white py-2 rounded-xl font-bold transition"
+                    className="flex-1 bg-gradient-to-tr from-[#ed3237] to-[#ffcc29] hover:from-[#ffcc29] hover:to-[#ed3237] text-white py-2 rounded-xl font-bold transition"
+                    type="button"
                   >
                     Yes, Confirm
                   </button>
                   <button
                     onClick={() => setShowConfirm(false)}
-                    className="flex-1 border border-red-500 text-red-500 py-2 rounded-xl font-bold hover:bg-red-50 transition"
+                    className="flex-1 border border-[#ed3237] text-[#ed3237] py-2 rounded-xl font-bold hover:bg-[#fff6e3] transition"
+                    type="button"
                   >
                     Cancel
                   </button>

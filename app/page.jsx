@@ -1,11 +1,83 @@
-// Route: /app/page.jsx – Home page (SSR, product fetch, hero, features, and carousels)
-
+// app/page.jsx
 import PerformanceCarousel from '@/components/Carousel';
 import CategoryCarousel from '@/components/CategoryCarousel';
 import PopularProducts from '@/components/PopularProducts';
 import clientPromise from './lib/mongodb';
 
-export const dynamic = 'force-dynamic'; // Ensure SSR with fresh data
+// ---- SEO Variables ----
+const siteUrl = "https://jackson-grocery.com";
+const siteName = "Jackson Grocery Store";
+const description =
+  "Buy fresh groceries online in Dehradun from Jackson Grocery Store. Best quality fruits, vegetables, daily essentials, and more. Fast home delivery. Grocery Store Dehradun. Best grocery shop near you.";
+const keywords =
+  "Jackson Grocery Store, Grocery Store Dehradun, Best Grocery Store Dehradun, World of Groceries, Departmental Store Dehradun, Fresh groceries Dehradun, Grocery home delivery Dehradun, Buy groceries online Dehradun, Jackson groceries";
+const logo =
+  "https://res.cloudinary.com/dy1uhnjnq/image/upload/v1749755125/Jackson_Logo_page-0001-removebg-preview_yqeopv.png";
+const phone = "+91-XXXXXXXXXX"; // replace with real number
+const address = {
+  street: "123 Main Street",
+  city: "Dehradun",
+  state: "Uttarakhand",
+  postalCode: "248001",
+  country: "IN",
+};
+
+// ---- SEO Metadata Export ----
+export const metadata = {
+  title: 'Jackson Grocery Store | Grocery Store Dehradun | Fresh Groceries Online',
+  description,
+  keywords,
+  alternates: {
+    canonical: siteUrl,
+  },
+  openGraph: {
+    title: 'Jackson Grocery Store | Grocery Store Dehradun',
+    description,
+    url: siteUrl,
+    siteName,
+    images: [
+      {
+        url: logo,
+        width: 1200,
+        height: 630,
+        alt: 'Jackson Grocery Store',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    site: '@jackson_grocery',
+    title: 'Jackson Grocery Store | Grocery Store Dehradun',
+    description,
+    images: [logo],
+  },
+  other: {
+    'ld+json': JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'GroceryStore',
+      name: siteName,
+      url: siteUrl,
+      telephone: phone,
+      address: {
+        '@type': 'PostalAddress',
+        streetAddress: address.street,
+        addressLocality: address.city,
+        addressRegion: address.state,
+        postalCode: address.postalCode,
+        addressCountry: address.country,
+      },
+      image: logo,
+      sameAs: [
+        siteUrl,
+        // Add social links here if any
+      ],
+    }),
+  },
+};
+
+export const dynamic = 'force-dynamic'; // SSR
 
 export default async function Home() {
   // --- MongoDB: Fetch all products for PopularProducts ---

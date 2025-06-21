@@ -1,7 +1,5 @@
 'use client';
 
-// Route: /components/Header.jsx – Main site header, navigation, search, cart
-
 import { useState, useEffect, useLayoutEffect } from 'react';
 import { FiMenu, FiSearch, FiShoppingCart, FiX } from 'react-icons/fi';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -12,7 +10,6 @@ import { useDebounce } from 'use-debounce';
 import { useRouter } from 'next/navigation';
 import categories from '@/data/categories';
 
-// --- Header component ---
 export default function Header() {
   const router = useRouter();
   const cartCount = useCartStore((state) => state.count);
@@ -48,11 +45,17 @@ export default function Header() {
           >
             <FiMenu className="h-6 w-6 text-gray-700" />
           </button>
-          {/* Logo */}
-          <Link href="/" className="flex items-center" aria-label="Home">
+          {/* Logo - Brand & Location */}
+          <Link
+            href="/"
+            className="flex items-center"
+            aria-label="Jackson Grocery Store Home"
+            title="Jackson Grocery Store - Grocery Store in Dalanwala, Dehradun"
+            prefetch={false}
+          >
             <Image
               src="https://res.cloudinary.com/dy1uhnjnq/image/upload/v1749755125/Jackson_Logo_page-0001-removebg-preview_yqeopv.png"
-              alt="Jackson Grocery Logo"
+              alt="Jackson Grocery Store logo - Best Grocery Store in Dalanwala, Dehradun"
               width={140}
               height={46}
               className="h-11 w-auto"
@@ -67,6 +70,7 @@ export default function Header() {
               key={category.slug}
               href={`/category/${category.slug}`}
               className="text-gray-700 hover:text-red-600 px-3 py-2 rounded-lg transition-colors font-medium focus:outline-none focus:ring-2 focus:ring-red-300"
+              aria-label={`Browse ${category.name} in Dehradun`}
             >
               {category.name}
             </Link>
@@ -78,6 +82,7 @@ export default function Header() {
               tabIndex={0}
               aria-haspopup="menu"
               aria-expanded="false"
+              aria-label="More grocery categories"
             >
               More
             </button>
@@ -87,10 +92,26 @@ export default function Header() {
                   key={category.slug}
                   href={`/category/${category.slug}`}
                   className="block px-4 py-2 text-gray-700 hover:bg-red-50 hover:text-red-600 rounded transition-colors focus:outline-none"
+                  aria-label={`Shop ${category.name} in Dehradun`}
                 >
                   {category.name}
                 </Link>
               ))}
+              {/* --- Optional: Extra links for SEO density --- */}
+              <Link
+                href="/about"
+                className="block px-4 py-2 text-gray-700 hover:bg-red-50 hover:text-red-600 rounded transition-colors focus:outline-none"
+                aria-label="About Jackson Grocery Store"
+              >
+                About Us
+              </Link>
+              <Link
+                href="/contact"
+                className="block px-4 py-2 text-gray-700 hover:bg-red-50 hover:text-red-600 rounded transition-colors focus:outline-none"
+                aria-label="Contact Jackson Grocery Store"
+              >
+                Contact
+              </Link>
             </div>
           </div>
         </nav>
@@ -98,7 +119,7 @@ export default function Header() {
         <Link
           href="/cart"
           className="p-2 text-gray-700 hover:text-red-600 relative transition-colors focus:outline-none"
-          aria-label="View cart"
+          aria-label="View cart - Jackson Grocery Store"
         >
           <FiShoppingCart className="h-6 w-6" />
           {cartCount > 0 && (
@@ -153,12 +174,12 @@ export default function Header() {
                     key={category.slug}
                     href={`/category/${category.slug}`}
                     className="flex items-center gap-3 px-5 py-3 text-base rounded-lg text-gray-800 hover:bg-red-50 transition-colors focus:outline-none"
-                    aria-label={`Shop ${category.name}`}
+                    aria-label={`Shop ${category.name} in Dehradun`}
                     onClick={() => setSidebarOpen(false)}
                   >
                     <Image
                       src={category.image}
-                      alt={category.name}
+                      alt={`${category.name} - groceries in Dehradun`}
                       width={32}
                       height={32}
                       className="h-8 w-8 object-cover rounded shadow border border-gray-100"
@@ -208,7 +229,6 @@ function SearchBar() {
     }
   };
 
-  // Keep suggestions open briefly after blur (for click)
   const handleBlur = () => setTimeout(() => setShowSuggestions(false), 120);
 
   return (
@@ -218,9 +238,9 @@ function SearchBar() {
           type="text"
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
-          placeholder="Search for groceries, brands, products..."
+          placeholder="Search for groceries, brands, products in Dehradun..."
           className="w-full pl-10 pr-4 py-2 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-red-500 text-base bg-white shadow-sm transition"
-          aria-label="Search products"
+          aria-label="Search groceries, brands, or products"
           onFocus={() => searchSuggestions.length > 0 && setShowSuggestions(true)}
           onBlur={handleBlur}
         />
@@ -241,7 +261,7 @@ function SearchBar() {
                   >
                     <Image
                       src={suggestion.image || '/images/logo.svg'}
-                      alt={suggestion.title}
+                      alt={`${suggestion.title} in Dehradun - Jackson Grocery Store`}
                       width={32}
                       height={32}
                       className="rounded shadow"

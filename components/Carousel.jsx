@@ -1,44 +1,49 @@
 'use client';
 
-// Route: /components/Carousel.jsx – Hero/featured products carousel
+// Route: /components/PerformanceCarousel.jsx
 
 import Slider from "react-slick";
 import Image from "next/image";
 import Link from "next/link";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 
-// Marketing carousel items (replace with your actual data)
+// --- SEO-optimized carousel items (invisible text, only strong alt and ARIA) ---
 const carouselItems = [
   {
     id: 1,
-    title: "Fresh Vegetables",
+    title: "Fresh Vegetables Delivered in Dehradun",
     image: "/carousel/vegetables.jpg",
     link: "/category/vegetables",
-    tag: "Fresh",
+    tag: "Farm-Fresh",
+    description: "Order fresh vegetables online from Jackson Grocery Store. Best prices and same-day delivery in Dehradun.",
+    alt: "Fresh vegetables online Dehradun – Jackson Grocery Store",
   },
   {
     id: 2,
-    title: "Daily Essentials",
+    title: "Daily Essentials – Shop Groceries Online",
     image: "/carousel/essentials.jpg",
     link: "/category/essentials",
     tag: "Essentials",
+    description: "Get all daily essentials and groceries online. Jackson Grocery Store is your one-stop shop in Dehradun.",
+    alt: "Buy daily essentials online Dehradun – Jackson Grocery Store",
   },
   {
     id: 3,
-    title: "Organic Fruits",
+    title: "Organic Fruits – Best Quality in Dehradun",
     image: "/carousel/fruits.jpg",
     link: "/category/fruits",
     tag: "Organic",
+    description: "Premium organic fruits at the best prices. Delivered fresh in Dehradun by Jackson Grocery Store.",
+    alt: "Organic fruits delivery Dehradun – Jackson Grocery Store",
   },
 ];
 
 // Custom Arrow Components for Slick
-function PrevArrow({ className, style, onClick }) {
+function PrevArrow({ onClick }) {
   return (
     <button
       aria-label="Previous slide"
       className="absolute left-4 top-1/2 -translate-y-1/2 z-10 bg-primary-600 hover:bg-primary-700 text-white p-2 shadow-lg focus:outline-none"
-      style={{ ...style }}
       onClick={onClick}
       type="button"
       tabIndex={0}
@@ -47,12 +52,11 @@ function PrevArrow({ className, style, onClick }) {
     </button>
   );
 }
-function NextArrow({ className, style, onClick }) {
+function NextArrow({ onClick }) {
   return (
     <button
       aria-label="Next slide"
       className="absolute right-4 top-1/2 -translate-y-1/2 z-10 bg-primary-600 hover:bg-primary-700 text-white p-2 shadow-lg focus:outline-none"
-      style={{ ...style }}
       onClick={onClick}
       type="button"
       tabIndex={0}
@@ -92,54 +96,57 @@ export default function PerformanceCarousel() {
   return (
     <section
       className="w-full bg-gradient-to-br from-primary-50 to-gray-100 mt-10 shadow-lg"
-      aria-label="Featured products carousel"
+      aria-label="Featured grocery categories and products"
     >
       <div className="max-w-6xl mx-auto px-0 sm:px-6 lg:px-10">
         <div className="relative h-64 sm:h-80 md:h-[400px] lg:h-[440px]">
           <Slider {...settings}>
             {carouselItems.map((item) => (
-              <div key={item.id} className="relative w-full h-64 sm:h-80 md:h-[400px] lg:h-[440px]">
+              <div
+                key={item.id}
+                className="relative w-full h-64 sm:h-80 md:h-[400px] lg:h-[440px]"
+                itemScope
+                itemType="https://schema.org/Product"
+              >
                 <Link
                   href={item.link}
-                  className="block h-full w-full group focus:outline-none"
-                  aria-label={`View ${item.title}`}
+                  aria-label={item.title}
                   tabIndex={0}
+                  className="block h-full w-full group focus:outline-none"
+                  itemProp="url"
                 >
-                  {/* Image */}
-                  {item.image ? (
-                    <Image
-                      src={item.image}
-                      alt={item.title}
-                      fill
-                      className="object-cover w-full h-full"
-                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px"
-                      priority
-                    />
-                  ) : (
-                    <div className="flex items-center justify-center bg-gray-300 h-full w-full">
-                      <span className="text-white text-xl">No Image</span>
-                    </div>
-                  )}
-                  {/* Overlay */}
-                  <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/10 to-black/60 flex items-end md:items-center justify-center">
-                    <div className="w-full md:w-auto px-6 py-6 md:py-10 flex flex-col items-center gap-3">
-                      <span className="inline-block px-3 py-1 bg-primary-600/90 text-white text-xs md:text-sm rounded-full uppercase tracking-wide shadow font-semibold mb-1 animate-bounce">
-                        {item.tag}
-                      </span>
-                      <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white text-center drop-shadow-lg mb-2 tracking-tight">
-                        {item.title}
-                      </h2>
-                      <span className="block text-white/90 font-medium text-base md:text-lg text-center">
-                        Shop fresh, organic, and daily needs right at your doorstep!
-                      </span>
-                    </div>
-                  </div>
+                  <Image
+                    src={item.image}
+                    alt={item.alt}
+                    fill
+                    className="object-cover w-full h-full"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px"
+                    priority
+                    itemProp="image"
+                  />
+                  {/* Invisible SEO content for bots */}
+                  <span className="sr-only" itemProp="name">{item.title}</span>
+                  <span className="sr-only" itemProp="description">{item.description}</span>
                 </Link>
               </div>
             ))}
           </Slider>
         </div>
       </div>
+      {/* Optionally add invisible navigation for SEO crawlability */}
+      <nav aria-label="Featured grocery categories" className="sr-only">
+        {carouselItems.map((item) => (
+          <Link
+            href={item.link}
+            key={item.id}
+            aria-label={item.title}
+            tabIndex={-1}
+            className="sr-only"
+          >
+            {item.title}
+          </Link>
+        ))}
+      </nav>
     </section>
   );
 }

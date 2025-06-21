@@ -1,74 +1,70 @@
 // stores/cartStore.js
-// Route: Internal – Zustand Cart Store (global state for cart items)
+// Global Zustand Cart Store for Jackson Grocery Store
 
 import { create } from 'zustand';
 
-// Util: get price as float with 2 decimals
+// Utility: Standardize price to two decimals
 const toPrice = (num) => +parseFloat(num).toFixed(2);
 
-export const useCartStore = create((set) => ({
+export const useCartStore = create((set, get) => ({
   items: [],
   count: 0,
   total: 0,
 
-  // Add product to cart (if exists, update quantity)
+  // Add item to cart (increments if exists)
   addItem: (product) =>
     set((state) => {
-      const quantity = product.quantity || 1;
+      const quantity = Math.max(1, product.quantity || 1);
       const id = product.id ?? product._id ?? product.productId ?? product.slug;
       const existingItem = state.items.find((item) => item.id === id);
 
       if (existingItem) {
+        // Update quantity for existing
         const updatedItems = state.items.map((item) =>
           item.id === id
             ? { ...item, quantity: item.quantity + quantity }
             : item
         );
-        const updatedTotal = state.total + product.price * quantity;
         return {
           items: updatedItems,
           count: state.count + quantity,
-          total: toPrice(updatedTotal),
+          total: toPrice(state.total + (product.price * quantity)),
         };
       }
+      // Add new
       return {
         items: [...state.items, { ...product, id, quantity }],
         count: state.count + quantity,
-        total: toPrice(state.total + product.price * quantity),
+        total: toPrice(state.total + (product.price * quantity)),
       };
     }),
 
-  // Remove product by id
+  // Remove by id
   removeItem: (id) =>
     set((state) => {
       const item = state.items.find((i) => i.id === id);
       if (!item) return state;
-
       const updatedItems = state.items.filter((i) => i.id !== id);
-      const updatedCount = state.count - item.quantity;
-      const updatedTotal = state.total - item.price * item.quantity;
       return {
         items: updatedItems,
-        count: Math.max(0, updatedCount),
-        total: toPrice(updatedTotal),
+        count: Math.max(0, state.count - item.quantity),
+        total: toPrice(state.total - (item.price * item.quantity)),
       };
     }),
 
-  // Update quantity of a cart item
+  // Update item quantity
   updateQuantity: (id, newQuantity) =>
     set((state) => {
       const item = state.items.find((i) => i.id === id);
       if (!item) return state;
 
-      // Remove if newQuantity <= 0
+      // Remove if <= 0
       if (newQuantity <= 0) {
         const updatedItems = state.items.filter((i) => i.id !== id);
-        const updatedCount = state.count - item.quantity;
-        const updatedTotal = state.total - item.price * item.quantity;
         return {
           items: updatedItems,
-          count: Math.max(0, updatedCount),
-          total: toPrice(updatedTotal),
+          count: Math.max(0, state.count - item.quantity),
+          total: toPrice(state.total - (item.price * item.quantity)),
         };
       }
 
@@ -78,8 +74,7 @@ export const useCartStore = create((set) => ({
       );
       const updatedCount = updatedItems.reduce((sum, i) => sum + i.quantity, 0);
       const updatedTotal = updatedItems.reduce(
-        (sum, i) => sum + i.price * i.quantity,
-        0
+        (sum, i) => sum + (i.price * i.quantity), 0
       );
       return {
         items: updatedItems,
@@ -88,7 +83,7 @@ export const useCartStore = create((set) => ({
       };
     }),
 
-  // Empty the cart
+  // Clear cart
   clearCart: () => ({
     items: [],
     count: 0,

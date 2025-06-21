@@ -1,15 +1,16 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // Enable Server Actions (v14+ syntax)
   experimental: {
-    serverActions: {
-      enable: true, // ✅ Updated structure
-    },
+    serverActions: true,
   },
   images: {
     domains: [
-      'res.cloudinary.com', // 👈 Allow Cloudinary images
+      'res.cloudinary.com', // Cloudinary images
+      // add more if needed
     ],
   },
+  // Optional: basePath, i18n, etc.
 };
 
 export default nextConfig;

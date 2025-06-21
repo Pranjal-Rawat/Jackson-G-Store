@@ -8,7 +8,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 
-// As seeded in your DB:
+// SEO-optimized categories
 const categories = [
   { name: 'Baby Care', image: '/categories/baby_care.webp', slug: 'baby-care' },
   { name: 'Beverages', image: '/categories/beverages.webp', slug: 'beverages' },
@@ -53,7 +53,7 @@ export default function CategoryCarousel() {
 
         {/* Desktop grid */}
         <div className="hidden md:grid grid-cols-3 lg:grid-cols-7 gap-6">
-          {categories.map((category) => (
+          {categories.map((category, idx) => (
             <motion.div
               key={category.slug}
               whileHover={{ scale: 1.06, boxShadow: '0 8px 24px rgba(50,50,100,0.12)' }}
@@ -62,17 +62,19 @@ export default function CategoryCarousel() {
               <Link
                 href={`/category/${category.slug}`}
                 className="group block relative overflow-hidden rounded-2xl shadow bg-white hover:shadow-lg transition-shadow focus:outline-none"
-                aria-label={`Shop ${category.name}`}
+                aria-label={`Shop ${category.name} – Jackson Grocery Store Dehradun`}
+                title={`Buy ${category.name} online in Dehradun`}
                 tabIndex={0}
               >
                 <Image
                   src={category.image}
-                  alt={category.name}
+                  alt={`${category.name} – Grocery Store Dehradun – Buy online`}
                   width={400}
                   height={300}
                   className="h-44 w-full object-cover transition-transform duration-300 group-hover:scale-105 rounded-t-2xl"
-                  loading="lazy"
                   sizes="(max-width: 1024px) 33vw, 14vw"
+                  // SEO/performance fix: Only first image uses priority, rest are lazy
+                  {...(idx === 0 ? { priority: true } : { loading: "lazy" })}
                 />
                 <div className="absolute inset-0 bg-gradient-to-br from-primary-500/40 to-secondary-400/30 flex items-center justify-center rounded-2xl">
                   <h3 className="text-white text-lg font-semibold text-center drop-shadow">
@@ -92,12 +94,13 @@ export default function CategoryCarousel() {
                 <Link
                   href={`/category/${category.slug}`}
                   className="block relative overflow-hidden rounded-xl shadow bg-white hover:shadow-md transition-shadow focus:outline-none"
-                  aria-label={`Shop ${category.name}`}
+                  aria-label={`Shop ${category.name} – Jackson Grocery Store Dehradun`}
+                  title={`Buy ${category.name} online in Dehradun`}
                   tabIndex={0}
                 >
                   <Image
                     src={category.image}
-                    alt={category.name}
+                    alt={`${category.name} – Grocery Store Dehradun – Buy online`}
                     width={200}
                     height={120}
                     className="h-28 w-full object-cover rounded-t-xl transition-transform duration-300"
@@ -115,6 +118,7 @@ export default function CategoryCarousel() {
           </Slider>
         </div>
 
+        {/* SEO crawlable link */}
         <Link
           href="/products"
           className="flex justify-center mt-8 text-primary-600 hover:text-primary-700 font-semibold transition-colors focus:outline-none"
