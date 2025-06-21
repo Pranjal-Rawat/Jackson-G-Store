@@ -1,12 +1,12 @@
 // /app/products/page.jsx – All Products listing
 
 import clientPromise from '../lib/mongodb';
-import ProductsPageClient from './ProductsPageClient';
 import BusinessInfo from '../../components/BusinessInfo';
 
 // LocalBusinessLDJson removed, as JSON-LD is in metadata
 
 import { getCategoryJsonLD } from '../lib/seo/jsonld';
+import ProductsPageClient from './ProductsPageClient';
 
 export const metadata = {
   title: 'All Products | Jackson Grocery Store | Grocery Store Dehradun',
