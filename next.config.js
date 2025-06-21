@@ -2,8 +2,9 @@
 const nextConfig = {
   // Enable Server Actions (v14+ syntax)
   experimental: {
-    serverActions: true,
+    serverActions: {},
   },
+
   images: {
     domains: [
       'res.cloudinary.com', // Cloudinary images

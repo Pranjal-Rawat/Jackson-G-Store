@@ -4,10 +4,10 @@ import clientPromise from '../../lib/mongodb';
 import ProductsPageClient from '../../products/ProductsPageClient';
 import { getCategoryJsonLD } from '../../lib/seo/jsonld';
 import BusinessInfo from '../../../components/BusinessInfo';
-// LocalBusinessLDJson REMOVED (JSON-LD now in metadata)
 
+// --- Fix: Await params! ---
 export async function generateMetadata({ params }) {
-  const categorySlug = params.slug;
+  const { slug: categorySlug } = await params; // 👈 await here!
   const categoryTitle = categorySlug.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
   const title = `${categoryTitle} – Buy Online | Jackson Grocery Store | Grocery Store Dehradun`;
   const description = `Shop for ${categoryTitle} and other groceries online at Jackson Grocery Store, Dehradun. Best prices, fast delivery, and fresh products.`;
@@ -45,7 +45,7 @@ export async function generateMetadata({ params }) {
 }
 
 export default async function CategoryPage({ params }) {
-  const { slug } = params;
+  const { slug } = await params; // 👈 await here!
   const client = await clientPromise;
   const db = client.db('jackson-grocery-store');
   const initialProducts = await db

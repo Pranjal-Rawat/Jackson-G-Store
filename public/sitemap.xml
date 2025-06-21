@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+                      http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <!-- Home Page -->
+  <url>
+    <loc>https://jackson-grocery.com/</loc>
+    <priority>1.00</priority>
+    <changefreq>daily</changefreq>
+  </url>
+
+  <!-- About Page -->
+  <url>
+    <loc>https://jackson-grocery.com/about</loc>
+    <priority>0.80</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <!-- Products Listing Page -->
+  <url>
+    <loc>https://jackson-grocery.com/products</loc>
+    <priority>0.95</priority>
+    <changefreq>daily</changefreq>
+  </url>
+
+  <!-- All Categories Page -->
+  <url>
+    <loc>https://jackson-grocery.com/category</loc>
+    <priority>0.85</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <!-- Contact Page -->
+  <url>
+    <loc>https://jackson-grocery.com/contact</loc>
+    <priority>0.70</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <!-- Cart Page (Noindex in robots.txt, but can be included for completeness) -->
+  <url>
+    <loc>https://jackson-grocery.com/cart</loc>
+    <priority>0.50</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <!-- Search Page (Noindex usually recommended, but fine to list if relevant) -->
+  <url>
+    <loc>https://jackson-grocery.com/search</loc>
+    <priority>0.40</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <!-- Example category page: Fruits -->
+  <url>
+    <loc>https://jackson-grocery.com/category/fruits</loc>
+    <priority>0.80</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <!-- Example category page: Vegetables -->
+  <url>
+    <loc>https://jackson-grocery.com/category/vegetables</loc>
+    <priority>0.80</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <!-- Example category page: Snacks -->
+  <url>
+    <loc>https://jackson-grocery.com/category/snacks</loc>
+    <priority>0.80</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <!-- Add more static category URLs as needed -->
+
+  <!-- Example single product page (replace with your actual popular slugs) -->
+  <url>
+    <loc>https://jackson-grocery.com/products/apple</loc>
+    <priority>0.75</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://jackson-grocery.com/products/basmati-rice</loc>
+    <priority>0.75</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://jackson-grocery.com/products/dairy-milk</loc>
+    <priority>0.75</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <!-- Add more top product URLs as needed -->
+
+</urlset>
