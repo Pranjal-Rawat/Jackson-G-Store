@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-var-requires */
+
 // Route: Internal – MongoDB connection helper for serverless Next.js
 // (SEO-neutral: Backend only, but crucial for performance and site reliability.)
 // Ensures secure, persistent connection for API and SSR logic.
@@ -14,7 +16,6 @@ import { MongoClient } from 'mongodb';
 // Load .env.local ONLY if not on Vercel (prevents double-loading or security risk)
 if (process.env.NODE_ENV !== 'production') {
   // Only load dotenv in dev/local environments
-  // eslint-disable-next-line @typescript-eslint/no-var-requires
   require('dotenv').config({ path: '.env.local' });
 }
 
