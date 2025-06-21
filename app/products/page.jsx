@@ -6,7 +6,7 @@ import BusinessInfo from '../../components/BusinessInfo';
 // LocalBusinessLDJson removed, as JSON-LD is in metadata
 
 import { getCategoryJsonLD } from '../lib/seo/jsonld';
-import ProductsPageClient from './ProductsPageClient';
+import ProductsPageClient from './AllProductsClient';
 
 export const metadata = {
   title: 'All Products | Jackson Grocery Store | Grocery Store Dehradun',

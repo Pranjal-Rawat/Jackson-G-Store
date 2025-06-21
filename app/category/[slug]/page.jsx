@@ -1,7 +1,7 @@
 // /app/category/[slug]/page.jsx – SEO-optimized Category product listing
 
 import clientPromise from '../../lib/mongodb';
-import ProductsPageClient from '../../products/ProductsPageClient';
+import ProductsPageClient from '../../products/AllProductsClient';
 import { getCategoryJsonLD } from '../../lib/seo/jsonld';
 import BusinessInfo from '../../../components/BusinessInfo';
 
