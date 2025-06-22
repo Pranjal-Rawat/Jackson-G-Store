@@ -5,7 +5,7 @@
 import { useState, useMemo, useCallback } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { useCartStore } from '@/stores/cartStore';
+import { useCartStore } from '../stores/cartStore';
 
 export default function PopularProducts({ products }) {
   const addToCart = useCartStore((state) => state.addItem);

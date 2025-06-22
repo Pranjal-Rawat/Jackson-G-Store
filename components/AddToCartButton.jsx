@@ -3,7 +3,7 @@
 // Route: /components/AddToCartButton.jsx – Button to add product to cart
 
 import React from 'react';
-import { useCartStore } from '@/stores/cartStore';
+import { useCartStore } from '../stores/cartStore';
 
 export default function AddToCartButton({
   product,

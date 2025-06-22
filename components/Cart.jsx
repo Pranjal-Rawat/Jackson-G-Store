@@ -6,7 +6,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { FiShoppingBag, FiArrowLeft } from 'react-icons/fi';
 import { useRouter } from 'next/navigation';
-import { useCartStore } from '@/stores/cartStore';
+import { useCartStore } from '../stores/cartStore';
 
 export default function Cart() {
   const { items, count, total, removeItem, updateQuantity, clearCart } = useCartStore();

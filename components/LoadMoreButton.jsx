@@ -1,3 +1,5 @@
+'use client';
+
 // Route: /components/LoadMoreButton.jsx – Themed load more button for product lists
 
 export default function LoadMoreButton({ onClick, disabled }) {

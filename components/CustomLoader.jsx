@@ -1,3 +1,5 @@
+'use client';
+
 // Route: /components/CustomLoader.jsx – Animated brand loader for transitions & API loading
 
 export default function CustomLoader() {

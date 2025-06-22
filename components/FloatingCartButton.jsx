@@ -4,7 +4,7 @@
 
 import Link from 'next/link';
 import { FiShoppingCart } from 'react-icons/fi';
-import { useCartStore } from '@/stores/cartStore';
+import { useCartStore } from '../stores/cartStore';
 import { usePathname } from 'next/navigation';
 
 export default function FloatingCartButton() {

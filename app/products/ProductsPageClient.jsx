@@ -2,13 +2,13 @@
 
 import { useState, useRef } from 'react';
 import { useRouter } from 'next/navigation';
-import Header from '@/components/Header';
-import CustomLoader from '@/components/CustomLoader';
-import LoadMoreButton from '@/components/LoadMoreButton';
+import Header from '../../components/Header';
+import CustomLoader from '../../components/CustomLoader';
+import LoadMoreButton from '../../components/LoadMoreButton';
 import Image from 'next/image';
-import { useCartStore } from '@/stores/cartStore';
+import { useCartStore } from '../../stores/cartStore';
 import { Search } from 'lucide-react';
-import AdBanner from '@/components/Ad-Promotions';
+import AdBanner from '../../components/Ad-Promotions';
 
 // Product image with error fallback
 function ProductImage({ src, alt }) {
