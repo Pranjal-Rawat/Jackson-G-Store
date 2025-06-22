@@ -34,7 +34,7 @@ function AddToCartButton({ product, quantity = 1, option = null, className = '',
   const handleAddToCart = (e) => {
     if (disabled) return;
     e.preventDefault();
-    e.stopPropagation(); // Prevent card navigation!
+    e.stopPropagation();
     addToCart({ ...product, quantity, option });
   };
 

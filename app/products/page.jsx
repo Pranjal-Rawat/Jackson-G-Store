@@ -2,9 +2,6 @@
 
 import clientPromise from '../lib/mongodb';
 import BusinessInfo from '../../components/BusinessInfo';
-
-// LocalBusinessLDJson removed, as JSON-LD is in metadata
-
 import { getCategoryJsonLD } from '../lib/seo/jsonld';
 import ProductsPageClient from './ProductsPageClient';
 
@@ -58,7 +55,7 @@ export default async function ProductsPage() {
   const db = client.db('jackson-grocery-store');
   const initialProducts = await db.collection('products')
     .find()
-    .sort({ rank: 1 }) // <-- SORT by rank
+    .sort({ rank: 1 })
     .limit(50)
     .toArray();
 
