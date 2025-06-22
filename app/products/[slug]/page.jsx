@@ -8,8 +8,6 @@ import Link from 'next/link';
 import { getProductJsonLD } from '../../lib/seo/jsonld';
 import BusinessInfo from '../../../components/BusinessInfo';
 
-// LocalBusinessLDJson REMOVED, as JSON-LD is now in metadata
-
 export const dynamic = 'force-dynamic'; // Always SSR, latest data
 
 // --- SEO Metadata for Next.js App Router ---
@@ -105,14 +103,32 @@ export default async function ProductPage({ params }) {
   const title = mainProduct.title || mainProduct['Product Name'] || 'Product';
   const description = mainProduct.description || mainProduct.Description || '';
   const price = Number(mainProduct.price || mainProduct.Price || 0);
+  const mrp = mainProduct.mrp || '';
   const stock = mainProduct.stock ?? 0;
   const isOutOfStock = stock <= 0;
   const category = mainProduct.category || 'General';
   const image = mainProduct.image || '/images/logo.svg';
+  const unit = mainProduct.unit || mainProduct.quantity || '';
+  const pcs = mainProduct.pcs || '';
+  const rank = mainProduct.rank;
+  const isPopular = mainProduct.popular === true || mainProduct.popular === 'true';
 
   return (
     <main className="max-w-3xl mx-auto pt-28 pb-16 px-2 sm:px-4 bg-gray-50 min-h-[80vh]">
       <div className="bg-white rounded-2xl shadow-md flex flex-col md:flex-row gap-8 p-4 sm:p-8 relative">
+        {/* Badges */}
+        <div className="absolute top-5 left-5 flex flex-col gap-2 z-10">
+          {typeof rank === "number" && (
+            <span className="bg-[#ffcc29] text-[#ed3237] px-2 py-1 rounded-full text-xs font-bold shadow-sm border border-[#ffe58a]">
+              Rank #{rank}
+            </span>
+          )}
+          {isPopular && (
+            <span className="bg-red-600 text-white px-2 py-1 rounded-full text-xs font-bold shadow-sm border border-red-300">
+              ★ Popular
+            </span>
+          )}
+        </div>
         {/* Out of Stock Badge */}
         {isOutOfStock && (
           <span className="absolute top-5 right-5 z-10 bg-red-600 text-white px-3 py-1 rounded-full font-bold text-xs shadow">
@@ -136,9 +152,24 @@ export default async function ProductPage({ params }) {
         <div className="flex-1 flex flex-col justify-between">
           <div>
             <h1 className="text-2xl sm:text-3xl font-bold mb-2 text-gray-900">{title}</h1>
+            {/* Unit + PCS */}
+            {(unit || pcs) && (
+              <div className="flex gap-2 text-sm text-gray-500 font-medium mb-2">
+                {unit && <span>{unit}</span>}
+                {pcs && <span className="text-gray-400">| {pcs} PCS</span>}
+              </div>
+            )}
             <p className="text-base sm:text-lg text-gray-700 mb-4">{description}</p>
-            <div className="text-2xl text-red-600 font-extrabold mb-3">
-              ₹{price.toFixed(2)}
+            {/* MRP and Price */}
+            <div className="flex items-center gap-2 mb-3">
+              {mrp && (
+                <span className="text-sm text-gray-400 line-through">
+                  MRP ₹{typeof mrp === 'number' ? mrp.toFixed(2) : mrp}
+                </span>
+              )}
+              <span className="text-2xl text-red-600 font-extrabold">
+                ₹{price.toFixed(2)}
+              </span>
             </div>
             <div className="text-sm text-gray-500 mb-1">Category: {category}</div>
             <div className="text-sm text-gray-500 mb-3">
@@ -166,11 +197,29 @@ export default async function ProductPage({ params }) {
             {relatedSafe.map((p) => {
               const relStock = p.stock ?? 0;
               const relIsOut = relStock <= 0;
+              const relUnit = p.unit || p.quantity || '';
+              const relPcs = p.pcs || '';
+              const relRank = p.rank;
+              const relPopular = p.popular === true || p.popular === 'true';
+              const relMrp = p.mrp || '';
               return (
                 <div
                   key={p._id}
                   className="group bg-white border border-[#ffcc29]/20 rounded-2xl p-3 flex flex-col items-center shadow hover:shadow-lg transition relative"
                 >
+                  {/* Badges */}
+                  <div className="absolute top-3 left-3 flex flex-col gap-1 z-10">
+                    {typeof relRank === "number" && (
+                      <span className="bg-[#ffcc29] text-[#ed3237] px-2 py-0.5 rounded-full text-[10px] font-bold shadow-sm border border-[#ffe58a]">
+                        Rank #{relRank}
+                      </span>
+                    )}
+                    {relPopular && (
+                      <span className="bg-red-600 text-white px-2 py-0.5 rounded-full text-[10px] font-bold shadow-sm border border-red-300">
+                        ★ Popular
+                      </span>
+                    )}
+                  </div>
                   {relIsOut && (
                     <span className="absolute top-3 right-3 z-10 bg-red-600 text-white px-2 py-0.5 rounded-full font-bold text-xs shadow">
                       Out of Stock
@@ -193,8 +242,23 @@ export default async function ProductPage({ params }) {
                     <div className="text-xs sm:text-sm font-semibold text-center mb-1 truncate w-full">
                       {p.title}
                     </div>
-                    <div className="text-red-600 font-bold text-sm mb-1">
-                      ₹{typeof p.price === 'number' ? p.price.toFixed(2) : 'N/A'}
+                    {/* Unit + PCS */}
+                    {(relUnit || relPcs) && (
+                      <div className="text-[11px] text-gray-500 font-medium mb-1 flex gap-1">
+                        {relUnit && <span>{relUnit}</span>}
+                        {relPcs && <span className="text-gray-400">| {relPcs} PCS</span>}
+                      </div>
+                    )}
+                    {/* MRP & Price */}
+                    <div className="flex items-center gap-1 mb-1">
+                      {relMrp && (
+                        <span className="text-[11px] text-gray-400 line-through">
+                          ₹{typeof relMrp === 'number' ? relMrp.toFixed(2) : relMrp}
+                        </span>
+                      )}
+                      <span className="text-red-600 font-bold text-sm">
+                        ₹{typeof p.price === 'number' ? p.price.toFixed(2) : 'N/A'}
+                      </span>
                     </div>
                     <div className="text-[10px] sm:text-xs text-gray-500">{p.category}</div>
                   </Link>

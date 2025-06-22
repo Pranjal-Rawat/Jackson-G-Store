@@ -1,6 +1,6 @@
 'use client';
 
-// Route: /components/ProductModal.jsx – Product details + add to cart modal
+// Route: /components/ProductModal.jsx – Product details + add to cart modal with MRP, unit, pcs
 
 import { useState, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -13,7 +13,6 @@ export default function ProductModal({ isOpen, product, onClose, onAddToCart }) 
   const [quantity, setQuantity] = useState(1);
   const [selectedOption, setSelectedOption] = useState(null);
 
-  // Fetch product + related when modal opens
   useEffect(() => {
     let isMounted = true;
     if (isOpen && product?.slug) {
@@ -39,8 +38,6 @@ export default function ProductModal({ isOpen, product, onClose, onAddToCart }) 
   }, [isOpen, product]);
 
   if (!isOpen || !product) return null;
-
-  // Show loader while fetching
   if (loading || !details) {
     return (
       <div className="fixed inset-0 bg-black/50 backdrop-blur-sm flex items-center justify-center z-50">
@@ -55,6 +52,10 @@ export default function ProductModal({ isOpen, product, onClose, onAddToCart }) 
   const stock = p.stock ?? 0;
   const isOutOfStock = stock <= 0;
   const total = (p.price || 0) * quantity;
+  const unit = p.unit || p.quantity || '';
+  const pcs = p.pcs || p.pieces || '';
+  const mrp = typeof p.mrp === 'number' ? p.mrp : parseFloat(p.mrp || 0);
+  const price = typeof p.price === 'number' ? p.price : parseFloat(p.price || 0);
 
   // Memoize handlers for performance
   const handleAdd = useCallback(() => {
@@ -120,27 +121,35 @@ export default function ProductModal({ isOpen, product, onClose, onAddToCart }) 
             <meta itemProp="image" content={p.image || '/images/logo.svg'} />
           </div>
 
-          {/* Title and Description */}
-          <h2 className="text-xl font-bold text-gray-800 mb-2" itemProp="name">
+          {/* Title, Unit, PCS */}
+          <h2 className="text-xl font-bold text-gray-800 mb-1" itemProp="name">
             {p.title}
           </h2>
+          <div className="flex gap-3 mb-3">
+            {unit && (
+              <span className="text-xs text-gray-500 font-medium">{unit}</span>
+            )}
+            {pcs && (
+              <span className="text-xs text-gray-500 font-medium">{pcs} pcs</span>
+            )}
+          </div>
           <p className="text-gray-600 mb-3" itemProp="description">
             {p.description || 'Delicious and fresh.'}
           </p>
 
-          {/* Price */}
+          {/* MRP and Price */}
           <div className="flex items-center gap-3 mb-4">
-            <span className="text-lg font-bold text-red-600" itemProp="offers" itemScope itemType="https://schema.org/Offer">
-              ₹{(p.price || 0).toFixed(2)}
-              <meta itemProp="priceCurrency" content="INR" />
-              <meta itemProp="price" content={(p.price || 0).toFixed(2)} />
-              <link itemProp="availability" href={isOutOfStock ? "https://schema.org/OutOfStock" : "https://schema.org/InStock"} />
-            </span>
-            {p.originalPrice && (
+            {mrp > price && mrp > 0 && (
               <span className="text-sm line-through text-gray-400">
-                ₹{p.originalPrice.toFixed(2)}
+                ₹{mrp.toFixed(2)}
               </span>
             )}
+            <span className="text-lg font-bold text-red-600" itemProp="offers" itemScope itemType="https://schema.org/Offer">
+              ₹{price.toFixed(2)}
+              <meta itemProp="priceCurrency" content="INR" />
+              <meta itemProp="price" content={price.toFixed(2)} />
+              <link itemProp="availability" href={isOutOfStock ? "https://schema.org/OutOfStock" : "https://schema.org/InStock"} />
+            </span>
           </div>
 
           {/* Options */}
@@ -175,7 +184,7 @@ export default function ProductModal({ isOpen, product, onClose, onAddToCart }) 
 
           {/* Quantity Selector */}
           <div className="flex items-center gap-3 mb-4">
-            <p className="text-sm text-gray-500">Quantity ({p.unit || '1 pc'})</p>
+            <p className="text-sm text-gray-500">Quantity ({unit || '1 pc'})</p>
             <div className="flex items-center border rounded-lg">
               <button
                 onClick={() => handleQuantityChange(-1)}
@@ -229,6 +238,10 @@ export default function ProductModal({ isOpen, product, onClose, onAddToCart }) 
                 {related.map((rp, i) => {
                   const rpStock = rp.stock ?? 0;
                   const rpOut = rpStock <= 0;
+                  const rpUnit = rp.unit || rp.quantity || '';
+                  const rpPcs = rp.pcs || rp.pieces || '';
+                  const rpMrp = typeof rp.mrp === 'number' ? rp.mrp : parseFloat(rp.mrp || 0);
+                  const rpPrice = typeof rp.price === 'number' ? rp.price : parseFloat(rp.price || 0);
                   return (
                     <div
                       key={rp._id}
@@ -243,7 +256,6 @@ export default function ProductModal({ isOpen, product, onClose, onAddToCart }) 
                           fill
                           className={`object-contain rounded ${rpOut ? 'opacity-60 grayscale' : ''}`}
                           sizes="64px"
-                          // First related: eager load, others lazy for performance
                           {...(i === 0 ? { priority: true } : { loading: "lazy" })}
                         />
                         {rpOut && (
@@ -255,8 +267,23 @@ export default function ProductModal({ isOpen, product, onClose, onAddToCart }) 
                       <div className="text-xs font-semibold text-center mb-1 truncate w-full">
                         {rp.title}
                       </div>
-                      <div className="text-red-600 font-bold text-sm mb-1">
-                        ₹{typeof rp.price === 'number' ? rp.price.toFixed(2) : 'N/A'}
+                      <div className="flex gap-1 items-center mb-1">
+                        {rpUnit && (
+                          <span className="text-[10px] text-gray-500">{rpUnit}</span>
+                        )}
+                        {rpPcs && (
+                          <span className="text-[10px] text-gray-500">{rpPcs} pcs</span>
+                        )}
+                      </div>
+                      <div className="flex gap-1 items-center">
+                        {rpMrp > rpPrice && rpMrp > 0 && (
+                          <span className="text-[11px] line-through text-gray-400">
+                            ₹{rpMrp.toFixed(2)}
+                          </span>
+                        )}
+                        <span className="text-red-600 font-bold text-xs">
+                          ₹{rpPrice.toFixed(2)}
+                        </span>
                       </div>
                       <AddToCartButton product={rp} className="mt-1 py-1 px-2 text-xs" disabled={rpOut} />
                     </div>

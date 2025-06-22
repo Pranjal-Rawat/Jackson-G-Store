@@ -15,12 +15,22 @@ export async function GET(req, { params }) {
     const client = await clientPromise;
     const db = client.db('jackson-grocery-store');
 
-    // Main product fetch (projection to avoid leaking internal fields)
+    // Fetch main product (only public fields)
     const product = await db.collection('products').findOne(
       { slug },
-      { projection: { /* Add only fields you want to return, e.g.: */ 
-          _id: 1, slug: 1, title: 1, image: 1, price: 1, stock: 1, description: 1, category: 1, options: 1
-      }}
+      {
+        projection: {
+          _id: 1,
+          slug: 1,
+          title: 1,
+          image: 1,
+          price: 1,
+          stock: 1,
+          description: 1,
+          category: 1,
+          options: 1
+        }
+      }
     );
     if (!product) {
       return new Response(
@@ -28,17 +38,23 @@ export async function GET(req, { params }) {
         { status: 404, headers: { 'Content-Type': 'application/json' } }
       );
     }
-
     product._id = product._id.toString();
 
-    // Related products: match same category, exclude self, limit to 6
+    // Fetch related products
     const related = await db.collection('products')
       .find({ category: product.category, slug: { $ne: slug } })
-      .project({ _id: 1, slug: 1, title: 1, image: 1, price: 1, stock: 1, category: 1 })
+      .project({
+        _id: 1,
+        slug: 1,
+        title: 1,
+        image: 1,
+        price: 1,
+        stock: 1,
+        category: 1
+      })
       .limit(6)
       .toArray();
 
-    // Clean _id for frontend
     related.forEach(r => { r._id = r._id.toString(); });
 
     return new Response(

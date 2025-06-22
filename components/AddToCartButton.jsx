@@ -17,6 +17,7 @@ export default function AddToCartButton({
   const handleAddToCart = React.useCallback(
     (e) => {
       if (disabled) return;
+      e.preventDefault();
       e.stopPropagation();
       addToCart({ ...product, quantity, option });
     },

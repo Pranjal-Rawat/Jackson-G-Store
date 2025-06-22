@@ -1,7 +1,5 @@
 'use client';
 
-// Route: /components/Cart.jsx – Modern Polished Version
-
 import { useState, useCallback } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import Link from 'next/link';
@@ -24,13 +22,11 @@ export default function Cart() {
   const [showConfirm, setShowConfirm] = useState(false);
   const [isRedirecting, setIsRedirecting] = useState(false);
 
-  // Memoized input handler for performance
   const handleInputChange = useCallback((e) => {
     const { name, value } = e.target;
     setCustomer((prev) => ({ ...prev, [name]: value }));
   }, []);
 
-  // Robust validation for customer input
   const validateForm = useCallback(() => {
     if (customer.name.trim().length < 3) {
       alert('Full name must be at least 3 characters.');
@@ -47,18 +43,15 @@ export default function Cart() {
     return true;
   }, [customer]);
 
-  // Start checkout – show confirmation modal if valid
   const handleCheckout = useCallback(() => {
     if (!validateForm()) return;
     setShowConfirm(true);
   }, [validateForm]);
 
-  // Confirm and perform redirect/stock update
   const confirmRedirect = useCallback(async () => {
     setShowConfirm(false);
     setIsRedirecting(true);
     try {
-      // 1. Verify order and generate WhatsApp URL
       const response = await fetch('/api/verify-order', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -77,7 +70,6 @@ export default function Cart() {
       if (response.ok && data.whatsappUrl) {
         window.open(data.whatsappUrl, '_blank');
 
-        // 2. Reduce stock after WhatsApp confirmation
         await fetch('/api/reduce-stock', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
@@ -91,7 +83,6 @@ export default function Cart() {
           }),
         });
 
-        // 3. Clear cart
         clearCart();
       } else {
         alert(data.error || 'Failed to generate WhatsApp link.');
@@ -106,6 +97,8 @@ export default function Cart() {
 
   return (
     <main className="min-h-screen bg-gradient-to-b from-[#fff9f0] via-white to-[#fffbe7] text-gray-900 pt-[5.5rem] pb-8">
+      {/* Accessibility: Hidden page heading */}
+      <h1 className="sr-only">Your Cart</h1>
       <div className="max-w-7xl mx-auto px-3 sm:px-8">
         <div className="flex items-center gap-2 mb-10">
           <button
@@ -117,9 +110,9 @@ export default function Cart() {
             <FiArrowLeft className="h-5 w-5 mr-1" />
             Continue Shopping
           </button>
-          <h1 className="text-2xl sm:text-3xl font-extrabold ml-3 tracking-tight">
+          <h2 className="text-2xl sm:text-3xl font-extrabold ml-3 tracking-tight">
             My Cart <span className="text-[#ffcc29]">({count})</span>
-          </h1>
+          </h2>
         </div>
 
         <AnimatePresence>
@@ -219,7 +212,7 @@ export default function Cart() {
 
                 {/* Customer Details */}
                 <section className="bg-white p-7 rounded-2xl shadow-md border border-[#ffcc29]/20 mt-8">
-                  <h2 className="text-lg font-bold mb-5 text-[#ed3237]">Customer Details</h2>
+                  <h3 className="text-lg font-bold mb-5 text-[#ed3237]">Customer Details</h3>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
                     <input
                       type="text"
@@ -266,7 +259,7 @@ export default function Cart() {
 
               {/* Order Summary */}
               <aside className="bg-white p-7 rounded-2xl shadow-lg border border-[#ffcc29]/40 sticky top-24 self-start">
-                <h2 className="text-lg font-bold mb-5 text-[#ed3237]">Order Summary</h2>
+                <h3 className="text-lg font-bold mb-5 text-[#ed3237]">Order Summary</h3>
                 <div className="flex justify-between mb-4">
                   <span className="text-gray-700">Subtotal ({count} items)</span>
                   <span className="font-bold text-[#ed3237]">₹{total.toFixed(2)}</span>
@@ -301,6 +294,8 @@ export default function Cart() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
+              role="dialog"
+              aria-modal="true"
             >
               <motion.div
                 className="bg-white rounded-2xl shadow-2xl p-8 w-full max-w-sm border border-[#ffcc29]/40"
@@ -308,7 +303,7 @@ export default function Cart() {
                 animate={{ scale: 1 }}
                 exit={{ scale: 0.9 }}
               >
-                <h2 className="text-lg font-bold mb-4 text-[#ed3237]">Confirm Order</h2>
+                <h4 className="text-lg font-bold mb-4 text-[#ed3237]">Confirm Order</h4>
                 <p className="text-sm text-gray-600 mb-6">
                   Proceed to place your order on WhatsApp with the above details?
                 </p>

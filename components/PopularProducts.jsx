@@ -1,6 +1,6 @@
 'use client';
 
-// Route: /components/PopularProducts.jsx – Popular products grid with add to cart
+// Route: /components/PopularProducts.jsx – Popular products grid with badges, unit, pcs, MRP, offer price
 
 import { useState, useMemo, useCallback } from 'react';
 import Image from 'next/image';
@@ -11,10 +11,10 @@ export default function PopularProducts({ products }) {
   const addToCart = useCartStore((state) => state.addItem);
   const [visibleCount, setVisibleCount] = useState(10);
 
-  // SEO: Add category/brand info if you have it in product object.
+  // Filter and sort for popular and by rank
   const popularSorted = useMemo(() => {
     return [...products]
-      .filter((p) => p.popular)
+      .filter((p) => p.popular === true || p.popular === 'true')
       .sort((a, b) => (a.rank ?? 0) - (b.rank ?? 0));
   }, [products]);
 
@@ -35,16 +35,35 @@ export default function PopularProducts({ products }) {
   const ProductCard = ({ product, index }) => {
     const stock = product.stock ?? 0;
     const isOutOfStock = stock <= 0;
+    const unit = product.unit || product.quantity || '';
+    const pcs = product.pcs || product.pieces || '';
+    const rank = product.rank;
+    const isPopular = product.popular === true || product.popular === 'true';
+    const price = typeof product.price === 'number' ? product.price : parseFloat(product.price || 0);
+    const mrp = typeof product.mrp === 'number' ? product.mrp : parseFloat(product.mrp || 0);
 
     return (
       <Link
         href={`/products/${product.slug}`}
-        className="bg-white rounded-lg shadow hover:shadow-md transition-shadow cursor-pointer group block focus:outline-none"
+        className="bg-white rounded-lg shadow hover:shadow-md transition-shadow cursor-pointer group block focus:outline-none relative"
         aria-label={`View details of ${product.title} – Buy online at Jackson Grocery Store Dehradun`}
         tabIndex={0}
         itemScope
         itemType="https://schema.org/Product"
       >
+        {/* Badges */}
+        <div className="absolute top-2 left-2 flex flex-col gap-1 z-10">
+          {typeof rank === "number" && (
+            <span className="bg-[#ffcc29] text-[#ed3237] px-2 py-0.5 rounded-full text-[10px] font-bold shadow-sm border border-[#ffe58a]">
+              Rank #{rank}
+            </span>
+          )}
+          {isPopular && (
+            <span className="bg-red-600 text-white px-2 py-0.5 rounded-full text-[10px] font-bold shadow-sm border border-red-300">
+              ★ Popular
+            </span>
+          )}
+        </div>
         <div className="relative h-48 w-full overflow-hidden rounded-t-lg">
           <Image
             src={product.image || '/images/logo.svg'}
@@ -52,7 +71,6 @@ export default function PopularProducts({ products }) {
             fill
             className="object-cover group-hover:scale-105 transition-transform duration-300"
             sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
-            // Only first image is priority, all others lazy
             {...(index === 0 ? { priority: true } : { loading: 'lazy' })}
             itemProp="image"
           />
@@ -69,35 +87,48 @@ export default function PopularProducts({ products }) {
           <h3 className="font-medium text-gray-800 mb-1 truncate" itemProp="name">
             {product.title}
           </h3>
-          <div className="flex justify-between items-center">
+          {/* Unit/Quantity */}
+          <div className="flex flex-wrap items-center gap-2 mb-1">
+            {unit && (
+              <span className="text-xs text-gray-500 font-medium">{unit}</span>
+            )}
+            {pcs && (
+              <span className="text-xs text-gray-500 font-medium">{pcs} pcs</span>
+            )}
+          </div>
+          {/* Price & MRP */}
+          <div className="flex items-center gap-2 mb-1">
+            {mrp > price && mrp > 0 && (
+              <span className="text-xs text-gray-400 line-through">₹{mrp.toFixed(2)}</span>
+            )}
             <span
-              className="text-red-600 font-semibold"
+              className="text-red-600 font-semibold text-lg"
               itemProp="offers"
               itemScope
               itemType="https://schema.org/Offer"
             >
-              ₹{typeof product.price === 'number' ? product.price.toFixed(2) : 'N/A'}
+              ₹{price.toFixed(2)}
               <meta itemProp="priceCurrency" content="INR" />
-              <meta itemProp="price" content={typeof product.price === 'number' ? product.price.toFixed(2) : '0'} />
+              <meta itemProp="price" content={price.toFixed(2)} />
               <link itemProp="availability" href={isOutOfStock ? "https://schema.org/OutOfStock" : "https://schema.org/InStock"} />
             </span>
-            <button
-              onClick={e => {
-                e.preventDefault();
-                e.stopPropagation();
-                if (!isOutOfStock) handleAddToCart(product);
-              }}
-              className={`bg-red-500 hover:bg-red-600 text-white text-sm px-4 py-2 rounded-lg transition-colors
-                ${isOutOfStock ? 'opacity-60 cursor-not-allowed' : ''}
-              `}
-              disabled={isOutOfStock}
-              aria-label={isOutOfStock ? `Out of Stock` : `Add ${product.title} to cart`}
-              type="button"
-              tabIndex={isOutOfStock ? -1 : 0}
-            >
-              {isOutOfStock ? 'Out of Stock' : 'Add to Cart'}
-            </button>
           </div>
+          <button
+            onClick={e => {
+              e.preventDefault();
+              e.stopPropagation();
+              if (!isOutOfStock) handleAddToCart(product);
+            }}
+            className={`bg-red-500 hover:bg-red-600 text-white text-sm px-4 py-2 rounded-lg transition-colors w-full mt-2
+              ${isOutOfStock ? 'opacity-60 cursor-not-allowed' : ''}
+            `}
+            disabled={isOutOfStock}
+            aria-label={isOutOfStock ? `Out of Stock` : `Add ${product.title} to cart`}
+            type="button"
+            tabIndex={isOutOfStock ? -1 : 0}
+          >
+            {isOutOfStock ? 'Out of Stock' : 'Add to Cart'}
+          </button>
         </div>
       </Link>
     );

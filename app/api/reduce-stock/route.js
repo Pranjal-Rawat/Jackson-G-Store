@@ -49,7 +49,7 @@ export async function POST(request) {
         error: 'Some items had insufficient stock.',
         understocked
       }), {
-        status: 409, // Conflict
+        status: 409,
         headers: { 'Content-Type': 'application/json' }
       });
     }
