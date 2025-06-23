@@ -14,7 +14,6 @@ export default function CompanyContactForm() {
     const subject = form.subject.value.trim();
     const message = form.message.value.trim();
 
-    // Compose the mailto link
     const mailto =
       `mailto:omsairetail3@gmail.com?subject=` +
       encodeURIComponent(`[Business Enquiry] ${subject || 'New Partnership/Vendor Request'}`) +
@@ -23,7 +22,6 @@ export default function CompanyContactForm() {
         `Company/Brand: ${company}\nContact Name: ${contact}\nEmail: ${email}\n\nMessage:\n${message}`
       );
 
-    // Open email client
     window.location.href = mailto;
   }
 
@@ -32,9 +30,13 @@ export default function CompanyContactForm() {
       ref={formRef}
       onSubmit={handleSubmit}
       className="flex flex-col gap-4"
-      aria-label="Business enquiry form"
+      aria-labelledby="business-form-heading"
       autoComplete="on"
     >
+      <h2 id="business-form-heading" className="sr-only">
+        Business Enquiry Form – Jackson Grocery Store
+      </h2>
+
       <label htmlFor="company" className="sr-only">Company / Brand Name *</label>
       <input
         id="company"
@@ -45,6 +47,7 @@ export default function CompanyContactForm() {
         required
         autoComplete="organization"
       />
+
       <label htmlFor="contact" className="sr-only">Your Name *</label>
       <input
         id="contact"
@@ -55,6 +58,7 @@ export default function CompanyContactForm() {
         required
         autoComplete="name"
       />
+
       <label htmlFor="email" className="sr-only">Contact Email *</label>
       <input
         id="email"
@@ -65,6 +69,7 @@ export default function CompanyContactForm() {
         required
         autoComplete="email"
       />
+
       <label htmlFor="subject" className="sr-only">Subject (optional)</label>
       <input
         id="subject"
@@ -74,6 +79,7 @@ export default function CompanyContactForm() {
         className="border border-gray-300 rounded-lg px-4 py-3 text-base focus:outline-none focus:ring-2 focus:ring-[#ffcc29]"
         autoComplete="off"
       />
+
       <label htmlFor="message" className="sr-only">Message / Proposal *</label>
       <textarea
         id="message"
@@ -84,12 +90,14 @@ export default function CompanyContactForm() {
         required
         autoComplete="off"
       ></textarea>
+
       <button
         type="submit"
         className="bg-[#ed3237] text-white py-3 px-8 rounded-lg font-semibold text-lg hover:bg-[#ffcc29] hover:text-[#ed3237] transition mt-2 focus:outline-none focus:ring-2 focus:ring-[#ed3237]/70"
       >
         Send Enquiry
       </button>
+
       <div className="text-xs text-gray-400 mt-1 text-center">
         <b>Note:</b> This form will open your default email app to send your enquiry.<br />
         For urgent requests, call <a href="tel:+917417229660" className="underline text-[#ed3237]">+91 74172 29660</a>.

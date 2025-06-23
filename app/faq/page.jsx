@@ -1,6 +1,5 @@
-// /app/faq/page.jsx
-
 import { getFaqJsonLD } from '../lib/seo/jsonld';
+import Head from 'next/head';
 
 export const metadata = {
   title: 'FAQs | Jackson Grocery Store | Grocery Store Dehradun',
@@ -25,7 +24,7 @@ export const metadata = {
         alt: 'Jackson Grocery Store FAQs',
       },
     ],
-    locale: 'en_US',
+    locale: 'en_IN',
     type: 'website',
   },
   twitter: {
@@ -39,7 +38,6 @@ export const metadata = {
   },
 };
 
-// --- FAQ data for JSON-LD and UI ---
 const faqs = [
   {
     question: "Where do you deliver groceries in Dehradun?",
@@ -49,7 +47,7 @@ const faqs = [
   {
     question: "How quickly will my order be delivered?",
     answer:
-      "Most orders are delivered within 2-24 hours. You will receive a WhatsApp confirmation with estimated delivery time after you place your order.",
+      "Most orders are delivered within 2–24 hours. You will receive a WhatsApp confirmation with estimated delivery time after you place your order.",
   },
   {
     question: "What payment methods do you accept?",
@@ -83,33 +81,35 @@ export default function FAQPage() {
 
   return (
     <main className="max-w-3xl mx-auto pt-28 pb-16 px-4 min-h-[80vh] bg-white">
-      {/* --- SEO: FAQ Schema JSON-LD --- */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
-      <section>
+      <Head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </Head>
+
+      <section aria-label="Frequently Asked Questions">
         <h1 className="text-4xl font-extrabold text-center text-[#ed3237] mb-6">
           Frequently Asked Questions
         </h1>
         <p className="text-center text-gray-600 mb-10">
           Find quick answers about delivery, payment, returns, and shopping with <b>Jackson Grocery Store, Dehradun</b>.
         </p>
+
         <ul className="divide-y divide-[#ffcc29]/30 bg-white rounded-2xl shadow-lg">
           {faqs.map((faq, idx) => (
             <li key={idx} className="py-6 px-2 sm:px-6">
               <details className="group" open={idx === 0}>
                 <summary className="cursor-pointer flex items-center justify-between font-semibold text-lg text-[#ed3237] focus:outline-none">
                   {faq.question}
-                  <span className="ml-3 transition-transform group-open:rotate-180">
-                    ▼
-                  </span>
+                  <span className="ml-3 transition-transform group-open:rotate-180">▼</span>
                 </summary>
                 <p className="mt-3 text-gray-700 text-base pl-1">{faq.answer}</p>
               </details>
             </li>
           ))}
         </ul>
+
         <div className="mt-10 text-center text-gray-500 text-sm">
           Can’t find your answer?{' '}
           <a href="/contact" className="text-[#ed3237] font-semibold hover:underline">

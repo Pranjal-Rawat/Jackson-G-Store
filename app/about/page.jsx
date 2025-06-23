@@ -1,5 +1,3 @@
-// /app/about/page.jsx
-
 import BusinessInfo from "../../components/BusinessInfo";
 
 export const metadata = {
@@ -25,7 +23,7 @@ export const metadata = {
         alt: "Jackson Grocery Store",
       },
     ],
-    locale: "en_US",
+    locale: "en_IN",
     type: "website",
   },
   twitter: {
@@ -39,25 +37,25 @@ export const metadata = {
   },
   other: {
     'ld+json': JSON.stringify({
-      '@context': 'https://schema.org',
-      '@type': 'GroceryStore',
+      "@context": "https://schema.org",
+      "@type": "GroceryStore",
+      "@id": "https://jackson-grocery.com",
       name: "Jackson Grocery Store",
       url: "https://jackson-grocery.com/about",
       telephone: "+91 74172 29660",
+      email: "omsairetail3@gmail.com",
+      image: "https://res.cloudinary.com/dy1uhnjnq/image/upload/v1749755125/Jackson_Logo_page-0001-removebg-preview_yqeopv.png",
       address: {
-        '@type': 'PostalAddress',
+        "@type": "PostalAddress",
         streetAddress: "1 Municipal Road, Dalanwala",
         addressLocality: "Dehradun",
         addressRegion: "Uttarakhand",
         postalCode: "248001",
         addressCountry: "IN",
-      },
-      image: "https://res.cloudinary.com/dy1uhnjnq/image/upload/v1749755125/Jackson_Logo_page-0001-removebg-preview_yqeopv.png",
-      email: "omsairetail3@gmail.com"
+      }
     }),
   },
 };
-
 
 export default function AboutPage() {
   return (
@@ -81,8 +79,7 @@ export default function AboutPage() {
           <b>Email:</b> omsairetail3@gmail.com
         </div>
       </section>
-      {/* Local business info card (UI only, no <script> tags) */}
-      <BusinessInfo/>
+      <BusinessInfo />
     </main>
   );
 }

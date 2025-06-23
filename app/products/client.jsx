@@ -128,7 +128,7 @@ export default function ProductsPageClient({ initialProducts }) {
   }
 
   return (
-    <main className="min-h-screen bg-gradient-to-b from-[#fffcf7] via-white to-[#fff6e3] text-[#272f38]">
+    <main className="min-h-screen bg-gradient-to-b from-[#fffcf7] via-white to-[#fff6e3] text-[#272f38] pt-[80px]">
       <Header />
 
       <section className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-12 py-4">
@@ -169,9 +169,8 @@ export default function ProductsPageClient({ initialProducts }) {
               return (
                 <div
                   key={product._id || product.id}
-                  className={`relative bg-white rounded-2xl shadow group border border-[#ffcc29]/20 overflow-hidden flex flex-col transition-all duration-200 hover:shadow-lg cursor-pointer ${
-                    isOutOfStock ? 'opacity-80 pointer-events-auto' : ''
-                  }`}
+                  className={`relative bg-white rounded-2xl shadow group border border-[#ffcc29]/20 overflow-hidden flex flex-col transition-all duration-200 hover:shadow-lg cursor-pointer ${isOutOfStock ? 'opacity-80 pointer-events-auto' : ''
+                    }`}
                   tabIndex={0}
                   role="button"
                   aria-label={`View details for ${product.title} from Jackson Grocery Store`}
@@ -199,7 +198,7 @@ export default function ProductsPageClient({ initialProducts }) {
                   <div className="flex-1 flex flex-col p-3 gap-1">
                     {/* Product Name */}
                     <h3 className="text-base font-semibold text-[#272f38] truncate mb-0.5">{product.title}</h3>
-                    
+
                     {/* Quantity/unit + PCS */}
                     <div className="flex gap-2 text-xs text-gray-600 font-medium mb-1">
                       {product.unit && <span>{product.unit}</span>}

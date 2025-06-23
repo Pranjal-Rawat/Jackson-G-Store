@@ -1,5 +1,6 @@
 // /app/search/page.jsx
 
+// ---- SEO Metadata ----
 export const metadata = {
   title: 'Search Products | Jackson Grocery Store | Grocery Store Dehradun',
   description:
@@ -23,7 +24,7 @@ export const metadata = {
         alt: 'Jackson Grocery Store Search',
       },
     ],
-    locale: 'en_US',
+    locale: 'en_IN',
     type: 'website',
   },
   twitter: {
@@ -41,12 +42,11 @@ import clientPromise from '../lib/mongodb';
 import Image from 'next/image';
 import Link from 'next/link';
 
-export const dynamic = 'force-dynamic'; // Always fetch latest data
+export const dynamic = 'force-dynamic';
 
 export default async function SearchPage({ searchParams }) {
   const q = searchParams.q || '';
 
-  // If no search query, prompt user to type
   if (!q) {
     return (
       <main className="max-w-2xl mx-auto pt-32 pb-16 px-4 min-h-[50vh]">
@@ -56,26 +56,22 @@ export default async function SearchPage({ searchParams }) {
     );
   }
 
-  // --- MongoDB Query ---
   const client = await clientPromise;
   const db = client.db('jackson-grocery-store');
 
-  // Find exact product (case-insensitive title match)
   const mainProduct = await db.collection('products').findOne({
-    title: { $regex: `^${q}$`, $options: 'i' }
+    title: { $regex: `^${q}$`, $options: 'i' },
   });
 
-  // Find related products (fuzzy match, excluding main product)
   const related = await db.collection('products')
     .find({
       title: { $regex: q, $options: 'i' },
-      ...(mainProduct && { _id: { $ne: mainProduct._id } })
+      ...(mainProduct && { _id: { $ne: mainProduct._id } }),
     })
     .limit(24)
     .toArray();
 
-  // Normalize _id for use as React key
-  const safeRelated = related.map(p => ({
+  const safeRelated = related.map((p) => ({
     ...p,
     _id: p._id?.toString(),
   }));
@@ -86,7 +82,6 @@ export default async function SearchPage({ searchParams }) {
         Search Results for <span className="text-red-600">{q}</span>
       </h1>
 
-      {/* Top result */}
       {mainProduct ? (
         <div className="mb-10 p-4 rounded-xl shadow bg-white flex flex-col sm:flex-row items-center gap-5 border border-[#ffcc29]/30">
           <Image
@@ -114,15 +109,15 @@ export default async function SearchPage({ searchParams }) {
         <div className="mb-8 text-gray-500 italic">No exact product found for "{q}"</div>
       )}
 
-      {/* Grid of related products */}
       <h2 className="font-semibold mb-3 text-xl">
         {mainProduct ? 'Related Products' : 'Products Matching Your Search'}
       </h2>
+
       {safeRelated.length === 0 ? (
         <div className="text-gray-500 mb-8">No related products found.</div>
       ) : (
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
-          {safeRelated.map(product => (
+          {safeRelated.map((product) => (
             <Link
               key={product._id}
               href={`/products/${product.slug}`}

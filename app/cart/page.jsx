@@ -21,7 +21,7 @@ export const metadata = {
         alt: 'Jackson Grocery Store Cart',
       },
     ],
-    locale: 'en_US',
+    locale: 'en_IN',
     type: 'website',
   },
   twitter: {
@@ -41,10 +41,10 @@ import Cart from '../../components/Cart';
 export default function CartPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-[#fff9f0] via-[#f5fbfa] to-[#fff6e3] pb-20">
-      {/* Main cart content */}
+      {/* Cart Contents */}
       <Cart />
 
-      {/* Branded business info at the bottom */}
+      {/* Store Info Card */}
       <div className="flex justify-center">
         <div
           className="

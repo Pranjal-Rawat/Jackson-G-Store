@@ -1,13 +1,11 @@
 'use client';
 
-// Route: /components/PerformanceCarousel.jsx
-
 import Slider from "react-slick";
 import Image from "next/image";
 import Link from "next/link";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 
-// --- SEO-optimized carousel items (invisible text, only strong alt and ARIA) ---
+// --- SEO-optimized carousel items ---
 const carouselItems = [
   {
     id: 1,
@@ -38,15 +36,15 @@ const carouselItems = [
   },
 ];
 
-// Custom Arrow Components for Slick
+// Custom Arrows
 function PrevArrow({ onClick }) {
   return (
     <button
       aria-label="Previous slide"
+      aria-hidden="false"
       className="absolute left-4 top-1/2 -translate-y-1/2 z-10 bg-primary-600 hover:bg-primary-700 text-white p-2 shadow-lg focus:outline-none"
       onClick={onClick}
       type="button"
-      tabIndex={0}
     >
       <FiChevronLeft className="h-7 w-7" />
     </button>
@@ -56,10 +54,10 @@ function NextArrow({ onClick }) {
   return (
     <button
       aria-label="Next slide"
+      aria-hidden="false"
       className="absolute right-4 top-1/2 -translate-y-1/2 z-10 bg-primary-600 hover:bg-primary-700 text-white p-2 shadow-lg focus:outline-none"
       onClick={onClick}
       type="button"
-      tabIndex={0}
     >
       <FiChevronRight className="h-7 w-7" />
     </button>
@@ -87,7 +85,6 @@ export default function PerformanceCarousel() {
       <button
         className="h-3 w-3 bg-white/70 border border-primary-600 rounded-full focus:outline-none"
         type="button"
-        tabIndex={0}
         aria-label={`Go to slide ${i + 1}`}
       />
     ),
@@ -111,9 +108,7 @@ export default function PerformanceCarousel() {
                 <Link
                   href={item.link}
                   aria-label={item.title}
-                  tabIndex={0}
                   className="block h-full w-full group focus:outline-none"
-                  itemProp="url"
                 >
                   <Image
                     src={item.image}
@@ -124,25 +119,20 @@ export default function PerformanceCarousel() {
                     priority
                     itemProp="image"
                   />
-                  {/* Invisible SEO content for bots */}
                   <span className="sr-only" itemProp="name">{item.title}</span>
                   <span className="sr-only" itemProp="description">{item.description}</span>
+                  <meta itemProp="url" content={item.link} />
                 </Link>
               </div>
             ))}
           </Slider>
         </div>
       </div>
-      {/* Optionally add invisible navigation for SEO crawlability */}
+
+      {/* Crawlable hidden nav links for SEO bots */}
       <nav aria-label="Featured grocery categories" className="sr-only">
         {carouselItems.map((item) => (
-          <Link
-            href={item.link}
-            key={item.id}
-            aria-label={item.title}
-            tabIndex={-1}
-            className="sr-only"
-          >
+          <Link key={item.id} href={item.link} aria-label={item.title} tabIndex={-1}>
             {item.title}
           </Link>
         ))}

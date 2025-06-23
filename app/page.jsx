@@ -4,25 +4,24 @@ import CategoryCarousel from '../components/CategoryCarousel';
 import PopularProducts from '../components/PopularProducts';
 import clientPromise from './lib/mongodb';
 
-// ---- SEO Variables ----
-const siteUrl = "https://jackson-grocery.com";
-const siteName = "Jackson Grocery Store";
+// ---- SEO Constants ----
+const siteUrl = 'https://jackson-grocery.com';
+const siteName = 'Jackson Grocery Store';
 const description =
-  "Buy fresh groceries online in Dehradun from Jackson Grocery Store. Best quality fruits, vegetables, daily essentials, and more. Fast home delivery. Grocery Store Dehradun. Best grocery shop near you.";
+  'Buy fresh groceries online in Dehradun from Jackson Grocery Store. Best quality fruits, vegetables, daily essentials, and more. Fast home delivery. Grocery Store Dehradun. Best grocery shop near you.';
 const keywords =
-  "Jackson Grocery Store, Grocery Store Dehradun, Best Grocery Store Dehradun, World of Groceries, Departmental Store Dehradun, Fresh groceries Dehradun, Grocery home delivery Dehradun, Buy groceries online Dehradun, Jackson groceries";
+  'Jackson Grocery Store, Grocery Store Dehradun, Best Grocery Store Dehradun, World of Groceries, Departmental Store Dehradun, Fresh groceries Dehradun, Grocery home delivery Dehradun, Buy groceries online Dehradun, Jackson groceries';
 const logo =
-  "https://res.cloudinary.com/dy1uhnjnq/image/upload/v1749755125/Jackson_Logo_page-0001-removebg-preview_yqeopv.png";
-const phone = "+91-XXXXXXXXXX"; // replace with real number
+  'https://res.cloudinary.com/dy1uhnjnq/image/upload/v1749755125/Jackson_Logo_page-0001-removebg-preview_yqeopv.png';
+const phone = '+91-7417229660';
 const address = {
-  street: "123 Main Street",
-  city: "Dehradun",
-  state: "Uttarakhand",
-  postalCode: "248001",
-  country: "IN",
+  street: '1 Municipal Road, Dalanwala',
+  city: 'Dehradun',
+  state: 'Uttarakhand',
+  postalCode: '248001',
+  country: 'IN',
 };
 
-// ---- SEO Metadata Export ----
 export const metadata = {
   title: 'Jackson Grocery Store | Grocery Store Dehradun | Fresh Groceries Online',
   description,
@@ -43,7 +42,7 @@ export const metadata = {
         alt: 'Jackson Grocery Store',
       },
     ],
-    locale: 'en_US',
+    locale: 'en_IN',
     type: 'website',
   },
   twitter: {
@@ -58,6 +57,7 @@ export const metadata = {
       '@context': 'https://schema.org',
       '@type': 'GroceryStore',
       name: siteName,
+      image: logo,
       url: siteUrl,
       telephone: phone,
       address: {
@@ -68,19 +68,17 @@ export const metadata = {
         postalCode: address.postalCode,
         addressCountry: address.country,
       },
-      image: logo,
       sameAs: [
         siteUrl,
-        // Add social links here if any
+        // Add Instagram, Facebook etc. if available
       ],
     }),
   },
 };
 
-export const dynamic = 'force-dynamic'; // SSR
+export const dynamic = 'force-dynamic';
 
 export default async function Home() {
-  // --- MongoDB: Fetch all products for PopularProducts ---
   const client = await clientPromise;
   const db = client.db('jackson-grocery-store');
   const products = await db.collection('products').find().toArray();
@@ -89,40 +87,24 @@ export default async function Home() {
     _id: p._id?.toString(),
   }));
 
-  // --- Features Data ---
   const features = [
     {
       icon: (
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth={2}
-          d="M13 10V3L4 14h7v7l9-11h-7z"
-        />
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
       ),
       title: 'Fast Delivery',
       desc: 'Get your order delivered within 24 hours',
     },
     {
       icon: (
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth={2}
-          d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-        />
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
       ),
       title: 'Quality Checked',
       desc: 'Every item goes through strict quality checks',
     },
     {
       icon: (
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth={2}
-          d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"
-        />
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
       ),
       title: 'Easy Returns',
       desc: '100% satisfaction guarantee or money back',
@@ -131,10 +113,7 @@ export default async function Home() {
 
   return (
     <>
-      {/* Hero Carousel */}
       <PerformanceCarousel />
-
-      {/* Shop By Category Carousel */}
       <CategoryCarousel />
 
       {/* Hero Section */}
@@ -156,7 +135,7 @@ export default async function Home() {
         </div>
       </section>
 
-      {/* Quality Promise Section */}
+      {/* Quality Promise */}
       <section className="bg-white py-16">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">

@@ -1,3 +1,5 @@
+// /stores/cartStore.js
+
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 
@@ -15,23 +17,18 @@ export const useCartStore = create(
         const id = product.id ?? product._id ?? product.productId ?? product.slug;
         const existingItem = get().items.find((item) => item.id === id);
 
-        if (existingItem) {
-          const updatedItems = get().items.map((item) =>
-            item.id === id
-              ? { ...item, quantity: item.quantity + quantity }
-              : item
-          );
-          return set({
-            items: updatedItems,
-            count: get().count + quantity,
-            total: toPrice(get().total + product.price * quantity),
-          });
-        }
-        return set({
-          items: [...get().items, { ...product, id, quantity }],
-          count: get().count + quantity,
-          total: toPrice(get().total + product.price * quantity),
-        });
+        const updatedItems = existingItem
+          ? get().items.map((item) =>
+              item.id === id
+                ? { ...item, quantity: item.quantity + quantity }
+                : item
+            )
+          : [...get().items, { ...product, id, quantity }];
+
+        const updatedCount = get().count + quantity;
+        const updatedTotal = toPrice(get().total + product.price * quantity);
+
+        return set({ items: updatedItems, count: updatedCount, total: updatedTotal });
       },
 
       removeItem: (id) => {
@@ -41,7 +38,7 @@ export const useCartStore = create(
         return set({
           items: updatedItems,
           count: Math.max(0, get().count - item.quantity),
-          total: toPrice(get().total - (item.price * item.quantity)),
+          total: toPrice(get().total - item.price * item.quantity),
         });
       },
 
@@ -50,34 +47,21 @@ export const useCartStore = create(
         if (!item) return;
 
         if (newQuantity <= 0) {
-          const updatedItems = get().items.filter((i) => i.id !== id);
-          return set({
-            items: updatedItems,
-            count: Math.max(0, get().count - item.quantity),
-            total: toPrice(get().total - (item.price * item.quantity)),
-          });
+          return get().removeItem(id);
         }
 
         const updatedItems = get().items.map((i) =>
           i.id === id ? { ...i, quantity: newQuantity } : i
         );
         const updatedCount = updatedItems.reduce((sum, i) => sum + i.quantity, 0);
-        const updatedTotal = updatedItems.reduce(
-          (sum, i) => sum + (i.price * i.quantity), 0
+        const updatedTotal = toPrice(
+          updatedItems.reduce((sum, i) => sum + i.price * i.quantity, 0)
         );
-        return set({
-          items: updatedItems,
-          count: updatedCount,
-          total: toPrice(updatedTotal),
-        });
+
+        return set({ items: updatedItems, count: updatedCount, total: updatedTotal });
       },
 
-      clearCart: () =>
-        set({
-          items: [],
-          count: 0,
-          total: 0,
-        }),
+      clearCart: () => set({ items: [], count: 0, total: 0 }),
     }),
     {
       name: 'cart-storage',
@@ -89,5 +73,3 @@ export const useCartStore = create(
     }
   )
 );
-
-// Optionally add selector helpers here!

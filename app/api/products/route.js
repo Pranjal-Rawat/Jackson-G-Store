@@ -1,5 +1,3 @@
-// Route: /api/products  (GET – List products, optional: ?category=fruits&skip=0&limit=50)
-
 import mongoose from 'mongoose';
 import Product from '../../lib/models/Product';
 
@@ -7,10 +5,10 @@ export async function GET(req) {
   try {
     const { searchParams } = new URL(req.url);
     const skip = Math.max(Number(searchParams.get('skip')) || 0, 0);
-    const limit = Math.min(Number(searchParams.get('limit')) || 50, 100); // limit max to 100
+    const limit = Math.min(Number(searchParams.get('limit')) || 50, 100);
     const category = searchParams.get('category');
+    const search = searchParams.get('search');
 
-    // MongoDB connection (avoid connect spam)
     if (mongoose.connection.readyState === 0) {
       await mongoose.connect(process.env.MONGODB_URI, {
         dbName: 'jackson-grocery-store',
@@ -19,7 +17,6 @@ export async function GET(req) {
       });
     }
 
-    // Only public fields sent to client
     const projection = {
       _id: 1,
       slug: 1,
@@ -31,16 +28,16 @@ export async function GET(req) {
       rank: 1,
     };
 
-    // Filter: category is already a slug in your schema
-    const filter = category ? { category } : {};
+    const filter = {};
+    if (category) filter.category = new RegExp(`^${category}$`, 'i');
+    if (search) filter.title = { $regex: search, $options: 'i' };
 
-    // Query products
     const products = await Product.find(filter, projection)
+      .sort({ rank: 1, _id: -1 })
       .skip(skip)
       .limit(limit)
       .lean();
 
-    // Ensure _id is string for Next.js
     const safeProducts = products.map((p) => ({
       ...p,
       _id: p._id?.toString(),
@@ -48,7 +45,10 @@ export async function GET(req) {
 
     return new Response(JSON.stringify(safeProducts), {
       status: 200,
-      headers: { 'Content-Type': 'application/json' },
+      headers: {
+        'Content-Type': 'application/json',
+        'Cache-Control': 'public, max-age=300',
+      },
     });
   } catch (error) {
     console.error('[API][GET /api/products] Error:', error);

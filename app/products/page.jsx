@@ -28,7 +28,7 @@ export const metadata = {
         alt: 'Jackson Grocery Store All Products',
       },
     ],
-    locale: 'en_US',
+    locale: 'en_IN',
     type: 'website',
   },
   twitter: {
@@ -41,35 +41,36 @@ export const metadata = {
     ],
   },
   other: {
-    // BreadcrumbList for SEO (Home > All Products)
-    'ld+json': JSON.stringify(getCategoryJsonLD({
-      categorySlug: 'products',
-      categoryName: 'All Products',
-    })),
+    'ld+json': JSON.stringify(
+      getCategoryJsonLD({
+        categorySlug: 'products',
+        categoryName: 'All Products',
+      })
+    ),
   },
 };
 
+export const dynamic = 'force-dynamic'; // Ensure SSR
+
 export default async function ProductsPage() {
-  // --- Fetch initial set of products (limit 50 for performance), sorted by rank ascending ---
   const client = await clientPromise;
   const db = client.db('jackson-grocery-store');
-  const initialProducts = await db.collection('products')
+
+  const initialProducts = await db
+    .collection('products')
     .find()
-    .sort({ rank: 1 })
-    .limit(50)
+    .sort({ rank: 1 }) // Ranked for relevance
+    .limit(50) // Initial render
     .toArray();
 
-  // --- Normalize Mongo IDs for React compatibility ---
-  const safeProducts = initialProducts.map(p => ({
+  const safeProducts = initialProducts.map((p) => ({
     ...p,
     _id: p._id?.toString(),
   }));
 
   return (
     <>
-      {/* Render the client component (handles pagination/infinite scroll) */}
       <ProductsPageClient initialProducts={safeProducts} />
-      {/* Local Business Info card (UI only, not <script> tags) */}
       <BusinessInfo />
     </>
   );

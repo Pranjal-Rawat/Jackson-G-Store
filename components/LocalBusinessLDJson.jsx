@@ -1,10 +1,3 @@
-// /components/LocalBusinessLDJson.jsx
-
-/**
- * To use for SEO: Place <LocalBusinessLDJson /> in your <Head> tag of _document.js
- * or use as a server component in app/layout.jsx (not as 'use client')
- */
-
 export default function LocalBusinessLDJson() {
   const ldjson = {
     "@context": "https://schema.org",
@@ -24,8 +17,10 @@ export default function LocalBusinessLDJson() {
       addressCountry: "IN"
     },
     openingHours: "Mo-Su 08:00-21:00",
+    priceRange: "₹",
     sameAs: [
-      // e.g. "https://facebook.com/yourbusiness", "https://instagram.com/yourbusiness"
+      "https://www.facebook.com/jacksongrocerystore",
+      "https://www.instagram.com/jacksongrocerystore"
     ]
   };
 

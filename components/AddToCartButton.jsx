@@ -1,7 +1,5 @@
 'use client';
 
-// Route: /components/AddToCartButton.jsx – Button to add product to cart
-
 import React from 'react';
 import { useCartStore } from '../stores/cartStore';
 
@@ -24,10 +22,12 @@ export default function AddToCartButton({
     [disabled, addToCart, product, quantity, option]
   );
 
+  const isDisabled = disabled || !product?.title;
+
   return (
     <button
       onClick={handleAddToCart}
-      disabled={disabled}
+      disabled={isDisabled}
       className={[
         'relative inline-flex items-center justify-center gap-1',
         'px-3 py-2 sm:px-4 sm:py-2.5',
@@ -38,32 +38,42 @@ export default function AddToCartButton({
         'transition-all duration-200 group overflow-hidden text-sm sm:text-base',
         'focus:outline-none focus-visible:ring-2 focus-visible:ring-[#ffcc29]/70',
         'active:scale-97 hover:scale-102 select-none backdrop-blur-sm',
-        disabled ? 'opacity-50 cursor-not-allowed' : '',
+        isDisabled ? 'opacity-50 cursor-not-allowed' : '',
         className,
       ].join(' ')}
       style={{ WebkitTapHighlightColor: 'transparent' }}
-      aria-label={disabled ? 'Out of Stock' : `Add ${product?.title || 'product'} to cart`}
-      tabIndex={disabled ? -1 : 0}
+      aria-label={isDisabled ? 'Out of Stock' : `Add ${product?.title || 'product'} to cart`}
+      tabIndex={isDisabled ? -1 : 0}
       type="button"
     >
+      {/* Background shimmer on hover */}
       <span className="absolute inset-0 z-0 bg-white/0 group-hover:bg-white/10 group-active:bg-white/20 transition-all duration-200 rounded-full pointer-events-none backdrop-blur-sm" />
+      
+      {/* Main content */}
       <span className="relative z-10 flex items-center justify-center">
         <span className="bg-[#ffcc29]/90 p-1 rounded-full mr-1 sm:mr-2 flex items-center justify-center shadow-inner shadow-[#ed3237]/10">
           <CartIcon className="w-4 h-4 sm:w-5 sm:h-5 text-[#ed3237]" />
         </span>
         <span className="font-semibold tracking-wide drop-shadow-sm">
-          <span className="block sm:hidden">{disabled ? 'Out of Stock' : 'Add'}</span>
-          <span className="hidden sm:inline">{disabled ? 'Out of Stock' : 'Add to Cart'}</span>
+          <span className="block sm:hidden">{isDisabled ? 'Out of Stock' : 'Add'}</span>
+          <span className="hidden sm:inline">{isDisabled ? 'Out of Stock' : 'Add to Cart'}</span>
         </span>
       </span>
     </button>
   );
 }
 
-// SVG Cart Icon – Jackson Theme Color
-function CartIcon({ className = "" }) {
+// SVG Cart Icon (red + themed)
+function CartIcon({ className = '' }) {
   return (
-    <svg className={className} viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth={1.5} aria-hidden="true">
+    <svg
+      className={className}
+      viewBox="0 0 20 20"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth={1.5}
+      aria-hidden="true"
+    >
       <circle cx="7" cy="16" r="1.5" fill="#ed3237" />
       <circle cx="15" cy="16" r="1.5" fill="#ed3237" />
       <path

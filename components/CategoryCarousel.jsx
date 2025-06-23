@@ -1,14 +1,12 @@
 'use client';
 
-// Route: /components/CategoryCarousel.jsx – Category grid/carousel for browsing
-
 import React from 'react';
 import Slider from 'react-slick';
 import Link from 'next/link';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 
-// SEO-optimized categories
+// SEO-rich categories
 const categories = [
   { name: 'Baby Care', image: '/categories/baby_care.webp', slug: 'baby-care' },
   { name: 'Beverages', image: '/categories/beverages.webp', slug: 'beverages' },
@@ -40,9 +38,13 @@ const sliderSettings = {
 
 export default function CategoryCarousel() {
   return (
-    <section className="px-2 py-8 sm:px-4 md:px-6 lg:px-8 bg-gradient-to-br from-primary-50 to-gray-100">
+    <section
+      className="px-2 py-8 sm:px-4 md:px-6 lg:px-8 bg-gradient-to-br from-primary-50 to-gray-100"
+      aria-labelledby="shop-categories-heading"
+    >
       <div className="max-w-7xl mx-auto">
         <motion.h2
+          id="shop-categories-heading"
           className="text-2xl sm:text-3xl font-bold text-gray-800 mb-8 text-center tracking-tight"
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
@@ -64,7 +66,6 @@ export default function CategoryCarousel() {
                 className="group block relative overflow-hidden rounded-2xl shadow bg-white hover:shadow-lg transition-shadow focus:outline-none"
                 aria-label={`Shop ${category.name} – Jackson Grocery Store Dehradun`}
                 title={`Buy ${category.name} online in Dehradun`}
-                tabIndex={0}
               >
                 <Image
                   src={category.image}
@@ -73,8 +74,7 @@ export default function CategoryCarousel() {
                   height={300}
                   className="h-44 w-full object-cover transition-transform duration-300 group-hover:scale-105 rounded-t-2xl"
                   sizes="(max-width: 1024px) 33vw, 14vw"
-                  // SEO/performance fix: Only first image uses priority, rest are lazy
-                  {...(idx === 0 ? { priority: true } : { loading: "lazy" })}
+                  {...(idx === 0 ? { priority: true } : { loading: 'lazy' })}
                 />
                 <div className="absolute inset-0 bg-gradient-to-br from-primary-500/40 to-secondary-400/30 flex items-center justify-center rounded-2xl">
                   <h3 className="text-white text-lg font-semibold text-center drop-shadow">
@@ -96,7 +96,6 @@ export default function CategoryCarousel() {
                   className="block relative overflow-hidden rounded-xl shadow bg-white hover:shadow-md transition-shadow focus:outline-none"
                   aria-label={`Shop ${category.name} – Jackson Grocery Store Dehradun`}
                   title={`Buy ${category.name} online in Dehradun`}
-                  tabIndex={0}
                 >
                   <Image
                     src={category.image}
@@ -118,7 +117,7 @@ export default function CategoryCarousel() {
           </Slider>
         </div>
 
-        {/* SEO crawlable link */}
+        {/* SEO crawlable fallback link */}
         <Link
           href="/products"
           className="flex justify-center mt-8 text-primary-600 hover:text-primary-700 font-semibold transition-colors focus:outline-none"

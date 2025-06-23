@@ -23,7 +23,7 @@ export const metadata = {
         alt: "Jackson Grocery Store Contact",
       },
     ],
-    locale: "en_US",
+    locale: "en_IN",
     type: "website",
   },
   twitter: {
@@ -58,10 +58,13 @@ export const metadata = {
 
 import ContactForm from "../../components/ContactForm";
 import BusinessInfo from "../../components/BusinessInfo";
+
 export default function ContactPage() {
   return (
     <main className="pt-[5.5rem] min-h-screen bg-white">
-      <ContactForm />
+      <section aria-label="Contact Form">
+        <ContactForm />
+      </section>
       <BusinessInfo />
     </main>
   );

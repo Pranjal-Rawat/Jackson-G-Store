@@ -2,28 +2,28 @@
 
 import clientPromise from '../../lib/mongodb';
 
+// Escape user input to prevent RegExp DoS or injection
+const escapeRegex = (str) => str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
 export async function GET(request) {
   try {
     const client = await clientPromise;
     const db = client.db('jackson-grocery-store');
-    const productsCollection = db.collection('products');
+    const products = db.collection('products');
 
     const { searchParams } = new URL(request.url);
-    const q = searchParams.get('q') || '';
+    const rawQuery = searchParams.get('q') || '';
     const category = searchParams.get('category');
 
-    // Build search filter
+    const q = escapeRegex(rawQuery.trim());
+
     const filter = {};
     if (q) filter.title = { $regex: q, $options: 'i' };
-    if (category) filter.category = category; // category is slug
+    if (category) filter.category = category;
 
-    const products = await productsCollection
-      .find(filter)
-      .limit(20)
-      .toArray();
+    const result = await products.find(filter).limit(20).toArray();
 
-    // Format for frontend
-    const normalized = products.map(p => ({
+    const formatted = result.map((p) => ({
       _id: p._id?.toString(),
       slug: p.slug,
       title: p.title,
@@ -32,7 +32,7 @@ export async function GET(request) {
       description: p.description || '',
     }));
 
-    return new Response(JSON.stringify(normalized), {
+    return new Response(JSON.stringify(formatted), {
       status: 200,
       headers: { 'Content-Type': 'application/json' },
     });
@@ -40,7 +40,7 @@ export async function GET(request) {
     console.error('[API][GET /api/search] Error:', error);
     return new Response(JSON.stringify({ error: 'Search failed' }), {
       status: 500,
-      headers: { 'Content-Type': 'application/json' }
+      headers: { 'Content-Type': 'application/json' },
     });
   }
 }

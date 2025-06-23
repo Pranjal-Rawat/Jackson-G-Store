@@ -1,52 +1,59 @@
-/* Route: /styles/globals.css – Tailwind global and custom styles */
+/* /styles/globals.css – Tailwind global + custom styles */
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* Slick Carousel for Category/Products */
 @import "slick-carousel/slick/slick.css";
 @import "slick-carousel/slick/slick-theme.css";
 
-/* ========== Custom Components Layer ========== */
+/* ========== Components ========== */
 @layer components {
   .btn-primary {
     @apply bg-primary-500 hover:bg-primary-600 text-white font-bold py-2 px-4 rounded-lg shadow-theme transition-colors duration-300;
     @apply focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-primary-400;
   }
+
   .btn-secondary {
     @apply bg-secondary-500 hover:bg-secondary-600 text-primary-500 font-bold py-2 px-4 rounded-lg transition-colors duration-300;
     @apply focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-secondary-400;
   }
+
   .badge {
     @apply bg-secondary-500 text-primary-500 px-2 py-1 text-xs font-semibold rounded-full;
   }
+
   .card {
     @apply bg-white p-4 rounded-xl shadow-theme transition-transform duration-200 hover:scale-[1.02] focus-within:scale-[1.01];
   }
 }
 
-/* ========== Custom Utilities Layer ========== */
+/* ========== Utilities ========== */
 @layer utilities {
   .text-gradient {
     @apply bg-clip-text text-transparent;
     background-image: linear-gradient(90deg, #ED1C24 0%, #FFCC00 100%);
   }
+
   .shadow-theme {
-    /* Subtle brand shadow */
-    box-shadow: 0 2px 12px 0 rgba(237, 50, 55, 0.08), 0 1.5px 6px 0 rgba(255, 204, 41, 0.05);
+    box-shadow: 0 2px 12px rgba(237, 50, 55, 0.08), 0 1.5px 6px rgba(255, 204, 41, 0.05);
   }
+
   .theme-shadow {
     @apply shadow-theme;
   }
+
   .scale-102 {
     transform: scale(1.02);
   }
+
   .scale-97 {
     transform: scale(0.97);
   }
 }
 
-/* ========== Typography Enhancements ========== */
+/* ========== Base Styles ========== */
 body {
   @apply text-gray-800 bg-white antialiased;
   font-family: var(--font-geist-sans, 'Inter', 'Segoe UI', Arial, sans-serif);
@@ -56,7 +63,7 @@ a {
   @apply transition-colors duration-200;
 }
 
-/* Remove blue highlight on tap for mobile */
+/* Mobile tap highlight fix */
 button, a {
   -webkit-tap-highlight-color: transparent;
 }

@@ -7,7 +7,6 @@ export async function POST(request) {
   try {
     const { cartItems } = await request.json();
 
-    // Input validation
     if (!Array.isArray(cartItems) || cartItems.length === 0) {
       return new Response(JSON.stringify({ error: 'Invalid cart items.' }), {
         status: 400,
@@ -17,17 +16,16 @@ export async function POST(request) {
 
     const client = await clientPromise;
     const db = client.db('jackson-grocery-store');
-    const productsCollection = db.collection('products');
-
+    const products = db.collection('products');
     const understocked = [];
 
-    // Atomic stock reduction per item
     for (const item of cartItems) {
       let productId = item._id || item.productId || item.id;
       if (typeof productId === 'string' && ObjectId.isValid(productId)) {
         productId = new ObjectId(productId);
       }
-      const res = await productsCollection.updateOne(
+
+      const result = await products.updateOne(
         {
           $or: [
             { _id: productId },
@@ -38,7 +36,8 @@ export async function POST(request) {
         },
         { $inc: { stock: -item.quantity } }
       );
-      if (res.matchedCount === 0) {
+
+      if (result.matchedCount === 0) {
         understocked.push(item);
       }
     }
@@ -59,8 +58,9 @@ export async function POST(request) {
       headers: { 'Content-Type': 'application/json' }
     });
   } catch (error) {
+    console.error('[API][POST /api/reduce-stock] Error:', error);
     return new Response(JSON.stringify({ error: error.message }), {
-      status: 400,
+      status: 500,
       headers: { 'Content-Type': 'application/json' }
     });
   }

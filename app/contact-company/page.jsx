@@ -23,7 +23,7 @@ export const metadata = {
         alt: 'Jackson Grocery Store Business Enquiries',
       },
     ],
-    locale: 'en_US',
+    locale: 'en_IN',
     type: 'website',
   },
   twitter: {
@@ -43,7 +43,10 @@ import BusinessInfo from '../../components/BusinessInfo';
 export default function ContactCompanyPage() {
   return (
     <main className="min-h-screen bg-gradient-to-b from-[#fff9f0] via-[#f5fbfa] to-[#fff6e3] pt-28 pb-20 px-2">
-      <section className="max-w-xl mx-auto bg-white/90 rounded-2xl shadow-lg px-8 py-10 border border-[#ffcc29]/40">
+      <section
+        aria-label="Business Contact Form"
+        className="max-w-xl mx-auto bg-white/90 rounded-2xl shadow-lg px-8 py-10 border border-[#ffcc29]/40"
+      >
         <div className="flex flex-col items-center mb-8">
           <img
             src="https://res.cloudinary.com/dy1uhnjnq/image/upload/v1749755125/Jackson_Logo_page-0001-removebg-preview_yqeopv.png"
@@ -56,14 +59,20 @@ export default function ContactCompanyPage() {
             Are you a brand, vendor, or distributor? Fill out the form below to partner with us.
           </p>
         </div>
+
         {/* Client Component for the form */}
         <CompanyContactForm />
+
         <div className="text-xs text-gray-400 mt-7 text-center">
           <b>Note:</b> This form opens your email app to send the enquiry.
           <br />
-          For urgent partnerships, call <a href="tel:+917417229660" className="underline text-[#ed3237]">+91 74172 29660</a>.
+          For urgent partnerships, call{' '}
+          <a href="tel:+917417229660" className="underline text-[#ed3237]">
+            +91 74172 29660
+          </a>.
         </div>
       </section>
+
       <BusinessInfo />
     </main>
   );

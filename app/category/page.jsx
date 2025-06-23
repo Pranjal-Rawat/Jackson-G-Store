@@ -23,7 +23,7 @@ export const metadata = {
         alt: "Jackson Grocery Store Categories",
       },
     ],
-    locale: "en_US",
+    locale: "en_IN",
     type: "website",
   },
   twitter: {
@@ -60,20 +60,21 @@ export const metadata = {
 
 import BusinessInfo from '../../components/BusinessInfo';
 import CategoryCarousel from '../../components/CategoryCarousel';
-// LocalBusinessLDJson REMOVED, as JSON-LD is now in metadata
 
 export default function CategoryHomePage() {
   return (
     <main className="pt-[5.5rem] min-h-screen bg-white">
       <CategoryCarousel />
-      {/* SEO text for Google below carousel */}
+
+      {/* SEO Text Section */}
       <section className="max-w-2xl mx-auto my-10 px-4 text-center text-gray-600">
         <h2 className="text-xl font-bold mb-2">Shop by Category – Groceries Delivered Fresh</h2>
         <p>
           Discover all our grocery categories—fruits, dairy, snacks, and daily essentials. Enjoy fast delivery and top brands with Jackson Grocery Store in Dehradun.
         </p>
       </section>
-      {/* Local business info card (UI only) */}
+
+      {/* Local Business Info (UI only) */}
       <BusinessInfo />
     </main>
   );

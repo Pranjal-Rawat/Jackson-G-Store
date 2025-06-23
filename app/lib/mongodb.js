@@ -15,19 +15,16 @@ import { MongoClient } from 'mongodb';
 
 // Load .env.local ONLY if not on Vercel (prevents double-loading or security risk)
 if (process.env.NODE_ENV !== 'production') {
-  // Only load dotenv in dev/local environments
   require('dotenv').config({ path: '.env.local' });
 }
 
 const uri = process.env.MONGODB_URI;
 const options = {};
 
-// Fail fast if no URI found
 if (!uri) {
   throw new Error('Please add your Mongo URI to .env.local');
 }
 
-// Use global scope to persist client across hot reloads in dev
 let clientPromise;
 const globalForMongo = globalThis;
 
@@ -37,7 +34,6 @@ if (!globalForMongo._mongoClientPromise) {
 }
 clientPromise = globalForMongo._mongoClientPromise;
 
-// Export a promise for use in API routes (never exposed to client!)
 export default clientPromise;
 
 /*
