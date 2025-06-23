@@ -1,9 +1,8 @@
 # *
 User-agent: *
 Allow: /
+Disallow: /cart
+Disallow: /search
 
 # Host
 Host: https://jackson-grocery.com
-
-# Sitemaps
-Sitemap: https://jackson-grocery.com/sitemap.xml
