@@ -10,12 +10,14 @@
   - Google rewards site health, reliability, and clean code.
   - For best SEO, ensure all API/SSR routes are fast and reliable.
 */
-
+// /app/lib/mongodb.js
 import { MongoClient } from 'mongodb';
 
-// Load .env.local ONLY if not on Vercel (prevents double-loading or security risk)
+// In dev mode, you can optionally load .env.local (not needed if already loaded by Next.js)
 if (process.env.NODE_ENV !== 'production') {
-  require('dotenv').config({ path: '.env.local' });
+  // Using dynamic import for dotenv in ESM
+  const dotenv = await import('dotenv');
+  dotenv.config({ path: '.env.local' });
 }
 
 const uri = process.env.MONGODB_URI;
@@ -35,9 +37,3 @@ if (!globalForMongo._mongoClientPromise) {
 clientPromise = globalForMongo._mongoClientPromise;
 
 export default clientPromise;
-
-/*
-  SEO NOTE:
-  - Fast, reliable API/database connections improve SEO via better Core Web Vitals.
-  - This file should never import/export anything frontend or leak env vars to the client bundle.
-*/

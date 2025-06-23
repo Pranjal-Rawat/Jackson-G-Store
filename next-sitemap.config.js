@@ -6,7 +6,6 @@ export default {
   generateRobotsTxt: true,
   exclude: ['/cart', '/search'],
   transform: async (config, url) => {
-    // custom logic per-URL here
     return {
       loc: url,
       changefreq: url.includes('/products/') ? 'weekly' : 'monthly',
@@ -14,7 +13,7 @@ export default {
       lastmod: new Date().toISOString(),
     };
   },
-  additionalPaths: async (config) => {
+  additionalPaths: async () => {
     const client = await clientPromise;
     const products = await client
       .db('jackson-grocery-store')
@@ -25,13 +24,13 @@ export default {
 
     return products.map((p) => ({
       loc: `/products/${p.slug}`,
-      lastmod: p.updatedAt.toISOString(),
+      lastmod: (p.updatedAt instanceof Date ? p.updatedAt : new Date()).toISOString(),
       changefreq: 'weekly',
       priority: 0.7,
       images: [
         {
-          loc: p.image,
-          caption: p.title,
+          loc: p.image || 'https://jackson-grocery.com/images/logo.svg',
+          caption: p.title || 'Product',
         },
       ],
     }));
