@@ -35,8 +35,8 @@ export const metadata = {
   },
 };
 
-import BusinessInfo from '@/components/BusinessInfo';
-import Cart from '@/components/Cart';
+import BusinessInfo from '../../components/BusinessInfo';
+import Cart from '../../components/Cart';
 
 export default function CartPage() {
   return (

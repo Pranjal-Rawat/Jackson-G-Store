@@ -1,6 +1,6 @@
 // /app/about/page.jsx
 
-import BusinessInfo from "@/components/BusinessInfo";
+import BusinessInfo from "../../components/BusinessInfo";
 
 export const metadata = {
   title: "About Us | Jackson Grocery Store | Grocery Store Dehradun",

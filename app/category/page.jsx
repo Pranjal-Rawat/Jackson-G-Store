@@ -58,8 +58,8 @@ export const metadata = {
   },
 };
 
-import BusinessInfo from '@/components/BusinessInfo';
-import CategoryCarousel from '@/components/CategoryCarousel';
+import BusinessInfo from '../../components/BusinessInfo';
+import CategoryCarousel from '../../components/CategoryCarousel';
 // LocalBusinessLDJson REMOVED, as JSON-LD is now in metadata
 
 export default function CategoryHomePage() {

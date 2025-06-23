@@ -3,7 +3,7 @@
 import clientPromise from '../../lib/mongodb';
 import { getCategoryJsonLD } from '../../lib/seo/jsonld';
 import BusinessInfo from '../../../components/BusinessInfo';
-import ProductsPageClient from '../../products/ProductsPageClient';
+import ProductsPageClient from '../../products/client';
 
 // --- Fix: Await params! ---
 export async function generateMetadata({ params }) {

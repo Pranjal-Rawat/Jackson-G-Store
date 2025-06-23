@@ -37,8 +37,8 @@ export const metadata = {
   },
 };
 
-import CompanyContactForm from '../components/CompanyContactForm';
-import BusinessInfo from '@/components/BusinessInfo';
+import CompanyContactForm from '../../components/CompanyContactForm';
+import BusinessInfo from '../../components/BusinessInfo';
 
 export default function ContactCompanyPage() {
   return (

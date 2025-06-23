@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
-module.exports = {
-  siteUrl: 'https://jackson-grocery.com',
+export default {
+  siteUrl: 'https://jackson-grocery.com',   // no trailing slash
   generateRobotsTxt: true,
   generateIndexSitemap: false,
   changefreq: 'weekly',
@@ -13,7 +13,7 @@ module.exports = {
         userAgent: '*',
         allow: '/',
         disallow: ['/cart', '/search'],
-      }
+      },
     ],
-  }
+  },
 };

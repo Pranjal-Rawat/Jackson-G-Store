@@ -1,10 +1,10 @@
 // app/layout.jsx
 import { Geist, Geist_Mono } from 'next/font/google';
 import '../styles/globals.css';
-import Footer from '@/components/Footer';
-import PageTransitionLoader from '@/components/PageTransitionLoader';
-import Header from '@/components/Header';
-import FloatingCartButton from '@/components/FloatingCartButton';
+import Footer from '../components/Footer';
+import PageTransitionLoader from '../components/PageTransitionLoader';
+import Header from '../components/Header';
+import FloatingCartButton from '../components/FloatingCartButton';
 
 // ---- SEO Variables ----
 const siteUrl = 'https://jackson-grocery.com';

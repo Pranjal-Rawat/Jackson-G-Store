@@ -56,8 +56,8 @@ export const metadata = {
   },
 };
 
-import ContactForm from "@/components/ContactForm";
-import BusinessInfo from "@/components/BusinessInfo";
+import ContactForm from "../../components/ContactForm";
+import BusinessInfo from "../../components/BusinessInfo";
 export default function ContactPage() {
   return (
     <main className="pt-[5.5rem] min-h-screen bg-white">

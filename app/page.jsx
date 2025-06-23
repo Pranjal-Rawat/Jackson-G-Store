@@ -1,7 +1,7 @@
 // app/page.jsx
-import PerformanceCarousel from '@/components/Carousel';
-import CategoryCarousel from '@/components/CategoryCarousel';
-import PopularProducts from '@/components/PopularProducts';
+import PerformanceCarousel from '../components/Carousel';
+import CategoryCarousel from '../components/CategoryCarousel';
+import PopularProducts from '../components/PopularProducts';
 import clientPromise from './lib/mongodb';
 
 // ---- SEO Variables ----

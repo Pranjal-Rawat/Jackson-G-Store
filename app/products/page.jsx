@@ -3,7 +3,7 @@
 import clientPromise from '../lib/mongodb';
 import BusinessInfo from '../../components/BusinessInfo';
 import { getCategoryJsonLD } from '../lib/seo/jsonld';
-import ProductsPageClient from './ProductsPageClient';
+import ProductsPageClient from './client';
 
 export const metadata = {
   title: 'All Products | Jackson Grocery Store | Grocery Store Dehradun',
