@@ -78,6 +78,18 @@ export function getProductJsonLD(product) {
   };
 }
 
+// ✅ NEW: Use this for category banners instead of Product to avoid validation errors
+export function getCategoryBannerJsonLD({ title, description, slug }) {
+  const url = `https://jackson-grocery.com/category/${slug}`;
+  return {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: title,
+    description,
+    url
+  };
+}
+
 export function getCategoryJsonLD({ categorySlug, categoryName }) {
   const base = "https://jackson-grocery.com";
   const categoryPath = categorySlug === "products"
