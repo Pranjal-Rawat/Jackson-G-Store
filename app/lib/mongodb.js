@@ -19,17 +19,24 @@ const uri = process.env.MONGODB_URI;
 const options = {};
 
 if (!uri) {
-  throw new Error('Please define the MONGODB_URI environment variable in .env.local');
+  throw new Error('Please define the MONGODB_URI environment variable inside .env.local');
 }
 
-// Global cache for development to prevent re-creating connections
+// Use global cache to avoid re-creating clients during hot reloads in dev
 let clientPromise;
 
-if (!global._mongoClientPromise) {
+if (!globalThis._mongoClientPromise) {
   const client = new MongoClient(uri, options);
-  global._mongoClientPromise = client.connect();
+  globalThis._mongoClientPromise = client.connect();
 }
 
-clientPromise = global._mongoClientPromise;
+clientPromise = globalThis._mongoClientPromise;
 
 export default clientPromise;
+
+
+/*
+  SEO NOTE:
+  - Fast, reliable API/database connections improve SEO via better Core Web Vitals.
+  - This file should never import/export anything frontend or leak env vars to the client bundle.
+*/
