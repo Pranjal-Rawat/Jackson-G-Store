@@ -1,4 +1,5 @@
 // /app/contact/page.jsx
+// /app/contact/page.jsx
 
 export const metadata = {
   title: "Contact Us | Jackson Grocery Store | Grocery Store Dehradun",
@@ -62,7 +63,16 @@ import BusinessInfo from "../../components/BusinessInfo";
 export default function ContactPage() {
   return (
     <main className="pt-[5.5rem] min-h-screen bg-white">
-      <section aria-label="Contact Form">
+      <section
+        aria-label="Contact Jackson Grocery Store"
+        className="max-w-2xl mx-auto py-10 px-4"
+      >
+        <h1 className="text-3xl font-extrabold text-gray-800 mb-3 text-center">
+          Contact Jackson Grocery Store
+        </h1>
+        <p className="text-center text-gray-600 mb-8">
+          Have a question, order, or feedback? Fill out the form below or use the details at the bottom to reach us. We're here to help!
+        </p>
         <ContactForm />
       </section>
       <BusinessInfo />

@@ -1,253 +1,272 @@
-'use client';
-
-import { useState, useRef } from 'react';
-import { useRouter } from 'next/navigation';
-import Header from '../../components/Header';
-import CustomLoader from '../../components/CustomLoader';
-import LoadMoreButton from '../../components/LoadMoreButton';
+import clientPromise from '../../lib/mongodb';
+import { notFound } from 'next/navigation';
 import Image from 'next/image';
-import { useCartStore } from '../../stores/cartStore';
-import { Search } from 'lucide-react';
-import AdBanner from '../../components/Ad-Promotions';
+import AddToCartButton from '../../../components/AddToCartButton';
+import Link from 'next/link';
+import { getProductJsonLD } from '../../lib/seo/jsonld';
+import BusinessInfo from '../../../components/BusinessInfo';
+import { getOptimizedCloudinaryUrl } from '@/lib/getOptimizedCloudinaryUrl'; // ✅ Optimizer
 
-// Product image with error fallback
-function ProductImage({ src, alt }) {
-  const [imgSrc, setImgSrc] = useState(src || '/images/logo.svg');
-  return (
-    <Image
-      src={imgSrc}
-      alt={alt || 'Product image from Jackson Grocery Store in Dehradun'}
-      fill
-      className="object-contain p-2 transition-transform duration-300 group-hover:scale-105"
-      sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 25vw"
-      loading="lazy"
-      onError={() => setImgSrc('/images/logo.svg')}
-      priority={false}
-    />
-  );
-}
+export const dynamic = 'force-dynamic'; // Always SSR, latest data
 
-// Add to cart button
-function AddToCartButton({ product, quantity = 1, option = null, className = '', disabled = false }) {
-  const addToCart = useCartStore((state) => state.addItem);
+export async function generateMetadata({ params }) {
+  const { slug } = params;
+  const client = await clientPromise;
+  const db = client.db('jackson-grocery-store');
+  const product = await db
+    .collection('products')
+    .findOne({ slug }, { projection: { description: 1, title: 1, image: 1, price: 1, stock: 1, category: 1, mrp: 1 } });
+  if (!product) return {};
 
-  const handleAddToCart = (e) => {
-    if (disabled) return;
-    e.preventDefault();
-    e.stopPropagation();
-    addToCart({ ...product, quantity, option });
+  const title = `${product.title || product['Product Name'] || 'Product'} - Jackson Grocery Store | Grocery Store Dehradun`;
+  const description =
+    product.description ||
+    product.Description ||
+    'View product details on Jackson Grocery Store. Buy fresh groceries online in Dehradun.';
+  const image = getOptimizedCloudinaryUrl(product.image || '/images/logo.svg');
+  const price = Number(product.price || product.Price || 0);
+  const stock = product.stock ?? 0;
+
+  return {
+    title,
+    description,
+    keywords:
+      'Jackson Grocery Store, Grocery Store Dehradun, Best Grocery Store, Fresh groceries Dehradun, Buy groceries online Dehradun, Jackson groceries, ' +
+      (product.title || product['Product Name'] || '') +
+      ', ' +
+      (product.category || ''),
+    alternates: {
+      canonical: `https://jackson-grocery.com/products/${slug}`,
+    },
+    openGraph: {
+      title,
+      description,
+      url: `https://jackson-grocery.com/products/${slug}`,
+      type: 'website',
+      images: [
+        {
+          url: image,
+          width: 800,
+          height: 600,
+          alt: product.title || product['Product Name'] || 'Product image',
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: [image],
+    },
+    other: {
+      'ld+json': JSON.stringify(
+        getProductJsonLD({
+          ...product,
+          slug,
+          price,
+          stock,
+          image,
+          description,
+          title: product.title || product['Product Name'] || 'Product',
+        })
+      ),
+    },
   };
-
-  return (
-    <button
-      onClick={handleAddToCart}
-      disabled={disabled}
-      className={`relative inline-flex items-center justify-center gap-1 px-3 py-1 bg-gradient-to-tr from-[#ed3237] to-[#ffcc29] hover:from-[#ffcc29] hover:to-[#ed3237] text-white font-bold rounded-full shadow hover:shadow-md active:scale-95 focus:outline-none focus:ring-2 focus:ring-[#ffcc29]/60 transition-all duration-150 group text-xs min-w-[80px] sm:min-w-[100px]
-        ${disabled ? 'opacity-60 cursor-not-allowed' : ''}
-        ${className}
-      `}
-      aria-label={disabled ? 'Out of Stock' : `Add ${product?.title || 'product'} to cart`}
-      style={{ WebkitTapHighlightColor: 'transparent' }}
-      tabIndex={0}
-      type="button"
-    >
-      <span className="z-10 flex items-center">
-        <CartIcon className="w-4 h-4 mr-1 text-[#ffcc29]" />
-        <span className="font-bold tracking-wide">
-          {disabled ? 'Out of Stock' : 'Add'}
-        </span>
-      </span>
-    </button>
-  );
 }
 
-// Cart SVG Icon
-function CartIcon({ className = "" }) {
-  return (
-    <svg className={className} viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth={1.5}>
-      <circle cx="7" cy="16" r="1.5" fill="#ed3237" />
-      <circle cx="15" cy="16" r="1.5" fill="#ed3237" />
-      <path
-        d="M2.5 3.5h2l2.28 9.12a1.25 1.25 0 0 0 1.21.88h6.5a1.25 1.25 0 0 0 1.21-.88l1.38-4.36a.75.75 0 0 0-.72-.98H7"
-        stroke="#ed3237"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
-  );
-}
+export default async function ProductPage({ params }) {
+  const { slug } = params;
+  const client = await clientPromise;
+  const db = client.db('jackson-grocery-store');
 
-// Main ProductsPageClient
-export default function ProductsPageClient({ initialProducts }) {
-  const initialRef = useRef(initialProducts);
-  const [products, setProducts] = useState(initialRef.current);
-  const [loading, setLoading] = useState(false);
-  const [hasMore, setHasMore] = useState(true);
-  const [query, setQuery] = useState('');
+  const product = await db
+    .collection('products')
+    .findOne({ slug }, { projection: { description: 1, title: 1, image: 1, price: 1, mrp: 1, stock: 1, category: 1, unit: 1, pcs: 1, rank: 1, popular: 1, _id: 1 } });
+  if (!product) return notFound();
 
-  const router = useRouter();
+  const related = await db
+    .collection('products')
+    .find({ category: product.category, slug: { $ne: slug } }, { projection: { title: 1, image: 1, price: 1, mrp: 1, stock: 1, category: 1, unit: 1, pcs: 1, rank: 1, popular: 1, slug: 1, _id: 1 } })
+    .limit(8)
+    .toArray();
 
-  // Handle search
-  async function handleSearch(value) {
-    setQuery(value);
-    if (value.length < 2) {
-      setProducts(initialRef.current);
-      setHasMore(true);
-      return;
-    }
-    setLoading(true);
-    try {
-      let searchUrl = `/api/search?q=${encodeURIComponent(value)}`;
-      const res = await fetch(searchUrl);
-      const data = await res.json();
-      setProducts(data);
-      setHasMore(false);
-    } catch {
-      setProducts([]);
-    }
-    setLoading(false);
-  }
+  const mainProduct = {
+    ...product,
+    _id: product._id?.toString?.() || product._id || '',
+  };
+  const relatedSafe = related.map((p) => ({
+    ...p,
+    _id: p._id?.toString?.() || p._id || '',
+  }));
 
-  // Load more products handler
-  async function loadMore() {
-    if (loading || !hasMore) return;
-    setLoading(true);
-    try {
-      let url = `/api/products?skip=${products.length}&limit=50`;
-      const res = await fetch(url);
-      const moreProducts = await res.json();
-      if (!moreProducts.length) {
-        setHasMore(false);
-      } else {
-        setProducts((prev) => [...prev, ...moreProducts]);
-      }
-    } catch {
-      setHasMore(false);
-    }
-    setLoading(false);
-  }
+  const title = mainProduct.title || mainProduct['Product Name'] || 'Product';
+  const description = mainProduct.description || mainProduct.Description || '';
+  const price = Number(mainProduct.price || mainProduct.Price || 0);
+  const mrp = mainProduct.mrp || '';
+  const stock = mainProduct.stock ?? 0;
+  const isOutOfStock = stock <= 0;
+  const category = mainProduct.category || 'General';
+  const image = getOptimizedCloudinaryUrl(mainProduct.image || '/images/logo.svg');
+  const unit = mainProduct.unit || mainProduct.quantity || '';
+  const pcs = mainProduct.pcs || '';
+  const rank = mainProduct.rank;
+  const isPopular = mainProduct.popular === true || mainProduct.popular === 'true';
 
   return (
-    <main className="min-h-screen bg-gradient-to-b from-[#fffcf7] via-white to-[#fff6e3] text-[#272f38] pt-[80px]">
-      <Header />
-
-      <section className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-12 py-4">
-        {/* Search bar */}
-        <div className="max-w-2xl mx-auto mb-8 relative">
-          <span className="absolute left-4 top-1/2 -translate-y-1/2 text-[#ed3237]">
-            <Search className="w-5 h-5" />
-          </span>
-          <input
-            type="text"
-            placeholder="Search products..."
-            value={query}
-            onChange={e => handleSearch(e.target.value)}
-            className="w-full pl-12 pr-4 py-3 bg-white/90 border border-[#ed3237]/20 rounded-xl shadow focus:ring-2 focus:ring-[#ed3237] focus:border-[#ed3237] transition outline-none placeholder:text-gray-400 text-base"
-            aria-label="Search products"
-            autoComplete="off"
-          />
+    <main className="max-w-3xl mx-auto pt-28 pb-16 px-2 sm:px-4 bg-gray-50 min-h-[80vh]">
+      <div className="bg-white rounded-2xl shadow-md flex flex-col md:flex-row gap-8 p-4 sm:p-8 relative">
+        {/* Badges */}
+        <div className="absolute top-5 left-5 flex flex-col gap-2 z-10">
+          {typeof rank === "number" && (
+            <span className="bg-[#ffcc29] text-[#ed3237] px-2 py-1 rounded-full text-xs font-bold shadow-sm border border-[#ffe58a]">
+              Rank #{rank}
+            </span>
+          )}
+          {isPopular && (
+            <span className="bg-red-600 text-white px-2 py-1 rounded-full text-xs font-bold shadow-sm border border-red-300">
+              ★ Popular
+            </span>
+          )}
         </div>
+        {isOutOfStock && (
+          <span className="absolute top-5 right-5 z-10 bg-red-600 text-white px-3 py-1 rounded-full font-bold text-xs shadow">
+            Out of Stock
+          </span>
+        )}
+        <div className="flex-shrink-0 w-full md:w-1/2 flex justify-center items-center">
+          <div className="relative w-full h-56 sm:h-72 md:h-96 bg-white rounded-xl overflow-hidden shadow">
+            <Image
+              src={image}
+              alt={title}
+              fill
+              className="object-contain bg-white"
+              sizes="(max-width: 768px) 100vw, 500px"
+              priority
+              placeholder="blur"
+              blurDataURL="/images/logo.svg"
+            />
+          </div>
+        </div>
+        <div className="flex-1 flex flex-col justify-between">
+          <div>
+            <h1 className="text-2xl sm:text-3xl font-bold mb-2 text-gray-900">{title}</h1>
+            {(unit || pcs) && (
+              <div className="flex gap-2 text-sm text-gray-500 font-medium mb-2">
+                {unit && <span>{unit}</span>}
+                {pcs && <span className="text-gray-400">| {pcs} PCS</span>}
+              </div>
+            )}
+            <p className="text-base sm:text-lg text-gray-700 mb-4">{description}</p>
+            <div className="flex items-center gap-2 mb-3">
+              {mrp && (
+                <span className="text-sm text-gray-400 line-through">
+                  MRP ₹{typeof mrp === 'number' ? mrp.toFixed(2) : mrp}
+                </span>
+              )}
+              <span className="text-2xl text-red-600 font-extrabold">
+                ₹{price.toFixed(2)}
+              </span>
+            </div>
+            <div className="text-sm text-gray-500 mb-1">Category: {category}</div>
+            <div className="text-sm text-gray-500 mb-3">
+              {isOutOfStock ? (
+                <span className="font-bold text-red-600">Out of Stock</span>
+              ) : (
+                <>In Stock: {stock}</>
+              )}
+            </div>
+          </div>
+          <div className="mt-4">
+            <AddToCartButton product={mainProduct} disabled={isOutOfStock} className="w-full" />
+          </div>
+        </div>
+      </div>
 
-        {/* Promotional Banner */}
-        <AdBanner
-          title="Monsoon Sale: Up to 40% OFF!"
-          description="Fresh veggies and fruits delivered at your doorstep. Hurry, ends soon!"
-          image="/images/ad-monsoon.jpg"
-          cta="Shop Fresh"
-          link="/category/fruits"
-          bg="bg-green-100"
-        />
-
-        {/* Products Grid or Loader/Error */}
-        {loading && products.length === 0 ? (
-          <CustomLoader />
-        ) : products.length > 0 ? (
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-5 md:gap-7">
-            {products.map((product) => {
-              const stock = product.stock ?? 0;
-              const isOutOfStock = stock <= 0;
+      {relatedSafe.length > 0 && (
+        <>
+          <h2 className="font-semibold mb-4 mt-12 text-lg sm:text-xl text-gray-800">
+            Related Products
+          </h2>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+            {relatedSafe.map((p) => {
+              const relImage = getOptimizedCloudinaryUrl(p.image || '/images/logo.svg');
+              const relStock = p.stock ?? 0;
+              const relIsOut = relStock <= 0;
+              const relUnit = p.unit || p.quantity || '';
+              const relPcs = p.pcs || '';
+              const relRank = p.rank;
+              const relPopular = p.popular === true || p.popular === 'true';
+              const relMrp = p.mrp || '';
               return (
                 <div
-                  key={product._id || product.id}
-                  className={`relative bg-white rounded-2xl shadow group border border-[#ffcc29]/20 overflow-hidden flex flex-col transition-all duration-200 hover:shadow-lg cursor-pointer ${isOutOfStock ? 'opacity-80 pointer-events-auto' : ''
-                    }`}
-                  tabIndex={0}
-                  role="button"
-                  aria-label={`View details for ${product.title} from Jackson Grocery Store`}
-                  onClick={() => router.push(`/products/${product.slug}`)}
-                  onKeyDown={e => {
-                    if (e.key === "Enter" || e.key === " ") {
-                      router.push(`/products/${product.slug}`);
-                    }
-                  }}
+                  key={p._id}
+                  className="group bg-white border border-[#ffcc29]/20 rounded-2xl p-3 flex flex-col items-center shadow hover:shadow-lg transition relative"
                 >
-                  {/* Out of Stock Badge */}
-                  {isOutOfStock && (
-                    <span className="absolute top-2 right-2 z-10 bg-red-600 text-white px-2 py-0.5 rounded-full font-bold text-xs shadow">
+                  <div className="absolute top-3 left-3 flex flex-col gap-1 z-10">
+                    {typeof relRank === "number" && (
+                      <span className="bg-[#ffcc29] text-[#ed3237] px-2 py-0.5 rounded-full text-[10px] font-bold shadow-sm border border-[#ffe58a]">
+                        Rank #{relRank}
+                      </span>
+                    )}
+                    {relPopular && (
+                      <span className="bg-red-600 text-white px-2 py-0.5 rounded-full text-[10px] font-bold shadow-sm border border-red-300">
+                        ★ Popular
+                      </span>
+                    )}
+                  </div>
+                  {relIsOut && (
+                    <span className="absolute top-3 right-3 z-10 bg-red-600 text-white px-2 py-0.5 rounded-full font-bold text-xs shadow">
                       Out of Stock
                     </span>
                   )}
-                  {/* Product Image */}
-                  <div className="relative w-full h-36 sm:h-44 bg-gradient-to-br from-[#fffdfa] to-[#fff7dc] flex items-center justify-center">
-                    <ProductImage
-                      src={product.image}
-                      alt={`Buy ${product.title} in Dehradun | Jackson Grocery Store`}
-                    />
-                  </div>
-                  {/* Card Content */}
-                  <div className="flex-1 flex flex-col p-3 gap-1">
-                    {/* Product Name */}
-                    <h3 className="text-base font-semibold text-[#272f38] truncate mb-0.5">{product.title}</h3>
-
-                    {/* Quantity/unit + PCS */}
-                    <div className="flex gap-2 text-xs text-gray-600 font-medium mb-1">
-                      {product.unit && <span>{product.unit}</span>}
-                      {product.pcs && <span className="text-gray-400">| {product.pcs} PCS</span>}
+                  <Link
+                    href={`/products/${p.slug}`}
+                    className="w-full flex flex-col items-center"
+                    tabIndex={-1}
+                  >
+                    <div className="relative w-20 h-20 sm:w-24 sm:h-24 mb-2 flex items-center justify-center">
+                      <Image
+                        src={relImage}
+                        alt={p.title || 'Related product'}
+                        fill
+                        className="object-contain rounded-xl bg-white"
+                        sizes="96px"
+                        placeholder="blur"
+                        blurDataURL="/images/logo.svg"
+                      />
                     </div>
-
-                    {/* MRP and Price */}
-                    <div className="flex items-center gap-2 mt-0.5 mb-2">
-                      {product.mrp && (
-                        <span className="text-xs text-gray-400 line-through">
-                          ₹{typeof product.mrp === 'number' ? product.mrp.toFixed(2) : product.mrp}
+                    <div className="text-xs sm:text-sm font-semibold text-center mb-1 truncate w-full">
+                      {p.title}
+                    </div>
+                    {(relUnit || relPcs) && (
+                      <div className="text-[11px] text-gray-500 font-medium mb-1 flex gap-1">
+                        {relUnit && <span>{relUnit}</span>}
+                        {relPcs && <span className="text-gray-400">| {relPcs} PCS</span>}
+                      </div>
+                    )}
+                    <div className="flex items-center gap-1 mb-1">
+                      {relMrp && (
+                        <span className="text-[11px] text-gray-400 line-through">
+                          ₹{typeof relMrp === 'number' ? relMrp.toFixed(2) : relMrp}
                         </span>
                       )}
-                      <span className="bg-[#ffcc29] text-[#ed3237] font-bold rounded-full px-3 py-1 text-sm shadow-sm flex-shrink-0">
-                        ₹{typeof product.price === 'number' ? product.price.toFixed(2) : 'N/A'}
+                      <span className="text-red-600 font-bold text-sm">
+                        ₹{typeof p.price === 'number' ? p.price.toFixed(2) : 'N/A'}
                       </span>
                     </div>
-                    {/* Add to Cart */}
-                    <AddToCartButton
-                      product={product}
-                      quantity={1}
-                      className="py-1 px-3 text-xs rounded-full font-bold"
-                      disabled={isOutOfStock}
-                    />
+                    <div className="text-[10px] sm:text-xs text-gray-500">{p.category}</div>
+                  </Link>
+                  <div className="mt-2 w-full flex justify-center">
+                    <AddToCartButton product={p} className="w-full py-1 text-xs" disabled={relIsOut} />
                   </div>
                 </div>
               );
             })}
           </div>
-        ) : query.length >= 2 ? (
-          <div className="flex flex-col items-center py-14 opacity-80">
-            <Image src="/images/logo.svg" alt="Jackson Grocery Logo" width={60} height={60} />
-            <p className="mt-6 text-lg text-[#ed3237] font-semibold">No products found.</p>
-          </div>
-        ) : (
-          <div className="flex flex-col items-center py-14 opacity-70">
-            <Image src="/images/logo.svg" alt="Jackson Grocery Logo" width={56} height={56} />
-            <p className="mt-5 text-base text-[#ffcc29]">No products found.</p>
-          </div>
-        )}
+        </>
+      )}
 
-        {/* Loader for "load more" and button */}
-        {query.length < 2 && loading && <CustomLoader />}
-        {hasMore && !loading && (
-          <div className="flex justify-center mt-10">
-            <LoadMoreButton onClick={loadMore} disabled={!hasMore || loading} />
-          </div>
-        )}
-      </section>
+      <BusinessInfo />
     </main>
   );
 }

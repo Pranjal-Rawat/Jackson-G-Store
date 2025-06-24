@@ -10,7 +10,7 @@ export default function PopularProducts({ products }) {
   const [visibleCount, setVisibleCount] = useState(10);
 
   const popularSorted = useMemo(() => {
-    return [...products]
+    return products
       .filter((p) => p.popular === true || p.popular === 'true')
       .sort((a, b) => (a.rank ?? 0) - (b.rank ?? 0));
   }, [products]);
@@ -20,9 +20,12 @@ export default function PopularProducts({ products }) {
     [popularSorted, visibleCount]
   );
 
-  const handleAddToCart = useCallback((product) => {
-    addToCart({ ...product, quantity: 1 });
-  }, [addToCart]);
+  const handleAddToCart = useCallback(
+    (product) => {
+      addToCart({ ...product, quantity: 1 });
+    },
+    [addToCart]
+  );
 
   const handleLoadMore = useCallback(() => {
     setVisibleCount((prev) => Math.min(prev + 10, popularSorted.length));
@@ -51,12 +54,12 @@ export default function PopularProducts({ products }) {
     return (
       <Link
         href={`/products/${slug}`}
-        className="group block bg-white rounded-lg shadow hover:shadow-md transition cursor-pointer relative focus:outline-none"
+        className="group block bg-white rounded-lg shadow hover:shadow-md transition relative focus:outline-none"
         aria-label={`View details of ${title} – Jackson Grocery Store Dehradun`}
         itemScope
         itemType="https://schema.org/Product"
       >
-        {/* SEO Tags */}
+        {/* Structured Data Tags */}
         <meta itemProp="name" content={title} />
         <meta itemProp="sku" content={slug} />
         <meta itemProp="description" content={description || `Buy ${title} online in Dehradun`} />
@@ -64,7 +67,7 @@ export default function PopularProducts({ products }) {
         {/* Badges */}
         <div className="absolute top-2 left-2 flex flex-col gap-1 z-10">
           {typeof rank === 'number' && (
-            <span className="text-[10px] font-bold bg-[#ffcc29] text-[#ed3237] px-2 py-0.5 rounded-full border border-[#ffe58a] shadow-sm">
+            <span className="text-[10px] font-bold bg-yellow-300 text-yellow-900 px-2 py-0.5 rounded-full shadow-sm border border-yellow-400">
               Rank #{rank}
             </span>
           )}
@@ -83,11 +86,13 @@ export default function PopularProducts({ products }) {
             fill
             className="object-cover group-hover:scale-105 transition-transform duration-300"
             sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
-            {...(index === 0 ? { priority: true } : { loading: 'lazy' })}
+            priority={index < 2}
+            placeholder="blur"
+            blurDataURL="/images/logo.svg"
             itemProp="image"
           />
           {isOutOfStock && (
-            <span className="absolute top-2 right-2 z-10 bg-red-600 text-white px-2 py-0.5 rounded-full font-bold text-xs shadow">
+            <span className="absolute top-2 right-2 bg-red-600 text-white px-2 py-0.5 rounded-full font-bold text-xs shadow">
               Out of Stock
             </span>
           )}
@@ -138,7 +143,6 @@ export default function PopularProducts({ products }) {
             disabled={isOutOfStock}
             aria-label={isOutOfStock ? `Out of Stock` : `Add ${title} to cart`}
             type="button"
-            tabIndex={isOutOfStock ? -1 : 0}
           >
             {isOutOfStock ? 'Out of Stock' : 'Add to Cart'}
           </button>
@@ -150,8 +154,8 @@ export default function PopularProducts({ products }) {
   return (
     <section className="px-4 py-12 sm:px-6 lg:px-8 bg-gray-50">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-2xl font-bold mb-8">Popular Grocery Products in Dehradun</h2>
-        <p className="text-gray-700 mb-4 max-w-2xl">
+        <h2 className="text-2xl font-bold mb-4">Popular Grocery Products in Dehradun</h2>
+        <p className="text-gray-700 mb-6 max-w-2xl">
           Discover top-selling groceries, fruits, vegetables, and daily essentials. Shop the most popular products at
           Jackson Grocery Store, Dehradun for best prices and fast delivery.
         </p>

@@ -1,10 +1,10 @@
 // app/page.jsx
+import Gallery from '@/components/Gallery';
 import PerformanceCarousel from '../components/Carousel';
 import CategoryCarousel from '../components/CategoryCarousel';
 import PopularProducts from '../components/PopularProducts';
 import clientPromise from './lib/mongodb';
 
-// ---- SEO Constants ----
 const siteUrl = 'https://jackson-grocery.com';
 const siteName = 'Jackson Grocery Store';
 const description =
@@ -68,10 +68,7 @@ export const metadata = {
         postalCode: address.postalCode,
         addressCountry: address.country,
       },
-      sameAs: [
-        siteUrl,
-        // Add Instagram, Facebook etc. if available
-      ],
+      sameAs: [siteUrl],
     }),
   },
 };
@@ -135,7 +132,7 @@ export default async function Home() {
         </div>
       </section>
 
-      {/* Quality Promise */}
+      {/* Quality Promise + Gallery */}
       <section className="bg-white py-16">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
@@ -164,6 +161,13 @@ export default async function Home() {
             ))}
           </div>
         </div>
+
+        {/* Gallery */}
+        <div className="mt-20 max-w-7xl mx-auto px-4">
+          <h2 className="sr-only">Store Gallery</h2>
+          <Gallery />
+        </div>
+
       </section>
     </>
   );

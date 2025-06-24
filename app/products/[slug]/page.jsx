@@ -1,5 +1,3 @@
-// /app/products/[slug]/page.jsx
-
 import clientPromise from '../../lib/mongodb';
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
@@ -15,7 +13,9 @@ export async function generateMetadata({ params }) {
   const { slug } = params;
   const client = await clientPromise;
   const db = client.db('jackson-grocery-store');
-  const product = await db.collection('products').findOne({ slug });
+  const product = await db
+    .collection('products')
+    .findOne({ slug }, { projection: { description: 1, title: 1, image: 1, price: 1, stock: 1, category: 1, mrp: 1 } });
   if (!product) return {};
 
   const title = `${product.title || product['Product Name'] || 'Product'} - Jackson Grocery Store | Grocery Store Dehradun`;
@@ -79,14 +79,16 @@ export default async function ProductPage({ params }) {
   const client = await clientPromise;
   const db = client.db('jackson-grocery-store');
 
-  // --- Fetch product ---
-  const product = await db.collection('products').findOne({ slug });
+  // --- Fetch product (only needed fields for SSR) ---
+  const product = await db
+    .collection('products')
+    .findOne({ slug }, { projection: { description: 1, title: 1, image: 1, price: 1, mrp: 1, stock: 1, category: 1, unit: 1, pcs: 1, rank: 1, popular: 1, _id: 1 } });
   if (!product) return notFound();
 
   // --- Related products ---
   const related = await db
     .collection('products')
-    .find({ category: product.category, slug: { $ne: slug } })
+    .find({ category: product.category, slug: { $ne: slug } }, { projection: { title: 1, image: 1, price: 1, mrp: 1, stock: 1, category: 1, unit: 1, pcs: 1, rank: 1, popular: 1, slug: 1, _id: 1 } })
     .limit(8)
     .toArray();
 
@@ -99,7 +101,7 @@ export default async function ProductPage({ params }) {
     _id: p._id?.toString?.() || p._id || '',
   }));
 
-  // --- SEO/LD fields ---
+  // --- Key fields ---
   const title = mainProduct.title || mainProduct['Product Name'] || 'Product';
   const description = mainProduct.description || mainProduct.Description || '';
   const price = Number(mainProduct.price || mainProduct.Price || 0);
@@ -145,6 +147,8 @@ export default async function ProductPage({ params }) {
               className="object-contain bg-white"
               sizes="(max-width: 768px) 100vw, 500px"
               priority
+              placeholder="blur"
+              blurDataURL="/images/logo.svg"
             />
           </div>
         </div>
@@ -237,6 +241,8 @@ export default async function ProductPage({ params }) {
                         fill
                         className="object-contain rounded-xl bg-white"
                         sizes="96px"
+                        placeholder="blur"
+                        blurDataURL="/images/logo.svg"
                       />
                     </div>
                     <div className="text-xs sm:text-sm font-semibold text-center mb-1 truncate w-full">

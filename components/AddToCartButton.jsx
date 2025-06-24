@@ -3,6 +3,30 @@
 import React from 'react';
 import { useCartStore } from '../stores/cartStore';
 
+// CartIcon extracted outside component for referential stability
+const CartIcon = React.memo(function CartIcon({ className = '' }) {
+  return (
+    <svg
+      className={className}
+      viewBox="0 0 20 20"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth={1.5}
+      aria-hidden="true"
+      focusable="false"
+    >
+      <circle cx="7" cy="16" r="1.5" fill="#ed3237" />
+      <circle cx="15" cy="16" r="1.5" fill="#ed3237" />
+      <path
+        d="M2.5 3.5h2l2.28 9.12a1.25 1.25 0 0 0 1.21.88h6.5a1.25 1.25 0 0 0 1.21-.88l1.38-4.36a.75.75 0 0 0-.72-.98H7"
+        stroke="#ed3237"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+});
+
 export default function AddToCartButton({
   product,
   quantity = 1,
@@ -12,17 +36,18 @@ export default function AddToCartButton({
 }) {
   const addToCart = useCartStore((state) => state.addItem);
 
+  const isDisabled = disabled || !product?.title;
+
+  // Handler is memoized and stable
   const handleAddToCart = React.useCallback(
     (e) => {
-      if (disabled) return;
+      if (isDisabled) return;
       e.preventDefault();
       e.stopPropagation();
       addToCart({ ...product, quantity, option });
     },
-    [disabled, addToCart, product, quantity, option]
+    [isDisabled, addToCart, product, quantity, option]
   );
-
-  const isDisabled = disabled || !product?.title;
 
   return (
     <button
@@ -48,7 +73,7 @@ export default function AddToCartButton({
     >
       {/* Background shimmer on hover */}
       <span className="absolute inset-0 z-0 bg-white/0 group-hover:bg-white/10 group-active:bg-white/20 transition-all duration-200 rounded-full pointer-events-none backdrop-blur-sm" />
-      
+
       {/* Main content */}
       <span className="relative z-10 flex items-center justify-center">
         <span className="bg-[#ffcc29]/90 p-1 rounded-full mr-1 sm:mr-2 flex items-center justify-center shadow-inner shadow-[#ed3237]/10">
@@ -60,28 +85,5 @@ export default function AddToCartButton({
         </span>
       </span>
     </button>
-  );
-}
-
-// SVG Cart Icon (red + themed)
-function CartIcon({ className = '' }) {
-  return (
-    <svg
-      className={className}
-      viewBox="0 0 20 20"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth={1.5}
-      aria-hidden="true"
-    >
-      <circle cx="7" cy="16" r="1.5" fill="#ed3237" />
-      <circle cx="15" cy="16" r="1.5" fill="#ed3237" />
-      <path
-        d="M2.5 3.5h2l2.28 9.12a1.25 1.25 0 0 0 1.21.88h6.5a1.25 1.25 0 0 0 1.21-.88l1.38-4.36a.75.75 0 0 0-.72-.98H7"
-        stroke="#ed3237"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
   );
 }

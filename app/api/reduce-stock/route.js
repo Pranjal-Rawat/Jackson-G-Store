@@ -1,5 +1,4 @@
 // Route: /api/reduce-stock  (POST – Reduce stock for each product in cart)
-
 import clientPromise from '../../lib/mongodb';
 import { ObjectId } from 'mongodb';
 
@@ -19,12 +18,22 @@ export async function POST(request) {
     const products = db.collection('products');
     const understocked = [];
 
+    // Use session for atomic bulk operation if needed (for multi-item cart)
+    // If your MongoDB is replica-set or Atlas, you can enable this for true ACID
+    // const session = client.startSession();
+    // await session.withTransaction(async () => { ... });
+
     for (const item of cartItems) {
       let productId = item._id || item.productId || item.id;
       if (typeof productId === 'string' && ObjectId.isValid(productId)) {
         productId = new ObjectId(productId);
       }
 
+      // Always double check positive quantity, safe default
+      const quantity = Math.max(Number(item.quantity) || 0, 0);
+      if (!quantity) continue;
+
+      // Atomic: only decrement if enough stock, avoid race-conditions/fraud
       const result = await products.updateOne(
         {
           $or: [
@@ -32,9 +41,9 @@ export async function POST(request) {
             { id: item.id },
             { slug: item.slug }
           ],
-          stock: { $gte: item.quantity }
+          stock: { $gte: quantity }
         },
-        { $inc: { stock: -item.quantity } }
+        { $inc: { stock: -quantity } }
       );
 
       if (result.matchedCount === 0) {
@@ -59,7 +68,7 @@ export async function POST(request) {
     });
   } catch (error) {
     console.error('[API][POST /api/reduce-stock] Error:', error);
-    return new Response(JSON.stringify({ error: error.message }), {
+    return new Response(JSON.stringify({ error: 'Stock update failed' }), {
       status: 500,
       headers: { 'Content-Type': 'application/json' }
     });

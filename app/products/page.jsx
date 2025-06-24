@@ -50,7 +50,7 @@ export const metadata = {
   },
 };
 
-export const dynamic = 'force-dynamic'; // Ensure SSR
+export const dynamic = 'force-dynamic'; // SSR for fresh product listing
 
 export default async function ProductsPage() {
   const client = await clientPromise;
@@ -59,8 +59,8 @@ export default async function ProductsPage() {
   const initialProducts = await db
     .collection('products')
     .find()
-    .sort({ rank: 1 }) // Ranked for relevance
-    .limit(50) // Initial render
+    .sort({ rank: 1 }) // Optional: prioritize featured items
+    .limit(50)
     .toArray();
 
   const safeProducts = initialProducts.map((p) => ({

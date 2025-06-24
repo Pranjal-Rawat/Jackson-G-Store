@@ -1,4 +1,5 @@
 // /app/category/page.jsx – SEO-optimized Category landing
+// /app/category/page.jsx – SEO-optimized Category landing
 
 export const metadata = {
   title: "Browse Grocery Categories | Jackson Grocery Store | Grocery Store Dehradun",
@@ -64,11 +65,14 @@ import CategoryCarousel from '../../components/CategoryCarousel';
 export default function CategoryHomePage() {
   return (
     <main className="pt-[5.5rem] min-h-screen bg-white">
+      {/* Categories Carousel/Grid */}
       <CategoryCarousel />
 
       {/* SEO Text Section */}
       <section className="max-w-2xl mx-auto my-10 px-4 text-center text-gray-600">
-        <h2 className="text-xl font-bold mb-2">Shop by Category – Groceries Delivered Fresh</h2>
+        <h1 className="text-2xl sm:text-3xl font-extrabold text-gray-800 mb-2">
+          Shop by Category – Groceries Delivered Fresh
+        </h1>
         <p>
           Discover all our grocery categories—fruits, dairy, snacks, and daily essentials. Enjoy fast delivery and top brands with Jackson Grocery Store in Dehradun.
         </p>

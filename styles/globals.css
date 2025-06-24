@@ -1,22 +1,38 @@
-/* /styles/globals.css – Tailwind global + custom styles */
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Slick Carousel for Category/Products */
+
+/* ======= Vendor Styles ======= */
 @import "slick-carousel/slick/slick.css";
 @import "slick-carousel/slick/slick-theme.css";
 
-/* ========== Components ========== */
+
+
+/* ======= Base Styles ======= */
+body {
+  @apply text-gray-800 bg-white antialiased;
+  font-family: var(--font-geist-sans, 'Inter', 'Segoe UI', Arial, sans-serif);
+}
+
+a {
+  @apply transition-colors duration-200;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent; /* Prevent tap highlight on mobile */
+}
+
+/* ======= Tailwind Components Layer ======= */
 @layer components {
   .btn-primary {
-    @apply bg-primary-500 hover:bg-primary-600 text-white font-bold py-2 px-4 rounded-lg shadow-theme transition-colors duration-300;
+    @apply bg-primary-500 hover:bg-primary-600 text-white font-semibold py-2 px-4 rounded-lg shadow-theme transition-colors duration-300;
     @apply focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-primary-400;
   }
 
   .btn-secondary {
-    @apply bg-secondary-500 hover:bg-secondary-600 text-primary-500 font-bold py-2 px-4 rounded-lg transition-colors duration-300;
+    @apply bg-secondary-500 hover:bg-secondary-600 text-primary-500 font-semibold py-2 px-4 rounded-lg transition-colors duration-300;
     @apply focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-secondary-400;
   }
 
@@ -29,7 +45,7 @@
   }
 }
 
-/* ========== Utilities ========== */
+/* ======= Tailwind Utilities Layer ======= */
 @layer utilities {
   .text-gradient {
     @apply bg-clip-text text-transparent;
@@ -53,17 +69,15 @@
   }
 }
 
-/* ========== Base Styles ========== */
-body {
-  @apply text-gray-800 bg-white antialiased;
-  font-family: var(--font-geist-sans, 'Inter', 'Segoe UI', Arial, sans-serif);
-}
-
-a {
-  @apply transition-colors duration-200;
-}
-
-/* Mobile tap highlight fix */
-button, a {
-  -webkit-tap-highlight-color: transparent;
+/* ======= Accessibility ======= */
+.sr-only {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
 }

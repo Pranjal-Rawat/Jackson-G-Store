@@ -45,7 +45,7 @@ export default function CartPage() {
       <Cart />
 
       {/* Store Info Card */}
-      <div className="flex justify-center">
+      <div className="flex justify-center" aria-label="Store Info">
         <div
           className="
             mt-16 mb-8 max-w-xl w-full
@@ -61,6 +61,9 @@ export default function CartPage() {
               alt="Jackson Grocery Store logo"
               className="w-11 h-11 rounded-full shadow"
               loading="lazy"
+              width={44}
+              height={44}
+              decoding="async"
             />
             <span className="font-extrabold text-xl text-[#ed3237] tracking-tight">
               Jackson Grocery Store

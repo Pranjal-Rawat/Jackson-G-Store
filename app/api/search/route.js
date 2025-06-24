@@ -1,8 +1,7 @@
 // Route: /api/search  (GET – Search products, ?q=term&category=slug)
-
 import clientPromise from '../../lib/mongodb';
 
-// Escape user input to prevent RegExp DoS or injection
+// Escape regex for safe search (prevents ReDoS and injection)
 const escapeRegex = (str) => str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 
 export async function GET(request) {
@@ -12,16 +11,39 @@ export async function GET(request) {
     const products = db.collection('products');
 
     const { searchParams } = new URL(request.url);
-    const rawQuery = searchParams.get('q') || '';
+    const rawQuery = (searchParams.get('q') || '').trim().slice(0, 64); // Limit length for perf/safety
     const category = searchParams.get('category');
 
-    const q = escapeRegex(rawQuery.trim());
+    // Guard: don't search for empty/very short queries (speeds up, prevents accidental spam)
+    if (!rawQuery || rawQuery.length < 2) {
+      return new Response(JSON.stringify([]), {
+        status: 200,
+        headers: { 'Content-Type': 'application/json' },
+      });
+    }
 
-    const filter = {};
-    if (q) filter.title = { $regex: q, $options: 'i' };
+    const q = escapeRegex(rawQuery);
+
+    // Filter: match title (case-insensitive), optional category
+    const filter = { title: { $regex: q, $options: 'i' } };
     if (category) filter.category = category;
 
-    const result = await products.find(filter).limit(20).toArray();
+    // Projection: send only safe/required fields
+    const projection = {
+      _id: 1,
+      slug: 1,
+      title: 1,
+      price: 1,
+      image: 1,
+      description: 1,
+    };
+
+    // Find, project, sort (optional: boost by popularity/rank)
+    const result = await products
+      .find(filter, { projection })
+      .sort({ rank: 1, title: 1 })
+      .limit(20)
+      .toArray();
 
     const formatted = result.map((p) => ({
       _id: p._id?.toString(),
@@ -34,7 +56,10 @@ export async function GET(request) {
 
     return new Response(JSON.stringify(formatted), {
       status: 200,
-      headers: { 'Content-Type': 'application/json' },
+      headers: {
+        'Content-Type': 'application/json',
+        'Cache-Control': 'public, s-maxage=30, stale-while-revalidate=90',
+      },
     });
   } catch (error) {
     console.error('[API][GET /api/search] Error:', error);

@@ -1,12 +1,21 @@
 'use client';
 
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useMemo } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import Link from 'next/link';
 import Image from 'next/image';
 import { FiShoppingBag, FiArrowLeft } from 'react-icons/fi';
 import { useRouter } from 'next/navigation';
 import { useCartStore } from '../stores/cartStore';
+
+// Debounce helper for form (for large forms, not strictly needed here, but a good pattern)
+function useDebouncedCallback(callback, delay = 200) {
+  const timeout = useMemo(() => ({ current: null }), []);
+  return useCallback((...args) => {
+    if (timeout.current) clearTimeout(timeout.current);
+    timeout.current = setTimeout(() => callback(...args), delay);
+  }, [callback, delay, timeout]);
+}
 
 export default function Cart() {
   const { items, count, total, removeItem, updateQuantity, clearCart } = useCartStore();
@@ -22,6 +31,7 @@ export default function Cart() {
   const [showConfirm, setShowConfirm] = useState(false);
   const [isRedirecting, setIsRedirecting] = useState(false);
 
+  // Debounced input change (for snappy feel on large forms)
   const handleInputChange = useCallback((e) => {
     const { name, value } = e.target;
     setCustomer((prev) => ({ ...prev, [name]: value }));
@@ -97,7 +107,6 @@ export default function Cart() {
 
   return (
     <main className="min-h-screen bg-gradient-to-b from-[#fff9f0] via-white to-[#fffbe7] text-gray-900 pt-[5.5rem] pb-8">
-      {/* Accessibility: Hidden page heading */}
       <h1 className="sr-only">Your Cart</h1>
       <div className="max-w-7xl mx-auto px-3 sm:px-8">
         <div className="flex items-center gap-2 mb-10">
@@ -115,9 +124,8 @@ export default function Cart() {
           </h2>
         </div>
 
-        <AnimatePresence>
+        <AnimatePresence mode="wait">
           {items.length === 0 ? (
-            // Empty Cart Animation
             <motion.div
               key="empty-cart"
               initial={{ opacity: 0, scale: 0.92 }}
@@ -148,6 +156,7 @@ export default function Cart() {
               key="cart-content"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: 20 }}
               className="grid grid-cols-1 lg:grid-cols-3 gap-10"
             >
               {/* Cart Items */}
@@ -240,7 +249,7 @@ export default function Cart() {
                       value={customer.address}
                       onChange={handleInputChange}
                       className="md:col-span-2 border border-[#ffcc29]/30 rounded-xl p-3 focus:ring-2 focus:ring-[#ed3237] transition text-gray-900"
-                      rows="3"
+                      rows={3}
                       autoComplete="street-address"
                       required
                     />

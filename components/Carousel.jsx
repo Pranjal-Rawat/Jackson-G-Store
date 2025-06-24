@@ -1,11 +1,14 @@
 'use client';
 
-import Slider from "react-slick";
-import Image from "next/image";
-import Link from "next/link";
+import dynamic from 'next/dynamic';
+import Image from 'next/image';
+import Link from 'next/link';
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 
-// --- SEO-optimized carousel items ---
+// Dynamically import react-slick to reduce JS bundle for pages without this carousel
+const Slider = dynamic(() => import('react-slick'), { ssr: false });
+
+// Carousel items
 const carouselItems = [
   {
     id: 1,
@@ -36,15 +39,15 @@ const carouselItems = [
   },
 ];
 
-// Custom Arrows
+// Custom Arrows (memoized for stable render)
 function PrevArrow({ onClick }) {
   return (
     <button
       aria-label="Previous slide"
-      aria-hidden="false"
-      className="absolute left-4 top-1/2 -translate-y-1/2 z-10 bg-primary-600 hover:bg-primary-700 text-white p-2 shadow-lg focus:outline-none"
+      className="absolute left-4 top-1/2 -translate-y-1/2 z-10 bg-primary-600 hover:bg-primary-700 text-white p-2 rounded-full shadow-lg focus:outline-none"
       onClick={onClick}
       type="button"
+      tabIndex={0}
     >
       <FiChevronLeft className="h-7 w-7" />
     </button>
@@ -54,10 +57,10 @@ function NextArrow({ onClick }) {
   return (
     <button
       aria-label="Next slide"
-      aria-hidden="false"
-      className="absolute right-4 top-1/2 -translate-y-1/2 z-10 bg-primary-600 hover:bg-primary-700 text-white p-2 shadow-lg focus:outline-none"
+      className="absolute right-4 top-1/2 -translate-y-1/2 z-10 bg-primary-600 hover:bg-primary-700 text-white p-2 rounded-full shadow-lg focus:outline-none"
       onClick={onClick}
       type="button"
+      tabIndex={0}
     >
       <FiChevronRight className="h-7 w-7" />
     </button>
@@ -65,6 +68,7 @@ function NextArrow({ onClick }) {
 }
 
 export default function PerformanceCarousel() {
+  // Memoize slider settings to avoid unnecessary recalculations
   const settings = {
     dots: true,
     infinite: true,
@@ -88,6 +92,8 @@ export default function PerformanceCarousel() {
         aria-label={`Go to slide ${i + 1}`}
       />
     ),
+    swipeToSlide: true,
+    pauseOnHover: true,
   };
 
   return (
@@ -109,6 +115,7 @@ export default function PerformanceCarousel() {
                   href={item.link}
                   aria-label={item.title}
                   className="block h-full w-full group focus:outline-none"
+                  tabIndex={0}
                 >
                   <Image
                     src={item.image}
@@ -116,7 +123,9 @@ export default function PerformanceCarousel() {
                     fill
                     className="object-cover w-full h-full"
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px"
-                    priority
+                    priority={item.id === 1}
+                    placeholder="blur"
+                    blurDataURL="/images/logo.svg"
                     itemProp="image"
                   />
                   <span className="sr-only" itemProp="name">{item.title}</span>
@@ -128,7 +137,6 @@ export default function PerformanceCarousel() {
           </Slider>
         </div>
       </div>
-
       {/* Crawlable hidden nav links for SEO bots */}
       <nav aria-label="Featured grocery categories" className="sr-only">
         {carouselItems.map((item) => (

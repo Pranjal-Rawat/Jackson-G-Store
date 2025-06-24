@@ -12,14 +12,16 @@ export function getHomeJsonLD({
   logo = "https://res.cloudinary.com/dy1uhnjnq/image/upload/v1749755125/Jackson_Logo_page-0001-removebg-preview_yqeopv.png",
   email = "omsairetail3@gmail.com",
   openingHours = "Mo-Su 08:00-21:00",
-  sameAs = [] // Array of social links
+  sameAs = []
 }) {
   return {
     "@context": "https://schema.org",
     "@type": "GroceryStore",
+    "@id": url,
     name,
     url,
     logo,
+    image: logo,
     telephone: phone,
     email,
     openingHours,
@@ -29,38 +31,60 @@ export function getHomeJsonLD({
       addressLocality: city,
       addressRegion: state,
       postalCode,
-      addressCountry: country,
+      addressCountry: country
     },
-    ...(sameAs.length ? { sameAs } : {}),
+    ...(sameAs.length > 0 && { sameAs })
   };
 }
 
 export function getProductJsonLD(product) {
   if (!product) return null;
+
+  const {
+    title = "Product",
+    name = "Product",
+    description = "View product details and buy online from Jackson Grocery Store.",
+    image = "",
+    slug = "",
+    category,
+    price = 0,
+    stock = 0,
+    _id,
+    sku
+  } = product;
+
   return {
-    "@context": "https://schema.org/",
+    "@context": "https://schema.org",
     "@type": "Product",
-    name: product.title || product.name,
-    image: product.image || "",
-    description: product.description || "",
-    sku: product.sku || product._id || "",
+    name: title || name,
+    image,
+    description,
+    sku: sku || _id || "",
     brand: {
       "@type": "Brand",
       name: "Jackson Grocery Store"
     },
-    ...(product.category && { category: product.category }),
+    ...(category && { category }),
     offers: {
       "@type": "Offer",
-      url: `https://jackson-grocery.com/products/${product.slug}`,
+      url: `https://jackson-grocery.com/products/${slug}`,
       priceCurrency: "INR",
-      price: product.price || 0,
-      availability: (product.stock ?? 0) > 0 ? "https://schema.org/InStock" : "https://schema.org/OutOfStock",
+      price: Number(price),
+      availability: stock > 0
+        ? "https://schema.org/InStock"
+        : "https://schema.org/OutOfStock",
       itemCondition: "https://schema.org/NewCondition"
     }
   };
 }
 
 export function getCategoryJsonLD({ categorySlug, categoryName }) {
+  const base = "https://jackson-grocery.com";
+  const categoryUrl =
+    categorySlug === "products"
+      ? `${base}/products`
+      : `${base}/category/${categorySlug}`;
+
   return {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -69,21 +93,19 @@ export function getCategoryJsonLD({ categorySlug, categoryName }) {
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://jackson-grocery.com/"
+        item: `${base}/`
       },
       {
         "@type": "ListItem",
         position: 2,
         name: categoryName,
-        item: categorySlug === "products"
-          ? "https://jackson-grocery.com/products"
-          : `https://jackson-grocery.com/category/${categorySlug}`
+        item: categoryUrl
       }
     ]
   };
 }
 
-export function getFaqJsonLD(faqList) {
+export function getFaqJsonLD(faqList = []) {
   return {
     "@context": "https://schema.org",
     "@type": "FAQPage",

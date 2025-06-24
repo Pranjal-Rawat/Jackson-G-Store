@@ -35,6 +35,29 @@ export const metadata = {
       'https://res.cloudinary.com/dy1uhnjnq/image/upload/v1749755125/Jackson_Logo_page-0001-removebg-preview_yqeopv.png',
     ],
   },
+  other: {
+    // JSON-LD: Organization Contact for B2B Partnership
+    'ld+json': JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'Organization',
+      name: 'Jackson Grocery Store',
+      url: 'https://jackson-grocery.com',
+      logo: 'https://res.cloudinary.com/dy1uhnjnq/image/upload/v1749755125/Jackson_Logo_page-0001-removebg-preview_yqeopv.png',
+      contactPoint: [
+        {
+          '@type': 'ContactPoint',
+          telephone: '+91-74172-29660',
+          contactType: 'Sales',
+          areaServed: 'IN',
+          availableLanguage: ['English', 'Hindi'],
+          email: 'omsairetail3@gmail.com',
+        },
+      ],
+      sameAs: [
+        'https://jackson-grocery.com',
+      ],
+    }),
+  },
 };
 
 import CompanyContactForm from '../../components/CompanyContactForm';
@@ -54,12 +77,13 @@ export default function ContactCompanyPage() {
             className="w-12 h-12 rounded-full shadow mb-2"
             loading="lazy"
           />
-          <h1 className="text-2xl font-extrabold text-[#ed3237] text-center">Business Enquiries</h1>
+          <h1 className="text-2xl font-extrabold text-[#ed3237] text-center">
+            Business Enquiries
+          </h1>
           <p className="text-gray-600 text-center mt-2 text-base">
             Are you a brand, vendor, or distributor? Fill out the form below to partner with us.
           </p>
         </div>
-
         {/* Client Component for the form */}
         <CompanyContactForm />
 
@@ -72,7 +96,6 @@ export default function ContactCompanyPage() {
           </a>.
         </div>
       </section>
-
       <BusinessInfo />
     </main>
   );

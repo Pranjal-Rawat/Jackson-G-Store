@@ -1,17 +1,20 @@
+// next.config.js (ESM compatible)
+import bundleAnalyzer from '@next/bundle-analyzer';
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Enable Server Actions (v14+ syntax)
   experimental: {
     serverActions: {},
   },
-
   images: {
-    domains: [
-      'res.cloudinary.com', // Cloudinary images
-      // add more if needed
-    ],
+    domains: ['res.cloudinary.com'],
+    deviceSizes: [360, 420, 640, 768, 1024, 1200, 1600],
   },
-  // Optional: basePath, i18n, etc.
+  reactStrictMode: true,
 };
 
-export default nextConfig;
+const withBundleAnalyzer = bundleAnalyzer({
+  enabled: process.env.ANALYZE === 'true',
+});
+
+export default withBundleAnalyzer(nextConfig);

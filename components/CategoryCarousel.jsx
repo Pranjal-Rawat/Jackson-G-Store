@@ -1,28 +1,30 @@
 'use client';
 
+import dynamic from 'next/dynamic';
 import React from 'react';
-import Slider from 'react-slick';
 import Link from 'next/link';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
+import { getOptimizedCloudinaryUrl } from './../app/lib/getOptimizedCloudinaryUrl';
 
-// SEO-rich categories
+const Slider = dynamic(() => import('react-slick'), { ssr: false });
+
 const categories = [
-  { name: 'Baby Care', image: '/categories/baby_care.webp', slug: 'baby-care' },
-  { name: 'Beverages', image: '/categories/beverages.webp', slug: 'beverages' },
-  { name: 'Condiments & Sauces', image: '/categories/condiments_sauces.webp', slug: 'condiments-sauces' },
-  { name: 'Dairy & Refrigerated', image: '/categories/dairy_refrigerated.webp', slug: 'dairy-refrigerated' },
-  { name: 'Household Cleaning', image: '/categories/household_cleaning.webp', slug: 'household-cleaning' },
-  { name: 'Personal Care', image: '/categories/care.webp', slug: 'personal-care' },
-  { name: 'Snacks & Bakery', image: '/categories/snacks_bakery.webp', slug: 'snacks-bakery' },
-  { name: 'Spices & Masalas', image: '/categories/spices_masalas.webp', slug: 'spices-masalas' },
-  { name: 'Staples', image: '/categories/grains.webp', slug: 'staples' },
+  { name: 'Baby Care', image: 'https://res.cloudinary.com/your_cloud/image/upload/v.../baby_care.png', slug: 'baby-care' },
+  { name: 'Beverages', image: 'https://res.cloudinary.com/your_cloud/image/upload/v.../beverages.jpg', slug: 'beverages' },
+  { name: 'Condiments & Sauces', image: 'https://res.cloudinary.com/your_cloud/image/upload/v.../condiments.jpg', slug: 'condiments-sauces' },
+  { name: 'Dairy & Refrigerated', image: 'https://res.cloudinary.com/your_cloud/image/upload/v.../dairy.png', slug: 'dairy-refrigerated' },
+  { name: 'Household Cleaning', image: 'https://res.cloudinary.com/your_cloud/image/upload/v.../cleaning.jpg', slug: 'household-cleaning' },
+  { name: 'Personal Care', image: 'https://res.cloudinary.com/your_cloud/image/upload/v.../care.jpg', slug: 'personal-care' },
+  { name: 'Snacks & Bakery', image: 'https://res.cloudinary.com/your_cloud/image/upload/v.../snacks.jpg', slug: 'snacks-bakery' },
+  { name: 'Spices & Masalas', image: 'https://res.cloudinary.com/your_cloud/image/upload/v.../spices.jpg', slug: 'spices-masalas' },
+  { name: 'Staples', image: 'https://res.cloudinary.com/your_cloud/image/upload/v.../grains.jpg', slug: 'staples' },
 ];
 
 const sliderSettings = {
   dots: false,
   infinite: true,
-  speed: 1000,
+  speed: 800,
   slidesToShow: 3,
   slidesToScroll: 1,
   autoplay: true,
@@ -32,7 +34,7 @@ const sliderSettings = {
   cssEase: 'cubic-bezier(.67,.04,.37,.99)',
   responsive: [
     { breakpoint: 1024, settings: { slidesToShow: 3 } },
-    { breakpoint: 640, settings: { slidesToShow: 3 } },
+    { breakpoint: 640, settings: { slidesToShow: 2 } },
   ],
 };
 
@@ -53,7 +55,7 @@ export default function CategoryCarousel() {
           Shop By Category
         </motion.h2>
 
-        {/* Desktop grid */}
+        {/* Desktop Grid */}
         <div className="hidden md:grid grid-cols-3 lg:grid-cols-7 gap-6">
           {categories.map((category, idx) => (
             <motion.div
@@ -64,52 +66,50 @@ export default function CategoryCarousel() {
               <Link
                 href={`/category/${category.slug}`}
                 className="group block relative overflow-hidden rounded-2xl shadow bg-white hover:shadow-lg transition-shadow focus:outline-none"
-                aria-label={`Shop ${category.name} – Jackson Grocery Store Dehradun`}
-                title={`Buy ${category.name} online in Dehradun`}
+                aria-label={`Shop ${category.name}`}
+                title={`Buy ${category.name} online`}
               >
                 <Image
-                  src={category.image}
-                  alt={`${category.name} – Grocery Store Dehradun – Buy online`}
+                  src={getOptimizedCloudinaryUrl(category.image)}
+                  alt={`${category.name} – Buy online`}
                   width={400}
                   height={300}
                   className="h-44 w-full object-cover transition-transform duration-300 group-hover:scale-105 rounded-t-2xl"
                   sizes="(max-width: 1024px) 33vw, 14vw"
-                  {...(idx === 0 ? { priority: true } : { loading: 'lazy' })}
+                  priority={idx === 0}
+                  placeholder="blur"
+                  blurDataURL="/images/logo.svg"
                 />
                 <div className="absolute inset-0 bg-gradient-to-br from-primary-500/40 to-secondary-400/30 flex items-center justify-center rounded-2xl">
-                  <h3 className="text-white text-lg font-semibold text-center drop-shadow">
-                    {category.name}
-                  </h3>
+                  <h3 className="text-white text-lg font-semibold text-center drop-shadow">{category.name}</h3>
                 </div>
               </Link>
             </motion.div>
           ))}
         </div>
 
-        {/* Mobile carousel */}
+        {/* Mobile Carousel */}
         <div className="md:hidden mt-2">
           <Slider {...sliderSettings}>
             {categories.map((category) => (
               <div key={category.slug} className="px-2">
                 <Link
                   href={`/category/${category.slug}`}
-                  className="block relative overflow-hidden rounded-xl shadow bg-white hover:shadow-md transition-shadow focus:outline-none"
-                  aria-label={`Shop ${category.name} – Jackson Grocery Store Dehradun`}
-                  title={`Buy ${category.name} online in Dehradun`}
+                  className="block relative overflow-hidden rounded-xl shadow bg-white hover:shadow-md transition-shadow"
                 >
                   <Image
-                    src={category.image}
-                    alt={`${category.name} – Grocery Store Dehradun – Buy online`}
+                    src={getOptimizedCloudinaryUrl(category.image)}
+                    alt={`${category.name} – Buy online`}
                     width={200}
                     height={120}
                     className="h-28 w-full object-cover rounded-t-xl transition-transform duration-300"
                     loading="lazy"
                     sizes="33vw"
+                    placeholder="blur"
+                    blurDataURL="/images/logo.svg"
                   />
                   <div className="absolute inset-0 bg-gradient-to-br from-primary-500/35 to-secondary-400/20 flex items-center justify-center rounded-xl">
-                    <h3 className="text-white text-sm font-medium text-center drop-shadow">
-                      {category.name}
-                    </h3>
+                    <h3 className="text-white text-sm font-medium text-center drop-shadow">{category.name}</h3>
                   </div>
                 </Link>
               </div>
@@ -117,10 +117,9 @@ export default function CategoryCarousel() {
           </Slider>
         </div>
 
-        {/* SEO crawlable fallback link */}
         <Link
           href="/products"
-          className="flex justify-center mt-8 text-primary-600 hover:text-primary-700 font-semibold transition-colors focus:outline-none"
+          className="flex justify-center mt-8 text-primary-600 hover:text-primary-700 font-semibold transition-colors"
         >
           View All Products
         </Link>
