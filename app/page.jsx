@@ -1,5 +1,5 @@
 // app/page.jsx
-import Gallery from '@/components/Gallery';
+import Gallery from '../components/Gallery';
 import PerformanceCarousel from '../components/Carousel';
 import CategoryCarousel from '../components/CategoryCarousel';
 import PopularProducts from '../components/PopularProducts';

@@ -1,6 +1,6 @@
 // ✅ Server Component for SEO
 import Head from 'next/head';
-import Gallery from '@/components/Gallery';
+import Gallery from '../../components/Gallery';
 
 const siteUrl = 'https://jackson-grocery.com';
 const pageTitle = 'Store Gallery | Jackson Grocery Store, Dehradun';
@@ -9,11 +9,6 @@ const description =
 
 const imageList = [
   'https://res.cloudinary.com/dnp4yuy8z/image/upload/q_auto,f_auto/v1750701877/IMG_20250621_185357_v1ehme.jpg',
-  'https://res.cloudinary.com/dnp4yuy8z/image/upload/q_auto,f_auto/v1750701897/IMG_20250621_185343_om3abk.jpg',
-  'https://res.cloudinary.com/dnp4yuy8z/image/upload/q_auto,f_auto/v1750701903/IMG_20250621_185519_kx2xci.jpg',
-  'https://res.cloudinary.com/dnp4yuy8z/image/upload/q_auto,f_auto/v1750701881/IMG_20250621_185555_qqqmwf.jpg',
-  'https://res.cloudinary.com/dnp4yuy8z/image/upload/q_auto,f_auto/v1750701829/IMG_20250621_185451_c6z1ch.jpg',
-  'https://res.cloudinary.com/dnp4yuy8z/image/upload/q_auto,f_auto/v1750701847/IMG_20250621_185708_tui3yj.jpg',
 ];
 
 export const metadata = {
@@ -59,13 +54,8 @@ export default function GalleryPage() {
   return (
     <main className="bg-white">
       <Head>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-        />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       </Head>
-
-      {/* Use your animated Gallery Component */}
       <Gallery />
     </main>
   );

@@ -1,11 +1,11 @@
 import clientPromise from '../../lib/mongodb';
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
-import AddToCartButton from '../../../components/AddToCartButton';
+import AddToCartButton from '../../components/AddToCartButton';
 import Link from 'next/link';
 import { getProductJsonLD } from '../../lib/seo/jsonld';
 import BusinessInfo from '../../../components/BusinessInfo';
-import { getOptimizedCloudinaryUrl } from '@/lib/getOptimizedCloudinaryUrl'; // ✅ Optimizer
+import { getOptimizedCloudinaryUrl } from '../../lib/getOptimizedCloudinaryUrl';
 
 export const dynamic = 'force-dynamic'; // Always SSR, latest data
 

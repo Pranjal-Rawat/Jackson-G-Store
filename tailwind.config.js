@@ -1,9 +1,9 @@
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
   content: [
     './app/**/*.{js,ts,jsx,tsx}',
     './components/**/*.{js,ts,jsx,tsx}',
-    './pages/**/*.{js,ts,jsx,tsx}', // Include if you're using /pages
+    './pages/**/*.{js,ts,jsx,tsx}', // Only if using /pages
   ],
   theme: {
     extend: {
@@ -22,11 +22,16 @@ export default {
         body: ['Geist', 'sans-serif'],
       },
       boxShadow: {
-        theme: '0 4px 20px -4px rgba(237, 28, 36, 0.3)', // Custom brand shadow
+        theme: '0 4px 20px -4px rgba(237, 28, 36, 0.3)', // Brand shadow
+      },
+      maxWidth: {
+        '8xl': '90rem',
       },
     },
   },
-  plugins: [],
-  // Optional: uncomment if using dynamic class generation or Tailwind CLI builds
+  plugins: [
+    require('@tailwindcss/forms'),
+    require('@tailwindcss/typography'),
+  ],
   // safelist: ['bg-primary-500', 'bg-secondary-500'],
 };

@@ -1,9 +1,8 @@
-// app/layout.jsx
+// /app/layout.jsx
 import { Geist, Geist_Mono } from 'next/font/google';
 import '../styles/globals.css';
 import Script from 'next/script';
 
-// ✅ DIRECT IMPORTS (no dynamic, no ssr: false)
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import PageTransitionLoader from '../components/PageTransitionLoader';
@@ -70,9 +69,7 @@ const geistMono = Geist_Mono({
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="bg-white w-full overflow-x-hidden">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white text-gray-900 min-w-0`}
-      >
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white text-gray-900 min-w-0`}>
         {/* JSON-LD SEO Schema */}
         <Script
           id="grocery-jsonld"
@@ -109,7 +106,10 @@ export default function RootLayout({ children }) {
         />
         <PageTransitionLoader />
         <Header />
-        <main className="pt-[5.5rem] min-h-screen w-full bg-white">{children}</main>
+        <main id="main-content" className="pt-[7.5rem] sm:pt-[8rem] min-h-screen w-full bg-white">
+          {children}
+        </main>
+
         <FloatingCartButton />
         <Footer />
       </body>

@@ -3,7 +3,7 @@
 import { useState, useCallback, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Image from 'next/image';
-import { getOptimizedCloudinaryUrl } from '@/app/lib/getOptimizedCloudinaryUrl'; // ✅ correct path
+import { getOptimizedCloudinaryUrl } from '../app/lib/getOptimizedCloudinaryUrl';
 
 const galleryImages = [
   {
@@ -70,7 +70,7 @@ export default function Gallery() {
         Take a peek inside Jackson Grocery Store – clean, well-organized aisles with top-quality products.
       </p>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-6xl mx-auto px-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-6xl mx-auto px-0 sm:px-4">
         {galleryImages.map((image, index) => (
           <motion.button
             key={image.src}
@@ -131,7 +131,6 @@ export default function Gallery() {
                 className="absolute top-4 right-4 p-2 bg-white/80 hover:bg-white text-gray-900 rounded-full shadow"
                 onClick={() => setLightboxIdx(null)}
                 aria-label="Close gallery"
-                type="button"
               >
                 <span className="text-lg font-bold">&times;</span>
               </button>
@@ -139,7 +138,6 @@ export default function Gallery() {
                 className="absolute left-2 top-1/2 -translate-y-1/2 p-2 bg-white/70 hover:bg-white rounded-full shadow"
                 onClick={() => setLightboxIdx((idx) => (idx === 0 ? galleryImages.length - 1 : idx - 1))}
                 aria-label="Previous image"
-                type="button"
               >
                 <span className="text-xl font-bold">&#8592;</span>
               </button>
@@ -147,7 +145,6 @@ export default function Gallery() {
                 className="absolute right-2 top-1/2 -translate-y-1/2 p-2 bg-white/70 hover:bg-white rounded-full shadow"
                 onClick={() => setLightboxIdx((idx) => (idx + 1) % galleryImages.length)}
                 aria-label="Next image"
-                type="button"
               >
                 <span className="text-xl font-bold">&#8594;</span>
               </button>

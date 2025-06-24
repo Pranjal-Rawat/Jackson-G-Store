@@ -5,7 +5,7 @@ import { FiMenu, FiSearch, FiShoppingCart, FiX } from 'react-icons/fi';
 import { motion, AnimatePresence } from 'framer-motion';
 import Link from 'next/link';
 import Image from 'next/image';
-import { useCartStore } from '@/stores/cartStore';
+import { useCartStore } from '../stores/cartStore';
 import { useDebounce } from 'use-debounce';
 import { useRouter } from 'next/navigation';
 
