@@ -18,10 +18,10 @@ export function getHomeJsonLD({
   openingHours = 'Mo-Su 08:00-21:00',
   sameAs = []
 }) {
-  return {
+  const data = {
     '@context': 'https://schema.org',
     '@type': 'GroceryStore',
-    '@id': url,          // canonical ID
+    '@id': url,
     name,
     url,
     logo,
@@ -36,9 +36,14 @@ export function getHomeJsonLD({
       addressRegion: state,
       postalCode,
       addressCountry: country
-    },
-    ...(sameAs.length && { sameAs })
+    }
   };
+
+  if (Array.isArray(sameAs) && sameAs.length > 0) {
+    data.sameAs = sameAs;
+  }
+
+  return data;
 }
 
 /* ---------- 2. Product ---------- */
@@ -56,7 +61,6 @@ export function getProductJsonLD(product = {}) {
     sku
   } = product;
 
-  // Bail out if we’re missing ANY required property – avoids “invalid item” flag
   if (!slug || !image || typeof price === 'undefined') return null;
 
   const baseUrl = 'https://jackson-grocery.com';
@@ -65,19 +69,20 @@ export function getProductJsonLD(product = {}) {
   return {
     '@context': 'https://schema.org',
     '@type': 'Product',
-    name: title || name,
+    name: title || name || 'Product',
     description,
-    image: Array.isArray(image) ? image : [image], // Google prefers array
+    image: Array.isArray(image) ? image : [image],
     url: productUrl,
     sku: sku || _id || '',
     ...(category && { category }),
-    brand: { '@type': 'Brand', name: 'Jackson Grocery Store' },
-
-    /* --- Offer (all required fields present) --- */
+    brand: {
+      '@type': 'Brand',
+      name: 'Jackson Grocery Store'
+    },
     offers: {
       '@type': 'Offer',
       url: productUrl,
-      price: Number(price).toFixed(2),      // "49.00" (string, 2-dp)
+      price: Number(price).toFixed(2),
       priceCurrency: 'INR',
       availability:
         stock > 0
@@ -118,6 +123,8 @@ export function getCategoryJsonLD({ categorySlug, categoryName }) {
 
 /* ---------- 4. FAQ ---------- */
 export function getFaqJsonLD(faqList = []) {
+  if (!Array.isArray(faqList) || faqList.length === 0) return null;
+
   return {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',

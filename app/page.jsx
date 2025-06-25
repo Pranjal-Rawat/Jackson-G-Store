@@ -1,4 +1,3 @@
-// app/page.jsx
 import Gallery from '../components/Gallery';
 import PerformanceCarousel from '../components/Carousel';
 import CategoryCarousel from '../components/CategoryCarousel';
@@ -13,14 +12,6 @@ const keywords =
   'Jackson Grocery Store, Grocery Store Dehradun, Best Grocery Store Dehradun, World of Groceries, Departmental Store Dehradun, Fresh groceries Dehradun, Grocery home delivery Dehradun, Buy groceries online Dehradun, Jackson groceries';
 const logo =
   'https://res.cloudinary.com/dy1uhnjnq/image/upload/v1749755125/Jackson_Logo_page-0001-removebg-preview_yqeopv.png';
-const phone = '+91-7417229660';
-const address = {
-  street: '1 Municipal Road, Dalanwala',
-  city: 'Dehradun',
-  state: 'Uttarakhand',
-  postalCode: '248001',
-  country: 'IN',
-};
 
 export const metadata = {
   title: 'Jackson Grocery Store | Grocery Store Dehradun | Fresh Groceries Online',
@@ -51,25 +42,6 @@ export const metadata = {
     title: 'Jackson Grocery Store | Grocery Store Dehradun',
     description,
     images: [logo],
-  },
-  other: {
-    'ld+json': JSON.stringify({
-      '@context': 'https://schema.org',
-      '@type': 'GroceryStore',
-      name: siteName,
-      image: logo,
-      url: siteUrl,
-      telephone: phone,
-      address: {
-        '@type': 'PostalAddress',
-        streetAddress: address.street,
-        addressLocality: address.city,
-        addressRegion: address.state,
-        postalCode: address.postalCode,
-        addressCountry: address.country,
-      },
-      sameAs: [siteUrl],
-    }),
   },
 };
 
@@ -167,7 +139,6 @@ export default async function Home() {
           <h2 className="sr-only">Store Gallery</h2>
           <Gallery />
         </div>
-
       </section>
     </>
   );
