@@ -1,7 +1,8 @@
 // Route: /api/search  (GET – Search products, ?q=term&category=slug)
+// Route: /api/search?q=term&category=slug
 import clientPromise from '../../lib/mongodb';
 
-// Escape regex for safe search (prevents ReDoS and injection)
+// Escape regex safely to avoid injection or ReDoS
 const escapeRegex = (str) => str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 
 export async function GET(request) {
@@ -11,10 +12,10 @@ export async function GET(request) {
     const products = db.collection('products');
 
     const { searchParams } = new URL(request.url);
-    const rawQuery = (searchParams.get('q') || '').trim().slice(0, 64); // Limit length for perf/safety
+    const rawQuery = (searchParams.get('q') || '').trim().slice(0, 64); // Limit max length
     const category = searchParams.get('category');
 
-    // Guard: don't search for empty/very short queries (speeds up, prevents accidental spam)
+    // Early exit for short/invalid queries
     if (!rawQuery || rawQuery.length < 2) {
       return new Response(JSON.stringify([]), {
         status: 200,
@@ -23,12 +24,9 @@ export async function GET(request) {
     }
 
     const q = escapeRegex(rawQuery);
-
-    // Filter: match title (case-insensitive), optional category
     const filter = { title: { $regex: q, $options: 'i' } };
     if (category) filter.category = category;
 
-    // Projection: send only safe/required fields
     const projection = {
       _id: 1,
       slug: 1,
@@ -38,7 +36,6 @@ export async function GET(request) {
       description: 1,
     };
 
-    // Find, project, sort (optional: boost by popularity/rank)
     const result = await products
       .find(filter, { projection })
       .sort({ rank: 1, title: 1 })
@@ -49,7 +46,7 @@ export async function GET(request) {
       _id: p._id?.toString(),
       slug: p.slug,
       title: p.title,
-      price: p.price ?? 0,
+      price: typeof p.price === 'number' ? p.price : 0,
       image: p.image || '/images/default.jpg',
       description: p.description || '',
     }));
@@ -63,9 +60,12 @@ export async function GET(request) {
     });
   } catch (error) {
     console.error('[API][GET /api/search] Error:', error);
-    return new Response(JSON.stringify({ error: 'Search failed' }), {
-      status: 500,
-      headers: { 'Content-Type': 'application/json' },
-    });
+    return new Response(
+      JSON.stringify({ error: 'Search failed' }),
+      {
+        status: 500,
+        headers: { 'Content-Type': 'application/json' },
+      }
+    );
   }
 }

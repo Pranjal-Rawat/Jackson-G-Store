@@ -1,14 +1,16 @@
 // /app/category/[slug]/page.jsx – SEO-optimized Category product listing
+
 import clientPromise from '../../lib/mongodb';
 import { getCategoryJsonLD } from '../../lib/seo/jsonld';
 import BusinessInfo from '../../../components/BusinessInfo';
 import ProductsPageClient from '../../products/client';
 
-// Helper: Convert "milk-juice" → "Milk Juice"
+// Helper: "milk-juice" → "Milk Juice"
 function formatCategoryName(slug = '') {
   return slug.replace(/-/g, ' ').replace(/\b\w/g, (l) => l.toUpperCase());
 }
 
+// Dynamic Metadata for SEO
 export async function generateMetadata({ params }) {
   const { slug: categorySlug } = params;
   const categoryTitle = formatCategoryName(categorySlug);
@@ -21,6 +23,7 @@ export async function generateMetadata({ params }) {
     title,
     description,
     keywords: `${categoryTitle}, ${categoryTitle} online, Jackson Grocery Store, Grocery Store Dehradun, Best Grocery Store, Fresh groceries Dehradun, Buy groceries online Dehradun, Jackson groceries`,
+    alternates: { canonical: url },
     openGraph: {
       title,
       description,
@@ -34,9 +37,6 @@ export async function generateMetadata({ params }) {
       description,
       images: [ogImage],
     },
-    alternates: {
-      canonical: url,
-    },
     other: {
       'ld+json': JSON.stringify(getCategoryJsonLD({
         categorySlug,
@@ -46,6 +46,7 @@ export async function generateMetadata({ params }) {
   };
 }
 
+// Server-side page rendering with MongoDB
 export default async function CategoryPage({ params }) {
   const { slug } = params;
   const categoryName = formatCategoryName(slug);
@@ -53,7 +54,6 @@ export default async function CategoryPage({ params }) {
   const client = await clientPromise;
   const db = client.db('jackson-grocery-store');
 
-  // Always limit and project (send only public fields for perf)
   const initialProducts = await db
     .collection('products')
     .find({ category: slug })
@@ -68,7 +68,6 @@ export default async function CategoryPage({ params }) {
       stock: 1,
       category: 1,
       rank: 1,
-      // Add any other public fields you want to expose
     })
     .toArray();
 
@@ -79,23 +78,23 @@ export default async function CategoryPage({ params }) {
 
   return (
     <main className="pt-14 min-h-screen bg-white">
-      {/* Accessible, crawlable heading */}
-      <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-tight leading-tight text-gray-800 mb-1 text-center">
+      {/* Main Category Heading */}
+      <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-tight text-gray-800 mb-1 text-center">
         {categoryName}
       </h1>
       <div className="mx-auto my-3 border-b-2 border-[#ffcc29] w-12" aria-hidden="true" />
 
-      {/* Products Grid */}
+      {/* Dynamic Product Grid */}
       <ProductsPageClient initialProducts={safeProducts} category={slug} />
 
-      {/* SEO-friendly, keyword-rich description */}
+      {/* SEO Description */}
       <section className="max-w-2xl mx-auto my-8 px-4 text-center text-gray-600">
         <p>
           Discover the best deals in <strong>{categoryName}</strong>. Shop fresh, high-quality products online and enjoy quick delivery with Jackson Grocery Store in Dehradun.
         </p>
       </section>
 
-      {/* Local business info card */}
+      {/* Local Business Info */}
       <BusinessInfo />
     </main>
   );

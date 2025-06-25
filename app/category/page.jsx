@@ -1,6 +1,6 @@
 // /app/category/page.jsx – SEO-optimized Category landing
-// /app/category/page.jsx – SEO-optimized Category landing
 
+// ---- SEO Metadata ----
 export const metadata = {
   title: "Browse Grocery Categories | Jackson Grocery Store | Grocery Store Dehradun",
   description:
@@ -37,22 +37,21 @@ export const metadata = {
     ],
   },
   other: {
-    // BreadcrumbList for SEO (Home > Categories)
     'ld+json': JSON.stringify({
-      '@context': 'https://schema.org',
-      '@type': 'BreadcrumbList',
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
       itemListElement: [
         {
-          '@type': 'ListItem',
+          "@type": "ListItem",
           position: 1,
-          name: 'Home',
-          item: 'https://jackson-grocery.com',
+          name: "Home",
+          item: "https://jackson-grocery.com",
         },
         {
-          '@type': 'ListItem',
+          "@type": "ListItem",
           position: 2,
-          name: 'All Categories',
-          item: 'https://jackson-grocery.com/category',
+          name: "All Categories",
+          item: "https://jackson-grocery.com/category",
         },
       ],
     }),
@@ -65,20 +64,22 @@ import CategoryCarousel from '../../components/CategoryCarousel';
 export default function CategoryHomePage() {
   return (
     <main className="pt-[5.5rem] min-h-screen bg-white">
-      {/* Categories Carousel/Grid */}
+      {/* Category Grid or Carousel */}
       <CategoryCarousel />
 
-      {/* SEO Text Section */}
-      <section className="max-w-2xl mx-auto my-10 px-4 text-center text-gray-600">
+      {/* SEO Text Block */}
+      <section className="max-w-2xl mx-auto my-10 px-4 text-center text-gray-700">
         <h1 className="text-2xl sm:text-3xl font-extrabold text-gray-800 mb-2">
           Shop by Category – Groceries Delivered Fresh
         </h1>
-        <p>
-          Discover all our grocery categories—fruits, dairy, snacks, and daily essentials. Enjoy fast delivery and top brands with Jackson Grocery Store in Dehradun.
+        <p className="leading-relaxed">
+          Discover our wide range of categories including fresh fruits, dairy, snacks,
+          household essentials, and more. Enjoy fast home delivery and top brands with
+          Jackson Grocery Store in Dehradun.
         </p>
       </section>
 
-      {/* Local Business Info (UI only) */}
+      {/* Local business info at the end */}
       <BusinessInfo />
     </main>
   );

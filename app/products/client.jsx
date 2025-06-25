@@ -10,11 +10,9 @@ import { useCartStore } from '../../stores/cartStore';
 import { Search } from 'lucide-react';
 import AdBanner from '../../components/Ad-Promotions';
 
-// ---- helper components ----------------------------------------------------
-
+// Product image with fallback
 function ProductImage({ src, alt }) {
   const [imgSrc, setImgSrc] = useState(src || '/images/logo.svg');
-
   return (
     <Image
       src={imgSrc}
@@ -28,6 +26,7 @@ function ProductImage({ src, alt }) {
   );
 }
 
+// Custom cart icon
 function CartIcon({ className = '' }) {
   return (
     <svg
@@ -49,13 +48,8 @@ function CartIcon({ className = '' }) {
   );
 }
 
-function AddToCartButton({
-  product,
-  quantity = 1,
-  option = null,
-  className = '',
-  disabled = false,
-}) {
+// Add to Cart Button
+function AddToCartButton({ product, quantity = 1, option = null, className = '', disabled = false }) {
   const addToCart = useCartStore((state) => state.addItem);
 
   const handleAddToCart = (e) => {
@@ -85,17 +79,16 @@ function AddToCartButton({
   );
 }
 
-// ---- main client component ------------------------------------------------
-
+// Main Component
 export default function ProductsPageClient({ initialProducts }) {
+  const router = useRouter();
   const initialRef = useRef(initialProducts);
   const [products, setProducts] = useState(initialRef.current);
   const [loading, setLoading] = useState(false);
   const [hasMore, setHasMore] = useState(true);
   const [query, setQuery] = useState('');
-  const router = useRouter();
 
-  async function handleSearch(value) {
+  const handleSearch = async (value) => {
     setQuery(value);
     if (value.length < 2) {
       setProducts(initialRef.current);
@@ -112,30 +105,27 @@ export default function ProductsPageClient({ initialProducts }) {
       setProducts([]);
     }
     setLoading(false);
-  }
+  };
 
-  async function loadMore() {
+  const loadMore = async () => {
     if (loading || !hasMore) return;
     setLoading(true);
     try {
       const res = await fetch(`/api/products?skip=${products.length}&limit=50`);
-      const moreProducts = await res.json();
-      if (!moreProducts.length) setHasMore(false);
-      else setProducts((prev) => [...prev, ...moreProducts]);
+      const more = await res.json();
+      if (!more.length) setHasMore(false);
+      else setProducts((prev) => [...prev, ...more]);
     } catch {
       setHasMore(false);
     }
     setLoading(false);
-  }
-
-  // ------------------------------------------------------------------------
+  };
 
   return (
     <main className="min-h-screen bg-gradient-to-b from-[#fffcf7] via-white to-[#fff6e3] text-[#272f38] pt-[80px]">
       <Header />
-
       <section className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-12 py-4">
-        {/* Search bar */}
+        {/* Search Bar */}
         <div className="max-w-2xl mx-auto mb-8 relative">
           <span className="absolute left-4 top-1/2 -translate-y-1/2 text-[#ed3237]">
             <Search className="w-5 h-5" />
@@ -151,7 +141,7 @@ export default function ProductsPageClient({ initialProducts }) {
           />
         </div>
 
-        {/* Promo banner (optional) */}
+        {/* Promotional Banner */}
         <AdBanner
           title="Monsoon Sale: Up to 40% OFF!"
           description="Fresh veggies and fruits delivered at your doorstep. Hurry, ends soon!"
@@ -161,7 +151,7 @@ export default function ProductsPageClient({ initialProducts }) {
           bg="bg-green-100"
         />
 
-        {/* Product grid / states */}
+        {/* Products Grid */}
         {loading && products.length === 0 ? (
           <CustomLoader />
         ) : products.length > 0 ? (
@@ -198,12 +188,10 @@ export default function ProductsPageClient({ initialProducts }) {
 
                   <div className="flex-1 flex flex-col p-3 gap-1">
                     <h3 className="text-base font-semibold truncate">{product.title}</h3>
-
                     <div className="flex gap-2 text-xs text-gray-600">
                       {product.unit && <span>{product.unit}</span>}
                       {product.pcs && <span className="text-gray-400">| {product.pcs} PCS</span>}
                     </div>
-
                     <div className="flex items-center gap-2 my-1">
                       {product.mrp && (
                         <span className="text-xs text-gray-400 line-through">
@@ -214,12 +202,7 @@ export default function ProductsPageClient({ initialProducts }) {
                         ₹{Number(product.price).toFixed(2)}
                       </span>
                     </div>
-
-                    <AddToCartButton
-                      product={product}
-                      disabled={isOutOfStock}
-                      className="py-1 px-3 text-xs rounded-full font-bold"
-                    />
+                    <AddToCartButton product={product} disabled={isOutOfStock} className="py-1 px-3 text-xs rounded-full font-bold" />
                   </div>
                 </div>
               );
@@ -237,7 +220,7 @@ export default function ProductsPageClient({ initialProducts }) {
           </div>
         )}
 
-        {/* load-more */}
+        {/* Load More Button */}
         {query.length < 2 && loading && <CustomLoader />}
         {hasMore && !loading && (
           <div className="flex justify-center mt-10">

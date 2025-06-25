@@ -1,5 +1,12 @@
 // /app/search/page.jsx
 
+import clientPromise from '../lib/mongodb';
+import Image from 'next/image';
+import Link from 'next/link';
+
+// Force server-side rendering
+export const dynamic = 'force-dynamic';
+
 // ---- SEO Metadata ----
 export const metadata = {
   title: 'Search Products | Jackson Grocery Store | Grocery Store Dehradun',
@@ -38,12 +45,6 @@ export const metadata = {
   },
 };
 
-import clientPromise from '../lib/mongodb';
-import Image from 'next/image';
-import Link from 'next/link';
-
-export const dynamic = 'force-dynamic';
-
 export default async function SearchPage({ searchParams }) {
   const q = searchParams.q || '';
 
@@ -63,7 +64,8 @@ export default async function SearchPage({ searchParams }) {
     title: { $regex: `^${q}$`, $options: 'i' },
   });
 
-  const related = await db.collection('products')
+  const related = await db
+    .collection('products')
     .find({
       title: { $regex: q, $options: 'i' },
       ...(mainProduct && { _id: { $ne: mainProduct._id } }),
@@ -73,7 +75,7 @@ export default async function SearchPage({ searchParams }) {
 
   const safeRelated = related.map((p) => ({
     ...p,
-    _id: p._id?.toString(),
+    _id: p._id.toString(),
   }));
 
   return (
@@ -86,7 +88,7 @@ export default async function SearchPage({ searchParams }) {
         <div className="mb-10 p-4 rounded-xl shadow bg-white flex flex-col sm:flex-row items-center gap-5 border border-[#ffcc29]/30">
           <Image
             src={mainProduct.image || '/images/logo.svg'}
-            alt={mainProduct.title}
+            alt={`Image of ${mainProduct.title}`}
             width={100}
             height={100}
             className="rounded-2xl border bg-white object-contain w-24 h-24"
@@ -126,7 +128,7 @@ export default async function SearchPage({ searchParams }) {
               <div className="relative w-28 h-28 mb-2 flex items-center justify-center">
                 <Image
                   src={product.image || '/images/logo.svg'}
-                  alt={product.title}
+                  alt={`Image of ${product.title}`}
                   fill
                   className="object-contain rounded-xl bg-white"
                   sizes="112px"
