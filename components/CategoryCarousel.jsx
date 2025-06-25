@@ -10,15 +10,21 @@ import { getOptimizedCloudinaryUrl } from '../app/lib/getOptimizedCloudinaryUrl'
 const Slider = dynamic(() => import('react-slick'), { ssr: false });
 
 const categories = [
-  { name: 'Baby Care', image: 'https://res.cloudinary.com/dnp4yuy8z/image/upload/v1750831632/baby-312256_1280-removebg-preview_lufy4l.png', slug: 'baby-care' },
-  { name: 'Beverages', image: 'https://res.cloudinary.com/dnp4yuy8z/image/upload/v1750831775/six-pack-25200_1280_saedly.png', slug: 'beverages' },
-  { name: 'Condiments & Sauces', image: 'https://res.cloudinary.com/dnp4yuy8z/image/upload/v1750833129/373eb1a8-7a46-411e-9efe-72b68aa1cfde.png-removebg-preview_jrxqpu.png', slug: 'condiments-sauces' },
-  { name: 'Dairy & Refrigerated', image: 'https://res.cloudinary.com/dnp4yuy8z/image/upload/v1750833212/chicken-559892_1280_gq1qqv.png', slug: 'dairy-refrigerated' },
-  { name: 'Household Cleaning', image: 'https://res.cloudinary.com/dnp4yuy8z/image/upload/v1750833252/bucket-303265_1280_gc2kyy.png', slug: 'household-cleaning' },
-  { name: 'Personal Care', image: 'https://res.cloudinary.com/dnp4yuy8z/image/upload/v1750833647/skin-7573077_1280_b8gueq.png', slug: 'personal-care' },
-  { name: 'Snacks & Bakery', image: 'https://res.cloudinary.com/dnp4yuy8z/image/upload/v1750835409/373eb1a8-7a46-411e-9efe-72b68aa1cfde.png__2_-removebg-preview_vemfxa.png', slug: 'snacks-bakery' },
-  { name: 'Spices & Masalas', image: 'https://res.cloudinary.com/dnp4yuy8z/image/upload/v1750834785/373eb1a8-7a46-411e-9efe-72b68aa1cfde.png__1_-removebg-preview_fg2ts2.png', slug: 'spices-masalas' },
-  { name: 'Staples', image: 'https://res.cloudinary.com/dnp4yuy8z/image/upload/v1750835511/wheat-7847325_1280_obsdjy.png', slug: 'staples' },
+  { name: 'Baby Care', slug: 'baby-care', image: 'https://res.cloudinary.com/dnp4yuy8z/image/upload/v1750831632/baby-312256_1280-removebg-preview_lufy4l.png' },
+  { name: 'Beverages', slug: 'beverages', image: 'https://res.cloudinary.com/dnp4yuy8z/image/upload/v1750831775/six-pack-25200_1280_saedly.png' },
+  { name: 'Condiments & Sauces', slug: 'condiments-sauces', image: 'https://res.cloudinary.com/dnp4yuy8z/image/upload/v1750833129/373eb1a8-7a46-411e-9efe-72b68aa1cfde.png-removebg-preview_jrxqpu.png' },
+  { name: 'Dairy & Refrigerated', slug: 'dairy-refrigerated', image: 'https://res.cloudinary.com/dnp4yuy8z/image/upload/v1750833212/chicken-559892_1280_gq1qqv.png' },
+  { name: 'Household Cleaning', slug: 'household-cleaning', image: 'https://res.cloudinary.com/dnp4yuy8z/image/upload/v1750833252/bucket-303265_1280_gc2kyy.png' },
+  { name: 'Personal Care', slug: 'personal-care', image: 'https://res.cloudinary.com/dnp4yuy8z/image/upload/v1750833647/skin-7573077_1280_b8gueq.png' },
+  { name: 'Snacks & Bakery', slug: 'snacks-bakery', image: 'https://res.cloudinary.com/dnp4yuy8z/image/upload/v1750835409/373eb1a8-7a46-411e-9efe-72b68aa1cfde.png__2_-removebg-preview_vemfxa.png' },
+  { name: 'Spices & Masalas', slug: 'spices-masalas', image: 'https://res.cloudinary.com/dnp4yuy8z/image/upload/v1750834785/373eb1a8-7a46-411e-9efe-72b68aa1cfde.png__1_-removebg-preview_fg2ts2.png' },
+  { name: 'Staples', slug: 'staples', image: 'https://res.cloudinary.com/dnp4yuy8z/image/upload/v1750835511/wheat-7847325_1280_obsdjy.png' },
+  { name: 'Chocolates', slug: 'chocolates', image: 'https://res.cloudinary.com/dnp4yuy8z/image/upload/v1750873044/IMG_20250625_163427-removebg-preview_yetzt8.png' },
+  { name: 'Stationary', slug: 'stationary', image: 'https://res.cloudinary.com/dnp4yuy8z/image/upload/v1750840100/stationary.png' },
+  { name: 'Ice Creams', slug: 'ice-creams', image: 'https://res.cloudinary.com/dnp4yuy8z/image/upload/v1750840205/ice-cream.png' },
+  { name: 'Perfumes', slug: 'perfumes', image: 'https://res.cloudinary.com/dnp4yuy8z/image/upload/v1750840250/perfume.png' },
+  { name: 'Frozen Food', slug: 'frozen-food', image: 'https://res.cloudinary.com/dnp4yuy8z/image/upload/v1750840300/frozen-food.png' },
+  { name: 'Noodles', slug: 'noodles', image: 'https://res.cloudinary.com/dnp4yuy8z/image/upload/v1750840350/noodles.png' },
 ];
 
 const sliderSettings = {
@@ -111,7 +117,7 @@ export default function CategoryCarousel() {
           </Slider>
         </div>
 
-                <div className="text-center mt-8">
+        <div className="text-center mt-8">
           <Link
             href="/products"
             className="inline-flex items-center gap-2 px-5 py-2 rounded-full text-white bg-primary-600 hover:bg-primary-700 hover:scale-105 transition-all shadow-lg group font-semibold"
@@ -126,4 +132,3 @@ export default function CategoryCarousel() {
     </section>
   );
 }
-

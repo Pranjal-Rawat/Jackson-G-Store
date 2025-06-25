@@ -12,6 +12,12 @@ const categories = [
     description: 'Juices, soft drinks, energy drinks, and more.',
   },
   {
+    name: 'Chocolates',
+    slug: 'chocolates',
+    image: '/images/products/chocolates.webp',
+    description: 'Premium chocolates, bars, and sweet treats.',
+  },
+  {
     name: 'Condiments & Sauces',
     slug: 'condiments-sauces',
     image: '/images/products/condiments_sauces.webp',
@@ -24,10 +30,34 @@ const categories = [
     description: 'Curd, paneer, cheese, butter, and refrigerated dairy products.',
   },
   {
+    name: 'Frozen Food',
+    slug: 'frozen-food',
+    image: '/images/products/frozen_food.webp',
+    description: 'Frozen snacks, parathas, nuggets, momos, and more.',
+  },
+  {
     name: 'Household Cleaning',
     slug: 'household-cleaning',
     image: '/images/products/household_cleaning.webp',
     description: 'Detergents, floor cleaners, dishwash liquids, and more.',
+  },
+  {
+    name: 'Ice Creams',
+    slug: 'ice-creams',
+    image: '/images/products/ice_creams.webp',
+    description: 'Tubs, cones, bars, and premium frozen delights.',
+  },
+  {
+    name: 'Noodles',
+    slug: 'noodles',
+    image: '/images/products/noodles.webp',
+    description: 'Instant noodles, ramen, and pasta varieties.',
+  },
+  {
+    name: 'Perfumes',
+    slug: 'perfumes',
+    image: '/images/products/perfumes.webp',
+    description: 'Branded perfumes and body sprays for all.',
   },
   {
     name: 'Personal Care',
@@ -52,7 +82,13 @@ const categories = [
     slug: 'staples',
     image: '/images/products/grains.webp',
     description: 'Rice, dal, pulses, flour, and all staples.',
-  }
+  },
+  {
+    name: 'Stationary',
+    slug: 'stationary',
+    image: '/images/products/stationary.webp',
+    description: 'Notebooks, pens, markers, and school/office essentials.',
+  },
 ];
 
 export default categories;

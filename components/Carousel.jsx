@@ -11,7 +11,7 @@ const carouselItems = [
   {
     id: 1,
     title: "Fresh Vegetables Delivered in Dehradun",
-    image: "https://res.cloudinary.com/dnp4yuy8z/image/upload/v1750837355/prime-energy-drink_km0iug.jpg",
+    image: "https://res.cloudinary.com/dnp4yuy8z/image/upload/v1750871098/IMG_20250625_164517_plac1o.jpg",
     link: "/category/vegetables",
     tag: "Farm-Fresh",
     description: "Order fresh vegetables online from Jackson Grocery Store. Best prices and same-day delivery in Dehradun.",
@@ -20,7 +20,7 @@ const carouselItems = [
   {
     id: 2,
     title: "Daily Essentials – Shop Groceries Online",
-    image: "https://res.cloudinary.com/dnp4yuy8z/image/upload/v1750746180/WhatsApp_Image_2025-06-24_at_11.44.21_99ec8cb7_tuztsl.jpg",
+    image: "https://res.cloudinary.com/dnp4yuy8z/image/upload/v1750873709/WhatsApp_Image_2025-06-25_at_23.18.03_ef934c90_aqum8z.jpg",
     link: "/category/essentials",
     tag: "Essentials",
     description: "Get all daily essentials and groceries online. Jackson Grocery Store is your one-stop shop in Dehradun.",
@@ -29,7 +29,7 @@ const carouselItems = [
   {
     id: 3,
     title: "Organic Fruits – Best Quality in Dehradun",
-    image: "https://res.cloudinary.com/dnp4yuy8z/image/upload/v1750836464/prime-every-drink_afi2pm.jpg",
+    image: "https://res.cloudinary.com/dnp4yuy8z/image/upload/v1750871291/IMG_20250625_163427_xep91s.jpg",
     link: "/category/fruits",
     tag: "Organic",
     description: "Premium organic fruits at the best prices. Delivered fresh in Dehradun by Jackson Grocery Store.",
