@@ -1,16 +1,15 @@
 // ✅ Server Component for SEO
-import Head from 'next/head';
 import Gallery from '../../components/Gallery';
 
 const siteUrl = 'https://jackson-grocery.com';
 const pageTitle = 'Store Gallery | Jackson Grocery Store, Dehradun';
 const description =
   'Explore real photos of Jackson Grocery Store in Dehradun. See our snacks, chocolates, refrigerator, and more. Trusted grocery shop near you.';
-
 const imageList = [
   'https://res.cloudinary.com/dnp4yuy8z/image/upload/q_auto,f_auto/v1750701877/IMG_20250621_185357_v1ehme.jpg',
 ];
 
+// ✅ SEO Metadata (JavaScript version)
 export const metadata = {
   title: pageTitle,
   description,
@@ -53,9 +52,11 @@ export default function GalleryPage() {
 
   return (
     <main className="bg-white">
-      <Head>
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      </Head>
+      {/* ✅ Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Gallery />
     </main>
   );
