@@ -1,63 +1,70 @@
+// /stores/cartStore.js
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 
-// Helper to ensure price is a valid number, always two decimals
-const toPrice = (num) => +parseFloat(num || 0).toFixed(2);
+// --- helpers ---------------------------------------------------------------
+const toPrice = (n) => +parseFloat(String(n ?? 0)).toFixed(2);
 
+// --- store -----------------------------------------------------------------
 export const useCartStore = create(
   persist(
     (set, get) => ({
-      items: [],
+      items: [],          // [{ id, title, price, stock, quantity }]
       count: 0,
       total: 0,
 
-      addItem: (product) => {
-        const quantity = Math.max(1, product.quantity || 1);
-        const id =
-          product.id ?? product._id ?? product.productId ?? product.slug;
+      // Qty already in cart for given id
+      getQtyInCart: (id) =>
+        get().items.find((i) => i.id === id)?.quantity ?? 0,
 
-        const existingItem = get().items.find((item) => item.id === id);
+      // Have we reached (or exceeded) this item’s stock limit?
+      hasReachedStock: (id, stock) =>
+        typeof stock === 'number' && get().getQtyInCart(id) >= stock,
 
-        // Avoid direct get() in each line for performance
-        let updatedItems, updatedCount, updatedTotal;
+      // Add up to available stock.  Returns true if anything was added.
+      addItem: async (product, qty = 1) => {
+        const id    = product.id ?? product._id ?? product.productId ?? product.slug;
+        const stock = product.stock ?? Infinity;
+        const inCart = get().getQtyInCart(id);
+        const canAdd = stock - inCart;
 
-        if (existingItem) {
-          updatedItems = get().items.map((item) =>
-            item.id === id
-              ? { ...item, quantity: item.quantity + quantity }
-              : item
-          );
-        } else {
-          updatedItems = [...get().items, { ...product, id, quantity }];
-        }
+        if (canAdd <= 0) return false;                 // already at limit
+        const addQty = Math.min(qty, canAdd);
 
-        // Re-calculate count & total for safety (rather than incremental)
-        updatedCount = updatedItems.reduce((sum, i) => sum + i.quantity, 0);
-        updatedTotal = toPrice(
-          updatedItems.reduce((sum, i) => sum + (i.price || 0) * i.quantity, 0)
+        const updatedItems = get().items.some((i) => i.id === id)
+          ? get().items.map((i) =>
+              i.id === id ? { ...i, quantity: i.quantity + addQty } : i
+            )
+          : [...get().items, { ...product, id, quantity: addQty }];
+
+        const updatedCount = updatedItems.reduce((s, i) => s + i.quantity, 0);
+        const updatedTotal = toPrice(
+          updatedItems.reduce((s, i) => s + (i.price || 0) * i.quantity, 0)
         );
 
         set({ items: updatedItems, count: updatedCount, total: updatedTotal });
+        return true;
       },
 
       removeItem: (id) => {
         const updatedItems = get().items.filter((i) => i.id !== id);
-        const updatedCount = updatedItems.reduce((sum, i) => sum + i.quantity, 0);
+        const updatedCount = updatedItems.reduce((s, i) => s + i.quantity, 0);
         const updatedTotal = toPrice(
-          updatedItems.reduce((sum, i) => sum + (i.price || 0) * i.quantity, 0)
+          updatedItems.reduce((s, i) => s + (i.price || 0) * i.quantity, 0)
         );
         set({ items: updatedItems, count: updatedCount, total: updatedTotal });
       },
 
-      updateQuantity: (id, newQuantity) => {
-        if (newQuantity <= 0) return get().removeItem(id);
+      updateQuantity: (id, newQty, stock = Infinity) => {
+        if (newQty <= 0) return get().removeItem(id);
+        const clamped = Math.min(newQty, stock);
 
         const updatedItems = get().items.map((i) =>
-          i.id === id ? { ...i, quantity: newQuantity } : i
+          i.id === id ? { ...i, quantity: clamped } : i
         );
-        const updatedCount = updatedItems.reduce((sum, i) => sum + i.quantity, 0);
+        const updatedCount = updatedItems.reduce((s, i) => s + i.quantity, 0);
         const updatedTotal = toPrice(
-          updatedItems.reduce((sum, i) => sum + (i.price || 0) * i.quantity, 0)
+          updatedItems.reduce((s, i) => s + (i.price || 0) * i.quantity, 0)
         );
         set({ items: updatedItems, count: updatedCount, total: updatedTotal });
       },
@@ -66,14 +73,11 @@ export const useCartStore = create(
     }),
     {
       name: 'cart-storage',
-      partialize: (state) => ({
-        items: state.items,
-        count: state.count,
-        total: state.total,
+      partialize: (s) => ({
+        items: s.items,
+        count: s.count,
+        total: s.total,
       }),
-      // Optionally, version your store to safely upgrade in future:
-      // version: 1,
-      // migrate: (persistedState, version) => persistedState,
     }
   )
 );

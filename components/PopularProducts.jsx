@@ -9,28 +9,35 @@ export default function PopularProducts({ products }) {
   const addToCart = useCartStore((state) => state.addItem);
   const [visibleCount, setVisibleCount] = useState(10);
 
-  const popularSorted = useMemo(() => {
-    return products
-      .filter((p) => p.popular === true || p.popular === 'true')
-      .sort((a, b) => (a.rank ?? 0) - (b.rank ?? 0));
-  }, [products]);
+  /* ---------- filter + sort ---------- */
+  const popularSorted = useMemo(
+    () =>
+      products
+        .filter((p) => p.popular === true || p.popular === 'true')
+        .sort((a, b) => (a.rank ?? 0) - (b.rank ?? 0)),
+    [products]
+  );
 
   const visibleProducts = useMemo(
     () => popularSorted.slice(0, visibleCount),
     [popularSorted, visibleCount]
   );
 
+  /* ---------- add-to-cart ---------- */
   const handleAddToCart = useCallback(
     (product) => {
-      addToCart({ ...product, quantity: 1 });
+      // 👉 first arg = clean product, second arg = units to add
+      addToCart(product, 1);
     },
     [addToCart]
   );
 
+  /* ---------- load more ---------- */
   const handleLoadMore = useCallback(() => {
     setVisibleCount((prev) => Math.min(prev + 10, popularSorted.length));
   }, [popularSorted.length]);
 
+  /* ---------- product card ---------- */
   const ProductCard = ({ product, index }) => {
     const {
       _id,
@@ -59,12 +66,15 @@ export default function PopularProducts({ products }) {
         itemScope
         itemType="https://schema.org/Product"
       >
-        {/* Structured Data Tags */}
+        {/* structured-data */}
         <meta itemProp="name" content={title} />
         <meta itemProp="sku" content={slug} />
-        <meta itemProp="description" content={description || `Buy ${title} online in Dehradun`} />
+        <meta
+          itemProp="description"
+          content={description || `Buy ${title} online in Dehradun`}
+        />
 
-        {/* Badges */}
+        {/* badges */}
         <div className="absolute top-2 left-2 flex flex-col gap-1 z-10">
           {typeof rank === 'number' && (
             <span className="text-[10px] font-bold bg-yellow-300 text-yellow-900 px-2 py-0.5 rounded-full shadow-sm border border-yellow-400">
@@ -78,7 +88,7 @@ export default function PopularProducts({ products }) {
           )}
         </div>
 
-        {/* Image */}
+        {/* image */}
         <div className="relative h-48 w-full overflow-hidden rounded-t-lg">
           <Image
             src={image || '/images/logo.svg'}
@@ -98,9 +108,12 @@ export default function PopularProducts({ products }) {
           )}
         </div>
 
-        {/* Info */}
+        {/* info */}
         <div className="p-4">
-          <h3 className="font-medium text-gray-800 mb-1 truncate" itemProp="name">
+          <h3
+            className="font-medium text-gray-800 mb-1 truncate"
+            itemProp="name"
+          >
             {title}
           </h3>
 
@@ -111,7 +124,9 @@ export default function PopularProducts({ products }) {
 
           <div className="flex items-center gap-2 mb-1">
             {displayMRP > displayPrice && (
-              <span className="text-xs text-gray-400 line-through">₹{displayMRP.toFixed(2)}</span>
+              <span className="text-xs text-gray-400 line-through">
+                ₹{displayMRP.toFixed(2)}
+              </span>
             )}
             <span
               className="text-red-600 font-semibold text-lg"
@@ -124,7 +139,11 @@ export default function PopularProducts({ products }) {
               <meta itemProp="price" content={displayPrice.toFixed(2)} />
               <link
                 itemProp="availability"
-                href={isOutOfStock ? 'https://schema.org/OutOfStock' : 'https://schema.org/InStock'}
+                href={
+                  isOutOfStock
+                    ? 'https://schema.org/OutOfStock'
+                    : 'https://schema.org/InStock'
+                }
               />
             </span>
           </div>
@@ -141,7 +160,9 @@ export default function PopularProducts({ products }) {
                 : 'bg-red-500 hover:bg-red-600 text-white'
             }`}
             disabled={isOutOfStock}
-            aria-label={isOutOfStock ? `Out of Stock` : `Add ${title} to cart`}
+            aria-label={
+              isOutOfStock ? `Out of Stock` : `Add ${title} to cart`
+            }
             type="button"
           >
             {isOutOfStock ? 'Out of Stock' : 'Add to Cart'}
@@ -151,18 +172,26 @@ export default function PopularProducts({ products }) {
     );
   };
 
+  /* ---------- render ---------- */
   return (
     <section className="px-4 py-12 sm:px-6 lg:px-8 bg-gray-50">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-2xl font-bold mb-4">Popular Grocery Products in Dehradun</h2>
+        <h2 className="text-2xl font-bold mb-4">
+          Popular Grocery Products in Dehradun
+        </h2>
         <p className="text-gray-700 mb-6 max-w-2xl">
-          Discover top-selling groceries, fruits, vegetables, and daily essentials. Shop the most popular products at
-          Jackson Grocery Store, Dehradun for best prices and fast delivery.
+          Discover top-selling groceries, fruits, vegetables, and daily
+          essentials. Shop the most popular products at Jackson Grocery Store,
+          Dehradun for best prices and fast delivery.
         </p>
 
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {visibleProducts.map((product, i) => (
-            <ProductCard key={product._id || product.id} product={product} index={i} />
+            <ProductCard
+              key={product._id || product.id}
+              product={product}
+              index={i}
+            />
           ))}
         </div>
 

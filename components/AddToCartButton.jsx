@@ -1,9 +1,9 @@
 'use client';
 
-import React from 'react';
+import React, { useCallback } from 'react';
 import { useCartStore } from '../stores/cartStore';
 
-// CartIcon extracted outside component for referential stability
+/* ---------------------------------- icon --------------------------------- */
 const CartIcon = React.memo(function CartIcon({ className = '' }) {
   return (
     <svg
@@ -27,32 +27,48 @@ const CartIcon = React.memo(function CartIcon({ className = '' }) {
   );
 });
 
+/* ---------------------------- main component ----------------------------- */
 export default function AddToCartButton({
   product,
-  quantity = 1,
-  option = null,
+  quantity = 1,          // default qty user wants to add
+  option = null,         // e.g. size / flavor
   className = '',
-  disabled = false,
+  disabled = false,      // allow parent to force-disable
 }) {
-  const addToCart = useCartStore((state) => state.addItem);
+  const addItem        = useCartStore((s) => s.addItem);
+  const hasReached     = useCartStore((s) =>
+    s.hasReachedStock(
+      product?.id ?? product?._id ?? product?.productId ?? product?.slug,
+      product?.stock
+    )
+  );
 
-  const isDisabled = disabled || !product?.title;
+  // 👇 final disabled flag
+  const isDisabled = disabled || !product?.title || hasReached;
 
-  // Handler is memoized and stable
-  const handleAddToCart = React.useCallback(
-    (e) => {
-      if (isDisabled) return;
+  const handleAdd = useCallback(
+    async (e) => {
       e.preventDefault();
       e.stopPropagation();
-      addToCart({ ...product, quantity, option });
+      if (isDisabled) return;
+
+      const ok = await addItem({ ...product, option }, quantity);
+      if (!ok) {
+        // Optional UX: toast / alert
+        alert('Sorry, no more stock available for this item.');
+      }
     },
-    [isDisabled, addToCart, product, quantity, option]
+    [isDisabled, addItem, product, quantity, option]
   );
 
   return (
     <button
-      onClick={handleAddToCart}
+      type="button"
+      onClick={handleAdd}
       disabled={isDisabled}
+      aria-label={isDisabled ? 'Out of Stock' : `Add ${product?.title || ''} to cart`}
+      tabIndex={isDisabled ? -1 : 0}
+      style={{ WebkitTapHighlightColor: 'transparent' }}
       className={[
         'relative inline-flex items-center justify-center gap-1',
         'px-3 py-2 sm:px-4 sm:py-2.5',
@@ -66,22 +82,23 @@ export default function AddToCartButton({
         isDisabled ? 'opacity-50 cursor-not-allowed' : '',
         className,
       ].join(' ')}
-      style={{ WebkitTapHighlightColor: 'transparent' }}
-      aria-label={isDisabled ? 'Out of Stock' : `Add ${product?.title || 'product'} to cart`}
-      tabIndex={isDisabled ? -1 : 0}
-      type="button"
     >
-      {/* Background shimmer on hover */}
+      {/* shimmer */}
       <span className="absolute inset-0 z-0 bg-white/0 group-hover:bg-white/10 group-active:bg-white/20 transition-all duration-200 rounded-full pointer-events-none backdrop-blur-sm" />
 
-      {/* Main content */}
+      {/* content */}
       <span className="relative z-10 flex items-center justify-center">
         <span className="bg-[#ffcc29]/90 p-1 rounded-full mr-1 sm:mr-2 flex items-center justify-center shadow-inner shadow-[#ed3237]/10">
           <CartIcon className="w-4 h-4 sm:w-5 sm:h-5 text-[#ed3237]" />
         </span>
+
         <span className="font-semibold tracking-wide drop-shadow-sm">
-          <span className="block sm:hidden">{isDisabled ? 'Out of Stock' : 'Add'}</span>
-          <span className="hidden sm:inline">{isDisabled ? 'Out of Stock' : 'Add to Cart'}</span>
+          <span className="block sm:hidden">
+            {isDisabled ? 'Out of Stock' : 'Add'}
+          </span>
+          <span className="hidden sm:inline">
+            {isDisabled ? 'Out of Stock' : 'Add to Cart'}
+          </span>
         </span>
       </span>
     </button>
