@@ -5,11 +5,12 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import PageTransitionLoader from '../components/PageTransitionLoader';
 import FloatingCartButton from '../components/FloatingCartButton';
-import QuickLinks from '@/components/Quicklinks';
+import QuickLinks from '../components/Quicklinks';
 
 const siteUrl = 'https://jackson-grocery.com';
 const siteName = 'Jackson Grocery Store';
-const logo = 'https://res.cloudinary.com/dy1uhnjnq/image/upload/v1749755125/Jackson_Logo_page-0001-removebg-preview_yqeopv.png';
+const logo =
+  'https://res.cloudinary.com/dy1uhnjnq/image/upload/v1749755125/Jackson_Logo_page-0001-removebg-preview_yqeopv.png';
 const phone = '+91-7417229660';
 const address = {
   street: '1 Municipal Road, Dalanwala',
@@ -22,14 +23,16 @@ const sameAs = [siteUrl];
 
 export const metadata = {
   title: `${siteName} | Grocery Store Dehradun | Fresh Groceries Online`,
-  description: 'Buy fresh groceries online in Dehradun from Jackson Grocery Store. Best quality fruits, vegetables, daily essentials, and more. Fast home delivery.',
+  description:
+    'Buy fresh groceries online in Dehradun from Jackson Grocery Store. Best quality fruits, vegetables, daily essentials, and more. Fast home delivery.',
   keywords:
     'Jackson Grocery Store, Grocery Store Dehradun, Best Grocery Store Dehradun, World of Groceries, Departmental Store Dehradun, Fresh groceries Dehradun, Grocery home delivery Dehradun, Buy groceries online Dehradun, Jackson groceries',
   metadataBase: new URL(siteUrl),
   alternates: { canonical: siteUrl },
   openGraph: {
     title: `${siteName} | Grocery Store Dehradun`,
-    description: 'Farm-fresh fruits, vegetables, and essentials delivered to your doorstep in Dehradun.',
+    description:
+      'Farm-fresh fruits, vegetables, and essentials delivered to your doorstep in Dehradun.',
     url: siteUrl,
     siteName,
     images: [
@@ -47,7 +50,8 @@ export const metadata = {
     card: 'summary_large_image',
     site: '@jackson_grocery',
     title: `${siteName} | Grocery Store Dehradun`,
-    description: 'Buy fresh groceries online in Dehradun from Jackson Grocery Store. Best rates, best quality. Fast home delivery.',
+    description:
+      'Buy fresh groceries online in Dehradun from Jackson Grocery Store. Best rates, best quality. Fast home delivery.',
     images: [logo],
   },
   icons: {
@@ -71,7 +75,17 @@ const geistMono = Geist_Mono({
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${geistSans.variable} ${geistMono.variable} bg-white w-full overflow-x-hidden`} suppressHydrationWarning>
+    <html
+      lang="en"
+      className={`${geistSans.variable} ${geistMono.variable} bg-white w-full overflow-x-hidden`}
+      suppressHydrationWarning
+    >
+      <head>
+        {/* Explicit favicon links for browser support */}
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" href="/favicon.png" />
+      </head>
       <body className="antialiased bg-white text-gray-900 min-w-0">
         {/* JSON-LD SEO Schema */}
         <Script
@@ -108,14 +122,23 @@ export default function RootLayout({ children }) {
           }}
         />
 
-        <a href="#main-content" className="sr-only focus:not-sr-only absolute left-2 top-2 z-50 bg-white text-blue-600 px-4 py-2 rounded shadow">
+        <a
+          href="#main-content"
+          className="sr-only focus:not-sr-only absolute left-2 top-2 z-50 bg-white text-blue-600 px-4 py-2 rounded shadow"
+        >
           Skip to main content
         </a>
+
         <PageTransitionLoader />
         <Header />
-        <main id="main-content" className="pt-[7.5rem] sm:pt-[8rem] min-h-screen w-full bg-white">
+        <main
+          id="main-content"
+          className="pt-[7.5rem] sm:pt-[8rem] min-h-screen w-full bg-white"
+        >
           {children}
         </main>
+
+        <QuickLinks />
 
         <FloatingCartButton />
         <Footer />

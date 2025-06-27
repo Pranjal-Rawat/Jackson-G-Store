@@ -46,7 +46,7 @@ export default function HomeClient({ products }) {
       <CategoryCarousel />
 
       {/* Hero Section: Instant HTML */}
-      <section className="relative bg-white">
+      {/* <section className="relative bg-white">
         <div className="max-w-7xl mx-auto px-4 py-16 text-center">
           <h1 className="text-4xl font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
             Fresh Groceries Delivered Daily
@@ -55,7 +55,7 @@ export default function HomeClient({ products }) {
             Get farm-fresh fruits, vegetables, and daily essentials at your doorstep.
           </p>
         </div>
-      </section>
+      </section> */}
 
       {/* Popular Products */}
       <section>
