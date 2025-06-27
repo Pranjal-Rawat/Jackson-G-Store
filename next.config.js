@@ -1,7 +1,4 @@
 // next.config.js (ESM compatible)
-import bundleAnalyzer from '@next/bundle-analyzer';
-
-/** @type {import('next').NextConfig} */
 const nextConfig = {
   experimental: {
     serverActions: {},
@@ -13,8 +10,4 @@ const nextConfig = {
   reactStrictMode: true,
 };
 
-const withBundleAnalyzer = bundleAnalyzer({
-  enabled: process.env.ANALYZE === 'true',
-});
-
-export default withBundleAnalyzer(nextConfig);
+export default nextConfig;

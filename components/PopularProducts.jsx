@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo, useCallback } from 'react';
+import { useState, useMemo, useCallback, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useCartStore } from '../stores/cartStore';
@@ -9,6 +9,9 @@ import { getOptimizedCloudinaryUrl } from '../app/lib/getOptimizedCloudinaryUrl'
 
 export default function PopularProducts({ products = [] }) {
   const [visibleCount, setVisibleCount] = useState(10);
+  const [hasMounted, setHasMounted] = useState(false);
+
+  useEffect(() => { setHasMounted(true); }, []);
 
   // Compute popular & sorted only once per products
   const popularSorted = useMemo(() => (
@@ -34,10 +37,12 @@ export default function PopularProducts({ products = [] }) {
     } = product;
 
     const getVirtualStock = useCartStore((s) => s.getVirtualStock);
-    const virtualStock = getVirtualStock(_id ?? slug, stock);
-    const isOutOfStock = (stock ?? 0) <= 0 || virtualStock <= 0;
+    // Only run virtual stock logic on client!
+    const virtualStock = hasMounted ? getVirtualStock(_id ?? slug, stock) : stock;
+    const isOutOfStock = hasMounted
+      ? ((stock ?? 0) <= 0 || virtualStock <= 0)
+      : ((stock ?? 0) <= 0); // SSR fallback: only real stock
 
-    // Cloudinary performance
     const optimizedImage =
       image?.includes('cloudinary.com')
         ? getOptimizedCloudinaryUrl(image)
@@ -84,12 +89,13 @@ export default function PopularProducts({ products = [] }) {
             blurDataURL="/images/logo.svg"
             itemProp="image"
           />
-          {isOutOfStock && (
+          {/* Badge logic: client-only for cart-dependent UI */}
+          {hasMounted && isOutOfStock && (
             <span className="absolute top-2 right-2 bg-red-600 text-white px-2 py-0.5 rounded-full font-bold text-xs shadow">
               Out of Stock
             </span>
           )}
-          {!isOutOfStock && virtualStock <= 3 && (
+          {hasMounted && !isOutOfStock && virtualStock <= 3 && (
             <span className="absolute bottom-2 right-2 bg-yellow-400 text-black px-2 py-0.5 rounded font-semibold text-xs shadow">
               {virtualStock} left
             </span>

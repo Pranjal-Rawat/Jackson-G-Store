@@ -1,11 +1,11 @@
 'use client';
 
+import React, { useEffect } from 'react';
 import dynamic from 'next/dynamic';
 import Image from 'next/image';
 import Link from 'next/link';
 import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
 
-// Dynamically load react-slick ONLY client-side
 const Slider = dynamic(() => import('react-slick'), { ssr: false });
 
 const carouselItems = [
@@ -38,7 +38,7 @@ const carouselItems = [
   },
 ];
 
-function PrevArrow({ onClick }) {
+const PrevArrow = React.memo(function PrevArrow({ onClick }) {
   return (
     <button
       aria-label="Previous slide"
@@ -50,9 +50,9 @@ function PrevArrow({ onClick }) {
       <FiChevronLeft className="h-7 w-7" />
     </button>
   );
-}
+});
 
-function NextArrow({ onClick }) {
+const NextArrow = React.memo(function NextArrow({ onClick }) {
   return (
     <button
       aria-label="Next slide"
@@ -64,9 +64,32 @@ function NextArrow({ onClick }) {
       <FiChevronRight className="h-7 w-7" />
     </button>
   );
+});
+
+function useSlickCSS() {
+  useEffect(() => {
+    const slickLink = document.createElement('link');
+    slickLink.rel = 'stylesheet';
+    slickLink.href = 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css';
+    slickLink.type = 'text/css';
+    document.head.appendChild(slickLink);
+
+    const themeLink = document.createElement('link');
+    themeLink.rel = 'stylesheet';
+    themeLink.href = 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css';
+    themeLink.type = 'text/css';
+    document.head.appendChild(themeLink);
+
+    return () => {
+      document.head.removeChild(slickLink);
+      document.head.removeChild(themeLink);
+    };
+  }, []);
 }
 
 export default function PerformanceCarousel() {
+  useSlickCSS();
+
   const settings = {
     dots: true,
     infinite: true,
@@ -122,11 +145,11 @@ export default function PerformanceCarousel() {
                     className="object-cover w-full h-full rounded-md"
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px"
                     priority={idx === 0}
+                    loading={idx === 0 ? "eager" : "lazy"}
                     placeholder="blur"
                     blurDataURL="/images/logo.svg"
                     itemProp="image"
                   />
-                  {/* Gradient overlay for contrast */}
                   <div className="absolute inset-0 bg-gradient-to-br from-black/30 to-black/10 pointer-events-none" />
                   <span className="sr-only" itemProp="name">{item.title}</span>
                   <span className="sr-only" itemProp="description">{item.description}</span>
@@ -137,7 +160,6 @@ export default function PerformanceCarousel() {
           </Slider>
         </div>
       </div>
-      {/* Crawlable hidden nav links for SEO bots */}
       <nav aria-label="Featured grocery categories" className="sr-only">
         {carouselItems.map((item) => (
           <Link key={item.id} href={item.link} aria-label={item.title} tabIndex={-1}>
