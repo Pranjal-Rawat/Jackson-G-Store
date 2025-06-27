@@ -1,7 +1,7 @@
 'use client';
 
 import dynamic from 'next/dynamic';
-import QuickLinks from '../components/QuickLinks'; // Import QuickLinks here
+import QuickLinks from './Quicklinks'; // Import QuickLinks here
 import DiscountBanner from './DiscountBanner';
 
 const PerformanceCarousel = dynamic(() => import('./Carousel'), { loading: () => <div style={{ height: 200 }} /> });
