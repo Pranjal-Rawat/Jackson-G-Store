@@ -1,8 +1,9 @@
 'use client';
 
 import dynamic from 'next/dynamic';
+import QuickLinks from '../components/QuickLinks'; // Import QuickLinks here
+import DiscountBanner from './DiscountBanner';
 
-// All big components are dynamically imported for super-fast first paint!
 const PerformanceCarousel = dynamic(() => import('./Carousel'), { loading: () => <div style={{ height: 200 }} /> });
 const CategoryCarousel = dynamic(() => import('./CategoryCarousel'), { loading: () => <div style={{ height: 120 }} /> });
 const PopularProducts = dynamic(() => import('./PopularProducts'), { loading: () => <div style={{ minHeight: 400 }} /> });
@@ -34,7 +35,12 @@ export default function HomeClient({ products }) {
   ];
 
   return (
-    <>
+      <>
+          
+          <DiscountBanner/>
+      {/* QuickLinks inserted here, above PerformanceCarousel */}
+      <QuickLinks />
+
       {/* Fast dynamic load after first paint */}
       <PerformanceCarousel />
       <CategoryCarousel />

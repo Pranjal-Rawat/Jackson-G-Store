@@ -5,6 +5,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import PageTransitionLoader from '../components/PageTransitionLoader';
 import FloatingCartButton from '../components/FloatingCartButton';
+import QuickLinks from '@/components/Quicklinks';
 
 const siteUrl = 'https://jackson-grocery.com';
 const siteName = 'Jackson Grocery Store';
@@ -110,12 +111,12 @@ export default function RootLayout({ children }) {
         <a href="#main-content" className="sr-only focus:not-sr-only absolute left-2 top-2 z-50 bg-white text-blue-600 px-4 py-2 rounded shadow">
           Skip to main content
         </a>
-
         <PageTransitionLoader />
         <Header />
         <main id="main-content" className="pt-[7.5rem] sm:pt-[8rem] min-h-screen w-full bg-white">
           {children}
         </main>
+
         <FloatingCartButton />
         <Footer />
       </body>

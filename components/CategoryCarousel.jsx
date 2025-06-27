@@ -20,11 +20,11 @@ const categories = [
   { name: 'Spices & Masalas', slug: 'spices-masalas', image: 'https://res.cloudinary.com/dnp4yuy8z/image/upload/v1750834785/373eb1a8-7a46-411e-9efe-72b68aa1cfde.png__1_-removebg-preview_fg2ts2.png' },
   { name: 'Staples', slug: 'staples', image: 'https://res.cloudinary.com/dnp4yuy8z/image/upload/v1750835511/wheat-7847325_1280_obsdjy.png' },
   { name: 'Chocolates', slug: 'chocolates', image: 'https://res.cloudinary.com/dnp4yuy8z/image/upload/v1750873044/IMG_20250625_163427-removebg-preview_yetzt8.png' },
-  { name: 'Stationary', slug: 'stationary', image: 'https://res.cloudinary.com/dnp4yuy8z/image/upload/v1750840100/stationary.png' },
-  { name: 'Ice Creams', slug: 'ice-creams', image: 'https://res.cloudinary.com/dnp4yuy8z/image/upload/v1750840205/ice-cream.png' },
-  { name: 'Perfumes', slug: 'perfumes', image: 'https://res.cloudinary.com/dnp4yuy8z/image/upload/v1750840250/perfume.png' },
-  { name: 'Frozen Food', slug: 'frozen-food', image: 'https://res.cloudinary.com/dnp4yuy8z/image/upload/v1750840300/frozen-food.png' },
-  { name: 'Noodles', slug: 'noodles', image: 'https://res.cloudinary.com/dnp4yuy8z/image/upload/v1750840350/noodles.png' },
+  { name: 'Stationary', slug: 'stationary', image: 'https://res.cloudinary.com/dnp4yuy8z/image/upload/v1751012234/pencil-5459684_1280-removebg-preview_qozhuh.png' },
+  { name: 'Ice Creams', slug: 'ice-creams', image: 'https://res.cloudinary.com/dnp4yuy8z/image/upload/v1751011729/pexels-teejay-1362534-removebg-preview_soydv1.png' },
+  { name: 'Perfumes', slug: 'perfumes', image: 'https://res.cloudinary.com/dnp4yuy8z/image/upload/v1751012151/Untitled_design__1_-removebg-preview_fwcvrr.png' },
+  { name: 'Frozen Food', slug: 'frozen-food', image: 'https://res.cloudinary.com/dnp4yuy8z/image/upload/v1751012356/fast-food-1293770_1280_ta5mpy.png' },
+  { name: 'Noodles', slug: 'noodles', image: 'https://res.cloudinary.com/dnp4yuy8z/image/upload/v1751012310/ai-generated-8138069_1280_vocx14.png' },
 ];
 
 // 3 cards on all mobile/tablet breakpoints
