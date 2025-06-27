@@ -5,7 +5,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import PageTransitionLoader from '../components/PageTransitionLoader';
 import FloatingCartButton from '../components/FloatingCartButton';
-import Quicklinks from '../components/Quicklinks';
+import Quicklinks from '@/components/Quicklinks';
 
 const siteUrl = 'https://jackson-grocery.com';
 const siteName = 'Jackson Grocery Store';
