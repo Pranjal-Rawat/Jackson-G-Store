@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 
-export default function Quicklinks() {
+export default function QuickLinks() {
   const links = [
     { href: '/products', label: 'All Products' },
     { href: '/category/vegetables', label: 'Vegetables' },

@@ -5,7 +5,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import PageTransitionLoader from '../components/PageTransitionLoader';
 import FloatingCartButton from '../components/FloatingCartButton';
-import Quicklinks from '@/components/Quicklinks';
+import QuickLinks from '../components/QuickLinks';
 
 const siteUrl = 'https://jackson-grocery.com';
 const siteName = 'Jackson Grocery Store';
@@ -133,7 +133,7 @@ export default function RootLayout({ children }) {
         >
           {children}
         </main>
-        <Quicklinks />
+        <QuickLinks />
         <FloatingCartButton />
         <Footer />
       </body>
