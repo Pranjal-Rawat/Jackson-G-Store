@@ -5,7 +5,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import PageTransitionLoader from '../components/PageTransitionLoader';
 import FloatingCartButton from '../components/FloatingCartButton';
-import QuickLinks from '../components/Quicklinks';
+import Quicklinks from '../components/Quicklinks';
 
 const siteUrl = 'https://jackson-grocery.com';
 const siteName = 'Jackson Grocery Store';
@@ -81,13 +81,11 @@ export default function RootLayout({ children }) {
       suppressHydrationWarning
     >
       <head>
-        {/* Explicit favicon links for browser support */}
         <link rel="icon" href="/favicon.ico" />
         <link rel="shortcut icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" href="/favicon.png" />
       </head>
       <body className="antialiased bg-white text-gray-900 min-w-0">
-        {/* JSON-LD SEO Schema */}
         <Script
           id="grocery-jsonld"
           type="application/ld+json"
@@ -121,14 +119,12 @@ export default function RootLayout({ children }) {
             }),
           }}
         />
-
         <a
           href="#main-content"
           className="sr-only focus:not-sr-only absolute left-2 top-2 z-50 bg-white text-blue-600 px-4 py-2 rounded shadow"
         >
           Skip to main content
         </a>
-
         <PageTransitionLoader />
         <Header />
         <main
@@ -137,9 +133,7 @@ export default function RootLayout({ children }) {
         >
           {children}
         </main>
-
-        <QuickLinks />
-
+        <Quicklinks />
         <FloatingCartButton />
         <Footer />
       </body>
