@@ -6,13 +6,15 @@ import Header from '../../components/Header';
 import CustomLoader from '../../components/CustomLoader';
 import LoadMoreButton from '../../components/LoadMoreButton';
 import Image from 'next/image';
-import AddToCartButton from '../../components/AddToCartButton';   // ✅ shared button
+import AddToCartButton from '../../components/AddToCartButton';
+import { useCartStore } from '../../stores/cartStore';
 import { Search } from 'lucide-react';
 import AdBanner from '../../components/Ad-Promotions';
+import { getOptimizedCloudinaryUrl } from '../../app/lib/getOptimizedCloudinaryUrl';
 
-/* ---------- product image helper ---------- */
+// Robust image with fallback & Cloudinary optimization
 function ProductImage({ src, alt }) {
-  const [imgSrc, setImgSrc] = useState(src || '/images/logo.svg');
+  const [imgSrc, setImgSrc] = useState(getOptimizedCloudinaryUrl(src) || '/images/logo.svg');
   return (
     <Image
       src={imgSrc}
@@ -22,20 +24,26 @@ function ProductImage({ src, alt }) {
       sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 25vw"
       loading="lazy"
       onError={() => setImgSrc('/images/logo.svg')}
+      placeholder="blur"
+      blurDataURL="/images/logo.svg"
+      priority={false}
+      unoptimized={false}
     />
   );
 }
 
-/* ---------- main component ---------- */
 export default function ProductsPageClient({ initialProducts }) {
-  const router       = useRouter();
-  const initialRef   = useRef(initialProducts);
+  const router = useRouter();
+  const initialRef = useRef(initialProducts);
   const [products, setProducts] = useState(initialRef.current);
-  const [loading,  setLoading]  = useState(false);
-  const [hasMore,   setHasMore] = useState(true);
-  const [query,     setQuery]   = useState('');
+  const [loading, setLoading] = useState(false);
+  const [hasMore, setHasMore] = useState(true);
+  const [query, setQuery] = useState('');
 
-  /* ---------- search ---------- */
+  // Zustand virtual stock access
+  const getVirtualStock = useCartStore((s) => s.getVirtualStock);
+
+  // --- search
   const handleSearch = async (value) => {
     setQuery(value);
     if (value.length < 2) {
@@ -45,7 +53,7 @@ export default function ProductsPageClient({ initialProducts }) {
     }
     setLoading(true);
     try {
-      const res  = await fetch(`/api/search?q=${encodeURIComponent(value)}`);
+      const res = await fetch(`/api/search?q=${encodeURIComponent(value)}`);
       const data = await res.json();
       setProducts(data);
       setHasMore(false);
@@ -55,12 +63,12 @@ export default function ProductsPageClient({ initialProducts }) {
     setLoading(false);
   };
 
-  /* ---------- load more ---------- */
+  // --- load more
   const loadMore = async () => {
     if (loading || !hasMore) return;
     setLoading(true);
     try {
-      const res  = await fetch(`/api/products?skip=${products.length}&limit=50`);
+      const res = await fetch(`/api/products?skip=${products.length}&limit=50`);
       const more = await res.json();
       if (!more.length) setHasMore(false);
       else setProducts((prev) => [...prev, ...more]);
@@ -70,7 +78,7 @@ export default function ProductsPageClient({ initialProducts }) {
     setLoading(false);
   };
 
-  /* ---------- render ---------- */
+  // --- render
   return (
     <main className="min-h-screen bg-gradient-to-b from-[#fffcf7] via-white to-[#fff6e3] text-[#272f38] pt-[80px]">
       <Header />
@@ -106,18 +114,20 @@ export default function ProductsPageClient({ initialProducts }) {
         {loading && products.length === 0 ? (
           <CustomLoader />
         ) : products.length > 0 ? (
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-5 md:gap-7">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-5 md:gap-7" role="list">
             {products.map((product) => {
-              const stock        = product.stock ?? 0;
-              const isOutOfStock = stock <= 0;
+              const id = product._id ?? product.id ?? product.slug;
+              const realStock = product.stock ?? 0;
+              const virtualStock = getVirtualStock(id, realStock);
+              const isOutOfStock = realStock <= 0 || virtualStock <= 0;
 
               return (
                 <div
-                  key={product._id || product.id}
+                  key={id}
                   className={`relative bg-white rounded-2xl shadow group border border-[#ffcc29]/20 overflow-hidden flex flex-col transition-all duration-200 hover:shadow-lg cursor-pointer ${
                     isOutOfStock ? 'opacity-80 pointer-events-auto' : ''
                   }`}
-                  role="button"
+                  role="listitem"
                   tabIndex={0}
                   aria-label={`View details for ${product.title}`}
                   onClick={() => router.push(`/products/${product.slug}`)}
@@ -129,6 +139,11 @@ export default function ProductsPageClient({ initialProducts }) {
                   {isOutOfStock && (
                     <span className="absolute top-2 right-2 z-10 bg-red-600 text-white px-2 py-0.5 rounded-full font-bold text-xs shadow">
                       Out of Stock
+                    </span>
+                  )}
+                  {!isOutOfStock && virtualStock <= 3 && virtualStock > 0 && (
+                    <span className="absolute bottom-2 right-2 z-10 bg-yellow-400 text-black px-2 py-0.5 rounded font-semibold text-xs shadow">
+                      {virtualStock} left
                     </span>
                   )}
 
@@ -161,7 +176,6 @@ export default function ProductsPageClient({ initialProducts }) {
                       </span>
                     </div>
 
-                    {/* ✅ shared button; adds 1 unit & auto-disables at stock limit */}
                     <AddToCartButton
                       product={product}
                       disabled={isOutOfStock}

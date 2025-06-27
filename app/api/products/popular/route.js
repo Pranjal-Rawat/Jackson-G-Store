@@ -8,7 +8,7 @@ export async function GET(req) {
     const skip = Math.max(Number(searchParams.get('skip')) || 0, 0);
     const limit = Math.min(Number(searchParams.get('limit')) || 50, 100);
 
-    // Prevent multiple MongoDB connects in dev
+    // Prevent multiple MongoDB connects in dev/hot reload
     if (mongoose.connection.readyState === 0) {
       await mongoose.connect(process.env.MONGODB_URI, {
         dbName: 'jackson-grocery-store',
@@ -26,6 +26,9 @@ export async function GET(req) {
       stock: 1,
       category: 1,
       rank: 1,
+      // Add popular flags to help UI downstream if needed
+      popular: 1,
+      isPopular: 1,
     };
 
     const filter = {
@@ -52,6 +55,7 @@ export async function GET(req) {
       headers: {
         'Content-Type': 'application/json',
         'Cache-Control': 'public, s-maxage=30, stale-while-revalidate=60',
+        'Vary': 'Accept-Encoding',
       },
     });
   } catch (error) {

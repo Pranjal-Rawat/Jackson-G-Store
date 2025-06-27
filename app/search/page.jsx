@@ -1,4 +1,3 @@
-// /app/search/page.jsx
 import clientPromise from '../lib/mongodb';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -57,23 +56,31 @@ export default async function SearchPage({ searchParams }) {
   }
 
   /* ---------- 2. DB fetch ---------- */
-  const client = await clientPromise;
-  const db = client.db('jackson-grocery-store');
+  let mainProduct = null;
+  let related = [];
+  try {
+    const client = await clientPromise;
+    const db = client.db('jackson-grocery-store');
 
-  /* Exact match (featured card) */
-  const mainProduct = await db
-    .collection('products')
-    .findOne({ title: { $regex: `^${q}$`, $options: 'i' } });
+    // Exact match (featured card)
+    mainProduct = await db
+      .collection('products')
+      .findOne({ title: { $regex: `^${q}$`, $options: 'i' } });
 
-  /* Related products */
-  const related = await db
-    .collection('products')
-    .find({
-      title: { $regex: q, $options: 'i' },
-      ...(mainProduct && { _id: { $ne: mainProduct._id } }),
-    })
-    .limit(24)
-    .toArray();
+    // Related products
+    related = await db
+      .collection('products')
+      .find({
+        title: { $regex: q, $options: 'i' },
+        ...(mainProduct && { _id: { $ne: mainProduct._id } }),
+      })
+      .limit(24)
+      .toArray();
+  } catch (err) {
+    // Defensive: fallback to empty if DB fails
+    mainProduct = null;
+    related = [];
+  }
 
   const safeRelated = related.map((p) => ({ ...p, _id: p._id.toString() }));
 
@@ -87,7 +94,7 @@ export default async function SearchPage({ searchParams }) {
 
       {/* Featured / exact */}
       {mainProduct ? (
-        <div className="mb-12 flex flex-col gap-5 rounded-2xl border border-yellow-200 bg-white p-5 shadow-theme sm:flex-row sm:items-center">
+        <div className="mb-12 flex flex-col gap-5 rounded-2xl border border-yellow-200 bg-white p-5 shadow-theme sm:flex-row sm:items-center" tabIndex={0} aria-label={`Exact match for ${mainProduct.title}`}>
           <Image
             src={mainProduct.image || '/images/logo.svg'}
             alt={mainProduct.title}
@@ -95,6 +102,8 @@ export default async function SearchPage({ searchParams }) {
             height={110}
             className="h-28 w-28 rounded-xl bg-white object-contain"
             priority
+            placeholder="blur"
+            blurDataURL="/images/logo.svg"
           />
           <div className="flex-1">
             <Link
@@ -131,6 +140,8 @@ export default async function SearchPage({ searchParams }) {
               href={`/products/${p.slug}`}
               className="group rounded-2xl border border-yellow-200 bg-white p-4 shadow-theme
                          transition-transform duration-150 hover:scale-[1.03] focus-visible:scale-[1.03]"
+              aria-label={`View details for ${p.title}`}
+              tabIndex={0}
             >
               <div className="relative mb-2 flex h-24 w-full items-center justify-center">
                 <Image
@@ -139,6 +150,8 @@ export default async function SearchPage({ searchParams }) {
                   fill
                   className="object-contain rounded-xl bg-white"
                   sizes="112px"
+                  placeholder="blur"
+                  blurDataURL="/images/logo.svg"
                 />
               </div>
 

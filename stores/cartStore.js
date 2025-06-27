@@ -2,33 +2,40 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 
-// --- helpers ---------------------------------------------------------------
+/* ---------- helper ------------------------------------------------------- */
 const toPrice = (n) => +parseFloat(String(n ?? 0)).toFixed(2);
 
-// --- store -----------------------------------------------------------------
+/* ---------- store -------------------------------------------------------- */
 export const useCartStore = create(
   persist(
     (set, get) => ({
-      items: [],          // [{ id, title, price, stock, quantity }]
+      /* state */
+      items: [],   // [{ id, title, price, stock, quantity }]
       count: 0,
       total: 0,
 
-      // Qty already in cart for given id
+      /* selectors --------------------------------------------------------- */
       getQtyInCart: (id) =>
         get().items.find((i) => i.id === id)?.quantity ?? 0,
 
-      // Have we reached (or exceeded) this item’s stock limit?
+      /** --- 🟢 MAIN LOGIC: Virtual Stock Calculation --- */
+      getVirtualStock: (id, realStock) => {
+        const inCart = get().getQtyInCart(id);
+        // Never show less than 0
+        return Math.max((realStock ?? 0) - inCart, 0);
+      },
+
       hasReachedStock: (id, stock) =>
         typeof stock === 'number' && get().getQtyInCart(id) >= stock,
 
-      // Add up to available stock.  Returns true if anything was added.
+      /* actions ----------------------------------------------------------- */
       addItem: async (product, qty = 1) => {
-        const id    = product.id ?? product._id ?? product.productId ?? product.slug;
+        const id    = product._id ?? product.id ?? product.slug;
         const stock = product.stock ?? Infinity;
         const inCart = get().getQtyInCart(id);
         const canAdd = stock - inCart;
 
-        if (canAdd <= 0) return false;                 // already at limit
+        if (canAdd <= 0) return false; // at limit
         const addQty = Math.min(qty, canAdd);
 
         const updatedItems = get().items.some((i) => i.id === id)
@@ -69,7 +76,8 @@ export const useCartStore = create(
         set({ items: updatedItems, count: updatedCount, total: updatedTotal });
       },
 
-      clearCart: () => set({ items: [], count: 0, total: 0 }),
+      clearCart: () =>
+        set(() => ({ items: [], count: 0, total: 0 })), // functional set
     }),
     {
       name: 'cart-storage',

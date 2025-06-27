@@ -1,16 +1,37 @@
 'use client';
 
-// Route: /components/CustomLoader.jsx – Animated brand loader for transitions & API loading
+// /components/CustomLoader.jsx – Animated brand loader for transitions & API loading
 
 export default function CustomLoader() {
   return (
     <div
       className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-white/95 backdrop-blur-sm"
-      role="alert"
-      aria-live="assertive"
+      role="status"
+      aria-live="polite"
       aria-label="Loading – Jackson Grocery Store"
     >
-      {/* Animated Shopping Bag with Floating Items */}
+      {/* Floating Keyframes for Groceries */}
+      <style jsx>{`
+        .animate-float {
+          animation: floatUpDown 1.6s ease-in-out infinite alternate;
+        }
+        .animate-float-slow {
+          animation: floatUpDown 2.2s ease-in-out infinite alternate;
+        }
+        .animate-float-xslow {
+          animation: floatUpDown 2.7s ease-in-out infinite alternate;
+        }
+        @keyframes floatUpDown {
+          from {
+            transform: translateY(0) scale(1);
+          }
+          to {
+            transform: translateY(-16%) scale(1.08);
+          }
+        }
+      `}</style>
+
+      {/* Animated Shopping Bag & Items */}
       <div className="relative mb-6 w-28 h-28 flex items-center justify-center drop-shadow-lg">
         <svg
           className="w-20 h-20 drop-shadow"
@@ -29,60 +50,21 @@ export default function CustomLoader() {
             fill="none"
           />
         </svg>
-
         {/* Apple */}
-        <svg
-          className="absolute left-0 top-0 w-8 h-8 animate-float"
-          viewBox="0 0 32 32"
-          aria-label="Apple"
-          role="img"
-        >
+        <svg className="absolute left-0 top-0 w-8 h-8 animate-float" viewBox="0 0 32 32" aria-label="Apple" role="img">
           <circle cx="16" cy="17" r="8" fill="#fc8181" />
           <rect x="14" y="8" width="4" height="6" rx="2" fill="#38a169" />
         </svg>
-
         {/* Carrot */}
-        <svg
-          className="absolute right-1 top-2 w-7 h-7 animate-float-slow"
-          viewBox="0 0 32 32"
-          aria-label="Carrot"
-          role="img"
-        >
+        <svg className="absolute right-1 top-2 w-7 h-7 animate-float-slow" viewBox="0 0 32 32" aria-label="Carrot" role="img">
           <ellipse cx="16" cy="20" rx="6" ry="8" fill="#f6e05e" />
           <rect x="14" y="5" width="4" height="7" rx="2" fill="#68d391" />
         </svg>
-
         {/* Bread */}
-        <svg
-          className="absolute left-12 -bottom-2 w-7 h-7 animate-float-xslow"
-          viewBox="0 0 32 32"
-          aria-label="Bread"
-          role="img"
-        >
+        <svg className="absolute left-12 -bottom-2 w-7 h-7 animate-float-xslow" viewBox="0 0 32 32" aria-label="Bread" role="img">
           <rect x="6" y="15" width="20" height="10" rx="5" fill="#ed8936" />
           <ellipse cx="16" cy="16" rx="10" ry="5" fill="#f6e05e" />
         </svg>
-
-        {/* Floating Keyframes */}
-        <style jsx>{`
-          .animate-float {
-            animation: floatUpDown 1.6s ease-in-out infinite alternate;
-          }
-          .animate-float-slow {
-            animation: floatUpDown 2.2s ease-in-out infinite alternate;
-          }
-          .animate-float-xslow {
-            animation: floatUpDown 2.7s ease-in-out infinite alternate;
-          }
-          @keyframes floatUpDown {
-            from {
-              transform: translateY(0) scale(1);
-            }
-            to {
-              transform: translateY(-16%) scale(1.08);
-            }
-          }
-        `}</style>
       </div>
 
       {/* Branding & Message */}
@@ -99,12 +81,11 @@ export default function CustomLoader() {
         <div className="mt-2 flex justify-center" aria-hidden="true">
           <span
             className="w-7 h-7 border-4 border-secondary-500 border-t-transparent rounded-full animate-spin"
-            role="status"
           ></span>
         </div>
       </div>
 
-      {/* Assistive Info */}
+      {/* Assistive Info for screen readers */}
       <span className="sr-only">
         Please wait while we load Jackson Grocery Store products and deals.
       </span>

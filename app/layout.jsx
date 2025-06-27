@@ -25,9 +25,7 @@ export const metadata = {
   keywords:
     'Jackson Grocery Store, Grocery Store Dehradun, Best Grocery Store Dehradun, World of Groceries, Departmental Store Dehradun, Fresh groceries Dehradun, Grocery home delivery Dehradun, Buy groceries online Dehradun, Jackson groceries',
   metadataBase: new URL(siteUrl),
-  alternates: {
-    canonical: siteUrl,
-  },
+  alternates: { canonical: siteUrl },
   openGraph: {
     title: `${siteName} | Grocery Store Dehradun`,
     description: 'Farm-fresh fruits, vegetables, and essentials delivered to your doorstep in Dehradun.',
@@ -56,6 +54,7 @@ export const metadata = {
     shortcut: '/favicon.ico',
     apple: '/favicon.png',
   },
+  themeColor: '#ffffff',
 };
 
 const geistSans = Geist({
@@ -71,13 +70,8 @@ const geistMono = Geist_Mono({
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="bg-white w-full overflow-x-hidden">
-      <head>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="apple-touch-icon" href="/favicon.png" />
-        <meta name="theme-color" content="#ffffff" />
-      </head>
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white text-gray-900 min-w-0`}>
+    <html lang="en" className={`${geistSans.variable} ${geistMono.variable} bg-white w-full overflow-x-hidden`} suppressHydrationWarning>
+      <body className="antialiased bg-white text-gray-900 min-w-0">
         {/* JSON-LD SEO Schema */}
         <Script
           id="grocery-jsonld"
@@ -112,6 +106,10 @@ export default function RootLayout({ children }) {
             }),
           }}
         />
+
+        <a href="#main-content" className="sr-only focus:not-sr-only absolute left-2 top-2 z-50 bg-white text-blue-600 px-4 py-2 rounded shadow">
+          Skip to main content
+        </a>
 
         <PageTransitionLoader />
         <Header />

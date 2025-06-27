@@ -1,12 +1,13 @@
 'use client';
 
+import { useState, useEffect } from 'react';
 import dynamic from 'next/dynamic';
-import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { getOptimizedCloudinaryUrl } from '../app/lib/getOptimizedCloudinaryUrl';
 
+// Dynamic import slider ONLY on client/mobile
 const Slider = dynamic(() => import('react-slick'), { ssr: false });
 
 const categories = [
@@ -31,7 +32,7 @@ const sliderSettings = {
   dots: false,
   infinite: true,
   speed: 500,
-  slidesToShow: 3,
+  slidesToShow: 2,
   slidesToScroll: 1,
   autoplay: true,
   autoplaySpeed: 2500,
@@ -39,13 +40,21 @@ const sliderSettings = {
   swipeToSlide: true,
   cssEase: 'ease-in-out',
   responsive: [
-    { breakpoint: 1024, settings: { slidesToShow: 3 } },
-    { breakpoint: 768, settings: { slidesToShow: 3 } },
-    { breakpoint: 480, settings: { slidesToShow: 2 } }
+    { breakpoint: 480, settings: { slidesToShow: 1 } }
   ]
 };
 
 export default function CategoryCarousel() {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    // Only run on client
+    const check = () => setIsMobile(window.innerWidth < 768);
+    check();
+    window.addEventListener('resize', check);
+    return () => window.removeEventListener('resize', check);
+  }, []);
+
   return (
     <section className="px-4 py-8 bg-gradient-to-br from-primary-50 to-gray-100" aria-labelledby="shop-categories-heading">
       <div className="max-w-7xl mx-auto">
@@ -59,7 +68,7 @@ export default function CategoryCarousel() {
           Shop By Category
         </motion.h2>
 
-        {/* Desktop View */}
+        {/* Desktop Grid: NO react-slick/JS */}
         <div className="hidden md:grid grid-cols-3 lg:grid-cols-7 gap-5">
           {categories.map((category, idx) => (
             <motion.div key={category.slug} whileHover={{ scale: 1.05 }} transition={{ duration: 0.3 }}>
@@ -70,12 +79,12 @@ export default function CategoryCarousel() {
               >
                 <Image
                   src={getOptimizedCloudinaryUrl(category.image)}
-                  alt={category.name}
-                  width={400}
-                  height={300}
-                  className="w-full h-40 object-contain p-4"
+                  alt={category.name + " category icon"}
+                  width={220}
+                  height={140}
+                  className="w-full h-36 object-contain p-4"
                   sizes="(max-width: 1024px) 33vw, 14vw"
-                  priority={idx < 3}
+                  priority={idx === 0}
                   placeholder="blur"
                   blurDataURL="/images/logo.svg"
                 />
@@ -87,36 +96,39 @@ export default function CategoryCarousel() {
           ))}
         </div>
 
-        {/* Mobile Carousel */}
-        <div className="md:hidden mt-4">
-          <Slider {...sliderSettings}>
-            {categories.map((category) => (
-              <div key={category.slug} className="px-2">
-                <Link
-                  href={`/category/${category.slug}`}
-                  className="block rounded-xl bg-white shadow-md hover:shadow-xl overflow-hidden transition-shadow"
-                  aria-label={`Shop ${category.name}`}
-                >
-                  <Image
-                    src={getOptimizedCloudinaryUrl(category.image)}
-                    alt={category.name}
-                    width={300}
-                    height={200}
-                    className="w-full h-32 object-contain p-4"
-                    loading="lazy"
-                    sizes="33vw"
-                    placeholder="blur"
-                    blurDataURL="/images/logo.svg"
-                  />
-                  <div className="text-center py-2 text-sm font-medium text-gray-700">
-                    {category.name}
-                  </div>
-                </Link>
-              </div>
-            ))}
-          </Slider>
-        </div>
+        {/* Mobile Carousel: Only mounts slider if mobile! */}
+        {isMobile && (
+          <div className="md:hidden mt-4">
+            <Slider {...sliderSettings}>
+              {categories.map((category) => (
+                <div key={category.slug} className="px-2">
+                  <Link
+                    href={`/category/${category.slug}`}
+                    className="block rounded-xl bg-white shadow-md hover:shadow-xl overflow-hidden transition-shadow"
+                    aria-label={`Shop ${category.name}`}
+                  >
+                    <Image
+                      src={getOptimizedCloudinaryUrl(category.image)}
+                      alt={category.name + " category icon"}
+                      width={180}
+                      height={120}
+                      className="w-full h-28 object-contain p-4"
+                      loading="lazy"
+                      sizes="60vw"
+                      placeholder="blur"
+                      blurDataURL="/images/logo.svg"
+                    />
+                    <div className="text-center py-2 text-sm font-medium text-gray-700">
+                      {category.name}
+                    </div>
+                  </Link>
+                </div>
+              ))}
+            </Slider>
+          </div>
+        )}
 
+        {/* View All */}
         <div className="text-center mt-8">
           <Link
             href="/products"

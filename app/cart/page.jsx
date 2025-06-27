@@ -37,15 +37,16 @@ export const metadata = {
 
 import BusinessInfo from '../../components/BusinessInfo';
 import Cart from '../../components/Cart';
+import Image from 'next/image';
 
 export default function CartPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-[#fff9f0] via-[#f5fbfa] to-[#fff6e3] pb-20">
+    <main className="min-h-screen bg-gradient-to-br from-[#fff9f0] via-[#f5fbfa] to-[#fff6e3] pb-20">
       {/* Cart Contents */}
       <Cart />
 
       {/* Store Info Card */}
-      <div className="flex justify-center" aria-label="Store Info">
+      <section className="flex justify-center" aria-label="Store Info">
         <div
           className="
             mt-16 mb-8 max-w-xl w-full
@@ -56,14 +57,13 @@ export default function CartPage() {
           "
         >
           <div className="flex items-center gap-3 mb-2">
-            <img
+            <Image
               src="https://res.cloudinary.com/dy1uhnjnq/image/upload/v1749755125/Jackson_Logo_page-0001-removebg-preview_yqeopv.png"
               alt="Jackson Grocery Store logo"
               className="w-11 h-11 rounded-full shadow"
-              loading="lazy"
               width={44}
               height={44}
-              decoding="async"
+              priority={false}
             />
             <span className="font-extrabold text-xl text-[#ed3237] tracking-tight">
               Jackson Grocery Store
@@ -71,7 +71,7 @@ export default function CartPage() {
           </div>
           <BusinessInfo />
         </div>
-      </div>
-    </div>
+      </section>
+    </main>
   );
 }

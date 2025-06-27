@@ -5,6 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
 
+// Dynamically load react-slick ONLY client-side
 const Slider = dynamic(() => import('react-slick'), { ssr: false });
 
 const carouselItems = [
@@ -44,6 +45,7 @@ function PrevArrow({ onClick }) {
       className="absolute left-4 top-1/2 -translate-y-1/2 z-10 bg-primary-600 hover:bg-primary-700 text-white p-2 rounded-full shadow-lg focus:outline-none"
       onClick={onClick}
       type="button"
+      tabIndex={0}
     >
       <FiChevronLeft className="h-7 w-7" />
     </button>
@@ -57,6 +59,7 @@ function NextArrow({ onClick }) {
       className="absolute right-4 top-1/2 -translate-y-1/2 z-10 bg-primary-600 hover:bg-primary-700 text-white p-2 rounded-full shadow-lg focus:outline-none"
       onClick={onClick}
       type="button"
+      tabIndex={0}
     >
       <FiChevronRight className="h-7 w-7" />
     </button>
@@ -84,6 +87,7 @@ export default function PerformanceCarousel() {
       <button
         className="h-3 w-3 bg-white/80 border border-primary-600 rounded-full focus:outline-none"
         type="button"
+        tabIndex={0}
       />
     ),
     swipeToSlide: true,
@@ -98,7 +102,7 @@ export default function PerformanceCarousel() {
       <div className="max-w-6xl mx-auto px-0 sm:px-6 lg:px-10">
         <div className="relative h-64 sm:h-80 md:h-[400px] lg:h-[440px]">
           <Slider {...settings}>
-            {carouselItems.map((item) => (
+            {carouselItems.map((item, idx) => (
               <div
                 key={item.id}
                 className="relative w-full h-64 sm:h-80 md:h-[400px] lg:h-[440px]"
@@ -109,6 +113,7 @@ export default function PerformanceCarousel() {
                   href={item.link}
                   aria-label={item.title}
                   className="block h-full w-full group focus:outline-none"
+                  tabIndex={0}
                 >
                   <Image
                     src={item.image}
@@ -116,13 +121,13 @@ export default function PerformanceCarousel() {
                     fill
                     className="object-cover w-full h-full rounded-md"
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px"
-                    priority={item.id === 1}
+                    priority={idx === 0}
                     placeholder="blur"
                     blurDataURL="/images/logo.svg"
                     itemProp="image"
                   />
-                  {/* Gradient overlay for visibility */}
-                  <div className="absolute inset-0 bg-gradient-to-br from-black/30 to-black/10" />
+                  {/* Gradient overlay for contrast */}
+                  <div className="absolute inset-0 bg-gradient-to-br from-black/30 to-black/10 pointer-events-none" />
                   <span className="sr-only" itemProp="name">{item.title}</span>
                   <span className="sr-only" itemProp="description">{item.description}</span>
                   <meta itemProp="url" content={item.link} />
@@ -132,7 +137,6 @@ export default function PerformanceCarousel() {
           </Slider>
         </div>
       </div>
-
       {/* Crawlable hidden nav links for SEO bots */}
       <nav aria-label="Featured grocery categories" className="sr-only">
         {carouselItems.map((item) => (

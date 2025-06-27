@@ -16,7 +16,9 @@ export function getHomeJsonLD({
   logo = 'https://res.cloudinary.com/dy1uhnjnq/image/upload/v1749755125/Jackson_Logo_page-0001-removebg-preview_yqeopv.png',
   email = 'omsairetail3@gmail.com',
   openingHours = 'Mo-Su 08:00-21:00',
-  sameAs = []
+  sameAs = [
+    'https://www.instagram.com/world.ofgroceries/', // Default: Instagram profile for World of Groceries
+  ]
 }) {
   const data = {
     '@context': 'https://schema.org',
@@ -85,7 +87,7 @@ export function getProductJsonLD(product = {}) {
       price: Number(price).toFixed(2),
       priceCurrency: 'INR',
       availability:
-        stock > 0
+        Number(stock) > 0
           ? 'https://schema.org/InStock'
           : 'https://schema.org/OutOfStock',
       itemCondition: 'https://schema.org/NewCondition'

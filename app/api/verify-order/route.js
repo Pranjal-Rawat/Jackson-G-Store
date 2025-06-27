@@ -8,10 +8,16 @@ export async function POST(request) {
 
     // Input validation
     if (!body.cartItems?.length || !Array.isArray(body.cartItems)) {
-      return new Response(JSON.stringify({ error: 'Cart is empty.' }), { status: 400 });
+      return new Response(JSON.stringify({ error: 'Cart is empty.' }), {
+        status: 400,
+        headers: { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' },
+      });
     }
     if (!body.customer || typeof body.customer !== 'object') {
-      return new Response(JSON.stringify({ error: 'Missing customer details.' }), { status: 400 });
+      return new Response(JSON.stringify({ error: 'Missing customer details.' }), {
+        status: 400,
+        headers: { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' },
+      });
     }
 
     const client = await clientPromise;
@@ -61,11 +67,14 @@ export async function POST(request) {
     if (outOfStock.length > 0) {
       return new Response(
         JSON.stringify({ error: 'Some items are out of stock.', outOfStock }),
-        { status: 409 }
+        {
+          status: 409,
+          headers: { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' },
+        }
       );
     }
 
-    // --- Reduce stock atomically: prevent double orders in high concurrency ---
+    // --- Reduce stock atomically ---
     for (const item of verifiedItems) {
       const result = await products.updateOne(
         { _id: new ObjectId(item._id), stock: { $gte: item.quantity } },
@@ -80,7 +89,10 @@ export async function POST(request) {
     if (outOfStock.length > 0) {
       return new Response(
         JSON.stringify({ error: 'Some items went out of stock during checkout.', outOfStock }),
-        { status: 409 }
+        {
+          status: 409,
+          headers: { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' },
+        }
       );
     }
 
@@ -102,14 +114,14 @@ export async function POST(request) {
 
     return new Response(JSON.stringify({ whatsappUrl }), {
       status: 200,
-      headers: { 'Content-Type': 'application/json' },
+      headers: { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' },
     });
 
   } catch (error) {
     console.error('[API][POST /api/verify-order] Error:', error);
     return new Response(JSON.stringify({ error: 'Order verification failed' }), {
       status: 500,
-      headers: { 'Content-Type': 'application/json' },
+      headers: { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' },
     });
   }
 }

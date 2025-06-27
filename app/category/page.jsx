@@ -1,6 +1,5 @@
 // /app/category/page.jsx – SEO-optimized Category landing
 
-// ---- SEO Metadata ----
 export const metadata = {
   title: "Browse Grocery Categories | Jackson Grocery Store | Grocery Store Dehradun",
   description:
@@ -68,7 +67,7 @@ export default function CategoryHomePage() {
       <CategoryCarousel />
 
       {/* SEO Text Block */}
-      <section className="max-w-2xl mx-auto my-10 px-4 text-center text-gray-700">
+      <section className="max-w-2xl mx-auto my-10 px-4 text-center text-gray-700" aria-label="About Categories">
         <h1 className="text-2xl sm:text-3xl font-extrabold text-gray-800 mb-2">
           Shop by Category – Groceries Delivered Fresh
         </h1>

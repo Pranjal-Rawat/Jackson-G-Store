@@ -12,7 +12,7 @@ export async function GET(request) {
     const products = db.collection('products');
 
     const { searchParams } = new URL(request.url);
-    const rawQuery = (searchParams.get('q') || '').trim().slice(0, 64); // Limit max length
+    const rawQuery = (searchParams.get('q') || '').trim().slice(0, 64); // Max 64 chars
     const category = searchParams.get('category');
 
     // Early exit for short/invalid queries
@@ -43,11 +43,11 @@ export async function GET(request) {
       .toArray();
 
     const formatted = result.map((p) => ({
-      _id: p._id?.toString(),
+      _id: p._id?.toString() || '',
       slug: p.slug,
       title: p.title,
       price: typeof p.price === 'number' ? p.price : 0,
-      image: p.image || '/images/default.jpg',
+      image: p.image || '/images/logo.svg',
       description: p.description || '',
     }));
 
@@ -56,6 +56,7 @@ export async function GET(request) {
       headers: {
         'Content-Type': 'application/json',
         'Cache-Control': 'public, s-maxage=30, stale-while-revalidate=90',
+        'Vary': 'Accept-Encoding',
       },
     });
   } catch (error) {

@@ -25,15 +25,18 @@ const ProductSchema = new mongoose.Schema({
   image:       { type: String },
   isPopular:   { type: Boolean, default: false },
   rank:        { type: Number },
+  // Add more fields as needed (mrp, options, unit, pcs, etc.)
 }, { timestamps: true });
 
-// Auto-generate unique slug & normalize category
+// Auto-generate unique slug & normalize category slug on save
 ProductSchema.pre('save', async function (next) {
+  // Only update slug if title changed or slug is missing
   if (this.title && (!this.slug || this.isModified('title'))) {
     const baseSlug = toSlug(this.title);
     let slug = baseSlug;
     let i = 1;
 
+    // Use the model (avoid compilation error on hot reload)
     const Product = mongoose.models?.Product || mongoose.model('Product', ProductSchema);
     while (await Product.findOne({ slug, _id: { $ne: this._id } })) {
       slug = `${baseSlug}-${i++}`;
@@ -41,6 +44,7 @@ ProductSchema.pre('save', async function (next) {
     this.slug = slug;
   }
 
+  // Always normalize category to slug format
   if (this.category && /[A-Z ]/.test(this.category)) {
     this.category = toSlug(this.category);
   }
@@ -54,7 +58,7 @@ export default mongoose.models?.Product || mongoose.model('Product', ProductSche
 /*
   SEO NOTE:
   - Ensures unique, clean slugs like /products/milk-and-juice
-  - Auto-corrects capitalized or spaced categories
-  - Guarantees schema works for OpenGraph, JSON-LD, and canonical linking
+  - Auto-corrects capitalized or spaced categories (Milk Juice → milk-juice)
+  - Guarantees schema works for OpenGraph, JSON-LD, canonical linking
   - Fast API responses = better SEO
 */

@@ -4,59 +4,44 @@ import { useState, useMemo, useCallback } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useCartStore } from '../stores/cartStore';
+import AddToCartButton from './AddToCartButton';
+import { getOptimizedCloudinaryUrl } from '../app/lib/getOptimizedCloudinaryUrl';
 
-export default function PopularProducts({ products }) {
-  const addToCart = useCartStore((state) => state.addItem);
+export default function PopularProducts({ products = [] }) {
   const [visibleCount, setVisibleCount] = useState(10);
 
-  /* ---------- filter + sort ---------- */
-  const popularSorted = useMemo(
-    () =>
-      products
-        .filter((p) => p.popular === true || p.popular === 'true')
-        .sort((a, b) => (a.rank ?? 0) - (b.rank ?? 0)),
-    [products]
-  );
+  // Compute popular & sorted only once per products
+  const popularSorted = useMemo(() => (
+    products
+      .filter((p) => p.popular === true || p.popular === 'true')
+      .sort((a, b) => (a.rank ?? 0) - (b.rank ?? 0))
+  ), [products]);
 
   const visibleProducts = useMemo(
     () => popularSorted.slice(0, visibleCount),
     [popularSorted, visibleCount]
   );
 
-  /* ---------- add-to-cart ---------- */
-  const handleAddToCart = useCallback(
-    (product) => {
-      // 👉 first arg = clean product, second arg = units to add
-      addToCart(product, 1);
-    },
-    [addToCart]
-  );
-
-  /* ---------- load more ---------- */
   const handleLoadMore = useCallback(() => {
     setVisibleCount((prev) => Math.min(prev + 10, popularSorted.length));
   }, [popularSorted.length]);
 
-  /* ---------- product card ---------- */
+  // --- Product Card ---
   const ProductCard = ({ product, index }) => {
     const {
-      _id,
-      title,
-      slug,
-      description,
-      stock = 0,
-      unit,
-      pcs,
-      image,
-      price = 0,
-      mrp = 0,
-      rank,
-      popular,
+      _id, title, slug, description, stock = 0,
+      unit, pcs, image, price = 0, mrp = 0, rank, popular
     } = product;
 
-    const isOutOfStock = stock <= 0;
-    const displayPrice = parseFloat(price) || 0;
-    const displayMRP = parseFloat(mrp) || 0;
+    const getVirtualStock = useCartStore((s) => s.getVirtualStock);
+    const virtualStock = getVirtualStock(_id ?? slug, stock);
+    const isOutOfStock = (stock ?? 0) <= 0 || virtualStock <= 0;
+
+    // Cloudinary performance
+    const optimizedImage =
+      image?.includes('cloudinary.com')
+        ? getOptimizedCloudinaryUrl(image)
+        : image || '/images/logo.svg';
 
     return (
       <Link
@@ -65,34 +50,32 @@ export default function PopularProducts({ products }) {
         aria-label={`View details of ${title} – Jackson Grocery Store Dehradun`}
         itemScope
         itemType="https://schema.org/Product"
+        tabIndex={0}
       >
-        {/* structured-data */}
+        {/* Schema for SEO */}
         <meta itemProp="name" content={title} />
         <meta itemProp="sku" content={slug} />
-        <meta
-          itemProp="description"
-          content={description || `Buy ${title} online in Dehradun`}
-        />
+        <meta itemProp="description" content={description || `Buy ${title} online in Dehradun`} />
 
-        {/* badges */}
+        {/* Badges */}
         <div className="absolute top-2 left-2 flex flex-col gap-1 z-10">
           {typeof rank === 'number' && (
             <span className="text-[10px] font-bold bg-yellow-300 text-yellow-900 px-2 py-0.5 rounded-full shadow-sm border border-yellow-400">
               Rank #{rank}
             </span>
           )}
-          {(popular === true || popular === 'true') && (
+          {popular && (
             <span className="text-[10px] font-bold bg-red-600 text-white px-2 py-0.5 rounded-full border border-red-300 shadow-sm">
               ★ Popular
             </span>
           )}
         </div>
 
-        {/* image */}
+        {/* Product Image */}
         <div className="relative h-48 w-full overflow-hidden rounded-t-lg">
           <Image
-            src={image || '/images/logo.svg'}
-            alt={`${title} - Buy at Jackson Grocery Store Dehradun`}
+            src={optimizedImage}
+            alt={title + ' - Popular Grocery Product in Dehradun'}
             fill
             className="object-cover group-hover:scale-105 transition-transform duration-300"
             sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
@@ -106,14 +89,16 @@ export default function PopularProducts({ products }) {
               Out of Stock
             </span>
           )}
+          {!isOutOfStock && virtualStock <= 3 && (
+            <span className="absolute bottom-2 right-2 bg-yellow-400 text-black px-2 py-0.5 rounded font-semibold text-xs shadow">
+              {virtualStock} left
+            </span>
+          )}
         </div>
 
-        {/* info */}
+        {/* Product Details */}
         <div className="p-4">
-          <h3
-            className="font-medium text-gray-800 mb-1 truncate"
-            itemProp="name"
-          >
+          <h3 className="font-medium text-gray-800 mb-1 truncate" itemProp="name">
             {title}
           </h3>
 
@@ -123,9 +108,9 @@ export default function PopularProducts({ products }) {
           </div>
 
           <div className="flex items-center gap-2 mb-1">
-            {displayMRP > displayPrice && (
+            {mrp > price && (
               <span className="text-xs text-gray-400 line-through">
-                ₹{displayMRP.toFixed(2)}
+                ₹{(+mrp).toFixed(2)}
               </span>
             )}
             <span
@@ -134,47 +119,50 @@ export default function PopularProducts({ products }) {
               itemScope
               itemType="https://schema.org/Offer"
             >
-              ₹{displayPrice.toFixed(2)}
+              ₹{(+price).toFixed(2)}
               <meta itemProp="priceCurrency" content="INR" />
-              <meta itemProp="price" content={displayPrice.toFixed(2)} />
+              <meta itemProp="price" content={(+price).toFixed(2)} />
               <link
                 itemProp="availability"
-                href={
-                  isOutOfStock
-                    ? 'https://schema.org/OutOfStock'
-                    : 'https://schema.org/InStock'
-                }
+                href={isOutOfStock
+                  ? 'https://schema.org/OutOfStock'
+                  : 'https://schema.org/InStock'}
               />
             </span>
           </div>
-
-          <button
-            onClick={(e) => {
-              e.preventDefault();
-              e.stopPropagation();
-              if (!isOutOfStock) handleAddToCart(product);
-            }}
-            className={`w-full mt-2 text-sm px-4 py-2 rounded-lg transition-colors ${
-              isOutOfStock
-                ? 'bg-gray-300 text-white cursor-not-allowed opacity-60'
-                : 'bg-red-500 hover:bg-red-600 text-white'
-            }`}
+          <AddToCartButton
+            product={product}
             disabled={isOutOfStock}
-            aria-label={
-              isOutOfStock ? `Out of Stock` : `Add ${title} to cart`
-            }
-            type="button"
-          >
-            {isOutOfStock ? 'Out of Stock' : 'Add to Cart'}
-          </button>
+            className="w-full mt-2 text-sm"
+          />
         </div>
       </Link>
     );
   };
 
-  /* ---------- render ---------- */
+  // --- ItemList Schema (SEO) ---
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Popular Grocery Products in Dehradun",
+    "itemListElement": visibleProducts.map((product, i) => ({
+      "@type": "ListItem",
+      "position": i + 1,
+      "url": `/products/${product.slug}`,
+      "name": product.title,
+    })),
+  };
+
   return (
-    <section className="px-4 py-12 sm:px-6 lg:px-8 bg-gray-50">
+    <section
+      className="px-4 py-12 sm:px-6 lg:px-8 bg-gray-50"
+      aria-label="Popular Products"
+    >
+      {/* SEO: Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <div className="max-w-7xl mx-auto">
         <h2 className="text-2xl font-bold mb-4">
           Popular Grocery Products in Dehradun
@@ -187,11 +175,7 @@ export default function PopularProducts({ products }) {
 
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {visibleProducts.map((product, i) => (
-            <ProductCard
-              key={product._id || product.id}
-              product={product}
-              index={i}
-            />
+            <ProductCard key={product._id || product.id} product={product} index={i} />
           ))}
         </div>
 
@@ -199,7 +183,7 @@ export default function PopularProducts({ products }) {
           <div className="py-8 text-center">
             <button
               onClick={handleLoadMore}
-              className="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-lg shadow transition"
+              className="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-full shadow transition font-semibold"
               type="button"
               aria-label="Load more popular products"
             >

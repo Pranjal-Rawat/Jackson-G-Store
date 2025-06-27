@@ -10,7 +10,7 @@ export async function GET(req) {
     const category = searchParams.get('category');
     const search = searchParams.get('search');
 
-    // Avoid re-connecting in development with hot reload
+    // Avoid re-connecting in dev/hot reload
     if (mongoose.connection.readyState === 0) {
       await mongoose.connect(process.env.MONGODB_URI, {
         dbName: 'jackson-grocery-store',
@@ -32,6 +32,7 @@ export async function GET(req) {
       stock: 1,
       category: 1,
       rank: 1,
+      // Optionally: add more for UI (mrp, unit, etc.) if you want to avoid a second fetch
     };
 
     const products = await Product.find(filter, projection)
@@ -50,6 +51,7 @@ export async function GET(req) {
       headers: {
         'Content-Type': 'application/json',
         'Cache-Control': 'public, s-maxage=60, stale-while-revalidate=120',
+        'Vary': 'Accept-Encoding', // for CDN
       },
     });
   } catch (error) {

@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useCallback, useMemo } from 'react';
+import { useState, useCallback, useMemo, useEffect } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -8,30 +8,75 @@ import { FiShoppingBag, FiArrowLeft } from 'react-icons/fi';
 import { useRouter } from 'next/navigation';
 import { useCartStore } from '../stores/cartStore';
 
-// Debounce helper for form (for large forms, not strictly needed here, but a good pattern)
-function useDebouncedCallback(callback, delay = 200) {
-  const timeout = useMemo(() => ({ current: null }), []);
-  return useCallback((...args) => {
-    if (timeout.current) clearTimeout(timeout.current);
-    timeout.current = setTimeout(() => callback(...args), delay);
-  }, [callback, delay, timeout]);
+/* ----------------------------------------------------------------------- */
+/*  Tiny toast for stock-limit feedback                                    */
+/* ----------------------------------------------------------------------- */
+function Toast({ msg, onDone }) {
+  useEffect(() => {
+    const t = setTimeout(onDone, 2200);
+    return () => clearTimeout(t);
+  }, [onDone]);
+
+  return (
+    <>
+      <div className="fixed bottom-4 right-4 z-[1000] animate-toast-in">
+        <div className="bg-red-600 text-white px-4 py-2 rounded shadow-lg">
+          {msg}
+        </div>
+      </div>
+      <style jsx global>{`
+        @keyframes toast-in {
+          from { opacity: 0; transform: translateY(8px); }
+          to   { opacity: 1; transform: translateY(0); }
+        }
+        .animate-toast-in { animation: toast-in .25s ease-out both; }
+      `}</style>
+    </>
+  );
 }
 
+/* ----------------------------------------------------------------------- */
+/*  (Optional) debounce helper – kept for consistency                      */
+/* ----------------------------------------------------------------------- */
+function useDebouncedCallback(cb, delay = 200) {
+  const timer = useMemo(() => ({ current: null }), []);
+  return useCallback(
+    (...args) => {
+      clearTimeout(timer.current);
+      timer.current = setTimeout(() => cb(...args), delay);
+    },
+    [cb, delay, timer]
+  );
+}
+
+/* ----------------------------------------------------------------------- */
+/*  Main Cart component                                                    */
+/* ----------------------------------------------------------------------- */
 export default function Cart() {
-  const { items, count, total, removeItem, updateQuantity, clearCart } = useCartStore();
+  /* ---------- cart store data & actions ---------- */
+  const {
+    items,
+    count,
+    total,
+    removeItem,
+    updateQuantity,
+    clearCart,
+  } = useCartStore();
+
   const router = useRouter();
 
+  /* ---------- local UI state ---------- */
   const [customer, setCustomer] = useState({
     name: '',
     address: '',
     phone: '',
     paymentMethod: 'cash',
   });
-
   const [showConfirm, setShowConfirm] = useState(false);
   const [isRedirecting, setIsRedirecting] = useState(false);
+  const [toast, setToast] = useState('');
 
-  // Debounced input change (for snappy feel on large forms)
+  /* ---------- form helpers ---------- */
   const handleInputChange = useCallback((e) => {
     const { name, value } = e.target;
     setCustomer((prev) => ({ ...prev, [name]: value }));
@@ -58,6 +103,7 @@ export default function Cart() {
     setShowConfirm(true);
   }, [validateForm]);
 
+  /* ---------- confirm redirect & stock reduction ---------- */
   const confirmRedirect = useCallback(async () => {
     setShowConfirm(false);
     setIsRedirecting(true);
@@ -66,11 +112,11 @@ export default function Cart() {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          cartItems: items.map((item) => ({
-            _id: item._id,
-            quantity: item.quantity,
-            slug: item.slug,
-            id: item.id,
+          cartItems: items.map((i) => ({
+            _id: i._id,
+            quantity: i.quantity,
+            slug: i.slug,
+            id: i.id,
           })),
           customer,
         }),
@@ -80,15 +126,16 @@ export default function Cart() {
       if (response.ok && data.whatsappUrl) {
         window.open(data.whatsappUrl, '_blank');
 
+        /* reduce stock on server */
         await fetch('/api/reduce-stock', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
-            cartItems: items.map((item) => ({
-              _id: item._id,
-              quantity: item.quantity,
-              slug: item.slug,
-              id: item.id,
+            cartItems: items.map((i) => ({
+              _id: i._id,
+              quantity: i.quantity,
+              slug: i.slug,
+              id: i.id,
             })),
           }),
         });
@@ -105,10 +152,15 @@ export default function Cart() {
     }
   }, [items, customer, clearCart]);
 
+  /* --------------------------------------------------------------------- */
+  /*  Render                                                               */
+  /* --------------------------------------------------------------------- */
   return (
     <main className="min-h-screen bg-gradient-to-b from-[#fff9f0] via-white to-[#fffbe7] text-gray-900 pt-[5.5rem] pb-8">
       <h1 className="sr-only">Your Cart</h1>
+
       <div className="max-w-7xl mx-auto px-3 sm:px-8">
+        {/* ------ header ------ */}
         <div className="flex items-center gap-2 mb-10">
           <button
             onClick={() => router.back()}
@@ -124,10 +176,12 @@ export default function Cart() {
           </h2>
         </div>
 
+        {/* ------ cart body ------ */}
         <AnimatePresence mode="wait">
           {items.length === 0 ? (
+            /* ---------------- empty cart ---------------- */
             <motion.div
-              key="empty-cart"
+              key="empty"
               initial={{ opacity: 0, scale: 0.92 }}
               animate={{ opacity: 1, scale: 1 }}
               exit={{ opacity: 0, scale: 0.92 }}
@@ -141,7 +195,9 @@ export default function Cart() {
                 >
                   🛒
                 </motion.div>
-                <h2 className="text-2xl font-bold mb-3 text-gray-800">Your cart is empty</h2>
+                <h2 className="text-2xl font-bold mb-3 text-gray-800">
+                  Your cart is empty
+                </h2>
                 <Link
                   href="/products"
                   className="inline-flex items-center bg-gradient-to-tr from-[#ed3237] to-[#ffcc29] hover:from-[#ffcc29] hover:to-[#ed3237] text-white px-7 py-3 rounded-2xl font-semibold shadow-lg transition"
@@ -152,76 +208,116 @@ export default function Cart() {
               </div>
             </motion.div>
           ) : (
+            /* ---------------- cart content ---------------- */
             <motion.div
-              key="cart-content"
+              key="content"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: 20 }}
               className="grid grid-cols-1 lg:grid-cols-3 gap-10"
             >
-              {/* Cart Items */}
+              {/* ---------------------------------------------------------------- */}
+              {/*  ITEM LIST                                                      */}
+              {/* ---------------------------------------------------------------- */}
               <section className="lg:col-span-2 space-y-6">
-                {items.map((item) => (
-                  <motion.div
-                    key={item.id}
-                    initial={{ opacity: 0, x: 40 }}
-                    animate={{ opacity: 1, x: 0 }}
-                    exit={{ opacity: 0, x: 40 }}
-                    className="flex items-center bg-white rounded-2xl shadow-md p-5 border border-[#ffcc29]/10 hover:shadow-xl transition-shadow"
-                  >
-                    <div className="relative h-20 w-20 rounded-xl overflow-hidden flex-shrink-0 border border-[#ffcc29]/30 bg-gradient-to-tr from-[#fffbe7] via-white to-[#fff6e3]">
-                      <Image
-                        src={item.image}
-                        alt={item.title || 'Cart item'}
-                        fill
-                        className="object-contain"
-                        sizes="80px"
-                        priority
-                      />
-                    </div>
-                    <div className="ml-6 flex-1">
-                      <h3 className="text-lg font-bold text-gray-900">{item.title}</h3>
-                      <p className="text-sm text-gray-500 mb-1">₹{item.price.toFixed(2)}</p>
-                      <div className="flex items-center mt-1 space-x-4">
-                        <div className="flex items-center border border-[#ffcc29]/30 rounded-xl bg-[#fffde9]">
+                {items.map((item) => {
+                  const atMax = item.quantity >= (item.stock ?? Infinity);
+
+                  return (
+                    <motion.div
+                      key={item.id}
+                      initial={{ opacity: 0, x: 40 }}
+                      animate={{ opacity: 1, x: 0 }}
+                      exit={{ opacity: 0, x: 40 }}
+                      className="flex items-center bg-white rounded-2xl shadow-md p-5 border border-[#ffcc29]/10 hover:shadow-xl transition-shadow"
+                    >
+                      {/* image */}
+                      <div className="relative h-20 w-20 rounded-xl overflow-hidden flex-shrink-0 border border-[#ffcc29]/30 bg-gradient-to-tr from-[#fffbe7] via-white to-[#fff6e3]">
+                        <Image
+                          src={item.image}
+                          alt={item.title || 'Cart item'}
+                          fill
+                          className="object-contain"
+                          sizes="80px"
+                          priority
+                        />
+                      </div>
+
+                      {/* info + controls */}
+                      <div className="ml-6 flex-1">
+                        <h3 className="text-lg font-bold text-gray-900">{item.title}</h3>
+                        <p className="text-sm text-gray-500 mb-1">
+                          ₹{item.price.toFixed(2)}
+                        </p>
+
+                        <div className="flex items-center mt-1 space-x-4">
+                          {/* quantity buttons */}
+                          <div className="flex items-center border border-[#ffcc29]/30 rounded-xl bg-[#fffde9]">
+                            {/* minus */}
+                            <button
+                              onClick={() =>
+                                updateQuantity(item.id, item.quantity - 1, item.stock)
+                              }
+                              className="px-3 py-1.5 text-lg font-bold text-gray-700 hover:bg-[#fff9f0] transition rounded-l-xl"
+                              aria-label="Decrease quantity"
+                              disabled={item.quantity <= 1}
+                              type="button"
+                            >
+                              −
+                            </button>
+
+                            <span className="px-4 font-semibold">
+                              {item.quantity}
+                            </span>
+
+                            {/* plus */}
+                            <button
+                              onClick={() => {
+                                if (atMax) {
+                                  setToast('Stock limit reached');
+                                  return;
+                                }
+                                updateQuantity(
+                                  item.id,
+                                  item.quantity + 1,
+                                  item.stock
+                                );
+                              }}
+                              className="px-3 py-1.5 text-lg font-bold text-gray-700 hover:bg-[#fff9f0] transition rounded-r-xl"
+                              aria-label="Increase quantity"
+                              disabled={atMax}
+                              type="button"
+                            >
+                              +
+                            </button>
+                          </div>
+
+                          {/* remove link */}
                           <button
-                            onClick={() => updateQuantity(item.id, item.quantity - 1)}
-                            className="px-3 py-1.5 text-lg font-bold text-gray-700 hover:bg-[#fff9f0] transition rounded-l-xl"
-                            aria-label="Decrease quantity"
-                            disabled={item.quantity <= 1}
+                            onClick={() => removeItem(item.id)}
+                            className="text-[#ed3237] text-xs font-semibold hover:underline ml-2"
+                            aria-label="Remove item"
                             type="button"
                           >
-                            −
-                          </button>
-                          <span className="px-4 font-semibold">{item.quantity}</span>
-                          <button
-                            onClick={() => updateQuantity(item.id, item.quantity + 1)}
-                            className="px-3 py-1.5 text-lg font-bold text-gray-700 hover:bg-[#fff9f0] transition rounded-r-xl"
-                            aria-label="Increase quantity"
-                            type="button"
-                          >
-                            +
+                            Remove
                           </button>
                         </div>
-                        <button
-                          onClick={() => removeItem(item.id)}
-                          className="text-[#ed3237] text-xs font-semibold hover:underline ml-2"
-                          aria-label="Remove item"
-                          type="button"
-                        >
-                          Remove
-                        </button>
                       </div>
-                    </div>
-                    <div className="font-bold text-xl text-[#ed3237] ml-6 text-right min-w-[90px]">
-                      ₹{(item.price * item.quantity).toFixed(2)}
-                    </div>
-                  </motion.div>
-                ))}
 
-                {/* Customer Details */}
+                      {/* line total */}
+                      <div className="font-bold text-xl text-[#ed3237] ml-6 text-right min-w-[90px]">
+                        ₹{(item.price * item.quantity).toFixed(2)}
+                      </div>
+                    </motion.div>
+                  );
+                })}
+
+                {/* ---------------- customer details form ---------------- */}
                 <section className="bg-white p-7 rounded-2xl shadow-md border border-[#ffcc29]/20 mt-8">
-                  <h3 className="text-lg font-bold mb-5 text-[#ed3237]">Customer Details</h3>
+                  <h3 className="text-lg font-bold mb-5 text-[#ed3237]">
+                    Customer Details
+                  </h3>
+
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
                     <input
                       type="text"
@@ -266,12 +362,21 @@ export default function Cart() {
                 </section>
               </section>
 
-              {/* Order Summary */}
+              {/* ---------------------------------------------------------------- */}
+              {/*  ORDER SUMMARY                                                  */}
+              {/* ---------------------------------------------------------------- */}
               <aside className="bg-white p-7 rounded-2xl shadow-lg border border-[#ffcc29]/40 sticky top-24 self-start">
-                <h3 className="text-lg font-bold mb-5 text-[#ed3237]">Order Summary</h3>
+                <h3 className="text-lg font-bold mb-5 text-[#ed3237]">
+                  Order Summary
+                </h3>
+
                 <div className="flex justify-between mb-4">
-                  <span className="text-gray-700">Subtotal ({count} items)</span>
-                  <span className="font-bold text-[#ed3237]">₹{total.toFixed(2)}</span>
+                  <span className="text-gray-700">
+                    Subtotal ({count} items)
+                  </span>
+                  <span className="font-bold text-[#ed3237]">
+                    ₹{total.toFixed(2)}
+                  </span>
                 </div>
 
                 <button
@@ -295,7 +400,9 @@ export default function Cart() {
           )}
         </AnimatePresence>
 
-        {/* Confirmation Modal */}
+        {/* ------------------------------------------------------------------ */}
+        {/*  CONFIRMATION MODAL                                               */}
+        {/* ------------------------------------------------------------------ */}
         <AnimatePresence>
           {showConfirm && (
             <motion.div
@@ -312,9 +419,12 @@ export default function Cart() {
                 animate={{ scale: 1 }}
                 exit={{ scale: 0.9 }}
               >
-                <h4 className="text-lg font-bold mb-4 text-[#ed3237]">Confirm Order</h4>
+                <h4 className="text-lg font-bold mb-4 text-[#ed3237]">
+                  Confirm Order
+                </h4>
                 <p className="text-sm text-gray-600 mb-6">
-                  Proceed to place your order on WhatsApp with the above details?
+                  Proceed to place your order on WhatsApp with the above
+                  details?
                 </p>
                 <div className="flex gap-4">
                   <button
@@ -337,6 +447,9 @@ export default function Cart() {
           )}
         </AnimatePresence>
       </div>
+
+      {/* toast */}
+      {toast && <Toast msg={toast} onDone={() => setToast('')} />}
     </main>
   );
 }

@@ -46,7 +46,7 @@ export async function GET(req, { params }) {
     }
 
     // Convert _id to string
-    product._id = product._id.toString();
+    product._id = product._id?.toString?.() || '';
 
     // Fetch related products (same category, different slug)
     const related = await db
@@ -72,7 +72,9 @@ export async function GET(req, { params }) {
       .toArray();
 
     // Convert _id to string for related items
-    related.forEach((r) => (r._id = r._id.toString()));
+    related.forEach((r) => {
+      r._id = r._id?.toString?.() || '';
+    });
 
     return new Response(
       JSON.stringify({ product, related }),
@@ -81,6 +83,7 @@ export async function GET(req, { params }) {
         headers: {
           'Content-Type': 'application/json',
           'Cache-Control': 's-maxage=60, stale-while-revalidate=120',
+          'Vary': 'Accept-Encoding', // For CDN caching, safe to add
         },
       }
     );

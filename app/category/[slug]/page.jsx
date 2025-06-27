@@ -51,30 +51,37 @@ export default async function CategoryPage({ params }) {
   const { slug } = params;
   const categoryName = formatCategoryName(slug);
 
-  const client = await clientPromise;
-  const db = client.db('jackson-grocery-store');
+  let safeProducts = [];
+  try {
+    const client = await clientPromise;
+    const db = client.db('jackson-grocery-store');
 
-  const initialProducts = await db
-    .collection('products')
-    .find({ category: slug })
-    .sort({ rank: 1 })
-    .limit(50)
-    .project({
-      _id: 1,
-      slug: 1,
-      title: 1,
-      image: 1,
-      price: 1,
-      stock: 1,
-      category: 1,
-      rank: 1,
-    })
-    .toArray();
+    const initialProducts = await db
+      .collection('products')
+      .find({ category: slug })
+      .sort({ rank: 1 })
+      .limit(50)
+      .project({
+        _id: 1,
+        slug: 1,
+        title: 1,
+        image: 1,
+        price: 1,
+        stock: 1,
+        category: 1,
+        rank: 1,
+      })
+      .toArray();
 
-  const safeProducts = initialProducts.map((p) => ({
-    ...p,
-    _id: p._id?.toString(),
-  }));
+    safeProducts = initialProducts.map((p) => ({
+      ...p,
+      _id: p._id?.toString() || '',
+    }));
+  } catch (err) {
+    // If DB fails, safe fallback: show empty product list, but don't break the page
+    console.error('CategoryPage DB error:', err);
+    safeProducts = [];
+  }
 
   return (
     <main className="pt-14 min-h-screen bg-white">
