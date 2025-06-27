@@ -1,7 +1,6 @@
 'use client';
 
 import dynamic from 'next/dynamic';
-// import QuickLinks from './Quicklinks'; // Import QuickLinks here
 import DiscountBanner from './DiscountBanner';
 
 const PerformanceCarousel = dynamic(() => import('./Carousel'), { loading: () => <div style={{ height: 200 }} /> });
@@ -38,8 +37,6 @@ export default function HomeClient({ products }) {
       <>
           
           <DiscountBanner/>
-      {/* QuickLinks inserted here, above PerformanceCarousel */}
-      {/* <QuickLinks /> */}
 
       {/* Fast dynamic load after first paint */}
       <PerformanceCarousel />
