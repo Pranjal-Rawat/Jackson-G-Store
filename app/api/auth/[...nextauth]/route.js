@@ -8,26 +8,25 @@ const NextAuth    = NextAuthModule.default ?? NextAuthModule;
 const Credentials = CredentialsProviderModule.default ?? CredentialsProviderModule;
 const dev         = process.env.NODE_ENV !== 'production';
 
-/* ── helpers ──────────────────────────────────────────────── */
+/* ── helpers ────────────────────────────────────────────── */
 const safeCompare = (a, b) => {
   const x = Buffer.from(a.toLowerCase());
   const y = Buffer.from(b.toLowerCase());
   return x.length === y.length && timingSafeEqual(x, y);
 };
 
-/* ── env pulls ─────────────────────────────────────────────── */
+/* ── env pulls ──────────────────────────────────────────── */
 const ADMIN_USER  = (process.env.ADMIN_USERNAME      ?? '').trim();
 const ADMIN_HASH  = (process.env.ADMIN_PASSWORD_HASH ?? '').trim();
 const NEXT_SECRET =  process.env.NEXTAUTH_SECRET         ?? '';
 
-/* log once on cold-start (hash length only) */
 console.log('[auth] env check →', {
   ADMIN_USER_PRESENT : !!ADMIN_USER,
   ADMIN_HASH_LENGTH  : ADMIN_HASH.length,
   NEXT_SECRET_PRESENT: !!NEXT_SECRET,
 });
 
-/* ── NextAuth options ─────────────────────────────────────── */
+/* ── NextAuth options ───────────────────────────────────── */
 export const authOptions = {
   secret: NEXT_SECRET || undefined,
 
@@ -40,25 +39,17 @@ export const authOptions = {
       },
 
       async authorize({ username = '', password = '' }) {
-        /* runtime guard */
         if (!(ADMIN_USER && ADMIN_HASH && NEXT_SECRET)) {
           console.error('[auth] Missing critical env at runtime');
           throw new Error('Server mis-configuration');
         }
 
-        /* username */
         if (!safeCompare(username, ADMIN_USER)) {
-          console.warn('[auth] login fail → username NG', { username });
+          console.warn('[auth] login fail → username NG');
           throw new Error('Invalid credentials');
         }
 
-        /* password */
-        let ok = false;
-        try { ok = await bcrypt.compare(password, ADMIN_HASH); }
-        catch (e) {
-          console.error('[auth] bcrypt error', e);
-          throw new Error('Auth error');
-        }
+        const ok = await bcrypt.compare(password, ADMIN_HASH).catch(() => false);
         if (!ok) {
           console.warn('[auth] login fail → bcrypt NG');
           throw new Error('Invalid credentials');
@@ -70,22 +61,12 @@ export const authOptions = {
     }),
   ],
 
-  session: {
-    strategy: 'jwt',
-    maxAge:   24 * 60 * 60,
-    updateAge:30 * 60,
-  },
+  session: { strategy: 'jwt', maxAge: 24 * 60 * 60, updateAge: 30 * 60 },
 
   cookies: {
     sessionToken: {
-      name: dev ? 'next-auth.session-token'
-                : '__Secure-next-auth.session-token',
-      options: {
-        httpOnly: true,
-        sameSite: 'lax',
-        secure  : !dev,
-        path    : '/',
-      },
+      name: dev ? 'next-auth.session-token' : '__Secure-next-auth.session-token',
+      options: { httpOnly: true, sameSite: 'lax', secure: !dev, path: '/' },
     },
   },
 
@@ -93,26 +74,28 @@ export const authOptions = {
   debug: false,
 };
 
-/* export handlers ------------------------------------------------ */
-const handler = NextAuth(authOptions);
-export { handler as GET, handler as POST };
+/* ── core handler ───────────────────────────────────────── */
+const nextAuthHandler = NextAuth(authOptions);
 
-/* ── lightweight health probe (dev/preview only) ───────────────── */
-export const dynamic = 'force-dynamic';   // Vercel edge caches otherwise
+/* ── single GET wrapper avoids duplicate export ─────────── */
 export async function GET(req, ctx) {
-  if (!dev) return handler(req, ctx);     // prod → normal NextAuth
-
-  // /api/auth/[...nextauth]?health=1 returns env sanity
-  if (new URL(req.url).searchParams.get('health')) {
+  // ── OPTIONAL health probe (only in dev / preview) ──
+  if (dev && new URL(req.url).searchParams.get('health') === '1') {
     return new Response(
       JSON.stringify({
-        ADMIN_USER      : !!ADMIN_USER,
-        ADMIN_HASH      : !!ADMIN_HASH,
-        NEXT_SECRET     : !!NEXT_SECRET,
-        bcryptMatches   : ADMIN_HASH && await bcrypt.compare('MyN3wP@ss!', ADMIN_HASH).catch(()=>false)
+        ADMIN_USER_PRESENT : !!ADMIN_USER,
+        ADMIN_HASH_PRESENT : !!ADMIN_HASH,
+        NEXT_SECRET_PRESENT: !!NEXT_SECRET,
+        bcryptMatches      : ADMIN_HASH &&
+          (await bcrypt.compare('MyN3wP@ss!', ADMIN_HASH).catch(()=>false)),
       }),
-      { status:200, headers:{'Content-Type':'application/json'} }
+      { status: 200, headers: { 'Content-Type': 'application/json' } },
     );
   }
-  return handler(req, ctx);
+
+  // normal NextAuth flow
+  return nextAuthHandler(req, ctx);
 }
+
+/* ── POST stays unchanged ──────────────────────────────── */
+export const POST = nextAuthHandler;
