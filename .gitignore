@@ -1,50 +1,76 @@
-# Dependencies
-/node_modules
-/.pnp
-.pnp.*
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/versions
+###############################################################################
+#  Node / Next.js                                                             #
+###############################################################################
 
-# Testing
-/coverage
+# Dependency directory
+node_modules/
 
-# Next.js
-/.next/
+# Next.js build & export output
+.next/
 out/
 
-# Production build
-/build
+# Production bundles or dist folders (if you transpile server code)
+dist/
 
-# Miscellaneous
-.DS_Store
-*.pem
+# Cache & tooling
+.nyc_output/
+coverage/
+.jest/
+.vitest/
+.pnpm-store/
+.cache/
+.eslintcache
+turbo/
+.next/cache/
 
-# Debug logs
+###############################################################################
+#  Logs & debug                                                               #
+###############################################################################
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-.pnpm-debug.log*
-logs
+pnpm-debug.log*
+*.log
 
-# Env files – keep secret!
-.env*
-!.env.example  # Allow example to stay for sharing format
+###############################################################################
+#  Environment & secrets                                                      #
+###############################################################################
+# Keep example files (e.g. `.env.example`) but ignore real secrets.
+.env
+.env.*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.envrc
+*.pem
 
-# Vercel
-.vercel
+###############################################################################
+#  OS & Editor cruft                                                          #
+###############################################################################
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
 
-# TypeScript
-*.tsbuildinfo
-next-env.d.ts
+# JetBrains / VS Code / Misc
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
 
-# Optional: VSCode settings (safe to ignore if using version control for settings)
-/.vscode
+###############################################################################
+#  Optional: misc build artefacts                                             #
+###############################################################################
+*.tgz
+*.tar.gz
+*.zip
+*.tmp
+*.bak
 
-# Optional: Turborepo
-/.turbo
-
-# Optional: Local config
-*.local
+###############################################################################
+#  Static analysis / monitoring configs you don’t want in prod builds         #
+###############################################################################
+.sentryclirc
+sonarcloud.properties

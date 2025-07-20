@@ -9,17 +9,19 @@ module.exports = {
     extend: {
       colors: {
         primary: {
+          400: '#F2635A',   // lighter Jackson Red
           500: '#ED1C24',   // Jackson Red
-          600: '#c4161b',   // Darker red (hover)
+          600: '#C4161B',   // Darker red (hover)
         },
         secondary: {
+          400: '#FFDF4D',   // lighter Jackson Yellow
           500: '#FFCC00',   // Jackson Yellow
-          600: '#e6b800',   // Darker yellow (hover)
+          600: '#E6B800',   // Darker yellow (hover)
         },
       },
       fontFamily: {
         display: ['Geist', 'sans-serif'],
-        body: ['Geist', 'sans-serif'],
+        body:    ['Geist', 'sans-serif'],
       },
       boxShadow: {
         theme: '0 4px 20px -4px rgba(237, 28, 36, 0.3)', // Brand shadow
@@ -33,5 +35,4 @@ module.exports = {
     require('@tailwindcss/forms'),
     require('@tailwindcss/typography'),
   ],
-  // safelist: ['bg-primary-500', 'bg-secondary-500'],
 };

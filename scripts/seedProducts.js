@@ -1,74 +1,65 @@
-// scripts/seedProducts.js
+/**
+ * patchBlanks.js – add any missing core fields, leave them blank
+ * --------------------------------------------------------------
+ *  $ node scripts/patchBlanks.js
+ *
+ *  • Fills only fields that are  ❌ missing OR null/undefined
+ *  • Touch-nothing-else (keeps existing good values)
+ *  • Runs in one bulkWrite batch → fast even for 6k docs
+ */
 
-import 'dotenv/config';
-import clientPromise from '../app/lib/mongodb.js';
-import products from '../data/products_with_images_fixed.json' assert { type: 'json' }; // <-- Use enriched JSON!
-import categories from '../data/categories.js';
+import { MongoClient } from "mongodb";
 
-// Helper: Converts "Milk & Juice" → "milk-and-juice"
-function toSlug(str) {
-  return str
-    .toLowerCase()
-    .replace(/&/g, 'and')
-    .replace(/[\s_]+/g, '-')
-    .replace(/[^\w-]+/g, '')
-    .replace(/--+/g, '-')
-    .replace(/^-+|-+$/g, '');
-}
+// ── tweak here if you want random letters instead of "" ─────────
+const PLACEHOLDER = () => "";                // ""     ← empty
+// const PLACEHOLDER = () => String.fromCharCode(97 + Math.random() * 26 | 0); // "a"-"z"
 
-// 1. Prepare products with slugified category field
-const preparedProducts = products.map((product) => ({
-  ...product,
-  category: product.category ? toSlug(product.category) : '',
+// ── expected schema keys you care about ─────────────────────────
+const FIELDS = [
+  "title",
+  "description",
+  "price",
+  "mrp",
+  "stock",
+  "category",
+  "image",
+];
+
+// ── connect ─────────────────────────────────────────────────────
+const uri    = process.env.MONGODB_URI;
+const client = new MongoClient(uri);
+await client.connect();
+const db     = client.db("jackson-grocery-store");
+const col    = db.collection("products");
+
+console.log("🔗  Connected to", db.databaseName);
+
+// ── build bulk ops (one updateMany per field) ───────────────────
+const ops = FIELDS.map((field) => ({
+  updateMany: {
+    filter: {
+      $or: [
+        { [field]: { $exists: false } },   // field missing entirely
+        { [field]: null },                 // field exists but is null
+      ],
+    },
+    update: [
+      {
+        $set: {
+          [field]: {
+            $ifNull: [`$${field}`, PLACEHOLDER()],
+          },
+        },
+      },
+    ],
+  },
 }));
 
-async function seedData() {
-  let client;
-  try {
-    client = await clientPromise;
-    const db = client.db('jackson-grocery-store');
+// ── execute ─────────────────────────────────────────────────────
+const res = await col.bulkWrite(ops, { ordered: false });
+console.log(
+  `✅  Matched ${res.matchedCount}, modified ${res.modifiedCount} docs`,
+);
 
-    // Clear old products and categories
-    const deleteProductsResult = await db.collection('products').deleteMany();
-    console.log(`🗑️ Deleted ${deleteProductsResult.deletedCount} existing products.`);
-
-    const deleteCategoriesResult = await db.collection('categories').deleteMany();
-    console.log(`🗑️ Deleted ${deleteCategoriesResult.deletedCount} existing categories.`);
-
-    // Insert new products and categories
-    const insertProductsResult = await db.collection('products').insertMany(preparedProducts);
-    console.log(`🌱 Seeded ${insertProductsResult.insertedCount} products.`);
-
-    const insertCategoriesResult = await db.collection('categories').insertMany(categories);
-    console.log(`🌱 Seeded ${insertCategoriesResult.insertedCount} categories.`);
-
-    // 2. Cleanup pass: fix any products that might have legacy/incorrect category field
-    const allProducts = await db.collection('products').find({}).toArray();
-    let fixedCount = 0;
-    for (const prod of allProducts) {
-      const slugged = toSlug(prod.category);
-      if (prod.category !== slugged) {
-        await db.collection('products').updateOne(
-          { _id: prod._id },
-          { $set: { category: slugged } }
-        );
-        fixedCount++;
-        console.log(`🔧 Fixed legacy product: ${prod.title} → ${slugged}`);
-      }
-    }
-    if (fixedCount) {
-      console.log(`✅ ${fixedCount} legacy product(s) had their category slugified post-seed.`);
-    }
-
-    // Graceful close
-    await client.close();
-    console.log('✅ Seeding complete!');
-    process.exit(0);
-  } catch (err) {
-    console.error('❌ Seeding failed:', err);
-    if (client) await client.close();
-    process.exit(1);
-  }
-}
-
-seedData();
+await client.close();
+console.log("🛑  Done.");
