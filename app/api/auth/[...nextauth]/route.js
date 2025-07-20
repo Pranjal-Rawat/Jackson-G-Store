@@ -8,22 +8,28 @@ const NextAuth    = NextAuthModule.default ?? NextAuthModule;
 const Credentials = CredentialsProviderModule.default ?? CredentialsProviderModule;
 const dev         = process.env.NODE_ENV !== 'production';
 
-/* helpers ------------------------------------------------------- */
+/* ── helpers ──────────────────────────────────────────────── */
 const safeCompare = (a, b) => {
   const x = Buffer.from(a.toLowerCase());
   const y = Buffer.from(b.toLowerCase());
   return x.length === y.length && timingSafeEqual(x, y);
 };
 
-/* env pulls (may be empty at build-time) ------------------------ */
-const ADMIN_USER_ENV  = process.env.ADMIN_USERNAME  ?? '';
-const ADMIN_HASH_ENV  = process.env.ADMIN_PASSWORD_HASH ?? '';
-const NEXT_SECRET_ENV = process.env.NEXTAUTH_SECRET  ?? '';
+/* ── env pulls ─────────────────────────────────────────────── */
+const ADMIN_USER  = (process.env.ADMIN_USERNAME      ?? '').trim();
+const ADMIN_HASH  = (process.env.ADMIN_PASSWORD_HASH ?? '').trim();
+const NEXT_SECRET =  process.env.NEXTAUTH_SECRET         ?? '';
 
-/* NextAuth options --------------------------------------------- */
+/* log once on cold-start (hash length only) */
+console.log('[auth] env check →', {
+  ADMIN_USER_PRESENT : !!ADMIN_USER,
+  ADMIN_HASH_LENGTH  : ADMIN_HASH.length,
+  NEXT_SECRET_PRESENT: !!NEXT_SECRET,
+});
+
+/* ── NextAuth options ─────────────────────────────────────── */
 export const authOptions = {
-  // secret may be empty in CI, but must be present in runtime env
-  secret: NEXT_SECRET_ENV || undefined,
+  secret: NEXT_SECRET || undefined,
 
   providers: [
     Credentials({
@@ -34,42 +40,51 @@ export const authOptions = {
       },
 
       async authorize({ username = '', password = '' }) {
-        /* runtime validation of critical secrets */
-        if (!(ADMIN_USER_ENV && ADMIN_HASH_ENV && NEXT_SECRET_ENV)) {
-          console.error(
-            '[auth] Missing ADMIN_USERNAME, ADMIN_PASSWORD_HASH, or NEXTAUTH_SECRET'
-          );
+        /* runtime guard */
+        if (!(ADMIN_USER && ADMIN_HASH && NEXT_SECRET)) {
+          console.error('[auth] Missing critical env at runtime');
           throw new Error('Server mis-configuration');
         }
 
-        /* username (constant-time) */
-        if (!safeCompare(username, ADMIN_USER_ENV.trim())) {
+        /* username */
+        if (!safeCompare(username, ADMIN_USER)) {
+          console.warn('[auth] login fail → username NG', { username });
           throw new Error('Invalid credentials');
         }
 
         /* password */
-        const ok = await bcrypt.compare(password, ADMIN_HASH_ENV.trim());
-        if (!ok) throw new Error('Invalid credentials');
+        let ok = false;
+        try { ok = await bcrypt.compare(password, ADMIN_HASH); }
+        catch (e) {
+          console.error('[auth] bcrypt error', e);
+          throw new Error('Auth error');
+        }
+        if (!ok) {
+          console.warn('[auth] login fail → bcrypt NG');
+          throw new Error('Invalid credentials');
+        }
 
-        return { id: ADMIN_USER_ENV.trim(), name: 'Administrator' };
+        console.log('[auth] login OK for', ADMIN_USER);
+        return { id: ADMIN_USER, name: 'Administrator' };
       },
     }),
   ],
 
   session: {
     strategy: 'jwt',
-    maxAge:   24 * 60 * 60, // 24 h
-    updateAge:30 * 60,      // slide 30 min
+    maxAge:   24 * 60 * 60,
+    updateAge:30 * 60,
   },
 
   cookies: {
     sessionToken: {
-      name: dev ? 'next-auth.session-token' : '__Secure-next-auth.session-token',
+      name: dev ? 'next-auth.session-token'
+                : '__Secure-next-auth.session-token',
       options: {
         httpOnly: true,
         sameSite: 'lax',
-        secure: !dev,
-        path: '/',
+        secure  : !dev,
+        path    : '/',
       },
     },
   },
@@ -78,6 +93,26 @@ export const authOptions = {
   debug: false,
 };
 
-/* handlers ------------------------------------------------------ */
+/* export handlers ------------------------------------------------ */
 const handler = NextAuth(authOptions);
 export { handler as GET, handler as POST };
+
+/* ── lightweight health probe (dev/preview only) ───────────────── */
+export const dynamic = 'force-dynamic';   // Vercel edge caches otherwise
+export async function GET(req, ctx) {
+  if (!dev) return handler(req, ctx);     // prod → normal NextAuth
+
+  // /api/auth/[...nextauth]?health=1 returns env sanity
+  if (new URL(req.url).searchParams.get('health')) {
+    return new Response(
+      JSON.stringify({
+        ADMIN_USER      : !!ADMIN_USER,
+        ADMIN_HASH      : !!ADMIN_HASH,
+        NEXT_SECRET     : !!NEXT_SECRET,
+        bcryptMatches   : ADMIN_HASH && await bcrypt.compare('MyN3wP@ss!', ADMIN_HASH).catch(()=>false)
+      }),
+      { status:200, headers:{'Content-Type':'application/json'} }
+    );
+  }
+  return handler(req, ctx);
+}
