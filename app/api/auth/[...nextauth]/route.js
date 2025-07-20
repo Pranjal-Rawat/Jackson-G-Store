@@ -8,25 +8,22 @@ const NextAuth    = NextAuthModule.default ?? NextAuthModule;
 const Credentials = CredentialsProviderModule.default ?? CredentialsProviderModule;
 const dev         = process.env.NODE_ENV !== 'production';
 
-/* ── critical envs ─────────────────────────────────────────────── */
-const ADMIN_USER  = (process.env.ADMIN_USERNAME ?? '').trim();
-const ADMIN_HASH  = (process.env.ADMIN_PASSWORD_HASH ?? '').trim();
-const NEXT_SECRET = process.env.NEXTAUTH_SECRET;
-
-if (!(ADMIN_USER && ADMIN_HASH && NEXT_SECRET)) {
-  throw new Error('[auth] Missing ADMIN_USERNAME, ADMIN_PASSWORD_HASH, or NEXTAUTH_SECRET');
-}
-
-/* constant-time string compare (case-insensitive) */
+/* helpers ------------------------------------------------------- */
 const safeCompare = (a, b) => {
   const x = Buffer.from(a.toLowerCase());
   const y = Buffer.from(b.toLowerCase());
   return x.length === y.length && timingSafeEqual(x, y);
 };
 
-/* ── NextAuth options ──────────────────────────────────────────── */
+/* env pulls (may be empty at build-time) ------------------------ */
+const ADMIN_USER_ENV  = process.env.ADMIN_USERNAME  ?? '';
+const ADMIN_HASH_ENV  = process.env.ADMIN_PASSWORD_HASH ?? '';
+const NEXT_SECRET_ENV = process.env.NEXTAUTH_SECRET  ?? '';
+
+/* NextAuth options --------------------------------------------- */
 export const authOptions = {
-  secret: NEXT_SECRET,
+  // secret may be empty in CI, but must be present in runtime env
+  secret: NEXT_SECRET_ENV || undefined,
 
   providers: [
     Credentials({
@@ -35,16 +32,26 @@ export const authOptions = {
         username: { label: 'Username', type: 'text' },
         password: { label: 'Password', type: 'password' },
       },
+
       async authorize({ username = '', password = '' }) {
-        /* user check */
-        if (!safeCompare(username, ADMIN_USER)) {
+        /* runtime validation of critical secrets */
+        if (!(ADMIN_USER_ENV && ADMIN_HASH_ENV && NEXT_SECRET_ENV)) {
+          console.error(
+            '[auth] Missing ADMIN_USERNAME, ADMIN_PASSWORD_HASH, or NEXTAUTH_SECRET'
+          );
+          throw new Error('Server mis-configuration');
+        }
+
+        /* username (constant-time) */
+        if (!safeCompare(username, ADMIN_USER_ENV.trim())) {
           throw new Error('Invalid credentials');
         }
-        /* password check */
-        const ok = await bcrypt.compare(password, ADMIN_HASH);
+
+        /* password */
+        const ok = await bcrypt.compare(password, ADMIN_HASH_ENV.trim());
         if (!ok) throw new Error('Invalid credentials');
 
-        return { id: ADMIN_USER, name: 'Administrator' }; // ✅
+        return { id: ADMIN_USER_ENV.trim(), name: 'Administrator' };
       },
     }),
   ],
@@ -68,11 +75,9 @@ export const authOptions = {
   },
 
   pages: { signIn: '/admin/login' },
-
-  /* disable noisy logs unless you flip it on */
   debug: false,
 };
 
-/* ── handlers ─────────────────────────────────────────────────── */
+/* handlers ------------------------------------------------------ */
 const handler = NextAuth(authOptions);
 export { handler as GET, handler as POST };
