@@ -13,34 +13,34 @@ export default function AdminLoginPage() {
   const [error, setError]     = useState('');
   const [loading, setLoading] = useState(false);
 
-  const userRef = useRef(null);          // auto-focus
+  const userRef = useRef(null);            // auto-focus on mount
 
-  /* already authenticated → redirect */
+  /* already authenticated → go to dashboard */
   useEffect(() => {
     if (status === 'authenticated') router.replace('/admin/upload');
   }, [status, router]);
 
-  useEffect(() => {
-    userRef.current?.focus();
-  }, []);
+  useEffect(() => { userRef.current?.focus(); }, []);
 
-  /* handle sign-in */
+  /* sign-in */
   const handleSubmit = async e => {
     e.preventDefault();
     setError('');
     setLoading(true);
 
+    // absolute URL avoids prod redirect even when NEXTAUTH_URL is prod
+    const base = window.location.origin;
+
     const res = await signIn('credentials', {
-      redirect : false,
+      redirect: false,
       username : form.username.trim(),
       password : form.password,
-      callbackUrl: '/admin/upload',
+      callbackUrl: `${base}/admin/upload`,
     });
 
     setLoading(false);
 
     if (res?.error) {
-      // Map common NextAuth error to friendly text
       const friendly =
         res.error === 'CredentialsSignin'
           ? 'Invalid username or password'
