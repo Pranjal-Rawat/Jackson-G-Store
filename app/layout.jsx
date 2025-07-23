@@ -9,11 +9,12 @@ import Footer from '../components/Footer'
 import PageTransitionLoader from '../components/PageTransitionLoader'
 import FloatingCartButton from '../components/FloatingCartButton'
 import QuickLinks from '../components/QuickLinks'
+import FloatingFestivalBanner from '../components/FloatingFestivalBanner' // 🎉 New Floating Circle Banner
 
 const siteUrl  = 'https://jackson-grocery.com'
 const siteName = 'Jackson Grocery Store'
 const logo     = 'https://res.cloudinary.com/dy1uhnjnq/image/upload/v1749755125/Jackson_Logo_page-0001-removebg-preview_yqeopv.png'
-const phone    = '+91-7417229660'
+const phone    = '+91-9557520189'  // Updated Phone Number
 const address  = {
   street:     '1 Municipal Road, Dalanwala',
   city:       'Dehradun',
@@ -89,6 +90,7 @@ export default function RootLayout({ children }) {
       </head>
       <body className="antialiased bg-white text-gray-900 min-w-0">
         <Providers>
+          {/* JSON-LD for SEO */}
           <Script
             id="grocery-jsonld"
             type="application/ld+json"
@@ -123,6 +125,7 @@ export default function RootLayout({ children }) {
             }}
           />
 
+          {/* Accessibility Skip Link */}
           <a
             href="#main-content"
             className="sr-only focus:not-sr-only absolute left-2 top-2 z-50 bg-white text-blue-600 px-4 py-2 rounded shadow"
@@ -130,6 +133,7 @@ export default function RootLayout({ children }) {
             Skip to main content
           </a>
 
+          {/* Components */}
           <PageTransitionLoader />
           <Header />
 
@@ -142,6 +146,10 @@ export default function RootLayout({ children }) {
 
           <QuickLinks />
           <FloatingCartButton />
+
+          {/* Floating Festival Circle */}
+          <FloatingFestivalBanner />
+
           <Footer />
         </Providers>
       </body>

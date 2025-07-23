@@ -60,13 +60,18 @@ export default function Footer() {
               <strong>Address:</strong> 1 Municipal Road, Dalanwala, Dehradun, Uttarakhand 248001<br />
               <strong>Phone:</strong>{' '}
               <a
-                href="tel:+917417229660"
+                href="tel:+919557520189"
                 className="underline text-secondary-400 hover:text-secondary-300 ml-1"
                 aria-label="Call Jackson Grocery Store"
               >
-                +91 74172 29660
+                +91 95575 20189
               </a>
             </address>
+
+            {/* Free Home Delivery Note */}
+            <p className="text-secondary-300 font-semibold mb-2">
+              Free Home Delivery up to 5 km
+            </p>
 
             <p className="text-gray-200/90 mb-2">
               Get groceries delivered <span className="text-secondary-400 font-bold">fresh</span> to your door anywhere in Dehradun.
